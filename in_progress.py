@@ -32,7 +32,7 @@ class Article:
 
   def to_string(self):
     print "\nURL: ", self.url
-    print "Title: ", self.title # have to deal with this later
+    print "Title: ", self.title
     print "Authors: ", self.authors
     print "Date: ", self.date
     print "Quotes: ", self.quotes
@@ -63,7 +63,7 @@ def get_links(body):
       if (url != None) and (url.find("javascript:void(0)") < 0):
         url_list.append(url)
   except etree.XMLSyntaxError:
-    print "URL had incorrect tag in this body: ", body
+    print "URL had incorrect tag in text: ", body
   #print "URLS: ",url_list
   return url_list
 
@@ -80,9 +80,10 @@ def reformat(url, paper_type):
     # relative link case
     url = "http://www."+paper_type+".com"+url
   else:
-    if (url.find(paper_type) < 0) and (url.find(".com") > 0):
+    if (url.find(paper_type) < 0) and (url.find(".com") >= 0):
       # basically I want to know whether the url is not from the newspaper
-      return "Bad source"
+      print "Bad source "+url
+      return "Bad source: "+url
   #print "URL IS "+url+"\n"
   return url
 
@@ -91,7 +92,7 @@ def main():
   bad = 0 # check whether you have presets for this paper
   for key in paper_tags.keys():
     print key
-    if arg[1].find(key) > 0:
+    if arg[1].find(key) >= 0:
       info = paper_tags.get(key)
       paper_type = key
       break
@@ -109,19 +110,20 @@ def main():
   visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links)]) 
 
   depth = 0
-  original_link = link
   while (depth < 5) and (len(queue) != 0):
-    #print "VISITED: ", visited
+    print "VISITED: ", visited
     vertex = queue.popleft()
     visited.append(vertex.url)
     for link in vertex.links:
-      #print "LINK IS ", link
+      print "LINK IS ", link
       #print "QUEU LEN ", len(queue)
 
       link = reformat(link, paper_type)
-      if link == "Bad source":
+      print "this here link is "+link
+      if link.find("Bad source") >= 0:
         print "This is not a ", paper_type, " link"
-        visited.append(original_link)
+        if link not in visited:
+          visited.append(link)
       # ELSE BELOW
       if link not in visited:
         #print "URL: ", link
@@ -133,7 +135,6 @@ def main():
                             "",
                             get_links(get_body(t2, info[1])))
         queue.append(new_article)
-        #print "\nscraped ", link
         #print "adding ", new_article.links
     #print "TITLE: ", html.tostring(new_article.title)
     print "DEPTH = ", depth
