@@ -64,7 +64,6 @@ def get_links(body):
         url_list.append(url)
   except etree.XMLSyntaxError:
     print "URL had incorrect tag in text: ", body
-  #print "URLS: ",url_list
   return url_list
 
 def get_title(tree):
