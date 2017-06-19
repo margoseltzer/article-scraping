@@ -21,13 +21,14 @@ paper_tags = {'bbc' : ['N/A', '//div[@id=story-body]', 'data date-time'],
   later want to put author extraction etc in this class
 '''
 class Article:
-  def __init__(self, u, t, a, d, q=[], l=[]):
+  def __init__(self, u, t, a, d, q=[], l=[], e=[]):
     self.url = u
     self.title = t
     self.authors = a
     self.date = d
     self.quotes = q
     self.links = l
+    self.external = e
 
   def to_string(self):
     print "\nURL: ", self.url
@@ -36,6 +37,7 @@ class Article:
     print "Date: ", self.date
     print "Quotes: ", self.quotes
     print "Links: ",  self.links
+    print "External references: ", self.external
 
 def get_authors(tree, author_tag):
   return tree.xpath(author_tag)
@@ -54,38 +56,42 @@ def get_links(body):
   url_list = []
   try:
     ls = html.fromstring(body).xpath("//a")
-    print "test1"
-    print ls
     for l in ls:
       # so apparently some 'a' make l.get('href') = None. (I'm guessing it's <a class=...>)
       # also want to avoid adding javascript:void(0) links...
       url = l.get('href')
-      if (url != None) and (url.find("javascript:void(0)") == -1):
+      if (url != None) and (url.find("javascript:void(0)") < 0):
         url_list.append(url)
-    print "test2"
   except etree.XMLSyntaxError:
     print "URL had incorrect tag in this body: ", body
   #print "URLS: ",url_list
   return url_list
 
 def get_title(tree):
-  return tree.xpath('//title')[0]
+  try:
+    return tree.xpath('//title')[0]
+  except IndexError:
+    return "No title (could be a PDF)"
 
 # NEEDS TO BE MADE SPECIFIC FOR EACH PAPER. RIGHT NOW APPLIES ONLY TO CNN
 def reformat(url, paper_type):
   #print "\nREFORMATING "+url
-  if url.find("http://") == -1:
+  if url.find("http") < 0:
+    # relative link case
     url = "http://www."+paper_type+".com"+url
+  else:
+    if (url.find(paper_type) < 0) and (url.find(".com") > 0):
+      # basically I want to know whether the url is not from the newspaper
+      return "Bad source"
   #print "URL IS "+url+"\n"
   return url
 
 def main():
-  stop = False
   arg = sys.argv
   bad = 0 # check whether you have presets for this paper
   for key in paper_tags.keys():
     print key
-    if arg[1].find(key) != -1:
+    if arg[1].find(key) > 0:
       info = paper_tags.get(key)
       paper_type = key
       break
@@ -103,16 +109,20 @@ def main():
   visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links)]) 
 
   depth = 0
-  while (depth < 5) or (len(queue) != 0) or (not stop):
-    stop = True
-    print "VISITED: ", visited
+  original_link = link
+  while (depth < 5) and (len(queue) != 0):
+    #print "VISITED: ", visited
     vertex = queue.popleft()
     visited.append(vertex.url)
     for link in vertex.links:
-      print "LINK IS ", link
-      print "QUEU LEN ", len(queue)
+      #print "LINK IS ", link
+      #print "QUEU LEN ", len(queue)
 
       link = reformat(link, paper_type)
+      if link == "Bad source":
+        print "This is not a ", paper_type, " link"
+        visited.append(original_link)
+      # ELSE BELOW
       if link not in visited:
         #print "URL: ", link
         t2 = html.fromstring(requests.get(link).content)
@@ -124,7 +134,7 @@ def main():
                             get_links(get_body(t2, info[1])))
         queue.append(new_article)
         #print "\nscraped ", link
-        print "adding ", new_article.links
+        #print "adding ", new_article.links
     #print "TITLE: ", html.tostring(new_article.title)
     print "DEPTH = ", depth
     depth += 1
