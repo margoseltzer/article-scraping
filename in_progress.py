@@ -18,24 +18,11 @@ paper_tags = {'bbc' : ['N/A', '//div[@id=story-body]', 'data date-time'],
              }
 
 '''
-'''
-class Node:
-  def __init__(self, l, d, c=[]):
-    self.link = l
-    self.distance = d
-    self.children = c
-
-  def print_all(self):
-    print self.link+", "+str(self.distance)
-    for c in self.children:
-      c.print_all()
-
-'''
   later want to put author extraction etc in this class
   also want to add ways to differentiate additional media (video/picture links, refs to other papers)
 '''
 class Article:
-  def __init__(self, u, t, a, d, q=[], l=[], e=[]):
+  def __init__(self, u, t, a, d, q=[], l=[], e=[], d2=0):
     self.url = u
     self.title = t
     self.authors = a
@@ -43,6 +30,8 @@ class Article:
     self.quotes = q
     self.links = l
     self.external = e
+    self.depth = d2
+    self.neighbors = [] # to hold other articles
 
   def to_string(self):
     print "\nURL: ", self.url
@@ -52,6 +41,12 @@ class Article:
     print "Quotes: ", self.quotes
     print "Links: ",  self.links
     print "External references: ", self.external
+    print "Depth: ", self.depth
+
+  def print_connections(self):
+    print self.url+": "+str(self.depth)
+    for i in self.neighbors:
+      i.print_connections()
 
 def get_authors(tree, author_tag):
   return tree.xpath(author_tag)
@@ -71,8 +66,8 @@ def get_links(body):
   try:
     ls = html.fromstring(body).xpath("//a")
     for l in ls:
-      # so apparently some 'a' make l.get('href') = None. (I'm guessing it's <a class=...>)
-      # also want to avoid adding javascript:void(0) links...
+      # some 'a' make l.get('href') = None. (I'm guessing it's <a class=...>)
+      # also want to avoid adding javascript:void(0) links
       url = l.get('href')
       if (url != None) and (url.find("javascript:void(0)") < 0):
         url_list.append(url)
@@ -120,17 +115,17 @@ def main():
   date = get_date(t, info[2])
   title = t.find_class('title') # (will find html page title, not exactly article title)
 
-  visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links)]) 
-  root = Node(arg[1], 0)
+  visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links, 0)]) 
 
   depth = 0
+  depthls = []
 
-  while (depth < 5) and (len(queue) != 0):
+  while (depth < 3) and (len(queue) != 0):
     print "VISITED: ", visited
     vertex = queue.popleft()
+    print "!!!! APPENDING!! "+vertex.url
     visited.append(vertex.url)
-
-    node_neighbors = []
+    depthls.append(depth)
 
     for link in vertex.links:
       print "LINK IS ", link
@@ -142,27 +137,41 @@ def main():
         print "This is not a ", paper_type, " link"
         if link not in visited:
           visited.append(link)
+          depthls.append(depth+1)
       # ELSE BELOW
       if link not in visited:
-        #print "URL: ", link
-        t2 = html.fromstring(requests.get(link).content)
-        new_article = Article(link, 
-                            get_title(t2), 
-                            get_authors(t2, info[0]), 
-                            get_date(t2, info[2]),
-                            "",
-                            get_links(get_body(t2, info[1])))
-        queue.append(new_article)
-        #print "adding ", new_article.links
+        # check whether this is already queued
+        in_queue = False
+        for q in queue:
+          if q.url == link:
+            in_queue = True
+        
+        if not in_queue:
+          t2 = html.fromstring(requests.get(link).content)
+          new_article = Article(link, 
+                              get_title(t2), 
+                              get_authors(t2, info[0]), 
+                              get_date(t2, info[2]),
+                              "",
+                              get_links(get_body(t2, info[1])),
+                              depth + 1)
+          print "adding ", new_article.url
+          queue.append(new_article)
 
-        node_neighbors.append(Node(link, depth))
-    new_node = Node(vertex.url, depth, node_neighbors)
+    #new_node = Node(vertex.url, depth, node_neighbors)
     #print "TITLE: ", html.tostring(new_article.title)
     print "DEPTH = ", depth
+    for q in queue:
+      print q.url
     depth += 1
   
   print "\nVISITED:"
-  for i in visited:
+  for i in range(len(visited)):
+    print visited[i]+": "+str(depthls[i])
+
+  # check what was in the root's neighbors:
+  print "\nOriginal neighbors:"
+  for i in links:
     print i
 main()
 
