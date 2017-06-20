@@ -18,7 +18,21 @@ paper_tags = {'bbc' : ['N/A', '//div[@id=story-body]', 'data date-time'],
              }
 
 '''
+'''
+class Node:
+  def __init__(self, l, d, c=[]):
+    self.link = l
+    self.distance = d
+    self.children = c
+
+  def print_all(self):
+    print self.link+", "+str(self.distance)
+    for c in self.children:
+      c.print_all()
+
+'''
   later want to put author extraction etc in this class
+  also want to add ways to differentiate additional media (video/picture links, refs to other papers)
 '''
 class Article:
   def __init__(self, u, t, a, d, q=[], l=[], e=[]):
@@ -107,12 +121,17 @@ def main():
   title = t.find_class('title') # (will find html page title, not exactly article title)
 
   visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links)]) 
+  root = Node(arg[1], 0)
 
   depth = 0
+
   while (depth < 5) and (len(queue) != 0):
     print "VISITED: ", visited
     vertex = queue.popleft()
     visited.append(vertex.url)
+
+    node_neighbors = []
+
     for link in vertex.links:
       print "LINK IS ", link
       #print "QUEU LEN ", len(queue)
@@ -135,10 +154,15 @@ def main():
                             get_links(get_body(t2, info[1])))
         queue.append(new_article)
         #print "adding ", new_article.links
+
+        node_neighbors.append(Node(link, depth))
+    new_node = Node(vertex.url, depth, node_neighbors)
     #print "TITLE: ", html.tostring(new_article.title)
     print "DEPTH = ", depth
     depth += 1
   
-  print visited
+  print "\nVISITED:"
+  for i in visited:
+    print i
 main()
 
