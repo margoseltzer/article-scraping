@@ -14,7 +14,7 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 paper_tags = {'bbc' : ['N/A', '//div[@id=story-body]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
-              'nyt' : ['//span[@class="byline-author"]/text()', '//article[@id="story"]', 'dateline']
+              'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline']
              }
 
 '''
@@ -69,7 +69,7 @@ def get_links(body):
       # some 'a' make l.get('href') = None. (I'm guessing it's <a class=...>)
       # also want to avoid adding javascript:void(0) links
       url = l.get('href')
-      if (url != None) and (url.find("javascript:void(0)") < 0):
+      if (url != None) and (url.find("javascript:") < 0):
         url_list.append(url)
   except etree.XMLSyntaxError:
     print "URL had incorrect tag in text: ", body
@@ -142,6 +142,7 @@ def main():
         if link not in visited:
           visited.append(link)
           depthls.append(depth)
+          #vertex.external.append(link)
       # ELSE BELOW
       if link not in visited:
         # check whether this is already queued
