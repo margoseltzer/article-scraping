@@ -115,17 +115,21 @@ def main():
   date = get_date(t, info[2])
   title = t.find_class('title') # (will find html page title, not exactly article title)
 
-  visited, queue = [], collections.deque([Article(arg[1], title, authors, date, "", links, 0)]) 
+  root = Article(arg[1], title, authors, date, "", links, 0)
+  visited, queue = [arg[1]], collections.deque([root]) 
 
   depth = 0
-  depthls = []
+  depthls = [0]
 
   while (depth < 3) and (len(queue) != 0):
+    depth += 1
     print "VISITED: ", visited
     vertex = queue.popleft()
+    print "QUEUE:"
+    for q in queue:
+      print q.url
     print "!!!! APPENDING!! "+vertex.url
-    visited.append(vertex.url)
-    depthls.append(depth)
+    #depthls.append(depth)
 
     for link in vertex.links:
       print "LINK IS ", link
@@ -134,10 +138,10 @@ def main():
       link = reformat(link, paper_type)
       print "this here link is "+link
       if link.find("Bad source") >= 0:
-        print "This is not a ", paper_type, " link"
+        #print "This is not a ", paper_type, " link"
         if link not in visited:
           visited.append(link)
-          depthls.append(depth+1)
+          depthls.append(depth)
       # ELSE BELOW
       if link not in visited:
         # check whether this is already queued
@@ -154,8 +158,10 @@ def main():
                               get_date(t2, info[2]),
                               "",
                               get_links(get_body(t2, info[1])),
-                              depth + 1)
-          print "adding ", new_article.url
+                              depth)
+          visited.append(link)
+          depthls.append(depth)
+          print "adding to queue: ", new_article.url
           queue.append(new_article)
 
     #new_node = Node(vertex.url, depth, node_neighbors)
@@ -163,7 +169,6 @@ def main():
     print "DEPTH = ", depth
     for q in queue:
       print q.url
-    depth += 1
   
   print "\nVISITED:"
   for i in range(len(visited)):
