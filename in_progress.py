@@ -11,7 +11,7 @@ from lxml import html, etree
 RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
 
 '''
-paper_tags = {'bbc' : ['N/A', '//div[@id=story-body]', 'data date-time'],
+paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline']
@@ -123,17 +123,17 @@ def main():
 
   while (depth < 3) and (len(queue) != 0):
     depth += 1
-    print "VISITED: ", visited
+    #print "VISITED: ", visited
     vertex = queue.popleft()
-    print "QUEUE:"
-    for q in queue:
-      print q.url
+    #print "QUEUE:"
+    #for q in queue:
+    #  print q.url
+    print "DEPTH = ", depth
     print "!!!! APPENDING!! "+vertex.url
     #depthls.append(depth)
-
+    print len(vertex.links)
     for link in vertex.links:
-      print "LINK IS ", link
-      #print "QUEU LEN ", len(queue)
+      #print "LINK IS ", link
 
       link = reformat(link, paper_type)
       print "this here link is "+link
@@ -167,7 +167,7 @@ def main():
 
     #new_node = Node(vertex.url, depth, node_neighbors)
     #print "TITLE: ", html.tostring(new_article.title)
-    print "DEPTH = ", depth
+    print "QUEUE:"
     for q in queue:
       print q.url
   
@@ -176,8 +176,8 @@ def main():
     print visited[i]+": "+str(depthls[i])
 
   # check what was in the root's neighbors:
-  print "\nOriginal neighbors:"
-  for i in links:
-    print i
+  #print "\nOriginal neighbors:"
+  #for i in links:
+  #  print i
 main()
 
