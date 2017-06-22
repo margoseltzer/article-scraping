@@ -116,27 +116,20 @@ def main():
   title = t.find_class('title') # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, "", links, 0)
-  visited, queue = [arg[1]], collections.deque([root]) 
+  visited, queue = [arg[1]], collections.deque([root, None]) 
 
   depth = 0
   depthls = [0]
 
+  run = 0
   while (depth < 3) and (len(queue) != 0):
-    depth += 1
     #print "VISITED: ", visited
     vertex = queue.popleft()
-    #print "QUEUE:"
-    #for q in queue:
-    #  print q.url
     print "DEPTH = ", depth
-    print "!!!! APPENDING!! "+vertex.url
-    #depthls.append(depth)
-    print len(vertex.links)
+    #print "!!!! APPENDING!! "+vertex.url
     for link in vertex.links:
-      #print "LINK IS ", link
-
       link = reformat(link, paper_type)
-      print "this here link is "+link
+      #print "this here link is "+link
       if link.find("Bad source") >= 0:
         #print "This is not a ", paper_type, " link"
         if link not in visited:
@@ -148,36 +141,52 @@ def main():
         # check whether this is already queued
         in_queue = False
         for q in queue:
-          if q.url == link:
+          if (q != None) and (q.url == link):
             in_queue = True
         
         if not in_queue:
-          t2 = html.fromstring(requests.get(link).content)
-          new_article = Article(link, 
-                              get_title(t2), 
-                              get_authors(t2, info[0]), 
-                              get_date(t2, info[2]),
-                              "",
-                              get_links(get_body(t2, info[1])),
-                              depth)
+          print "getting "+link
+          try:
+            t2 = html.fromstring(requests.get(link).content)
+            new_article = Article(link, 
+                                get_title(t2), 
+                                get_authors(t2, info[0]), 
+                                get_date(t2, info[2]),
+                                "",
+                                get_links(get_body(t2, info[1])),
+                                depth)
+          except: #requests.exceptions.SSLError
+            new_article = Article(link, None, None, None, "", None, depth)
           visited.append(link)
           depthls.append(depth)
           print "adding to queue: ", new_article.url
           queue.append(new_article)
 
+    # this is when the next depth is reached
+    #print "QUEUE ZERO IS ", queue[0]
+    if (queue[0] == None):
+      queue.popleft()
+      queue.append(None)
+      print "hey "+str(run)
+      depth += 1
+
     #new_node = Node(vertex.url, depth, node_neighbors)
     #print "TITLE: ", html.tostring(new_article.title)
-    print "QUEUE:"
-    for q in queue:
-      print q.url
+    #print "QUEUE:"
+    #for q in queue:
+    #  if q != None:
+    #    print q.url
+    #  else:
+    #    print "None"
   
+    run += 1
   print "\nVISITED:"
   for i in range(len(visited)):
     print visited[i]+": "+str(depthls[i])
 
   # check what was in the root's neighbors:
-  #print "\nOriginal neighbors:"
-  #for i in links:
-  #  print i
+  print "\nOriginal neighbors:"
+  for i in links:
+    print i
 main()
 
