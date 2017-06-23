@@ -88,30 +88,40 @@ def get_title(tree):
   except IndexError:
     return "No title (sometimes occurs in PDFs)"
 
+def paper(link):
+  bad = 0
+  for key in paper_tags.keys():
+    if link.find(key) >= 0:
+      info = paper_tags.get(key)
+      return key
+    else:
+      bad += 1
+  if bad == len(paper_tags):
+    return None
+
 def reformat(url, paper_type):
+  new_type = paper_type
   if url.find("http") < 0:
     # relative link case
     url = "http://www."+paper_type+".com"+url
   else:
-    if (url.find(paper_type) < 0) and (url.find(".com") >= 0):
-      # basically I want to know whether the url is not from the newspaper
-      return "Bad source: "+url
-  return url
+    if (url.find(paper_type) < 0):
+      # identify if it is a paper program can handle
+      link_type = paper(url)
+      if not link_type:
+        new_type = link_type
+      else:
+        new_type = None
+  return [url, new_type]
 
 def main():
   arg = sys.argv
-  bad = 0 # check whether you have presets for this paper
-  for key in paper_tags.keys():
-    print key
-    if arg[1].find(key) >= 0:
-      info = paper_tags.get(key)
-      paper_type = key
-      break
-    else:
-      bad += 1
-  if bad == len(paper_tags):
+  paper_type = paper(arg[1])
+  if not paper_type:
     print "Unable to handle this paper"
     return
+  info = paper_tags.get(paper_type)
+
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
   links = get_links(get_body(t, info[1]))
@@ -120,7 +130,6 @@ def main():
 
   root = Article(arg[1], title, authors, date, "", links, 0)
   visited, queue = [arg[1]], collections.deque([root, None]) 
-  print root.to_string()
 
   depth = 1 # started it at 1 since root depth = 0
   depthls = [0]
@@ -129,14 +138,17 @@ def main():
   while (depth < 5) and (len(queue) != 0):
     #print "VISITED: ", visited
     vertex = queue.popleft()
+    print vertex.to_string()
     print "DEPTH = ", depth
-    #print "!!!! APPENDING!! "+vertex.url
+    print "!!!! APPENDING!! "+vertex.url
     for link in vertex.links:
       ext_refs = []
       original_link = link
-      link = reformat(link, paper_type)
-      #print "link is "+link
-      if link.find("Bad source") >= 0:
+      formatted = reformat(link, paper_type)
+      link = formatted[0]
+      new_tag = formatted[1]
+      print "formatted is ",formatted
+      if not new_tag:
         #print "This is not a ", paper_type, " link"
         ext_refs.append(original_link)
         if link not in visited:
@@ -172,17 +184,19 @@ def main():
     # this is when the next depth is reached
     if (queue[0] == None):
       queue.popleft()
-      queue.append(None)
-      print "hey "+str(run)
+      # only stop if queue is empty
+      if len(queue) != 0:
+        queue.append(None)
+        print "hey "+str(run)
       depth += 1
 
     #print "TITLE: ", html.tostring(new_article.title)
-    print "QUEUE:"
-    for q in queue:
-      if q != None:
-        print q.url
-      else:
-        print "None"
+    #print "QUEUE:"
+    #for q in queue:
+    #  if q != None:
+    #    print q.url
+    #  else:
+    #    print "None"
   
     run += 1
   print "\nVISITED:"
