@@ -5,7 +5,7 @@ import collections
 from lxml import html, etree
 
 # CNN one might not always work depending on if author has url or not
-# paper : [author_tag, body_tag]
+# paper : [author tag, body tag, date class]
 '''
 
 RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
@@ -22,7 +22,13 @@ paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
 '''
   later want to put author extraction etc in this class
   also want to add ways to differentiate additional media (video/picture links, refs to other papers)
+I shouldn't need this but here it is just in case:
+class Citation:
+  def __init__(self, u, t):
+    self.url = u
+    self.text = t
 '''
+
 class Article:
   def __init__(self, u, t, a, d, q=[], l=[], e=[], d2=0):
     self.url = u
@@ -33,7 +39,7 @@ class Article:
     self.links = l
     self.external = e
     self.depth = d2
-    self.neighbors = [] # to hold other articles
+    self.cite_text = [] # to hold other articles
 
   def to_string(self):
     print "\nURL: ", self.url
@@ -44,11 +50,6 @@ class Article:
     print "Links: ",  self.links
     print "External references: ", self.external
     print "Depth: ", self.depth
-
-  def print_connections(self):
-    print self.url+": "+str(self.depth)
-    for i in self.neighbors:
-      i.print_connections()
 
 def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
@@ -78,6 +79,7 @@ def get_links(body):
       url = l.get('href')
       if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
+        print l.text
   except etree.XMLSyntaxError:
     return []
   return url_list
@@ -108,7 +110,6 @@ def reformat(url, paper_type):
     if (url.find(paper_type) < 0):
       # identify if it is a paper program can handle
       link_type = paper(url)
-      print "ltype is ", link_type
       if not link_type:
         new_type = None
       else:
@@ -149,9 +150,8 @@ def main():
       link = formatted[0]
       new_tag = formatted[1]
       new_info = paper_tags.get(new_tag)
-      print "formatted is ",formatted
+      #print "formatted is ",formatted
       if not new_tag:
-        #print "This is not a ", paper_type, " link"
         ext_refs.append(original_link)
         if link not in visited:
           visited.append(original_link)
@@ -167,6 +167,9 @@ def main():
           if not in_queue:
             #print "getting "+link
             try:
+              #citations = get_links(get_body(t2, new_info[1]))
+              #for c in citations:
+              #  # get the text inside, I guess
               t2 = html.fromstring(requests.get(link).content)
               new_article = Article(link, 
                                   get_title(t2), 
