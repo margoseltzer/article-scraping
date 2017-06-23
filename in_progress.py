@@ -20,8 +20,6 @@ paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
              }
 
 '''
-/html/body/div[2]/section/section/div[1]/div/div[2]/span/a
-//span[@class="c-byline__item"]/a/text()
   later want to put author extraction etc in this class
   also want to add ways to differentiate additional media (video/picture links, refs to other papers)
 '''
@@ -81,7 +79,7 @@ def get_links(body):
       if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
   except etree.XMLSyntaxError:
-    print "URL had incorrect tag in text: ", body
+    return []
   return url_list
 
 def get_title(tree):
@@ -97,7 +95,6 @@ def reformat(url, paper_type):
   else:
     if (url.find(paper_type) < 0) and (url.find(".com") >= 0):
       # basically I want to know whether the url is not from the newspaper
-      print "Bad source "+url
       return "Bad source: "+url
   return url
 
@@ -129,43 +126,48 @@ def main():
   depthls = [0]
 
   run = 0
-  while (depth < 3) and (len(queue) != 0):
+  while (depth < 5) and (len(queue) != 0):
     #print "VISITED: ", visited
     vertex = queue.popleft()
     print "DEPTH = ", depth
     #print "!!!! APPENDING!! "+vertex.url
     for link in vertex.links:
+      ext_refs = []
+      original_link = link
       link = reformat(link, paper_type)
       #print "link is "+link
       if link.find("Bad source") >= 0:
         #print "This is not a ", paper_type, " link"
+        ext_refs.append(original_link)
         if link not in visited:
-          visited.append(link)
+          visited.append(original_link)
           depthls.append(depth)
-      if link not in visited:
-        # check whether this is already queued
-        in_queue = False
-        for q in queue:
-          if (q != None) and (q.url == link):
-            in_queue = True
-        
-        if not in_queue:
-          #print "getting "+link
-          try:
-            t2 = html.fromstring(requests.get(link).content)
-            new_article = Article(link, 
-                                get_title(t2), 
-                                get_authors(t2, info[0], paper_type), 
-                                get_date(t2, info[2]),
-                                "",
-                                get_links(get_body(t2, info[1])),
-                                depth)
-          except: #requests.exceptions.SSLError
-            new_article = Article(link, None, None, None, "", None, depth)
-          visited.append(link)
-          depthls.append(depth)
-          #print "adding to queue: ", new_article.url
-          queue.append(new_article)
+      else:
+        if link not in visited:
+          # check whether this is already queued
+          in_queue = False
+          for q in queue:
+            if (q != None) and (q.url == link):
+              in_queue = True
+          
+          if not in_queue:
+            #print "getting "+link
+            try:
+              t2 = html.fromstring(requests.get(link).content)
+              new_article = Article(link, 
+                                  get_title(t2), 
+                                  get_authors(t2, info[0], paper_type), 
+                                  get_date(t2, info[2]),
+                                  "",
+                                  get_links(get_body(t2, info[1])),
+                                  ext_refs,
+                                  depth)
+            except: #requests.exceptions.SSLError
+              new_article = Article(link, None, None, None, "", None, depth)
+            visited.append(link)
+            depthls.append(depth)
+            #print "adding to queue: ", new_article.url
+            queue.append(new_article)
 
     # this is when the next depth is reached
     if (queue[0] == None):
