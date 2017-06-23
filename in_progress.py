@@ -108,10 +108,11 @@ def reformat(url, paper_type):
     if (url.find(paper_type) < 0):
       # identify if it is a paper program can handle
       link_type = paper(url)
+      print "ltype is ", link_type
       if not link_type:
-        new_type = link_type
-      else:
         new_type = None
+      else:
+        new_type = link_type
   return [url, new_type]
 
 def main():
@@ -138,7 +139,7 @@ def main():
   while (depth < 5) and (len(queue) != 0):
     #print "VISITED: ", visited
     vertex = queue.popleft()
-    print vertex.to_string()
+    #print vertex.to_string()
     print "DEPTH = ", depth
     print "!!!! APPENDING!! "+vertex.url
     for link in vertex.links:
@@ -147,6 +148,7 @@ def main():
       formatted = reformat(link, paper_type)
       link = formatted[0]
       new_tag = formatted[1]
+      new_info = paper_tags.get(new_tag)
       print "formatted is ",formatted
       if not new_tag:
         #print "This is not a ", paper_type, " link"
@@ -168,10 +170,10 @@ def main():
               t2 = html.fromstring(requests.get(link).content)
               new_article = Article(link, 
                                   get_title(t2), 
-                                  get_authors(t2, info[0], paper_type), 
-                                  get_date(t2, info[2]),
+                                  get_authors(t2, new_info[0], new_tag), 
+                                  get_date(t2, new_info[2]),
                                   "",
-                                  get_links(get_body(t2, info[1])),
+                                  get_links(get_body(t2, new_info[1])),
                                   ext_refs,
                                   depth)
             except: #requests.exceptions.SSLError
@@ -191,12 +193,12 @@ def main():
       depth += 1
 
     #print "TITLE: ", html.tostring(new_article.title)
-    #print "QUEUE:"
-    #for q in queue:
-    #  if q != None:
-    #    print q.url
-    #  else:
-    #    print "None"
+    print "QUEUE:"
+    for q in queue:
+      if q != None:
+        print q.url
+      else:
+        print "None"
   
     run += 1
   print "\nVISITED:"
