@@ -14,10 +14,13 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
-              'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline']
+              'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
+              'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate']
              }
 
 '''
+/html/body/div[2]/section/section/div[1]/div/div[2]/span/a
+//span[@class="c-byline__item"]/a/text()
   later want to put author extraction etc in this class
   also want to add ways to differentiate additional media (video/picture links, refs to other papers)
 '''
@@ -48,11 +51,16 @@ class Article:
     for i in self.neighbors:
       i.print_connections()
 
-def get_authors(tree, author_tag):
+def get_authors(tree, author_tag, paper_type):
+  if author_tag == 'N/A':
+    return paper_type
   return tree.xpath(author_tag)
 
 def get_date(tree, time_tag):
-  return tree.find_class(time_tag)
+  try:
+    return html.tostring(tree.find_class(time_tag)[0])
+  except:
+    return "Error: Could not get date"
 
 def get_body(tree, body_tag):
   body_parts = tree.xpath(body_tag)
@@ -79,11 +87,9 @@ def get_title(tree):
   try:
     return tree.xpath('//title')[0]
   except IndexError:
-    return "No title (could be a PDF)"
+    return "No title (sometimes occurs in PDFs)"
 
-# NEEDS TO BE MADE SPECIFIC FOR EACH PAPER. RIGHT NOW APPLIES ONLY TO CNN
 def reformat(url, paper_type):
-  #print "\nREFORMATING "+url
   if url.find("http") < 0:
     # relative link case
     url = "http://www."+paper_type+".com"+url
@@ -92,7 +98,6 @@ def reformat(url, paper_type):
       # basically I want to know whether the url is not from the newspaper
       print "Bad source "+url
       return "Bad source: "+url
-  #print "URL IS "+url+"\n"
   return url
 
 def main():
@@ -110,7 +115,7 @@ def main():
     print "Unable to handle this paper"
     return
   t = html.fromstring(requests.get(arg[1]).content)
-  authors = get_authors(t, info[0])
+  authors = get_authors(t, info[0], paper_type)
   links = get_links(get_body(t, info[1]))
   date = get_date(t, info[2])
   title = t.find_class('title') # (will find html page title, not exactly article title)
@@ -118,7 +123,7 @@ def main():
   root = Article(arg[1], title, authors, date, "", links, 0)
   visited, queue = [arg[1]], collections.deque([root, None]) 
 
-  depth = 0
+  depth = 1 # started it at 1 since root depth = 0
   depthls = [0]
 
   run = 0
@@ -129,14 +134,12 @@ def main():
     #print "!!!! APPENDING!! "+vertex.url
     for link in vertex.links:
       link = reformat(link, paper_type)
-      #print "this here link is "+link
+      #print "link is "+link
       if link.find("Bad source") >= 0:
         #print "This is not a ", paper_type, " link"
         if link not in visited:
           visited.append(link)
           depthls.append(depth)
-          #vertex.external.append(link)
-      # ELSE BELOW
       if link not in visited:
         # check whether this is already queued
         in_queue = False
@@ -150,7 +153,7 @@ def main():
             t2 = html.fromstring(requests.get(link).content)
             new_article = Article(link, 
                                 get_title(t2), 
-                                get_authors(t2, info[0]), 
+                                get_authors(t2, info[0], paper_type), 
                                 get_date(t2, info[2]),
                                 "",
                                 get_links(get_body(t2, info[1])),
@@ -163,14 +166,12 @@ def main():
           queue.append(new_article)
 
     # this is when the next depth is reached
-    #print "QUEUE ZERO IS ", queue[0]
     if (queue[0] == None):
       queue.popleft()
       queue.append(None)
       print "hey "+str(run)
       depth += 1
 
-    #new_node = Node(vertex.url, depth, node_neighbors)
     #print "TITLE: ", html.tostring(new_article.title)
     #print "QUEUE:"
     #for q in queue:
@@ -185,8 +186,8 @@ def main():
     print visited[i]+": "+str(depthls[i])
 
   # check what was in the root's neighbors:
-  print "\nOriginal neighbors:"
-  for i in links:
-    print i
+  #print "\nOriginal neighbors:"
+  #for i in links:
+  #  print i
 main()
 
