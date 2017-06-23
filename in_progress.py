@@ -15,7 +15,8 @@ paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
-              'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate']
+              'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
+              'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published']
              }
 
 '''
@@ -77,7 +78,7 @@ def get_links(body):
       # some 'a' make l.get('href') = None. (I'm guessing it's <a class=...>)
       # also want to avoid adding javascript:void(0) links
       url = l.get('href')
-      if (url != None) and (url.find("javascript:") < 0):
+      if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
   except etree.XMLSyntaxError:
     print "URL had incorrect tag in text: ", body
@@ -122,6 +123,7 @@ def main():
 
   root = Article(arg[1], title, authors, date, "", links, 0)
   visited, queue = [arg[1]], collections.deque([root, None]) 
+  print root.to_string()
 
   depth = 1 # started it at 1 since root depth = 0
   depthls = [0]
@@ -148,7 +150,7 @@ def main():
             in_queue = True
         
         if not in_queue:
-          print "getting "+link
+          #print "getting "+link
           try:
             t2 = html.fromstring(requests.get(link).content)
             new_article = Article(link, 
@@ -162,7 +164,7 @@ def main():
             new_article = Article(link, None, None, None, "", None, depth)
           visited.append(link)
           depthls.append(depth)
-          print "adding to queue: ", new_article.url
+          #print "adding to queue: ", new_article.url
           queue.append(new_article)
 
     # this is when the next depth is reached
@@ -173,12 +175,12 @@ def main():
       depth += 1
 
     #print "TITLE: ", html.tostring(new_article.title)
-    #print "QUEUE:"
-    #for q in queue:
-    #  if q != None:
-    #    print q.url
-    #  else:
-    #    print "None"
+    print "QUEUE:"
+    for q in queue:
+      if q != None:
+        print q.url
+      else:
+        print "None"
   
     run += 1
   print "\nVISITED:"
