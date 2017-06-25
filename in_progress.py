@@ -11,7 +11,7 @@ from lxml import html, etree
 RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
 
 '''
-paper_tags = {'bbc' : ['N/A', '//div[@class=story-body]', 'data date-time'],
+paper_tags = {'bbc' : ['N/A', '//div[@class="story-body"]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
