@@ -2,6 +2,7 @@ import sys
 import feedparser
 import requests
 import collections
+import re
 from lxml import html, etree
 
 # CNN one might not always work depending on if author has url or not
@@ -70,6 +71,9 @@ def get_body(tree, body_tag):
   for b in body_parts:
     body = body + html.tostring(b)
   return body
+
+def quotes(tree, body_tag):
+  return re.findall(r'"([^"]*)"', html.fromstring(get_body(tree, body_tag)).text_content())
 
 def get_links(body):
   url_list = []
