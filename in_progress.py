@@ -15,6 +15,8 @@ paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-ti
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
+              'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
+              'chicagotribune' : ['//span[@itemprop="author"]/text()', '//div[@itemprop="articleBody"]', 'trb_ar_dateline_time'],
               'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
               'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published']
              }
@@ -39,7 +41,7 @@ class Article:
     self.links = l
     self.external = e
     self.depth = d2
-    self.cite_text = [] # to hold other articles
+    self.cite_text = []
 
   def to_string(self):
     print "\nURL: ", self.url
@@ -71,6 +73,7 @@ def get_body(tree, body_tag):
 
 def get_links(body):
   url_list = []
+  citations_list = []
   try:
     ls = html.fromstring(body).xpath("//a")
     for l in ls:
@@ -79,10 +82,11 @@ def get_links(body):
       url = l.get('href')
       if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
-        print l.text
+        #print l.text
+        citations_list.append(l.text)
   except etree.XMLSyntaxError:
-    return []
-  return url_list
+    return [], []
+  return url_list, citations_list
 
 def get_title(tree):
   try:
@@ -127,11 +131,14 @@ def main():
 
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
-  links = get_links(get_body(t, info[1]))
+  cites = get_links(get_body(t, info[1]))
+  links = cites[0]
   date = get_date(t, info[2])
   title = t.find_class('title') # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, "", links, 0)
+  root.cite_text = cites[1]
+
   visited, queue = [arg[1]], collections.deque([root, None]) 
 
   depth = 1 # started it at 1 since root depth = 0
@@ -172,14 +179,16 @@ def main():
               #for c in citations:
               #  # get the text inside, I guess
               t2 = html.fromstring(requests.get(link).content)
+              c2 = get_links(get_body(t2, new_info[1]))
               new_article = Article(link, 
                                   get_title(t2), 
                                   get_authors(t2, new_info[0], new_tag), 
                                   get_date(t2, new_info[2]),
                                   "",
-                                  get_links(get_body(t2, new_info[1])),
+                                  c2[0],
                                   ext_refs,
                                   depth)
+              new_article.cite_text = c2[1]
             except: #requests.exceptions.SSLError
               new_article = Article(link, None, None, None, "", None, depth)
             visited.append(link)
@@ -209,6 +218,7 @@ def main():
   for i in range(len(visited)):
     print visited[i]+": "+str(depthls[i])
 
+  print root.cite_text
   # check what was in the root's neighbors:
   #print "\nOriginal neighbors:"
   #for i in links:
