@@ -73,7 +73,19 @@ def get_body(tree, body_tag):
   return body
 
 def quotes(tree, body_tag):
-  return re.findall(r'"([^"]*)"', html.fromstring(get_body(tree, body_tag)).text_content())
+  text = html.fromstring(get_body(tree, body_tag)).text_content()
+  found = ""
+  quotes_index = []
+  quotes = []
+  for c in text:
+    if len(found) != 0:
+      found = found + c
+      if c == '"':
+        quotes.append(found)
+        found = ""
+    else:
+      if c == '"':
+        found = found + c
 
 def get_links(body):
   url_list = []
@@ -86,7 +98,6 @@ def get_links(body):
       url = l.get('href')
       if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
-        #print l.text
         citations_list.append(l.text)
   except etree.XMLSyntaxError:
     return [], []
