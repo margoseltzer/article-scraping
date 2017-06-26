@@ -11,7 +11,7 @@ from lxml import html, etree
 RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
 
 '''
-paper_tags = {'bbc' : ['N/A', '//div[@class="story-body"]', 'data date-time'],
+paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
@@ -88,7 +88,7 @@ def get_title(tree):
   try:
     return tree.xpath('//title')[0]
   except IndexError:
-    return "No title (sometimes occurs in PDFs)"
+    return "No title found (sometimes occurs in PDFs)"
 
 def paper(link):
   bad = 0
@@ -103,8 +103,9 @@ def paper(link):
 
 def reformat(url, paper_type):
   new_type = paper_type
-  if url.find("http") < 0:
+  if not url.startswith("http"):
     # relative link case
+    #print "GOT HERE, link is ", url
     url = "http://www."+paper_type+".com"+url
   else:
     if (url.find(paper_type) < 0):
@@ -142,7 +143,7 @@ def main():
     vertex = queue.popleft()
     #print vertex.to_string()
     print "DEPTH = ", depth
-    print "!!!! APPENDING!! "+vertex.url
+    print "APPENDING "+vertex.url
     for link in vertex.links:
       ext_refs = []
       original_link = link
@@ -192,16 +193,16 @@ def main():
       # only stop if queue is empty
       if len(queue) != 0:
         queue.append(None)
-        print "hey "+str(run)
+        #print "hey "+str(run)
       depth += 1
 
     #print "TITLE: ", html.tostring(new_article.title)
-    print "QUEUE:"
-    for q in queue:
-      if q != None:
-        print q.url
-      else:
-        print "None"
+    #print "QUEUE:"
+    #for q in queue:
+    #  if q != None:
+    #    print q.url
+    #  else:
+    #    print "None"
   
     run += 1
   print "\nVISITED:"
