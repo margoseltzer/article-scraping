@@ -148,6 +148,10 @@ def match(quotes_index, citations_index):
   citations_index.append(sys.maxint)
   c_curr = 0
   matches = []
+  # catch the beginning in case of no quotes but links
+  while citations_index[c_curr] < quotes_index[0]:
+    matches.append((citations_index[c_curr], []))
+    c_curr += 1
   for i in range(len(quotes_index)):
     if citations_index[c_curr-1] <= quotes_index[i] and quotes_index[i] < citations_index[c_curr]:
       matches[-1][1].append(quotes_index[i])
@@ -253,7 +257,7 @@ def main():
   for i in range(len(visited)):
     print visited[i]+": "+str(depthls[i])
 
-  print root.cite_text
+  #print root.cite_text
   
   #look for root's quotes/citations
   # getting weird "" as citations, seems to be from images so I will remove those now
@@ -267,7 +271,6 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
-  print text
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   matched = match(indices, citations_index)
