@@ -13,7 +13,7 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 
 '''
 paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-time'],
-              'cnn' : ['//span[@class="metadata__byline__author"]/text()', '//section[@id="body-text"]', 'update-time'],
+              'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
               'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
@@ -57,7 +57,10 @@ class Article:
 def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
     return paper_type
-  return tree.xpath(author_tag)
+  authors = []
+  for tag in author_tag.split("AND"):
+    authors.extend(tree.xpath(tag))
+  return authors
 
 def get_date(tree, time_tag):
   try:
@@ -74,6 +77,8 @@ def get_body(tree, body_tag):
 
 def get_quotes(tree, body_tag):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
+  rx = r'\{[^}]+\}\\?'
+  text = re.sub(rx, '', text)
   found = ""
   quotes_index = []
   quotes = []
@@ -175,7 +180,7 @@ def main():
   depthls = [0]
 
   run = 0
-  while (depth < 5) and (len(queue) != 0):
+  while (depth < 0) and (len(queue) != 0):
     #print "VISITED: ", visited
     vertex = queue.popleft()
     #print vertex.to_string()
@@ -262,6 +267,7 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
+  print text
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   matched = match(indices, citations_index)
