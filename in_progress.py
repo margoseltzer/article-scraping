@@ -149,7 +149,7 @@ def match(quotes_index, citations_index):
   c_curr = 0
   matches = []
   # catch the beginning in case of no quotes but links
-  while citations_index[c_curr] < quotes_index[0]:
+  while citations_index[c_curr] > quotes_index[0]:
     matches.append((citations_index[c_curr], []))
     c_curr += 1
   for i in range(len(quotes_index)):
