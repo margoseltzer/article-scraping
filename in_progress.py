@@ -72,11 +72,12 @@ def get_body(tree, body_tag):
     body = body + html.tostring(b)
   return body
 
-def quotes(tree, body_tag):
+def get_quotes(tree, body_tag):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
   found = ""
   quotes_index = []
   quotes = []
+  counter = 0
   for c in text:
     if len(found) != 0:
       found = found + c
@@ -86,6 +87,9 @@ def quotes(tree, body_tag):
     else:
       if c == '"':
         found = found + c
+        quotes_index.append(counter)
+    counter += 1
+  return quotes, quotes_index
 
 def get_links(body):
   url_list = []
@@ -98,7 +102,7 @@ def get_links(body):
       url = l.get('href')
       if (url != None) and (url.find("javascript:")) < 0 and (url.find("mailto:") < 0):
         url_list.append(url)
-        citations_list.append(l.text)
+        citations_list.append(l.text_content())
   except etree.XMLSyntaxError:
     return [], []
   return url_list, citations_list
@@ -124,7 +128,6 @@ def reformat(url, paper_type):
   new_type = paper_type
   if not url.startswith("http"):
     # relative link case
-    #print "GOT HERE, link is ", url
     url = "http://www."+paper_type+".com"+url
   else:
     if (url.find(paper_type) < 0):
@@ -135,6 +138,18 @@ def reformat(url, paper_type):
       else:
         new_type = link_type
   return [url, new_type]
+
+def match(quotes_index, citations_index):
+  citations_index.append(sys.maxint)
+  c_curr = 0
+  matches = []
+  for i in range(len(quotes_index)):
+    if citations_index[c_curr-1] <= quotes_index[i] and quotes_index[i] < citations_index[c_curr]:
+      matches[-1][1].append(quotes_index[i])
+    else:
+      matches.append((citations_index[c_curr], [quotes_index[i]]))
+      c_curr += 1
+  return matches
 
 def main():
   arg = sys.argv
@@ -234,6 +249,30 @@ def main():
     print visited[i]+": "+str(depthls[i])
 
   print root.cite_text
+  
+  #look for root's quotes/citations
+  # getting weird "" as citations, seems to be from images so I will remove those now
+  qs0, indices0 = get_quotes(t, info[1])
+  qs = []
+  indices = []
+  for i in range(len(qs0)):
+    if qs0[i] != "":
+      qs.append(qs0[i])
+      indices.append(indices0[i])
+
+  citations_index = []
+  text = html.fromstring(get_body(t, info[1])).text_content()
+  for citations in root.cite_text:
+    citations_index.append(text.find(citations))
+  matched = match(indices, citations_index)
+  for m in matched:
+    print "LINK: ", root.links[citations_index.index(m[0])]
+    for i in m[1]:
+      print "QUOTE: ", qs[indices.index(i)]
+
+  #for i in range(len(q)):
+  #  if indices[i] <
+
   # check what was in the root's neighbors:
   #print "\nOriginal neighbors:"
   #for i in links:
