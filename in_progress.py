@@ -25,16 +25,6 @@ paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-ti
               'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated']
              }
 
-'''
-  later want to put author extraction etc in this class
-  also want to add ways to differentiate additional media (video/picture links, refs to other papers)
-I shouldn't need this but here it is just in case:
-class Citation:
-  def __init__(self, u, t):
-    self.url = u
-    self.text = t
-'''
-
 class Article:
   def __init__(self, u, t, a, d, q=[], l=[], e=[], d2=0):
     self.url = u
@@ -78,15 +68,18 @@ def get_body(tree, body_tag):
     body = body + html.tostring(b)
   return body
 
-def get_quotes(tree, body_tag):
-  text = html.fromstring(get_body(tree, body_tag)).text_content()
+def clean_text(text):
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
   text = re.sub(u'\xe2\x80\x98', "'", text)
   text = re.sub(u'\xe2\x80\x99', "'", text)
   text = re.sub(u'\xe2\x80\x94', "-", text)
-  #text = unidecode(text)
-  print text
+  return text
+
+def get_quotes(tree, body_tag):
+  text = html.fromstring(get_body(tree, body_tag)).text_content()
+  text = clean_text(text)
+  #print text
   rx = r'\{[^}]+\}\\?'
   text = re.sub(rx, '', text)
   found = ""
@@ -159,12 +152,23 @@ def match2(quotes, links):
   found = False
   for q in quotes:
     for l in links:
-      t = trees[l]
-      if html.tostring(t).find(q) >= 0:
-        found = True
-        matches[q] = l
-        continue
+      try:
+        t = trees[l]
+        text = clean_text(t)
+        print "i=",l
+        print "q=", q
+        print "t=", type(text)
+        #if html.tostring(t).find(q) >= 0:
+        print q in text
+        if str(text).find(str(q)) >= 0:
+          print "derp"
+          found = True
+          matches[q] = l
+          continue
+      except KeyError:
+        pass
     if not found:
+      print q, "sorry fam"
       matches[q] = False
   return matches
 
@@ -212,6 +216,7 @@ def main():
   trees[arg[1]] = t
   run = 0
   while (depth < 2) and (len(queue) != 0):
+    print trees
     #print "VISITED: ", visited
     vertex = queue.popleft()
     #print vertex.to_string()
@@ -245,8 +250,8 @@ def main():
               #for c in citations:
               #  # get the text inside, I guess
               t2 = html.fromstring(requests.get(link).content)
-              trees[original_link] = t2
-              c2 = get_links(get_body(t2, new_info[1]))
+              b = get_body(t2, new_info[1])
+              c2 = get_links(b)
               new_article = Article(link, 
                                   get_title(t2), 
                                   get_authors(t2, new_info[0], new_tag), 
@@ -259,6 +264,11 @@ def main():
             except: #requests.exceptions.SSLError
               new_article = Article(link, None, None, None, "", None, depth)
             visited.append(link)
+            try:
+              trees[original_link] = clean_text(html.fromstring(b).text_content())
+            except:
+              # this page would not have a quote anyway
+              pass
             depthls.append(depth)
             #print "adding to queue: ", new_article.url
             queue.append(new_article)
@@ -299,6 +309,7 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
+  clean_text(text)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
