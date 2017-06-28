@@ -19,7 +19,8 @@ paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-ti
               'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
               'chicagotribune' : ['//span[@itemprop="author"]/text()', '//div[@itemprop="articleBody"]', 'trb_ar_dateline_time'],
               'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
-              'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published']
+              'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published'],
+              'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated']
              }
 
 '''
@@ -275,7 +276,8 @@ def main():
     citations_index.append(text.find(citations))
   matched = match(indices, citations_index)
   for m in matched:
-    print "LINK: ", root.links[citations_index.index(m[0])]
+    print "\n"
+    print "LINK:", root.links[citations_index.index(m[0])], ":", root.cite_text[citations_index.index(m[0])]
     for i in m[1]:
       print "QUOTE: ", qs[indices.index(i)]
 
