@@ -12,6 +12,7 @@ from lxml import html, etree
 RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
 
 '''
+trees = {}
 paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-time'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
@@ -145,6 +146,21 @@ def reformat(url, paper_type):
         new_type = link_type
   return [url, new_type]
 
+def match2(quotes, links):
+  matches = {}
+  found = False
+  for q in quotes:
+    for l in links:
+      t = trees[l]
+      if html.tostring(t).find(q) >= 0:
+        found = True
+        matches[q] = l
+        continue
+    if not found:
+      matches[q] = False
+  return matches
+
+'''
 def match(quotes_index, citations_index):
   citations_index.append(sys.maxint)
   c_curr = 0
@@ -160,6 +176,7 @@ def match(quotes_index, citations_index):
       matches.append((citations_index[c_curr], [quotes_index[i]]))
       c_curr += 1
   return matches
+'''
 
 def main():
   arg = sys.argv
@@ -184,8 +201,9 @@ def main():
   depth = 1 # started it at 1 since root depth = 0
   depthls = [0]
 
+  trees[arg[1]] = t
   run = 0
-  while (depth < 0) and (len(queue) != 0):
+  while (depth < 2) and (len(queue) != 0):
     #print "VISITED: ", visited
     vertex = queue.popleft()
     #print vertex.to_string()
@@ -219,6 +237,7 @@ def main():
               #for c in citations:
               #  # get the text inside, I guess
               t2 = html.fromstring(requests.get(link).content)
+              trees[original_link] = t2
               c2 = get_links(get_body(t2, new_info[1]))
               new_article = Article(link, 
                                   get_title(t2), 
@@ -274,12 +293,13 @@ def main():
   text = html.fromstring(get_body(t, info[1])).text_content()
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
-  matched = match(indices, citations_index)
+  #matched = match(indices, citations_index)
+  matched = match2(qs, root.links)
   for m in matched:
-    print "\n"
-    print "LINK:", root.links[citations_index.index(m[0])], ":", root.cite_text[citations_index.index(m[0])]
-    for i in m[1]:
-      print "QUOTE: ", qs[indices.index(i)]
+    print m, matched[m]
+    #print "LINK:", root.links[citations_index.index(m[0])], ":", root.cite_text[citations_index.index(m[0])]
+    #for i in m[1]:
+    #  print "QUOTE: ", qs[indices.index(i)]
 
   #for i in range(len(q)):
   #  if indices[i] <
