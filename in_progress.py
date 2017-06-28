@@ -4,6 +4,7 @@ import requests
 import collections
 import re
 from lxml import html, etree
+from unidecode import unidecode
 
 # CNN one might not always work depending on if author has url or not
 # paper : [author tag, body tag, date class]
@@ -79,6 +80,13 @@ def get_body(tree, body_tag):
 
 def get_quotes(tree, body_tag):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
+  text = re.sub(u'\xe2\x80\x9c', '"', text)
+  text = re.sub(u'\xe2\x80\x9d', '"', text)
+  text = re.sub(u'\xe2\x80\x98', "'", text)
+  text = re.sub(u'\xe2\x80\x99', "'", text)
+  text = re.sub(u'\xe2\x80\x94', "-", text)
+  #text = unidecode(text)
+  print text
   rx = r'\{[^}]+\}\\?'
   text = re.sub(rx, '', text)
   found = ""
