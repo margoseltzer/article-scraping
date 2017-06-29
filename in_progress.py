@@ -68,7 +68,9 @@ def get_body(tree, body_tag):
     body = body + str(html.tostring(b))
   return body
 
-def clean_text(text):
+def clean_text(text, paper_type):
+  if paper_type != "nyt":
+    return text
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
   text = re.sub(u'\xe2\x80\x98', "'", text)
@@ -76,9 +78,9 @@ def clean_text(text):
   text = re.sub(u'\xe2\x80\x94', "-", text)
   return text
 
-def get_quotes(tree, body_tag):
+def get_quotes(tree, body_tag, paper_type):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
-  text = clean_text(text)
+  text = clean_text(text, paper_type)
   #print text
   rx = r'\{[^}]+\}\\?'
   text = re.sub(rx, '', text)
@@ -263,7 +265,7 @@ def main():
               new_article = Article(link, None, None, None, "", None, depth)
             visited.append(link)
             try:
-              trees[original_link] = clean_text(html.fromstring(b).text_content())
+              trees[original_link] = clean_text(html.fromstring(b).text_content(), new_tag)
             except:
               # this page would not have a quote anyway
               pass
@@ -297,7 +299,7 @@ def main():
   
   #look for root's quotes/citations
   # getting weird "" as citations, seems to be from images so I will remove those now
-  qs0, indices0 = get_quotes(t, info[1])
+  qs0, indices0 = get_quotes(t, info[1], paper_type)
   qs = []
   indices = []
   for i in range(len(qs0)):
@@ -307,7 +309,7 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
-  clean_text(text)
+  clean_text(text, paper_type)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
