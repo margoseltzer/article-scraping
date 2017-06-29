@@ -153,13 +153,12 @@ def match2(quotes, links):
     found = False
     for l in links:
       try:
-        t = trees[l]
-        text = clean_text(t)
+        text = trees[l]
         print("i=",l)
         print("q=", q, "len:", len(q), type(q))
         print("t=", type(text))
-        #if html.tostring(t).find(q) >= 0:
-        if q in text: #text.find(q) >= 0:
+        # so the quotation marks kinda screwed me over...great, now this will basically only work for NYT
+        if q[1:len(q)-1] in text: #text.find(q) >= 0:
           print("derp")
           found = True
           matches[q] = l
