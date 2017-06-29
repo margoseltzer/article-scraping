@@ -70,6 +70,7 @@ def get_body(tree, body_tag):
 
 def clean_text(text, paper_type):
   if paper_type != "nyt":
+    #text = re.sub("\'", "'", text)
     return text
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
@@ -92,6 +93,7 @@ def get_quotes(tree, body_tag, paper_type):
     if len(found) != 0:
       found = found + c
       if c == '"':
+        print(found)
         quotes.append(found)
         found = ""
     else:
