@@ -4,7 +4,7 @@ import requests
 import collections
 import re
 from lxml import html, etree
-from unidecode import unidecode
+#from unidecode import unidecode
 
 # CNN one might not always work depending on if author has url or not
 # paper : [author tag, body tag, date class]
@@ -38,14 +38,14 @@ class Article:
     self.cite_text = []
 
   def to_string(self):
-    print "\nURL: ", self.url
-    print "Title: ", self.title
-    print "Authors: ", self.authors
-    print "Date: ", self.date
-    print "Quotes: ", self.quotes
-    print "Links: ",  self.links
-    print "External references: ", self.external
-    print "Depth: ", self.depth
+    print("\nURL: ", self.url)
+    print("Title: ", self.title)
+    print("Authors: ", self.authors)
+    print("Date: ", self.date)
+    print("Quotes: ", self.quotes)
+    print("Links: ",  self.links)
+    print("External references: ", self.external)
+    print("Depth: ", self.depth)
 
 def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
@@ -65,7 +65,7 @@ def get_body(tree, body_tag):
   body_parts = tree.xpath(body_tag)
   body = ""
   for b in body_parts:
-    body = body + html.tostring(b)
+    body = body + str(html.tostring(b))
   return body
 
 def clean_text(text):
@@ -149,26 +149,25 @@ def reformat(url, paper_type):
 
 def match2(quotes, links):
   matches = {}
-  found = False
   for q in quotes:
+    found = False
     for l in links:
       try:
         t = trees[l]
         text = clean_text(t)
-        print "i=",l
-        print "q=", q
-        print "t=", type(text)
+        print("i=",l)
+        print("q=", q, "len:", len(q), type(q))
+        print("t=", type(text))
         #if html.tostring(t).find(q) >= 0:
-        print q in text
-        if str(text).find(str(q)) >= 0:
-          print "derp"
+        if q in text: #text.find(q) >= 0:
+          print("derp")
           found = True
           matches[q] = l
-          continue
+          break
       except KeyError:
         pass
     if not found:
-      print q, "sorry fam"
+      print (q, "sorry fam")
       matches[q] = False
   return matches
 
@@ -194,7 +193,7 @@ def main():
   arg = sys.argv
   paper_type = paper(arg[1])
   if not paper_type:
-    print "Unable to handle this paper"
+    print("Unable to handle this paper")
     return
   info = paper_tags.get(paper_type)
 
@@ -216,12 +215,12 @@ def main():
   trees[arg[1]] = t
   run = 0
   while (depth < 2) and (len(queue) != 0):
-    print trees
+    print(trees)
     #print "VISITED: ", visited
     vertex = queue.popleft()
     #print vertex.to_string()
-    print "DEPTH = ", depth
-    print "APPENDING "+vertex.url
+    print("DEPTH = ", depth)
+    print("APPENDING "+vertex.url)
     for link in vertex.links:
       ext_refs = []
       original_link = link
@@ -291,9 +290,9 @@ def main():
     #    print "None"
   
     run += 1
-  print "\nVISITED:"
+  print("\nVISITED:")
   for i in range(len(visited)):
-    print visited[i]+": "+str(depthls[i])
+    print(visited[i]+": "+str(depthls[i]))
 
   #print root.cite_text
   
@@ -314,8 +313,9 @@ def main():
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
   matched = match2(qs, root.links)
+  print("\n")
   for m in matched:
-    print m, matched[m]
+    print(m, matched[m])
     #print "LINK:", root.links[citations_index.index(m[0])], ":", root.cite_text[citations_index.index(m[0])]
     #for i in m[1]:
     #  print "QUOTE: ", qs[indices.index(i)]
