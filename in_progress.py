@@ -138,11 +138,14 @@ def paper(link):
 
 def reformat(url, paper_type):
   new_type = paper_type
-  if not url.startswith("http"):
+  if url.startswith("/"):
     # relative link case
     url = "http://www."+paper_type+".com"+url
   else:
-    if (url.find(paper_type) < 0):
+    url = url.replace("https:", "http:")
+    if not url.startswith("http"):
+      url = "http://"+url
+    if paper_type in url:
       # identify if it is a paper program can handle
       link_type = paper(url)
       if not link_type:
@@ -151,46 +154,36 @@ def reformat(url, paper_type):
         new_type = link_type
   return [url, new_type]
 
-def match2(quotes, links):
+def match2(quotes, links, paper_type):
   matches = {}
   for q in quotes:
     found = False
     for l in links:
       try:
         text = trees[l]
-        print("i=",l)
-        print("q=", q, "len:", len(q), type(q))
-        print("t=", type(text))
-        # so the quotation marks kinda screwed me over...great, now this will basically only work for NYT
+        #print("i=",l)
+        #print("q=", q, "len:", len(q), type(q))
+        #print("t=", type(text))
         if q[1:len(q)-1] in text: #text.find(q) >= 0:
-          print("derp")
           found = True
           matches[q] = l
           break
       except KeyError:
-        pass
+        #pass
+        # all I really need to do is check the page html
+        text = str(requests.get(reformat(l, paper_type)[0]).content)
+        text = re.sub("&#39;", "'", text)
+        #print(text)
+        #if q[1:len(q)-1] in str(text):
+        if q[1:len(q)-1] in text:
+          found = True
+          matches[q] = l
+          break
+        trees[l] = text
     if not found:
       print (q, "sorry fam")
       matches[q] = False
   return matches
-
-'''
-def match(quotes_index, citations_index):
-  citations_index.append(sys.maxint)
-  c_curr = 0
-  matches = []
-  # catch the beginning in case of no quotes but links
-  while citations_index[c_curr] < quotes_index[0]:
-    matches.append((citations_index[c_curr], []))
-    c_curr += 1
-  for i in range(len(quotes_index)):
-    if citations_index[c_curr-1] <= quotes_index[i] and quotes_index[i] < citations_index[c_curr]:
-      matches[-1][1].append(quotes_index[i])
-    else:
-      matches.append((citations_index[c_curr], [quotes_index[i]]))
-      c_curr += 1
-  return matches
-'''
 
 def main():
   arg = sys.argv
@@ -235,7 +228,7 @@ def main():
       if not new_tag:
         ext_refs.append(original_link)
         if link not in visited:
-          visited.append(original_link)
+          visited.append(link)#original_link)
           depthls.append(depth)
       else:
         if link not in visited:
@@ -312,10 +305,11 @@ def main():
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
   clean_text(text, paper_type)
+  print(text)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
-  matched = match2(qs, root.links)
+  matched = match2(qs, root.links, paper_type)
   print("\n")
   for m in matched:
     print(m, matched[m])
