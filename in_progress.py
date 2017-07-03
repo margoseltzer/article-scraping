@@ -4,6 +4,7 @@ import requests
 import collections
 import re
 from lxml import html, etree
+from textblob import TextBlob
 #from unidecode import unidecode
 
 # CNN one might not always work depending on if author has url or not
@@ -22,7 +23,8 @@ paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-ti
               'chicagotribune' : ['//span[@itemprop="author"]/text()', '//div[@itemprop="articleBody"]', 'trb_ar_dateline_time'],
               'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
               'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published'],
-              'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated']
+              'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated'],
+              'infowars' : ['//span[@class="author"]/text()', '//div[@class="text"]', 'date']
              }
 
 class Article:
@@ -69,14 +71,22 @@ def get_body(tree, body_tag):
   return body
 
 def clean_text(text, paper_type):
-  if paper_type != "nyt":
+  if paper_type not in ['nyt', 'infowars']:
     #text = re.sub("\'", "'", text)
     return text
+  print("i should be changing things")
+  # not sure how the replace/re differ but they seem to...
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
   text = re.sub(u'\xe2\x80\x98', "'", text)
   text = re.sub(u'\xe2\x80\x99', "'", text)
   text = re.sub(u'\xe2\x80\x94', "-", text)
+
+  text = text.replace("“", '"')
+  text = text.replace("”", '"')
+  text = text.replace("’", "'")
+
+  print(text)
   return text
 
 def get_quotes(tree, body_tag, paper_type):
@@ -181,9 +191,16 @@ def match2(quotes, links, paper_type):
           break
         trees[l] = text
     if not found:
-      print (q, "sorry fam")
+      print (q, "not found")
       matches[q] = False
   return matches
+
+def analyze(link):
+  try:
+    text = trees[link]
+  except KeyError:
+    text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
+  return text.sentiment
 
 def main():
   arg = sys.argv
@@ -301,6 +318,7 @@ def main():
     if qs0[i] != "":
       qs.append(qs0[i])
       indices.append(indices0[i])
+  print(qs)
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
