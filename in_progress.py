@@ -50,15 +50,6 @@ class Article:
     print("Depth: ", self.depth)
 
   def jsonify(self):
-    self.to_string()
-    print("\nURL: ", type(self.url))
-    print("Title: ", type(self.title))
-    print("Authors: ", type(self.authors))
-    print("Date: ", type(self.date))
-    print("Quotes: ", type(self.quotes))
-    print("Links: ",  type(self.links))
-    print("External references: ", type(self.external))
-    print("Depth: ", type(self.depth))
     return '{\n\t"url":'+self.url+'\n\t "title":'+self.title+'\n\t"authors":'+str(self.authors)+'\n\t"date":'+str(self.date)+'\n\t"quotes":'+str(self.quotes)+'\n\t"links":'+str(self.links)+'\n\t"cite_text":'+str(self.cite_text)+'\n}'
 
 def my_tostring(x):
@@ -239,8 +230,8 @@ def main():
   depthls = [0]
 
   trees[arg[1]] = t
-  run = 0
   articles = []
+  total_links = 1 # starts at 1 bc of root
   while (depth < 2) and (len(queue) != 0):
     print(trees)
     #print "VISITED: ", visited
@@ -248,6 +239,7 @@ def main():
     #print vertex.to_string()
     print("DEPTH = ", depth)
     print("APPENDING "+vertex.url)
+    total_links += len(vertex.links)
     for link in vertex.links:
       ext_refs = []
       original_link = link
@@ -306,7 +298,6 @@ def main():
       # only stop if queue is empty
       if len(queue) != 0:
         queue.append(None)
-        #print "hey "+str(run)
       depth += 1
 
     #print "TITLE: ", html.tostring(new_article.title)
@@ -317,10 +308,11 @@ def main():
     #  else:
     #    print "None"
   
-    run += 1
   print("\nVISITED:")
   for i in range(len(visited)):
     print(visited[i]+": "+str(depthls[i]))
+  print("\nNUMBER OF LINKS:", total_links)
+  print("NUMBER OF DISTINCT:", len(visited))
 
   #print root.cite_text
   
