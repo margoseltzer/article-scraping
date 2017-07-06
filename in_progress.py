@@ -240,6 +240,7 @@ def main():
 
   trees[arg[1]] = t
   run = 0
+  articles = []
   while (depth < 2) and (len(queue) != 0):
     print(trees)
     #print "VISITED: ", visited
@@ -289,6 +290,7 @@ def main():
             except: #requests.exceptions.SSLError
               new_article = Article(link, None, None, None, "", None, depth)
             visited.append(link)
+            articles.append(new_article)
             try:
               trees[original_link] = clean_text(html.fromstring(b).text_content(), new_tag)
             except:
@@ -355,5 +357,8 @@ def main():
   #for i in links:
   #  print i
   print(root.jsonify())
+  with open("articles.json", "a") as f:
+    for a in articles:
+      f.write(a.jsonify())
 main()
 
