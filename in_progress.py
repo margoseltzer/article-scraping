@@ -49,6 +49,21 @@ class Article:
     print("External references: ", self.external)
     print("Depth: ", self.depth)
 
+  def jsonify(self):
+    self.to_string()
+    print("\nURL: ", type(self.url))
+    print("Title: ", type(self.title))
+    print("Authors: ", type(self.authors))
+    print("Date: ", type(self.date))
+    print("Quotes: ", type(self.quotes))
+    print("Links: ",  type(self.links))
+    print("External references: ", type(self.external))
+    print("Depth: ", type(self.depth))
+    return '{\n\t"url":'+self.url+'\n\t "title":'+self.title+'\n\t"authors":'+str(self.authors)+'\n\t"date":'+str(self.date)+'\n\t"quotes":'+str(self.quotes)+'\n\t"links":'+str(self.links)+'\n\t"cite_text":'+str(self.cite_text)+'\n}'
+
+def my_tostring(x):
+  return html.tostring(x, encoding = "unicode")
+
 def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
     return paper_type
@@ -59,6 +74,7 @@ def get_authors(tree, author_tag, paper_type):
 
 def get_date(tree, time_tag):
   try:
+    #return tree.xpath(time_tag+'/text()')[0]
     return html.tostring(tree.find_class(time_tag)[0])
   except:
     return "Error: Could not get date"
@@ -74,7 +90,7 @@ def clean_text(text, paper_type):
   if paper_type not in ['nyt', 'infowars']:
     #text = re.sub("\'", "'", text)
     return text
-  print("i should be changing things")
+  #print("i should be changing things")
   # not sure how the replace/re differ but they seem to...
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
@@ -86,13 +102,11 @@ def clean_text(text, paper_type):
   text = text.replace("”", '"')
   text = text.replace("’", "'")
 
-  print(text)
   return text
 
 def get_quotes(tree, body_tag, paper_type):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
   text = clean_text(text, paper_type)
-  #print text
   rx = r'\{[^}]+\}\\?'
   text = re.sub(rx, '', text)
   found = ""
@@ -103,7 +117,7 @@ def get_quotes(tree, body_tag, paper_type):
     if len(found) != 0:
       found = found + c
       if c == '"':
-        print(found)
+        #print(found)
         quotes.append(found)
         found = ""
     else:
@@ -131,7 +145,7 @@ def get_links(body):
 
 def get_title(tree):
   try:
-    return tree.xpath('//title')[0]
+    return tree.xpath('//title/text()')[0]
   except IndexError:
     return "No title found (sometimes occurs in PDFs)"
 
@@ -183,7 +197,6 @@ def match2(quotes, links, paper_type):
         # all I really need to do is check the page html
         text = str(requests.get(reformat(l, paper_type)[0]).content)
         text = re.sub("&#39;", "'", text)
-        #print(text)
         #if q[1:len(q)-1] in str(text):
         if q[1:len(q)-1] in text:
           found = True
@@ -215,7 +228,7 @@ def main():
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
-  title = t.find_class('title') # (will find html page title, not exactly article title)
+  title = get_title(t)#t.find_class('title') # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, "", links, 0)
   root.cite_text = cites[1]
@@ -323,7 +336,6 @@ def main():
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
   clean_text(text, paper_type)
-  print(text)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
@@ -342,5 +354,6 @@ def main():
   #print "\nOriginal neighbors:"
   #for i in links:
   #  print i
+  print(root.jsonify())
 main()
 
