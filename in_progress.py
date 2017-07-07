@@ -15,7 +15,7 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 
 '''
 trees = {}
-paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'data date-time'],
+paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'date date--v2'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
@@ -61,12 +61,14 @@ def get_authors(tree, author_tag, paper_type):
   authors = []
   for tag in author_tag.split("AND"):
     authors.extend(tree.xpath(tag))
+  if paper_type == 'cnn':
+    authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
   return authors
 
 def get_date(tree, time_tag):
   try:
-    #return tree.xpath(time_tag+'/text()')[0]
-    return html.tostring(tree.find_class(time_tag)[0])
+    return tree.find_class(time_tag)[0].text
+    #return html.tostring(tree.find_class(time_tag)[0])
   except:
     return "Error: Could not get date"
 
@@ -232,7 +234,9 @@ def main():
   trees[arg[1]] = t
   articles = []
   total_links = 1 # starts at 1 bc of root
+  num_vertices = 0
   while (depth < 2) and (len(queue) != 0):
+    num_vertices += 1
     print(trees)
     #print "VISITED: ", visited
     vertex = queue.popleft()
@@ -280,7 +284,7 @@ def main():
                                   depth)
               new_article.cite_text = c2[1]
             except: #requests.exceptions.SSLError
-              new_article = Article(link, None, None, None, "", None, depth)
+              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), None, None, "", None, depth)
             visited.append(link)
             articles.append(new_article)
             try:
@@ -337,12 +341,6 @@ def main():
   print("\n")
   for m in matched:
     print(m, matched[m])
-    #print "LINK:", root.links[citations_index.index(m[0])], ":", root.cite_text[citations_index.index(m[0])]
-    #for i in m[1]:
-    #  print "QUOTE: ", qs[indices.index(i)]
-
-  #for i in range(len(q)):
-  #  if indices[i] <
 
   # check what was in the root's neighbors:
   #print "\nOriginal neighbors:"
@@ -352,5 +350,7 @@ def main():
   with open("articles.json", "a") as f:
     for a in articles:
       f.write(a.jsonify())
+
+  print("Average links/page", 1.*total_links/num_vertices)
 main()
 
