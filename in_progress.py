@@ -1,4 +1,5 @@
 import sys
+import json
 import feedparser
 import requests
 import collections
@@ -50,19 +51,29 @@ class Article:
     print("Depth: ", self.depth)
 
   def jsonify(self):
-    return '{\n\t"url":'+self.url+'\n\t "title":'+self.title+'\n\t"authors":'+str(self.authors)+'\n\t"date":'+str(self.date)+'\n\t"quotes":'+str(self.quotes)+'\n\t"links":'+str(self.links)+'\n\t"cite_text":'+str(self.cite_text)+'\n}'
+    print("authors: ", self.authors)
+    #return '{\n\t"url":"'+self.url+'",\n\t "title":"'+json.dumps(self.title)+'",\n\t"authors":'+json.dumps(self.authors)+',\n\t"date":"'+str(self.date)+'",\n\t"quotes":'+json.dumps(self.quotes)+',\n\t"links":'+json.dumps(self.links)+',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}'
+    return ('{\n\t"url":"'+self.url+
+            '",\n\t "title":'+json.dumps(self.title)+
+            ',\n\t"authors":'+json.dumps(self.authors)+
+            ',\n\t"date":"'+str(self.date)+
+            '",\n\t"quotes":'+json.dumps(self.quotes)+
+            ',\n\t"links":'+json.dumps(self.links)+
+            ',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}')
 
 def my_tostring(x):
   return html.tostring(x, encoding = "unicode")
 
 def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
-    return paper_type
+    return [paper_type]
   authors = []
+  print("authors 1:", authors)
   for tag in author_tag.split("AND"):
     authors.extend(tree.xpath(tag))
   if paper_type == 'cnn':
     authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
+  print("authors 2:", authors)
   return authors
 
 def get_date(tree, time_tag):
@@ -79,10 +90,10 @@ def get_body(tree, body_tag):
     body = body + str(html.tostring(b))
   return body
 
-def clean_text(text, paper_type):
-  if paper_type not in ['nyt', 'infowars']:
-    #text = re.sub("\'", "'", text)
-    return text
+def clean_text(text):
+  #if paper_type not in ['nyt', 'infowars']:
+  ##text = re.sub("\'", "'", text)
+  #  return text
   #print("i should be changing things")
   # not sure how the replace/re differ but they seem to...
   text = re.sub(u'\xe2\x80\x9c', '"', text)
@@ -99,7 +110,7 @@ def clean_text(text, paper_type):
 
 def get_quotes(tree, body_tag, paper_type):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
-  text = clean_text(text, paper_type)
+  text = clean_text(text)#, paper_type)
   rx = r'\{[^}]+\}\\?'
   text = re.sub(rx, '', text)
   found = ""
@@ -138,7 +149,7 @@ def get_links(body):
 
 def get_title(tree):
   try:
-    return tree.xpath('//title/text()')[0]
+    return clean_text(tree.xpath('//title/text()')[0])
   except IndexError:
     return "No title found (sometimes occurs in PDFs)"
 
@@ -218,12 +229,13 @@ def main():
 
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
+  print("author:", authors)
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
   title = get_title(t)#t.find_class('title') # (will find html page title, not exactly article title)
 
-  root = Article(arg[1], title, authors, date, "", links, 0)
+  root = Article(arg[1], title, authors, date, get_quotes(t, info[1], paper_type), links, 0)
   root.cite_text = cites[1]
 
   visited, queue = [arg[1]], collections.deque([root, None]) 
@@ -235,9 +247,8 @@ def main():
   articles = []
   total_links = 1 # starts at 1 bc of root
   num_vertices = 0
-  while (depth < 2) and (len(queue) != 0):
+  while (depth < 4) and (len(queue) != 0):
     num_vertices += 1
-    print(trees)
     #print "VISITED: ", visited
     vertex = queue.popleft()
     #print vertex.to_string()
@@ -278,17 +289,18 @@ def main():
                                   get_title(t2), 
                                   get_authors(t2, new_info[0], new_tag), 
                                   get_date(t2, new_info[2]),
-                                  "",
+                                  get_quotes(t2, new_info[1],  new_tag),
                                   c2[0],
                                   ext_refs,
                                   depth)
               new_article.cite_text = c2[1]
+              print("new_auth:", new_article.authors)
             except: #requests.exceptions.SSLError
-              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), None, None, "", None, depth)
+              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [], None)
             visited.append(link)
             articles.append(new_article)
             try:
-              trees[original_link] = clean_text(html.fromstring(b).text_content(), new_tag)
+              trees[original_link] = clean_text(html.fromstring(b).text_content())#, new_tag)
             except:
               # this page would not have a quote anyway
               pass
@@ -333,7 +345,7 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info[1])).text_content()
-  clean_text(text, paper_type)
+  clean_text(text)#, paper_type)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
   #matched = match(indices, citations_index)
@@ -348,8 +360,12 @@ def main():
   #  print i
   print(root.jsonify())
   with open("articles.json", "a") as f:
+    f.write('[\n')
     for a in articles:
       f.write(a.jsonify())
+      if a != articles[-1]:
+        f.write(',\n')
+    f.write('\n]')
 
   print("Average links/page", 1.*total_links/num_vertices)
 main()
