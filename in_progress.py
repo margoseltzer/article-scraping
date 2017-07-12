@@ -1,10 +1,12 @@
 import sys
+import nltk
 import json
 import feedparser
 import requests
 import collections
 import re
 from lxml import html, etree
+from lxml.html.clean import clean_html
 from textblob import TextBlob
 #from unidecode import unidecode
 
@@ -39,25 +41,28 @@ class Article:
     self.external = e
     self.depth = d2
     self.cite_text = []
+    self.author_links = [] # links to author pages, if applicable
+    self.names = []
 
   def to_string(self):
-    print("\nURL: ", self.url)
-    print("Title: ", self.title)
-    print("Authors: ", self.authors)
-    print("Date: ", self.date)
-    print("Quotes: ", self.quotes)
-    print("Links: ",  self.links)
-    print("External references: ", self.external)
-    print("Depth: ", self.depth)
+    print("\nURL:", self.url)
+    print("Title:", self.title)
+    print("Authors:", self.authors)
+    print("Date:", self.date)
+    print("Quotes:", self.quotes)
+    print("Names:", self.names) 
+    print("Links:",  self.links)
+    print("External references:", self.external)
+    #print("Depth: ", self.depth)
 
   def jsonify(self):
-    print("authors: ", self.authors)
     #return '{\n\t"url":"'+self.url+'",\n\t "title":"'+json.dumps(self.title)+'",\n\t"authors":'+json.dumps(self.authors)+',\n\t"date":"'+str(self.date)+'",\n\t"quotes":'+json.dumps(self.quotes)+',\n\t"links":'+json.dumps(self.links)+',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}'
     return ('{\n\t"url":"'+self.url+
             '",\n\t "title":'+json.dumps(self.title)+
             ',\n\t"authors":'+json.dumps(self.authors)+
             ',\n\t"date":"'+str(self.date)+
             '",\n\t"quotes":'+json.dumps(self.quotes)+
+            ',\n\t"names":'+json.dumps(self.names)+
             ',\n\t"links":'+json.dumps(self.links)+
             ',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}')
 
@@ -68,12 +73,10 @@ def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
     return [paper_type]
   authors = []
-  print("authors 1:", authors)
   for tag in author_tag.split("AND"):
     authors.extend(tree.xpath(tag))
   if paper_type == 'cnn':
     authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
-  print("authors 2:", authors)
   return authors
 
 def get_date(tree, time_tag):
@@ -219,6 +222,17 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
   return text.sentiment
 
+def get_names(body):
+  names = []
+  text = clean_html(html.fromstring(body))
+  print(text)
+  text = html.fromstring(body).text_content()
+  for sent in nltk.sent_tokenize(text):
+    for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
+      if hasattr(chunk, 'label'):
+        names.append((chunk.label(), ' '.join(c[0] for c in chunk.leaves())))
+  return names
+
 def main():
   arg = sys.argv
   paper_type = paper(arg[1])
@@ -229,13 +243,13 @@ def main():
 
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
-  print("author:", authors)
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
   title = get_title(t)#t.find_class('title') # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, get_quotes(t, info[1], paper_type), links, 0)
+  print("ROOT QUOTES:", root.quotes)
   root.cite_text = cites[1]
 
   visited, queue = [arg[1]], collections.deque([root, None]) 
@@ -247,7 +261,7 @@ def main():
   articles = []
   total_links = 1 # starts at 1 bc of root
   num_vertices = 0
-  while (depth < 4) and (len(queue) != 0):
+  while (depth < 3) and (len(queue) != 0):
     num_vertices += 1
     #print "VISITED: ", visited
     vertex = queue.popleft()
@@ -298,6 +312,7 @@ def main():
             except: #requests.exceptions.SSLError
               new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [], None)
             visited.append(link)
+            new_article.names = get_names(b)
             articles.append(new_article)
             try:
               trees[original_link] = clean_text(html.fromstring(b).text_content())#, new_tag)
