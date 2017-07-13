@@ -6,7 +6,6 @@ import requests
 import collections
 import re
 from lxml import html, etree
-from lxml.html.clean import clean_html
 from textblob import TextBlob
 #from unidecode import unidecode
 
@@ -78,6 +77,32 @@ def get_authors(tree, author_tag, paper_type):
   if paper_type == 'cnn':
     authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
   return authors
+
+def track_authors(tree, author_tag, paper_type):
+  link_ls = []
+
+  html_ls = []
+  if author_tag == 'N/A':
+    return [paper_type], linkls
+
+  authors = []
+  for tag in author_tag.split("AND"):
+    authors.extend(tree.xpath(tag))
+    html_auth_tag = tag.replace("/text()", "")
+    html_ls.extend(tree.xpath(html_auth_tag))
+    for l in html_ls:
+      print("l:", html.tostring(l))
+      link = l.xpath("//a")
+      print("link is:", link)
+      for i in link:
+        print("a link:", html.tostring(i))
+      #print("href is ", link.get('href'))
+      link_ls.append(link.get('href'))
+
+  if paper_type == 'cnn':
+    authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
+  #print("links:", link_ls)
+  return authors, link_ls
 
 def get_date(tree, time_tag):
   try:
@@ -222,10 +247,19 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
   return text.sentiment
 
-def get_names(body):
+def get_names(tree, body_tag):
   names = []
-  text = clean_html(html.fromstring(body))
-  print(text)
+  xa = html.fromstring(get_body(tree, body_tag))
+  print("HI")
+  body = xa.text_content()
+  #text = html.fromstring(get_body(tree, body_tag)).text_content()
+  for sent in nltk.sent_tokenize(body):
+    for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
+      if hasattr(chunk, 'label'):
+        names.append((chunk.label(), ' '.join(c[0] for c in chunk.leaves())))
+  return names
+def get_names2(body):
+  names = []
   text = html.fromstring(body).text_content()
   for sent in nltk.sent_tokenize(text):
     for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
@@ -243,6 +277,7 @@ def main():
 
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
+  print("NEW FUNCTION:", track_authors(t, info[0], paper_type))
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
@@ -307,12 +342,16 @@ def main():
                                   c2[0],
                                   ext_refs,
                                   depth)
+              print("NEW FUNCTION:", track_authors(t2, new_info[0], new_tag))
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
             except: #requests.exceptions.SSLError
               new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [], None)
             visited.append(link)
-            new_article.names = get_names(b)
+            # not working so far
+            #new_article.names = get_names(t2, new_info[1])
+            # get author links
+            
             articles.append(new_article)
             try:
               trees[original_link] = clean_text(html.fromstring(b).text_content())#, new_tag)
