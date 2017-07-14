@@ -81,7 +81,6 @@ def get_authors(tree, author_tag, paper_type):
 def track_authors(tree, author_tag, paper_type):
   link_ls = []
 
-  html_ls = []
   if author_tag == 'N/A':
     return [paper_type], linkls
 
@@ -89,19 +88,12 @@ def track_authors(tree, author_tag, paper_type):
   for tag in author_tag.split("AND"):
     authors.extend(tree.xpath(tag))
     html_auth_tag = tag.replace("/text()", "")
-    html_ls.extend(tree.xpath(html_auth_tag))
-    for l in html_ls:
-      print("l:", html.tostring(l))
-      link = l.xpath("//a")
-      print("link is:", link)
-      for i in link:
-        print("a link:", html.tostring(i))
-      #print("href is ", link.get('href'))
-      link_ls.append(link.get('href'))
+    h = tree.xpath(html_auth_tag)[-1]
+    if(h.get('href')):
+      link_ls.append(reformat(h.get('href'), paper_type)[0])
 
   if paper_type == 'cnn':
     authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
-  #print("links:", link_ls)
   return authors, link_ls
 
 def get_date(tree, time_tag):
@@ -277,13 +269,14 @@ def main():
 
   t = html.fromstring(requests.get(arg[1]).content)
   authors = get_authors(t, info[0], paper_type)
-  print("NEW FUNCTION:", track_authors(t, info[0], paper_type))
+  #print("NEW FUNCTION:", track_authors(t, info[0], paper_type))
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
   title = get_title(t)#t.find_class('title') # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, get_quotes(t, info[1], paper_type), links, 0)
+  root.author_links = track_authors(t, info[0], paper_type)[1]
   print("ROOT QUOTES:", root.quotes)
   root.cite_text = cites[1]
 
@@ -342,7 +335,8 @@ def main():
                                   c2[0],
                                   ext_refs,
                                   depth)
-              print("NEW FUNCTION:", track_authors(t2, new_info[0], new_tag))
+              #print("NEW FUNCTION:", track_authors(t2, new_info[0], new_tag))
+              new_article.author_links = track_authors(t2, new_info[0], new_tag)[1]
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
             except: #requests.exceptions.SSLError
