@@ -52,7 +52,6 @@ class Article:
     print("Names:", self.names) 
     print("Links:",  self.links)
     print("External references:", self.external)
-    #print("Depth: ", self.depth)
 
   def jsonify(self):
     #return '{\n\t"url":"'+self.url+'",\n\t "title":"'+json.dumps(self.title)+'",\n\t"authors":'+json.dumps(self.authors)+',\n\t"date":"'+str(self.date)+'",\n\t"quotes":'+json.dumps(self.quotes)+',\n\t"links":'+json.dumps(self.links)+',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}'
@@ -416,5 +415,6 @@ def main():
     f.write('\n]')
 
   print("Average links/page", 1.*total_links/num_vertices)
+  print(get_names2(get_body(t, info[1])))
 main()
 
