@@ -261,11 +261,14 @@ def get_names(tree, body_tag):
   return names
 def get_names2(body):
   names = []
-  text = html.fromstring(body).text_content()
-  for sent in nltk.sent_tokenize(text):
-    for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
-      if hasattr(chunk, 'label'):
-        names.append((chunk.label(), ' '.join(c[0] for c in chunk.leaves())))
+  try:
+    text = html.fromstring(body).text_content()
+    for sent in nltk.sent_tokenize(text):
+      for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
+        if hasattr(chunk, 'label'):
+          names.append((chunk.label(), ' '.join(c[0] for c in chunk.leaves())))
+  except:
+    pass
   return names
 
 def main():
@@ -347,6 +350,7 @@ def main():
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
+              print("b1:", b)
             except: #requests.exceptions.SSLError
               n = "unknown"
               for recognized in recognized_pgs.keys():
@@ -355,7 +359,9 @@ def main():
               new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [n], None)
             visited.append(link)
             # not working so far
-            #new_article.names = get_names(t2, new_info[1])
+            print("b2:", b)
+            print("link:", link)
+            new_article.names = get_names2(b)#(t2, new_info[1])
             # get author links
             
             articles.append(new_article)
