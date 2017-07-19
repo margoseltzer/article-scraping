@@ -18,7 +18,7 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 '''
 trees = {}
 paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'date date--v2'],
-              'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()', '//section[@id="body-text"]', 'update-time'],
+              'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()AND//span[@class="metadata__byline__author"]/strong/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
               'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
               'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
@@ -28,6 +28,8 @@ paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'date date--v
               'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated'],
               'infowars' : ['//span[@class="author"]/text()', '//div[@class="text"]', 'date']
              }
+
+recognized_pgs = {'t.co' : "twitter"}
 
 class Article:
   def __init__(self, u, t, a, d, q=[], l=[], e=[], d2=0):
@@ -58,6 +60,7 @@ class Article:
     return ('{\n\t"url":"'+self.url+
             '",\n\t "title":'+json.dumps(self.title)+
             ',\n\t"authors":'+json.dumps(self.authors)+
+            ',\n\t"author_links":'+json.dumps(self.author_links)+
             ',\n\t"date":"'+str(self.date)+
             '",\n\t"quotes":'+json.dumps(self.quotes)+
             ',\n\t"names":'+json.dumps(self.names)+
@@ -67,7 +70,7 @@ class Article:
 def my_tostring(x):
   return html.tostring(x, encoding = "unicode")
 
-def get_authors(tree, author_tag, paper_type):
+'''def get_authors(tree, author_tag, paper_type):
   if author_tag == 'N/A':
     return [paper_type]
   authors = []
@@ -75,9 +78,9 @@ def get_authors(tree, author_tag, paper_type):
     authors.extend(tree.xpath(tag))
   if paper_type == 'cnn':
     authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
-  return authors
+  return authors'''
 
-def track_authors(tree, author_tag, paper_type):
+def track_authors(tree, author_tag, paper_type, link):
   link_ls = []
 
   if author_tag == 'N/A':
@@ -87,12 +90,24 @@ def track_authors(tree, author_tag, paper_type):
   for tag in author_tag.split("AND"):
     authors.extend(tree.xpath(tag))
     html_auth_tag = tag.replace("/text()", "")
-    h = tree.xpath(html_auth_tag)[-1]
-    if(h.get('href')):
-      link_ls.append(reformat(h.get('href'), paper_type)[0])
-
+    h = tree.xpath(html_auth_tag)
+    if h != []:
+      h = tree.xpath(html_auth_tag)[-1]
+      if(h.get('href')):
+        link_ls.append(reformat(h.get('href'), paper_type)[0])
+  new_auths =  []
   if paper_type == 'cnn':
-    authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
+    for a in authors:
+      to_add =  a.replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
+      new_auths.extend(to_add)
+    authors = [x for x in new_auths if x != ""]
+  if authors == []:
+    n = "unknown"
+    for recognized in recognized_pgs.keys():
+      if recognized in link:
+        n = recognized_pgs[recognized]
+    authors = [n]
+    #authors = [paper_type]
   return authors, link_ls
 
 def get_date(tree, time_tag):
@@ -208,19 +223,14 @@ def match2(quotes, links, paper_type):
     for l in links:
       try:
         text = trees[l]
-        #print("i=",l)
-        #print("q=", q, "len:", len(q), type(q))
-        #print("t=", type(text))
         if q[1:len(q)-1] in text: #text.find(q) >= 0:
           found = True
           matches[q] = l
           break
       except KeyError:
-        #pass
         # all I really need to do is check the page html
         text = str(requests.get(reformat(l, paper_type)[0]).content)
         text = re.sub("&#39;", "'", text)
-        #if q[1:len(q)-1] in str(text):
         if q[1:len(q)-1] in text:
           found = True
           matches[q] = l
@@ -267,15 +277,14 @@ def main():
   info = paper_tags.get(paper_type)
 
   t = html.fromstring(requests.get(arg[1]).content)
-  authors = get_authors(t, info[0], paper_type)
-  #print("NEW FUNCTION:", track_authors(t, info[0], paper_type))
+  authors, auth_ls = track_authors(t, info[0], paper_type, arg[1])
   cites = get_links(get_body(t, info[1]))
   links = cites[0]
   date = get_date(t, info[2])
-  title = get_title(t)#t.find_class('title') # (will find html page title, not exactly article title)
+  title = get_title(t) # (will find html page title, not exactly article title)
 
   root = Article(arg[1], title, authors, date, get_quotes(t, info[1], paper_type), links, 0)
-  root.author_links = track_authors(t, info[0], paper_type)[1]
+  root.author_links = auth_ls
   print("ROOT QUOTES:", root.quotes)
   root.cite_text = cites[1]
 
@@ -326,20 +335,24 @@ def main():
               t2 = html.fromstring(requests.get(link).content)
               b = get_body(t2, new_info[1])
               c2 = get_links(b)
+              new_authors, new_auth_ls = track_authors(t2, new_info[0], new_tag, link)
               new_article = Article(link, 
                                   get_title(t2), 
-                                  get_authors(t2, new_info[0], new_tag), 
+                                  new_authors, 
                                   get_date(t2, new_info[2]),
                                   get_quotes(t2, new_info[1],  new_tag),
                                   c2[0],
                                   ext_refs,
                                   depth)
-              #print("NEW FUNCTION:", track_authors(t2, new_info[0], new_tag))
-              new_article.author_links = track_authors(t2, new_info[0], new_tag)[1]
+              new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
             except: #requests.exceptions.SSLError
-              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [], None)
+              n = "unknown"
+              for recognized in recognized_pgs.keys():
+                if recognized in link:
+                  n = recognized_pgs[recognized]
+              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [n], None)
             visited.append(link)
             # not working so far
             #new_article.names = get_names(t2, new_info[1])
@@ -377,8 +390,6 @@ def main():
   print("\nNUMBER OF LINKS:", total_links)
   print("NUMBER OF DISTINCT:", len(visited))
 
-  #print root.cite_text
-  
   #look for root's quotes/citations
   # getting weird "" as citations, seems to be from images so I will remove those now
   qs0, indices0 = get_quotes(t, info[1], paper_type)
