@@ -20,7 +20,7 @@ trees = {}
 paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'date date--v2'],
               'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()AND//span[@class="metadata__byline__author"]/strong/text()', '//section[@id="body-text"]', 'update-time'],
               'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
-              'nyt' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
+              'nytimes' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
               'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
               'chicagotribune' : ['//span[@itemprop="author"]/text()', '//div[@itemprop="articleBody"]', 'trb_ar_dateline_time'],
               'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
