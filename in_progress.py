@@ -17,16 +17,37 @@ RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-
 
 '''
 trees = {}
-paper_tags = {'bbc' : ['N/A', '//div[@class="story-body__inner"]', 'date date--v2'],
-              'cnn' : ['//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()AND//span[@class="metadata__byline__author"]/strong/text()', '//section[@id="body-text"]', 'update-time'],
-              'reuters' : ['//div[@id="article-byline"]/span/a/text()', '//span[@id="article-text"]', 'timestamp'],
-              'nytimes' : ['//span[@class="byline-author"]/text()', '//p[@class="story-body-text story-content"]', 'dateline'],
-              'washingtonexaminer' : ['//span[@itemprop="name"]/text()', '//section[@class="article-body"]', 'article-date text-muted'],
-              'chicagotribune' : ['//span[@itemprop="author"]/text()', '//div[@itemprop="articleBody"]', 'trb_ar_dateline_time'],
-              'breitbart' : ['//a[@class="byauthor"]/text()', '//div[@class="entry-content"]', 'bydate'],
-              'dailymail' : ['//p/a[@class="author"]/text()', '//div[@id="js-article-text"]', 'article-timestamp article-timestamp published'],
-              'newstarget' : ['//div[@class="author-link"]/text()', '//div[@class="entry-content"]', 'entry-date updated'],
-              'infowars' : ['//span[@class="author"]/text()', '//div[@class="text"]', 'date']
+
+paper_tags = {'bbc' : {'author' : 'N/A', 
+                       'body' : '//div[@class="story-body__inner"]', 
+                       'date' : 'date date--v2'},
+              'cnn' : {'author' : '//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()AND//span[@class="metadata__byline__author"]/strong/text()', 
+                       'body' : '//section[@id="body-text"]', 
+                       'date' : 'update-time'},
+              'reuters' : {'author' : '//div[@id="article-byline"]/span/a/text()', 
+                       'body' : '//span[@id="article-text"]', 
+                       'date' : 'timestamp'},
+              'nytimes' : {'author' : '//span[@class="byline-author"]/text()', 
+                       'body' : '//p[@class="story-body-text story-content"]', 
+                       'date' : 'dateline'},
+              'washingtonexaminer' : {'author' : '//span[@itemprop="name"]/text()', 
+                       'body' : '//section[@class="article-body"]', 
+                       'date' : 'article-date text-muted'},
+              'chicagotribune' : {'author' : '//span[@itemprop="author"]/text()', 
+                       'body' : '//div[@itemprop="articleBody"]', 
+                       'date' : 'trb_ar_dateline_time'},
+              'breitbart' : {'author' : '//a[@class="byauthor"]/text()', 
+                       'body' : '//div[@class="entry-content"]', 
+                       'date' : 'bydate'},
+              'dailymail' : {'author' : '//p/a[@class="author"]/text()', 
+                       'body' : '//div[@id="js-article-text"]', 
+                       'date' : 'article-timestamp article-timestamp published'},
+              'newstarget' : {'author' : '//div[@class="author-link"]/text()', 
+                       'body' : '//div[@class="entry-content"]', 
+                       'date' : 'entry-date updated'},
+              'infowars' : {'author' : '//span[@class="author"]/text()', 
+                       'body' : '//div[@class="text"]', 
+                       'date' : 'date'}
              }
 
 recognized_pgs = {'t.co' : "twitter"}
@@ -118,6 +139,10 @@ def get_date(tree, time_tag):
     return "Error: Could not get date"
 
 def get_body(tree, body_tag):
+  # below applies to CNN:
+  for bad in tree.xpath('//div[@class="el__storyhighlights"]'):
+    bad.getparent().remove(bad)
+
   body_parts = tree.xpath(body_tag)
   body = ""
   for b in body_parts:
@@ -280,13 +305,13 @@ def main():
   info = paper_tags.get(paper_type)
 
   t = html.fromstring(requests.get(arg[1]).content)
-  authors, auth_ls = track_authors(t, info[0], paper_type, arg[1])
-  cites = get_links(get_body(t, info[1]))
+  authors, auth_ls = track_authors(t, info['author'], paper_type, arg[1])
+  cites = get_links(get_body(t, info['body']))
   links = cites[0]
-  date = get_date(t, info[2])
+  date = get_date(t, info['date'])
   title = get_title(t) # (will find html page title, not exactly article title)
 
-  root = Article(arg[1], title, authors, date, get_quotes(t, info[1], paper_type), links, 0)
+  root = Article(arg[1], title, authors, date, get_quotes(t, info['body'], paper_type), links, 0)
   root.author_links = auth_ls
   print("ROOT QUOTES:", root.quotes)
   root.cite_text = cites[1]
@@ -336,21 +361,21 @@ def main():
               #for c in citations:
               #  # get the text inside, I guess
               t2 = html.fromstring(requests.get(link).content)
-              b = get_body(t2, new_info[1])
+              b = get_body(t2, new_info['body'])
               c2 = get_links(b)
-              new_authors, new_auth_ls = track_authors(t2, new_info[0], new_tag, link)
+              new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
               new_article = Article(link, 
                                   get_title(t2), 
                                   new_authors, 
-                                  get_date(t2, new_info[2]),
-                                  get_quotes(t2, new_info[1],  new_tag),
+                                  get_date(t2, new_info['date']),
+                                  get_quotes(t2, new_info['body'],  new_tag),
                                   c2[0],
                                   ext_refs,
                                   depth)
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
-              print("b1:", b)
+              #print("b1:", b)
             except: #requests.exceptions.SSLError
               n = "unknown"
               for recognized in recognized_pgs.keys():
@@ -359,7 +384,7 @@ def main():
               new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [n], None)
             visited.append(link)
             # not working so far
-            print("b2:", b)
+            #print("b2:", b)
             print("link:", link)
             new_article.names = get_names2(b)#(t2, new_info[1])
             # get author links
@@ -398,7 +423,7 @@ def main():
 
   #look for root's quotes/citations
   # getting weird "" as citations, seems to be from images so I will remove those now
-  qs0, indices0 = get_quotes(t, info[1], paper_type)
+  qs0, indices0 = get_quotes(t, info['body'], paper_type)
   qs = []
   indices = []
   for i in range(len(qs0)):
@@ -408,7 +433,7 @@ def main():
   print(qs)
 
   citations_index = []
-  text = html.fromstring(get_body(t, info[1])).text_content()
+  text = html.fromstring(get_body(t, info['body'])).text_content()
   clean_text(text)#, paper_type)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
@@ -432,6 +457,6 @@ def main():
     f.write('\n]')
 
   print("Average links/page", 1.*total_links/num_vertices)
-  print(get_names2(get_body(t, info[1])))
+  print(get_names2(get_body(t, info['body'])))
 main()
 
