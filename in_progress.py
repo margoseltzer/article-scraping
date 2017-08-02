@@ -20,34 +20,44 @@ trees = {}
 
 paper_tags = {'bbc' : {'author' : 'N/A', 
                        'body' : '//div[@class="story-body__inner"]', 
-                       'date' : 'date date--v2'},
+                       'date' : 'date date--v2',
+                       'href' : 'N/A'},
               'cnn' : {'author' : '//span[@class="metadata__byline__author"]/text()AND//span[@class="metadata__byline__author"]/a/text()AND//span[@class="metadata__byline__author"]/strong/text()', 
                        'body' : '//section[@id="body-text"]', 
-                       'date' : 'update-time'},
+                       'date' : 'update-time',
+                       'href' : '//h3[@class=cd__headline"]'},
               'reuters' : {'author' : '//div[@id="article-byline"]/span/a/text()', 
                        'body' : '//span[@id="article-text"]', 
-                       'date' : 'timestamp'},
+                       'date' : 'timestamp',
+                       'href' : '//div[@class="feature"]'},
               'nytimes' : {'author' : '//span[@class="byline-author"]/text()', 
                        'body' : '//p[@class="story-body-text story-content"]', 
-                       'date' : 'dateline'},
+                       'date' : 'dateline',
+                       'href' : '//div[@class="story-body"]'},
               'washingtonexaminer' : {'author' : '//span[@itemprop="name"]/text()', 
                        'body' : '//section[@class="article-body"]', 
-                       'date' : 'article-date text-muted'},
+                       'date' : 'article-date text-muted',
+                       'href' : '//div[@class="align-top"]'},
               'chicagotribune' : {'author' : '//span[@itemprop="author"]/text()', 
                        'body' : '//div[@itemprop="articleBody"]', 
-                       'date' : 'trb_ar_dateline_time'},
+                       'date' : 'trb_ar_dateline_time',
+                       'href' : '//li[@class="trb_outfit_group_list_item"]'},
               'breitbart' : {'author' : '//a[@class="byauthor"]/text()', 
                        'body' : '//div[@class="entry-content"]', 
-                       'date' : 'bydate'},
+                       'date' : 'bydate',
+                       'href' : '//div[@class="grp-content"]'},
               'dailymail' : {'author' : '//p/a[@class="author"]/text()', 
                        'body' : '//div[@id="js-article-text"]', 
-                       'date' : 'article-timestamp article-timestamp published'},
+                       'date' : 'article-timestamp article-timestamp published',
+                       'href' : '//h3[@class="sch-res-title"]'},
               'newstarget' : {'author' : '//div[@class="author-link"]/text()', 
                        'body' : '//div[@class="entry-content"]', 
-                       'date' : 'entry-date updated'},
+                       'date' : 'entry-date updated',
+                       'href' : '//div[@class="f-tabbed-list-content"]'},
               'infowars' : {'author' : '//span[@class="author"]/text()', 
                        'body' : '//div[@class="text"]', 
-                       'date' : 'date'}
+                       'date' : 'date',
+                       'href' : '//article'}
              }
 
 recognized_pgs = {'t.co' : "twitter"}
@@ -90,16 +100,6 @@ class Article:
 
 def my_tostring(x):
   return html.tostring(x, encoding = "unicode")
-
-'''def get_authors(tree, author_tag, paper_type):
-  if author_tag == 'N/A':
-    return [paper_type]
-  authors = []
-  for tag in author_tag.split("AND"):
-    authors.extend(tree.xpath(tag))
-  if paper_type == 'cnn':
-    authors = authors[0].replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
-  return authors'''
 
 def track_authors(tree, author_tag, paper_type, link):
   link_ls = []
@@ -273,17 +273,6 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
   return text.sentiment
 
-def get_names(tree, body_tag):
-  names = []
-  xa = html.fromstring(get_body(tree, body_tag))
-  print("HI")
-  body = xa.text_content()
-  #text = html.fromstring(get_body(tree, body_tag)).text_content()
-  for sent in nltk.sent_tokenize(body):
-    for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
-      if hasattr(chunk, 'label'):
-        names.append((chunk.label(), ' '.join(c[0] for c in chunk.leaves())))
-  return names
 def get_names2(body):
   names = []
   try:
@@ -295,6 +284,25 @@ def get_names2(body):
   except:
     pass
   return names
+
+# WIP: adding from author links into queue (need to check if works)
+def add_same_authors(tree, queue, paper_type):
+  articles_urls = get_links(tree.xpath(info[paper_type]['href']))
+  for url in articles_urls:
+    t2 = html.fromstring(requests.get(url).content)
+    b = get_body(t2, new_info['body'])
+    c2 = get_links(b)
+    new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
+    new_article = Article(link, 
+                          get_title(t2), 
+                          new_authors, 
+                          get_date(t2, new_info['date']),
+                          get_quotes(t2, new_info['body'],  new_tag),
+                          c2[0],
+                          ext_refs,
+                          0)
+    new_article.author_links = new_auth_ls
+    new_article.cite_text = c2[1]
 
 def main():
   arg = sys.argv
