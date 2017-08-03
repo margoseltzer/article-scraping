@@ -283,6 +283,15 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
   return text.sentiment
 
+# analyze just the paragraph containing the quote
+def analyze2(tree, para_tag, quote):
+  paragraphs = tree.xpath(para_tag)
+  for p in paragraphs:
+    s = p.text_content()
+    if quote in s:
+      text = TextBlob(s)
+      return text.sentiment
+
 def get_names2(body):
   names = []
   try:
