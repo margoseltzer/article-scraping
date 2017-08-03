@@ -17,39 +17,39 @@ CPL.p_object(bundle, False)
 
 stuff = []
 relations = []
-articles = {}
 
 cite = c.create_object(originator, 'Cite', CPL.ACTIVITY, bundle)
 CPL.p_object(bundle)
 write = c.create_object(originator, 'Write', CPL.ACTIVITY, bundle)
 CPL.p_object(bundle)
 
+articles = {}
+
 for article in data:
-  entity_name = article  # not sure I can do this but I'd like to in order to retain the info
+  entity_name = str(article["url"])
   entity_type = CPL.ENTITY
   entity = c.create_object(originator, entity_name, entity_type, bundle)
   CPL.p_object(entity)
   stuff.append(entity)
+  articles[article['url']] = (entity, article)
 
   for author in article["authors"]:
-    agent_name = "Author"
     agent_type = CPL.AGENT
-    agent_name = author
+    agent_name = str(author)
     agent = c.create_object(originator, agent_name, agent_type, bundle)
     CPL.p_object(agent)
     stuff.append(agent)
-    articles[article['link']] = agent
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
-for a in articles:
-  article = articles[a]
+for article in articles:
+  a = articles[article]
   # find other articles, add relationship to articles
-  for link in article["links"]:
+  for link in a[1]["links"]:
     try:
-      match = articles[link]
+      match = articles[link][0]
     except KeyError:
       match = None
-    if not match:
-      relations.append(article.relation_to(articles, CPL.WASGENERATEDBY, bundle))
+    if match:
+      relations.append(a[0].relation_to(match, CPL.WASGENERATEDBY, bundle))
   
 c.close()
