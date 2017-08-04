@@ -160,10 +160,6 @@ def get_body(tree, body_tag):
   return body
 
 def clean_text(text):
-  #if paper_type not in ['nyt', 'infowars']:
-  ##text = re.sub("\'", "'", text)
-  #  return text
-  #print("i should be changing things")
   # not sure how the replace/re differ but they seem to...
   text = re.sub(u'\xe2\x80\x9c', '"', text)
   text = re.sub(u'\xe2\x80\x9d', '"', text)
@@ -306,7 +302,7 @@ def get_names2(body):
 
 # WIP: adding from author links into queue (need to check if works)
 def add_same_authors(tree, queue, paper_type):
-  articles_urls = get_links(tree.xpath(info[paper_type]['href']))
+  articles_urls = get_links(tree.xpath(paper_tags[paper_type]['href']))
   for url in articles_urls:
     t2 = html.fromstring(requests.get(url).content)
     b = get_body(t2, new_info['body'])

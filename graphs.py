@@ -39,6 +39,8 @@ for article in data:
     agent = c.create_object(originator, agent_name, agent_type, bundle)
     CPL.p_object(agent)
     stuff.append(agent)
+    print "Agent:", agent
+    print "entity:", entity
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
 for article in articles:
