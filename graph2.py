@@ -38,16 +38,14 @@ for article in data:
 
   index = 0
   for quote in article["quotes"][0]:
-    q = c.create_object(originator, str(quote), CPL.ACTIVITY, bundle)
+    q = c.create_object(originator, str(quote)[:25], CPL.ACTIVITY, bundle)
     CPL.p_object(q)
     stuff.append(q)
     relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
-'''
 
-    s = article["sentiments"][index]
+    s = c.create_object(originator, str(article["sentiments"][index]), CPL.ACTIVITY, bundle)
     relations.append(q.relation_to(s, CPL.WASASSOCIATEDWITH, bundle))
     index += 1
-'''
 
 for article in articles:
   a = articles[article]
