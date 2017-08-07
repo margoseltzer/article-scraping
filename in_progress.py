@@ -262,7 +262,7 @@ def match2(quotes, links, paper_type):
           break
       except KeyError:
         # all I really need to do is check the page html
-        text = str(requests.get(reformat(l, paper_type)[0]).content)
+        text = str(requests.get(reformat(l, paper_type)[0], verify=False).content)
         text = re.sub("&#39;", "'", text)
         if q[1:len(q)-1] in text:
           found = True
@@ -278,19 +278,21 @@ def analyze(link):
   try:
     text = trees[link]
   except KeyError:
-    text = TextBlob(str(requests.get(reformat(link, paper_type)[0]).content))
+    text = TextBlob(str(requests.get(reformat(link, paper_type)[0], verify=False).content))
   return text.sentiment
 
 # analyze just the paragraph containing the quote
 def analyze2(tree, para_tag, quote):
-  print("quote:", quote)
+  print("opiipfsidpfifoa:", quote)
   paragraphs = tree.xpath(para_tag)
+  print("hmm")
   for p in paragraphs:
     s = p.text_content()
     if quote in s:
       text = TextBlob(s)
       print("ADLJADSADSDS", text.sentiment)
       return str(text.sentiment)
+  print("HELLOOOOO")
   return str(None) #if error
 
 def get_names2(body):
@@ -309,7 +311,7 @@ def get_names2(body):
 def add_same_authors(tree, queue, paper_type):
   articles_urls = get_links(tree.xpath(paper_tags[paper_type]['href']))
   for url in articles_urls:
-    t2 = html.fromstring(requests.get(url).content)
+    t2 = html.fromstring(requests.get(url).content, verify=False)
     b = get_body(t2, new_info['body'])
     c2 = get_links(b)
     new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
@@ -321,7 +323,9 @@ def add_same_authors(tree, queue, paper_type):
                           c2[0],
                           ext_refs,
                           0)
-    new_article.sentiments = analyze2(tree, new_article.quotes, paper_tags[paper_type]['paragraph'])
+    if new_article.quotes != []:
+      for q in new_article.quotes[0]:
+        new_article.sentiments.append(analyze2(tree, paper_tags[paper_type]['paragraph'], q))
     new_article.author_links = new_auth_ls
     new_article.cite_text = c2[1]
 
@@ -333,7 +337,7 @@ def main():
     return
   info = paper_tags.get(paper_type)
 
-  t = html.fromstring(requests.get(arg[1]).content)
+  t = html.fromstring(requests.get(arg[1], verify=False).content)
   authors, auth_ls = track_authors(t, info['author'], paper_type, arg[1])
   cites = get_links(get_body(t, info['body']))
   links = cites[0]
@@ -343,6 +347,9 @@ def main():
   root = Article(arg[1], title, authors, date, get_quotes(t, info['body'], paper_type), links, 0)
   root.author_links = auth_ls
   print("ROOT QUOTES:", root.quotes)
+  if root.quotes != []:
+    for q in root.quotes[0]:
+      root.sentiments.append(analyze2(t, info['paragraph'], q))
   root.cite_text = cites[1]
 
   visited, queue = [arg[1]], collections.deque([root, None]) 
@@ -389,7 +396,7 @@ def main():
               #citations = get_links(get_body(t2, new_info[1]))
               #for c in citations:
               #  # get the text inside, I guess
-              t2 = html.fromstring(requests.get(link).content)
+              t2 = html.fromstring(requests.get(link).content, verify=False)
               b = get_body(t2, new_info['body'])
               c2 = get_links(b)
               new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
@@ -404,25 +411,26 @@ def main():
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
-              #print("b1:", b)
-            except: #requests.exceptions.SSLError
+            except Exception as e: #requests.exceptions.SSLError
+              print("EXCEPT:", e)
               n = "unknown"
               for recognized in recognized_pgs.keys():
                 if recognized in link:
                   n = recognized_pgs[recognized]
-              new_article = Article(link, get_title(html.fromstring(requests.get(link).content)), [n], None)
+              new_article = Article(link, get_title(html.fromstring(requests.get(link, verify=False).content)), [n], None)
+              b = ""
             visited.append(link)
             # not working so far
             #print("b2:", b)
             print("link:", link)
             new_article.names = get_names2(b)#(t2, new_info[1])
-            print(t2)
+            #print(t2)
             print(new_info['paragraph'])
             print(new_article.quotes)
+            print("hello im actually here tho")
             if new_article.quotes != []:
               for q in new_article.quotes[0]:
                 new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
-            print("SENTIMENTS:", new_article.sentiments)
             # get author links
             
             articles.append(new_article)
