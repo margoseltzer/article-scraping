@@ -281,6 +281,10 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0], verify=False).content))
   return text.sentiment
 
+# might not need a real function for this...
+def analyze_text(text):
+  return TextBlob(text).sentiment
+
 # analyze just the paragraph containing the quote
 def analyze2(tree, para_tag, quote):
   print("opiipfsidpfifoa:", quote)
