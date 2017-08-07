@@ -283,6 +283,7 @@ def analyze(link):
 
 # analyze just the paragraph containing the quote
 def analyze2(tree, para_tag, quote):
+  print("quote:", quote)
   paragraphs = tree.xpath(para_tag)
   for p in paragraphs:
     s = p.text_content()
@@ -420,7 +421,6 @@ def main():
             print(new_article.quotes)
             if new_article.quotes != []:
               for q in new_article.quotes[0]:
-                print("q is", q)
                 new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
             print("SENTIMENTS:", new_article.sentiments)
             # get author links
