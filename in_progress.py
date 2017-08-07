@@ -85,6 +85,7 @@ class Article:
     self.cite_text = []
     self.author_links = [] # links to author pages, if applicable
     self.names = []
+    self.sentiments = []
 
   def to_string(self):
     print("\nURL:", self.url)
@@ -106,6 +107,7 @@ class Article:
             '",\n\t"quotes":'+json.dumps(self.quotes)+
             ',\n\t"names":'+json.dumps(self.names)+
             ',\n\t"links":'+json.dumps(self.links)+
+            ',\n\t"sentiments":'+json.dumps(self.sentiments)+
             ',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}')
 
 def my_tostring(x):
@@ -286,7 +288,9 @@ def analyze2(tree, para_tag, quote):
     s = p.text_content()
     if quote in s:
       text = TextBlob(s)
-      return text.sentiment
+      print("ADLJADSADSDS", text.sentiment)
+      return str(text.sentiment)
+  return str(None) #if error
 
 def get_names2(body):
   names = []
@@ -410,6 +414,15 @@ def main():
             #print("b2:", b)
             print("link:", link)
             new_article.names = get_names2(b)#(t2, new_info[1])
+            new_article.sentiments = analyze
+            print(t2)
+            print(new_info['paragraph'])
+            print(new_article.quotes)
+            print("ADAKLSDJALKDA", analyze2(t2, new_info['paragraph'], new_article.quotes[0]))
+            for q in new_article.quotes:
+              print("q is", q)
+              new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
+            print("SENTIMENTS:", new_article.sentiments)
             # get author links
             
             articles.append(new_article)
