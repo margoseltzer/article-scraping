@@ -73,7 +73,7 @@ paper_tags = {'bbc' : {'author' : 'N/A',
 recognized_pgs = {'t.co' : "twitter"}
 
 class Article:
-  def __init__(self, u, t, a, d, q=[], l=[], e=[], d2=0):
+  def __init__(self, u, t, a, d, q=[[],[]], l=[], e=[], d2=0):
     self.url = u
     self.title = t
     self.authors = a
@@ -320,6 +320,7 @@ def add_same_authors(tree, queue, paper_type):
                           c2[0],
                           ext_refs,
                           0)
+    new_article.sentiments = analyze2(tree, new_article.quotes, paper_tags[paper_type]['paragraph'])
     new_article.author_links = new_auth_ls
     new_article.cite_text = c2[1]
 
@@ -417,9 +418,10 @@ def main():
             print(t2)
             print(new_info['paragraph'])
             print(new_article.quotes)
-            for q in new_article.quotes:
-              print("q is", q)
-              new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
+            if new_article.quotes != []:
+              for q in new_article.quotes[0]:
+                print("q is", q)
+                new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
             print("SENTIMENTS:", new_article.sentiments)
             # get author links
             

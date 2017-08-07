@@ -18,17 +18,10 @@ CPL.p_object(bundle, False)
 stuff = []
 relations = []
 
-cite = c.create_object(originator, 'Cite', CPL.ACTIVITY, bundle)
-CPL.p_object(bundle)
-write = c.create_object(originator, 'Write', CPL.ACTIVITY, bundle)
-CPL.p_object(bundle)
-
 articles = {}
 
 for article in data:
-  entity_name = str(article["url"])
-  entity_type = CPL.ENTITY
-  entity = c.create_object(originator, entity_name, entity_type, bundle)
+  entity = c.create_object(originator, str(article["url"]), CPL.ENTITY, bundle)
   CPL.p_object(entity)
   stuff.append(entity)
   articles[article['url']] = (entity, article)
@@ -43,11 +36,18 @@ for article in data:
     print "entity:", entity
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
-  for quote in article["quotes"]:
-    agent2 = c.create_object(originator, quote, CPL.AGENT, bundle)
-    CPL.p_object(entity2)
-    stuff.append(entity2)
-    relations.append(agent.relation_to(agent2, CPL.WASATTRIBUTEDTO, bundle))
+  index = 0
+  for quote in article["quotes"][0]:
+    q = c.create_object(originator, str(quote), CPL.ACTIVITY, bundle)
+    CPL.p_object(q)
+    stuff.append(q)
+    relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
+'''
+
+    s = article["sentiments"][index]
+    relations.append(q.relation_to(s, CPL.WASASSOCIATEDWITH, bundle))
+    index += 1
+'''
 
 for article in articles:
   a = articles[article]
@@ -58,7 +58,7 @@ for article in articles:
     except KeyError:
       match = None
     if match:
-      relations.append(a[0].relation_to(match, CPL.WASGENERATEDBY, bundle))
+      relations.append(a[0].relation_to(match, CPL.WASDERIVEDFROM, bundle))
   
 c.export_bundle_json(bundle, "output.txt")
 
