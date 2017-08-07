@@ -349,7 +349,7 @@ def main():
   depthls = [0]
 
   trees[arg[1]] = t
-  articles = []
+  articles = [root]
   total_links = 1 # starts at 1 bc of root
   num_vertices = 0
   while (depth < 3) and (len(queue) != 0):
@@ -414,11 +414,9 @@ def main():
             #print("b2:", b)
             print("link:", link)
             new_article.names = get_names2(b)#(t2, new_info[1])
-            new_article.sentiments = analyze
             print(t2)
             print(new_info['paragraph'])
             print(new_article.quotes)
-            print("ADAKLSDJALKDA", analyze2(t2, new_info['paragraph'], new_article.quotes[0]))
             for q in new_article.quotes:
               print("q is", q)
               new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
