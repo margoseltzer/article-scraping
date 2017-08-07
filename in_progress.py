@@ -285,7 +285,6 @@ def analyze(link):
 def analyze2(tree, para_tag, quote):
   print("opiipfsidpfifoa:", quote)
   paragraphs = tree.xpath(para_tag)
-  print("hmm")
   for p in paragraphs:
     s = p.text_content()
     if quote in s:
@@ -311,7 +310,7 @@ def get_names2(body):
 def add_same_authors(tree, queue, paper_type):
   articles_urls = get_links(tree.xpath(paper_tags[paper_type]['href']))
   for url in articles_urls:
-    t2 = html.fromstring(requests.get(url).content, verify=False)
+    t2 = html.fromstring(requests.get(url, verify=False).content)
     b = get_body(t2, new_info['body'])
     c2 = get_links(b)
     new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
@@ -396,7 +395,7 @@ def main():
               #citations = get_links(get_body(t2, new_info[1]))
               #for c in citations:
               #  # get the text inside, I guess
-              t2 = html.fromstring(requests.get(link).content, verify=False)
+              t2 = html.fromstring(requests.get(link, verify=False).content)
               b = get_body(t2, new_info['body'])
               c2 = get_links(b)
               new_authors, new_auth_ls = track_authors(t2, new_info['author'], new_tag, link)
@@ -411,8 +410,9 @@ def main():
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
-            except Exception as e: #requests.exceptions.SSLError
-              print("EXCEPT:", e)
+            #except Exception as e: #requests.exceptions.SSLError
+            except:
+              #print("EXCEPT:", e)
               n = "unknown"
               for recognized in recognized_pgs.keys():
                 if recognized in link:
@@ -427,7 +427,6 @@ def main():
             #print(t2)
             print(new_info['paragraph'])
             print(new_article.quotes)
-            print("hello im actually here tho")
             if new_article.quotes != []:
               for q in new_article.quotes[0]:
                 new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
