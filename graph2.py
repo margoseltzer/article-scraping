@@ -58,7 +58,7 @@ for article in articles:
     if match:
       relations.append(a[0].relation_to(match, CPL.WASDERIVEDFROM, bundle))
   
-c.export_bundle_json(bundle, "output.txt")
+c.export_bundle_json(bundle, "output.json")
 
 c.close()
 

@@ -8,10 +8,13 @@ for summer 2017 news article scraping
   * outputs "articles.json"
 * ```graph2.py```
   * up-to-date version of ```graph.py```
+  * input is "articles.json"
+  * outputs "output.json"
 
 ## How to run
 * Uses Python 3
-*
+* ```python3 in_progress.py [url of article]```
+* ```python graph2.py```
 
 good articles:
 https://www.nytimes.com/2017/07/19/us/politics/john-mccain-brain-cancer.html
