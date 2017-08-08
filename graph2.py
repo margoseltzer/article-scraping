@@ -43,8 +43,10 @@ for article in data:
     stuff.append(q)
     relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
 
-    s = c.create_object(originator, str(article["sentiments"][index]), CPL.ACTIVITY, bundle)
-    relations.append(q.relation_to(s, CPL.WASASSOCIATEDWITH, bundle))
+    s = c.create_object(originator, str(article["sentiments"][index]), CPL.AGENT, bundle)
+    r = s.relation_from(q, CPL.WASASSOCIATEDWITH, bundle)
+    relations.append(r)
+    #relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
     index += 1
 
 for article in articles:

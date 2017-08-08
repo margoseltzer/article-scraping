@@ -16,6 +16,10 @@ for summer 2017 news article scraping
 * ```python3 in_progress.py [url of article]```
 * ```python graph2.py```
 
+## Current issues
+* it's not showing relationships like wasgeneratedby and wasassociatedwith although those relationships are shown in output.json
+* working on comparing sentiment of paragraph to quote
+
 good articles:
 https://www.nytimes.com/2017/07/19/us/politics/john-mccain-brain-cancer.html
 http://www.washingtonexaminer.com/senate-judiciary-committee-approves-fbi-nominee-christopher-wray/article/2629199

@@ -86,6 +86,7 @@ class Article:
     self.author_links = [] # links to author pages, if applicable
     self.names = []
     self.sentiments = []
+    self.num_flags = 0
 
   def to_string(self):
     print("\nURL:", self.url)
@@ -108,6 +109,7 @@ class Article:
             ',\n\t"names":'+json.dumps(self.names)+
             ',\n\t"links":'+json.dumps(self.links)+
             ',\n\t"sentiments":'+json.dumps(self.sentiments)+
+            ',\n\t"num_flags":'+json.dumps(self.num_flags)+
             ',\n\t"cite_text":'+json.dumps(self.cite_text)+'\n}')
 
 def my_tostring(x):
@@ -284,6 +286,18 @@ def analyze(link):
 # might not need a real function for this...
 def analyze_text(text):
   return TextBlob(text).sentiment
+
+# count mismatches between quote and paragraph sentiment
+def count_flags(tree, para_tag, quotes):
+  paragraphs = tree.xpath(para_tag)
+  diff_counter = 0
+  for p in paragraphs:
+    for q in quotes:
+      s = p.text_content()
+    if q in s:
+      if TextBlob(s).sentiment.polarity * TextBlob(q).sentiment.polarity < 0:
+        diff_counter += 1
+  return diff_counter
 
 # analyze just the paragraph containing the quote
 def analyze2(tree, para_tag, quote):
