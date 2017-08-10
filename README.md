@@ -18,6 +18,7 @@ for summer 2017 news article scraping
 
 ## Current issues
 * it's not showing relationships like wasgeneratedby and wasassociatedwith although those relationships are shown in output.json
+  * it's the backslashes, rename nodes
 * working on comparing sentiment of paragraph to quote
 
 good articles:

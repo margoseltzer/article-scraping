@@ -294,9 +294,9 @@ def count_flags(tree, para_tag, quotes):
   for p in paragraphs:
     for q in quotes:
       s = p.text_content()
-    if q in s:
-      if TextBlob(s).sentiment.polarity * TextBlob(q).sentiment.polarity < 0:
-        diff_counter += 1
+      if q in s:
+        if TextBlob(s).sentiment.polarity * TextBlob(q).sentiment.polarity < 0:
+          diff_counter += 1
   return diff_counter
 
 # analyze just the paragraph containing the quote
