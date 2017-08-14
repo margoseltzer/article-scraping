@@ -17,9 +17,9 @@ for summer 2017 news article scraping
 * ```python graph2.py```
 
 ## Current issues
-* it's not showing relationships like wasgeneratedby and wasassociatedwith although those relationships are shown in output.json
-  * it's the backslashes, rename nodes
 * working on comparing sentiment of paragraph to quote
+  * not sure it will actually be accurate
+* ```upload.js``` (for now put in a separate folder) doesn't quite work; file seems to upload but not able to graph
 
 good articles:
 https://www.nytimes.com/2017/07/19/us/politics/john-mccain-brain-cancer.html
