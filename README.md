@@ -5,21 +5,28 @@ for summer 2017 news article scraping
 * ```in_progress.py```
   * could be named better :P
   * program that does the scraping
-  * outputs "articles.json"
+  * outputs ```articles.json```
+  * uses Python 3
 * ```graph2.py```
   * up-to-date version of ```graph.py```
-  * input is "articles.json"
-  * outputs "output.json"
+  * input is ```articles.json```
+  * outputs ```output.json```
+  * since cpl-prov uses Python 2, uses python 2 as well
+* ```upload.py```
+  * uploads ```output.json``` to <http://camflow.org/demo>
+  * outputs ```sshot.png```, the resulting graph
+  * uses Python 3
 
 ## How to run
-* Uses Python 3
 * ```python3 in_progress.py [url of article]```
 * ```python graph2.py```
+* ```python3 upload.py```
 
 ## Current issues
 * working on comparing sentiment of paragraph to quote
   * not sure it will actually be accurate
-* ```upload.js``` (for now put in a separate folder) doesn't quite work; file seems to upload but not able to graph
+* linked vs unliked quotes
+* labeled corpus
 
 good articles:
 https://www.nytimes.com/2017/07/19/us/politics/john-mccain-brain-cancer.html
