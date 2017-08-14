@@ -19,8 +19,8 @@ driver.find_element_by_id("fileinput").click()
 driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
 sleep(2)
 
-#element = driver.find_element_by_xpath('//canvas[@style="user-select"]')
-element = driver.find_element_by_css_selector('canvas')
+element = driver.find_element_by_xpath('//div[@style="position: relative; z-index: 0; overflow: hidden; width: 800px; height: 600px;"]')
+#element = driver.find_element_by_css_selector('canvas')
 location = element.location
 size = element.size
 driver.save_screenshot('sshot.png')
