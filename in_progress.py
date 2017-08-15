@@ -177,6 +177,30 @@ def clean_text(text):
 
   return text
 
+def get_quotes2(tree, body_tag, para_tag, paper_type):
+  text = html.fromstring(get_body(tree, body_tag)).text_content()
+  text = clean_text(text)
+  paragraphs = tree.xpath(para_tag)
+  rx = r'\{[^}]+\}\\?'
+  p_text = re.sub(rx, '', text)
+  quotes = []
+  for p in paragraphs:
+    unit = {}
+    p_text = html.tostring(p)
+    unit['paragraph'] = p_text
+    found = ""
+    for c in str(p_text):
+      if len(found) != 0:
+        found = found + c
+        if c == '"':
+          unit['quote'] = found
+          quotes.append(unit)
+          found = ""
+      else:
+        if c == '"':
+          found = found + c
+  return quotes
+
 def get_quotes(tree, body_tag, paper_type):
   text = html.fromstring(get_body(tree, body_tag)).text_content()
   text = clean_text(text)#, paper_type)

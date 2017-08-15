@@ -6,7 +6,7 @@ import CPL
 originator = "root"
 c = CPL.cpl_connection()
 
-with open("articles0.json") as f:
+with open("articles.json") as f:
   data = json.loads(f.read())
 
 ##################
