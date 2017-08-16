@@ -73,11 +73,22 @@ for article in articles:
   a = articles[article]
   # find other articles, add relationship to articles
   for link in a[1]["links"]:
+    if "http://" in link:
+      alt = link.replace("http://", "https://")
+    else:
+      alt = link.replace("https://", "http://")
+    match = None
     try:
-      match = articles[link][0]
+      match1 = articles[link][0]
+      match = match1
     except KeyError:
-      match = None
-    if match:
+      match1 = None
+    try:
+      match2 = articles[alt][0]
+      match = match2
+    except KeyError:
+      match2 = None
+    if match1 or match2:
       relations.append(a[0].relation_to(match, CPL.WASDERIVEDFROM, bundle))
   
 c.export_bundle_json(bundle, "output.json")
