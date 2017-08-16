@@ -175,18 +175,21 @@ def clean_text(text):
   text = text.replace("”", '"')
   text = text.replace("’", "'")
 
+  cleanr = re.compile('<.*?>')
+  cleanr2 = re.compile('{.*?}')
+  text = re.sub(cleanr, '', text)
+  text = re.sub(cleanr2, '', text)
+
   return text
 
-def get_quotes2(tree, body_tag, para_tag, paper_type):
-  text = html.fromstring(get_body(tree, body_tag)).text_content()
-  text = clean_text(text)
+def get_quotes2(tree, para_tag, paper_type):
   paragraphs = tree.xpath(para_tag)
   rx = r'\{[^}]+\}\\?'
   p_text = re.sub(rx, '', text)
   quotes = []
   for p in paragraphs:
     unit = {}
-    p_text = html.tostring(p)
+    p_text = clean_text(str(html.tostring(p)))
     unit['paragraph'] = p_text
     found = ""
     for c in str(p_text):
