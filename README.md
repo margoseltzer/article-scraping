@@ -8,7 +8,6 @@ for summer 2017 news article scraping
   * outputs ```articles.json```
   * uses Python 3
 * ```graph2.py```
-  * up-to-date version of ```graph.py```
   * input is ```articles.json```
   * outputs ```output.json```
   * since cpl-prov uses Python 2, uses python 2 as well
