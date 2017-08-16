@@ -52,7 +52,8 @@ for article in data:
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
   index = 0
-  for quote in article["quotes"][0]:
+  for unit in article["quotes"]:
+    quote = unit['quote']
     q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
     quote_counter += 1
 
