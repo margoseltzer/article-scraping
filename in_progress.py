@@ -182,10 +182,10 @@ def clean_text(text):
 
   return text
 
-def get_quotes2(tree, para_tag, paper_type):
+def get_quotes(tree, para_tag, paper_type):
   paragraphs = tree.xpath(para_tag)
-  rx = r'\{[^}]+\}\\?'
-  p_text = re.sub(rx, '', text)
+  #rx = r'\{[^}]+\}\\?'
+  #p_text = re.sub(rx, '', text)
   quotes = []
   for p in paragraphs:
     unit = {}
@@ -203,29 +203,6 @@ def get_quotes2(tree, para_tag, paper_type):
         if c == '"':
           found = found + c
   return quotes
-
-def get_quotes(tree, body_tag, paper_type):
-  text = html.fromstring(get_body(tree, body_tag)).text_content()
-  text = clean_text(text)#, paper_type)
-  rx = r'\{[^}]+\}\\?'
-  text = re.sub(rx, '', text)
-  found = ""
-  quotes_index = []
-  quotes = []
-  counter = 0
-  for c in text:
-    if len(found) != 0:
-      found = found + c
-      if c == '"':
-        #print(found)
-        quotes.append(found)
-        found = ""
-    else:
-      if c == '"':
-        found = found + c
-        quotes_index.append(counter)
-    counter += 1
-  return quotes, quotes_index
 
 def get_links(body):
   url_list = []
@@ -363,7 +340,7 @@ def add_same_authors(tree, queue, paper_type):
                           get_title(t2), 
                           new_authors, 
                           get_date(t2, new_info['date']),
-                          get_quotes(t2, new_info['body'],  new_tag),
+                          get_quotes(t2, new_info['paragraph'],  new_tag),
                           c2[0],
                           ext_refs,
                           0)
@@ -388,7 +365,7 @@ def main():
   date = get_date(t, info['date'])
   title = get_title(t) # (will find html page title, not exactly article title)
 
-  root = Article(arg[1], title, authors, date, get_quotes(t, info['body'], paper_type), links, 0)
+  root = Article(arg[1], title, authors, date, get_quotes(t, info['paragraph'], paper_type), links, 0)
   root.author_links = auth_ls
   print("ROOT QUOTES:", root.quotes)
   if root.quotes != []:
@@ -448,7 +425,7 @@ def main():
                                   get_title(t2), 
                                   new_authors, 
                                   get_date(t2, new_info['date']),
-                                  get_quotes(t2, new_info['body'],  new_tag),
+                                  get_quotes(t2, new_info['paragraph'],  new_tag),
                                   c2[0],
                                   ext_refs,
                                   depth)
@@ -509,15 +486,10 @@ def main():
   print("\nNUMBER OF LINKS:", total_links)
   print("NUMBER OF DISTINCT:", len(visited))
 
-  #look for root's quotes/citations
-  # getting weird "" as citations, seems to be from images so I will remove those now
-  qs0, indices0 = get_quotes(t, info['body'], paper_type)
+  qs0 = get_quotes(t, info['paragraph'], paper_type)
   qs = []
-  indices = []
-  for i in range(len(qs0)):
-    if qs0[i] != "":
-      qs.append(qs0[i])
-      indices.append(indices0[i])
+  for i in qs0:
+    qs.append(i['quote'])
   print(qs)
 
   citations_index = []
