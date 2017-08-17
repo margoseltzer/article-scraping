@@ -63,7 +63,12 @@ paper_tags = {'bbc' : {'author' : 'N/A',
                        'paragraph' : '//p',
                        'date' : 'entry-date updated',
                        'href' : '//div[@class="f-tabbed-list-content"]'},
-              'infowars' : {'author' : '//span[@class="author"]/text()', 
+              'latimes' : {'author' : '//a[@class="trb_ar_by_nm_au_a"]/text()', 
+                       'body' : '//div[@class="trb_ar_main"]', 
+                       'paragraph' : '//p',
+                       'date' : 'trb_ar_dateline_time',
+                       'href' : '//a[@class="trb_outfit_relatedListTitle_a"]'},
+              'infowars' : {'author' : '//span[@class="author"]/a/text()', 
                        'body' : '//div[@class="text"]', 
                        'paragraph' : '//p',
                        'date' : 'date',
@@ -136,6 +141,9 @@ def track_authors(tree, author_tag, paper_type, link):
       to_add =  a.replace("By ", "").replace(" and ", ", ").replace(", CNN", "").split(", ")
       new_auths.extend(to_add)
     authors = [x for x in new_auths if x != ""]
+
+  with open("derp.txt", "a") as f:
+    f.write(str(html.tostring(tree)))
   if authors == []:
     n = "unknown"
     for recognized in recognized_pgs.keys():
@@ -246,7 +254,7 @@ def reformat(url, paper_type):
     url = url.replace("https:", "http:")
     if not url.startswith("http"):
       url = "http://"+url
-    if paper_type in url:
+    if paper_type not in url:
       # identify if it is a paper program can handle
       link_type = paper(url)
       if not link_type:
@@ -287,10 +295,6 @@ def analyze(link):
     text = TextBlob(str(requests.get(reformat(link, paper_type)[0], verify=False).content))
   return text.sentiment
 
-# might not need a real function for this...
-def analyze_text(text):
-  return TextBlob(text).sentiment
-
 # count mismatches between quote and paragraph sentiment
 def count_flags(tree, para_tag, quotes):
   paragraphs = tree.xpath(para_tag)
@@ -304,7 +308,14 @@ def count_flags(tree, para_tag, quotes):
   return diff_counter
 
 # analyze just the paragraph containing the quote
-def analyze2(tree, para_tag, quote):
+def analyze2(tree, paragraph, quote):
+  if quote in paragraph:
+    text = TextBlob(paragraph)
+    print("ADLJADSADSDS", text.sentiment)
+    return str(text.sentiment)
+  print("HELLOOOOO")
+  return str(None) #if error
+'''
   print("opiipfsidpfifoa:", quote)
   paragraphs = tree.xpath(para_tag)
   for p in paragraphs:
@@ -315,6 +326,7 @@ def analyze2(tree, para_tag, quote):
       return str(text.sentiment)
   print("HELLOOOOO")
   return str(None) #if error
+'''
 
 def get_names2(body):
   names = []
@@ -391,11 +403,13 @@ def main():
     print("APPENDING "+vertex.url)
     total_links += len(vertex.links)
     for link in vertex.links:
+      print("Link=", link)
       ext_refs = []
       original_link = link
       formatted = reformat(link, paper_type)
       link = formatted[0]
       new_tag = formatted[1]
+      print("Fromatted:", formatted)
       new_info = paper_tags.get(new_tag)
       #print "formatted is ",formatted
       if not new_tag:
@@ -404,7 +418,7 @@ def main():
           visited.append(link)#original_link)
           depthls.append(depth)
       else:
-        if link not in visited:
+        if (link not in visited) and ('//#' not in link):
           # check whether this is already queued
           in_queue = False
           for q in queue:
@@ -417,6 +431,8 @@ def main():
               #citations = get_links(get_body(t2, new_info[1]))
               #for c in citations:
               #  # get the text inside, I guess
+              print("im using this link", link)
+              #t2 = html.fromstring(requests.get(link).content)
               t2 = html.fromstring(requests.get(link, verify=False).content)
               b = get_body(t2, new_info['body'])
               c2 = get_links(b)
@@ -432,13 +448,14 @@ def main():
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
               print("new_auth:", new_article.authors)
-            #except Exception as e: #requests.exceptions.SSLError
+              #except Exception as e: #requests.exceptions.SSLError
             except:
               #print("EXCEPT:", e)
               n = "unknown"
               for recognized in recognized_pgs.keys():
                 if recognized in link:
                   n = recognized_pgs[recognized]
+              print("LINK IS LKJFFSF:", link)
               new_article = Article(link, get_title(html.fromstring(requests.get(link, verify=False).content)), [n], None)
               b = ""
             visited.append(link)
@@ -450,8 +467,9 @@ def main():
             print(new_info['paragraph'])
             print(new_article.quotes)
             if new_article.quotes != []:
-              for q in new_article.quotes[0]:
-                new_article.sentiments.append(analyze2(t2, new_info['paragraph'], q))
+              for q in new_article.quotes:#[0]:
+                print("q is ", q['quote'])
+                new_article.sentiments.append(analyze2(t2, q['paragraph'], q['quote']))
             # get author links
             
             articles.append(new_article)

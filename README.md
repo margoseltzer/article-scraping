@@ -24,6 +24,7 @@ for summer 2017 news article scraping
 ## Current issues
 * working on comparing sentiment of paragraph to quote
   * not sure it will actually be accurate
+* LATimes finding authors is a special case
 * linked vs unliked quotes
 * labeled corpus
 

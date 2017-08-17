@@ -65,6 +65,7 @@ for article in data:
 
     s = c.create_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
     sentiment_counter += 1
+    print "doodlye doo:",str(article["sentiments"][index])
     strings.append(str(article["sentiments"][index]))
     relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
     index += 1
