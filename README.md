@@ -24,13 +24,11 @@ for summer 2017 news article scraping
 ## Current issues
 * working on comparing sentiment of paragraph to quote
   * not sure it will actually be accurate
-* LATimes finding authors is a special case
 * linked vs unliked quotes
 * labeled corpus
+* installed updates. Now webdriver not working. Great.
 
 good articles:
-https://www.nytimes.com/2017/07/19/us/politics/john-mccain-brain-cancer.html
-http://www.washingtonexaminer.com/senate-judiciary-committee-approves-fbi-nominee-christopher-wray/article/2629199
 
 bad articles:
 
