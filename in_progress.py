@@ -142,8 +142,6 @@ def track_authors(tree, author_tag, paper_type, link):
       new_auths.extend(to_add)
     authors = [x for x in new_auths if x != ""]
 
-  with open("derp.txt", "a") as f:
-    f.write(str(html.tostring(tree)))
   if authors == []:
     n = "unknown"
     for recognized in recognized_pgs.keys():
@@ -156,7 +154,6 @@ def track_authors(tree, author_tag, paper_type, link):
 def get_date(tree, time_tag):
   try:
     return tree.find_class(time_tag)[0].text
-    #return html.tostring(tree.find_class(time_tag)[0])
   except:
     return "Error: Could not get date"
 
@@ -192,8 +189,6 @@ def clean_text(text):
 
 def get_quotes(tree, para_tag, paper_type):
   paragraphs = tree.xpath(para_tag)
-  #rx = r'\{[^}]+\}\\?'
-  #p_text = re.sub(rx, '', text)
   quotes = []
   for p in paragraphs:
     unit = {}
@@ -270,7 +265,7 @@ def match2(quotes, links, paper_type):
     for l in links:
       try:
         text = trees[l]
-        if q[1:len(q)-1] in text: #text.find(q) >= 0:
+        if q[1:len(q)-1] in text:
           found = True
           matches[q] = l
           break
@@ -311,22 +306,8 @@ def count_flags(tree, para_tag, quotes):
 def analyze2(tree, paragraph, quote):
   if quote in paragraph:
     text = TextBlob(paragraph)
-    print("ADLJADSADSDS", text.sentiment)
     return str(text.sentiment)
-  print("HELLOOOOO")
   return str(None) #if error
-'''
-  print("opiipfsidpfifoa:", quote)
-  paragraphs = tree.xpath(para_tag)
-  for p in paragraphs:
-    s = p.text_content()
-    if quote in s:
-      text = TextBlob(s)
-      print("ADLJADSADSDS", text.sentiment)
-      return str(text.sentiment)
-  print("HELLOOOOO")
-  return str(None) #if error
-'''
 
 def get_names2(body):
   names = []
@@ -340,7 +321,7 @@ def get_names2(body):
     pass
   return names
 
-# WIP: adding from author links into queue (need to check if works)
+# adding from author links into queue (need to test)
 def add_same_authors(tree, queue, paper_type):
   articles_urls = get_links(tree.xpath(paper_tags[paper_type]['href']))
   for url in articles_urls:
@@ -396,26 +377,20 @@ def main():
   num_vertices = 0
   while (depth < 3) and (len(queue) != 0):
     num_vertices += 1
-    #print "VISITED: ", visited
     vertex = queue.popleft()
-    #print vertex.to_string()
-    print("DEPTH = ", depth)
     print("APPENDING "+vertex.url)
     total_links += len(vertex.links)
     for link in vertex.links:
-      print("Link=", link)
       ext_refs = []
       original_link = link
       formatted = reformat(link, paper_type)
       link = formatted[0]
       new_tag = formatted[1]
-      print("Fromatted:", formatted)
       new_info = paper_tags.get(new_tag)
-      #print "formatted is ",formatted
       if not new_tag:
         ext_refs.append(original_link)
         if link not in visited:
-          visited.append(link)#original_link)
+          visited.append(link)
           depthls.append(depth)
       else:
         if (link not in visited) and ('//#' not in link):
@@ -426,13 +401,7 @@ def main():
               in_queue = True
           
           if not in_queue:
-            #print "getting "+link
             try:
-              #citations = get_links(get_body(t2, new_info[1]))
-              #for c in citations:
-              #  # get the text inside, I guess
-              print("im using this link", link)
-              #t2 = html.fromstring(requests.get(link).content)
               t2 = html.fromstring(requests.get(link, verify=False).content)
               b = get_body(t2, new_info['body'])
               c2 = get_links(b)
@@ -447,27 +416,19 @@ def main():
                                   depth)
               new_article.author_links = new_auth_ls
               new_article.cite_text = c2[1]
-              print("new_auth:", new_article.authors)
-              #except Exception as e: #requests.exceptions.SSLError
             except:
-              #print("EXCEPT:", e)
               n = "unknown"
               for recognized in recognized_pgs.keys():
                 if recognized in link:
                   n = recognized_pgs[recognized]
-              print("LINK IS LKJFFSF:", link)
               new_article = Article(link, get_title(html.fromstring(requests.get(link, verify=False).content)), [n], None)
               b = ""
             visited.append(link)
-            # not working so far
-            #print("b2:", b)
-            print("link:", link)
-            new_article.names = get_names2(b)#(t2, new_info[1])
-            #print(t2)
+            new_article.names = get_names2(b)
             print(new_info['paragraph'])
             print(new_article.quotes)
             if new_article.quotes != []:
-              for q in new_article.quotes:#[0]:
+              for q in new_article.quotes:
                 print("q is ", q['quote'])
                 new_article.sentiments.append(analyze2(t2, q['paragraph'], q['quote']))
             # get author links
@@ -479,7 +440,6 @@ def main():
               # this page would not have a quote anyway
               pass
             depthls.append(depth)
-            #print "adding to queue: ", new_article.url
             queue.append(new_article)
 
     # this is when the next depth is reached
@@ -490,14 +450,6 @@ def main():
         queue.append(None)
       depth += 1
 
-    #print "TITLE: ", html.tostring(new_article.title)
-    #print "QUEUE:"
-    #for q in queue:
-    #  if q != None:
-    #    print q.url
-    #  else:
-    #    print "None"
-  
   print("\nVISITED:")
   for i in range(len(visited)):
     print(visited[i]+": "+str(depthls[i]))
@@ -512,10 +464,9 @@ def main():
 
   citations_index = []
   text = html.fromstring(get_body(t, info['body'])).text_content()
-  clean_text(text)#, paper_type)
+  clean_text(text)
   for citations in root.cite_text:
     citations_index.append(text.find(citations))
-  #matched = match(indices, citations_index)
   matched = match2(qs, root.links, paper_type)
   print("\n")
   for m in matched:
