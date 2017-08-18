@@ -8,11 +8,24 @@ from time import sleep
 url = 'http://camflow.org/demo'
 
 # https://stackoverflow.com/questions/15018372/how-to-take-partial-screenshot-with-selenium-webdriver-in-python
-driver = webdriver.Firefox()
-driver.get(url)
+try:
+  driver = webdriver.Firefox()
+  driver.maximize_window()
+  driver.get(url)
+  driver.find_element_by_id("fileinput").click()
+  driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
+except:
+  # close the firefox one
+  driver.quit()
 
-driver.find_element_by_id("fileinput").click()
-driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
+  # https://stackoverflow.com/questions/8255929/running-selenium-webdriver-python-bindings-in-chrome
+  chromedriver = "/home/ychinlee/Downloads/chromedriver"
+  driver = webdriver.Chrome(chromedriver)
+  driver.maximize_window()
+  driver.get(url)
+  driver.find_element_by_id("fileinput").click()
+  driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
+  
 sleep(2)
 
 element = driver.find_element_by_xpath('//div[@style="position: relative; z-index: 0; overflow: hidden; width: 800px; height: 600px;"]')
