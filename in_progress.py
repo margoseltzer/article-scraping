@@ -124,7 +124,7 @@ def track_authors(tree, author_tag, paper_type, link):
   link_ls = []
 
   if author_tag == 'N/A':
-    return [paper_type], linkls
+    return [paper_type], link_ls
 
   authors = []
   for tag in author_tag.split("AND"):

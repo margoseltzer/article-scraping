@@ -23,6 +23,7 @@ for summer 2017 news article scraping
 * ```python3 upload.py```
 
 ## Current issues
+* check out root sentiment
 * comparing sentiment of paragraph to quote
   * not sure it will actually be accurate
 * linked vs unliked quotes
