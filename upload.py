@@ -28,7 +28,8 @@ except:
   
 sleep(2)
 
-element = driver.find_element_by_xpath('//div[@style="position: relative; z-index: 0; overflow: hidden; width: 800px; height: 600px;"]')
+element = driver.find_element_by_xpath('//div[@style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; z-index: 0; overflow: hidden; width: 800px; height: 600px;"]')
+#element = driver.find_element_by_xpath('//div[@style="position: relative; z-index: 0; overflow: hidden; width: 800px; height: 600px;"]')
 location = element.location
 size = element.size
 driver.save_screenshot('sshot.png')
