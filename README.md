@@ -15,6 +15,7 @@ for summer 2017 news article scraping
   * uploads ```output.json``` to <http://camflow.org/demo>
   * outputs ```sshot.png```, the resulting graph
   * uses Python 3
+  * works with Mozilla 54, not 55 (after updates, now unable to locate file)
 
 ## How to run
 * ```python3 in_progress.py [url of article]```
@@ -26,7 +27,6 @@ for summer 2017 news article scraping
   * not sure it will actually be accurate
 * linked vs unliked quotes
 * labeled corpus
-* installed updates. Now webdriver not working. Great.
 
 good articles:
 
