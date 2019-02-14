@@ -13,7 +13,7 @@ from textblob import TextBlob
 # paper : [author tag, body tag, date class]
 '''
 
-RUN: python in_progress.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
+RUN: python scraper.py http://www.cnn.com/2017/06/15/us/bill-cosby-jury-six-questions/index.html
 
 '''
 trees = {}
@@ -346,6 +346,7 @@ def add_same_authors(tree, queue, paper_type):
 def main():
   arg = sys.argv
   paper_type = paper(arg[1])
+  print(arg[1])
   if not paper_type:
     print("Unable to handle this paper")
     return
@@ -427,10 +428,11 @@ def main():
             new_article.names = get_names2(b)
             print(new_info['paragraph'])
             print(new_article.quotes)
-            if new_article.quotes != []:
-              for q in new_article.quotes:
-                print("q is ", q['quote'])
-                new_article.sentiments.append(analyze2(t2, q['paragraph'], q['quote']))
+            # TODO resolve and uncomment this.. not sure how
+            # if new_article.quotes != []:
+            #   for q in new_article.quotes:
+            #     print("q is ", q['quote'])
+            #     new_article.sentiments.append(analyze2(t2, q['paragraph'], q['quote']))
             # get author links
             
             articles.append(new_article)

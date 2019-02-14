@@ -1,7 +1,9 @@
 import json
 import sys
-sys.path.append('/home/ychinlee/prov-cpl/bindings/python/CPL')
+#sys.path.append('C:\\Users\\johns\\Documents\\prov-cpl\\bindings\\python')
+#sys.path.insert(0, 'C:\\Users\\johns\\Documents\\prov-cpl\\bindings\\python')
 import CPL
+from CPL import cpl_relation
 
 originator = "root"
 c = CPL.cpl_connection()
@@ -11,12 +13,12 @@ with open("articles.json") as f:
 
 ##################
 bundle_name = "bundle"
-bundle_type = CPL.BUNDLE
-bundle = c.create_object(originator, bundle_name, bundle_type)
-CPL.p_object(bundle, False)
+bundle_type = CPL.ENTITY
+bundle = c.create_bundle(bundle_name)
+CPL.p_bundle(bundle, False)
 
 stuff = []
-relations = []
+relations = []  # type: List[cpl_relation]
 strings = []
 node_names = 0 # counter
 article_counter = 0
@@ -25,7 +27,6 @@ quote_counter = 0
 sentiment_counter = 0
 
 articles = {}
-
 for article in data:
   
   entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
@@ -47,28 +48,28 @@ for article in data:
     CPL.p_object(agent)
     node_names += 1
     stuff.append(agent)
-    print "Agent:", agent
-    print "entity:", entity
+    print ("Agent:", agent)
+    print ("entity:", entity)
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
   index = 0
   for unit in article["quotes"]:
-    quote = unit['quote']
+    quote = unit[""]
     q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
     quote_counter += 1
-
+    print(quote)
     CPL.p_object(q)
     strings.append(quote)
     node_names += 1
     stuff.append(q)
     relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
-
-    s = c.create_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
-    sentiment_counter += 1
-    print "doodlye doo:",str(article["sentiments"][index])
-    print "doodley doo:",str(article["quotes"][index])
-    strings.append(str(article["sentiments"][index]))
-    relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
+    if index < len(article["sentiments"]):
+        s = c.create_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
+        sentiment_counter += 1
+        print ("doodlye doo:",str(article["sentiments"][index]))
+        print ("doodley doo:",str(article["quotes"][index]))
+        strings.append(str(article["sentiments"][index]))
+        relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
     index += 1
 
 for article in articles:
@@ -92,8 +93,11 @@ for article in articles:
       match2 = None
     if match1 or match2:
       relations.append(a[0].relation_to(match, CPL.WASDERIVEDFROM, bundle))
-  
-c.export_bundle_json(bundle, "output.json")
 
+bundles = [bundle]
+# https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
+outdata = c.export_bundle_json(bundles)
+with open('output.json', 'w') as outfile:
+    json.dump(outdata, outfile)
 c.close()
 

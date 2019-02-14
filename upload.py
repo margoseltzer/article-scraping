@@ -8,23 +8,24 @@ from time import sleep
 url = 'http://camflow.org/demo'
 
 # https://stackoverflow.com/questions/15018372/how-to-take-partial-screenshot-with-selenium-webdriver-in-python
-try:
-  driver = webdriver.Firefox()
-  driver.maximize_window()
-  driver.get(url)
-  driver.find_element_by_id("fileinput").click()
-  driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
-except:
-  # close the firefox one
-  driver.quit()
+# try:
+#     path = "C:\\Users\\johns\\Documents"
+#     driver = webdriver.Firefox(path)
+#     driver.maximize_window()
+#     driver.get(url)
+#     driver.find_element_by_id("fileinput").click()
+#     driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
+# except:
+#   # close the firefox one
+#   driver.quit()
 
   # https://stackoverflow.com/questions/8255929/running-selenium-webdriver-python-bindings-in-chrome
-  chromedriver = "/home/ychinlee/Downloads/chromedriver"
-  driver = webdriver.Chrome(chromedriver)
-  driver.maximize_window()
-  driver.get(url)
-  driver.find_element_by_id("fileinput").click()
-  driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"/output.json")
+chromedriver = "C:\\Program Files\\Python37\\Scripts\\chromedriver.exe"
+driver = webdriver.Chrome(chromedriver)
+driver.maximize_window()
+driver.get(url)
+driver.find_element_by_id("fileinput").click()
+driver.find_element_by_css_selector('input[type="file"]').send_keys(os.getcwd()+"\\output.json")
   
 sleep(2)
 
@@ -39,8 +40,8 @@ print("got here")
 im = Image.open('sshot.png')
 left = location['x']
 top = location['y']
-right = location['x'] + 800#size['width']
-bottom = location['y'] + 600#size['height']
+right = location['x'] + 1200#size['width']
+bottom = location['y'] + 1200#size['height']
 print((left, top, right, bottom))
 
 im = im.crop((left, top, right, bottom))
