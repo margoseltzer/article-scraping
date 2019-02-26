@@ -54,10 +54,12 @@ for article in data:
 
   index = 0
   for unit in article["quotes"]:
-    quote = unit[""]
+    for x in unit:
+      if (x == 'quote'):
+        quote = unit[x];
     q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
     quote_counter += 1
-    print(quote)
+    #print(quote)
     CPL.p_object(q)
     strings.append(quote)
     node_names += 1
