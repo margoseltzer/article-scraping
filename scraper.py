@@ -7,6 +7,8 @@ import collections
 import re
 from lxml import html, etree
 from textblob import TextBlob
+from random import *
+import os.path
 #from unidecode import unidecode
 
 # CNN one might not always work depending on if author has url or not
@@ -479,6 +481,10 @@ def main():
   #for i in links:
   #  print i
   print(root.jsonify())
+  # I think we don't actually want to append to the existing file...?
+  if os.path.isfile("articles.json"):
+    rand = randint(1, 10000)
+    os.rename("articles.json", "articles"+str(rand)+".json")
   with open("articles.json", "a") as f:
     f.write('[\n')
     for a in articles:
