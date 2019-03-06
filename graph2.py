@@ -30,6 +30,7 @@ articles = {}
 for article in data:
   
   entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
+  entity.add_property(originator, "article", str(article["url"]))
   article_counter += 1
   strings.append(str(article["url"]))
 
@@ -45,6 +46,7 @@ for article in data:
 
     strings.append(str(author))
     agent = c.create_object(originator, agent_name, agent_type, bundle)
+    agent.add_property(originator, "author", str(author))
     CPL.p_object(agent)
     node_names += 1
     stuff.append(agent)
@@ -58,6 +60,7 @@ for article in data:
       if (x == 'quote'):
         quote = unit[x];
     q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
+    q.add_property(originator, "quote", str(quote))
     quote_counter += 1
     #print(quote)
     CPL.p_object(q)

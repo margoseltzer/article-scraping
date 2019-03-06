@@ -36,8 +36,8 @@ paper_tags = {'bbc' : {'author' : 'N/A',
                        'date' : 'timestamp',
                        'href' : '//div[@class="feature"]'},
               'nytimes' : {'author' : '//span[@class="byline-author"]/text()', 
-                       'body' : '//p[@class="story-body-text story-content"]', 
-                       'paragraph' : '//p[@class="story-body-text story-content"]',
+                       'body' : '//section[@name="articleBody"]',
+                       'paragraph' : '//p[@class="css-1ygdjhk evys1bk0"]',
                        'date' : 'dateline',
                        'href' : '//div[@class="story-body"]'},
               'washingtonexaminer' : {'author' : '//span[@itemprop="name"]/text()', 
@@ -390,6 +390,7 @@ def main():
       link = formatted[0]
       new_tag = formatted[1]
       new_info = paper_tags.get(new_tag)
+      print("LINK: "+link)
       if not new_tag:
         ext_refs.append(original_link)
         if link not in visited:
@@ -484,7 +485,7 @@ def main():
   # I think we don't actually want to append to the existing file...?
   if os.path.isfile("articles.json"):
     rand = randint(1, 10000)
-    os.rename("articles.json", "articles"+str(rand)+".json")
+    os.rename("articles.json", "oldarticles/articles"+str(rand)+".json")
   with open("articles.json", "a") as f:
     f.write('[\n')
     for a in articles:
