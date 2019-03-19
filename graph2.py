@@ -12,10 +12,13 @@ with open("articles.json") as f:
   data = json.loads(f.read())
 
 ##################
-bundle_name = "bundle"
+bundle_name = str(data[0]["url"]);
 bundle_type = CPL.ENTITY
-bundle = c.create_bundle(bundle_name)
-CPL.p_bundle(bundle, False)
+try:
+    bundle = c.lookup_bundle(bundle_name)
+except Exception, e:
+    bundle = c.create_bundle(bundle_name)
+# CPL.p_bundle(bundle, False)
 
 stuff = []
 relations = []  # type: List[cpl_relation]
@@ -28,9 +31,15 @@ sentiment_counter = 0
 
 articles = {}
 for article in data:
-  
-  entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
-  entity.add_property(originator, "article", str(article["url"]))
+
+  try:
+    entity = c.lookup_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
+  except Exception, e:
+     entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
+
+  #s = article["title"].decode('ascii', 'ignore')
+  #entity.add_property(originator, "title", s)
+  entity.add_property(originator, "url", str(article["url"]))
   article_counter += 1
   strings.append(str(article["url"]))
 
@@ -45,7 +54,11 @@ for article in data:
     author_counter += 1
 
     strings.append(str(author))
-    agent = c.create_object(originator, agent_name, agent_type, bundle)
+    try:
+        agent = c.lookup_object(originator, agent_name, agent_type, bundle)
+    except Exception, e:
+        agent = c.create_object(originator, agent_name, agent_type, bundle)
+
     agent.add_property(originator, "author", str(author))
     CPL.p_object(agent)
     node_names += 1
@@ -59,7 +72,11 @@ for article in data:
     for x in unit:
       if (x == 'quote'):
         quote = unit[x];
-    q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
+    try:
+        q = c.lookup_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
+    except Exception, e:
+        q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
+
     q.add_property(originator, "quote", str(quote))
     quote_counter += 1
     #print(quote)
@@ -69,7 +86,10 @@ for article in data:
     stuff.append(q)
     relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
     if index < len(article["sentiments"]):
-        s = c.create_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
+        try:
+            s = c.lookup_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
+        except Exception, e:
+            s = c.create_object(originator, "SENTIMENT " + str(sentiment_counter), CPL.AGENT, bundle)
         sentiment_counter += 1
         print ("doodlye doo:",str(article["sentiments"][index]))
         print ("doodley doo:",str(article["quotes"][index]))
