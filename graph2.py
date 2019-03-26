@@ -15,8 +15,10 @@ with open("articles.json") as f:
 bundle_name = str(data[0]["url"]);
 bundle_type = CPL.ENTITY
 try:
+    print("about to look up")
     bundle = c.lookup_bundle(bundle_name)
 except Exception, e:
+    print("about to create")
     bundle = c.create_bundle(bundle_name)
 # CPL.p_bundle(bundle, False)
 
@@ -35,15 +37,17 @@ for article in data:
   try:
     entity = c.lookup_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
   except Exception, e:
+     print(str(e.message))
      entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
-
+  relations.append(entity.relation_from(bundle, 19, bundle))
   #s = article["title"].decode('ascii', 'ignore')
   #entity.add_property(originator, "title", s)
   entity.add_property(originator, "url", str(article["url"]))
   article_counter += 1
   strings.append(str(article["url"]))
 
-  CPL.p_object(entity)
+
+  # CPL.p_object(entity)
   node_names += 1
   stuff.append(entity)
   articles[article["url"]] = (entity, article)
@@ -59,13 +63,17 @@ for article in data:
     except Exception, e:
         agent = c.create_object(originator, agent_name, agent_type, bundle)
 
+    relations.append(agent.relation_from(bundle, 19, bundle))
     agent.add_property(originator, "author", str(author))
-    CPL.p_object(agent)
+
+   # CPL.p_object(agent)
     node_names += 1
     stuff.append(agent)
     print ("Agent:", agent)
     print ("entity:", entity)
+    print("about to add relation")
     relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
+
 
   index = 0
   for unit in article["quotes"]:
@@ -76,11 +84,11 @@ for article in data:
         q = c.lookup_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
     except Exception, e:
         q = c.create_object(originator, "QUOTE "+str(quote_counter), CPL.ACTIVITY, bundle)
-
+    relations.append(q.relation_from(bundle, 19, bundle))
     q.add_property(originator, "quote", str(quote))
     quote_counter += 1
     #print(quote)
-    CPL.p_object(q)
+    # CPL.p_object(q)
     strings.append(quote)
     node_names += 1
     stuff.append(q)
@@ -90,9 +98,10 @@ for article in data:
             s = c.lookup_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
         except Exception, e:
             s = c.create_object(originator, "SENTIMENT " + str(sentiment_counter), CPL.AGENT, bundle)
+        relations.append(s.relation_from(bundle, 19, bundle))
         sentiment_counter += 1
-        print ("doodlye doo:",str(article["sentiments"][index]))
-        print ("doodley doo:",str(article["quotes"][index]))
+        # print ("doodlye doo:",str(article["sentiments"][index]))
+        # print ("doodley doo:",str(article["quotes"][index]))
         strings.append(str(article["sentiments"][index]))
         relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
     index += 1
@@ -121,8 +130,11 @@ for article in articles:
 
 bundles = [bundle]
 # https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
-outdata = c.export_bundle_json(bundles)
-with open('output.json', 'w') as outfile:
-    json.dump(outdata, outfile)
+
+# TODO need to update export function
+print ("finished execution")
+# outdata = c.export_bundle_json(bundles)
+# with open('output.json', 'w') as outfile:
+#     json.dump(outdata, outfile)
 c.close()
 
