@@ -96,18 +96,18 @@ def mapping(x):
         return "AU"+x.split()[1]
     else: return x[0]+x.split()[1]
 
-# H=nx.relabel_nodes(G,mapping)
+H=nx.relabel_nodes(G,mapping)
 # print(H.nodes())
 # print(G.nodes())
 # print(edge_color_map)
 # print("NUMBER OF EDGES: " + str(len(H.edges())))# print ("SIZE OF COLOR MAP: " + str(len(edge_color_map)))
 # Make the graph
-# nx.draw(H, node_color = color_map, edge_color = edge_color_map, with_labels=True, node_size=500, alpha=0.5, arrows=True)
+nx.draw(G, node_color = color_map, with_labels=True, node_size=500, alpha=0.5, arrows=True)
 # https://networkx.github.io/documentation/networkx-1.7/reference/generated/networkx.convert.to_numpy_matrix.html
-np.set_printoptions(threshold=np.nan)
-matrix = nx.to_numpy_matrix(G, nodelist=None, dtype=None, order=None, weight='weight')
-# print(matrix)
-plt.title("UN-Directed")
-plt.imshow(matrix, interpolation='nearest')
+# np.set_printoptions(threshold=np.nan)
+# matrix = nx.to_numpy_matrix(G, nodelist=None, dtype=None, order=None, weight='weight')
+# # print(matrix)
+# plt.title("UN-Directed")
+# plt.imshow(matrix, interpolation='nearest')
 plt.show()
 # plt.show()
