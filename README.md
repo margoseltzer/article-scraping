@@ -133,7 +133,7 @@ The graphbuilder can also generate NumPy matrices. Here is the matrix representa
 * ```python graph2.py```
 * ```python3 upload.py```
 
-## Useful case study: Vaccine articles
+## Case study: Vaccine articles
 I found it helpful to generate & compare graphs for these recent articles from varied sources on the topic of the "anti-vaxxination" movement and the resurgence of measles.
 - https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html
 - https://www.bbc.com/news/health-46972429
@@ -149,3 +149,5 @@ I found it helpful to generate & compare graphs for these recent articles from v
   * not sure it will actually be accurate
 * linked vs unlinked quotes
 * labeled corpus
+* get all objects option
+* update database setup script
