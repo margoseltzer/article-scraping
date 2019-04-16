@@ -1,6 +1,6 @@
 # article-scraping
 The original code was written by Ying-Ke Chin-Lee in 2017.
-Jeanette worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
+I worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
 The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
 
 ## Installation
@@ -29,10 +29,11 @@ In order to run the end-to-end pipeline to generate a provenance graph for an ar
 6. `provgenerator.py` needs to be run using python 2, while the rest of the project depends on python 3/Anaconda. This is because provgenerator is the file with dependencies to prov-cpl, and the cpl python bindings strictly support 2.7. You will need to figure out a way to switch easily between the two Python builds. You can do this via command line with the python command linking to python 2.7 and the python3 command linking to python 3.7. My solution to this was to use PyCharm with WSL support, and run python 2 in a WSL interpreter and python 3 in the command line. This is definitely *not* the best approach and I don't recommend it, but it's a slightly easier way to get the CPL bindings to work.
 
 ## Database Schema
+You will notice that cpl_bundles has no direct relationship to `cpl_objects`. In previous prov-cpl versions, each object belonged to a bundle. However, for this specific application where a "bundle" is an article and an "object" can be an author, quote, or link to another article, it did not make sense for objects to uniquely belong to one bundle (e.g. if Alice authored two InfoWars articles, there should be one "author: Alice" object in the database that belongs to the bundles "infowars article 1" and "infowars article 2"). To deal with this, bundles have become a special type of object and the relationship from bundle to objects is stored in the `cpl_relations` table. 
 ![CPL PostgreSQL Schema](cplschema.png)
 
 ## How to Run
-Here is a walkthrough of how to generate a prov graph, using [this InfoWars anti-vaccine article](https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/).
+Here is a walkthrough of how to generate a prov graph, using [this InfoWars anti-vaccine article](https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/). A short summary of the relevant commands and files can be found below this section.
 First, run the web scraper module to look at the article HTML and pull out relevant items such as authors, quotes, and links to other articles. 
 ```
 python3 scraper.py https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/
