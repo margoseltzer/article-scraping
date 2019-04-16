@@ -109,6 +109,11 @@ Next, run **`python provgenerator.py`** using python 2.7. This module uses the p
 ```
 Finally, visualize the graph: **`python graphbuilder.py`**
 The graph builder will read the prov-JSON from `output.json` and display an undirected network graph where nodes represent quotes, articles, and authors and edges between them represent provenance relationships. Here is the graph for the infowars vaccine article:
+Key:
+- blue: quote
+- green: author
+- red: article
+- purple: sentiment
 ![InfoWars Vaccine Graph](demograph.png)
 
 The graphbuilder can also generate NumPy matrices. Here is the matrix representation of this article:
