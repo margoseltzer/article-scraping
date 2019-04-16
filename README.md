@@ -28,6 +28,9 @@ In order to run the end-to-end pipeline to generate a provenance graph for an ar
 
 6. `provgenerator.py` needs to be run using python 2, while the rest of the project depends on python 3/Anaconda. This is because provgenerator is the file with dependencies to prov-cpl, and the cpl python bindings strictly support 2.7. You will need to figure out a way to switch easily between the two Python builds. You can do this via command line with the python command linking to python 2.7 and the python3 command linking to python 3.7. My solution to this was to use PyCharm with WSL support, and run python 2 in a WSL interpreter and python 3 in the command line. This is definitely *not* the best approach and I don't recommend it, but it's a slightly easier way to get the CPL bindings to work.
 
+## Database Schema
+![CPL PostgreSQL Schema](cplschema.png)
+
 ## How to Run
 Here is a walkthrough of how to generate a prov graph, using [this InfoWars anti-vaccine article](https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/).
 First, run the web scraper module to look at the article HTML and pull out relevant items such as authors, quotes, and links to other articles. 
