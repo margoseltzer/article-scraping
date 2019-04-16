@@ -3,8 +3,6 @@ The original code was written by Ying-Ke Chin-Lee in 2017.
 Jeanette worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
 The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
 
-## System Components 
-
 ## Installation
 In order to run the end-to-end pipeline to generate a provenance graph for an article, there are a few dependencies that need to be installed first. Here is a step-by-step guide to installing everything you'll need to run this project.
 
@@ -96,28 +94,32 @@ Next, run **`python provgenerator.py`** using python 2.7. This module uses the p
 ```
 Finally, visualize the graph: **`python graphbuilder.py`**
 The graph builder will read the prov-JSON from `output.json` and display an undirected network graph where nodes represent quotes, articles, and authors and edges between them represent provenance relationships. Here is the graph for the infowars vaccine article:
+![InfoWars Vaccine Graph](demograph.png)
+
+The graphbuilder can also generate NumPy matrices. Here is the matrix representation of this article:
+![InfoWars Vaccine Matrix](demomatrix.png)
 
 
-## File list
-* ```in_progress.py```
-  * could be named better :P
+## Summary: File list
+* ```scraper.py```
   * program that does the scraping
   * outputs ```articles.json```
   * uses Python 3
-* ```graph2.py```
+* ```provgenerator.py```
   * input is ```articles.json```
   * outputs ```output.json```
   * since cpl-prov uses Python 2, uses python 2 as well
-* ```upload.py```
-  * uploads ```output.json``` to <http://camflow.org/demo>
-  * outputs ```sshot.png```, the resulting graph
+* ```graphbuilder.py```
+  * input is ```output.json``` 
+  * output is a networkx graph
   * uses Python 3
-  * works with Mozilla 54, not 55 (after updates, now unable to locate file) or Chrome driver
 
-## How to run
+## Summary: How to run
 * ```python3 in_progress.py [url of article]```
 * ```python graph2.py```
 * ```python3 upload.py```
+
+## Useful case study: Vaccine articles
 
 ## Current issues
 * check out root sentiment
@@ -125,13 +127,3 @@ The graph builder will read the prov-JSON from `output.json` and display an undi
   * not sure it will actually be accurate
 * linked vs unliked quotes
 * labeled corpus
-
-good articles:
-
-bad articles:
-
-
-retracted articles:
-* https://web.archive.org/web/20170622210615/http://www.cnn.com/2017/06/22/politics/russian-investment-fund-under-investigation/index.html
-
-## Useful case study: Vaccine articles
