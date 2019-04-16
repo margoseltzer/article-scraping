@@ -1,5 +1,7 @@
 # article-scraping
-for summer 2017 news article scraping
+The original code was written by Ying-Ke Chin-Lee in 2017.
+Jeanette worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
+The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
 
 ## File list
 * ```in_progress.py```
