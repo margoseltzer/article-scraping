@@ -134,9 +134,9 @@ The graphbuilder can also generate NumPy matrices. Here is the matrix representa
 * ```python3 in_progress.py [url of article]```
 * ```python graph2.py```
 * ```python3 upload.py```
-<a name="vaccine"/>
+
 ## Useful case study: Vaccine articles
-<a name="issues"/>
+
 ## Current issues
 * check out root sentiment
 * comparing sentiment of paragraph to quote
