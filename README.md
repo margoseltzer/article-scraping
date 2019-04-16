@@ -12,8 +12,7 @@
 
 ## Introduction
 The original code was written by Ying-Ke Chin-Lee in 2017.
-I worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
-The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
+I worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.For more information on the concept of data provenance, check out [A Primer on Provenance](https://dl.acm.org/citation.cfm?id=2602651). The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way--It attempts this by taking an article and generating a graph or matrix representing a collection of the authors, quotes, and linked articles related to the base article mapping the relationships between them. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news. 
 
 ## Installation
 In order to run the end-to-end pipeline to generate a provenance graph for an article, there are a few dependencies that need to be installed first. Here is a step-by-step guide to installing everything you'll need to run this project.
@@ -115,7 +114,6 @@ The graph builder will read the prov-JSON from `output.json` and display an undi
 The graphbuilder can also generate NumPy matrices. Here is the matrix representation of this article:
 ![InfoWars Vaccine Matrix](demomatrix.png)
 
-<a name="summary"/>
 ## Summary: File list
 * ```scraper.py```
   * program that does the scraping
@@ -136,10 +134,18 @@ The graphbuilder can also generate NumPy matrices. Here is the matrix representa
 * ```python3 upload.py```
 
 ## Useful case study: Vaccine articles
+I found it helpful to generate & compare graphs for these recent articles from varied sources on the topic of the "anti-vaxxination" movement and the resurgence of measles.
+- https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html
+- https://www.bbc.com/news/health-46972429
+- https://www.bbc.com/news/av/health-45301399/why-is-there-a-measles-outbreak-in-europe
+- https://www.chicagotribune.com/suburbs/naperville-sun/news/ct-nvs-vaccine-push-st-0317-story.html
+- https://www.breitbart.com/tech/2019/03/22/report-instagram-blacklists-anti-vaccine-hashtags-following-facebook-youtube-crackdowns/
+- https://www.infowars.com/watch/?video=5cae7568b021b7001c3153eb
+- https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/
 
 ## Current issues
 * check out root sentiment
 * comparing sentiment of paragraph to quote
   * not sure it will actually be accurate
-* linked vs unliked quotes
+* linked vs unlinked quotes
 * labeled corpus
