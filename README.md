@@ -1,4 +1,16 @@
 # Provenance Graphs for News Articles
+
+## Table of Contents 
+**1. Introduction<br/>
+2. Installation <br/>
+3. Database Schema <br/>
+4. How to Run <br/>
+5. Summary: Files <br/>
+6. Summary: How to Run <br/>
+7. Vaccine Case Study<br/>
+8. Current Issues**
+
+## Introduction
 The original code was written by Ying-Ke Chin-Lee in 2017.
 I worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
 The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
@@ -103,7 +115,7 @@ The graph builder will read the prov-JSON from `output.json` and display an undi
 The graphbuilder can also generate NumPy matrices. Here is the matrix representation of this article:
 ![InfoWars Vaccine Matrix](demomatrix.png)
 
-
+<a name="summary"/>
 ## Summary: File list
 * ```scraper.py```
   * program that does the scraping
@@ -122,9 +134,9 @@ The graphbuilder can also generate NumPy matrices. Here is the matrix representa
 * ```python3 in_progress.py [url of article]```
 * ```python graph2.py```
 * ```python3 upload.py```
-
+<a name="vaccine"/>
 ## Useful case study: Vaccine articles
-
+<a name="issues"/>
 ## Current issues
 * check out root sentiment
 * comparing sentiment of paragraph to quote
