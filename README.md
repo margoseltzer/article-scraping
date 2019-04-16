@@ -1,4 +1,4 @@
-# article-scraping
+# Provenance Graphs for News Articles
 The original code was written by Ying-Ke Chin-Lee in 2017.
 I worked on forks of this repo and https://github.com/jeanettejohnson/prov-cpl during a directed studies at UBC in Winter 2019.
 The purpose of this module is to extract provenance from online news articles and to store and visualize it in a meaningful way. The ultimate goal is to address the question of whether provenance can be used to distinguish "Fake News" from real news.
