@@ -5,11 +5,16 @@ import sys
 import CPL
 from CPL import cpl_relation
 
-originator = "article_prov_test"
+originator = "demo"
 c = CPL.cpl_connection()
 
+# with open("prov.json") as f:
+#   data = json.loads(f.read())
+# c.import_document_json(data, "testrprov", None, 0)
 with open("articles.json") as f:
   data = json.loads(f.read())
+
+
 
 ##################
 bundle_name = str(data[0]["url"]);
@@ -17,7 +22,7 @@ bundle_type = CPL.ENTITY
 try:
     print("about to look up")
     bundle = c.lookup_bundle(bundle_name, originator)
-except Exception, e:
+except Exception as e:
     print("about to create")
     bundle = c.create_bundle(bundle_name, originator)
 # CPL.p_bundle(bundle, False)
@@ -37,7 +42,7 @@ for article in data:
   try:
     entity = c.lookup_by_property(originator, "url", str(article["url"]))[0];
     print("this worked");
-  except Exception, e:
+  except Exception as e:
      print(str(e.message))
      entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
      entity.add_property(originator, "url", str(article["url"]))
@@ -59,7 +64,7 @@ for article in data:
     strings.append(str(author))
     try:
         agent = c.lookup_by_property(originator, "author", str(author))[0];
-    except Exception, e:
+    except Exception as e:
         agent = c.create_object(originator, agent_name, agent_type, bundle)
         agent.add_property(originator, "author", str(author))
 
@@ -84,7 +89,7 @@ for article in data:
         print("quote was properly defined");
         try:
             q = c.lookup_by_property(originator, "quote", str(quote))[0]
-        except Exception, e:
+        except Exception as e:
             q = c.create_object(originator, "QUOTE " + str(quote_counter), CPL.ACTIVITY, bundle)
             q.add_property(originator, "quote", str(quote))
         relations.append(q.relation_from(bundle, 19, bundle))
@@ -94,12 +99,12 @@ for article in data:
         node_names += 1
         stuff.append(q)
         relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
-    except Exception, e:
+    except Exception as e:
         print ("quote was improperly defined")
     if index < len(article["sentiments"]):
         try:
             s = c.lookup_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
-        except Exception, e:
+        except Exception as e:
             s = c.create_object(originator, "SENTIMENT " + str(sentiment_counter), CPL.AGENT, bundle)
         relations.append(s.relation_from(bundle, 19, bundle))
         sentiment_counter += 1
@@ -133,11 +138,12 @@ for article in articles:
 
 # gathers up all the bundles under this originator for the output file
 # if you just want info for one bundle, change this to bundles = [bundle]
-bundles = []
-for o in c.get_all_objects(originator, 0):
-    print(o.name)
-    b = c.lookup_bundle(o.name, originator)
-    bundles.append(b)
+# bundles = []
+# for o in c.get_all_objects(originator, 0):
+#     print(o.name)
+#     b = c.lookup_bundle(o.name, originator)
+#     bundles.append(b)
+bundles = [bundle]
 
 # https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
 
