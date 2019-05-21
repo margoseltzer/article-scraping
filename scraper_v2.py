@@ -1,13 +1,20 @@
 import argparse
-import json
 import hashlib
+import json
 import os
+import re
 from newspaper import Article
 
 class Author(object):
     def __init__(self, name, link):
         self.name = name
         self.link = link
+    
+    def jsonify(self):
+        return {
+            'name': self.name,
+            'link': self.link
+        }
 
 class NewsArticleException(Exception):
     pass
@@ -42,7 +49,35 @@ class NewsArticle(object):
         pass
 
     def find_auothors(self):
-        pass
+        regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
+        authors_name_segments = []
+        for x in self.__article.authors:
+            # filter out unexpected word
+            if not re.match(regex, x):
+                # slice the For Mailonline in dayliymail author's name
+                if 'For Mailonline' in x:
+                    authors_name_segments.append(x.replace(' For Mailonline', ''))
+                else:
+                    authors_name_segments.append(x)
+
+        # contact Jr to previous, get full name
+        pos = len(authors_name_segments) - 1
+        authors_name = []
+        while pos >= 0:
+            if re.match('(Jr|jr)', authors_name_segments[pos]):
+                full_name = authors_name_segments[pos-1] + ', ' + authors_name_segments[pos]
+                authors_name.append(full_name)
+                pos -= 2
+            else:
+                authors_name.append(authors_name_segments[pos])
+                pos -= 1
+        
+        authors = []
+        for x in authors_name:
+            authors.append(Author(x, None))
+        self.authors = authors
+        
+        return authors
     
     def find_publication(self):
         pass
@@ -69,10 +104,13 @@ class NewsArticle(object):
     def jsonify(self):
         """ return a dict of news article object
         """
+        authors_dicts = []
+        for x in self.authors:
+            authors_dicts.append(x.jsonify())
         return {
             'url': self.url,
             'title': self.title,
-            'authors': self.authors,
+            'authors': authors_dicts,
             'publication': self.publication,
             'publish_date': self.publish_date.strftime("%m/%d/%Y") if self.publish_date else '',
             'quotes': self.quotes,
