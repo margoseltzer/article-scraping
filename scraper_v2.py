@@ -123,7 +123,7 @@ class Scraper(object):
             return news_article_list
 
 
-def has_url(url):
+def hash_url(url):
     md5Hash = hashlib.md5()
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
@@ -156,11 +156,11 @@ def main():
     
     # wrote non empty reslut to file
     if news_article_list:
-        if not os.path.exists('news_json'):
-            os.makedirs('news_json')
         output = args.output
         if output is None:
-            url_hash = has_url(args.url)
+            if not os.path.exists('news_json'):
+                os.makedirs('news_json')
+            url_hash = hash_url(args.url)
             output = 'news_json/' + str(url_hash) + '.json'
         with open(output, 'w') as f:
             json.dump(output_json_list, f, ensure_ascii=False, indent=4)
