@@ -48,7 +48,7 @@ class NewsArticle(object):
     def find_title(self):
         pass
 
-    def find_auothors(self):
+    def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         authors_name_segments = []
         for x in self.__article.authors:
@@ -94,7 +94,7 @@ class NewsArticle(object):
     def find_all_provenance(self):
         if not self.__fulfilled:
             self.find_title()
-            self.find_auothors()
+            self.find_authors()
             self.find_publication()
             self.find_publish_date()
             self.find_quotes()
