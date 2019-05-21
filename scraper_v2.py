@@ -1,6 +1,7 @@
 import argparse
 import hashlib
 import json
+import subprocess
 import os
 import re
 from newspaper import Article
@@ -21,13 +22,10 @@ class NewsArticleException(Exception):
 
 class NewsArticle(object):
     # news article object
-    def __init__(self, article):
+    def __init__(self, article, parser_result):
         # some useful private properties 
         self.__article = article
-        self.__article_html = article.article_html
-        self.__html = article.html
-        self.__root_html_node = article.clean_doc
-        self.__root_article_node = article.clean_top_node
+        self.__result_json = parser_result
 
         self.__fulfilled = False
 
@@ -35,8 +33,9 @@ class NewsArticle(object):
         self.url = article.url
         self.title = article.title
         self.authors = []
-        self.publication = article.source_url
-        self.publish_date = article.publish_date
+        self.publication = parser_result['domain'] if parser_result['domain'] else article.source_url
+        self.publish_date = ''
+        self.text = article.text
         self.quotes = []
         self.links = []
         self.key_words = article.keywords
@@ -44,7 +43,9 @@ class NewsArticle(object):
         # self.names = []
         # self.sentiments = []
         # self.num_flags = 0
-
+        
+        self.find_all_provenance()
+        
     def find_title(self):
         pass
 
@@ -83,7 +84,17 @@ class NewsArticle(object):
         pass
 
     def find_publish_date(self):
-        pass
+        if self.__article.publish_date:
+            self.publish_date = self.__article.publish_date.strftime("%Y-%m-%d")
+        else:
+            if self.__result_json['date_published']:
+                # format would be '%y-%m-%d...'
+                self.publish_date = self.__result_json['date_published'][0:10]
+            else:
+                self.publish_date = ''
+        
+        return self.publish_date
+
 
     def find_quotes(self):
         pass
@@ -112,7 +123,8 @@ class NewsArticle(object):
             'title': self.title,
             'authors': authors_dicts,
             'publication': self.publication,
-            'publish_date': self.publish_date.strftime("%m/%d/%Y") if self.publish_date else '',
+            'publish_date': self.publish_date,
+            'text': self.text,
             'quotes': self.quotes,
             'links': self.links,
             'key_words': self.key_words
@@ -125,11 +137,13 @@ class NewsArticle(object):
         try:
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
-            article.download();
-            article.parse();
-            article.nlp();
+            article.build()
+
+            # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
+            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
+            result_json = json.loads(parser_result.stdout)
             
-            news_article = NewsArticle(article)
+            news_article = NewsArticle(article, result_json)
             news_article.find_all_provenance()
             return news_article
         except Exception as e:
