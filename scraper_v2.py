@@ -4,26 +4,34 @@ import json
 import subprocess
 import os
 import re
+from bs4 import BeautifulSoup
 from newspaper import Article
+
 
 class Author(object):
     def __init__(self, name, link):
         self.name = name
         self.link = link
-    
+
     def jsonify(self):
         return {
             'name': self.name,
             'link': self.link
         }
 
+
 class NewsArticleException(Exception):
     pass
+
 
 class NewsArticle(object):
     # news article object
     def __init__(self, article, parser_result):
-        # some useful private properties 
+        """
+        some useful private properties:
+        __article is extracted from Newpaper library,
+        __result_json is extracted from mercury-parser library
+        """
         self.__article = article
         self.__result_json = parser_result
 
@@ -34,6 +42,8 @@ class NewsArticle(object):
         self.title = article.title
         self.authors = []
         self.publication = parser_result['domain'] if parser_result['domain'] else article.source_url
+        # html.fromString(str) will return the object
+        self.content = parser_result['content'] if parser_result['content'] else None
         self.publish_date = ''
         self.text = article.text
         self.quotes = []
@@ -43,9 +53,9 @@ class NewsArticle(object):
         # self.names = []
         # self.sentiments = []
         # self.num_flags = 0
-        
+
         self.find_all_provenance()
-        
+
     def find_title(self):
         pass
 
@@ -57,7 +67,8 @@ class NewsArticle(object):
             if not re.match(regex, x):
                 # slice the For Mailonline in dayliymail author's name
                 if 'For Mailonline' in x:
-                    authors_name_segments.append(x.replace(' For Mailonline', ''))
+                    authors_name_segments.append(
+                        x.replace(' For Mailonline', ''))
                 else:
                     authors_name_segments.append(x)
 
@@ -66,42 +77,49 @@ class NewsArticle(object):
         authors_name = []
         while pos >= 0:
             if re.match('(Jr|jr)', authors_name_segments[pos]):
-                full_name = authors_name_segments[pos-1] + ', ' + authors_name_segments[pos]
+                full_name = authors_name_segments[pos -
+                                                  1] + ', ' + authors_name_segments[pos]
                 authors_name.append(full_name)
                 pos -= 2
             else:
                 authors_name.append(authors_name_segments[pos])
                 pos -= 1
-        
+
         authors = []
         for x in authors_name:
             authors.append(Author(x, None))
         self.authors = authors
-        
+
         return authors
-    
+
     def find_publication(self):
         pass
 
     def find_publish_date(self):
         if self.__article.publish_date:
-            self.publish_date = self.__article.publish_date.strftime("%Y-%m-%d")
+            self.publish_date = self.__article.publish_date.strftime(
+                "%Y-%m-%d")
         else:
             if self.__result_json['date_published']:
                 # format would be '%y-%m-%d...'
                 self.publish_date = self.__result_json['date_published'][0:10]
             else:
                 self.publish_date = ''
-        
-        return self.publish_date
 
+        return self.publish_date
 
     def find_quotes(self):
         pass
 
     def find_links(self):
-        pass
-    
+        soup = BeautifulSoup(self.content)
+        a_tags = soup.find_all("a")
+        links = []
+        for a_tag in a_tags:
+            links.append(a_tag.get('href'))
+
+        return links
+
     def find_all_provenance(self):
         if not self.__fulfilled:
             self.find_title()
@@ -140,9 +158,10 @@ class NewsArticle(object):
             article.build()
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
+            parser_result = subprocess.run(
+                ["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
-            
+
             news_article = NewsArticle(article, result_json)
             news_article.find_all_provenance()
             return news_article
@@ -153,7 +172,7 @@ class NewsArticle(object):
 class Scraper(object):
     def __init__(self):
         self.visited = []
-        
+
     def scrape_news(self, url, depth=0):
         """scrape news article from url, 
             if depth greter than 0, recursively scrape related links in source
@@ -170,7 +189,8 @@ class Scraper(object):
             if depth > 0:
                 for link in news_article.links:
                     if link not in self.visited:
-                        news_article_list += self.scrape_news(link, (depth - 1))
+                        news_article_list += self.scrape_news(
+                            link, (depth - 1))
         finally:
             return news_article_list
 
@@ -180,15 +200,18 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
+
 def main():
-    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
-    parser.add_argument('-u', '--url', dest='url', required=True, help='source news article web url')
+    parser = argparse.ArgumentParser(
+        description='scraping news articles from web, and store result in file')
+    parser.add_argument('-u', '--url', dest='url',
+                        required=True, help='source news article web url')
     parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
                         help='the depth of related article would be scraped, defalut is 2')
     parser.add_argument('-o', '--output', dest='output',
-                        help='output file name, if not provided would use url hash as file name' + 
+                        help='output file name, if not provided would use url hash as file name' +
                         ' and stored in news_json folder under current path')
-    
+
     args = parser.parse_args()
 
     if args.depth < 0:
@@ -197,15 +220,16 @@ def main():
 
     # scrape from url
     scraper = Scraper()
-    print('starting scraping from source url: %s, with depth %d' %(args.url, args.depth))
+    print('starting scraping from source url: %s, with depth %d' %
+          (args.url, args.depth))
     news_article_list = scraper.scrape_news(args.url, args.depth)
     print('finish scraping from source url: ', args.url)
-    
+
     # build dict object list
     output_json_list = []
     for news_article in news_article_list:
         output_json_list.append(news_article.jsonify())
-    
+
     # wrote non empty reslut to file
     if news_article_list:
         output = args.output
@@ -216,7 +240,7 @@ def main():
             output = 'news_json/' + str(url_hash) + '.json'
         with open(output, 'w') as f:
             json.dump(output_json_list, f, ensure_ascii=False, indent=4)
-        print('write scraping result to ' , output)
+        print('write scraping result to ', output)
     else:
         print('scraping result is empyt for source url: ', args.url)
 
