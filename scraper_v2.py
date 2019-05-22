@@ -17,9 +17,6 @@ class Author(object):
             'link': self.link
         }
 
-class NewsArticleException(Exception):
-    pass
-
 class NewsArticle(object):
     # news article object
     def __init__(self, article, parser_result):
@@ -33,7 +30,7 @@ class NewsArticle(object):
         self.url = article.url
         self.title = article.title
         self.authors = []
-        self.publication = parser_result['domain'] if parser_result['domain'] else article.source_url
+        self.publication = parser_result['domain'] or article.source_url
         self.publish_date = ''
         self.text = article.text
         self.quotes = []
@@ -144,10 +141,9 @@ class NewsArticle(object):
             result_json = json.loads(parser_result.stdout)
             
             news_article = NewsArticle(article, result_json)
-            news_article.find_all_provenance()
             return news_article
         except Exception as e:
-            raise e
+            raise
 
 
 class Scraper(object):
