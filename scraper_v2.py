@@ -6,23 +6,57 @@ import os
 import re
 from newspaper import Article
 
+"""
+Script for scraping news article provenance from news url
+
+Integrating Pyhton Newspaper3k library and mercury-parser https://mercury.postlight.com/web-parser/
+use best effort to extract correct provenance
+"""
+
 class Author(object):
     def __init__(self, name, link):
         self.name = name
         self.link = link
     
     def jsonify(self):
+        """return a dictionary of author object"""
         return {
             'name': self.name,
             'link': self.link
         }
 
 class NewsArticle(object):
-    # news article object
-    def __init__(self, article, parser_result):
+    """
+    NewsArticle class mainly for find and store the provance of one news article
+
+    Only two methods should be called outside the class
+
+    One is class static method: 
+        build_news_article_from_url(url) 
+            return an NewsArticle object build from provided url
+    
+    Anohter method:
+        jsonify()
+            return a dictionary only contain article provenance
+    """
+
+    def __init__(self, newspaper_article, mercury_parser_result):
+        """
+        constructor for NewsArticle object
+
+        NewsArticle constructor based on the parser result return by
+        Newspaper3k library and mercury-parser
+
+        Parameters
+        ----------
+        newspaper_article : Article
+            the Article object returned by Newspaper3k library
+        mercury_parser_result : dict
+            the json format of mercury-parser result
+        """
         # some useful private properties 
-        self.__article = article
-        self.__result_json = parser_result
+        self.__article = newspaper_article
+        self.__result_json = mercury_parser_result
 
         self.__fulfilled = False
 
@@ -36,15 +70,8 @@ class NewsArticle(object):
         self.quotes = []
         self.links = []
         self.key_words = article.keywords
-        # self.cite_text = []
-        # self.names = []
-        # self.sentiments = []
-        # self.num_flags = 0
         
         self.find_all_provenance()
-        
-    def find_title(self):
-        pass
 
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
@@ -76,9 +103,6 @@ class NewsArticle(object):
         self.authors = authors
         
         return authors
-    
-    def find_publication(self):
-        pass
 
     def find_publish_date(self):
         if self.__article.publish_date:
@@ -101,16 +125,14 @@ class NewsArticle(object):
     
     def find_all_provenance(self):
         if not self.__fulfilled:
-            self.find_title()
             self.find_authors()
-            self.find_publication()
             self.find_publish_date()
             self.find_quotes()
             self.find_links()
             self.__fulfilled = True
 
     def jsonify(self):
-        """ return a dict of news article object
+        """ return a dictionary only contain article provenance
         """
         authors_dicts = []
         for x in self.authors:
@@ -129,7 +151,7 @@ class NewsArticle(object):
 
     @staticmethod
     def build_news_article_from_url(source_url):
-        """build new article object from source url, if build fail would raise a NewsArticleException
+        """build new article object from source url, if build fail would raise a Exception
         """
         try:
             # pre-process news by NewsPaper3k library
@@ -147,12 +169,16 @@ class NewsArticle(object):
 
 
 class Scraper(object):
+    """
+    Scraper class, for this class would build a list of NewsArticle objects from source url
+    """
     def __init__(self):
         self.visited = []
         
     def scrape_news(self, url, depth=0):
-        """scrape news article from url, 
-            if depth greter than 0, recursively scrape related links in source
+        """
+        scrape news article from url, 
+        if depth greter than 0, recursively scrape related links in source
         """
         news_article_list = []
         try:
@@ -216,6 +242,4 @@ def main():
     else:
         print('scraping result is empyt for source url: ', args.url)
 
-
-if __name__ == "__main__":
-    main()
+main()
