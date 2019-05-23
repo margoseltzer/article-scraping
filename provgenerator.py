@@ -21,7 +21,7 @@ bundle_name = str(data[0]["url"]);
 bundle_type = CPL.ENTITY
 try:
     print("about to look up")
-    bundle = c.lookup_object(originator, bundle_name, originator)
+    bundle = c.lookup_bundle(bundle_name, originator)
 except Exception as e:
     print("about to create")
     bundle = c.create_bundle(bundle_name, originator)
