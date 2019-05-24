@@ -75,15 +75,8 @@ class NewsArticle(object):
 
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
-        authors_name_segments = []
-        for x in self.__article.authors:
-            # filter out unexpected word
-            if not re.match(regex, x):
-                # slice the For Mailonline in dayliymail author's name
-                if 'For Mailonline' in x:
-                    authors_name_segments.append(x.replace(' For Mailonline', ''))
-                else:
-                    authors_name_segments.append(x)
+        # filter out unexpected word and slice the For Mailonline in dayliymail author's name
+        authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
@@ -97,12 +90,9 @@ class NewsArticle(object):
                 authors_name.append(authors_name_segments[pos])
                 pos -= 1
         
-        authors = []
-        for x in authors_name:
-            authors.append(Author(x, None))
-        self.authors = authors
-        
-        return authors
+        self.authors = [Author(x, None) for x in authors_name]
+
+        return self.authors
 
     def find_publish_date(self):
         if self.__article.publish_date:
@@ -134,9 +124,7 @@ class NewsArticle(object):
     def jsonify(self):
         """ return a dictionary only contain article provenance
         """
-        authors_dicts = []
-        for x in self.authors:
-            authors_dicts.append(x.jsonify())
+        authors_dicts = [x.jsonify() for x in self.authors]
         return {
             'url': self.url,
             'title': self.title,
