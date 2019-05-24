@@ -61,15 +61,15 @@ class NewsArticle(object):
         self.__fulfilled = False
 
         # news Provenance
-        self.url = article.url
-        self.title = article.title
+        self.url = newspaper_article.url
+        self.title = newspaper_article.title
         self.authors = []
-        self.publication = parser_result['domain'] or article.source_url
+        self.publication = mercury_parser_result['domain'] or newspaper_article.source_url
         self.publish_date = ''
-        self.text = article.text
+        self.text = newspaper_article.text
         self.quotes = []
         self.links = []
-        self.key_words = article.keywords
+        self.key_words = newspaper_article.keywords
         
         self.find_all_provenance()
 
@@ -151,7 +151,7 @@ class NewsArticle(object):
 
     @staticmethod
     def build_news_article_from_url(source_url):
-        """build new article object from source url, if build fail would raise a Exception
+        """build new article object from source url, if build fail would return None
         """
         try:
             # pre-process news by NewsPaper3k library
@@ -165,12 +165,15 @@ class NewsArticle(object):
             news_article = NewsArticle(article, result_json)
             return news_article
         except Exception as e:
-            raise
+            print('fail to scraping from url: ', source_url)
+            print('reason:', e)
+            return None
 
 
 class Scraper(object):
     """
     Scraper class, for this class would build a list of NewsArticle objects from source url
+    if scraper from multiple source url should initiate different scraper
     """
     def __init__(self):
         self.visited = []
@@ -178,23 +181,36 @@ class Scraper(object):
     def scrape_news(self, url, depth=0):
         """
         scrape news article from url, 
-        if depth greter than 0, recursively scrape related links in source
+        if depth greter than 0, scrape related child articles
         """
         news_article_list = []
-        try:
-            news_article = NewsArticle.build_news_article_from_url(url)
-            news_article_list.append(news_article)
-            self.visited.append(url)
-        except Exception as e:
-            print('fail to scraping from url: ', url)
-            print('reason:', e)
-        else:
-            if depth > 0:
-                for link in news_article.links:
-                    if link not in self.visited:
-                        news_article_list += self.scrape_news(link, (depth - 1))
-        finally:
+
+        news_article = NewsArticle.build_news_article_from_url(url)
+        if not news_article:
             return news_article_list
+
+        news_article = NewsArticle.build_news_article_from_url(url)
+        news_article_list.append(news_article)
+        
+        self.visited.append(url)
+        parent_articles_list = [news_article]
+        while depth > 0:
+            child_url_list = [url for article in parent_articles_list for url in article.links]
+            child_articles_list = self.scrape_news_list(child_url_list)
+            news_article_list += child_articles_list
+            parent_articles_list = child_articles_list 
+            depth -= 1
+
+        return news_article_list
+
+    def scrape_news_list(self, url_list):
+        """
+        scrape news article from url list, if url has been visited skip that one
+        """
+        url_list_filtered = [url for url in url_list if url not in self.visited]
+        news_article_list = [NewsArticle.build_news_article_from_url(url) for url in url_list_filtered]
+        self.visited += url_list_filtered
+        return [article for article in news_article_list if article]
 
 
 def hash_url(url):
@@ -221,6 +237,10 @@ def main():
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' %(args.url, args.depth))
     news_article_list = scraper.scrape_news(args.url, args.depth)
+    if not news_article_list:
+        print('fail scraping from source url: ', args.url)
+        return
+
     print('finish scraping from source url: ', args.url)
     
     # build dict object list
@@ -228,18 +248,15 @@ def main():
     for news_article in news_article_list:
         output_json_list.append(news_article.jsonify())
     
-    # wrote non empty reslut to file
-    if news_article_list:
-        output = args.output
-        if output is None:
-            if not os.path.exists('news_json'):
-                os.makedirs('news_json')
-            url_hash = hash_url(args.url)
-            output = 'news_json/' + str(url_hash) + '.json'
-        with open(output, 'w') as f:
-            json.dump(output_json_list, f, ensure_ascii=False, indent=4)
-        print('write scraping result to ' , output)
-    else:
-        print('scraping result is empyt for source url: ', args.url)
+    # write reslut to file
+    output = args.output
+    if output is None:
+        if not os.path.exists('news_json'):
+            os.makedirs('news_json')
+        url_hash = hash_url(args.url)
+        output = 'news_json/' + str(url_hash) + '.json'
+    with open(output, 'w') as f:
+        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+    print('write scraping result to ' , output)
 
 main()
