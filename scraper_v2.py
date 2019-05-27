@@ -1,3 +1,4 @@
+import urllib.request
 import argparse
 import hashlib
 import json
@@ -111,14 +112,25 @@ class NewsArticle(object):
     def find_quotes(self):
         pass
 
-    def find_links(self):
-        soup = BeautifulSoup(self.content)
-        a_tags = soup.find_all("a")
-        links = []
-        for a_tag in a_tags:
-            links.append(a_tag.get('href'))
+    """
+    The data structure: an object with {news: [Set], sports: [Set]}
 
-        return links
+    """
+
+    def find_links(self):
+        """
+        Find all a tags and extract urls from href field
+        Then, categorize the urls before return
+        """
+        soup = BeautifulSoup(self.content, features="lxml")
+        a_tags = soup.find_all("a")
+        print("self.url is : " + self.url)
+        links = [a_tag.get('href')
+                 for a_tag in a_tags if a_tag.get('href') != self.url]
+        print(links)
+        # return links
+
+        return categorize_links(links)
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -156,11 +168,14 @@ class NewsArticle(object):
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
+            # print(article)
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
             parser_result = subprocess.run(
                 ["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
+            # print(parser_result)
+            # print(result_json)
 
             news_article = NewsArticle(article, result_json)
             news_article.find_all_provenance()
@@ -201,49 +216,75 @@ def hash_url(url):
     return md5Hash.hexdigest()
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description='scraping news articles from web, and store result in file')
-    parser.add_argument('-u', '--url', dest='url',
-                        required=True, help='source news article web url')
-    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
-                        help='the depth of related article would be scraped, defalut is 2')
-    parser.add_argument('-o', '--output', dest='output',
-                        help='output file name, if not provided would use url hash as file name' +
-                        ' and stored in news_json folder under current path')
+# def main():
+#     parser = argparse.ArgumentParser(
+#         description='scraping news articles from web, and store result in file')
+#     parser.add_argument('-u', '--url', dest='url',
+#                         required=True, help='source news article web url')
+#     parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
+#                         help='the depth of related article would be scraped, defalut is 2')
+#     parser.add_argument('-o', '--output', dest='output',
+#                         help='output file name, if not provided would use url hash as file name' +
+#                         ' and stored in news_json folder under current path')
 
-    args = parser.parse_args()
+#     args = parser.parse_args()
 
-    if args.depth < 0:
-        print('scraping depth must greater or equal to 0')
-        return
+#     if args.depth < 0:
+#         print('scraping depth must greater or equal to 0')
+#         return
 
-    # scrape from url
-    scraper = Scraper()
-    print('starting scraping from source url: %s, with depth %d' %
-          (args.url, args.depth))
-    news_article_list = scraper.scrape_news(args.url, args.depth)
-    print('finish scraping from source url: ', args.url)
+#     # scrape from url
+#     scraper = Scraper()
+#     print('starting scraping from source url: %s, with depth %d' %
+#           (args.url, args.depth))
+#     news_article_list = scraper.scrape_news(args.url, args.depth)
+#     print('finish scraping from source url: ', args.url)
 
-    # build dict object list
-    output_json_list = []
-    for news_article in news_article_list:
-        output_json_list.append(news_article.jsonify())
+#     # build dict object list
+#     output_json_list = []
+#     for news_article in news_article_list:
+#         output_json_list.append(news_article.jsonify())
 
-    # wrote non empty reslut to file
-    if news_article_list:
-        output = args.output
-        if output is None:
-            if not os.path.exists('news_json'):
-                os.makedirs('news_json')
-            url_hash = hash_url(args.url)
-            output = 'news_json/' + str(url_hash) + '.json'
-        with open(output, 'w') as f:
-            json.dump(output_json_list, f, ensure_ascii=False, indent=4)
-        print('write scraping result to ', output)
-    else:
-        print('scraping result is empyt for source url: ', args.url)
+#     # wrote non empty reslut to file
+#     if news_article_list:
+#         output = args.output
+#         if output is None:
+#             if not os.path.exists('news_json'):
+#                 os.makedirs('news_json')
+#             url_hash = hash_url(args.url)
+#             output = 'news_json/' + str(url_hash) + '.json'
+#         with open(output, 'w') as f:
+#             json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+#         print('write scraping result to ', output)
+#     else:
+#         print('scraping result is empyt for source url: ', args.url)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
+
+
+url = 'https://www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/'
+
+news_article = NewsArticle.build_news_article_from_url(url)
+
+links_dict = news_article.find_links()
+
+print(links_dict)
+
+print('testing API')
+
+
+# This gives technologies uesd in the url.
+# with urllib.request.urlopen("https://api.builtwith.com/free1/api.json?KEY=3168f921-0439-45d0-9113-45faa096f07b&LOOKUP=https://www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/") as url:
+#     data = json.loads(url.read().decode())
+#     print(data)
+
+# This is not free
+# with urllib.request.urlopen("https://website-categorization-api.whoisxmlapi.com/api/v1?apiKey=at_3GEU4QdYSt8blznjIYKrgId9Y33wR&domainName=www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/") as url1:
+#     data1 = json.loads(url1.read().decode())
+#     print(data1)
+
+# with urllib.request.urlopen("https://fortiguard.com/webfilter?q=www.google.com&version=8") as url1:
+#     data1 = json.loads(url1.read().decode())
+#     print(data1)
