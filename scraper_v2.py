@@ -1,4 +1,3 @@
-import urllib.request
 import argparse
 import hashlib
 import json
@@ -80,16 +79,14 @@ class NewsArticle(object):
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         # filter out unexpected word and slice the For Mailonline in dayliymail author's name
-        authors_name_segments = [x.replace(
-            ' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
+        authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
         authors_name = []
         while pos >= 0:
             if re.match('(Jr|jr)', authors_name_segments[pos]):
-                full_name = authors_name_segments[pos -
-                                                  1] + ', ' + authors_name_segments[pos]
+                full_name = authors_name_segments[pos - 1] + ', ' + authors_name_segments[pos]
                 authors_name.append(full_name)
                 pos -= 2
             else:
@@ -102,8 +99,7 @@ class NewsArticle(object):
 
     def find_publish_date(self):
         if self.__article.publish_date:
-            self.publish_date = self.__article.publish_date.strftime(
-                "%Y-%m-%d")
+            self.publish_date = self.__article.publish_date.strftime("%Y-%m-%d")
         else:
             if self.__result_json['date_published']:
                 # format would be '%y-%m-%d...'
@@ -116,11 +112,6 @@ class NewsArticle(object):
     def find_quotes(self):
         pass
 
-    """
-    The data structure: an object with {news: [Set], sports: [Set]}
-
-    """
-
     def find_links(self):
         """
         Find all a tags and extract urls from href field
@@ -129,8 +120,7 @@ class NewsArticle(object):
         soup = BeautifulSoup(self.__result_json['content'], features="lxml")
         a_tags = soup.find_all("a")
 
-        links = [a_tag.get('href')
-                 for a_tag in a_tags if a_tag.get('href') != self.url]
+        links = [a_tag.get('href') for a_tag in a_tags if a_tag.get('href') != self.url]
 
         self.links = links
         return links
@@ -167,14 +157,10 @@ class NewsArticle(object):
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
-            # print(article)
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(
-                ["mercury-parser", source_url], stdout=subprocess.PIPE)
+            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
-            # print(parser_result)
-            # print(result_json)
 
             news_article = NewsArticle(article, result_json)
             return news_article
@@ -209,8 +195,7 @@ class Scraper(object):
         self.visited.append(url)
         parent_articles_list = [news_article]
         while depth > 0:
-            child_url_list = [
-                url for article in parent_articles_list for url in article.links]
+            child_url_list = [url for article in parent_articles_list for url in article.links]
             child_articles_list = self.scrape_news_list(child_url_list)
             news_article_list += child_articles_list
             parent_articles_list = child_articles_list
@@ -222,10 +207,8 @@ class Scraper(object):
         """
         scrape news article from url list, if url has been visited skip that one
         """
-        url_list_filtered = [
-            url for url in url_list if url not in self.visited]
-        news_article_list = [NewsArticle.build_news_article_from_url(
-            url) for url in url_list_filtered]
+        url_list_filtered = [url for url in url_list if url not in self.visited]
+        news_article_list = [NewsArticle.build_news_article_from_url(url) for url in url_list_filtered]
         self.visited += url_list_filtered
         return [article for article in news_article_list if article]
 
@@ -237,8 +220,7 @@ def hash_url(url):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='scraping news articles from web, and store result in file')
+    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
     parser.add_argument('-u', '--url', dest='url',
                         required=True, help='source news article web url')
     parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
