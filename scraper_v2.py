@@ -177,7 +177,6 @@ class Scraper(object):
         if not news_article:
             return news_article_list
 
-        news_article = NewsArticle.build_news_article_from_url(url)
         news_article_list.append(news_article)
         
         self.visited.append(url)
