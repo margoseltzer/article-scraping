@@ -8,6 +8,13 @@ import re
 from bs4 import BeautifulSoup
 from newspaper import Article
 
+"""
+Script for scraping news article provenance from news url
+
+Integrating Pyhton Newspaper3k library and mercury-parser https://mercury.postlight.com/web-parser/
+use best effort to extract correct provenance
+"""
+
 
 class Author(object):
     def __init__(self, name, link):
@@ -15,63 +22,66 @@ class Author(object):
         self.link = link
 
     def jsonify(self):
+        """return a dictionary of author object"""
         return {
             'name': self.name,
             'link': self.link
         }
 
 
-class NewsArticleException(Exception):
-    pass
-
-
 class NewsArticle(object):
-    # news article object
-    def __init__(self, article, parser_result):
+    """
+    NewsArticle class mainly for find and store the provance of one news article
+
+    Only two methods should be called outside the class
+
+    One is class static method: 
+        build_news_article_from_url(url) 
+            return an NewsArticle object build from provided url
+
+    Anohter method:
+        jsonify()
+            return a dictionary only contain article provenance
+    """
+
+    def __init__(self, newspaper_article, mercury_parser_result):
         """
-        some useful private properties:
-        __article is extracted from Newpaper library,
-        __result_json is extracted from mercury-parser library
+        constructor for NewsArticle object
+
+        NewsArticle constructor based on the parser result return by
+        Newspaper3k library and mercury-parser
+
+        Parameters
+        ----------
+        newspaper_article : Article
+            the Article object returned by Newspaper3k library
+        mercury_parser_result : dict
+            the json format of mercury-parser result
         """
-        self.__article = article
-        self.__result_json = parser_result
+        # some useful private properties
+        self.__article = newspaper_article
+        self.__result_json = mercury_parser_result
 
         self.__fulfilled = False
 
         # news Provenance
-        self.url = article.url
-        self.title = article.title
+        self.url = newspaper_article.url
+        self.title = newspaper_article.title
         self.authors = []
-        self.publication = parser_result['domain'] if parser_result['domain'] else article.source_url
-        # html.fromString(str) will return the object
-        self.content = parser_result['content'] if parser_result['content'] else None
+        self.publication = mercury_parser_result['domain'] or newspaper_article.source_url
         self.publish_date = ''
-        self.text = article.text
+        self.text = newspaper_article.text
         self.quotes = []
         self.links = []
-        self.key_words = article.keywords
-        # self.cite_text = []
-        # self.names = []
-        # self.sentiments = []
-        # self.num_flags = 0
+        self.key_words = newspaper_article.keywords
 
         self.find_all_provenance()
 
-    def find_title(self):
-        pass
-
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
-        authors_name_segments = []
-        for x in self.__article.authors:
-            # filter out unexpected word
-            if not re.match(regex, x):
-                # slice the For Mailonline in dayliymail author's name
-                if 'For Mailonline' in x:
-                    authors_name_segments.append(
-                        x.replace(' For Mailonline', ''))
-                else:
-                    authors_name_segments.append(x)
+        # filter out unexpected word and slice the For Mailonline in dayliymail author's name
+        authors_name_segments = [x.replace(
+            ' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
@@ -86,15 +96,9 @@ class NewsArticle(object):
                 authors_name.append(authors_name_segments[pos])
                 pos -= 1
 
-        authors = []
-        for x in authors_name:
-            authors.append(Author(x, None))
-        self.authors = authors
+        self.authors = [Author(x, None) for x in authors_name]
 
-        return authors
-
-    def find_publication(self):
-        pass
+        return self.authors
 
     def find_publish_date(self):
         if self.__article.publish_date:
@@ -122,32 +126,27 @@ class NewsArticle(object):
         Find all a tags and extract urls from href field
         Then, categorize the urls before return
         """
-        soup = BeautifulSoup(self.content, features="lxml")
+        soup = BeautifulSoup(self.__result_json['content'], features="lxml")
         a_tags = soup.find_all("a")
-        print("self.url is : " + self.url)
+
         links = [a_tag.get('href')
                  for a_tag in a_tags if a_tag.get('href') != self.url]
-        print(links)
-        # return links
 
+        self.links = links
         return links
 
     def find_all_provenance(self):
         if not self.__fulfilled:
-            self.find_title()
             self.find_authors()
-            self.find_publication()
             self.find_publish_date()
             self.find_quotes()
             self.find_links()
             self.__fulfilled = True
 
     def jsonify(self):
-        """ return a dict of news article object
+        """ return a dictionary only contain article provenance
         """
-        authors_dicts = []
-        for x in self.authors:
-            authors_dicts.append(x.jsonify())
+        authors_dicts = [x.jsonify() for x in self.authors]
         return {
             'url': self.url,
             'title': self.title,
@@ -162,7 +161,7 @@ class NewsArticle(object):
 
     @staticmethod
     def build_news_article_from_url(source_url):
-        """build new article object from source url, if build fail would raise a NewsArticleException
+        """build new article object from source url, if build fail would return None
         """
         try:
             # pre-process news by NewsPaper3k library
@@ -178,36 +177,57 @@ class NewsArticle(object):
             # print(result_json)
 
             news_article = NewsArticle(article, result_json)
-            news_article.find_all_provenance()
             return news_article
         except Exception as e:
-            raise e
+            print('fail to scraping from url: ', source_url)
+            print('reason:', e)
+            return None
 
 
 class Scraper(object):
+    """
+    Scraper class, for this class would build a list of NewsArticle objects from source url
+    if scraper from multiple source url should initiate different scraper
+    """
+
     def __init__(self):
         self.visited = []
 
     def scrape_news(self, url, depth=0):
-        """scrape news article from url, 
-            if depth greter than 0, recursively scrape related links in source
+        """
+        scrape news article from url, 
+        if depth greter than 0, scrape related child articles
         """
         news_article_list = []
-        try:
-            news_article = NewsArticle.build_news_article_from_url(url)
-            news_article_list.append(news_article)
-            self.visited.append(url)
-        except Exception as e:
-            print('fail to scraping from url: ', url)
-            print('reason:', e)
-        else:
-            if depth > 0:
-                for link in news_article.links:
-                    if link not in self.visited:
-                        news_article_list += self.scrape_news(
-                            link, (depth - 1))
-        finally:
+
+        news_article = NewsArticle.build_news_article_from_url(url)
+        if not news_article:
             return news_article_list
+
+        news_article_list.append(news_article)
+
+        self.visited.append(url)
+        parent_articles_list = [news_article]
+        while depth > 0:
+            child_url_list = [
+                url for article in parent_articles_list for url in article.links]
+            child_articles_list = self.scrape_news_list(child_url_list)
+            news_article_list += child_articles_list
+            parent_articles_list = child_articles_list
+            depth -= 1
+
+        return news_article_list
+
+    def scrape_news_list(self, url_list):
+        """
+        scrape news article from url list, if url has been visited skip that one
+        """
+        url_list_filtered = [
+            url for url in url_list if url not in self.visited]
+        news_article_list = [NewsArticle.build_news_article_from_url(
+            url) for url in url_list_filtered]
+        self.visited += url_list_filtered
+        return [article for article in news_article_list if article]
 
 
 def hash_url(url):
@@ -216,75 +236,49 @@ def hash_url(url):
     return md5Hash.hexdigest()
 
 
-# def main():
-#     parser = argparse.ArgumentParser(
-#         description='scraping news articles from web, and store result in file')
-#     parser.add_argument('-u', '--url', dest='url',
-#                         required=True, help='source news article web url')
-#     parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
-#                         help='the depth of related article would be scraped, defalut is 2')
-#     parser.add_argument('-o', '--output', dest='output',
-#                         help='output file name, if not provided would use url hash as file name' +
-#                         ' and stored in news_json folder under current path')
+def main():
+    parser = argparse.ArgumentParser(
+        description='scraping news articles from web, and store result in file')
+    parser.add_argument('-u', '--url', dest='url',
+                        required=True, help='source news article web url')
+    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
+                        help='the depth of related article would be scraped, defalut is 2')
+    parser.add_argument('-o', '--output', dest='output',
+                        help='output file name, if not provided would use url hash as file name' +
+                        ' and stored in news_json folder under current path')
 
-#     args = parser.parse_args()
+    args = parser.parse_args()
 
-#     if args.depth < 0:
-#         print('scraping depth must greater or equal to 0')
-#         return
+    if args.depth < 0:
+        print('scraping depth must greater or equal to 0')
+        return
 
-#     # scrape from url
-#     scraper = Scraper()
-#     print('starting scraping from source url: %s, with depth %d' %
-#           (args.url, args.depth))
-#     news_article_list = scraper.scrape_news(args.url, args.depth)
-#     print('finish scraping from source url: ', args.url)
+    # scrape from url
+    scraper = Scraper()
+    print('starting scraping from source url: %s, with depth %d' %
+          (args.url, args.depth))
+    news_article_list = scraper.scrape_news(args.url, args.depth)
+    if not news_article_list:
+        print('fail scraping from source url: ', args.url)
+        return
 
-#     # build dict object list
-#     output_json_list = []
-#     for news_article in news_article_list:
-#         output_json_list.append(news_article.jsonify())
+    print('finish scraping from source url: ', args.url)
 
-#     # wrote non empty reslut to file
-#     if news_article_list:
-#         output = args.output
-#         if output is None:
-#             if not os.path.exists('news_json'):
-#                 os.makedirs('news_json')
-#             url_hash = hash_url(args.url)
-#             output = 'news_json/' + str(url_hash) + '.json'
-#         with open(output, 'w') as f:
-#             json.dump(output_json_list, f, ensure_ascii=False, indent=4)
-#         print('write scraping result to ', output)
-#     else:
-#         print('scraping result is empyt for source url: ', args.url)
+    # build dict object list
+    output_json_list = []
+    for news_article in news_article_list:
+        output_json_list.append(news_article.jsonify())
 
-
-# if __name__ == "__main__":
-#     main()
+    # write reslut to file
+    output = args.output
+    if output is None:
+        if not os.path.exists('news_json'):
+            os.makedirs('news_json')
+        url_hash = hash_url(args.url)
+        output = 'news_json/' + str(url_hash) + '.json'
+    with open(output, 'w') as f:
+        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+    print('write scraping result to ', output)
 
 
-url = 'https://www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/'
-
-news_article = NewsArticle.build_news_article_from_url(url)
-
-links_dict = news_article.find_links()
-
-print(links_dict)
-
-print('testing API')
-
-
-# This gives technologies uesd in the url.
-# with urllib.request.urlopen("https://api.builtwith.com/free1/api.json?KEY=3168f921-0439-45d0-9113-45faa096f07b&LOOKUP=https://www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/") as url:
-#     data = json.loads(url.read().decode())
-#     print(data)
-
-# This is not free
-# with urllib.request.urlopen("https://website-categorization-api.whoisxmlapi.com/api/v1?apiKey=at_3GEU4QdYSt8blznjIYKrgId9Y33wR&domainName=www.cnn.com/2019/05/06/tech/amazon-alexa-skills-blueprints/") as url1:
-#     data1 = json.loads(url1.read().decode())
-#     print(data1)
-
-# with urllib.request.urlopen("https://fortiguard.com/webfilter?q=www.google.com&version=8") as url1:
-#     data1 = json.loads(url1.read().decode())
-#     print(data1)
+main()
