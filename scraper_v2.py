@@ -130,7 +130,7 @@ class NewsArticle(object):
         print(links)
         # return links
 
-        return categorize_links(links)
+        return links
 
     def find_all_provenance(self):
         if not self.__fulfilled:
