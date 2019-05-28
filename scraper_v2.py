@@ -14,7 +14,8 @@ Integrating Pyhton Newspaper3k library and mercury-parser https://mercury.postli
 use best effort to extract correct provenance
 """
 
-# regex refer to https://gist.github.com/dperini/729294
+# regex used to validate url
+# refer to https://gist.github.com/dperini/729294
 URL_REGEX = re.compile(
     u"^"
     # protocol identifier
@@ -114,16 +115,14 @@ class NewsArticle(object):
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         # filter out unexpected word and slice the For Mailonline in dayliymail author's name
-        authors_name_segments = [x.replace(
-            ' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
+        authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
         authors_name = []
         while pos >= 0:
             if re.match('(Jr|jr)', authors_name_segments[pos]):
-                full_name = authors_name_segments[pos -
-                                                  1] + ', ' + authors_name_segments[pos]
+                full_name = authors_name_segments[pos - 1] + ', ' + authors_name_segments[pos]
                 authors_name.append(full_name)
                 pos -= 2
             else:
@@ -205,8 +204,7 @@ class NewsArticle(object):
             article.build()
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(
-                ["mercury-parser", source_url], stdout=subprocess.PIPE)
+            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
 
             news_article = NewsArticle(article, result_json)
@@ -224,6 +222,8 @@ class Scraper(object):
     if scraper from multiple source url should initiate different scraper
     """
 
+    BLACK_LIST = re.compile('.*(((amzn|amazon|youtube|reddit|invokedapps)\.)|(cnn.com/quote|/wiki)/).*')
+
     def __init__(self):
         self.visited = []
         self.failed = []
@@ -231,8 +231,20 @@ class Scraper(object):
     def scrape_news(self, url, depth=0):
         """
         scrape news article from url, 
-        if depth greter than 0, scrape related child articles
+        if depth greter than 0, scrape related url which is not in black list and not
+        be visited yet
         """
+
+        def generate_child_url_list(parent_articles_list):
+            """
+            generate next leve child url list from previous articles list
+            filter out url has been visited and in black_list
+            """
+            url_list = [url for article in parent_articles_list for url in article.links]
+            url_list_unvisited = [url for url in url_list if url not in self.visited]
+            url_list_filtered = [url for url in url_list_unvisited if not Scraper.BLACK_LIST.match(url)]
+            return url_list_filtered
+
         news_article_list = []
 
         news_article = NewsArticle.build_news_article_from_url(url)
@@ -248,28 +260,25 @@ class Scraper(object):
         # parent_articles_list would be only current level, from this list generates url list for next level
         parent_articles_list = [news_article]
         while depth > 0:
-            child_url_list = [
-                url for article in parent_articles_list for url in article.links]
+            child_url_list = generate_child_url_list(parent_articles_list)
             child_articles_list = self.scrape_news_list(child_url_list)
             news_article_list += child_articles_list
             parent_articles_list = child_articles_list
+            self.visited += child_url_list
             depth -= 1
 
         return news_article_list
 
     def scrape_news_list(self, url_list):
         """
-        scrape news article from url list, if url has been visited skip that one
+        scrape news article from url list
         """
-        url_list_filtered = [
-            url for url in url_list if url not in self.visited]
         news_article_list = []
-        for url in url_list_filtered:
+        for url in url_list:
             article = NewsArticle.build_news_article_from_url(url)
             news_article_list.append(
                 article) if article else self.failed.append(url)
 
-        self.visited += url_list_filtered
         return news_article_list
 
 
@@ -306,6 +315,9 @@ def main():
         return
 
     print('finish scraping all urls')
+    print('totally scraped %d pages' %(len(scraper.visited)))
+    print('visited url list :')
+    print(*scraper.visited, sep='\n')
     if scraper.failed:
         print('failed url list :')
         print(*scraper.failed, sep='\n')
@@ -325,6 +337,5 @@ def main():
     with open(output, 'w') as f:
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
-
 
 main()
