@@ -14,43 +14,6 @@ Integrating Pyhton Newspaper3k library and mercury-parser https://mercury.postli
 use best effort to extract correct provenance
 """
 
-# regex used to validate url
-# refer to https://gist.github.com/dperini/729294
-URL_REGEX = re.compile(
-    u"^"
-    # protocol identifier
-    u"(?:(?:https?|ftp)://)"
-    # user:pass authentication
-    u"(?:\S+(?::\S*)?@)?"
-    u"(?:"
-    # IP address exclusion
-    # private & local networks
-    u"(?!(?:10|127)(?:\.\d{1,3}){3})"
-    u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
-    u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
-    # IP address dotted notation octets
-    # excludes loopback network 0.0.0.0
-    # excludes reserved space >= 224.0.0.0
-    # excludes network & broadcast addresses
-    # (first & last IP address of each class)
-    u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
-    u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
-    u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
-    u"|"
-    # host name
-    u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
-    # domain name
-    u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
-    # TLD identifier
-    u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
-    u")"
-    # port number
-    u"(?::\d{2,5})?"
-    # resource path
-    u"(?:/\S*)?"
-    u"$", re.UNICODE)
-
-
 class Author(object):
     def __init__(self, name, link):
         self.name = name
@@ -78,6 +41,50 @@ class NewsArticle(object):
         jsonify()
             return a dictionary only contain article provenance
     """
+
+    # regex used to validate url
+    # refer to https://gist.github.com/dperini/729294
+    URL_REGEX = re.compile(
+        u"^"
+        # protocol identifier
+        u"(?:(?:https?|ftp)://)"
+        # user:pass authentication
+        u"(?:\S+(?::\S*)?@)?"
+        u"(?:"
+        # IP address exclusion
+        # private & local networks
+        u"(?!(?:10|127)(?:\.\d{1,3}){3})"
+        u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
+        u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
+        # IP address dotted notation octets
+        # excludes loopback network 0.0.0.0
+        # excludes reserved space >= 224.0.0.0
+        # excludes network & broadcast addresses
+        # (first & last IP address of each class)
+        u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
+        u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
+        u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
+        u"|"
+        # host name
+        u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
+        # domain name
+        u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
+        # TLD identifier
+        u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
+        u")"
+        # port number
+        u"(?::\d{2,5})?"
+        # resource path
+        u"(?:/\S*)?"
+        u"$", re.UNICODE)
+
+    BLACK_LIST = BLACK_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](get.adobe)\.)|'
+        # check sub page
+        '(/your-account/)|'
+        # check key word
+        '(category=subscribers)).*'))
 
     def __init__(self, newspaper_article, mercury_parser_result):
         """
@@ -166,7 +173,7 @@ class NewsArticle(object):
 
     def _is_link_valid(self, link):
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
-        return (link != self.url) and URL_REGEX.match(link)
+        return (link != self.url) and NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -260,6 +267,7 @@ class Scraper(object):
         news_article_list.append(news_article)
 
         self.visited.append(url)
+        self.success.append(url)
 
         # Steps for scraping links find in article.
         # parent_articles_list would be only current level, from this list generates url list for next level
@@ -346,5 +354,6 @@ def main():
     with open(output, 'w') as f:
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
+
 
 main()
