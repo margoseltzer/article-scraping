@@ -222,10 +222,15 @@ class Scraper(object):
     if scraper from multiple source url should initiate different scraper
     """
 
-    BLACK_LIST = re.compile('.*(((amzn|amazon|youtube|reddit|invokedapps)\.)|(cnn.com/quote|/wiki)/).*')
+    BLACK_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](amzn|amazon|youtube|reddit|invokedapps)\.)|'
+        # check sub page
+        '(cnn.com/quote|/wiki)/).*'))
 
     def __init__(self):
         self.visited = []
+        self.success = []
         self.failed = []
 
     def scrape_news(self, url, depth=0):
@@ -276,8 +281,11 @@ class Scraper(object):
         news_article_list = []
         for url in url_list:
             article = NewsArticle.build_news_article_from_url(url)
-            news_article_list.append(
-                article) if article else self.failed.append(url)
+            if article: 
+                news_article_list.append(article)
+                self.success.append(url)
+            else:
+                self.failed.append(url)
 
         return news_article_list
 
@@ -316,8 +324,9 @@ def main():
 
     print('finish scraping all urls')
     print('totally scraped %d pages' %(len(scraper.visited)))
-    print('visited url list :')
-    print(*scraper.visited, sep='\n')
+    print('totally success %d pages' %(len(scraper.success)))
+    print('success url list :')
+    print(*scraper.success, sep='\n')
     if scraper.failed:
         print('failed url list :')
         print(*scraper.failed, sep='\n')
