@@ -154,6 +154,8 @@ class NewsArticle(object):
         """build new article object from source url, if build fail would return None
         """
         try:
+            print('start to scrape from url: ', source_url)
+
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
@@ -163,9 +165,10 @@ class NewsArticle(object):
             result_json = json.loads(parser_result.stdout)
 
             news_article = NewsArticle(article, result_json)
+            print('success to scrape from url: ', source_url)
             return news_article
         except Exception as e:
-            print('fail to scraping from url: ', source_url)
+            print('fail to scrape from url: ', source_url)
             print('reason:', e)
             return None
 
@@ -178,6 +181,7 @@ class Scraper(object):
 
     def __init__(self):
         self.visited = []
+        self.failed = []
 
     def scrape_news(self, url, depth=0):
         """
@@ -188,11 +192,15 @@ class Scraper(object):
 
         news_article = NewsArticle.build_news_article_from_url(url)
         if not news_article:
+            self.failed.append(url)
             return news_article_list
 
         news_article_list.append(news_article)
 
         self.visited.append(url)
+        
+        # Steps for scraping links find in article.
+        # parent_articles_list would be only current level, from this list generates url list for next level
         parent_articles_list = [news_article]
         while depth > 0:
             child_url_list = [url for article in parent_articles_list for url in article.links]
@@ -208,9 +216,13 @@ class Scraper(object):
         scrape news article from url list, if url has been visited skip that one
         """
         url_list_filtered = [url for url in url_list if url not in self.visited]
-        news_article_list = [NewsArticle.build_news_article_from_url(url) for url in url_list_filtered]
+        news_article_list = []
+        for url in url_list_filtered:
+            article = NewsArticle.build_news_article_from_url(url)
+            news_article_list.append(article) if article else self.failed.append(url)
+
         self.visited += url_list_filtered
-        return [article for article in news_article_list if article]
+        return news_article_list
 
 
 def hash_url(url):
@@ -244,7 +256,9 @@ def main():
         print('fail scraping from source url: ', args.url)
         return
 
-    print('finish scraping from source url: ', args.url)
+    print('finish scraping all urls')
+    print('failed url list :')
+    print(*scraper.failed, sep='\n')
 
     # build dict object list
     output_json_list = []
