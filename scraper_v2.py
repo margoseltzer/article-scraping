@@ -47,8 +47,8 @@ URL_REGEX = re.compile(
     u"(?::\d{2,5})?"
     # resource path
     u"(?:/\S*)?"
-    u"$"
-    , re.UNICODE)
+    u"$", re.UNICODE)
+
 
 class Author(object):
     def __init__(self, name, link):
@@ -65,7 +65,7 @@ class Author(object):
 
 class NewsArticle(object):
     """
-    NewsArticle class mainly for find and store the provance of one news article
+    NewsArticle class is mainly to find and store the provance of one news article
 
     Only two methods should be called outside the class
 
@@ -73,7 +73,7 @@ class NewsArticle(object):
         build_news_article_from_url(url) 
             return an NewsArticle object build from provided url
 
-    Anohter method:
+    Another method:
         jsonify()
             return a dictionary only contain article provenance
     """
@@ -114,14 +114,16 @@ class NewsArticle(object):
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         # filter out unexpected word and slice the For Mailonline in dayliymail author's name
-        authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
+        authors_name_segments = [x.replace(
+            ' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
         authors_name = []
         while pos >= 0:
             if re.match('(Jr|jr)', authors_name_segments[pos]):
-                full_name = authors_name_segments[pos - 1] + ', ' + authors_name_segments[pos]
+                full_name = authors_name_segments[pos -
+                                                  1] + ', ' + authors_name_segments[pos]
                 authors_name.append(full_name)
                 pos -= 2
             else:
@@ -134,7 +136,8 @@ class NewsArticle(object):
 
     def find_publish_date(self):
         if self.__article.publish_date:
-            self.publish_date = self.__article.publish_date.strftime("%Y-%m-%d")
+            self.publish_date = self.__article.publish_date.strftime(
+                "%Y-%m-%d")
         else:
             if self.__result_json['date_published']:
                 # format would be '%y-%m-%d...'
@@ -151,15 +154,20 @@ class NewsArticle(object):
         """
         Find all a tags and extract urls from href field
         Then, categorize the urls before return
+        The result does not include the self reference link.
         """
         soup = BeautifulSoup(self.__result_json['content'], features="lxml")
         a_tags = soup.find_all("a")
 
-        links = [a_tag.get('href') for a_tag in a_tags if a_tag.get('href') != self.url]
-        valid_links = [url for url in links if URL_REGEX.match(url)]
+        valid_links = [a_tag.get('href')
+                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]
 
         self.links = valid_links
         return valid_links
+
+    def _is_link_valid(self, link):
+        # This will check if the link is not the self reference and start with 'https://' or 'http://'
+        return (link != self.url) and URL_REGEX.match(link)
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -197,7 +205,8 @@ class NewsArticle(object):
             article.build()
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
+            parser_result = subprocess.run(
+                ["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
 
             news_article = NewsArticle(article, result_json)
@@ -234,12 +243,13 @@ class Scraper(object):
         news_article_list.append(news_article)
 
         self.visited.append(url)
-        
+
         # Steps for scraping links find in article.
         # parent_articles_list would be only current level, from this list generates url list for next level
         parent_articles_list = [news_article]
         while depth > 0:
-            child_url_list = [url for article in parent_articles_list for url in article.links]
+            child_url_list = [
+                url for article in parent_articles_list for url in article.links]
             child_articles_list = self.scrape_news_list(child_url_list)
             news_article_list += child_articles_list
             parent_articles_list = child_articles_list
@@ -251,11 +261,13 @@ class Scraper(object):
         """
         scrape news article from url list, if url has been visited skip that one
         """
-        url_list_filtered = [url for url in url_list if url not in self.visited]
+        url_list_filtered = [
+            url for url in url_list if url not in self.visited]
         news_article_list = []
         for url in url_list_filtered:
             article = NewsArticle.build_news_article_from_url(url)
-            news_article_list.append(article) if article else self.failed.append(url)
+            news_article_list.append(
+                article) if article else self.failed.append(url)
 
         self.visited += url_list_filtered
         return news_article_list
@@ -268,7 +280,8 @@ def hash_url(url):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
+    parser = argparse.ArgumentParser(
+        description='scraping news articles from web, and store result in file')
     parser.add_argument('-u', '--url', dest='url',
                         required=True, help='source news article web url')
     parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
