@@ -231,7 +231,7 @@ class Scraper(object):
 
     BLACK_LIST = re.compile(('.*('
         # check domain
-        '([\.//](amzn|amazon|youtube|reddit|invokedapps)\.)|'
+        '([\.//](amzn|amazon|youtube|reddit|twitter|invokedapps)\.)|'
         # check sub page
         '(cnn.com/quote|/wiki)/).*'))
 
