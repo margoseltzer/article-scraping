@@ -110,7 +110,7 @@ class NewsArticle(object):
         self.url = newspaper_article.url
         self.title = newspaper_article.title
         self.authors = []
-        self.publication = mercury_parser_result['domain'] or newspaper_article.source_url
+        self.publisher = mercury_parser_result['domain'] or newspaper_article.source_url
         self.publish_date = ''
         self.text = newspaper_article.text
         self.quotes = []
@@ -191,7 +191,7 @@ class NewsArticle(object):
             'url': self.url,
             'title': self.title,
             'authors': authors_dicts,
-            'publication': self.publication,
+            'publisher': self.publisher,
             'publish_date': self.publish_date,
             'text': self.text,
             'quotes': self.quotes,
