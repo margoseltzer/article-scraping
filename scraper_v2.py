@@ -165,11 +165,11 @@ class NewsArticle(object):
         soup = BeautifulSoup(self.__result_json['content'], features="lxml")
         a_tags = soup.find_all("a")
 
-        valid_links = [a_tag.get('href')
-                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]
+        valid_set = set([a_tag.get('href')
+                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))])
 
-        self.links = valid_links
-        return valid_links
+        self.links = list(valid_set)
+        return self.links
 
     def _is_link_valid(self, link):
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
@@ -231,7 +231,7 @@ class Scraper(object):
 
     BLACK_LIST = re.compile(('.*('
         # check domain
-        '([\.//](amzn|amazon|youtube|reddit|twitter|invokedapps)\.)|'
+        '([\.//](amzn|amazon|youtube|reddit|twitter|facebook|invokedapps)\.)|'
         # check sub page
         '(cnn.com/quote|/wiki)/).*'))
 
