@@ -162,7 +162,11 @@ class NewsArticle(object):
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
-        soup = BeautifulSoup(self.__result_json['content'], features="lxml")
+        article_html = self.__result_json['content'] or self.__article.article_html
+        if not article_html:
+            return self.links
+
+        soup = BeautifulSoup(article_html, features="lxml")
         a_tags = soup.find_all("a")
 
         valid_set = set([a_tag.get('href')
@@ -213,6 +217,15 @@ class NewsArticle(object):
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
             parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
+            # if parser fail, set a empty object
+            try:
+                result_json['domain']
+            except Exception as e:
+                result_json = {
+                    'domain': None,
+                    'date_published': None,
+                    'content': None
+                }
 
             news_article = NewsArticle(article, result_json)
             print('success to scrape from url: ', source_url)
