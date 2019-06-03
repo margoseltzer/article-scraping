@@ -16,42 +16,6 @@ Integrating Pyhton Newspaper3k library and mercury-parser https://mercury.postli
 use best effort to extract correct provenance
 """
 
-# regex refer to https://gist.github.com/dperini/729294
-URL_REGEX = re.compile(
-    u"^"
-    # protocol identifier
-    u"(?:(?:https?|ftp)://)"
-    # user:pass authentication
-    u"(?:\S+(?::\S*)?@)?"
-    u"(?:"
-    # IP address exclusion
-    # private & local networks
-    u"(?!(?:10|127)(?:\.\d{1,3}){3})"
-    u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
-    u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
-    # IP address dotted notation octets
-    # excludes loopback network 0.0.0.0
-    # excludes reserved space >= 224.0.0.0
-    # excludes network & broadcast addresses
-    # (first & last IP address of each class)
-    u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
-    u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
-    u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
-    u"|"
-    # host name
-    u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
-    # domain name
-    u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
-    # TLD identifier
-    u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
-    u")"
-    # port number
-    u"(?::\d{2,5})?"
-    # resource path
-    u"(?:/\S*)?"
-    u"$", re.UNICODE)
-
-
 class Author(object):
     def __init__(self, name, link):
         self.name = name
@@ -80,6 +44,50 @@ class NewsArticle(object):
             return a dictionary only contain article provenance
     """
 
+    # regex used to validate url
+    # refer to https://gist.github.com/dperini/729294
+    URL_REGEX = re.compile(
+        u"^"
+        # protocol identifier
+        u"(?:(?:https?|ftp)://)"
+        # user:pass authentication
+        u"(?:\S+(?::\S*)?@)?"
+        u"(?:"
+        # IP address exclusion
+        # private & local networks
+        u"(?!(?:10|127)(?:\.\d{1,3}){3})"
+        u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
+        u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
+        # IP address dotted notation octets
+        # excludes loopback network 0.0.0.0
+        # excludes reserved space >= 224.0.0.0
+        # excludes network & broadcast addresses
+        # (first & last IP address of each class)
+        u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
+        u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
+        u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
+        u"|"
+        # host name
+        u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
+        # domain name
+        u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
+        # TLD identifier
+        u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
+        u")"
+        # port number
+        u"(?::\d{2,5})?"
+        # resource path
+        u"(?:/\S*)?"
+        u"$", re.UNICODE)
+
+    BLACK_LIST = BLACK_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](get.adobe)\.)|'
+        # check sub page
+        '(/your-account/)|'
+        # check key word
+        '(category=subscribers)).*'))
+
     def __init__(self, newspaper_article, mercury_parser_result):
         """
         constructor for NewsArticle object
@@ -107,7 +115,7 @@ class NewsArticle(object):
         self.url = newspaper_article.url
         self.title = newspaper_article.title
         self.authors = []
-        self.publication = mercury_parser_result['domain'] or newspaper_article.source_url
+        self.publisher = mercury_parser_result['domain'] or newspaper_article.source_url
         self.publish_date = ''
         self.text = newspaper_article.text
         self.quotes = []
@@ -119,16 +127,14 @@ class NewsArticle(object):
     def find_authors(self):
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         # filter out unexpected word and slice the For Mailonline in dayliymail author's name
-        authors_name_segments = [x.replace(
-            ' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
+        authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
 
         # contact Jr to previous, get full name
         pos = len(authors_name_segments) - 1
         authors_name = []
         while pos >= 0:
             if re.match('(Jr|jr)', authors_name_segments[pos]):
-                full_name = authors_name_segments[pos -
-                                                  1] + ', ' + authors_name_segments[pos]
+                full_name = authors_name_segments[pos - 1] + ', ' + authors_name_segments[pos]
                 authors_name.append(full_name)
                 pos -= 2
             else:
@@ -161,16 +167,22 @@ class NewsArticle(object):
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
-        soup = BeautifulSoup(self.__result_json['content'], features="lxml")
+        article_html = self.__result_json['content'] or self.__article.article_html
+        if not article_html:
+            return self.links
+
+        soup = BeautifulSoup(article_html, features="lxml")
         a_tags = soup.find_all("a")
 
-        valid_links = [a_tag.get('href') for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]
-        self.links = valid_links
-        return valid_links
+        valid_set = set([a_tag.get('href')
+                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))])
+
+        self.links = list(valid_set)
+        return self.links
 
     def _is_link_valid(self, link):
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
-        return (link != self.url) and URL_REGEX.match(link)
+        return (link != self.url) and NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -188,7 +200,7 @@ class NewsArticle(object):
             'url': self.url,
             'title': self.title,
             'authors': authors_dicts,
-            'publication': self.publication,
+            'publisher': self.publisher,
             'publish_date': self.publish_date,
             'text': self.text,
             'quotes': self.quotes,
@@ -208,9 +220,17 @@ class NewsArticle(object):
             article.build()
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(
-                ["mercury-parser", source_url], stdout=subprocess.PIPE)
+            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
+            # if parser fail, set a empty object
+            try:
+                result_json['domain']
+            except Exception as e:
+                result_json = {
+                    'domain': None,
+                    'date_published': None,
+                    'content': None
+                }
 
             news_article = NewsArticle(article, result_json)
             print('success to scrape from url: ', source_url)
@@ -227,15 +247,34 @@ class Scraper(object):
     if scraper from multiple source url should initiate different scraper
     """
 
+    BLACK_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](amzn|amazon|youtube|reddit|twitter|facebook|invokedapps)\.)|'
+        # check sub page
+        '(cnn.com/quote|/wiki)/).*'))
+
     def __init__(self):
         self.visited = []
+        self.success = []
         self.failed = []
 
     def scrape_news(self, url, depth=0):
         """
         scrape news article from url, 
-        if depth greter than 0, scrape related child articles
+        if depth greter than 0, scrape related url which is not in black list and not
+        be visited yet
         """
+
+        def generate_child_url_list(parent_articles_list):
+            """
+            generate next leve child url list from previous articles list
+            filter out url has been visited and in black_list
+            """
+            url_list = [url for article in parent_articles_list for url in article.links]
+            url_list_unvisited = [url for url in url_list if url not in self.visited]
+            url_list_filtered = [url for url in url_list_unvisited if not Scraper.BLACK_LIST.match(url)]
+            return url_list_filtered
+
         news_article_list = []
 
         news_article = NewsArticle.build_news_article_from_url(url)
@@ -248,33 +287,34 @@ class Scraper(object):
         news_article_list.append(news_article)
 
         self.visited.append(url)
+        self.success.append(url)
 
         # Steps for scraping links find in article.
         # parent_articles_list would be only current level, from this list generates url list for next level
         parent_articles_list = [news_article]
         while depth > 0:
-            child_url_list = [
-                url for article in parent_articles_list for url in article.links]
+            child_url_list = generate_child_url_list(parent_articles_list)
             child_articles_list = self.scrape_news_list(child_url_list)
             news_article_list += child_articles_list
             parent_articles_list = child_articles_list
+            self.visited += child_url_list
             depth -= 1
 
         return news_article_list
 
     def scrape_news_list(self, url_list):
         """
-        scrape news article from url list, if url has been visited skip that one
+        scrape news article from url list
         """
-        url_list_filtered = [
-            url for url in url_list if url not in self.visited]
         news_article_list = []
-        for url in url_list_filtered:
+        for url in url_list:
             article = NewsArticle.build_news_article_from_url(url)
-            news_article_list.append(
-                article) if article else self.failed.append(url)
+            if article: 
+                news_article_list.append(article)
+                self.success.append(url)
+            else:
+                self.failed.append(url)
 
-        self.visited += url_list_filtered
         return news_article_list
 
 
@@ -311,6 +351,10 @@ def main():
         return
 
     print('finish scraping all urls')
+    print('totally scraped %d pages' %(len(scraper.visited)))
+    print('totally success %d pages' %(len(scraper.success)))
+    print('success url list :')
+    print(*scraper.success, sep='\n')
     if scraper.failed:
         print('failed url list :')
         print(*scraper.failed, sep='\n')
@@ -338,5 +382,3 @@ news_scraper = Scraper()
 
 news_scraper.scrape_news('https://www.facebook.com/cnnpolitics/posts/1281724775202686')
 # news_scraper = NewsArticle.build_news_article_from_url('https://www.facebook.com/ABCNewsPolitics/posts/1035269309904628')
-
-
