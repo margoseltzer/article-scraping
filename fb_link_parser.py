@@ -14,19 +14,18 @@ class FbLinkParser(object):
     This parser will store the url archived from an old fb post and parse it to the url for the real news
     '''
 
-    def __init__(self, url=''):
+    def __init__(self, url='not initialized'):
         self.url_fb = url
         self.url_real = ''
 
-    def ser_link(self, url):
+    def set_link(self, url):
         self.url_fb = url
         self.url_real = ''
     
     def parse_url_fb(self):
         try:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
-            reg_url = self.url_fb
-            req = Request(url=reg_url, headers=headers)
+            req = Request(url=self.url_fb, headers=headers)
             #print('WHERE IS TYPE CHECKING 0')
             page_fb = urlopen(req)
             soup = BeautifulSoup(page_fb, 'html.parser')
@@ -38,20 +37,20 @@ class FbLinkParser(object):
             code_soups = [hidden_elem_soup.find('code') 
                             for hidden_elem_soup in hidden_elem_soups 
                                 if hidden_elem_soup.find('code')]
-            print('WHERE IS TYPE CHECKING 2')
+            #print('WHERE IS TYPE CHECKING 2')
             # Get all the hidden post html in string
             hidden_strs = [code_soup.contents[0] 
                             for code_soup in code_soups 
                                 if code_soup.contents[0]]
-            # print('WHERE IS TYPE CHECKING 3')
+            #print('WHERE IS TYPE CHECKING 3')
             # Convert the strings into soups
             hidden_soups = [BeautifulSoup(html, 'html.parser') 
                                 for html in hidden_strs]
-            # print('WHERE IS TYPE CHECKING 4')
+            #print('WHERE IS TYPE CHECKING 4')
             # Get all a tags from the hidden soups
             a_tags_lists = [hidden_soup.find_all('a') 
                                 for hidden_soup in hidden_soups]
-            # print('WHERE IS TYPE CHECKING 5')
+            #print('WHERE IS TYPE CHECKING 5')
             # Join all the lists of <a/>
             a_tags = [a_tag for a_tags_list in a_tags_lists for a_tag in a_tags_list]
 
@@ -60,28 +59,45 @@ class FbLinkParser(object):
             hrefs = [a_tag.get('href') 
                         for a_tag in a_tags 
                             if a_tag.get('href') and a_tag.get('href').find('l.facebook.com') > -1]
-            # print('WHERE IS TYPE CHECKING 6')
+            #print('WHERE IS TYPE CHECKING 6')
             # Free all the unnecessary variables
             # hidden_elem_soups = code_soups = hidden_strs = hidden_soups = a_tags_lists = a_tags = None
-            # print('WHERE IS TYPE CHECKING 7')            
+            #print('WHERE IS TYPE CHECKING 7')            
             # Parse the href to find the shoten link
+            #print(hrefs)
             req = Request(url=hrefs[0], headers=headers)
             page = urlopen(req)
             soup = BeautifulSoup(page, 'html.parser')
             body = soup.find('body')
-            # print('WHERE IS TYPE CHECKING 8')
+            #print('WHERE IS TYPE CHECKING 8')
+            #print(body)
             # Get the first <script></script> where the shortened url resides
             # Assum the first script has the link and it seems to
             script_elems = body.find('script').contents[0]
+            #print('script element is : ', script_elems)
             http_index = script_elems.find('http')
             end_index = script_elems.find(');')
+            #print('http index is : ', http_index)
+            #print('end index is : ', end_index)
 
             # Substring with the indices and remove \\ in the url
             url_short = script_elems[http_index : end_index - 1].replace('\\', '')
-            # print('WHERE IS TYPE CHECKING 9')
+            #print('WHERE IS TYPE CHECKING 9')
+            #print(url_short)
+            
+            # execute if http_index is -1 meaning the whole body is parsed
+            if url_short is '':
+                spans = soup.find_all('span')
+                span_contents = [span.contents[0] for span in spans if len(span.contents)]
+                for content in span_contents:
+                    if content.find('http') is 0:
+                        url_short = content
+                        break
+
             # TODO might need loop
             req = Request(url=url_short, headers=headers)
             page_real = urlopen(req)
+            #print('WHERE IS TYPE CHECKING 10')            
             # print(type(page_real))
             # print(type(page_real.read()))
             # print(hasattr(page_real, 'getcode'))
@@ -115,7 +131,7 @@ def main():
     url_fb = args.url
     url_label = args.label
     print('Facebook url : ', url_fb)    
-    fb_link_parser = FbLinkParser(url_fb)
+    fb_link_parser = FbLinkParser(url=url_fb)
     print('Original news article url : ', fb_link_parser.parse_url_fb())
     
 
@@ -144,7 +160,7 @@ def main_csv():
 
         idx = 0
         for row in data.itertuples():
-            fb_link_parser.ser_link(row[3])
+            fb_link_parser.set_link(url=row[3])
             time.sleep(3)
             tmp_url_real = fb_link_parser.parse_url_fb()
 
@@ -152,6 +168,7 @@ def main_csv():
 
             print(idx)
             print(row[3])
+            print(tmp_url_real)
             # print('Original news article url : ', tmp_url_real)
             idx = idx + 1
 
@@ -162,7 +179,7 @@ main_csv()
 # # f.write(str(a_tags))
 # # f.close()
 
-# fb_link_parser = FbLinkParser('https://www.facebook.com/cnnpolitics/posts/1281724775202686')
+# fb_link_parser = FbLinkParser('https://www.facebook.com/ABCNewsPolitics/posts/1037217126376513')
 # print('Original news article url : ', fb_link_parser.parse_url_fb())
 
 # https://www.facebook.com/AddictingInfoOrg/posts/1447486135291854

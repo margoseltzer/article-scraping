@@ -4,6 +4,8 @@ import json
 import subprocess
 import os
 import re
+import urllib
+from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from newspaper import Article
 
@@ -94,8 +96,11 @@ class NewsArticle(object):
         """
         # some useful private properties
         self.__article = newspaper_article
-        self.__result_json = mercury_parser_result
-
+        self.result_json = mercury_parser_result
+        # print(self.__article)
+        # print(self.result_json)
+        # self.__content_mercury = __result_json['content']
+        # print(self.__content_mercury)
         self.__fulfilled = False
 
         # news Provenance
@@ -159,9 +164,7 @@ class NewsArticle(object):
         soup = BeautifulSoup(self.__result_json['content'], features="lxml")
         a_tags = soup.find_all("a")
 
-        valid_links = [a_tag.get('href')
-                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]
-
+        valid_links = [a_tag.get('href') for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]
         self.links = valid_links
         return valid_links
 
@@ -236,6 +239,8 @@ class Scraper(object):
         news_article_list = []
 
         news_article = NewsArticle.build_news_article_from_url(url)
+        # if url domain is from facebook then 
+        #  news_article = redirected news url
         if not news_article:
             self.failed.append(url)
             return news_article_list
@@ -328,3 +333,10 @@ def main():
 
 
 main()
+
+news_scraper = Scraper()
+
+news_scraper.scrape_news('https://www.facebook.com/cnnpolitics/posts/1281724775202686')
+# news_scraper = NewsArticle.build_news_article_from_url('https://www.facebook.com/ABCNewsPolitics/posts/1035269309904628')
+
+
