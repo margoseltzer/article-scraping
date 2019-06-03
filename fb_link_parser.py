@@ -32,7 +32,7 @@ class FbLinkParser(object):
             soup = BeautifulSoup(page_fb, 'html.parser')
             # print(soup)
             # Get all hidden elements
-            hidden_elem_soups = soup.find_all('div',class_='hidden_elem')
+            hidden_elem_soups = soup.find_all('div', class_='hidden_elem')
             # print('WHERE IS TYPE CHECKING 1')
             # Get all <Code></Code> from hidden elements 
             code_soups = [hidden_elem_soup.find('code') 
