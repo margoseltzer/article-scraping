@@ -28,16 +28,18 @@ def add_prefix_to_name(name):
 
 def assign_color(node_type):
     if node_type == 'quote':
-        return 'blue'
+        return ('blue', 'quote')
     elif  node_type == 'person':
-        return 'green'
-    elif node_type =='article':
-        return 'red'
+        return ('green', 'name')
+    elif node_type == 'article':
+        return ('red', 'url')
+    elif node_type == 'reference':
+        return ('yellow', 'url')
     elif node_type == 'publisher':
-        return 'purple'
+        return ('purple', 'publisher')
     else:
         print ("UNKNOWN TYPE: " + node_type)
-        return 'black'
+        return ('gray', None)
 
 def main():
     global originator
@@ -51,28 +53,32 @@ def main():
 
     with open(args.file_name) as f:
         data = json.load(f)
+    root_url = data['root']
+    bundle_data = data['bundle']
     
-    originator = find_originator(data)
+    originator = find_originator(bundle_data)
 
     #initial empty graph:
     G = nx.Graph()
 
     # add all nodes
-    node_types = [item for item in data if item in NODE_TYPES]
+    node_types = [item for item in bundle_data if item in NODE_TYPES]
     for node_type in node_types:
         print("add all " + node_type + " nodes")
-        nodes = data[node_type]
+        nodes = bundle_data[node_type]
         for node_name in nodes:
             node = nodes[node_name]
             n_type = node[add_prefix_to_name('type')]
-            n_color = assign_color(n_type)
-            G.add_node(extract_name(node_name), type=n_type, color=n_color)
+            n_color, n_name = assign_color(n_type) 
+            n_value = node[add_prefix_to_name(n_name)] if n_name else None
+            n_color = 'black' if n_value == root_url else n_color
+            G.add_node(extract_name(node_name), type=n_type, color=n_color, value=n_value)
 
     # add all edges
-    edge_types = [item for item in data if item not in NODE_TYPES]
+    edge_types = [item for item in bundle_data if item not in NODE_TYPES]
     for edge_type in edge_types:
         print("add all " + edge_type + " edges")
-        edges = data[edge_type]
+        edges = bundle_data[edge_type]
         for edge_name in edges:
             edge = edges[edge_name]
             values = list(edge.values())
