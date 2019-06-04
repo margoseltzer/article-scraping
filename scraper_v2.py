@@ -78,13 +78,23 @@ class NewsArticle(object):
         u"(?:/\S*)?"
         u"$", re.UNICODE)
 
-    BLACK_LIST = BLACK_LIST = re.compile(('.*('
+    # link should not in reference link
+    BLACK_LIST = re.compile(('.*('
         # check domain
-        '([\.//](get.adobe)\.)|'
+        '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
         # check sub page
-        '(/your-account/)|'
+        '(/(your-account|send|privacy-policy|terms)/)|'
         # check key word
-        '(category=subscribers)).*'))
+        '(category=subscribers)|'
+        # check end
+        '(.pdf$)).*'))
+
+    # link is a reference link but not an article
+    UNSURE_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](youtube|youtu.be|reddit|twitter|facebook|invokedapps)\.)|'
+        # check sub page
+        '(cnn.com/quote|/wiki)/).*'))
 
     def __init__(self, newspaper_article, mercury_parser_result):
         """
@@ -114,7 +124,7 @@ class NewsArticle(object):
         self.publish_date = ''
         self.text = newspaper_article.text
         self.quotes = []
-        self.links = []
+        self.links = {'articles':[], 'unsure':[]}
         self.key_words = newspaper_article.keywords
 
         self.find_all_provenance()
@@ -169,13 +179,22 @@ class NewsArticle(object):
         soup = BeautifulSoup(article_html, features="lxml")
         a_tags = soup.find_all("a")
 
-        valid_set = set([a_tag.get('href')
-                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))])
+        no_duplicate_valid_set_list = list(set([a_tag.get('href')
+                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]))
 
-        self.links = list(valid_set)
+        links = {
+            'articles': [link for link in no_duplicate_valid_set_list if not NewsArticle.UNSURE_LIST.match(link)],
+            'unsure': [link for link in no_duplicate_valid_set_list if NewsArticle.UNSURE_LIST.match(link)]
+        }
+
+        self.links = links
+
         return self.links
 
     def _is_link_valid(self, link):
+        # for sitiuation get('href') return None
+        if not link:
+            return False
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
         return (link != self.url) and NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
 
@@ -242,12 +261,6 @@ class Scraper(object):
     if scraper from multiple source url should initiate different scraper
     """
 
-    BLACK_LIST = re.compile(('.*('
-        # check domain
-        '([\.//](amzn|amazon|youtube|reddit|twitter|facebook|invokedapps)\.)|'
-        # check sub page
-        '(cnn.com/quote|/wiki)/).*'))
-
     def __init__(self):
         self.visited = []
         self.success = []
@@ -256,19 +269,18 @@ class Scraper(object):
     def scrape_news(self, url, depth=0):
         """
         scrape news article from url, 
-        if depth greter than 0, scrape related url which is not in black list and not
+        if depth greter than 0, scrape related url which is in aricle object links articles and not
         be visited yet
         """
 
         def generate_child_url_list(parent_articles_list):
             """
             generate next leve child url list from previous articles list
-            filter out url has been visited and in black_list
+            filter out url has been visited
             """
-            url_list = [url for article in parent_articles_list for url in article.links]
+            url_list = [url for article in parent_articles_list for url in article.links['articles']]
             url_list_unvisited = [url for url in url_list if url not in self.visited]
-            url_list_filtered = [url for url in url_list_unvisited if not Scraper.BLACK_LIST.match(url)]
-            return url_list_filtered
+            return url_list_unvisited
 
         news_article_list = []
 
