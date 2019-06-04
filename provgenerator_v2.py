@@ -73,11 +73,8 @@ def add_article(article, bundle):
 
     return article_object
 
-def add_relation_between_article(article, articles_object_map, bundle):
-    article_url = article['url']
-    article_links = article['links']
-    article_object = articles_object_map[article_url]
-    for url in article_links:
+def add_reference_relation(article, articles_object_map, bundle):
+    def add_relation(url, url_type, articles_object_map, article_object_id, bundle_id):
         url_str = url.encode('utf-8')
         short_url_str = url_str[:250] if len(url_str) > 250 else url_str
         try:
@@ -88,14 +85,23 @@ def add_relation_between_article(article, articles_object_map, bundle):
             except Exception as e:
                 reference_object = db_connection.create_object(originator, short_url_str, ENTITY, bundle)
             reference_object.add_property(originator, 'url', url_str)
-            reference_object.add_property(originator, 'type', 'article')
-        
+            reference_object.add_property(originator, 'type', url_type)
         try:
-            reference_relation = db_connection.lookup_relation(article_object.id, reference_object.id, WASDERIVEDFROM)
+            reference_relation = db_connection.lookup_relation(article_object_id, reference_object.id, WASDERIVEDFROM)
         except Exception as e:
-            reference_relation = db_connection.create_relation(article_object.id, reference_object.id, WASDERIVEDFROM)
+            reference_relation = db_connection.create_relation(article_object_id, reference_object.id, WASDERIVEDFROM)
 
-        db_connection.create_relation(bundle.id, reference_relation.id, BUNDLE_RELATION)
+        db_connection.create_relation(bundle_id, reference_relation.id, BUNDLE_RELATION)
+
+    article_url = article['url']
+    article_links = article['links']['articles']
+    article_unsure_links = article['links']['unsure']
+    article_object = articles_object_map[article_url]
+    for url in article_links:
+        add_relation(url, 'article', articles_object_map, article_object.id, bundle.id)
+    
+    for url in article_unsure_links:
+        add_relation(url, 'reference', articles_object_map, article_object.id, bundle.id)
 
 def add_bundle(articles_json):
     root_article  = articles_json[0]
@@ -113,13 +119,16 @@ def add_bundle(articles_json):
         articles_object_map[article['url']] = add_article(article, bundle)
 
     for article in articles_json:
-        add_relation_between_article(article, articles_object_map, bundle)
+        add_reference_relation(article, articles_object_map, bundle)
     
     return bundle
 
-def write_output(output_file_name, bundles):
+def write_output(output_file_name, bundles, root_url=None):
     try:
-        output_json = json.loads(db_connection.export_bundle_json(bundles))
+        bundle_json = json.loads(db_connection.export_bundle_json(bundles))
+        output_json = {
+            'root': root_url,
+            'bundle': bundle_json }
         with codecs.open(output_file_name, 'w', encoding='utf-8') as f:
             json.dump(output_json, f, ensure_ascii=False, indent=4, encoding='utf-8')
         print('wrote output to ' + output_file_name)
@@ -134,12 +143,13 @@ def process_file(file_name, output_file = None):
     with open(file_name) as f:
         articles_json = json.load(f)
         
+    root_url = articles_json[0]['url']
     bundle = add_bundle(articles_json)
     print('finished process ' + file_name)
 
     # write to ouput
     output_file_name = file_name[:-5] + '_output.json' if not output_file else output_file
-    write_output(output_file_name, [bundle])
+    write_output(output_file_name, [bundle], root_url)
     
     return bundle
 
