@@ -1,5 +1,6 @@
 import networkx as nx
 import json
+import sys
 from bokeh.io import show
 from bokeh.plotting import  curdoc
 from bokeh.layouts import row
@@ -47,8 +48,8 @@ def assign_color(node_type):
         print ("UNKNOWN TYPE: " + node_type)
         return ('gray', None)
 
-# Change here for target data file
-with open('output.json') as f:
+data_source = sys.argv[1] if len(sys.argv) > 1 else 'output.json'
+with open(data_source) as f:
         data = json.load(f)
 
 root_url = data['root']
