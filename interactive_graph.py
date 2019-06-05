@@ -1,3 +1,11 @@
+'''
+A simple bokeh application use bokeh server 
+to generate an interactive graph
+
+command to use:
+bokeh serve --show interacive_graph.py [--args file_name]
+'''
+
 import networkx as nx
 import json
 import sys
