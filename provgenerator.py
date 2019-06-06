@@ -47,7 +47,6 @@ for article in data:
      entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
      entity.add_property(originator, "url", str(article["url"]))
 
-  relations.append(entity.relation_from(bundle, 19, bundle))
   article_counter += 1
   strings.append(str(article["url"]))
 
@@ -68,7 +67,6 @@ for article in data:
         agent = c.create_object(originator, agent_name, agent_type, bundle)
         agent.add_property(originator, "author", str(author))
 
-    relations.append(agent.relation_from(bundle, 19, bundle))
 
    # CPL.p_object(agent)
     node_names += 1
@@ -76,8 +74,15 @@ for article in data:
     print ("Agent:", agent)
     print ("entity:", entity)
     print("about to add relation")
-    relations.append(entity.relation_to(agent, CPL.WASATTRIBUTEDTO, bundle))
 
+    try:
+        relation = c.lookup_relation(entity.id, agent.id, CPL.WASATTRIBUTEDTO)
+    except Exception as e:
+        relation = c.create_relation(entity.id, agent.id, CPL.WASATTRIBUTEDTO)
+        relations.append(relation)
+
+    #Don't check if bundle relation exists. May want to change this if doing versioning in future
+    relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
 
   index = 0
   for unit in article["quotes"]:
@@ -92,13 +97,21 @@ for article in data:
         except Exception as e:
             q = c.create_object(originator, "QUOTE " + str(quote_counter), CPL.ACTIVITY, bundle)
             q.add_property(originator, "quote", str(quote))
-        relations.append(q.relation_from(bundle, 19, bundle))
         quote_counter += 1
         # CPL.p_object(q)
         strings.append(quote)
         node_names += 1
         stuff.append(q)
-        relations.append(entity.relation_to(q, CPL.WASGENERATEDBY, bundle))
+
+        try:
+            relation = c.lookup_relation(entity.id, q.id, CPL.WASGENERATEDBY)
+        except Exception as e:
+            relation = c.create_relation(entity.id, q.id, CPL.WASGENERATEDBY)
+            relations.append(relation)
+
+        # Don't check if bundle relation exists. May want to change this if doing versioning in future
+        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
+
     except Exception as e:
         print ("quote was improperly defined")
     if index < len(article["sentiments"]):
@@ -106,12 +119,20 @@ for article in data:
             s = c.lookup_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
         except Exception as e:
             s = c.create_object(originator, "SENTIMENT " + str(sentiment_counter), CPL.AGENT, bundle)
-        relations.append(s.relation_from(bundle, 19, bundle))
         sentiment_counter += 1
         # print ("doodlye doo:",str(article["sentiments"][index]))
         # print ("doodley doo:",str(article["quotes"][index]))
         strings.append(str(article["sentiments"][index]))
-        relations.append(s.relation_to(q, CPL.WASASSOCIATEDWITH, bundle))
+
+        try:
+            relation = c.lookup_relation(s.id, q.id, CPL.WASASSOCIATEDWITH)
+        except Exception as e:
+            relation = c.create_relation(s.id, q.id, CPL.WASASSOCIATEDWITH)
+            relations.append(relation)
+
+        # Don't check if bundle relation exists. May want to change this if doing versioning in future
+        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
+
     index += 1
 
 for article in articles:
@@ -134,7 +155,14 @@ for article in articles:
     except KeyError:
       match2 = None
     if match1 or match2:
-      relations.append(a[0].relation_to(match, CPL.WASDERIVEDFROM, bundle))
+        try:
+            relation = c.lookup_relation(a[0].id, match.id, CPL.WASDERIVEDFROM)
+        except Exception as e:
+            relation = c.create_relation(a[0].id, match.id, CPL.WASDERIVEDFROM)
+            relations.append(relation)
+
+        # Don't check if bundle relation exists. May want to change this if doing versioning in future
+        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
 
 # gathers up all the bundles under this originator for the output file
 # if you just want info for one bundle, change this to bundles = [bundle]
