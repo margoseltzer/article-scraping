@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 
 
-class LinkParser(object):
+class LinkClassifier(object):
     '''
     call categorize_links will return restructured dictionary
     '''
