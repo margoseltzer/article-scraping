@@ -35,6 +35,7 @@ class FbLinkParser(object):
 
     def parse_url_fb(self):
         try:
+            # Header is to let Fb knows where the requests are come from
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
             req = Request(url=self.url_fb, headers=headers)
 

@@ -104,7 +104,7 @@ class NewsArticle(object):
         """
         # some useful private properties
         self.__article = newspaper_article
-        self.result_json = mercury_parser_result
+        self.__result_json = mercury_parser_result
         # print(self.__article)
         # print(self.result_json)
         # self.__content_mercury = __result_json['content']
