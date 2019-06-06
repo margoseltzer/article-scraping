@@ -96,7 +96,7 @@ class NewsArticle(object):
         # check domain
         '([\.//](youtube|youtu.be|reddit|twitter|facebook|invokedapps)\.)|'
         # check sub page
-        '(cnn.com/quote|/wiki)/).*'))
+        '(cnn.com/quote|/wiki|/newsletter|/subscription|/subscribe)/).*'))
 
     def __init__(self, newspaper_article, mercury_parser_result):
         """
