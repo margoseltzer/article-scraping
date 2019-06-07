@@ -462,10 +462,4 @@ def main():
     print('write scraping result to ', output)
     closeNLPServer()
 
-
 main()
-
-news_scraper = Scraper()
-
-news_scraper.scrape_news('https://www.facebook.com/cnnpolitics/posts/1281724775202686')
-# news_scraper = NewsArticle.build_news_article_from_url('https://www.facebook.com/ABCNewsPolitics/posts/1035269309904628')
