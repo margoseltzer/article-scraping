@@ -35,7 +35,7 @@ class Author(object):
             'link': self.link
         }
 
-class StanfordNLP:
+class StanfordNLP(object):
     def __init__(self, host='http://localhost', port=9000):
         self.nlp = StanfordCoreNLP(host, port=port,
                                    timeout=80000)  # , quiet=False, logging_level=logging.DEBUG)
@@ -328,9 +328,8 @@ class Scraper(object):
     if scraper from multiple source url should initiate different scraper
     """
 
-    sNLP = StanfordNLP()
-    
     def __init__(self):
+        self.sNLP = StanfordNLP()
         self.visited = []
         self.success = []
         self.failed = []
@@ -353,7 +352,7 @@ class Scraper(object):
 
         news_article_list = []
 
-        news_article = NewsArticle.build_news_article_from_url(url, Scraper.sNLP)
+        news_article = NewsArticle.build_news_article_from_url(url, self.sNLP)
         if not news_article:
             self.failed.append(url)
             return news_article_list
@@ -401,6 +400,7 @@ def startNLPServer():
     args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 75000")
     subprocess.Popen(args)
 
+
 def closeNLPServer():
     args = shlex.split("wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -")
     subprocess.Popen(args)
@@ -417,7 +417,6 @@ def main():
                         ' and stored in news_json folder under current path')
 
     args = parser.parse_args()
-
     if args.depth < 0:
         print('scraping depth must greater or equal to 0')
         return
@@ -432,7 +431,6 @@ def main():
         print('fail scraping from source url: ', args.url)
         return
     
-    closeNLPServer()
     print('finished scraping all urls')
     print('total scraped %d pages:' %(len(scraper.visited)))
     print('total successful %d pages:' %(len(scraper.success)))
@@ -441,6 +439,7 @@ def main():
     if scraper.failed:
         print('failed url list :')
         print(*scraper.failed, sep='\n')
+    
 
     # build dict object list
     output_json_list = []
@@ -457,6 +456,7 @@ def main():
     with open(output, 'w') as f:
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
+    closeNLPServer()
 
 
 main()
