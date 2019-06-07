@@ -215,7 +215,10 @@ class NewsArticle(object):
         sentences = nltk.tokenize.sent_tokenize(entry[0])
         toReturn = []
         for sentence in sentences:
-            sentence = sentence[1:len(sentence) - 1]
+            if sentence[0] in ['”', '"']:
+                sentence[1:len(sentence)]
+            if sentence[-1] in ['”', '"']:
+                sentence[0:len(sentence)-1]
             isFullSentence = False
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
