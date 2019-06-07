@@ -149,19 +149,19 @@ def main():
             fieldnames = ['fb_URL', 'URL', 'label']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
-            idx = 0
-            for row in data.itertuples():
-                fb_link_parser.set_link(url=row[3])
-                # time.sleep(3)
-                tmp_url_real = fb_link_parser.parse_url_fb()
+        idx = 0
+        for row in data.itertuples():
+            fb_link_parser.set_link(url=row[3])
+            # time.sleep(3)
+            tmp_url_real = fb_link_parser.parse_url_fb()
 
-                writer.writerow({'fb_URL': row[3], 'URL': tmp_url_real, 'label': row[5]})
+            writer.writerow({'fb_URL': row[3], 'URL': tmp_url_real, 'label': row[5]})
 
-                print('Index is     : ', idx)
-                print('Facebook url : ', row[3])
-                print('Original url : ', tmp_url_real)
+            print('Index is     : ', idx)
+            print('Facebook url : ', row[3])
+            print('Original url : ', tmp_url_real)
 
-                idx = idx + 1
+            idx = idx + 1
 
 
 main()
