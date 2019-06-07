@@ -120,7 +120,7 @@ class FbLinkParser(object):
 
 def main():
     arg_parser = argparse.ArgumentParser(
-        description="Parse news article url on a Facebook post. Requires either url or csv file path")
+        description="Parse news article url on a Facebook post. Requires either url(-u) or csv file path(-p)")
     arg_parser.add_argument('-u', '--url', dest='url',
                             help='an url archievd from Facebook in the form of http://www.facebook....')
     arg_parser.add_argument('-p', '--path', dest='path',
