@@ -21,7 +21,7 @@ Using StanfordCoreNLP to extract quotations and attributed speakers. Download St
 """
 
 """Path to StanfordCoreNLP Library"""
-stanfordLibrary = "C:/Users/agarw/Desktop/FakeNewsResearch/stanford-corenlp-full-2018-10-05"
+stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
 class Author(object):
     def __init__(self, name, link):
@@ -215,6 +215,7 @@ class NewsArticle(object):
         sentences = nltk.tokenize.sent_tokenize(entry[0])
         toReturn = []
         for sentence in sentences:
+            sentence = sentence[1:len(sentence) - 1]
             isFullSentence = False
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
@@ -381,7 +382,7 @@ class Scraper(object):
         """
         news_article_list = []
         for url in url_list:
-            article = NewsArticle.build_news_article_from_url(url, Scraper.sNLP)
+            article = NewsArticle.build_news_article_from_url(url, self.sNLP)
             if article: 
                 news_article_list.append(article)
                 self.success.append(url)
