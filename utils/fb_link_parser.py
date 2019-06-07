@@ -1,9 +1,9 @@
 import argparse
-import urllib
 import pandas as pd
 import csv
 import time
 import os.path
+import urllib
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 
