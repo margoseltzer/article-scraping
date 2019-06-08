@@ -269,6 +269,10 @@ class NewsArticle(object):
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
         return (link != self.url) and NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
 
+    def _is_link_valid(self, link):
+        # This will check if the link is not the self reference and start with 'https://' or 'http://'
+        return (link != self.url) and (link[0:8] == 'https://' or link[0:7] == 'http://')
+
     def find_all_provenance(self):
         if not self.__fulfilled:
             self.find_authors()

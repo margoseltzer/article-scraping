@@ -1,0 +1,691 @@
+{
+    "root": "https://www.bbc.com/news/world-us-canada-41419190", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "591": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-transcript.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "605": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "579": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/917130468025348096", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "595": {
+                "prov:usedEntity": "test:http://www.nytimes.com/by/michael-d-shear", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "603": {
+                "prov:usedEntity": "test:https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "587": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/14/us/charlottesville-white-nationalists-james-alex-fields.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "573": {
+                "prov:usedEntity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "571": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "577": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "593": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2015/06/17/us/politics/donald-trump-runs-for-president-this-time-for-real-he-says.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "575": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "663": {
+                "prov:usedEntity": "test:http://www.nytimes.com/pages/todayspaper/index.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "625": {
+                "prov:usedEntity": "test:https://twitter.com/DrDavidDuke/status/897559892164304896", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "619": {
+                "prov:usedEntity": "test:https://twitter.com/GenRobertNeller/status/897591648007446529", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "677": {
+                "prov:usedEntity": "test:https://twitter.com/GovernorVA/status/896399120172232704", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "667": {
+                "prov:usedEntity": "test:http://www.stltoday.com/news/local/govt-and-politics/remaining-pieces-of-confederate-monument-removed-from-forest-park/article_84765940-97bf-5e2c-ac18-8038c224a38a.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "601": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/14/nyregion/trump-new-york-city-visit.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "617": {
+                "prov:usedEntity": "test:https://twitter.com/SenToddYoung/status/897582318013042688", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "635": {
+                "prov:usedEntity": "test:https://www.nytimes.com/topic/person/donald-trump?mcubz=1&module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "597": {
+                "prov:usedEntity": "test:http://www.nytreprints.com/", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "657": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/05/07/us/new-orleans-monuments.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article&_r=0", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "637": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "599": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "655": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/11/us/white-nationalists-rally-charlottesville-virginia.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "651": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2016/09/05/us/he-denied-blacks-citizenship-now-a-city-is-deciding-his-statues-fate.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "653": {
+                "prov:usedEntity": "test:http://www.baltimoresun.com/news/maryland/bs-md-ci-frederick-statues-20170318-story.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "613": {
+                "prov:usedEntity": "test:https://twitter.com/marcorubio/status/897575723443027968", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "629": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "607": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/13/us/james-alex-fields-charlottesville-driver-.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "659": {
+                "prov:usedEntity": "test:http://www.nytimes.com/by/sheryl-gay-stolberg", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "569": {
+                "prov:usedEntity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "585": {
+                "prov:usedEntity": "test:http://www.nytimes.com/by/maggie-haberman", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "583": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/917026789188399105", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "675": {
+                "prov:usedEntity": "test:https://twitter.com/SpeakerRyan/status/896400866361704449", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "581": {
+                "prov:usedEntity": "test:https://twitter.com/SenBobCorker/status/917045348820049920", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html"
+            }, 
+            "609": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/14/us/virginia-police-helicopter-crash.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "633": {
+                "prov:usedEntity": "test:http://www.politico.com/magazine/story/2017/10/04/rich-lowry-rex-tillerson-should-go-215682", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "611": {
+                "prov:usedEntity": "test:http://www.nytimes.com/pages/todayspaper/index.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "565": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-41419190"
+            }, 
+            "567": {
+                "prov:usedEntity": "test:https://twitter.com/SenBobCorker/status/917045348820049920", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-41419190"
+            }, 
+            "627": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/Charlottesville?src=hash", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "665": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/12/us/trump-charlottesville-protest-nationalist-riot.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "661": {
+                "prov:usedEntity": "test:http://www.nytreprints.com/", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "615": {
+                "prov:usedEntity": "test:https://twitter.com/RosLehtinen/status/897557043330129921", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "669": {
+                "prov:usedEntity": "test:https://news.virginia.edu/content/president-sullivan-friday-night-demonstration-disturbing-and-unacceptable", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "589": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "623": {
+                "prov:usedEntity": "test:https://twitter.com/marcorubio/status/897577823820537856", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "671": {
+                "prov:usedEntity": "test:https://twitter.com/VSPPIO/status/896559256803127296/photo/1", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "621": {
+                "prov:usedEntity": "test:https://twitter.com/SpeakerRyan/status/897579093184610305", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline"
+            }, 
+            "641": {
+                "prov:usedEntity": "test:http://www.nytreprints.com/", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "643": {
+                "prov:usedEntity": "test:http://www.nytimes.com/pages/todayspaper/index.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "645": {
+                "prov:usedEntity": "test:https://www.nytimes.com/video/us/politics/100000005478086/tillerson-reaffirms-support-for-trump.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "647": {
+                "prov:usedEntity": "test:https://www.pscp.tv/RichardBSpencer/1yNxamRYwwlxj?t=2", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "649": {
+                "prov:usedEntity": "test:https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "673": {
+                "prov:usedEntity": "test:https://twitter.com/FLOTUS/status/896409989568507906", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline"
+            }, 
+            "631": {
+                "prov:usedEntity": "test:https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }, 
+            "639": {
+                "prov:usedEntity": "test:http://topics.nytimes.com/top/reference/timestopics/people/t/rex_w_tillerson/index.html?inline=nyt-per", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline"
+            }
+        }, 
+        "wasAttributedTo": {
+            "559": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "555": {
+                "prov:entity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "557": {
+                "prov:entity": "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline", 
+                "prov:agent": "test:Peter Baker"
+            }, 
+            "551": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Maggie Haberman"
+            }, 
+            "553": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Mark Landler"
+            }, 
+            "541": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Jeanna Smialek"
+            }, 
+            "499": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-41419190", 
+                "prov:agent": "test:Anthony Zurcher"
+            }, 
+            "545": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Eric Schmitt"
+            }, 
+            "497": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-41419190", 
+                "prov:agent": "test:www.bbc.com"
+            }, 
+            "519": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Trip Gabriel"
+            }, 
+            "543": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Jim Tankersley"
+            }, 
+            "525": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Reid J. Epstein"
+            }, 
+            "527": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Jonathan Martin"
+            }, 
+            "521": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Campbell Robertson"
+            }, 
+            "523": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Shane Goldmacher"
+            }, 
+            "507": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "505": {
+                "prov:entity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html", 
+                "prov:agent": "test:Jonathan Martin"
+            }, 
+            "529": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "501": {
+                "prov:entity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "563": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline", 
+                "prov:agent": "test:Sheryl Gay Stolberg"
+            }, 
+            "561": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline", 
+                "prov:agent": "test:Brian M. Rosenthal"
+            }, 
+            "509": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Sarah Almukhtar"
+            }, 
+            "547": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Peter Baker"
+            }, 
+            "549": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Coral Davenport"
+            }, 
+            "503": {
+                "prov:entity": "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html", 
+                "prov:agent": "test:Mark Landler"
+            }, 
+            "537": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Julian E. Barnes"
+            }, 
+            "535": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "533": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline", 
+                "prov:agent": "test:Michael D. Shear"
+            }, 
+            "517": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Alexander Burns"
+            }, 
+            "531": {
+                "prov:entity": "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline", 
+                "prov:agent": "test:Maggie Haberman"
+            }, 
+            "511": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Lisa Lerer"
+            }, 
+            "513": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Maggie Haberman"
+            }, 
+            "515": {
+                "prov:entity": "test:http://www.nytimes.com/by/jonathan-martin", 
+                "prov:agent": "test:Katie Glueck"
+            }, 
+            "539": {
+                "prov:entity": "test:http://www.nytimes.com/by/mark-landler", 
+                "prov:agent": "test:Ana Swanson"
+            }
+        }, 
+        "agent": {
+            "test:Jonathan Martin": {
+                "test:name": "Jonathan Martin", 
+                "test:type": "person"
+            }, 
+            "test:Peter Baker": {
+                "test:name": "Peter Baker", 
+                "test:type": "person"
+            }, 
+            "test:Coral Davenport": {
+                "test:name": "Coral Davenport", 
+                "test:type": "person"
+            }, 
+            "test:Sheryl Gay Stolberg": {
+                "test:name": "Sheryl Gay Stolberg", 
+                "test:type": "person"
+            }, 
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Jeanna Smialek": {
+                "test:name": "Jeanna Smialek", 
+                "test:type": "person"
+            }, 
+            "test:Jim Tankersley": {
+                "test:name": "Jim Tankersley", 
+                "test:type": "person"
+            }, 
+            "test:Sarah Almukhtar": {
+                "test:name": "Sarah Almukhtar", 
+                "test:type": "person"
+            }, 
+            "test:Shane Goldmacher": {
+                "test:name": "Shane Goldmacher", 
+                "test:type": "person"
+            }, 
+            "test:Anthony Zurcher": {
+                "test:name": "Anthony Zurcher", 
+                "test:type": "person"
+            }, 
+            "test:Trip Gabriel": {
+                "test:name": "Trip Gabriel", 
+                "test:type": "person"
+            }, 
+            "test:www.bbc.com": {
+                "test:publisher": "www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Reid J. Epstein": {
+                "test:name": "Reid J. Epstein", 
+                "test:type": "person"
+            }, 
+            "test:Maggie Haberman": {
+                "test:name": "Maggie Haberman", 
+                "test:type": "person"
+            }, 
+            "test:Campbell Robertson": {
+                "test:name": "Campbell Robertson", 
+                "test:type": "person"
+            }, 
+            "test:Lisa Lerer": {
+                "test:name": "Lisa Lerer", 
+                "test:type": "person"
+            }, 
+            "test:Brian M. Rosenthal": {
+                "test:name": "Brian M. Rosenthal", 
+                "test:type": "person"
+            }, 
+            "test:Katie Glueck": {
+                "test:name": "Katie Glueck", 
+                "test:type": "person"
+            }, 
+            "test:Ana Swanson": {
+                "test:name": "Ana Swanson", 
+                "test:type": "person"
+            }, 
+            "test:Eric Schmitt": {
+                "test:name": "Eric Schmitt", 
+                "test:type": "person"
+            }, 
+            "test:Mark Landler": {
+                "test:name": "Mark Landler", 
+                "test:type": "person"
+            }, 
+            "test:Alexander Burns": {
+                "test:name": "Alexander Burns", 
+                "test:type": "person"
+            }, 
+            "test:Michael D. Shear": {
+                "test:name": "Michael D. Shear", 
+                "test:type": "person"
+            }, 
+            "test:Julian E. Barnes": {
+                "test:name": "Julian E. Barnes", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://twitter.com/DrDavidDuke/status/897559892164304896": {
+                "test:url": "https://twitter.com/DrDavidDuke/status/897559892164304896", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/marcorubio/status/897575723443027968": {
+                "test:url": "https://twitter.com/marcorubio/status/897575723443027968", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/Charlottesville?src=hash": {
+                "test:url": "https://twitter.com/hashtag/Charlottesville?src=hash", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SenBobCorker/status/917045348820049920": {
+                "test:url": "https://twitter.com/SenBobCorker/status/917045348820049920", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.nytimes.com/pages/todayspaper/index.html": {
+                "test:url": "http://www.nytimes.com/pages/todayspaper/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/12/us/trump-charlottesville-protest-nationalist-riot.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0": {
+                "test:url": "https://www.nytimes.com/2017/08/12/us/trump-charlottesville-protest-nationalist-riot.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-charlottesville.html?module=inline", 
+                "test:date": "2017-08-15", 
+                "test:title": "Trump Defends Initial Remarks on Charlottesville; Again Blames ‘Both Sides’", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/video/us/politics/100000005478086/tillerson-reaffirms-support-for-trump.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer": {
+                "test:url": "https://www.nytimes.com/video/us/politics/100000005478086/tillerson-reaffirms-support-for-trump.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/14/us/charlottesville-white-nationalists-james-alex-fields.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/14/us/charlottesville-white-nationalists-james-alex-fields.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:http://www.nytimes.com/by/michael-d-shear": {
+                "test:url": "http://www.nytimes.com/by/michael-d-shear", 
+                "test:type": "article"
+            }, 
+            "test:http://www.nytimes.com/by/jonathan-martin": {
+                "test:url": "http://www.nytimes.com/by/jonathan-martin", 
+                "test:date": "", 
+                "test:title": "Jonathan Martin", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/VSPPIO/status/896559256803127296/photo/1": {
+                "test:url": "https://twitter.com/VSPPIO/status/896559256803127296/photo/1", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/RosLehtinen/status/897557043330129921": {
+                "test:url": "https://twitter.com/RosLehtinen/status/897557043330129921", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2015/06/17/us/politics/donald-trump-runs-for-president-this-time-for-real-he-says.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2015/06/17/us/politics/donald-trump-runs-for-president-this-time-for-real-he-says.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.com/news/world-us-canada-41419190": {
+                "test:url": "https://www.bbc.com/news/world-us-canada-41419190", 
+                "test:date": "", 
+                "test:title": "Four ways Bob Corker skewered Donald Trump", 
+                "test:type": "article"
+            }, 
+            "test:https://news.virginia.edu/content/president-sullivan-friday-night-demonstration-disturbing-and-unacceptable": {
+                "test:url": "https://news.virginia.edu/content/president-sullivan-friday-night-demonstration-disturbing-and-unacceptable", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html": {
+                "test:url": "https://www.nytimes.com/2017/10/08/us/politics/trump-corker.html", 
+                "test:date": "2017-10-08", 
+                "test:title": "Bob Corker Says Trump’s Recklessness Threatens ‘World War III’", 
+                "test:type": "article"
+            }, 
+            "test:http://www.politico.com/magazine/story/2017/10/04/rich-lowry-rex-tillerson-should-go-215682": {
+                "test:url": "http://www.politico.com/magazine/story/2017/10/04/rich-lowry-rex-tillerson-should-go-215682", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/05/07/us/new-orleans-monuments.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article&_r=0": {
+                "test:url": "https://www.nytimes.com/2017/05/07/us/new-orleans-monuments.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article&_r=0", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/14/us/virginia-police-helicopter-crash.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/14/us/virginia-police-helicopter-crash.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.pscp.tv/RichardBSpencer/1yNxamRYwwlxj?t=2": {
+                "test:url": "https://www.pscp.tv/RichardBSpencer/1yNxamRYwwlxj?t=2", 
+                "test:type": "article"
+            }, 
+            "test:http://www.baltimoresun.com/news/maryland/bs-md-ci-frederick-statues-20170318-story.html": {
+                "test:url": "http://www.baltimoresun.com/news/maryland/bs-md-ci-frederick-statues-20170318-story.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/13/us/james-alex-fields-charlottesville-driver-.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/13/us/james-alex-fields-charlottesville-driver-.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-transcript.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer": {
+                "test:url": "https://www.nytimes.com/2017/08/15/us/politics/trump-press-conference-transcript.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/11/us/white-nationalists-rally-charlottesville-virginia.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/11/us/white-nationalists-rally-charlottesville-virginia.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article": {
+                "test:url": "https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?action=click&contentCollection=U.S.&module=inline&region=Marginalia&pgtype=article", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/SpeakerRyan/status/896400866361704449": {
+                "test:url": "https://twitter.com/SpeakerRyan/status/896400866361704449", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SpeakerRyan/status/897579093184610305": {
+                "test:url": "https://twitter.com/SpeakerRyan/status/897579093184610305", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SenToddYoung/status/897582318013042688": {
+                "test:url": "https://twitter.com/SenToddYoung/status/897582318013042688", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer": {
+                "test:url": "https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/10/05/us/politics/trump-tillerson-state-department.html?module=inline", 
+                "test:date": "2017-10-05", 
+                "test:title": "For Tillerson, Diplomatic Breakthrough With Trump Proves Elusive", 
+                "test:type": "article"
+            }, 
+            "test:http://topics.nytimes.com/top/reference/timestopics/people/t/rex_w_tillerson/index.html?inline=nyt-per": {
+                "test:url": "http://topics.nytimes.com/top/reference/timestopics/people/t/rex_w_tillerson/index.html?inline=nyt-per", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2016/09/05/us/he-denied-blacks-citizenship-now-a-city-is-deciding-his-statues-fate.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2016/09/05/us/he-denied-blacks-citizenship-now-a-city-is-deciding-his-statues-fate.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/topic/person/donald-trump?mcubz=1&module=inline": {
+                "test:url": "https://www.nytimes.com/topic/person/donald-trump?mcubz=1&module=inline", 
+                "test:type": "article"
+            }, 
+            "test:http://www.nytimes.com/by/sheryl-gay-stolberg": {
+                "test:url": "http://www.nytimes.com/by/sheryl-gay-stolberg", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/12/us/charlottesville-protest-white-nationalist.html?module=inline", 
+                "test:date": "2017-08-12", 
+                "test:title": "Man Charged After White Nationalist Rally in Charlottesville Ends in Deadly Violence", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/917130468025348096": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/917130468025348096", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer": {
+                "test:url": "https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/14/nyregion/trump-new-york-city-visit.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer": {
+                "test:url": "https://www.nytimes.com/2017/08/14/nyregion/trump-new-york-city-visit.html?action=click&module=RelatedCoverage&pgtype=Article&region=Footer", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/917026789188399105": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/917026789188399105", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.stltoday.com/news/local/govt-and-politics/remaining-pieces-of-confederate-monument-removed-from-forest-park/article_84765940-97bf-5e2c-ac18-8038c224a38a.html": {
+                "test:url": "http://www.stltoday.com/news/local/govt-and-politics/remaining-pieces-of-confederate-monument-removed-from-forest-park/article_84765940-97bf-5e2c-ac18-8038c224a38a.html", 
+                "test:type": "article"
+            }, 
+            "test:http://www.nytreprints.com/": {
+                "test:url": "http://www.nytreprints.com/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/FLOTUS/status/896409989568507906": {
+                "test:url": "https://twitter.com/FLOTUS/status/896409989568507906", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.nytimes.com/by/maggie-haberman": {
+                "test:url": "http://www.nytimes.com/by/maggie-haberman", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY": {
+                "test:url": "https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2017/08/14/us/politics/trump-charlottesville-protest.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/marcorubio/status/897577823820537856": {
+                "test:url": "https://twitter.com/marcorubio/status/897577823820537856", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.nytimes.com/by/mark-landler": {
+                "test:url": "http://www.nytimes.com/by/mark-landler", 
+                "test:date": "", 
+                "test:title": "Mark Landler", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0": {
+                "test:url": "https://www.nytimes.com/2017/10/04/us/politics/tillerson-trump-secretary-state.html?hp=&action=click&pgtype=Homepage&clickSource=story-heading&module=inline&region=top-news&WT.nav=top-news&_r=0", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/GenRobertNeller/status/897591648007446529": {
+                "test:url": "https://twitter.com/GenRobertNeller/status/897591648007446529", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/GovernorVA/status/896399120172232704": {
+                "test:url": "https://twitter.com/GovernorVA/status/896399120172232704", 
+                "test:type": "reference"
+            }
+        }
+    }
+}

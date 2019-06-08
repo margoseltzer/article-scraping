@@ -6,14 +6,25 @@ class FeatureExtrator(object):
     Initiaing an instance will extract all the features 
     '''
     def __init__ (self, graph):
-        self.graph = graph
+        # Private variables
+        self.__root = graph['root']
+        self.__wdf_relations = list(graph['bundle']['wasDerivedFrom'].values())
+        self.__wat_relations = list(graph['bundle']['wasAttributedTo'].values())
+        self.__agents        = list(graph['bundle']['agent'].values())
+        self.__entities      = list(graph['bundle']['entity'].values())
+
+
+        # Extrated features
         self.article_count = 0
         self.person_count = 0
         self.publisher_count = 0
         self.qutoes_count = 0
         self.reference_count = 0
+        
         self.vertex_count = 0
-        self.edges_count = 0
+
+        self.wdf_relations_count
+        self.total_edges_count = 0
         self.density = 0
         self.cycle_count = 0
 
@@ -22,30 +33,15 @@ class FeatureExtrator(object):
 
     def extract_features(self):
         self._get_counts()
-        self.person_count = 0
-        self.publisher_count = 0
-        self.qutoes_count = 0
-        self.reference_count = 0
-        self.vertex_count = 0
-        self.edges_count = 0
-        self.density = 0
-        self.cycle_count = 0
 
-    def _get_article_count():
-        with open('train1_output.json', 'r') as f:
-            data = json.load(f)
-
-        numbers = data['bundle']['wasDerivedFrom'].keys()
-
-        vals = data['bundle']['wasDerivedFrom'].values()
-        vals = [list(obj.values()) for obj in vals]
-        vals = [num for lst in vals for num in lst]
-
-        # print(list(numbers))
-        print(vals)
-        print(len(vals))
-        print(len(set(vals)))
-
+    def _get_counts(self):
+        
+        self.wdf_relations_count = len(self.wdf_relations)
+        vals = [list(obj.values()) for obj in self.wdf_relations]
+        
+        arts_refs = [num for lst in vals for num in lst]
+        arts_refs = set(arts_refs)
+        
 
 
 def main():
