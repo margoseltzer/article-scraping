@@ -1,5 +1,6 @@
 import json
 import argparse
+import networkx as nx
 
 class FeatureExtrator(object):
     '''
@@ -12,6 +13,9 @@ class FeatureExtrator(object):
         self.__wat_relations = list(graph['bundle']['wasAttributedTo'].values())
         self.__agents        = list(graph['bundle']['agent'].values())
         self.__entities      = list(graph['bundle']['entity'].values())
+        self.__all_relations = self._get_relations()
+        self.__all_nodes     = self._get_nodes()
+        self.__nx_graph      = self._construct_graph()
 
         # Extrated features
 
@@ -21,19 +25,21 @@ class FeatureExtrator(object):
         self.total_edges_count   = self._count_all_relations()
         
         self.entities_count  = len(self.__entities)
-        entities_counts      = self._get_entities_counts() 
-        self.article_count   = entities_counts['article']
-        self.reference_count = entities_counts['reference']
+        entities_dict        = self._get_entities_counts() 
+        self.article_count   = entities_dict['article']
+        self.reference_count = entities_dict['reference']
 
         self.agents_count    = len(self.__agents)
-        agents_counts        = self._get_agents_counts()
-        self.person_count    = agents_counts['person']
-        self.publisher_count = agents_counts['publisher']
+        agents_dict          = self._get_agents_counts()
+        self.person_count    = agents_dict['person']
+        self.publisher_count = agents_dict['publisher']
 
         self.total_vertices_count = self._count_all_nodes()
 
         self.density = self._get_dentist()
-        self.cycle_count = 0
+
+        # More complex features
+        self.cycles = self._get_cycles
         self.extract_features()
 
         self.qutoes_count = 0        
@@ -51,23 +57,38 @@ class FeatureExtrator(object):
     def extract_features(self):
         self._get_counts()
 
-    def _get_entities_counts(self):
+    def _get_entities_dict(self):
         res = {}
         for entity in self.__entities:
             for key, val in entity.items():
                 if key == 'test:type':
                     res[val] = 1 + res[val] if val in res else 1
-                
         return res
 
-    def _get_agents_counts(self):
+    def _get_agents_dict(self):
         res = {}
         for agent in self.__agents:
             for key, val in agent.items():
                 if key == 'test:type':
-                    res[val] = 1 + res[val] if val in res else 1
-                
+                    res[val] = 1 + res[val] if val in res else 1        
         return res
+
+    def _get_relations(self):
+        wdf = [tuple(reversed(list(rel.values()))) for rel in self.__wdf_relations]
+        wat = [tuple(list(rel.values()))           for rel in self.__wat_relations]
+        return wdf + wat
+
+    def _get_nodes(self):
+        # TODO Do we really need this?? Maybe it would be beneficial to label all nodes.
+        res = []
+        # self.__entities
+        # self.__agents
+        return res
+    
+    def _construct_graph(self):
+        G = nx.DiGraph()
+        G.add_edges_from(self.__all_relations)
+        return G        
 
     def _get_counts(self):
         # art_refs is a list of all articles and references
