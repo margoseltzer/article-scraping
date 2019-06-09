@@ -13,34 +13,71 @@ class FeatureExtrator(object):
         self.__agents        = list(graph['bundle']['agent'].values())
         self.__entities      = list(graph['bundle']['entity'].values())
 
-
         # Extrated features
-        self.article_count = 0
-        self.person_count = 0
-        self.publisher_count = 0
-        self.qutoes_count = 0
-        self.reference_count = 0
+
+        # Simple features
+        self.wdf_relations_count = len(self.__wdf_relations)
+        self.wat_relations_count = len(self.__wat_relations)
+        self.total_edges_count   = self._count_all_relations()
         
-        self.vertex_count = 0
+        self.entities_count  = len(self.__entities)
+        entities_counts      = self._get_entities_counts() 
+        self.article_count   = entities_counts['article']
+        self.reference_count = entities_counts['reference']
 
-        self.wdf_relations_count
-        self.total_edges_count = 0
-        self.density = 0
+        self.agents_count    = len(self.__agents)
+        agents_counts        = self._get_agents_counts()
+        self.person_count    = agents_counts['person']
+        self.publisher_count = agents_counts['publisher']
+
+        self.total_vertices_count = self._count_all_nodes()
+
+        self.density = self._get_dentist()
         self.cycle_count = 0
-
         self.extract_features()
 
+        self.qutoes_count = 0        
+        
+
+    def _count_all_relations(self):
+        return self.wdf_relations_count + self.wat_relations_count 
+
+    def _count_all_nodes(self):
+        return self.entities_count + self.agents_count + 1
+    
+    def _get_dentist(self):
+        return self.total_edges_count / (self.total_vertices_count * (self.total_vertices_count - 1))
 
     def extract_features(self):
         self._get_counts()
 
+    def _get_entities_counts(self):
+        res = {}
+        for entity in self.__entities:
+            for key, val in entity.items():
+                if key == 'test:type':
+                    res[val] = 1 + res[val] if val in res else 1
+                
+        return res
+
+    def _get_agents_counts(self):
+        res = {}
+        for agent in self.__agents:
+            for key, val in agent.items():
+                if key == 'test:type':
+                    res[val] = 1 + res[val] if val in res else 1
+                
+        return res
+
     def _get_counts(self):
-        
-        self.wdf_relations_count = len(self.wdf_relations)
-        vals = [list(obj.values()) for obj in self.wdf_relations]
-        
-        arts_refs = [num for lst in vals for num in lst]
+        # art_refs is a list of all articles and references
+        arts_refs = [list(relation.values()) for relation in self.__wdf_relations]
+        arts_refs = [num for lst in arts_refs for num in lst]
+        # Remove duplicates
         arts_refs = set(arts_refs)
+        arts_refs_count = len(arts_refs)
+        print("Done")
+
         
 
 
