@@ -17,7 +17,8 @@ Script for scraping news article provenance from news url
 
 Integrating Python Newspaper3k library and mercury-parser https://mercury.postlight.com/web-parser/
 use best effort to extract correct provenance
-Using StanfordCoreNLP to extract quotations and attributed speakers. Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
+Using StanfordCoreNLP to extract quotations and attributed speakers. 
+Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
 
 """Path to StanfordCoreNLP Library"""
