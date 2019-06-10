@@ -36,10 +36,10 @@ class FeatureExtrator(object):
 
         self.total_vertices_count = self._count_all_nodes()
 
-        self.density = self._get_dentist()
+        self.density = self._get_density()
 
         # More complex features
-        self.cycles = self._get_cycles
+        self.cycles = self._get_cycles()
         self.extract_features()
 
         self.qutoes_count = 0        
@@ -51,9 +51,12 @@ class FeatureExtrator(object):
     def _count_all_nodes(self):
         return self.entities_count + self.agents_count + 1
     
-    def _get_dentist(self):
+    def _get_density(self):
         return self.total_edges_count / (self.total_vertices_count * (self.total_vertices_count - 1))
 
+    def _get_cycles(self):
+        return
+        
     def extract_features(self):
         self._get_counts()
 
