@@ -1,186 +1,211 @@
+import codecs
+import argparse
 import json
+import os
 import sys
-#sys.path.append('C:\\Users\\johns\\Documents\\prov-cpl\\bindings\\python')
-#sys.path.insert(0, 'C:\\Users\\johns\\Documents\\prov-cpl\\bindings\\python')
 import CPL
-from CPL import cpl_relation
+from CPL import ENTITY, ACTIVITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLE_RELATION
 
-originator = "demo"
-c = CPL.cpl_connection()
+# Global Varialbes
+originator = 'test'
+db_connection = CPL.cpl_connection()
 
-# with open("prov.json") as f:
-#   data = json.loads(f.read())
-# c.import_document_json(data, "testrprov", None, 0)
-with open("articles.json") as f:
-  data = json.loads(f.read())
+def add_article(article, bundle):
+    article_url = article['url'].encode('utf-8')
+    article_title = article['title'].encode('utf-8')
+    article_authors = article['authors']
+    article_publisher = article['publisher'].encode('utf-8')
+    article_publish_date = article['publish_date'].encode('utf-8')
+    article_quotes = article['quotes']
 
-
-
-##################
-bundle_name = str(data[0]["url"]);
-bundle_type = CPL.ENTITY
-try:
-    print("about to look up")
-    bundle = c.lookup_bundle(bundle_name, originator)
-except Exception as e:
-    print("about to create")
-    bundle = c.create_bundle(bundle_name, originator)
-# CPL.p_bundle(bundle, False)
-
-stuff = []
-relations = []  # type: List[cpl_relation]
-strings = []
-node_names = 0 # counter
-article_counter = 0
-author_counter = 0
-quote_counter = 0
-sentiment_counter = 0
-
-articles = {}
-for article in data:
-
-  try:
-    entity = c.lookup_by_property(originator, "url", str(article["url"]))[0];
-    print("this worked");
-  except Exception as e:
-     print(str(e.message))
-     entity = c.create_object(originator, "ARTICLE "+str(article_counter), CPL.ENTITY, bundle)
-     entity.add_property(originator, "url", str(article["url"]))
-
-  article_counter += 1
-  strings.append(str(article["url"]))
-
-  # CPL.p_object(entity)
-  node_names += 1
-  stuff.append(entity)
-  articles[article["url"]] = (entity, article)
-
-  for author in article["authors"]:
-    agent_type = CPL.AGENT
-    agent_name = "AUTHOR "+str(author_counter)
-    author_counter += 1
-
-    strings.append(str(author))
+    # add article object
+    short_aricle_url = article_url[:250] if len(article_url) > 250 else article_url
     try:
-        agent = c.lookup_by_property(originator, "author", str(author))[0];
+        article_object = db_connection.lookup_by_property(originator, 'url', article_url)[0]
     except Exception as e:
-        agent = c.create_object(originator, agent_name, agent_type, bundle)
-        agent.add_property(originator, "author", str(author))
+        print(str(e.message))
+        article_object = db_connection.create_object(originator, short_aricle_url, ENTITY, bundle)
+    article_object.add_property(originator, 'type', 'article')
+    article_object.add_property(originator, 'url', article_url)
+    article_object.add_property(originator, 'title', article_title)
 
-
-   # CPL.p_object(agent)
-    node_names += 1
-    stuff.append(agent)
-    print ("Agent:", agent)
-    print ("entity:", entity)
-    print("about to add relation")
+    # add date, text to article_object property
+    article_object.add_property(originator, 'date', article_publish_date)
 
     try:
-        relation = c.lookup_relation(entity.id, agent.id, CPL.WASATTRIBUTEDTO)
+        publisher_object = db_connection.lookup_by_property(originator, 'publisher', article_publisher)[0]
     except Exception as e:
-        relation = c.create_relation(entity.id, agent.id, CPL.WASATTRIBUTEDTO)
-        relations.append(relation)
-
-    #Don't check if bundle relation exists. May want to change this if doing versioning in future
-    relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
-
-  index = 0
-  for unit in article["quotes"]:
-    for x in unit:
-      if (x == 'quote'):
-        quote = unit[x];
+        publisher_object = db_connection.create_object(originator, article_publisher, AGENT, bundle)
+        publisher_object.add_property(originator, 'publisher', article_publisher)
+        publisher_object.add_property(originator, 'type', 'publisher')
+    
+    # add relation between publisher and article
     try:
-        quote
-        print("quote was properly defined");
-        try:
-            q = c.lookup_by_property(originator, "quote", str(quote))[0]
-        except Exception as e:
-            q = c.create_object(originator, "QUOTE " + str(quote_counter), CPL.ACTIVITY, bundle)
-            q.add_property(originator, "quote", str(quote))
-        quote_counter += 1
-        # CPL.p_object(q)
-        strings.append(quote)
-        node_names += 1
-        stuff.append(q)
-
-        try:
-            relation = c.lookup_relation(entity.id, q.id, CPL.WASGENERATEDBY)
-        except Exception as e:
-            relation = c.create_relation(entity.id, q.id, CPL.WASGENERATEDBY)
-            relations.append(relation)
-
-        # Don't check if bundle relation exists. May want to change this if doing versioning in future
-        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
-
+        article_publiser_relation = db_connection.lookup_relation(article_object.id, publisher_object.id, WASATTRIBUTEDTO)
     except Exception as e:
-        print ("quote was improperly defined")
-    if index < len(article["sentiments"]):
+        article_publiser_relation = db_connection.create_relation(article_object.id, publisher_object.id, WASATTRIBUTEDTO)
+
+    # include article and publisher relation in bundle
+    db_connection.create_relation(bundle.id, article_publiser_relation.id, BUNDLE_RELATION)
+
+
+    # add author object
+    for author in article_authors:
+        author_name = author['name'].encode('utf-8')
         try:
-            s = c.lookup_object(originator, "SENTIMENT "+str(sentiment_counter), CPL.AGENT, bundle)
+           author_object = db_connection.lookup_by_property(originator, 'name', author_name)[0]
         except Exception as e:
-            s = c.create_object(originator, "SENTIMENT " + str(sentiment_counter), CPL.AGENT, bundle)
-        sentiment_counter += 1
-        # print ("doodlye doo:",str(article["sentiments"][index]))
-        # print ("doodley doo:",str(article["quotes"][index]))
-        strings.append(str(article["sentiments"][index]))
-
+            author_object = db_connection.create_object(originator, author_name, AGENT, bundle)
+            author_object.add_property(originator, 'name', author_name)
+            author_object.add_property(originator, 'type', 'person')
+    
+        # add relation between author and article
         try:
-            relation = c.lookup_relation(s.id, q.id, CPL.WASASSOCIATEDWITH)
+            article_author_relation = db_connection.lookup_relation(article_object.id, author_object.id, WASATTRIBUTEDTO)
         except Exception as e:
-            relation = c.create_relation(s.id, q.id, CPL.WASASSOCIATEDWITH)
-            relations.append(relation)
+            article_author_relation = db_connection.create_relation(article_object.id, author_object.id, WASATTRIBUTEDTO)
 
-        # Don't check if bundle relation exists. May want to change this if doing versioning in future
-        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
+        # include article and author relation in bundle
+        db_connection.create_relation(bundle.id, article_author_relation.id, BUNDLE_RELATION)
 
-    index += 1
+    # add quotes object
+    # TODO: add quotes
 
-for article in articles:
-  a = articles[article]
-  # find other articles, add relationship to articles
-  for link in a[1]["links"]:
-    if "http://" in link:
-      alt = link.replace("http://", "https://")
-    else:
-      alt = link.replace("https://", "http://")
-    match = None
+    return article_object
+
+def add_reference_relation(article, articles_object_map, bundle):
+    def add_relation(url, url_type, articles_object_map, article_object_id, bundle_id):
+        url_str = url.encode('utf-8')
+        short_url_str = url_str[:250] if len(url_str) > 250 else url_str
+        try:
+            reference_object = articles_object_map[url]  
+        except Exception as e:
+            try:
+                reference_object = db_connection.lookup_by_property(originator, 'url', url_str)[0]
+            except Exception as e:
+                reference_object = db_connection.create_object(originator, short_url_str, ENTITY, bundle)
+            reference_object.add_property(originator, 'url', url_str)
+            reference_object.add_property(originator, 'type', url_type)
+        try:
+            reference_relation = db_connection.lookup_relation(article_object_id, reference_object.id, WASDERIVEDFROM)
+        except Exception as e:
+            reference_relation = db_connection.create_relation(article_object_id, reference_object.id, WASDERIVEDFROM)
+
+        db_connection.create_relation(bundle_id, reference_relation.id, BUNDLE_RELATION)
+
+    article_url = article['url']
+    article_links = article['links']['articles']
+    article_unsure_links = article['links']['unsure']
+    article_object = articles_object_map[article_url]
+    for url in article_links:
+        add_relation(url, 'article', articles_object_map, article_object.id, bundle.id)
+    
+    for url in article_unsure_links:
+        add_relation(url, 'reference', articles_object_map, article_object.id, bundle.id)
+
+def add_bundle(articles_json):
+    root_article  = articles_json[0]
+    bundle_name = root_article['url'].encode('utf-8')
     try:
-      match1 = articles[link][0]
-      match = match1
-    except KeyError:
-      match1 = None
+        print("try to find bundle %s" % (bundle_name))
+        bundle = db_connection.lookup_bundle(bundle_name, originator)
+    except Exception as e:
+        print("bundle not exsist create new one")
+        bundle = db_connection.create_bundle(bundle_name, originator)
+
+    articles_object_map = {}
+
+    for article in articles_json:
+        articles_object_map[article['url']] = add_article(article, bundle)
+
+    for article in articles_json:
+        add_reference_relation(article, articles_object_map, bundle)
+    
+    return bundle
+
+def write_output(output_file_name, bundles, root_url=None):
     try:
-      match2 = articles[alt][0]
-      match = match2
-    except KeyError:
-      match2 = None
-    if match1 or match2:
-        try:
-            relation = c.lookup_relation(a[0].id, match.id, CPL.WASDERIVEDFROM)
-        except Exception as e:
-            relation = c.create_relation(a[0].id, match.id, CPL.WASDERIVEDFROM)
-            relations.append(relation)
+        bundle_json = json.loads(db_connection.export_bundle_json(bundles))
+        output_json = {
+            'root': root_url,
+            'bundle': bundle_json }
+        with codecs.open(output_file_name, 'w', encoding='utf-8') as f:
+            json.dump(output_json, f, ensure_ascii=False, indent=4, encoding='utf-8')
+        print('wrote output to ' + output_file_name)
+    except Exception as e:
+        print(e)
 
-        # Don't check if bundle relation exists. May want to change this if doing versioning in future
-        relations.append(c.create_relation(bundle.id, relation.id, CPL.BUNDLE_RELATION))
+def process_file(file_name, output_file = None):
+    '''
+    process json file, write output to file_name_output.json, return bundle object
+    '''
+    print('start processing ' + file_name)
+    with open(file_name) as f:
+        articles_json = json.load(f)
+        
+    root_url = articles_json[0]['url']
+    bundle = add_bundle(articles_json)
+    print('finished process ' + file_name)
 
-# gathers up all the bundles under this originator for the output file
-# if you just want info for one bundle, change this to bundles = [bundle]
-# bundles = []
-# for o in c.get_all_objects(originator, 0):
-#     print(o.name)
-#     b = c.lookup_bundle(o.name, originator)
-#     bundles.append(b)
-bundles = [bundle]
+    # write to ouput
+    output_file_name = file_name[:-5] + '_output.json' if not output_file else output_file
+    write_output(output_file_name, [bundle], root_url)
+    
+    return bundle
 
-# https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
+def process_directory(directory_name):
+    '''
+    process all json file in dirctory, write output to dirctory_name_output/file_name_output.json,
+    return list of bundle objects
+    '''
+    def build_output_directory(directory_path):
+        return directory_path[:-1] + '_output' if directory_path.endswith('/') else directory_path + '_output'
 
-# TODO need to update export function
-outdata = c.export_bundle_json(bundles)
-print(str(outdata))
-with open('output.json', 'w') as outfile:
-    json.dump(outdata, outfile)
+    # build output directory
+    for r, d, f in os.walk(directory_name):
+        output_directory = build_output_directory(r)
+        if not os.path.exists(output_directory):
+            os.makedirs(output_directory)
 
-print ("finished execution")
-c.close()
+    input_output_list = [(os.path.join(r, file), os.path.join(build_output_directory(r), file[:-5] + '_output.json')) 
+        for r, d, f in os.walk(directory_name) for file in f if '.json' in file]
+    return [process_file(i, o) for i, o in input_output_list]
 
+def main():
+    global originator
+    parser = argparse.ArgumentParser(
+        description='store all provenance in file to database, and output new file for graph analysis')
+    parser.add_argument('-f', '--file', dest='file_name', 
+                        help='name of file need to be process, result stored in file_name_output.json')
+    parser.add_argument('-d', '--directory', dest='directory_name', 
+                        help='name of directory need to be process, result stored in directory_name_output directory')
+    parser.add_argument('-o', '--originator', type=str, dest='originator', default='test',
+                        help='the originator name, default is test')
+    parser.add_argument('-a', '--all', dest='all', action='store_true',
+                        help='output all bundles processed by this time in output.json')
+
+    args = parser.parse_args()
+
+    if args.originator:
+        originator = args.originator
+
+    # if no both file or directory, terminamte
+    if not args.file_name and not args.directory_name:
+        print("you must provide at least one of file name or directory name")
+    
+    bundles = []
+    if args.file_name:
+        bundles.append(process_file(args.file_name))
+
+    if args.directory_name:
+        bundles += process_directory(args.directory_name)
+
+    if args.all:
+        #show all bundles in database
+        print("output all the bundles processed by this time")
+        write_output('output.json', bundles)
+
+    print("finished process all files")
+
+main()
+db_connection.close()
