@@ -7,9 +7,9 @@ import re
 import urllib
 import nltk
 from urllib.request import urlopen
-from stanfordcorenlp import StanfordCoreNLP
 from bs4 import BeautifulSoup
 from newspaper import Article
+from utils.standford_NLP import StanfordNLP
 nltk.download('punkt')
 
 """
@@ -35,31 +35,6 @@ class Author(object):
             'name': self.name,
             'link': self.link
         }
-
-class StanfordNLP(object):
-    def __init__(self, host='http://localhost', port=9000):
-        self.nlp = StanfordCoreNLP(host, port=port,
-                                   timeout=80000)  # , quiet=False, logging_level=logging.DEBUG)
-        self.props = {
-            'annotators': 'tokenize,ssplit,pos,lemma,ner,depparse,parse,coref,quote',
-            'pipelineLanguage': 'en',
-            'outputFormat': 'json'
-        }
-
-    def annotate(self, sentence):
-        return json.loads(self.nlp.annotate(sentence, self.props))
-
-    @staticmethod
-    def tokens_to_dict(_tokens):
-        tokens = defaultdict(dict)
-        for token in _tokens:
-            tokens[int(token['index'])] = {
-                'word': token['word'],
-                'lemma': token['lemma'],
-                'pos': token['pos'],
-                'ner': token['ner']
-            }
-        return tokens
 
 class NewsArticle(object):
     """
@@ -198,45 +173,10 @@ class NewsArticle(object):
 
         return self.publish_date
 
-    def extractQuoteInfo(self, thisquote):
-        toReturn = [thisquote["text"],thisquote["canonicalSpeaker"],thisquote["endToken"] - thisquote["beginToken"], False]
-        if (toReturn[1][0].islower()) or (str.lower(toReturn[1]) in ["his", "her", "unknown", "they", "it", "he", "she", "you"]):
-            toReturn[1] = ""
-        if thisquote["endSentence"] - thisquote["beginSentence"] > 0:
-            toReturn[3] = True
-        return toReturn
-
-    def bigEnough(self, thisquote):
-        return thisquote["endToken"] - thisquote["beginToken"] >= 5
-
-    def splitIntoSentences(self, entry):
-        # Turns quote bundle into individual quote sentences of the format:
-        # [sentence text, speaker, isFullSentence?]
-        tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
-        sentences = nltk.tokenize.sent_tokenize(entry[0])
-        toReturn = []
-        for sentence in sentences:
-            if sentence[0] in ['”', '"']:
-                sentence[1:len(sentence)]
-            if sentence[-1] in ['”', '"']:
-                sentence[0:len(sentence)-1]
-            isFullSentence = False
-            if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
-                isFullSentence = True
-            wordCount = len(tokenizer.tokenize(sentence))
-            if isFullSentence or wordCount > 5: 
-                toReturn.append([sentence, entry[1], isFullSentence])
-        
-        return toReturn
-    
     def find_quotes(self):
-        # self.quotes is a list of bundle of quotes
-        # Format of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        text = self.text
-        output = self.__sNLP.annotate(text)
-        quotes = output["quotes"]
-        quoteResult = [self.extractQuoteInfo(n) for n in quotes if self.bigEnough(n)]
-        self.quotes = [sentence_bundle for quote_bundle in quoteResult for sentence_bundle in self.splitIntoSentences(quote_bundle)]
+        # self.q
+        #  of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
+        self.quotes = self.__sNLP.annotate(text)
 
     def find_links(self):
         """
@@ -245,30 +185,22 @@ class NewsArticle(object):
         The result does not include the self reference link.
         """
         article_html = self.__result_json['content'] or self.__article.article_html
-        if not article_html:
-            return self.links
+        if article_html:
+            soup   = BeautifulSoup(article_html, features="lxml")
+            a_tags = soup.find_all("a")
 
-        soup = BeautifulSoup(article_html, features="lxml")
-        a_tags = soup.find_all("a")
-
-        no_duplicate_valid_set_list = list(set([a_tag.get('href')
-                       for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]))
-
-        links = {
-            'articles': [link for link in no_duplicate_valid_set_list if not NewsArticle.UNSURE_LIST.match(link)],
-            'unsure': [link for link in no_duplicate_valid_set_list if NewsArticle.UNSURE_LIST.match(link)]
-        }
-
-        self.links = links
-
-        return self.links
+            no_duplicate_url_list = list(set([a_tag.get('href') for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]))
+            links = {'articles': [link for link in no_duplicate_url_list if not NewsArticle.UNSURE_LIST.match(link)],
+                     'unsure'  : [link for link in no_duplicate_url_list if NewsArticle.UNSURE_LIST.match(link)]}
+            
+            self.links = links
 
     def _is_link_valid(self, link):
         # for sitiuation get('href') return None
         if not link:
             return False
         # This will check if the link is not the self reference and start with 'https://' or 'http://'
-        return (link != self.url) and NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
+        return NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -401,25 +333,14 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
-def startNLPServer():
-    args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 75000")
-    subprocess.Popen(args)
-
-
-def closeNLPServer():
-    args = shlex.split("wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -")
-    subprocess.Popen(args)
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='scraping news articles from web, and store result in file')
-    parser.add_argument('-u', '--url', dest='url',
-                        required=True, help='source news article web url')
-    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2,
-                        help='the depth of related article would be scraped, defalut is 2')
-    parser.add_argument('-o', '--output', dest='output',
+    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
+    parser.add_argument('-u', '--url', dest='url', required=True, help='source news article web url')
+    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2, help='the depth of related article would be scraped, defalut is 2')
+    parser.add_argument('-o', '--output', dest='output', 
                         help='output file name, if not provided would use url hash as file name' +
-                        ' and stored in news_json folder under current path')
+                             ' and stored in news_json folder under current path')
 
     args = parser.parse_args()
     if args.depth < 0:
@@ -427,11 +348,12 @@ def main():
         return
 
     # scrape from url
-    startNLPServer()
+    #StanfordNLP.startNLPServer()
+
     scraper = Scraper()
-    print('starting scraping from source url: %s, with depth %d' %
-          (args.url, args.depth))
+    print('starting scraping from source url: %s, with depth %d' % (args.url, args.depth))
     news_article_list = scraper.scrape_news(args.url, args.depth)
+    
     if not news_article_list:
         print('fail scraping from source url: ', args.url)
         return
@@ -441,10 +363,10 @@ def main():
     print('total successful %d pages:' %(len(scraper.success)))
     print('success url list :')
     print(*scraper.success, sep='\n')
+    
     if scraper.failed:
         print('failed url list :')
         print(*scraper.failed, sep='\n')
-    
 
     # build dict object list
     output_json_list = []
@@ -461,12 +383,14 @@ def main():
     with open(output, 'w') as f:
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
-    closeNLPServer()
+
+    StanfordNLP.closeNLPServer()
 
 
 main()
 
-news_scraper = Scraper()
+# scraper = Scraper()
+# news_article_list = scraper.scrape_news('http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287', 2)
 
-news_scraper.scrape_news('https://www.facebook.com/cnnpolitics/posts/1281724775202686')
-# news_scraper = NewsArticle.build_news_article_from_url('https://www.facebook.com/ABCNewsPolitics/posts/1035269309904628')
+# http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287
+# http://www.politico.com/story/2016/09/presidential-debate-fact-checking-228653
