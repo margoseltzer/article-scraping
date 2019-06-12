@@ -21,6 +21,7 @@ Using StanfordCoreNLP to extract quotations and attributed speakers.
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
 
+
 """Path to StanfordCoreNLP Library"""
 stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
