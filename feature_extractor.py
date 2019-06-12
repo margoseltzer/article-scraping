@@ -8,14 +8,14 @@ class FeatureExtrator(object):
     '''
     def __init__ (self, graph):
         # Private variables
-        self.__root = graph['root']
+        self.__root          = graph['root']
         self.__wdf_relations = list(graph['bundle']['wasDerivedFrom'].values())
         self.__wat_relations = list(graph['bundle']['wasAttributedTo'].values())
         self.__agents        = list(graph['bundle']['agent'].values())
         self.__entities      = list(graph['bundle']['entity'].values())
         self.__all_relations = self._get_relations()
         self.__all_nodes     = self._get_nodes()
-        self.__nx_graph      = self._construct_graph()
+        self.__G             = self._construct_graph()
 
         # Extrated features
 
@@ -25,13 +25,13 @@ class FeatureExtrator(object):
         self.total_edges_count   = self._count_all_relations()
         
         self.entities_count  = len(self.__entities)
-        entities_dict        = self._get_entities_counts() 
+        entities_dict        = self._get_entities_dict() 
         self.article_count   = entities_dict['article']
         self.reference_count = entities_dict['reference']
 
         self.agents_count    = len(self.__agents)
-        agents_dict          = self._get_agents_counts()
-        self.person_count    = agents_dict['person']
+        agents_dict          = self._get_agents_dict()
+        self.person_count    = agents_dict['person'] if 'person' in agents_dict else []
         self.publisher_count = agents_dict['publisher']
 
         self.total_vertices_count = self._count_all_nodes()
@@ -39,7 +39,13 @@ class FeatureExtrator(object):
         self.density = self._get_density()
 
         # More complex features
-        self.cycles = self._get_cycles()
+        self.cycles         = self._get_cycles()
+        self.avg_in_degree  = self._get_avg_in_degree()
+        self.avg_out_degree = self._get_avg_out_degree()
+        self.in_centrality  = self._get_in_centrality()
+        self.out_centrality = self._get_out_centrality()
+        self.closeness_cent = self._get_closeness_centrality()
+        self.end_articls    = self._get_end_articles()
         self.extract_features()
 
         self.qutoes_count = 0        
@@ -55,10 +61,44 @@ class FeatureExtrator(object):
         return self.total_edges_count / (self.total_vertices_count * (self.total_vertices_count - 1))
 
     def _get_cycles(self):
-        return
+        return len(list(nx.simple_cycles(self.__G)))
+    
+    def _get_avg_in_degree(self):
+        vertices = list(self.__G.nodes)
+        leng     = len(vertices)
+        sum_deg  = 0
+        for vertex in vertices:
+            sum_deg += self.__G.in_degree(vertex)
+        return sum_deg / leng
+
+    def _get_avg_out_degree(self):
+        vertices = list(self.__G.nodes)
+        leng     = len(vertices)
+        sum_deg  = 0
+        for vertex in vertices:
+            sum_deg += self.__G.out_degree(vertex)
+        return sum_deg / leng
+
+    def _get_in_centrality(self):
+        return nx.in_degree_centrality(self.__G)
+    
+    def _get_out_centrality(self):
+        return nx.out_degree_centrality(self.__G)
         
+    def _get_closeness_centrality(self):
+        return nx.closeness_centrality(self.__G)
+
+    def _get_end_articles(self):
+        out_vertices = nx.out_degree_centrality(self.__G)
+        zero_out_deg_vertices = [vtx for vtx, deg in out_vertices.items() if deg == 0]
+        # TODO need to get rid of leaf nodes
+
     def extract_features(self):
         self._get_counts()
+
+    # TODO number of dead ends that are not leaves
+    # Get all nodes that have 0 out degree
+    # Except for the leave nodes with the max depth, return the number of nodes
 
     def _get_entities_dict(self):
         res = {}
@@ -116,7 +156,7 @@ def main():
     graph_file = args.path
 
     # with open(graph_file, 'r') as f:
-    with open('train1_output.json', 'r') as f:
+    with open('fake_1_output.json', 'r') as f:
         graph_dict = json.load(f)
 
     feature_extractor = FeatureExtrator(graph_dict) 
