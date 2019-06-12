@@ -3,7 +3,7 @@ A simple bokeh application use bokeh server
 to generate an interactive graph
 
 command to use:
-bokeh serve --show interacive_graph.py [--args file_name]
+bokeh serve --show interactive_graph.py [--args file_name]
 '''
 
 import networkx as nx
