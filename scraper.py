@@ -176,7 +176,7 @@ class NewsArticle(object):
     def find_quotes(self):
         # self.q
         #  of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        self.quotes = self.__sNLP.annotate(text)
+        self.quotes = self.__sNLP.annotate(self.text)
 
     def find_links(self):
         """
@@ -348,7 +348,7 @@ def main():
         return
 
     # scrape from url
-    #StanfordNLP.startNLPServer()
+    StanfordNLP.startNLPServer()
 
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (args.url, args.depth))

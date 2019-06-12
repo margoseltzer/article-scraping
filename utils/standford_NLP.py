@@ -1,4 +1,7 @@
 from stanfordcorenlp import StanfordCoreNLP
+import subprocess, shlex
+import json
+import nltk
 
 """
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
