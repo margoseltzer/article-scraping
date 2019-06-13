@@ -10,6 +10,11 @@ Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.htm
 """Path to StanfordCoreNLP Library"""
 stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
+'''
+To manually start the server, run java -Xmx4g -cp "../stanford-corenlp-full-2018-10-05/*"(PATH) edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 40000 -quiet True
+To manually close the server, run wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -
+'''
+
 class StanfordNLP(object):
     def __init__(self, host='http://localhost', port=9000):
         self.nlp = StanfordCoreNLP(host, port=port, timeout=80000)  # , quiet=False, logging_level=logging.DEBUG)
@@ -70,7 +75,7 @@ class StanfordNLP(object):
     
     @staticmethod
     def startNLPServer():
-        args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 75000 -quiet True")
+        args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 40000 -quiet True")
         subprocess.Popen(args)
 
     @staticmethod
@@ -78,3 +83,4 @@ class StanfordNLP(object):
         # subprocess.run(["wget", '\"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\"', '-O', '-'], stdout=subprocess.PIPE)
         args = shlex.split("wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -")
         subprocess.Popen(args)
+

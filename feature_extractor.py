@@ -4,6 +4,7 @@ import networkx as nx
 
 class FeatureExtrator(object):
     '''
+    Arguments: provenance output
     Initiaing an instance will extract all the features 
     '''
     def __init__ (self, graph):
@@ -45,7 +46,7 @@ class FeatureExtrator(object):
         self.in_centrality  = self._get_in_centrality()
         self.out_centrality = self._get_out_centrality()
         self.closeness_cent = self._get_closeness_centrality()
-        self.end_articls    = self._get_end_articles()
+        self.leaf_count     = self._get_end_articles()
         self.extract_features()
 
         self.qutoes_count = 0        
@@ -99,6 +100,14 @@ class FeatureExtrator(object):
     # TODO number of dead ends that are not leaves
     # Get all nodes that have 0 out degree
     # Except for the leave nodes with the max depth, return the number of nodes
+
+    # TODO number of articles that are from root's publisher
+
+    # TODO in_centralized authors
+
+    # TODO number of broccoli
+
+    # TODO word count
 
     def _get_entities_dict(self):
         res = {}
