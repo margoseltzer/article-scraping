@@ -43,8 +43,7 @@ def get_full_quote(quote):
             final = re.findall(r'"([^"]*)"', alltext)
             splitFinal = [nltk.tokenize.sent_tokenize(s) for s in final]
 
-            #TODO: doing s[0] throws an exception if element of splitFinal is an empty array
-            match = [s[0] for s in splitFinal if quote in s[0]]
+            match = [s[0] for s in splitFinal if s != [] and quote in s[0]]
             if match:
                 if match[0].endswith(('?', '!', '.', ',')) and match[0][0].isupper():
                     toReturn = match[0]
