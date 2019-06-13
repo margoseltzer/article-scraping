@@ -1,4 +1,5 @@
 import argparse
+import csv
 import hashlib
 import json
 import subprocess, shlex
@@ -177,7 +178,7 @@ class NewsArticle(object):
     def find_quotes(self):
         # self.q
         #  of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        self.quotes = self.__sNLP.annotate(self.text)
+        self.quotes = self.__sNLP.annotate(self.text) 
 
     def find_links(self):
         """
@@ -334,32 +335,17 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
-
-def main():
-    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
-    parser.add_argument('-u', '--url', dest='url', required=True, help='source news article web url')
-    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2, help='the depth of related article would be scraped, defalut is 2')
-    parser.add_argument('-o', '--output', dest='output', 
-                        help='output file name, if not provided would use url hash as file name' +
-                             ' and stored in news_json folder under current path')
-
-    args = parser.parse_args()
-    if args.depth < 0:
-        print('scraping depth must greater or equal to 0')
-        return
-
+def handle_one_url(url, depth, output=None):
     # scrape from url
-    StanfordNLP.startNLPServer()
-
     scraper = Scraper()
-    print('starting scraping from source url: %s, with depth %d' % (args.url, args.depth))
-    news_article_list = scraper.scrape_news(args.url, args.depth)
+    print('starting scraping from source url: %s, with depth %d' % (url, depth))
+    news_article_list = scraper.scrape_news(url, depth)
     
     if not news_article_list:
-        print('fail scraping from source url: ', args.url)
-        return
+        print('fail scraping from source url: ', url)
+        return False
     
-    print('finished scraping all urls')
+    print('finished scraping urls from source: ', url)
     print('total scraped %d pages:' %(len(scraper.visited)))
     print('total successful %d pages:' %(len(scraper.success)))
     print('success url list :')
@@ -375,23 +361,59 @@ def main():
         output_json_list.append(news_article.jsonify())
 
     # write reslut to file
-    output = args.output
     if output is None:
         if not os.path.exists('news_json'):
             os.makedirs('news_json')
-        url_hash = hash_url(args.url)
+        url_hash = hash_url(url)
         output = 'news_json/' + str(url_hash) + '.json'
     with open(output, 'w') as f:
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
+    return True
 
-    StanfordNLP.closeNLPServer()
+def handle_url_list_file(file_name, depth):
+    with open(file_name, 'r') as f:
+            csv_reader = csv.DictReader(f)
+            line_count = 0
+            fail_list = []
+            for row in csv_reader:
+                if line_count == 0:
+                    header = list(row.keys())
+                url = row['url']
+                rsp = handle_one_url(url, depth)
+                if not rsp:
+                    fail_list.append(row)
+                line_count += 1
+            if fail_list:
+                with open('fail_list.csv', 'w') as fail_csv:
+                    writer = csv.DictWriter(fail_csv, fieldnames=header)
+                    writer.writeheader()
+                    for row in fail_list:
+                        writer.writerow(row)
+            print('finish process urls in ', file_name)
+            print('success on %d urls, failed on %d urls ' % (line_count - 1 - len(fail_list), len(fail_list)))
+            print('any failed case could be found in fail_list.csv')
 
+def main():
+    parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
+    parser.add_argument('-u', '--url', dest='url', help='source news article web url')
+    parser.add_argument('-f', '--file', dest='file', help='file contain list of url')
+    parser.add_argument('-d', '--depth', type=int, dest='depth', default=2, help='the depth of related article would be scraped, defalut is 2')
+    parser.add_argument('-o', '--output', dest='output', 
+                        help='specify output file for url feed by -u option')
+
+    args = parser.parse_args(['-f', '/Users/fyan/summer_research/article-scraping/urls.csv', '-d', '0'])
+    if args.depth < 0:
+        print('scraping depth must greater or equal to 0')
+        return
+
+    if not args.url and not args.file:
+        print('must provide at least one url or file contain url')
+        return
+
+    if args.url:
+        handle_one_url(args.url, args.depth, args.output)
+    if args.file:
+        handle_url_list_file(args.file,args.depth)
 
 main()
-
-# scraper = Scraper()
-# news_article_list = scraper.scrape_news('http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287', 2)
-
-# http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287
-# http://www.politico.com/story/2016/09/presidential-debate-fact-checking-228653
