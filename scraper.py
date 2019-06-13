@@ -391,7 +391,7 @@ def handle_url_list_file(file_name, depth):
                     for row in fail_list:
                         writer.writerow(row)
             print('finish process urls in ', file_name)
-            print('success on %d urls, failed on %d urls ' % (line_count - 1 - len(fail_list), len(fail_list)))
+            print('success on %d urls, failed on %d urls ' % (line_count - len(fail_list), len(fail_list)))
             print('any failed case could be found in fail_list.csv')
 
 def main():
@@ -402,7 +402,7 @@ def main():
     parser.add_argument('-o', '--output', dest='output', 
                         help='specify output file for url feed by -u option')
 
-    args = parser.parse_args(['-f', '/Users/fyan/summer_research/article-scraping/urls.csv', '-d', '0'])
+    args = parser.parse_args()
     if args.depth < 0:
         print('scraping depth must greater or equal to 0')
         return
