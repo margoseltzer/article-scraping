@@ -41,7 +41,7 @@ In order to run the end-to-end pipeline to generate a provenance graph for an ar
 
 ## Database Schema
 You will notice that cpl_bundles has no direct relationship to `cpl_objects`. In previous prov-cpl versions, each object belonged to a bundle. However, for this specific application where a "bundle" is an article and an "object" can be an author, quote, or link to another article, it did not make sense for objects to uniquely belong to one bundle (e.g. if Alice authored two InfoWars articles, there should be one "author: Alice" object in the database that belongs to the bundles "infowars article 1" and "infowars article 2"). To deal with this, bundles have become a special type of object and the relationship from bundle to objects is stored in the `cpl_relations` table. 
-![CPL PostgreSQL Schema](cplschema.png)
+![CPL PostgreSQL Schema](screenshots/cplschema.png)
 
 ## How to Run
 Here is a walkthrough of how to generate a prov graph, using [this InfoWars anti-vaccine article](https://www.infowars.com/mmr-vaccine-after-puberty-reduces-testosterone-sperm-counts-report/). A short summary of the relevant commands and files can be found below this section.
@@ -116,10 +116,10 @@ The graph builder will read the prov-JSON from `output.json` and display an undi
 - red: article
 - purple: sentiment
 
-![InfoWars Vaccine Graph](demograph.png)
+![InfoWars Vaccine Graph](screenshots/demograph.png)
 
 The graphbuilder can also generate NumPy matrices. Here is the matrix representation of this article:
-![InfoWars Vaccine Matrix](demomatrix.png)
+![InfoWars Vaccine Matrix](screenshots/demomatrix.png)
 
 ## Summary: File list
 * ```scraper.py```
