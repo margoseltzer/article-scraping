@@ -2,12 +2,10 @@ import argparse
 import csv
 import hashlib
 import json
-import subprocess, shlex
+import subprocess
 import os
 import re
-import urllib
 import nltk
-from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from newspaper import Article
 from utils.standford_NLP import StanfordNLP

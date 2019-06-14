@@ -2,10 +2,9 @@ import codecs
 import argparse
 import json
 import os
-import sys
 import CPL
-from CPL import ENTITY, ACTIVITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLE_RELATION
-from googleQuote import get_full_quote
+from CPL import ENTITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLE_RELATION
+from google_quote import get_full_quote
 import string
 
 # Global Varialbes
