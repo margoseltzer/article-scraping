@@ -8,7 +8,7 @@ import re
 import nltk
 from bs4 import BeautifulSoup
 from newspaper import Article
-from utils.standford_NLP import StanfordNLP
+from utils.stanford_NLP import StanfordNLP
 nltk.download('punkt')
 
 """
@@ -236,6 +236,7 @@ class NewsArticle(object):
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
+            article.nlp()
 
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
             parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
