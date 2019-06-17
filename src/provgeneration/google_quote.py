@@ -22,7 +22,7 @@ def text_from_html(body):
 
 
 def get_full_quote(quote):
-    toReturn = ""
+    toReturn = re.sub("[\[].*?[\]] ", "", quote)
     for j in search('"' + quote + '"', num=10, stop=10):
         print(j)
         try:
@@ -41,9 +41,9 @@ def get_full_quote(quote):
 
             alltext = alltext.translate(charmap)
             final = re.findall(r'"([^"]*)"', alltext)
-            splitFinal = [nltk.tokenize.sent_tokenize(s) for s in final]
+            splitFinal = [n for s in final for n in nltk.tokenize.sent_tokenize(s)]
 
-            match = [s[0] for s in splitFinal if s != [] and quote in s[0]]
+            match = [s for s in splitFinal if quote in s]
             if match:
                 if match[0].endswith(('?', '!', '.', ',')) and match[0][0].isupper():
                     toReturn = match[0]
