@@ -270,6 +270,9 @@ class Scraper(object):
         self.visited = []
         self.success = []
         self.failed = []
+    
+    def closeNLP(self):
+        self.sNLP.close()
 
     def scrape_news(self, url, depth=0):
         """
@@ -343,6 +346,7 @@ def handle_one_url(url, depth, output=None):
         print('fail scraping from source url: ', url)
         return False
     
+    scraper.closeNLP()
     print('finished scraping urls from source: ', url)
     print('total scraped %d pages:' %(len(scraper.visited)))
     print('total successful %d pages:' %(len(scraper.success)))

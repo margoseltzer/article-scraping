@@ -2,6 +2,8 @@ from stanfordcorenlp import StanfordCoreNLP
 import subprocess, shlex
 import json
 import nltk
+import re
+nltk.download('punkt')
 
 """
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
@@ -11,10 +13,13 @@ Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.htm
 stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
 class StanfordNLP(object):
-    def __init__(self, host='http://localhost', port=9000):
-        self.nlp = StanfordCoreNLP(host, port=port, timeout=80000)  # , quiet=False, logging_level=logging.DEBUG)
+    def __init__(self):
+        self.nlp = StanfordCoreNLP(stanfordLibrary, memory='8g', quiet=False, timeout=150000)  # , quiet=False, logging_level=logging.DEBUG)
         self.props = {
             'annotators': 'tokenize,ssplit,pos,lemma,ner,depparse,parse,coref,quote',
+            'ner.applyFineGrained': 'False',
+            'ner.applyNumericClassifiers': 'False',
+            'ssplit.newlineIsSentenceBreak': 'two',
             'pipelineLanguage': 'en',
             'outputFormat': 'json'
         }
@@ -43,10 +48,7 @@ class StanfordNLP(object):
         sentences = nltk.tokenize.sent_tokenize(entry[0])
         toReturn = []
         for sentence in sentences:
-            if sentence[0] in ['”', '"']:
-                sentence[1:len(sentence)]
-            if sentence[-1] in ['”', '"']:
-                sentence[0:len(sentence)-1]
+            re.sub(r"^\W+|\W+$", "", sentence)
             isFullSentence = False
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
@@ -68,13 +70,5 @@ class StanfordNLP(object):
             }
         return tokens
     
-    @staticmethod
-    def startNLPServer():
-        args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 75000 -quiet True")
-        subprocess.Popen(args)
-
-    @staticmethod
-    def closeNLPServer():
-        # subprocess.run(["wget", '\"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\"', '-O', '-'], stdout=subprocess.PIPE)
-        args = shlex.split("wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -")
-        subprocess.Popen(args)
+    def close(self):
+        self.nlp.close()
