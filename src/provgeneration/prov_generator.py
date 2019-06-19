@@ -2,9 +2,10 @@ import codecs
 import argparse
 import json
 import os
-import sys
 import CPL
-from CPL import ENTITY, ACTIVITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLE_RELATION
+from CPL import ENTITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLE_RELATION
+from google_quote import get_full_quote
+import string
 
 # Global Varialbes
 originator = 'test'
@@ -68,10 +69,48 @@ def add_article(article, bundle):
         # include article and author relation in bundle
         db_connection.create_relation(bundle.id, article_author_relation.id, BUNDLE_RELATION)
 
-    # add quotes object
-    # TODO: add quotes
+    # Add the quotes
+    for quote in article_quotes:
+        quote_str = convert_quote_str(quote[0])
+
+        # If the quote is not a full sentence, check if the full quote is already in the database.
+        # If it is not already in the database, search google for the full quote
+        if not quote[2]:
+            try:
+                quote_object = db_connection.lookup_object_property_wildcard('%' + quote_str + '%')
+                add_quote_relation(article_object.id, quote_object, bundle)
+            except Exception as e:
+                quote_str = get_full_quote(quote[0])
+                if quote_str:
+                    add_quote(article_object.id, convert_quote_str(quote_str), bundle)
+        else:
+            add_quote(article_object.id, quote_str, bundle)
+
+        # TODO: add relation between quote and speaker?
 
     return article_object
+
+
+def convert_quote_str(quote_str):
+    return quote_str.encode('utf-8').translate(None, string.punctuation).lower()
+
+
+def add_quote(article_id, quote_str, bundle):
+    try:
+        quote_object = db_connection.lookup_by_property(originator, 'quote', quote_str)[0]
+    except Exception as e:
+        quote_object = db_connection.create_object(originator, 'quote', CPL.ACTIVITY, bundle)
+        quote_object.add_property(originator, 'quote', quote_str)
+    add_quote_relation(article_id, quote_object, bundle)
+
+
+def add_quote_relation(article_id, quote_object, bundle):
+    try:
+        article_quote_relation = db_connection.lookup_relation(article_id, quote_object.id, WASGENERATEDBY)
+    except Exception as e:
+        article_quote_relation = db_connection.create_relation(article_id, quote_object.id, WASGENERATEDBY)
+    db_connection.create_relation(bundle.id, article_quote_relation.id, BUNDLE_RELATION)
+
 
 def add_reference_relation(article, articles_object_map, bundle):
     def add_relation(url, url_type, articles_object_map, article_object_id, bundle_id):
@@ -147,7 +186,7 @@ def process_file(file_name, output_file = None):
     bundle = add_bundle(articles_json)
     print('finished process ' + file_name)
 
-    # write to ouput
+    # write to output
     output_file_name = file_name[:-5] + '_output.json' if not output_file else output_file
     write_output(output_file_name, [bundle], root_url)
     
