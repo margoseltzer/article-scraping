@@ -4,7 +4,7 @@ main: main.o cpl_conn.o
 main.o: main.cpp
 	g++ -c main.cpp
 
-cpl_conn.o: cpl/cpl_conn.cpp cpl/cpl_conn.h
+cpl_conn.o: cpl/cpl_conn.cpp cpl/cpl_conn.hpp
 	g++ -c cpl/cpl_conn.cpp
 
 clean:

@@ -1,4 +1,4 @@
-#include "cpl_conn.h"
+#include "cpl_conn.hpp"
 
 void connect_cpl() {
     const char* cstring = "DSN=CPL;";
@@ -20,23 +20,23 @@ void connect_cpl() {
     }
 }
 
-void get_all_bundles(const char* prefix, vector<cplxx_object_info> *bundles) {
+void get_all_bundles(const char* prefix, std::vector<cplxx_object_info> *bundles) {
     cpl_return_t ret = cpl_get_all_objects(prefix, 0, cpl_cb_collect_object_info_vector, bundles);
     if (ret != CPL_OK) {
         throw CPLException("Could not get all cpl objects. Error code: %d", ret);
     }
 }
 
-void get_bundle_objects(cpl_id_t bundle, vector<cplxx_object_info> *objects) {
+void get_bundle_objects(cpl_id_t bundle, std::vector<cplxx_object_info> *objects) {
     cpl_return_t ret = cpl_get_bundle_objects(bundle, cpl_cb_collect_object_info_vector, objects);
     if (ret != CPL_OK) {
         throw CPLException("Could not get bundle objects for bundle %d. Error code: %d", bundle, ret);
     }
 }
 
-void get_bundle_relations(cpl_id_t bundle, vector<prov_relation_data> *relations) {
+void get_bundle_relations(cpl_id_t bundle, std::vector<cpl_relation_t> *relations) {
     cpl_return_t ret = cpl_get_bundle_relations(bundle, cpl_cb_collect_relation_vector, relations);
     if (ret != CPL_OK) {
-        throw CPLException("Could not get all bundle relations for bundle %d. Error code: %d", bundle, ret);
+        throw CPLException("Could not get bundle relations for bundle %d. Error code: %d", bundle, ret);
     }
 }
