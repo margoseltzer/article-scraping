@@ -4,12 +4,16 @@ import json
 import subprocess, shlex
 import os
 import re
+import csv
 import urllib
 import nltk
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from newspaper import Article
+from newsplease import NewsPlease
 from utils.standford_NLP import StanfordNLP
+from utils.url_classifier_ml import UrlClassifier
+# from utils.url_classifier_ml import UrlClassifier
 nltk.download('punkt')
 
 """
@@ -53,61 +57,7 @@ class NewsArticle(object):
             return a dictionary only contain article provenance
     """
 
-    # regex used to validate url
-    # refer to https://gist.github.com/dperini/729294
-    URL_REGEX = re.compile(
-        u"^"
-        # protocol identifier
-        u"(?:(?:https?|ftp)://)"
-        # user:pass authentication
-        u"(?:\S+(?::\S*)?@)?"
-        u"(?:"
-        # IP address exclusion
-        # private & local networks
-        u"(?!(?:10|127)(?:\.\d{1,3}){3})"
-        u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
-        u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
-        # IP address dotted notation octets
-        # excludes loopback network 0.0.0.0
-        # excludes reserved space >= 224.0.0.0
-        # excludes network & broadcast addresses
-        # (first & last IP address of each class)
-        u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
-        u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
-        u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
-        u"|"
-        # host name
-        u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
-        # domain name
-        u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
-        # TLD identifier
-        u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
-        u")"
-        # port number
-        u"(?::\d{2,5})?"
-        # resource path
-        u"(?:/\S*)?"
-        u"$", re.UNICODE)
-
-    # link should not in reference link
-    BLACK_LIST = re.compile(('.*('
-        # check domain
-        '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
-        # check sub page
-        '(/(your-account|send|privacy-policy|terms)/)|'
-        # check key word
-        '(category=subscribers)|'
-        # check end
-        '(.pdf$)).*'))
-
-    # link is a reference link but not an article
-    UNSURE_LIST = re.compile(('.*('
-        # check domain
-        '([\.//](youtube|youtu.be|reddit|twitter|facebook|invokedapps)\.)|'
-        # check sub page
-        '(cnn.com/quote|/wiki|/newsletter|/subscription|/subscribe)/).*'))
-
-    def __init__(self, newspaper_article, mercury_parser_result, sNLP):
+    def __init__(self, newspaper_article, mercury_parser_result, news_please, sNLP):
         """
         constructor for NewsArticle object
 
@@ -123,7 +73,8 @@ class NewsArticle(object):
         """
         # some useful private properties
         self.__article = newspaper_article
-        self.__result_json = mercury_parser_result
+        self.__result_json = mercury_parser_result 
+        self.__news_please = news_please
         self.__fulfilled = False
         self.__sNLP = sNLP
 
@@ -177,7 +128,8 @@ class NewsArticle(object):
     def find_quotes(self):
         # self.q
         #  of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        self.quotes = self.__sNLP.annotate(self.text)
+############### self.quotes = self.__sNLP.annotate(self.text)
+        pass
 
     def find_links(self):
         """
@@ -185,23 +137,19 @@ class NewsArticle(object):
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
+        url_classifier = UrlClassifier()
         article_html = self.__result_json['content'] or self.__article.article_html
+        
         if article_html:
             soup   = BeautifulSoup(article_html, features="lxml")
             a_tags = soup.find_all("a")
 
-            no_duplicate_url_list = list(set([a_tag.get('href') for a_tag in a_tags if self._is_link_valid(a_tag.get('href'))]))
-            links = {'articles': [link for link in no_duplicate_url_list if not NewsArticle.UNSURE_LIST.match(link)],
-                     'unsure'  : [link for link in no_duplicate_url_list if NewsArticle.UNSURE_LIST.match(link)]}
+            no_duplicate_url_list = list(set([a_tag.get('href') for a_tag in a_tags if url_classifier.is_news_article(a_tag.get('href'))]))
             
-            self.links = links
+            links = {'articles': [link for link in no_duplicate_url_list if url_classifier.is_article(link)],
+                     'unsure'  : [link for link in no_duplicate_url_list if url_classifier.is_reference(link)]}
 
-    def _is_link_valid(self, link):
-        # for sitiuation get('href') return None
-        if not link:
-            return False
-        # This will check if the link is not the self reference and start with 'https://' or 'http://'
-        return NewsArticle.URL_REGEX.match(link) and not NewsArticle.BLACK_LIST.match(link)
+            self.links = links
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -241,6 +189,7 @@ class NewsArticle(object):
             # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
             parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
             result_json = json.loads(parser_result.stdout)
+            news_please = NewsPlease.from_url(source_url)
             # if parser fail, set a empty object
             try:
                 result_json['domain']
@@ -251,7 +200,7 @@ class NewsArticle(object):
                     'content': None
                 }
 
-            news_article = NewsArticle(article, result_json, sNLP)
+            news_article = NewsArticle(article, result_json, news_please, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
         except Exception as e:
@@ -267,7 +216,8 @@ class Scraper(object):
     """
 
     def __init__(self):
-        self.sNLP = StanfordNLP()
+        self.sNLP = {}
+############ StanfordNLP()
         self.visited = []
         self.success = []
         self.failed = []
@@ -349,7 +299,7 @@ def main():
         return
 
     # scrape from url
-    StanfordNLP.startNLPServer()
+    # StanfordNLP.startNLPServer()
 
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (args.url, args.depth))
@@ -385,13 +335,31 @@ def main():
         json.dump(output_json_list, f, ensure_ascii=False, indent=4)
     print('write scraping result to ', output)
 
-    StanfordNLP.closeNLPServer()
+    # StanfordNLP.closeNLPServer()
 
 
 main()
 
 # scraper = Scraper()
-# news_article_list = scraper.scrape_news('http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287', 2)
+# news_article_list = scraper.scrape_news('https://www.cnn.com/profiles/chris-cillizza', 2)
+# news_article_list = scraper.scrape_news('https://mitocopper.com/products/vegansafe-vitamin-b-12-2-oz-bottle?afmc=77&utm_campaign=77&utm_source=leaddyno&utm_medium=affiliate', 2)
+# news_article_list = scraper.scrape_news('https://www.deptofnumbers.com/employment/states/', 2)
+# news_article_list = scraper.scrape_news('https://www.census.gov/newsroom/press-releases/2018/2013-2017-acs-5year.html', 2)
+# news_article_list = scraper.scrape_news('https://www.bbc.com/news/world-us-canada-41419190', 2)
+# news_article_list = scraper.scrape_news('https://www.activistpost.com/2017/09/u-s-president-donald-trump-quietly-signs-law-allow-warrant-less-searches-parts-va-dc-md.html', 2)
+# news_article_list = scraper.scrape_news('https://www.bbc.com/news/uk-48507244', 2)
+# news_article_list = scraper.scrape_news('https://money.cnn.com/2018/05/10/news/companies/alexa-amazon-smart-speakers-voice-shopping/index.html', 2)
+# news_article_list = scraper.scrape_news('https://money.cnn.com/quote/quote.html?symb=GIS&source=story_quote_link', 2)
+# news_article_list = scraper.scrape_news('https://www.amazon.ca/dp/B07CT3W5R1/ref=ods_gw_d_fday19_lr_xpl3_ca_en?pf_rd_p=e895814e-52b1-4b26-91b5-673e15e7fa1c&pf_rd_r=D70HB6BNTZMSF0D081SZ', 2)
+# news_article_list = scraper.scrape_news('https://bloomex.ca/Special-Occasions/Anniversary-Flowers/Anniversary-Designer-Collection-II.html', 2)
 
-# http://www.politico.com/magazine/story/2016/09/2016-donald-trump-fact-check-week-214287
-# http://www.politico.com/story/2016/09/presidential-debate-fact-checking-228653
+# random advertisement: https://mitocopper.com/products/vegansafe-vitamin-b-12-2-oz-bottle?afmc=77&utm_campaign=77&utm_source=leaddyno&utm_medium=affiliate
+# stat article: https://www.deptofnumbers.com/employment/states/
+# us gov page: https://www.census.gov/newsroom/press-releases/2018/2013-2017-acs-5year.html
+# legit page: https://www.bbc.com/news/world-us-canada-41419190
+# fake page: https://www.activistpost.com/2017/09/u-s-president-donald-trump-quietly-signs-law-allow-warrant-less-searches-parts-va-dc-md.html
+# bbc, data not parsed: https://www.bbc.com/news/uk-48507244
+# cnn money but article: https://money.cnn.com/2018/05/10/news/companies/alexa-amazon-smart-speakers-voice-shopping/index.html
+# cnn money but not article: https://money.cnn.com/quote/quote.html?symb=GIS&source=story_quote_link
+# amazon: https://www.amazon.ca/dp/B07CT3W5R1/ref=ods_gw_d_fday19_lr_xpl3_ca_en?pf_rd_p=e895814e-52b1-4b26-91b5-673e15e7fa1c&pf_rd_r=D70HB6BNTZMSF0D081SZ
+# flower advertisement: https://bloomex.ca/Special-Occasions/Anniversary-Flowers/Anniversary-Designer-Collection-II.html

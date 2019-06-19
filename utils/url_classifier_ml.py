@@ -1,0 +1,84 @@
+import re
+from article_classifier_model import UrlFeatureProcessor
+
+class UrlClassifier(object):
+    # regex used to validate url
+    # refer to https://gist.github.com/dperini/729294
+    URL_REGEX = re.compile(
+        u"^"
+        # protocol identifier
+        u"(?:(?:https?|ftp)://)"
+        # user:pass authentication
+        u"(?:\S+(?::\S*)?@)?"
+        u"(?:"
+        # IP address exclusion
+        # private & local networks
+        u"(?!(?:10|127)(?:\.\d{1,3}){3})"
+        u"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
+        u"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
+        # IP address dotted notation octets
+        # excludes loopback network 0.0.0.0
+        # excludes reserved space >= 224.0.0.0
+        # excludes network & broadcast addresses
+        # (first & last IP address of each class)
+        u"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
+        u"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
+        u"(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))"
+        u"|"
+        # host name
+        u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
+        # domain name
+        u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
+        # TLD identifier
+        u"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
+        u")"
+        # port number
+        u"(?::\d{2,5})?"
+        # resource path
+        u"(?:/\S*)?"
+        u"$", re.UNICODE)
+
+    # link should not in reference link
+    BLACK_LIST = re.compile(('.*('
+        # check domain
+        '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
+        # check sub page
+        '(/(your-account|send|privacy-policy|terms|pages/todayspaper)/)|'
+        # check key word
+        '(category=subscribers)|'
+        # check end
+        '(.pdf$|.jpg$|.png$|.jpeg$|.index.html)).*'))
+
+    # link is a reference link but not an article
+    UNSURE_LIST = re.compile(('.*('
+        # check domain 
+        '([\.//](youtube|youtu.be|youtu|reddit|twitter|facebook|invokedapps)\.)|'
+        # check sub page
+        '(cnn.com/quote|/wiki|/newsletter|/subscription|/subscribe)/).*'))
+
+    def __init__(self):
+        pass
+    
+    def is_news_article(self, url):
+        is_valid_url = self._is_valid_url(url)
+        is_news = self._is_news(url)
+        return is_valid and is_news
+
+    def _is_valid_url(self, url):
+        # for sitiuation get('href') return None
+        if not url:
+            return False
+        return UrlClassifier.URL_REGEX.match(liurlnk) and not UrlClassifier.BLACK_LIST.match(url)
+    
+    def _is_news(self, url):
+        feature_processor = UrlFeatureProcessor()
+        
+
+    def is_article(sef, url):
+        return not UrlClassifier.UNSURE_LIST.match(url)
+    
+    def is_reference(sef, url):
+        return not not UrlClassifier.UNSURE_LIST.match(url)
+
+c = UrlClassifier()
+print(c.is_article('https://www.youtube.com/watch?v=ah9Ds44G9ts&feature=youtu.be&t=5m53s'))

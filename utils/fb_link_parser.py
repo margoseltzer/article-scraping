@@ -119,12 +119,9 @@ class FbLinkParser(object):
 
 
 def main():
-    arg_parser = argparse.ArgumentParser(
-        description="Parse news article url on a Facebook post. Requires either url or csv file path")
-    arg_parser.add_argument('-u', '--url', dest='url',
-                            help='an url archievd from Facebook in the form of http://www.facebook....')
-    arg_parser.add_argument('-p', '--path', dest='path',
-                            help='A csv file path of facebook where the first column is urls and the second is labels')
+    arg_parser = argparse.ArgumentParser(description="Parse news article url on a Facebook post. Requires either url or csv file path")
+    arg_parser.add_argument('-u', '--url',  dest='url',  help='an url archievd from Facebook in the form of http://www.facebook....')
+    arg_parser.add_argument('-p', '--path', dest='path', help='A csv file path of facebook where the first column is urls and the second is labels')
 
     args = arg_parser.parse_args()
 
@@ -141,8 +138,6 @@ def main():
         path = os.path.join(my_path, file_path)
         data = pd.read_csv(path)
 
-        # res_array contains [[url, label]s]
-        res_array = []
         fb_link_parser = FbLinkParser()
 
         with open('parsed_fb_urls.csv', mode='w') as csv_file:
@@ -152,7 +147,7 @@ def main():
             idx = 0
             for row in data.itertuples():
                 fb_link_parser.set_link(url=row[3])
-                # time.sleep(3)
+                
                 tmp_url_real = fb_link_parser.parse_url_fb()
 
                 writer.writerow({'fb_URL': row[3], 'URL': tmp_url_real, 'label': row[5]})
