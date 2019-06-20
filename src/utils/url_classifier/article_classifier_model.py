@@ -11,13 +11,10 @@ from numpy import genfromtxt
 from sklearn.cluster import KMeans
 from newspaper import Article
 from newsplease import NewsPlease
+from urllib.parse import urlparse
 
-class ArticleClassifier(object):
-    def __init__(self):
-        pass
-    
 class UrlFeatureProcessor(object):
-    def __init__(self, url, news3k = None):
+    def __init__(self, url, news3k=None):
         self.url = url
         self.news3k = news3k
         self.newspl = None
@@ -33,19 +30,17 @@ class UrlFeatureProcessor(object):
 
     def _run_libraries(self):
         if not self.news3k:
+            # news3k is more significant than newpls so failure raises e
             try:
                 news3k  = Article(self.url)
                 self.news3k = news3k
                 self.news3k.build()
             except Exception as e:
                 raise e
-                # print('news3k error', e)
-                # print(type(e))
 
         try:
             self.newspl = NewsPlease.from_url(self.url)
         except Exception as e:
-            print(type(e))
             print('newspl error', e)
             self.newspl = None
 
@@ -54,11 +49,7 @@ class UrlFeatureProcessor(object):
         author, publish_date, price, metadata.og.type, metadata.article.section, metadata.type, metadata.section, 
         keywords (may find statistics), metadata.keywords (may find statistics), metadata.wallet (if 1 then advertisement?), metadata.section
         '''
-        start = time.time()
         self._run_libraries()
-        end = time.time()
-        time_taken = end - start
-        print('Time on extracting: ',time_taken)
         
         if self.news3k:
             # print(str(f_2.year) + str(f_2.month) + str(f_2.day))
@@ -124,45 +115,58 @@ class UrlFeatureProcessor(object):
                     return True
         return False
 
-def countdown(t):
-    while t:
-        mins, secs = divmod(t, 60)
-        timeformat = '{:02d}:{:02d}'.format(mins, secs)
-        print(timeformat, end='\r')
-        time.sleep(1)
-        t -= 1
-    print('Goodbye!\n\n\n\n\n')
-    
-def main():
-
-    arg_parser = argparse.ArgumentParser(description="Process and extract features of urls and train a model to identify news urls")
-    arg_parser.add_argument('-p', '--path', dest='path', help='A training file path of urls. The first column is url and the second is label.')
-
-    args = arg_parser.parse_args()
-
-    file_path = args.path
-
+def extract_features(output_name, file_path):
     if file_path:
         my_path = os.path.abspath(os.path.dirname(__file__))
         path = os.path.join(my_path, file_path)
         data = pd.read_csv(path)
-        # print(data)
         
         url_feature_processor = UrlFeatureProcessor('None')
         
-        with open('binary_features.csv', mode='a') as csv_file, open('binary_features_failed.csv', mode='a') as csv_file_failed, open('features_mat.csv', mode='a') as csv_file_features:
+        with open(output_name + '.csv', mode='a') as csv_file, 
+        open(output_name + '_failed.csv', mode='a') as csv_file_failed, 
+        open(output_name + '_features.csv', mode='a') as csv_file_features:
             
-            fieldnames = ['original_URL', 'author', 'publish_date', 'price', 'meta_og_type', 'meta_art_sect', 'meta_type', 'meta_sect', 'meta_keywords', 'keywords', 'sub_w_count', 'sub_count', 'label']
-            fieldnames_failed = ['original_URL', 'error', 'idx']
-            fieldnames_fields = ['original_URL', 'author', 'publish_date', 'price', 'meta_og_type', 'meta_art_sect', 'meta_type', 'meta_sect', 'meta_keywords', 'keywords']
-            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-            writer_f = csv.DictWriter(csv_file_features, fieldnames=fieldnames)
-            writer_failed = csv.DictWriter(csv_file_failed, fieldnames=fieldnames_failed)
+            fieldnames        = ['idx', 
+                                'original_URL', 
+                                'author', 
+                                'publish_date', 
+                                'price', 
+                                'meta_og_type', 
+                                'meta_art_sect', 
+                                'meta_type', 
+                                'meta_sect', 
+                                'meta_keywords', 
+                                'keywords', 
+                                'sub_w_count', 
+                                'sub_count', 
+                                'label']
+
+            fieldnames_failed = ['original_URL', 
+                                'error']
+
+            fieldnames_features = ['idx', 
+                                'original_URL', 
+                                'author', 
+                                'publish_date', 
+                                'price', 
+                                'meta_og_type', 
+                                'meta_art_sect', 
+                                'meta_type', 
+                                'meta_sect', 
+                                'meta_keywords', 
+                                'keywords']
+            
+            writer        = csv.DictWriter(csv_file,          fieldnames=fieldnames)
+            writer_fts    = csv.DictWriter(csv_file_features, fieldnames=fieldnames_features)
+            writer_failed = csv.DictWriter(csv_file_failed,   fieldnames=fieldnames_failed)
+            
             idx = 0
             for row in data.itertuples():
                 url = row[1]
                 try:
                     url_feature_processor.reset_url(url)
+
                     print(idx, ' ', url)
                     start = time.time()
                     features = url_feature_processor.extract_features()
@@ -176,7 +180,11 @@ def main():
                     time_taken_bins = end_bins - start_bins
                     print('Time on converting: ',time_taken_bins)
 
+                    sub_domain     = row[1][row[1][8:].index('/') + 8 :]
+                    sub_domain_arr = row[1].split('/') if sub_domain[len(sub_domain)-1] != '/' else row[1].split('/')[:-1]
+
                     writer.writerow({
+                        'idx'          : idx
                         'original_URL' : row[1], 
                         'author'       : bins[0],
                         'publish_date' : bins[1], 
@@ -187,12 +195,13 @@ def main():
                         'meta_sect'    : bins[6], 
                         'meta_keywords': bins[7], 
                         'keywords'     : bins[8], 
-                        'sub_w_count'  : len(row[1][row[1][8:].index('/') + 8 :]) or 0 ,
-                        'sub_count'    : len(row[1].split('/')) - 3,
+                        'sub_w_count'  : len(sub_domain) / 20 or 0 ,
+                        'sub_count'    : len(sub_domain_arr) - 3,
                         'label'        : 0
                     })
 
-                    writer_f.writerow({
+                    writer_fts.writerow({
+                        'idx'          : idx
                         'original_URL' : row[1], 
                         'author'       : features[0],
                         'publish_date' : features[1], 
@@ -205,25 +214,64 @@ def main():
                         'keywords'     : features[8]
                     })
                         # 'label': row[2]})
-                    
+                    idx += 1  
+
                 except Exception as e:
-                    print(e) 
-                    print(idx, ' ', url)
+                    print(e, url)
                     writer_failed.writerow({
                         'original_URL': row[1],
-                        'error': e,
-                        'idx': idx
+                        'error': e
                     })
-                idx += 1
 
-    # url_feature_processor = UrlFeatureProcessor()
-    # url_feature_processor.process()
+def run_Kmeans_clustering(output_name, train_path, test_path):
+    # 'src/utils/url_classifier/test.csv'
+    X = genfromtxt(train_path, delimiter=',')
+    kmeans = KMeans(n_clusters=4).fit(X)
+    a = kmeans.cluster_centers_
+    # 'src/utils/url_classifier/testdata_bin.csv'
+    b = genfromtxt(test_path, delimiter=',')
+
+    writer = csv.writer(open(output_name, mode='w'))
+    for b_ in b:
+        res_ = np.array([])
+        for a_ in a:
+            res_ = np.append(res_, np.linalg.norm(a_-b_))
+        min_idx = np.argmin(res_)
+        res_ = np.append(res_, min_idx)
+        writer.writerow(res_)
+        print(res_)
+
+def main():
+    arg_parser = argparse.ArgumentParser(
+        description="Process and extract features of urls and train a model to identify news urls and Kmeans clustering learning")
+    
+    # Must specify the name of output file for any purpose
+    arg_parser.add_argument('-o',  '--output',  dest='output',  help='Name of the result file.')
+    
+    # The argument below is for extracting features before running any learning algorithm
+    arg_parser.add_argument('-p', '--path',   dest='path',   help='A training file path of urls. The first column is url and the second is label.')
+
+    # The arguments below are for kemans clustering algorithm
+    arg_parser.add_argument('-tr', '--train',   dest='train',   help='A training file path.')
+    arg_parser.add_argument('-te', '--test',    dest='test',    help='A testing file path.')
+
+    args = arg_parser.parse_args()
+
+    output_name  = args.output
+    file_path   = args.path
+    train_path   = args.path
+    test_path    = args.test
+
+
+    if train_path and test_path:
+        print('Executing Kmeans')
+        run_Kmeans_clustering(output_name, train_path, test_path)
+    
+    else if fle_path:
+        print('Executing feature extraction')
+        extract_features(output_name, file_path)
+
+    else:
+        print('No matching arguments.')
 
 main()
-
-# python3 article_classifier_model.py -p ../data/sample_data_article_classification.csv
-
-#p = UrlFeatureProcessor(
-    # url = 'https://www.deptofnumbers.com/employment/states/'
-    # )
-# p.extract_features()

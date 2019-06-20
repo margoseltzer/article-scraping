@@ -363,27 +363,3 @@ def main():
         handle_url_list_file(args.file,args.depth)
 
 main()
-
-# scraper = Scraper()
-# news_article_list = scraper.scrape_news('https://www.cnn.com/profiles/chris-cillizza', 2)
-# news_article_list = scraper.scrape_news('https://mitocopper.com/products/vegansafe-vitamin-b-12-2-oz-bottle?afmc=77&utm_campaign=77&utm_source=leaddyno&utm_medium=affiliate', 2)
-# news_article_list = scraper.scrape_news('https://www.deptofnumbers.com/employment/states/', 2)
-# news_article_list = scraper.scrape_news('https://www.census.gov/newsroom/press-releases/2018/2013-2017-acs-5year.html', 2)
-# news_article_list = scraper.scrape_news('https://www.bbc.com/news/world-us-canada-41419190', 2)
-# news_article_list = scraper.scrape_news('https://www.activistpost.com/2017/09/u-s-president-donald-trump-quietly-signs-law-allow-warrant-less-searches-parts-va-dc-md.html', 2)
-# news_article_list = scraper.scrape_news('https://www.bbc.com/news/uk-48507244', 2)
-# news_article_list = scraper.scrape_news('https://money.cnn.com/2018/05/10/news/companies/alexa-amazon-smart-speakers-voice-shopping/index.html', 2)
-# news_article_list = scraper.scrape_news('https://money.cnn.com/quote/quote.html?symb=GIS&source=story_quote_link', 2)
-# news_article_list = scraper.scrape_news('https://www.amazon.ca/dp/B07CT3W5R1/ref=ods_gw_d_fday19_lr_xpl3_ca_en?pf_rd_p=e895814e-52b1-4b26-91b5-673e15e7fa1c&pf_rd_r=D70HB6BNTZMSF0D081SZ', 2)
-# news_article_list = scraper.scrape_news('https://bloomex.ca/Special-Occasions/Anniversary-Flowers/Anniversary-Designer-Collection-II.html', 2)
-
-# random advertisement: https://mitocopper.com/products/vegansafe-vitamin-b-12-2-oz-bottle?afmc=77&utm_campaign=77&utm_source=leaddyno&utm_medium=affiliate
-# stat article: https://www.deptofnumbers.com/employment/states/
-# us gov page: https://www.census.gov/newsroom/press-releases/2018/2013-2017-acs-5year.html
-# legit page: https://www.bbc.com/news/world-us-canada-41419190
-# fake page: https://www.activistpost.com/2017/09/u-s-president-donald-trump-quietly-signs-law-allow-warrant-less-searches-parts-va-dc-md.html
-# bbc, data not parsed: https://www.bbc.com/news/uk-48507244
-# cnn money but article: https://money.cnn.com/2018/05/10/news/companies/alexa-amazon-smart-speakers-voice-shopping/index.html
-# cnn money but not article: https://money.cnn.com/quote/quote.html?symb=GIS&source=story_quote_link
-# amazon: https://www.amazon.ca/dp/B07CT3W5R1/ref=ods_gw_d_fday19_lr_xpl3_ca_en?pf_rd_p=e895814e-52b1-4b26-91b5-673e15e7fa1c&pf_rd_r=D70HB6BNTZMSF0D081SZ
-# flower advertisement: https://bloomex.ca/Special-Occasions/Anniversary-Flowers/Anniversary-Designer-Collection-II.html
