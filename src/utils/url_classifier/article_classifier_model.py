@@ -9,9 +9,11 @@ import urllib
 import os.path
 from numpy import genfromtxt
 from sklearn.cluster import KMeans
+from sklearn.semi_supervised import LabelSpreading
 from newspaper import Article
 from newsplease import NewsPlease
 from urllib.parse import urlparse
+import pandas as pd
 
 class UrlFeatureProcessor(object):
     def __init__(self, url, news3k=None):
@@ -123,9 +125,7 @@ def extract_features(output_name, file_path):
         
         url_feature_processor = UrlFeatureProcessor('None')
         
-        with open(output_name + '.csv', mode='a') as csv_file, 
-        open(output_name + '_failed.csv', mode='a') as csv_file_failed, 
-        open(output_name + '_features.csv', mode='a') as csv_file_features:
+        with open(output_name + '.csv', mode='a') as csv_file, open(output_name + '_failed.csv', mode='a') as csv_file_failed, open(output_name + '_features.csv', mode='a') as csv_file_features:
             
             fieldnames        = ['idx', 
                                 'original_URL', 
@@ -184,7 +184,7 @@ def extract_features(output_name, file_path):
                     sub_domain_arr = row[1].split('/') if sub_domain[len(sub_domain)-1] != '/' else row[1].split('/')[:-1]
 
                     writer.writerow({
-                        'idx'          : idx
+                        'idx'          : idx,
                         'original_URL' : row[1], 
                         'author'       : bins[0],
                         'publish_date' : bins[1], 
@@ -196,12 +196,12 @@ def extract_features(output_name, file_path):
                         'meta_keywords': bins[7], 
                         'keywords'     : bins[8], 
                         'sub_w_count'  : len(sub_domain) / 20 or 0 ,
-                        'sub_count'    : len(sub_domain_arr) - 3,
+                        'sub_count'    : (len(sub_domain_arr) - 3) / 2,
                         'label'        : 0
                     })
 
                     writer_fts.writerow({
-                        'idx'          : idx
+                        'idx'          : idx,
                         'original_URL' : row[1], 
                         'author'       : features[0],
                         'publish_date' : features[1], 
@@ -267,11 +267,28 @@ def main():
         print('Executing Kmeans')
         run_Kmeans_clustering(output_name, train_path, test_path)
     
-    else if fle_path:
+    elif fle_path:
         print('Executing feature extraction')
         extract_features(output_name, file_path)
 
     else:
         print('No matching arguments.')
 
-main()
+# main()
+
+
+def main2():
+    X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
+    y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
+    
+    model = LabelSpreading(kernel='knn')
+
+    model.fit(X, y)
+
+    new_y = model.predict(X)
+    print(new_y)
+
+    np.savetxt("foo.csv", new_y, delimiter=",")
+      
+
+# main2()
