@@ -1,5 +1,6 @@
 import re
 from article_classifier_model import UrlFeatureProcessor
+from urllib.request import urlopen, Request
 
 class UrlClassifier(object):
     # regex used to validate url
@@ -60,9 +61,7 @@ class UrlClassifier(object):
         pass
     
     def is_news_article(self, url):
-        is_valid_url = self._is_valid_url(url)
-        is_news = self._is_news(url)
-        return is_valid and is_news
+        return self._is_valid_url(url) and self._is_news(url)
 
     def _is_valid_url(self, url):
         # for sitiuation get('href') return None
@@ -74,11 +73,24 @@ class UrlClassifier(object):
         feature_processor = UrlFeatureProcessor()
         
 
-    def is_article(sef, url):
+    def is_article(self, url):
         return not UrlClassifier.UNSURE_LIST.match(url)
     
-    def is_reference(sef, url):
+    def is_reference(self, url):
         return not not UrlClassifier.UNSURE_LIST.match(url)
 
-c = UrlClassifier()
-print(c.is_article('https://www.youtube.com/watch?v=ah9Ds44G9ts&feature=youtu.be&t=5m53s'))
+    def return_actual_url(self, url):
+        headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
+
+        url_real = url
+        req = Request(url=url, headers=headers)
+        page_real = urlopen(req)
+
+        if hasattr(page_real, 'getcode'):
+            if page_real.getcode() is 200:
+                url_real = page_real.url
+            else:
+                print('Unable page code is not 200')
+        
+        return url_real
+    
