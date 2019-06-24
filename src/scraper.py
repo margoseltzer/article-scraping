@@ -11,8 +11,7 @@ from urllib.parse import urlparse
 from newspaper import Article
 from newsplease import NewsPlease
 from utils.standford_NLP import StanfordNLP
-from utils.url_classifier_ml import UrlClassifier
-# from utils.url_classifier_ml import UrlClassifier
+from utils.url_classifier.url_classifier_ml import UrlClassifier
 nltk.download('punkt')
 
 """
@@ -127,7 +126,8 @@ class NewsArticle(object):
     def find_quotes(self):
         # self.q
         #  of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        self.quotes = self.__sNLP.annotate(self.text) 
+        # self.quotes = self.__sNLP.annotate(self.text)
+        pass
 
     def find_links(self):
         """
@@ -147,16 +147,12 @@ class NewsArticle(object):
         if article_html:
             soup   = BeautifulSoup(article_html, features="lxml")
             a_tags_all = soup.find_all("a", href=True)
-            a_tags_all_proc = [addDom(i) if (i['href'][0] == '/') else i for i in a_tags_all]
-
+            # list of urls with domain names
+            a_tags_all_proc = [addDom(a_tag) if (a_tag['href'][0] == '/') else a_tag for a_tag in a_tags_all]
             a_tags_no_author = [i for i in a_tags_all_proc if not any(auth['name'] in str(i) for auth in self.authors)]
-            
-
-
-            no_duplicate_url_list = list(set([a_tags['href'] for a_tags in a_tags_no_author if ('/article/' in a_tags_no_author['href']) or url_classifier.is_news_article(a_tags_no_author['href'])]))
-            
+            no_duplicate_url_list = list(set([a_tag['href'] for a_tag in a_tags_no_author if '/article/' in a_tag['href'] or url_classifier.is_news_article(a_tag['href'])]))
             links = {'articles': [link for link in no_duplicate_url_list if url_classifier.is_article(link)],
-                     'government': [link for link in no_duplicate_url_list if url_classifier.is_gov_page(link)]
+                     'gov_pgs' : [link for link in no_duplicate_url_list if url_classifier.is_gov_page(link)],
                      'unsure'  : [link for link in no_duplicate_url_list if url_classifier.is_reference(link)]}
 
             self.links = links

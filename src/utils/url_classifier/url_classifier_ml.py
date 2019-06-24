@@ -1,5 +1,5 @@
 import re
-from article_classifier_model import UrlFeatureProcessor
+from utils.url_classifier.article_classifier_model import UrlFeatureProcessor
 from urllib.request import urlopen, Request
 
 class UrlClassifier(object):
@@ -67,11 +67,13 @@ class UrlClassifier(object):
         # for sitiuation get('href') return None
         if not url:
             return False
-        return UrlClassifier.URL_REGEX.match(liurlnk) and not UrlClassifier.BLACK_LIST.match(url)
+        return UrlClassifier.URL_REGEX.match(url) and not UrlClassifier.BLACK_LIST.match(url)
     
     def _is_news(self, url):
-        feature_processor = UrlFeatureProcessor()
-        
+        feature_processor = UrlFeatureProcessor(url)
+        return True
+    def is_gov_page(self, url):
+        pass
 
     def is_article(self, url):
         return not UrlClassifier.UNSURE_LIST.match(url)

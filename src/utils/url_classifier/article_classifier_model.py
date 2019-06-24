@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 import pandas as pd
 
 class UrlFeatureProcessor(object):
-    def __init__(self, url, news3k=None):
+    def __init__(self, url=None, news3k=None):
         self.url = url
         self.news3k = news3k
         self.newspl = None
@@ -291,4 +291,4 @@ def main2():
     np.savetxt("foo.csv", new_y, delimiter=",")
       
 
-main2()
+# main2()
