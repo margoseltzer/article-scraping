@@ -7,6 +7,7 @@ import os
 import re
 import nltk
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 from newspaper import Article
 from newsplease import NewsPlease
 from utils.standford_NLP import StanfordNLP
@@ -136,14 +137,26 @@ class NewsArticle(object):
         """
         url_classifier = UrlClassifier()
         article_html = self.__result_json['content'] or self.__article.article_html
+        parsed_uri = urlparse(self.url)
+        domName = parsed_uri.scheme + "://www." + parsed_uri.netloc
+
+        def addDom(i):
+            i['href'] = domName + i['href']
+            return i
         
         if article_html:
             soup   = BeautifulSoup(article_html, features="lxml")
-            a_tags = soup.find_all("a")
+            a_tags_all = soup.find_all("a", href=True)
+            a_tags_all_proc = [addDom(i) if (i['href'][0] == '/') else i for i in a_tags_all]
 
-            no_duplicate_url_list = list(set([a_tag.get('href') for a_tag in a_tags if url_classifier.is_news_article(a_tag.get('href'))]))
+            a_tags_no_author = [i for i in a_tags_all_proc if not any(auth['name'] in str(i) for auth in self.authors)]
+            
+
+
+            no_duplicate_url_list = list(set([a_tags['href'] for a_tags in a_tags_no_author if ('/article/' in a_tags_no_author['href']) or url_classifier.is_news_article(a_tags_no_author['href'])]))
             
             links = {'articles': [link for link in no_duplicate_url_list if url_classifier.is_article(link)],
+                     'government': [link for link in no_duplicate_url_list if url_classifier.is_gov_page(link)]
                      'unsure'  : [link for link in no_duplicate_url_list if url_classifier.is_reference(link)]}
 
             self.links = links
