@@ -55,7 +55,7 @@ class UrlClassifier(object):
         # check domain 
         '([\.//](youtube|youtu.be|youtu|reddit|twitter|facebook|invokedapps)\.)|'
         # check sub page
-        '(cnn.com/quote|/wiki|/newsletter|/subscription|/subscribe)/).*'))
+        '(cnn.com/quote|/wiki|/newsletter./|/subscription|/subscribe)/).*'))
 
     def __init__(self):
         pass

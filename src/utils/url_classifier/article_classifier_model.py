@@ -281,7 +281,7 @@ def main2():
     X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
     y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
     
-    model = LabelSpreading(kernel='knn')
+    model = LabelSpreading(kernel='knn', n_neighbors=5)
 
     model.fit(X, y)
 
@@ -291,4 +291,4 @@ def main2():
     np.savetxt("foo.csv", new_y, delimiter=",")
       
 
-# main2()
+main2()
