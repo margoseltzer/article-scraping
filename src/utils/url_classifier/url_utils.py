@@ -1,6 +1,7 @@
 import re
 from article_classifier_model import UrlFeatureProcessor
 from urllib.request import urlopen, Request
+from pandas import pd
 
 class UrlUtils(object):
     # regex used to validate url
@@ -49,6 +50,11 @@ class UrlUtils(object):
         '(category=subscribers)|'
         # check end
         '(.pdf$|.jpg$|.png$|.jpeg$|.index.html)).*'))
+    
+    # link is a government website
+    govList = pd.read_csv("govList.csv")
+    GOV_LIST = re.compile((".*("
+        "([\.//]("+'|'.join(govList) + "))).*"))
 
     # link is a reference link but not an article
     UNSURE_LIST = re.compile(('.*('
@@ -75,7 +81,7 @@ class UrlUtils(object):
     def _is_news(self, url):
         feature_processor = UrlFeatureProcessor(url)
         return True
-
+        
     def is_gov_page(self, url):
         pass
 
