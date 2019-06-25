@@ -292,6 +292,8 @@ def hash_url(url):
 
 def handle_one_url(url, depth, output=None):
     # scrape from url
+    # StanfordNLP.startNLPServer()
+
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
     news_article_list = scraper.scrape_news(url, depth)

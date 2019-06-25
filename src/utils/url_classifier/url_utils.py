@@ -1,8 +1,8 @@
 import re
-from utils.url_classifier.article_classifier_model import UrlFeatureProcessor
+from article_classifier_model import UrlFeatureProcessor
 from urllib.request import urlopen, Request
 
-class UrlClassifier(object):
+class UrlUtils(object):
     # regex used to validate url
     # refer to https://gist.github.com/dperini/729294
     URL_REGEX = re.compile(
@@ -61,27 +61,32 @@ class UrlClassifier(object):
         pass
     
     def is_news_article(self, url):
+        already_news = '/article/' in url
+        if already_news:
+            return True
         return self._is_valid_url(url) and self._is_news(url)
 
     def _is_valid_url(self, url):
         # for sitiuation get('href') return None
         if not url:
             return False
-        return UrlClassifier.URL_REGEX.match(url) and not UrlClassifier.BLACK_LIST.match(url)
+        return UrlClassifier.URL_REGEX.search(url) and not UrlClassifier.BLACK_LIST.search(url)
     
     def _is_news(self, url):
         feature_processor = UrlFeatureProcessor(url)
         return True
+
     def is_gov_page(self, url):
         pass
 
     def is_article(self, url):
-        return not UrlClassifier.UNSURE_LIST.match(url)
+        return not UrlClassifier.UNSURE_LIST.search(url)
     
     def is_reference(self, url):
-        return not not UrlClassifier.UNSURE_LIST.match(url)
+        return not not UrlClassifier.UNSURE_LIST.search(url)
 
     def return_actual_url(self, url):
+        ''' This method replace a shorten or rediecting url to actual url'''
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
 
         url_real = url
@@ -96,3 +101,6 @@ class UrlClassifier(object):
         
         return url_real
     
+    def add_domain(url, domain):
+        url = domain + url
+        return url
