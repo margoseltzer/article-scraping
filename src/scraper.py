@@ -148,11 +148,13 @@ class NewsArticle(object):
             soup   = BeautifulSoup(article_html, features="lxml")
             a_tags_all = soup.find_all("a", href=True)
             a_tags_all_proc = [addDom(i) if (i['href'][0] == '/') else i for i in a_tags_all]
-
-            a_tags_no_author = [i for i in a_tags_all_proc if not any(auth['name'] in str(i) for auth in self.authors)]
+            
+            # Filter out author page URLs, and store them in their respective author objects
+            a_tags_no_author = [i if not next((auth for auth in self.authors if auth['name'] in str(i))) 
+                                else next((auth for auth in self.authors if auth['name'] in str(i)))['link'] = i['href'] for i in a_tags_all_proc ]
             
 
-
+            
             no_duplicate_url_list = list(set([a_tags['href'] for a_tags in a_tags_no_author if ('/article/' in a_tags_no_author['href']) or url_classifier.is_news_article(a_tags_no_author['href'])]))
             
             links = {'articles': [link for link in no_duplicate_url_list if url_classifier.is_article(link)],

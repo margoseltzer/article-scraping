@@ -1,6 +1,7 @@
 import re
 from article_classifier_model import UrlFeatureProcessor
 from urllib.request import urlopen, Request
+from pandas import pd
 
 class UrlClassifier(object):
     # regex used to validate url
@@ -49,6 +50,11 @@ class UrlClassifier(object):
         '(category=subscribers)|'
         # check end
         '(.pdf$|.jpg$|.png$|.jpeg$|.index.html)).*'))
+    
+    # link is a government website
+    govList = pd.read_csv("govList.csv")
+    GOV_LIST = re.compile((".*("
+        "([\.//]("+'|'.join(govList) + "))).*"))
 
     # link is a reference link but not an article
     UNSURE_LIST = re.compile(('.*('
@@ -67,17 +73,17 @@ class UrlClassifier(object):
         # for sitiuation get('href') return None
         if not url:
             return False
-        return UrlClassifier.URL_REGEX.match(liurlnk) and not UrlClassifier.BLACK_LIST.match(url)
+        return UrlClassifier.URL_REGEX.search(liurlnk) and not UrlClassifier.BLACK_LIST.search(url)
     
     def _is_news(self, url):
         feature_processor = UrlFeatureProcessor()
         
 
     def is_article(self, url):
-        return not UrlClassifier.UNSURE_LIST.match(url)
+        return not UrlClassifier.UNSURE_LIST.search(url)
     
     def is_reference(self, url):
-        return not not UrlClassifier.UNSURE_LIST.match(url)
+        return not not UrlClassifier.UNSURE_LIST.search(url)
 
     def return_actual_url(self, url):
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
