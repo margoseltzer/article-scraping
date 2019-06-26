@@ -1,7 +1,7 @@
 import re
-from article_classifier_model import UrlFeatureProcessor
+from utils.url_classifier.article_classifier_model import UrlFeatureProcessor
 from urllib.request import urlopen, Request
-from pandas import pd
+import pandas as pd
 
 class UrlUtils(object):
     # regex used to validate url
@@ -45,23 +45,23 @@ class UrlUtils(object):
         # check domain
         '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
         # check sub page
-        '(/(your-account|send|privacy-policy|terms|pages/todayspaper)/)|'
+        '(/(your-account|send|privacy-policy|subscription|subscriptions|people|profiles|terms|pages/todayspaper)/)|'
         # check key word
         '(category=subscribers)|'
         # check end
         '(.pdf$|.jpg$|.png$|.jpeg$|.index.html)).*'))
     
     # link is a government website
-    govList = pd.read_csv("govList.csv")
-    GOV_LIST = re.compile((".*("
-        "([\.//]("+'|'.join(govList) + "))).*"))
+    # govList = pd.read_csv("govList.csv")
+    # GOV_LIST = re.compile((".*("
+    #     "([\.//]("+'|'.join(govList) + "))).*"))
 
     # link is a reference link but not an article
     UNSURE_LIST = re.compile(('.*('
         # check domain 
-        '([\.//](youtube|youtu.be|youtu|reddit|twitter|facebook|invokedapps)\.)|'
+        '([\.//wwww.](youtube|youtu.be|youtu|reddit|twitter|facebook|invokedapps)\.)|'
         # check sub page
-        '(cnn.com/quote|/wiki|/newsletter./|/subscription|/subscribe)/).*'))
+        '(cnn.com/quote|/wiki|/newsletter./|/video/|fast-facts/|/subscribe)/).*'))
 
     def __init__(self):
         pass
@@ -70,28 +70,20 @@ class UrlUtils(object):
         already_news = '/article/' in url
         if already_news:
             return True
-        return self._is_valid_url(url) and self._is_news(url)
+        return self._is_valid_url(url) and self._is_article(url) and self._is_news(url)
 
     def _is_valid_url(self, url):
         # for sitiuation get('href') return None
         if not url:
             return False
-        return UrlClassifier.URL_REGEX.search(url) and not UrlClassifier.BLACK_LIST.search(url)
+        return UrlUtils.URL_REGEX.search(url) and not UrlUtils.BLACK_LIST.search(url)
     
     def _is_news(self, url):
+        url = self._return_actual_url(url)
         feature_processor = UrlFeatureProcessor(url)
         return True
-        
-    def is_gov_page(self, url):
-        pass
 
-    def is_article(self, url):
-        return not UrlClassifier.UNSURE_LIST.search(url)
-    
-    def is_reference(self, url):
-        return not not UrlClassifier.UNSURE_LIST.search(url)
-
-    def return_actual_url(self, url):
+    def _return_actual_url(self, url):
         ''' This method replace a shorten or rediecting url to actual url'''
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
 
@@ -106,7 +98,39 @@ class UrlUtils(object):
                 print('Unable page code is not 200')
         
         return url_real
+
+    def _is_article(self, url):
+        return not UrlUtils.UNSURE_LIST.search(url)
+
+    def is_gov_page(self, url):
+        pass
     
-    def add_domain(url, domain):
-        url = domain + url
-        return url
+    def is_reference(self, url):
+        return not not UrlUtils.UNSURE_LIST.search(url)
+    
+    def add_domain(self, a_tag, domain):
+        if a_tag['href'][0] == '/':
+            a_tag = domain + a_tag['href']
+        return a_tag 
+    
+    def is_profile(self, authors, a_tag):
+        '''
+        authors is list of author objects  
+        '''
+        for auth in authors:
+            if self._only_name(auth.name) in self._only_name(str(a_tag)):
+                return True
+        return False
+
+    def _only_name(self, st):
+        only_alphabets = re.split('[^a-zA-Z]+', st)
+        return ''.join(only_alphabets).lower()
+    
+    def return_url(self, a_tag):
+        if type(a_tag) == str:
+            return a_tag
+        return a_tag['href']
+
+
+# u = UrlUtils().return_actual_url('http://www.politico.com/news/stories/0308/9214.html')
+# print(u)
