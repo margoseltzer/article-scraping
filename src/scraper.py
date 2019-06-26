@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 from newspaper import Article
 from newsplease import NewsPlease
 from utils.standford_NLP import StanfordNLP
-from utils.url_classifier.url_classifier_ml import UrlClassifier
+from utils.url_classifier.url_utils import UrlUtils
 nltk.download('punkt')
 
 """
@@ -135,33 +135,27 @@ class NewsArticle(object):
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
-        url_classifier = UrlClassifier()
+        url_utils = UrlUtils()
         article_html = self.__result_json['content'] or self.__article.article_html
         parsed_uri = urlparse(self.url)
-        domName = parsed_uri.scheme + "://www." + parsed_uri.netloc
 
-        def addDom(i):
-            i['href'] = domName + i['href']
-            return i
+        domain_name = parsed_uri.scheme + "://www." + parsed_uri.netloc
         
         if article_html:
             soup   = BeautifulSoup(article_html, features="lxml")
             a_tags_all = soup.find_all("a", href=True)
+            
             # List of all a-tags in article_html, with added domain name if needed
-            a_tags_all_proc = [addDom(i) if (i['href'][0] == '/') else i for i in a_tags_all]
-            
+            a_tags_proc = [url_utils.add_domain(a_tag, domain_name) for a_tag in a_tags_all ]
+
             # Filter out author page URLs, and store them in their respective author objects
-            a_tags_no_author = [i if not next((auth for auth in self.authors if auth['name'] in str(i))) 
-                                else next((auth for auth in self.authors if auth['name'] in str(i)))['link'] = i['href'] for i in a_tags_all_proc ]
-            
-
-            # List of URLs, filtered out and removed duplicates
-            no_duplicate_url_list = list(set([a_tags['href'] for a_tags in a_tags_no_author if ('/article/' in a_tags_no_author['href']) or url_classifier.is_news_article(a_tags_no_author['href'])]))
-            
-            links = {'articles': [link for link in no_duplicate_url_list if url_classifier.is_article(link)],
-                     'gov_pgs' : [link for link in no_duplicate_url_list if url_classifier.is_gov_page(link)],
-                     'unsure'  : [link for link in no_duplicate_url_list if url_classifier.is_reference(link)]}
-
+            a_tags_no_author = [a_tag for a_tag in a_tags_proc if not url_utils.is_profile(self.authors, a_tag)]
+    
+            # return_url(a_tag): a_tag is sometimes a string
+            urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
+            links = {'articles': [url for url in urls_no_dup if url_utils.is_news_article(url)],
+                     'gov_pgs' : [url for url in urls_no_dup if url_utils.is_gov_page(url)],
+                     'unsure'  : [url for url in urls_no_dup if url_utils.is_reference(url)]}
             self.links = links
 
     def find_all_provenance(self):
