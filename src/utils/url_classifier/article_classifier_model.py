@@ -64,7 +64,6 @@ class UrlFeatureProcessor(object):
                 meta['og']['price']['amount'] if 'og'      in meta and 'price'   in meta['og']      else None,
                 meta['og']['type']            if 'og'      in meta and 'type'    in meta['og']      else None,
                 meta['article']['section']    if 'article' in meta and 'section' in meta['article'] else None,
-                meta['type']                  if 'type'    in meta                                  else None,
                 meta['section']               if 'section' in meta                                  else None,
                 self.news3k.meta_keywords     if len(meta_kwords) and meta_kwords[0] != ''          else None,
                 self.news3k.keywords          if len(self.news3k.keywords)                          else None
@@ -83,12 +82,11 @@ class UrlFeatureProcessor(object):
         pri      : bin,
         m.og.ty  : if article or website then 1, else 0
         m.at.sec : bin,
-        m.ty     : bin
         m.sect   : bin,
         kwords   : if statistics or government, 0 else 1
         m.kwords : 
         '''
-        res = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        res = [0, 0, 0, 0, 0, 0, 0, 0]
         if self.features:
             res = [ 
                 1 if self.features[0] else 0,
@@ -97,9 +95,8 @@ class UrlFeatureProcessor(object):
                 1 if self._is_type_art_web(self.features[3]) else 0,
                 1 if self.features[4] else 0,
                 1 if self.features[5] else 0,
-                1 if self.features[6] else 0,
+                1 if self._contains_stat_gov(self.features[6]) else 0,
                 1 if self._contains_stat_gov(self.features[7]) else 0,
-                1 if self._contains_stat_gov(self.features[8]) else 0,
             ]
 
         self.bin_f = res
@@ -134,7 +131,6 @@ def extract_features(output_name, file_path):
                                 'price', 
                                 'meta_og_type', 
                                 'meta_art_sect', 
-                                'meta_type', 
                                 'meta_sect', 
                                 'meta_keywords', 
                                 'keywords', 
@@ -152,7 +148,6 @@ def extract_features(output_name, file_path):
                                 'price', 
                                 'meta_og_type', 
                                 'meta_art_sect', 
-                                'meta_type', 
                                 'meta_sect', 
                                 'meta_keywords', 
                                 'keywords']
@@ -191,10 +186,9 @@ def extract_features(output_name, file_path):
                         'price'        : bins[2], 
                         'meta_og_type' : bins[3], 
                         'meta_art_sect': bins[4], 
-                        'meta_type'    : bins[5],
-                        'meta_sect'    : bins[6], 
-                        'meta_keywords': bins[7], 
-                        'keywords'     : bins[8], 
+                        'meta_sect'    : bins[5], 
+                        'meta_keywords': bins[6], 
+                        'keywords'     : bins[7], 
                         'sub_w_count'  : len(sub_domain) / 20 or 0 ,
                         'sub_count'    : (len(sub_domain_arr) - 3) / 2,
                         'label'        : 0
@@ -208,10 +202,9 @@ def extract_features(output_name, file_path):
                         'price'        : features[2], 
                         'meta_og_type' : features[3], 
                         'meta_art_sect': features[4], 
-                        'meta_type'    : features[5],
-                        'meta_sect'    : features[6], 
-                        'meta_keywords': features[7], 
-                        'keywords'     : features[8]
+                        'meta_sect'    : features[5], 
+                        'meta_keywords': features[6], 
+                        'keywords'     : features[7]
                     })
                         # 'label': row[2]})
                     idx += 1  
@@ -281,7 +274,7 @@ def main2():
     X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
     y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
     
-    model = LabelSpreading(kernel='knn', n_neighbors=5)
+    model = LabelSpreading(kernel='knn', n_neighbors=7)
 
     model.fit(X, y)
 
@@ -292,3 +285,8 @@ def main2():
       
 
 # main2()
+
+# p = UrlFeatureProcessor('http://activistpost.net/moneymetals.html')
+# p.extract_features()
+# p.convert_into_bin()
+# print('done')
