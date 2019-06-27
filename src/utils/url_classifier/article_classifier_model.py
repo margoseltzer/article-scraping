@@ -8,8 +8,11 @@ import time
 import urllib
 import os.path
 from numpy import genfromtxt
+from numpy import linalg as LA
 from sklearn.cluster import KMeans
+from sklearn import svm
 from sklearn.semi_supervised import LabelSpreading
+from sklearn.model_selection import train_test_split
 from newspaper import Article
 from newsplease import NewsPlease
 from urllib.parse import urlparse
@@ -274,6 +277,16 @@ def main2():
     X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
     y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
     
+    model = LabelSpreading(kernel='knn', n_neighbors=5)
+
+    model.fit(X, y)
+
+    new_y = model.predict(X)
+    print(new_y)
+
+    np.savetxt("knn5.csv", new_y, delimiter=",")
+
+
     model = LabelSpreading(kernel='knn', n_neighbors=7)
 
     model.fit(X, y)
@@ -281,8 +294,47 @@ def main2():
     new_y = model.predict(X)
     print(new_y)
 
-    np.savetxt("foo.csv", new_y, delimiter=",")
-      
+    np.savetxt("knn7.csv", new_y, delimiter=",")
+
+
+    model = LabelSpreading(kernel='rbf', n_neighbors=5)
+
+    model.fit(X, y)
+
+    new_y = model.predict(X)
+    print(new_y)
+
+    np.savetxt("rbf5.csv", new_y, delimiter=",")
+    
+
+    model = LabelSpreading(kernel='rbf', n_neighbors=7)
+
+    model.fit(X, y)
+
+    new_y = model.predict(X)
+    print(new_y)
+
+    np.savetxt("rbf7.csv", new_y, delimiter=",")
+
+
+    # def test(arr1, arr2):
+    #     n,d = arr1.shape
+    #     res = np.zeros((n,n))
+    #     for x in range (n):
+    #         for y in range(n):
+    #             dist = LA.norm((arr1[x] - arr2[y]), ord=1)
+    #             res[x][y] = dist
+    #     print(res.shape)
+    #     return res
+
+    # model = LabelSpreading(kernel=test, n_neighbors=7)
+
+    # model.fit(X, y)
+
+    # new_y = model.predict(X)
+    # print(new_y)
+
+    # np.savetxt("l1.csv", new_y, delimiter=",")
 
 # main2()
 
@@ -290,3 +342,28 @@ def main2():
 # p.extract_features()
 # p.convert_into_bin()
 # print('done')
+
+def main3():
+    X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
+    y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
+
+    x_1, x_2 = train_test_split(X, test_size=300/1937)
+    
+    x_train = x_1[:, :11]
+    y_train = x_1[:, 11:]
+    
+    x_test = x_2[:, :11]
+    y_test = x_2[:, 11:]
+    print(x_train[0])
+    print(y_train.ravel().shape)
+    clf = svm.SVC(gamma='scale', kernel='rbf', degree=5)
+    clf.fit(x_train, y_train.ravel()) 
+
+    y_predicted = clf.predict(x_test)
+
+    np.savetxt("svm_pred.csv", y_predicted, delimiter=",")
+    np.savetxt("svm_real.csv", y_test, delimiter=",")
+
+
+
+main3()
