@@ -45,7 +45,7 @@ class UrlUtils(object):
         # check domain
         '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
         # check sub page
-        '(/(your-account|send|privacy-policy|subscription|subscriptions|people|profiles|terms|pages/todayspaper)/)|'
+        '(/(your-account|send|privacy-policy|subscription|subscriptions|topic|topics|help/rights|timestopics|people|profiles|terms|pages/todayspaper)/)|'
         # check key word
         '(category=subscribers)|'
         # check end
