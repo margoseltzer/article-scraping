@@ -74,7 +74,7 @@ class UrlClassifier(object):
         # for sitiuation get('href') return None
         if not url:
             return False
-        return UrlClassifier.URL_REGEX.search(liurlnk) and not UrlClassifier.BLACK_LIST.search(url)
+        return UrlClassifier.URL_REGEX.search(url) and not UrlClassifier.BLACK_LIST.search(url)
     
     def _is_news(self, url):
         feature_processor = UrlFeatureProcessor(url)
