@@ -277,7 +277,6 @@ class Scraper(object):
         """
         news_article_list = []
         for url in url_list:
-            print('!!!!!!!!!!' + url)
             article = NewsArticle.build_news_article_from_url(url, self.sNLP)
             if article: 
                 news_article_list.append(article)
