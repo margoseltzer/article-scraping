@@ -1,7 +1,16 @@
 import re
-from utils.url_classifier.article_classifier_model import UrlFeatureProcessor
-from urllib.request import urlopen, Request
+import os
+import csv
 import pandas as pd
+from utils.url_classifier.article_classifier_model import Article_Classifier
+from urllib.request import urlopen, Request
+from urllib.parse import urlparse
+
+article_classifier = Article_Classifier()
+
+my_path = os.path.abspath(os.path.dirname(__file__))
+path = os.path.join(my_path, 'all_lists.csv')
+all_lists =  pd.read_csv(path)
 
 class UrlUtils(object):
     # regex used to validate url
@@ -42,35 +51,30 @@ class UrlUtils(object):
 
     # link should not in reference link
     BLACK_LIST = re.compile(('.*('
-        # check domain
-        '([\.//](get.adobe|downloads.bbc|support|policies|aboutcookies|amzn|amazon|itunes)\.)|'
-        # check sub page
-        '(/(your-account|send|privacy-policy|subscription|subscriptions|topic|topics|help/rights|timestopics|people|profiles|terms|pages/todayspaper)/)|'
-        # check key word
-        '(category=subscribers)|'
-        # check end
-        '(.pdf$|.jpg$|.png$|.jpeg$|.index.html)).*'))
-    
+        '([\.//(www.)?](' + '|'.join(all_lists['BL_DOMAIN'].dropna()) + ')\.)|'
+        '(/(' + '|'.join(all_lists['BL_SUB'].dropna()) + ')/)|'
+        '(' + '|'.join(all_lists['BL_KEYWORD'].dropna()) + ')|'
+        '(' + '|'.join(all_lists['BL_END'].dropna()) + ')).*'))
+
     # link is a government website
-    # govList = pd.read_csv("govList.csv")
-    # GOV_LIST = re.compile((".*("
-    #     "([\.//]("+'|'.join(govList) + "))).*"))
+    GOV_LIST = re.compile(('.*((' + '|'.join(all_lists['GOV_PAGE'].dropna()) + ')).*'))
 
     # link is a reference link but not an article
-    UNSURE_LIST = re.compile(('.*('
-        # check domain 
-        '([\.//wwww.](youtube|youtu.be|youtu|reddit|twitter|facebook|invokedapps)\.)|'
-        # check sub page
-        '(cnn.com/quote|/wiki|/newsletter./|/video/|fast-facts/|/subscribe)/).*'))
+    UNSURE_LIST = re.compile(('.*(' 
+        '([\.//www.](' + '|'.join(all_lists['REF_DOMAIN'].dropna()) + ')\.)|'
+        '(' + '|'.join(all_lists['REF_SUB'].dropna()) + ')/).*'))
 
     def __init__(self):
         pass
     
     def is_news_article(self, url):
-        already_news = '/article/' in url
-        if already_news:
+        if not self._is_valid_url(url):
+            return False
+
+        if '/article/' in url or '/articles/' in url:
             return True
-        return self._is_valid_url(url) and self._is_article(url) and self._is_news(url)
+
+        return self._is_article(url) and self._is_news(url)
 
     def _is_valid_url(self, url):
         # for sitiuation get('href') return None
@@ -79,9 +83,13 @@ class UrlUtils(object):
         return UrlUtils.URL_REGEX.search(url) and not UrlUtils.BLACK_LIST.search(url)
     
     def _is_news(self, url):
-        url = self._return_actual_url(url)
-        feature_processor = UrlFeatureProcessor(url)
-        return True
+        ac_url = self._return_actual_url(url)
+        print('act_url is : ', ac_url)
+        article_classifier.reset_url(url=url)
+        print('WILL PREDICTING')
+        res = article_classifier.predict()[0]
+        print("THE GIVEN URL IS : ", res)
+        return res
 
     def _return_actual_url(self, url):
         ''' This method replace a shorten or rediecting url to actual url'''
@@ -103,7 +111,8 @@ class UrlUtils(object):
         return not UrlUtils.UNSURE_LIST.search(url)
 
     def is_gov_page(self, url):
-        pass
+        domName = urlparse(url).netloc
+        return not not UrlUtils.GOV_LIST.search(domName)
     
     def is_reference(self, url):
         return not not UrlUtils.UNSURE_LIST.search(url)
@@ -114,9 +123,7 @@ class UrlUtils(object):
         return a_tag 
     
     def is_profile(self, authors, a_tag):
-        '''
-        authors is list of author objects  
-        '''
+        ''' Authors is list of author objects '''
         for auth in authors:
             if self._only_name(auth.name) in self._only_name(str(a_tag)):
                 return True
@@ -131,6 +138,13 @@ class UrlUtils(object):
             return a_tag
         return a_tag['href']
 
-
-# u = UrlUtils().return_actual_url('http://www.politico.com/news/stories/0308/9214.html')
-# print(u)
+# Small test set: uncomment and run 
+# u = UrlUtils()
+# print('FALSE = ', u.is_gov_page('https://www.exim.com/as/gov'))
+# print('TRUE  = ', u.is_gov_page('https://canada.ca/sss'))
+# print('FALSE = ', u.is_reference('http://www.google.com/youtube'))
+# print('FALSE  = ', u.is_reference('http://www.google.com/video-12312'))
+# print('TRUE  = ', u.is_reference('http://www.google.com/videos/'))
+# print('TRUE  = ', u.is_reference('http://www.google.com/video/'))
+# print('FALSE = ', u.is_reference('http://www.google.com/art/videos-are-bad/'))
+# print('TRUE  = ', not not re.search(u.BLACK_LIST, 'abc.com/support/'))

@@ -135,6 +135,7 @@ class NewsArticle(object):
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
+        
         url_utils = UrlUtils()
         article_html = self.__result_json['content'] or self.__article.article_html
         parsed_uri = urlparse(self.url)
@@ -276,6 +277,7 @@ class Scraper(object):
         """
         news_article_list = []
         for url in url_list:
+            print('!!!!!!!!!!' + url)
             article = NewsArticle.build_news_article_from_url(url, self.sNLP)
             if article: 
                 news_article_list.append(article)
