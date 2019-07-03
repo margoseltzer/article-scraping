@@ -37,10 +37,8 @@ class Article_Classifier(object):
         self.bin_f = None
 
     def _run_libraries(self):
-        print('RUNNING LIBS')
         # news3k is more significant than newpls so failure raises e
         try:
-            print('self url in lib ', self.url)
             if not self.news3k:
                 news3k  = Article(self.url)
                 self.news3k = news3k
@@ -48,46 +46,38 @@ class Article_Classifier(object):
             self.news3k.download()
             self.news3k.parse()
         except Exception as e:
-            print('news3k failure, ', e)
+            print('Err occured from news3k : ', e)
             raise e
             
         try:
             self.newspl = NewsPlease.from_url(self.url)
         except Exception as e:
-            print('newspl error', e)
+            print('Err occured from newspl but it is fine : ', e)
             self.newspl = None
 
     def extract_features(self):
-        ''' Features: 
-        author, publish_date, price, metadata.og.type, metadata.article.section, metadata.section, 
-        keywords (may find statistics), metadata.keywords (may find statistics), metadata.wallet (if 1 then advertisement?), metadata.section,
-        full subdomain, array of subdomains
-        '''
         self._run_libraries()
-        print('EXTRACTING')
-        len(self.news3k.text.split())
+
         if self.news3k:
-            meta_arr = BeautifulSoup(self.news3k.html, features='lxml').find_all('meta')
-            meta = self.news3k.meta_data if self.news3k.meta_data else {}
-            meta_kwords =  self.news3k.meta_keywords
+            meta           = self.news3k.meta_data if self.news3k.meta_data else {}
+            meta_kwords    =  self.news3k.meta_keywords
             sub_domain     = self.url[self.url[8:].index('/') + 8 :] 
             sub_domain_arr = self.url.split('/') if sub_domain[len(sub_domain)-1] != '/' else self.url.split('/')[:-1]
-
-            res = [
-                self.newspl.authors[0]        if self.newspl and len(self.newspl.authors)           else self.news3k.authors      or  None,
-                self.newspl.date_publish      if self.newspl and self.newspl.date_publish           else self.news3k.publish_date and None,
-                meta['og']['price']['amount'] if 'og'      in meta and 'price'   in meta['og']      else None,
-                meta['og']['type']            if 'og'      in meta and 'type'    in meta['og']      else None,
-                meta['article']['section']    if 'article' in meta and 'section' in meta['article'] else None,
-                meta['section']               if 'section' in meta                                  else None,
-                mata['type']                  if 'type'    in meta                                  else None,
-                self.news3k.meta_keywords     if len(meta_kwords) and meta_kwords[0] != ''          else None,
-                self.news3k.keywords          if len(self.news3k.keywords)                          else None,
-                meta_arr                                                                                     ,
-                sub_domain                                                                                   ,
-                sub_domain_arr                                                                               ,
-                self.news3k.text
-            ]
+            meta_tag_arr   = BeautifulSoup(self.news3k.html, features='lxml').find_all('meta')
+            
+            res = [ self.newspl.authors[0]        if self.newspl and len(self.newspl.authors)           else self.news3k.authors      or  None,
+                    self.newspl.date_publish      if self.newspl and self.newspl.date_publish           else self.news3k.publish_date or  None,
+                    meta['og']['price']['amount'] if 'og'      in meta and 'price'   in meta['og']      else None,
+                    meta['og']['type']            if 'og'      in meta and 'type'    in meta['og']      else None,
+                    meta['article']['section']    if 'article' in meta and 'section' in meta['article'] else None,
+                    meta['section']               if 'section' in meta                                  else None,
+                    mata['type']                  if 'type'    in meta                                  else None,
+                    self.news3k.meta_keywords     if len(meta_kwords) and meta_kwords[0] != ''          else None,
+                    self.news3k.keywords          if len(self.news3k.keywords)                          else None,
+                    meta_tag_arr                                                                                 ,
+                    sub_domain                                                                                   ,
+                    sub_domain_arr                                                                               ,
+                    self.news3k.text ]
 
         else:
             res = None
@@ -96,8 +86,8 @@ class Article_Classifier(object):
         return res
 
     def convert_into_bin(self):
-        print('CONVERTING')
-        ''' Features: 
+        ''' 
+        Features: type
         auth     : bin,
         p_date   : bin,
         pri      : bin,
@@ -105,11 +95,12 @@ class Article_Classifier(object):
         m.at.sec : bin,
         m.sect   : bin,
         m.type   : bin,
-        kwords   : if statistics or government, 0 else 1,
-        m.kwords : if statistics or government, 0 else 1,
+        kwords   : if statistics or government, 1 else 0,
+        m.kwords : if statistics or government, 1 else 0,
         number of meta_tags,
         length of subdomain,	
-        number of subdomains
+        number of subdomains,
+        word_count
         '''
         res = []
         if self.features:
@@ -144,25 +135,20 @@ class Article_Classifier(object):
         return False
     
     def predict(self):
-        print('PREDICTING')
-        # (K-64.6)/35.4	(L-4)/1.9
         self.extract_features()
         self.convert_into_bin()
         
-        # standarize based on the current training set
+        # Means and stdevs are based on the current training set
+        # TODO automize means and stdevs computing
         self.bin_f[9]  = (self.bin_f[9]-34.53) / 23.84
         self.bin_f[10] = (self.bin_f[10]-64.6) / 35.4
         self.bin_f[11] = (self.bin_f[11]-4) / 1.9
         self.bin_f[12] = (self.bin_f[12]-898.24) / 1631.32
 
         np_bin = np.array(self.bin_f)
-        print('self.url is : ', self.url)
-        print(np_bin)
-        print(self.clf.predict(np_bin.reshape(1, -1)))
         return self.clf.predict(np_bin.reshape(1, -1))
 
     def train(self):
-        print('TRAINING')
         # dataset musht have features from column 1 to the one before the last column and the last column is y
         # TODO training set is based on not actual urls meaning some urls are redirecting url
         data = genfromtxt(dirpath + '/binary_features_scaled_down.csv', delimiter=',')
@@ -175,10 +161,6 @@ class Article_Classifier(object):
         clf = svm.SVC(gamma='scale', kernel='rbf', degree=7)
         clf.fit(x_train, y_train.ravel()) 
         return clf
-
-
-
-
 
 
 def extract_features(output_name, file_path):
@@ -320,11 +302,10 @@ def main():
 
 # main()
 
-# used to predict using SVM
+# used to test the accuracy of traning set using SVM
 def main3():
     X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
-    y = genfromtxt('src/utils/url_classifier/binary_features_scaled_down_y.csv', delimiter=',')
-
+    
     x_1, x_2 = train_test_split(X, test_size=200/1937)
     n, d = x_1.shape
 
@@ -343,34 +324,7 @@ def main3():
     
     print('The accuracy is : ', (200 - np.count_nonzero(diff)) / 200)
 
-    # np.savetxt("svm_pred.csv", y_pred, delimiter=",")
-    # np.savetxt("svm_real.csv", y_test, delimiter=",")
+    np.savetxt("svm_pred.csv", y_pred, delimiter=",")
+    np.savetxt("svm_real.csv", y_test, delimiter=",")
 
 # main3()
-
-# f = pd.read_csv(dirpath + '/urls_binary_features_labels.csv')
-# with open('foo.csv', mode='w') as csv_file:
-#     fields = ['url', 'count']
-#     writer = csv.DictWriter(csv_file, fieldnames=fields)    
-#     for row in f.itertuples():
-#         try:
-#             print(row[1])
-#             a = Article(row[1])
-#             a.build()
-#             a.download()
-#             a.parse()
-#             count = len(a.text.split())
-#             print(count)
-#             writer.writerow({
-#                 'url': row[1],
-#                 'count': count
-#             })
-#         except Exception as e:
-#             writer.writerow({
-#                 'url': row[1],
-#                 'count': 0
-#             })
-
-
-# a = Article_Classifier(url='http://citifmonline.com/tag/ghana-news/')
-# print(a.predict())
