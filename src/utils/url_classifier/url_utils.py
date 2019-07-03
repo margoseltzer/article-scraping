@@ -83,13 +83,17 @@ class UrlUtils(object):
         return UrlUtils.URL_REGEX.search(url) and not UrlUtils.BLACK_LIST.search(url)
     
     def _is_news(self, url):
-        ac_url = self._return_actual_url(url)
-        print('act_url is : ', ac_url)
-        article_classifier.reset_url(url=url)
-        print('WILL PREDICTING')
-        res = article_classifier.predict()[0]
-        print("THE GIVEN URL IS : ", res)
-        return res
+        # ac_url = self._return_actual_url(url)
+        # print('act_url is : ', ac_url)
+        try:
+            article_classifier.reset_url(url=url)
+            print('WILL PREDICTING')
+            res = article_classifier.predict()[0]
+            print("THE GIVEN URL IS : ", res)
+            return res
+        except Exception as e:
+            print('caught in util')
+            return False   
 
     def _return_actual_url(self, url):
         ''' This method replace a shorten or rediecting url to actual url'''

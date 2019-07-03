@@ -40,14 +40,15 @@ class Article_Classifier(object):
         print('RUNNING LIBS')
         # news3k is more significant than newpls so failure raises e
         try:
-            print('!!!!!!', self.news3k)
+            print('self url in lib ', self.url)
             if not self.news3k:
                 news3k  = Article(self.url)
                 self.news3k = news3k
-                self.news3k.build()
+            self.news3k.build()
             self.news3k.download()
             self.news3k.parse()
         except Exception as e:
+            print('news3k failure, ', e)
             raise e
             
         try:
@@ -126,7 +127,6 @@ class Article_Classifier(object):
                 len(self.features[10]),
                 len(self.features[11]),
                 len(self.features[12].split())
-
             ]
         self.bin_f = res
         return res
