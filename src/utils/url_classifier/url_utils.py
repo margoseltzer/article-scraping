@@ -83,20 +83,18 @@ class UrlUtils(object):
         return UrlUtils.URL_REGEX.search(url) and not UrlUtils.BLACK_LIST.search(url)
     
     def _is_news(self, url):
-        # ac_url = self._return_actual_url(url)
-        # print('act_url is : ', ac_url)
         try:
             article_classifier.reset_url(url=url)
             print('WILL PREDICTING')
             res = article_classifier.predict()[0]
-            print("THE GIVEN URL IS : ", res)
             return res
         except Exception as e:
             print('caught in util')
             return False   
 
-    def _return_actual_url(self, url):
+    def return_actual_url(self, url):
         ''' This method replace a shorten or rediecting url to actual url'''
+        ''' TODO the training set is made of urls tht might redirect, including this method seems not to work so might need another training set '''
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
 
         url_real = url
@@ -141,14 +139,3 @@ class UrlUtils(object):
         if type(a_tag) == str:
             return a_tag
         return a_tag['href']
-
-# Small test set: uncomment and run 
-# u = UrlUtils()
-# print('FALSE = ', u.is_gov_page('https://www.exim.com/as/gov'))
-# print('TRUE  = ', u.is_gov_page('https://canada.ca/sss'))
-# print('FALSE = ', u.is_reference('http://www.google.com/youtube'))
-# print('FALSE  = ', u.is_reference('http://www.google.com/video-12312'))
-# print('TRUE  = ', u.is_reference('http://www.google.com/videos/'))
-# print('TRUE  = ', u.is_reference('http://www.google.com/video/'))
-# print('FALSE = ', u.is_reference('http://www.google.com/art/videos-are-bad/'))
-# print('TRUE  = ', not not re.search(u.BLACK_LIST, 'abc.com/support/'))
