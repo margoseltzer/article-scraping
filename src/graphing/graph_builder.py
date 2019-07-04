@@ -48,6 +48,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='based on prov json generate graph')
     parser.add_argument('-f', '--file', dest='file_name',required=True, help='name of file need to be process')
+    parser.add_argument('-o', '--output', dest='output',required=True, help='name of output file')
 
     args = parser.parse_args()
 
@@ -100,7 +101,7 @@ def main():
     graph_renderer.edge_renderer.glyph = MultiLine(line_alpha=0.8, line_width=1)
     plot.renderers.append(graph_renderer)
 
-    output_file("provenance_graphs.html")
+    output_file("provenance_graphs_" + args.output + ".html")
 
     show(plot)
 

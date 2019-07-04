@@ -7,6 +7,7 @@ import os
 import re
 import nltk
 from bs4 import BeautifulSoup
+from threading import Timer
 from urllib.parse import urlparse
 from newspaper import Article
 from newsplease import NewsPlease
@@ -55,7 +56,7 @@ class NewsArticle(object):
             return a dictionary only contain article provenance
     """
 
-    def __init__(self, newspaper_article, mercury_parser_result, news_please, sNLP):
+    def __init__(self, newspaper_article, mercury_parser_result, sNLP):
         """
         constructor for NewsArticle object
 
@@ -72,7 +73,6 @@ class NewsArticle(object):
         # some useful private properties
         self.__article = newspaper_article
         self.__result_json = mercury_parser_result 
-        self.__news_please = news_please
         self.__fulfilled = False
         self.__sNLP = sNLP
 
@@ -136,27 +136,33 @@ class NewsArticle(object):
         The result does not include the self reference link.
         """
         
-        url_utils = UrlUtils()
-        article_html = self.__result_json['content'] or self.__article.article_html
+        article_html = self.__article.article_html or self.__result_json['content']
         parsed_uri = urlparse(self.url)
-
-        domain_name = parsed_uri.scheme + "://www." + parsed_uri.netloc
+        domain_name = parsed_uri.scheme + "://" + parsed_uri.netloc
         
         if article_html:
+            url_utils = UrlUtils()
             soup   = BeautifulSoup(article_html, features="lxml")
             a_tags_all = soup.find_all("a", href=True)
             
             # List of all a-tags in article_html, with added domain name if needed
             a_tags_proc = [url_utils.add_domain(a_tag, domain_name) for a_tag in a_tags_all ]
-
+            
             # Filter out author page URLs, and store them in their respective author objects
             a_tags_no_author = [a_tag for a_tag in a_tags_proc if not url_utils.is_profile(self.authors, a_tag)]
-    
+            
             # return_url(a_tag): a_tag is sometimes a string
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
-            links = {'articles': [url for url in urls_no_dup if url_utils.is_news_article(url)],
-                     'gov_pgs' : [url for url in urls_no_dup if url_utils.is_gov_page(url)],
-                     'unsure'  : [url for url in urls_no_dup if url_utils.is_reference(url)]}
+
+            links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
+            # Should consider switching the order of unsure and articles
+            for url in urls_no_dup:
+                url = url_utils.return_actual_url(url)
+                if not url_utils.is_valid_url(url) : break
+                elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
+                elif url_utils.is_news_article(url): links['articles'].append(url)
+                elif url_utils.is_reference(url)   : links['unsure'].append(url)
+            print(links)
             self.links = links
 
     def find_all_provenance(self):
@@ -193,11 +199,16 @@ class NewsArticle(object):
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
+            print(' 1')
 
-            # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-            parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
-            result_json = json.loads(parser_result.stdout)
-            news_please = NewsPlease.from_url(source_url)
+            try:
+                # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
+                parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
+                result_json = json.loads(parser_result.stdout)
+                t.cancel()
+            except Exception as e:
+                result_json = None
+
             # if parser fail, set a empty object
             try:
                 result_json['domain']
@@ -208,7 +219,7 @@ class NewsArticle(object):
                     'content': None
                 }
 
-            news_article = NewsArticle(article, result_json, news_please, sNLP)
+            news_article = NewsArticle(article, result_json, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
         except Exception as e:
@@ -376,3 +387,13 @@ def main():
         handle_url_list_file(args.file,args.depth)
 
 main()
+
+
+
+def timeout():
+                    Exception('Something is taking Too long')
+
+                t = Timer(60, timeout)
+                t.start()
+                print('timer starts')
+                print('timer is cancelled')

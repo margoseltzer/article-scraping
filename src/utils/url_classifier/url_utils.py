@@ -51,32 +51,29 @@ class UrlUtils(object):
 
     # link should not in reference link
     BLACK_LIST = re.compile(('.*('
-        '([\.//(www.)?](' + '|'.join(all_lists['BL_DOMAIN'].dropna()) + ')\.)|'
-        '(/(' + '|'.join(all_lists['BL_SUB'].dropna()) + ')/)|'
-        '(' + '|'.join(all_lists['BL_KEYWORD'].dropna()) + ')|'
-        '(' + '|'.join(all_lists['BL_END'].dropna()) + ')).*'))
+        '([\.//(www.)?](' + '|'.join(map(re.escape,all_lists['BL_DOMAIN'].dropna())) + ')\.)|'
+        '(/(' + '|'.join(map(re.escape,all_lists['BL_SUB'].dropna())) + ')/)|'
+        '(' + '|'.join(map(re.escape, all_lists['BL_KEYWORD'].dropna())) + ')|'
+        '(' + '|'.join(map(re.escape,all_lists['BL_END'].dropna())) + ')).*'))
 
     # link is a government website
-    GOV_LIST = re.compile(('.*((' + '|'.join(all_lists['GOV_PAGE'].dropna()) + ')).*'))
+    GOV_LIST = re.compile(('.*((' + ' |'.join(map(re.escape,all_lists['GOV_PAGE'].dropna())) + ')).*'))
 
     # link is a reference link but not an article
     UNSURE_LIST = re.compile(('.*(' 
-        '([\.//www.](' + '|'.join(all_lists['REF_DOMAIN'].dropna()) + ')\.)|'
-        '(' + '|'.join(all_lists['REF_SUB'].dropna()) + ')/).*'))
+        '([\.//www.](' + '|'.join(map(re.escape,all_lists['REF_DOMAIN'].dropna())) + ')\.)|'
+        '(' + '|'.join(map(re.escape,all_lists['REF_SUB'].dropna())) + ')/).*'))
 
     def __init__(self):
         pass
     
     def is_news_article(self, url):
-        if not self._is_valid_url(url):
-            return False
-
         if '/article/' in url or '/articles/' in url:
             return True
 
         return self._is_article(url) and self._is_news(url)
 
-    def _is_valid_url(self, url):
+    def is_valid_url(self, url):
         # for sitiuation get('href') return None
         if not url:
             return False
@@ -85,29 +82,33 @@ class UrlUtils(object):
     def _is_news(self, url):
         try:
             article_classifier.reset_url(url=url)
-            print('WILL PREDICTING')
             res = article_classifier.predict()[0]
+            print('The given url is : ' + url)
+            print(res)
             return res
         except Exception as e:
-            print('caught in util')
+            print(url)
+            print('caught in util', e)
             return False   
 
     def return_actual_url(self, url):
         ''' This method replace a shorten or rediecting url to actual url'''
         ''' TODO the training set is made of urls tht might redirect, including this method seems not to work so might need another training set '''
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
+        try:
+            url_real = url
+            req = Request(url=url, headers=headers)
+            page_real = urlopen(req)
 
-        url_real = url
-        req = Request(url=url, headers=headers)
-        page_real = urlopen(req)
-
-        if hasattr(page_real, 'getcode'):
-            if page_real.getcode() is 200:
-                url_real = page_real.url
-            else:
-                print('Unable page code is not 200')
-        
-        return url_real
+            if hasattr(page_real, 'getcode'):
+                if page_real.getcode() is 200:
+                    url_real = page_real.url
+                else:
+                    print('Unable page code is not 200')
+            
+            return url_real
+        except Exception as e:
+            return url
 
     def _is_article(self, url):
         return not UrlUtils.UNSURE_LIST.search(url)
@@ -117,11 +118,11 @@ class UrlUtils(object):
         return not not UrlUtils.GOV_LIST.search(domName)
     
     def is_reference(self, url):
-        return not not UrlUtils.UNSURE_LIST.search(url)
+        return not not UrlUtils.UNSURE_LIST.search(url) or not UrlUtils.BLACK_LIST.search(url)
     
     def add_domain(self, a_tag, domain):
         if a_tag['href'][0] == '/':
-            a_tag = domain + a_tag['href']
+            a_tag['href'] = domain + a_tag['href']
         return a_tag 
     
     def is_profile(self, authors, a_tag):
