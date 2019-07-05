@@ -10,8 +10,7 @@ from bs4 import BeautifulSoup
 from threading import Timer
 from urllib.parse import urlparse
 from newspaper import Article
-from newsplease import NewsPlease
-from utils.standford_NLP import StanfordNLP
+from utils.stanford_NLP import StanfordNLP
 from utils.url_classifier.url_utils import UrlUtils
 nltk.download('punkt')
 
@@ -23,10 +22,6 @@ use best effort to extract correct provenance
 Using StanfordCoreNLP to extract quotations and attributed speakers. 
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
-
-
-"""Path to StanfordCoreNLP Library"""
-stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
 class Author(object):
     def __init__(self, name, link):
@@ -126,8 +121,7 @@ class NewsArticle(object):
     def find_quotes(self):
         # self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        # self.quotes = self.__sNLP.annotate(self.text)
-        pass
+        self.quotes = self.__sNLP.annotate(self.text)
 
     def find_links(self):
         """
@@ -199,8 +193,9 @@ class NewsArticle(object):
             # pre-process news by NewsPaper3k library
             article = Article(source_url, keep_article_html=True)
             article.build()
-            print(' 1')
+            article.nlp()
 
+            print('1')
             try:
                 # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
                 parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
@@ -235,11 +230,13 @@ class Scraper(object):
     """
 
     def __init__(self):
-        self.sNLP = {}
-############ StanfordNLP()
+        self.sNLP = StanfordNLP()
         self.visited = []
         self.success = []
         self.failed = []
+    
+    def closeNLP(self):
+        self.sNLP.close()
 
     def scrape_news(self, url, depth=0):
         """
@@ -305,8 +302,6 @@ def hash_url(url):
 
 def handle_one_url(url, depth, output=None):
     # scrape from url
-    # StanfordNLP.startNLPServer()
-
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
     news_article_list = scraper.scrape_news(url, depth)
@@ -315,6 +310,7 @@ def handle_one_url(url, depth, output=None):
         print('fail scraping from source url: ', url)
         return False
     
+    scraper.closeNLP()
     print('finished scraping urls from source: ', url)
     print('total scraped %d pages:' %(len(scraper.visited)))
     print('total successful %d pages:' %(len(scraper.success)))
@@ -390,10 +386,12 @@ main()
 
 
 
-def timeout():
-                    Exception('Something is taking Too long')
+# def timeout():
+#     Exception('Something is taking Too long')
 
-                t = Timer(60, timeout)
-                t.start()
-                print('timer starts')
-                print('timer is cancelled')
+# t = Timer(60, timeout)
+# t.start()
+# print('timer starts')
+# print('timer is cancelled')
+
+

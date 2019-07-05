@@ -19,7 +19,7 @@ from bokeh.models.graphs import from_networkx
 originator = "test"
 NODE_TYPES = ['entity','agent','activity']
 
-ALL_TYPES = ['article', 'person', 'publisher', 'quote', 'reference', 'unknown']
+ALL_TYPES = ['article', 'person', 'publisher', 'quote', 'reference', 'government', 'unknown']
 
 def find_originator(data):
     for node_type in NODE_TYPES:
@@ -52,6 +52,8 @@ def assign_color(node_type):
         return ('yellow', 'url')
     elif node_type == 'publisher':
         return ('purple', 'publisher')
+    elif node_type == 'government':
+        return ('orange', 'url')
     else:
         print ("UNKNOWN TYPE: " + node_type)
         return ('gray', None)

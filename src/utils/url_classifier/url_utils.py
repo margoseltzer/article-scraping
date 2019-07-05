@@ -57,7 +57,7 @@ class UrlUtils(object):
         '(' + '|'.join(map(re.escape,all_lists['BL_END'].dropna())) + ')).*'))
 
     # link is a government website
-    GOV_LIST = re.compile(('.*((' + ' |'.join(map(re.escape,all_lists['GOV_PAGE'].dropna())) + ')).*'))
+    GOV_LIST = re.compile(('|'.join(map(re.escape,all_lists['GOV_PAGE'].dropna()))))
 
     # link is a reference link but not an article
     UNSURE_LIST = re.compile(('.*(' 

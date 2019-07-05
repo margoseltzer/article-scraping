@@ -99,8 +99,9 @@ def add_quote(article_id, quote_str, bundle):
     try:
         quote_object = db_connection.lookup_by_property(originator, 'quote', quote_str)[0]
     except Exception as e:
-        quote_object = db_connection.create_object(originator, 'quote', CPL.ACTIVITY, bundle)
+        quote_object = db_connection.create_object(originator, quote_str[0:255], CPL.ACTIVITY, bundle)
         quote_object.add_property(originator, 'quote', quote_str)
+        quote_object.add_property(originator, 'type', 'quote')
     add_quote_relation(article_id, quote_object, bundle)
 
 
@@ -110,7 +111,6 @@ def add_quote_relation(article_id, quote_object, bundle):
     except Exception as e:
         article_quote_relation = db_connection.create_relation(article_id, quote_object.id, WASGENERATEDBY)
     db_connection.create_relation(bundle.id, article_quote_relation.id, BUNDLE_RELATION)
-
 
 def add_reference_relation(article, articles_object_map, bundle):
     def add_relation(url, url_type, articles_object_map, article_object_id, bundle_id):
@@ -135,12 +135,16 @@ def add_reference_relation(article, articles_object_map, bundle):
     article_url = article['url']
     article_links = article['links']['articles']
     article_unsure_links = article['links']['unsure']
+    article_gov_links = article['links']['gov_pgs']
     article_object = articles_object_map[article_url]
     for url in article_links:
         add_relation(url, 'article', articles_object_map, article_object.id, bundle.id)
     
     for url in article_unsure_links:
         add_relation(url, 'reference', articles_object_map, article_object.id, bundle.id)
+
+    for url in article_gov_links:
+        add_relation(url, 'government', articles_object_map, article_object.id, bundle.id)
 
 def add_bundle(articles_json):
     root_article  = articles_json[0]
