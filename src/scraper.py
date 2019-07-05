@@ -156,7 +156,6 @@ class NewsArticle(object):
                 elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
                 elif url_utils.is_news_article(url): links['articles'].append(url)
                 elif url_utils.is_reference(url)   : links['unsure'].append(url)
-            print(links)
             self.links = links
 
     def find_all_provenance(self):
@@ -195,7 +194,6 @@ class NewsArticle(object):
             article.build()
             article.nlp()
 
-            print('1')
             try:
                 # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
                 parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)

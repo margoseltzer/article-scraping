@@ -83,12 +83,10 @@ class UrlUtils(object):
         try:
             article_classifier.reset_url(url=url)
             res = article_classifier.predict()[0]
-            print('The given url is : ' + url)
-            print(res)
             return res
         except Exception as e:
             print(url)
-            print('caught in util', e)
+            print('Caught in util. This indicates the url is not a news article. Err: ', e)
             return False   
 
     def return_actual_url(self, url):

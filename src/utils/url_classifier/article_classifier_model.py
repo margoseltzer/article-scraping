@@ -39,14 +39,12 @@ class Article_Classifier(object):
     def _run_libraries(self):
         # news3k is more significant than newpls so failure raises e
         try:
-            print('!!!', self.url)
             if not self.news3k:
                 news3k  = Article(self.url)
                 self.news3k = news3k
             self.news3k.build()
             self.news3k.download()
             self.news3k.parse()
-            print('!!!!!')
         except Exception as e:
             print('Err occured from news3k : ', e)
             raise e
@@ -137,7 +135,6 @@ class Article_Classifier(object):
         return False
     
     def predict(self):
-        print('PREDICT')
         self.extract_features()
         self.convert_into_bin()
         
@@ -149,8 +146,6 @@ class Article_Classifier(object):
         self.bin_f[12] = (self.bin_f[12]-898.24) / 1631.32
 
         np_bin = np.array(self.bin_f)
-        print(np_bin)
-        print('PREDICT END')
         return self.clf.predict(np_bin.reshape(1, -1))
 
     def train(self):
