@@ -85,6 +85,7 @@ class NewsArticle(object):
         self.find_all_provenance()
 
     def find_authors(self):
+        print('find author')
         regex = '((For Mailonline)|(.*(Washington Times|Diplomat|Bbc|Abc|Reporter|Correspondent|Editor|Elections|Analyst|Min Read).*))'
         # filter out unexpected word and slice the For Mailonline in dayliymail author's name
         authors_name_segments = [x.replace(' For Mailonline', '') for x in self.__article.authors if not re.match(regex, x)]
@@ -102,7 +103,8 @@ class NewsArticle(object):
                 pos -= 1
 
         self.authors = [Author(x, None) for x in authors_name]
-
+        print('find author')
+        
         return self.authors
 
     def find_publish_date(self):
@@ -119,17 +121,19 @@ class NewsArticle(object):
         return self.publish_date
 
     def find_quotes(self):
+        print('find quotes')
         # self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         self.quotes = self.__sNLP.annotate(self.text)
-
+        print('find quotes')
+        
     def find_links(self):
         """
         Find all a tags and extract urls from href field
         Then, categorize the urls before return
         The result does not include the self reference link.
         """
-        
+        print('find links')
         article_html = self.__article.article_html or self.__result_json['content']
         parsed_uri = urlparse(self.url)
         domain_name = parsed_uri.scheme + "://" + parsed_uri.netloc
@@ -156,6 +160,8 @@ class NewsArticle(object):
                 elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
                 elif url_utils.is_news_article(url): links['articles'].append(url)
                 elif url_utils.is_reference(url)   : links['unsure'].append(url)
+            print(links)
+            print('find links')
             self.links = links
 
     def find_all_provenance(self):
@@ -194,11 +200,12 @@ class NewsArticle(object):
             article.build()
             article.nlp()
 
+            print('1')
             try:
                 # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
                 parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
                 result_json = json.loads(parser_result.stdout)
-                t.cancel()
+                print(2)
             except Exception as e:
                 result_json = None
 
@@ -211,7 +218,7 @@ class NewsArticle(object):
                     'date_published': None,
                     'content': None
                 }
-
+            print(3)
             news_article = NewsArticle(article, result_json, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
