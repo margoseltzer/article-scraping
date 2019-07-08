@@ -72,6 +72,7 @@ def add_article(article, bundle):
     # Add the quotes
     for quote in article_quotes:
         quote_str = convert_quote_str(quote[0])
+        quote_object = None
 
         # If the quote is not a full sentence, check if the full quote is already in the database.
         # If it is not already in the database, search google for the full quote
@@ -80,13 +81,31 @@ def add_article(article, bundle):
                 quote_object = db_connection.lookup_object_property_wildcard('%' + quote_str + '%')
                 add_quote_relation(article_object.id, quote_object, bundle)
             except Exception as e:
-                quote_str = get_full_quote(quote[0])
-                if quote_str:
-                    add_quote(article_object.id, convert_quote_str(quote_str), bundle)
+                try:
+                    quote_str = get_full_quote(quote[0])
+                    if quote_str:
+                        quote_object = add_quote(article_object.id, convert_quote_str(quote_str), bundle)
+                except Exception as e:
+                    pass
         else:
-            add_quote(article_object.id, quote_str, bundle)
+             quote_object = add_quote(article_object.id, quote_str, bundle)
 
-        # TODO: add relation between quote and speaker?
+        if quote_object and quote[1]:
+            speaker_string = quote[1].encode('utf-8')
+            try:
+                speaker_object = db_connection.lookup_by_property(originator, 'name', speaker_string)[0]
+            except Exception as e:
+                speaker_object = db_connection.create_object(originator, speaker_string, AGENT, bundle)
+                speaker_object.add_property(originator, 'name', speaker_string)
+                speaker_object.add_property(originator, 'type', 'person')
+
+            try:
+                quote_speaker_relation = db_connection.lookup_relation(quote_object.id, speaker_object.id, WASATTRIBUTEDTO)
+            except Exception as e:
+                quote_speaker_relation = db_connection.create_relation(quote_object.id, speaker_object.id, WASATTRIBUTEDTO)
+
+            # include quote and speaker relation in bundle
+            db_connection.create_relation(bundle.id, quote_speaker_relation.id, BUNDLE_RELATION)
 
     return article_object
 
@@ -103,6 +122,7 @@ def add_quote(article_id, quote_str, bundle):
         quote_object.add_property(originator, 'quote', quote_str)
         quote_object.add_property(originator, 'type', 'quote')
     add_quote_relation(article_id, quote_object, bundle)
+    return quote_object
 
 
 def add_quote_relation(article_id, quote_object, bundle):
