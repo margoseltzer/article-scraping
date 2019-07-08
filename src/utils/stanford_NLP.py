@@ -54,7 +54,7 @@ class StanfordNLP(object):
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
             wordCount = len(tokenizer.tokenize(sentence))
-            if isFullSentence and wordCount > 5: 
+            if wordCount > 5: 
                 toReturn.append([sentence, entry[1], isFullSentence])
         
         return toReturn
