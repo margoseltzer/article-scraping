@@ -124,7 +124,11 @@ class NewsArticle(object):
         print('find quotes')
         # self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
-        self.quotes = self.__sNLP.annotate(self.text)
+        try:
+            self.quotes = self.__sNLP.annotate(self.text)
+        except Exception as e:
+            print('err in find_quotes, ', e)
+            self.quotes = []
         print('find quotes')
         
     def find_links(self):
