@@ -14,14 +14,15 @@ stanfordLibrary = "../../stanford-corenlp-full-2018-10-05"
 
 class StanfordNLP(object):
     def __init__(self):
-        self.nlp = StanfordCoreNLP(stanfordLibrary, memory='8g', quiet=True, timeout=150000)  # , quiet=False, logging_level=logging.DEBUG)
+        self.nlp = StanfordCoreNLP(stanfordLibrary, memory='6g', quiet=True)  # , quiet=False, logging_level=logging.DEBUG)
         self.props = {
             'annotators': 'tokenize,ssplit,pos,lemma,ner,depparse,parse,coref,quote',
             'ner.applyFineGrained': 'False',
             'ner.applyNumericClassifiers': 'False',
             'ssplit.newlineIsSentenceBreak': 'two',
             'pipelineLanguage': 'en',
-            'outputFormat': 'json'
+            'outputFormat': 'json',
+            'timeout': 150000
         }
 
     def annotate(self, sentence):
@@ -53,7 +54,7 @@ class StanfordNLP(object):
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
             wordCount = len(tokenizer.tokenize(sentence))
-            if isFullSentence or wordCount > 5: 
+            if isFullSentence and wordCount > 5: 
                 toReturn.append([sentence, entry[1], isFullSentence])
         
         return toReturn
