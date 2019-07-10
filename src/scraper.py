@@ -1,8 +1,8 @@
 import argparse
 import csv
 import hashlib
-import json
 import subprocess
+import json
 import os
 import re
 import nltk
@@ -138,14 +138,25 @@ class NewsArticle(object):
         The result does not include the self reference link.
         """
         print('find links')
-        article_html = self.__article.article_html or self.__result_json['content']
         parsed_uri = urlparse(self.url)
         domain_name = parsed_uri.scheme + "://" + parsed_uri.netloc
         
-        if article_html:
+        html_new3k   = self.__article.article_html
+        html_mercury = self.__result_json['content']
+        
+        soup_a = BeautifulSoup(html_new3k, features="lxml")
+        soup_m = BeautifulSoup(html_mercury, features="lxml")
+        
+        a_tags_news3k  = soup_a.find_all("a", href=True)
+        a_tags_mercury = soup_m.find_all("a", href=True)
+
+        a_tags_all = a_tags_news3k if len(a_tags_news3k) >= len(a_tags_mercury) else a_tags_mercury
+        print('Newspaper a tag length is : ', len(a_tags_news3k))
+        print('Mercuruparser a tag length is : ', len(a_tags_mercury))
+        
+        links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
+        if len(a_tags_all):
             url_utils = UrlUtils()
-            soup   = BeautifulSoup(article_html, features="lxml")
-            a_tags_all = soup.find_all("a", href=True)
             
             # List of all a-tags in article_html, with added domain name if needed
             a_tags_proc = [url_utils.add_domain(a_tag, domain_name) for a_tag in a_tags_all ]
@@ -155,8 +166,7 @@ class NewsArticle(object):
             
             # return_url(a_tag): a_tag is sometimes a string
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
-
-            links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
+            
             # Should consider switching the order of unsure and articles
             for url in urls_no_dup:
                 url = url_utils.return_actual_url(url)
@@ -164,9 +174,12 @@ class NewsArticle(object):
                 elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
                 elif url_utils.is_news_article(url): links['articles'].append(url)
                 elif url_utils.is_reference(url)   : links['unsure'].append(url)
-            print(links)
+            print('gov_pgs  : ', links['gov_pgs'])
+            print('articles : ', links['articles'])
+            print('unsure   : ', links['unsure'])
             print('find links')
-            self.links = links
+        
+        self.links = links
 
     def find_all_provenance(self):
         if not self.__fulfilled:
@@ -204,12 +217,10 @@ class NewsArticle(object):
             article.build()
             article.nlp()
 
-            print('1')
             try:
                 # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
                 parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
                 result_json = json.loads(parser_result.stdout)
-                print(2)
             except Exception as e:
                 result_json = None
 
@@ -222,7 +233,6 @@ class NewsArticle(object):
                     'date_published': None,
                     'content': None
                 }
-            print(3)
             news_article = NewsArticle(article, result_json, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
@@ -351,14 +361,27 @@ def handle_url_list_file(file_name, depth):
             csv_reader = csv.DictReader(f)
             line_count = 0
             fail_list = []
+            idx = 1
+            url_utils = UrlUtils()
             for row in csv_reader:
+                if idx <= 91: 
+                    print(idx)
+                    idx += 1
+                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
-                rsp = handle_one_url(url, depth)
+                print('url in the dataset ', url)
+                print('index is ', idx)
+                label = row['label']
+                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url): 
+                    idx += 1
+                    continue
+                rsp = handle_one_url(url, depth, 'kaggle'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
+                idx += 1
             if fail_list:
                 with open('fail_list.csv', 'w') as fail_csv:
                     writer = csv.DictWriter(fail_csv, fieldnames=header)
@@ -389,7 +412,7 @@ def main():
     if args.url:
         handle_one_url(args.url, args.depth, args.output)
     if args.file:
-        handle_url_list_file(args.file,args.depth)
+        handle_url_list_file(args.file, args.depth)
 
 main()
 
