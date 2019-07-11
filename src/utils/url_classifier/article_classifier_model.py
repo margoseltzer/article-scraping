@@ -27,6 +27,7 @@ class Article_Classifier(object):
         self.newspl = None
         self.features = None
         self.bin_f = None
+        self.stats = {}
         self.clf = self.train()
     
     def reset_url(self, url, news3k=None):
@@ -74,9 +75,9 @@ class Article_Classifier(object):
                     mata['type']                  if 'type'    in meta                                  else None,
                     self.news3k.meta_keywords     if len(meta_kwords) and meta_kwords[0] != ''          else None,
                     self.news3k.keywords          if len(self.news3k.keywords)                          else None,
-                    meta_tag_arr                                                                                 ,
                     sub_domain                                                                                   ,
                     sub_domain_arr                                                                               ,
+                    meta_tag_arr                                                                                 ,
                     self.news3k.text ]
 
         else:
@@ -97,9 +98,9 @@ class Article_Classifier(object):
         m.type   : bin,
         kwords   : if statistics or government, 1 else 0,
         m.kwords : if statistics or government, 1 else 0,
-        number of meta_tags,
         length of subdomain,	
         number of subdomains,
+        number of meta_tags,
         word_count
         '''
         res = []
@@ -137,13 +138,13 @@ class Article_Classifier(object):
     def predict(self):
         self.extract_features()
         self.convert_into_bin()
-        
-        # Means and stdevs are based on the current training set
-        # TODO automize means and stdevs computing
-        self.bin_f[9]  = (self.bin_f[9]-34.53) / 23.84
-        self.bin_f[10] = (self.bin_f[10]-64.6) / 35.4
-        self.bin_f[11] = (self.bin_f[11]-4) / 1.9
-        self.bin_f[12] = (self.bin_f[12]-898.24) / 1631.32
+
+        self.bin_f[9]  = (self.bin_f[9]  - self.stats['mu_9'])  / self.stats['sd_9']
+        self.bin_f[10] = (self.bin_f[10] - self.stats['mu_10']) / self.stats['sd_10']
+        self.bin_f[11] = (self.bin_f[11] - self.stats['mu_11']) / self.stats['sd_11']
+        self.bin_f[12] = (self.bin_f[12] - self.stats['mu_12']) / self.stats['sd_12']
+        print('The Features of the url is : ')
+        print(self.bin_f)
 
         np_bin = np.array(self.bin_f)
         return self.clf.predict(np_bin.reshape(1, -1))
@@ -151,13 +152,39 @@ class Article_Classifier(object):
     def train(self):
         # dataset musht have features from column 1 to the one before the last column and the last column is y
         # TODO training set is based on not actual urls meaning some urls are redirecting url
-        data = genfromtxt(dirpath + '/binary_features_scaled_down.csv', delimiter=',')
+        data = genfromtxt(dirpath + '/train_xy.csv', delimiter=',')
 
         n, d = data.shape
 
-        x_train = data[:, :d-1]
+        x_train = data[:, 1:d-5]
         y_train = data[:, d-1:]
 
+        mu_9  = np.mean(data[:, d-5])
+        mu_10 = np.mean(data[:, d-4])
+        mu_11 = np.mean(data[:, d-3])
+        mu_12 = np.mean(data[:, d-2])
+        
+        sd_9  = np.std(data[:, d-5])
+        sd_10 = np.std(data[:, d-4])
+        sd_11 = np.std(data[:, d-3])
+        sd_12 = np.std(data[:, d-2])
+        
+        x_train[:, 9]  = (data[:, d-5] - mu_9)  / sd_9
+        x_train[:, 10] = (data[:, d-4] - mu_10) / sd_10
+        x_train[:, 11] = (data[:, d-3] - mu_11) / sd_11
+        x_train[:, 12] = (data[:, d-2] - mu_12) / sd_12
+
+        self.stats['mu_9']  = mu_9
+        self.stats['sd_9']  = sd_9
+        self.stats['mu_10'] = mu_10
+        self.stats['sd_10'] = sd_10
+        self.stats['mu_11'] = mu_11
+        self.stats['sd_11'] = sd_11
+        self.stats['mu_12'] = mu_12
+        self.stats['sd_12'] = sd_12
+
+        np.savetxt(dirpath + '/recent_train_x.csv', x_train, delimiter=",")
+        
         clf = svm.SVC(gamma='scale', kernel='rbf', degree=7)
         clf.fit(x_train, y_train.ravel()) 
         return clf
@@ -304,15 +331,17 @@ def main():
 
 # used to test the accuracy of traning set using SVM
 def main3():
-    X = genfromtxt('src/utils/url_classifier/binary_features_scaled_down.csv', delimiter=',')
-    
-    x_1, x_2 = train_test_split(X, test_size=200/1937)
+    print(0)
+    X = genfromtxt('src/utils/url_classifier/train_xy.csv', delimiter=',')
+    print(123)
+    x_1, x_2 = train_test_split(X, test_size=200/1958)
     n, d = x_1.shape
 
-    x_train = x_1[:, :d-1]
+    x_train = x_1[:, 1:d-5]
+    print(x_train[0])
     y_train = x_1[:, d-1:]
     
-    x_test = x_2[:, :d-1]
+    x_test = x_2[:, 1:d-5]
     y_test = x_2[:, d-1:]
     print(x_train.shape)
     print(y_train.shape)
@@ -324,7 +353,7 @@ def main3():
     
     print('The accuracy is : ', (200 - np.count_nonzero(diff)) / 200)
 
-    np.savetxt("svm_pred.csv", y_pred, delimiter=",")
-    np.savetxt("svm_real.csv", y_test, delimiter=",")
+    # np.savetxt("svm_pred.csv", y_pred, delimiter=",")
+    # np.savetxt("svm_real.csv", y_test, delimiter=",")
 
 # main3()
