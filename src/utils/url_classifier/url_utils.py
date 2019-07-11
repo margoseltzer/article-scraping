@@ -70,8 +70,10 @@ class UrlUtils(object):
     def is_news_article(self, url):
         if '/article/' in url or '/articles/' in url:
             return True
-
-        return self._is_article(url) and self._is_news(url)
+        res = self._is_article(url) and self._is_news(url)
+        print(url)
+        print(res)
+        return res
 
     def is_valid_url(self, url):
         # for sitiuation get('href') return None
