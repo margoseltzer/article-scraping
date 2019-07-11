@@ -361,27 +361,17 @@ def handle_url_list_file(file_name, depth):
             csv_reader = csv.DictReader(f)
             line_count = 0
             fail_list = []
-            idx = 1
             url_utils = UrlUtils()
             for row in csv_reader:
-                if idx <= 91: 
-                    print(idx)
-                    idx += 1
-                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
-                print('url in the dataset ', url)
-                print('index is ', idx)
-                label = row['label']
-                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url): 
-                    idx += 1
+                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url):
                     continue
-                rsp = handle_one_url(url, depth, 'kaggle'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(url, depth)
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
-                idx += 1
             if fail_list:
                 with open('fail_list.csv', 'w') as fail_csv:
                     writer = csv.DictWriter(fail_csv, fieldnames=header)
