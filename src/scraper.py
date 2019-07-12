@@ -122,7 +122,7 @@ class NewsArticle(object):
 
     def find_quotes(self):
         print('find quotes')
-        # self.q
+        self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         try:
             self.quotes = self.__sNLP.annotate(self.text)
@@ -150,7 +150,7 @@ class NewsArticle(object):
         a_tags_news3k  = soup_a.find_all("a", href=True)
         a_tags_mercury = soup_m.find_all("a", href=True)
 
-        a_tags_all = a_tags_news3k if len(a_tags_news3k) >= len(a_tags_mercury) else a_tags_mercury
+        a_tags_all = a_tags_news3k if len(a_tags_news3k) else a_tags_mercury
         print('Newspaper a tag length is : ', len(a_tags_news3k))
         print('Mercuruparser a tag length is : ', len(a_tags_mercury))
         
@@ -166,11 +166,12 @@ class NewsArticle(object):
             
             # return_url(a_tag): a_tag is sometimes a string
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
-            
+            print(urls_no_dup)
             # Should consider switching the order of unsure and articles
             for url in urls_no_dup:
+                print(url)
                 url = url_utils.return_actual_url(url)
-                if not url_utils.is_valid_url(url) : break
+                if not url_utils.is_valid_url(url) : continue
                 elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
                 elif url_utils.is_news_article(url): links['articles'].append(url)
                 elif url_utils.is_reference(url)   : links['unsure'].append(url)
@@ -361,17 +362,27 @@ def handle_url_list_file(file_name, depth):
             csv_reader = csv.DictReader(f)
             line_count = 0
             fail_list = []
+            idx = 1
             url_utils = UrlUtils()
             for row in csv_reader:
+                # if idx <= 40: 
+                #     print(idx)
+                #     idx += 1
+                #     continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
-                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url):
+                print('url in the dataset ', url)
+                print('index is ', idx)
+                label = row['label']
+                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url): 
+                    idx += 1
                     continue
-                rsp = handle_one_url(url, depth)
+                rsp = handle_one_url(url, depth, 'kaggle'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
+                idx += 1
             if fail_list:
                 with open('fail_list.csv', 'w') as fail_csv:
                     writer = csv.DictWriter(fail_csv, fieldnames=header)
@@ -415,5 +426,3 @@ main()
 # t.start()
 # print('timer starts')
 # print('timer is cancelled')
-
-
