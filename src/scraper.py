@@ -122,7 +122,6 @@ class NewsArticle(object):
 
     def find_quotes(self):
         print('find quotes')
-        self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         try:
             self.quotes = self.__sNLP.annotate(self.text)
@@ -365,20 +364,20 @@ def handle_url_list_file(file_name, depth):
             idx = 1
             url_utils = UrlUtils()
             for row in csv_reader:
-                # if idx <= 40: 
-                #     print(idx)
-                #     idx += 1
-                #     continue
+                if idx <= 53: 
+                    print(idx)
+                    idx += 1
+                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
                 print('url in the dataset ', url)
                 print('index is ', idx)
-                label = row['label']
-                if not url_utils.is_news_article(url) and url_utils.is_gov_page(url) and not url_utils.is_valid_url(url): 
+                label = row['truth']
+                if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
-                rsp = handle_one_url(url, depth, 'kaggle'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(url, depth, 'politifact'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1

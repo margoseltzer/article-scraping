@@ -91,7 +91,7 @@ class Article_Classifier(object):
         Features: type
         auth     : bin,
         p_date   : bin,
-        pri      : bin,
+        price    : bin,
         m.og.ty  : if article or website then 1, else 0
         m.at.sec : bin,
         m.sect   : bin,
