@@ -1,0 +1,2393 @@
+{
+    "root": "https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "108993": {
+                "prov:usedEntity": "test:https://dailycaller.com/2016/04/26/18-cases-since-february-no-end-in-sight-for-arson-attacks-on-swedish-refugee-centers/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108848": {
+                "prov:usedEntity": "test:https://www.dw.com/en/hungary-joins-us-in-refusing-uns-safe-global-migration-compact/a-44733306", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108991": {
+                "prov:usedEntity": "test:http://www.pi-news.net/2017/08/eilt-sechs-monate-haft-fuer-pi-news-autor-michael-stuerzenberger/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108997": {
+                "prov:usedEntity": "test:https://www.oic-oci.org/page/?p_id=52&p_ref=26&lan=en", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108995": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=6yC8COv6DE4&t=49s", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108840": {
+                "prov:usedEntity": "test:https://www.express.co.uk/news/world/1015529/EU-news-migrant-crisis-juncker-state-of-union-speec", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108999": {
+                "prov:usedEntity": "test:https://www.oic-oci.org/docdown/?docID=31&refID=9", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108842": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/worldviews/wp/2018/07/20/most-girls-in-somalia-experience-genital-mutilation-the-ritual-just-killed-a-10-year-old/?noredirect=on&utm_term=.ed16056a52e2", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108844": {
+                "prov:usedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108846": {
+                "prov:usedEntity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108908": {
+                "prov:usedEntity": "test:https://www.iom.int/global-compact-migration", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108904": {
+                "prov:usedEntity": "test:https://www.theguardian.com/law/human-rights", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108906": {
+                "prov:usedEntity": "test:https://www.theaustralian.com.au/nocookies?a=A.flavipes", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108900": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/unitednations", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108902": {
+                "prov:usedEntity": "test:https://www.theguardian.com/business/australia-economy", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108968": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/12078/sweden-free-speech", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108966": {
+                "prov:usedEntity": "test:http://www.iqrasense.com/islamic-outreach/challenges-of-countering-islamophobia-the-oic-initiative.html", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108964": {
+                "prov:usedEntity": "test:https://www.nationalreview.com/corner/under-sharia-speech-law-europe-has-and-obama-wants-truth-no-defense-andrew-c-mccarthy/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108962": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/3790/oic-brussels-islamophobia", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108960": {
+                "prov:usedEntity": "test:http://www.bfm.admin.ch/content/bfm/en/home/themen/aufenthalt/adressen.html", 
+                "prov:generatedEntity": "test:https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3"
+            }, 
+            "108918": {
+                "prov:usedEntity": "test:https://www.independent.co.uk/subscribe?utm_medium=prompt&utm_source=internal&utm_campaign=brexit_inline&regSourceMethod=Standard+Article", 
+                "prov:generatedEntity": "test:https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html"
+            }, 
+            "108912": {
+                "prov:usedEntity": "test:https://www.express.co.uk/news/world/1037696/Merkel-quits-cdu-germany-news-angela-merkel-latest", 
+                "prov:generatedEntity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations"
+            }, 
+            "108910": {
+                "prov:usedEntity": "test:https://www.unhcr.org/uk/5b51fd587", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108916": {
+                "prov:usedEntity": "test:https://www.express.co.uk/latest/angela-merkel", 
+                "prov:generatedEntity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations"
+            }, 
+            "108914": {
+                "prov:usedEntity": "test:https://www.express.co.uk/latest/donald-trump", 
+                "prov:generatedEntity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations"
+            }, 
+            "108978": {
+                "prov:usedEntity": "test:https://www.friatider.se/skrev-om-sk-ggbarn-p-sds-facebook-sida-d-ms-till-b-ter", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108974": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/11205/germany-official-censorship", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108976": {
+                "prov:usedEntity": "test:https://www.meforum.org/3721/oic-islamophobia-campaign", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108970": {
+                "prov:usedEntity": "test:https://www.nationalreview.com/corner/re-oic-vs-freedom-expression-nina-shea/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108972": {
+                "prov:usedEntity": "test:https://www.reuters.com/article/us-islam-blasphemy/wests-free-speech-stand-bars-blasphemy-ban-oic-idUSBRE89E18U20121015", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108874": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/press-encounter/2019-01-18/secretary-generals-press-conference", 
+                "prov:generatedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/"
+            }, 
+            "108876": {
+                "prov:usedEntity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108870": {
+                "prov:usedEntity": "test:https://www.un.org/press/en/2019/pi2264.doc.htm", 
+                "prov:generatedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/"
+            }, 
+            "108872": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/articles/2019-06-18/the-wildfire-of-hate-speech", 
+                "prov:generatedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/"
+            }, 
+            "108878": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108952": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/hungary", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108948": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/jun/19/eu-migrant-processing-centres-north-africa-refugees", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108940": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/sep/17/hungary-vows-to-keep-up-fight-against-eu-border-protection", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108942": {
+                "prov:usedEntity": "test:https://www.theguardian.com/global-development/2018/sep/27/global-leaders-must-match-fine-words-on-migration-with-urgent-action-refugees-francesco-rocca", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108944": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2017/dec/16/austrian-president-approves-far-right-freedom-party-role-in-coalition-government", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108946": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/jul/05/germany-austria-and-italy-to-moot-closing-southern-migrant-route", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "109007": {
+                "prov:usedEntity": "test:https://www.bloomberg.com/tosv2.html?vid=&uuid=14313d30-a670-11e9-8f87-7330d0fa127c&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0yNy9yYXBlLWNhc2Utc3VyZ2UtcHV0cy1mb2N1cy1vbi1jcmltZS1hcy1zd2VkaXNoLWVsZWN0aW9uLWxvb21z", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "109005": {
+                "prov:usedEntity": "test:https://www.oic-oci.org/confdetail/?cID=6&lan=en#collapseOne9", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "109003": {
+                "prov:usedEntity": "test:https://www.oic-oci.org/docdown/?docID=7&refID=2", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "109001": {
+                "prov:usedEntity": "test:https://www.pressclub.be/event/1st-islamic-european-forum-for-examining-ways-of-cooperation-to-curb-hate-speech-in-the-media/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "109009": {
+                "prov:usedEntity": "test:https://www.oic-oci.org/page/?p_id=53&p_ref=27&lan=en", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108862": {
+                "prov:usedEntity": "test:https://www.un.org/en/conf/migration/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108860": {
+                "prov:usedEntity": "test:https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108866": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:generatedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/"
+            }, 
+            "108864": {
+                "prov:usedEntity": "test:https://www.un.org/development/desa/en/news/population/un-finalizes-first-ever-global-compact-for-migration.html", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108868": {
+                "prov:usedEntity": "test:https://web.whatsapp.com/send?text=All-Out%20War%20On%20Free%20Speech%20Launched%20By%20United%20Nations%20https%3A%2F%2Fwww.technocracy.news%2Fall-out-war-on-free-speech-launched-by-united-nations%2F", 
+                "prov:generatedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/"
+            }, 
+            "109011": {
+                "prov:usedEntity": "test:https://www.spa.gov.sa/viewfullstory.php?lang=en&newsid=1698948", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108898": {
+                "prov:usedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/15/peter-dutton-contradicts-morrison-and-says-migrant-cut-positive-for-the-economy", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108896": {
+                "prov:usedEntity": "test:https://www.2gb.com/not-in-its-current-form-immigration-minister-rules-out-global-migration-deal-sort-of/", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108894": {
+                "prov:usedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/13/industry-brands-australias-10-migration-intake-drop-disappointing", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108892": {
+                "prov:usedEntity": "test:https://www.theguardian.com/australia-news/2018/jun/16/the-225000-campaign-to-dislodge-peter-dutton-from-dickson", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal"
+            }, 
+            "108890": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/press-encounter/2019-01-18/secretary-generals-press-conference", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108830": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108832": {
+                "prov:usedEntity": "test:https://www.activistpost.com/privacy-policy", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108834": {
+                "prov:usedEntity": "test:https://www.un.org/press/en/2019/pi2264.doc.htm", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108836": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/articles/2019-06-18/the-wildfire-of-hate-speech", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108838": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/press-encounter/2019-01-18/secretary-generals-press-conference", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108882": {
+                "prov:usedEntity": "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108956": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/austria", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108954": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/european-commission", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108888": {
+                "prov:usedEntity": "test:https://www.un.org/sg/en/content/sg/articles/2019-06-18/the-wildfire-of-hate-speech", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108950": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2017/dec/03/donald-trump-pulls-us-out-of-un-global-compact-on-migration", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108884": {
+                "prov:usedEntity": "test:https://www.msn.com/en-xl/news/other/pakistan-calls-for-un-action-against-islamophobia-hate-speech/ar-AADa7xA", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108886": {
+                "prov:usedEntity": "test:https://www.un.org/press/en/2019/pi2264.doc.htm", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108880": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech"
+            }, 
+            "108958": {
+                "prov:usedEntity": "test:https://www.internations.org/switzerland-expats/guide/29455-visa-administration/permission-to-stay-a-while-get-a-swiss-residence-permit-18986", 
+                "prov:generatedEntity": "test:https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3"
+            }, 
+            "108828": {
+                "prov:usedEntity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108826": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html"
+            }, 
+            "108922": {
+                "prov:usedEntity": "test:https://www.swissinfo.ch/eng/targeting-the-rich_cantons-weigh-up-value-of-lump-sum-tax/40810248", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108920": {
+                "prov:usedEntity": "test:https://www.swissinfo.ch/eng/curious-switzerland_your-questions-become-our-stories-time-to-vote/43486070?utm_campaign=comonth19&utm_medium=display&utm_source=swissinfoch&utm_content=o", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108926": {
+                "prov:usedEntity": "test:https://www.ch.ch/en/renewal-overview-swiss-residence-permit/", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108924": {
+                "prov:usedEntity": "test:https://www.aargauerzeitung.ch/schweiz/523-auslaender-kauften-bisher-eine-schweizer-b-bewilligung-130960814", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108928": {
+                "prov:usedEntity": "test:https://www.swissinfo.ch/eng/work-permits/29191706", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108984": {
+                "prov:usedEntity": "test:https://www.bbc.com/news/uk-england-shropshire-43385049", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108858": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108987": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/11214/europe-journalists-free-speech", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108980": {
+                "prov:usedEntity": "test:http://www.arabnews.com/node/1330536/saudi-arabia", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108982": {
+                "prov:usedEntity": "test:https://www.academia.edu/12584261/_The_OIC_NGOs_cooperation_in_combating_Islamophobia_", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108852": {
+                "prov:usedEntity": "test:https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108850": {
+                "prov:usedEntity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108856": {
+                "prov:usedEntity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108989": {
+                "prov:usedEntity": "test:https://www.gatestoneinstitute.org/11932/europe-dhimmis", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech"
+            }, 
+            "108854": {
+                "prov:usedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460", 
+                "prov:generatedEntity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right"
+            }, 
+            "108930": {
+                "prov:usedEntity": "test:https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20141014", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108932": {
+                "prov:usedEntity": "test:https://www.admin.ch/opc/en/classified-compilation/20020232/index.html", 
+                "prov:generatedEntity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460"
+            }, 
+            "108934": {
+                "prov:usedEntity": "test:http://news.trust.org", 
+                "prov:generatedEntity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW"
+            }, 
+            "108936": {
+                "prov:usedEntity": "test:https://www.theguardian.com/commentisfree/2016/jun/10/austria-refugees-migration-crisis-eu", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }, 
+            "108938": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2017/sep/06/eu-court-dismisses-complaints-by-hungary-and-slovakia-over-refugees", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission"
+            }
+        }, 
+        "wasAttributedTo": {
+            "108622": {
+                "prov:entity": "test:the polish prime minister said “our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us” it comes after poland clashed with the european union over national quotes for asylum seekers earlier ", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108626": {
+                "prov:entity": "test:ms merkel who has faced heavy criticism for her decision to allow one million refugees into germany in 2015 voiced her support for the un pact that germany has worked “intensively” on", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108457": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Majid Rafizadeh"
+            }, 
+            "108455": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Amir Taheri"
+            }, 
+            "108453": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Khaled Abu Toameh"
+            }, 
+            "108748": {
+                "prov:entity": "test:it is our responsibility to make sure that our children are taught to respect the other", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108451": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:www.gatestoneinstitute.org"
+            }, 
+            "108516": {
+                "prov:entity": "test:addressing hate speech does not mean limiting or prohibiting freedom of speech", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108744": {
+                "prov:entity": "test:hatred is taught it is acquired", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108740": {
+                "prov:entity": "test:children are not born with hatred", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108459": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Gordon G. Chang"
+            }, 
+            "108405": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:agent": "test:www.technocracy.news"
+            }, 
+            "108340": {
+                "prov:entity": "test:that is the key to bring people along in defence of those values that are under such grave threat today", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108344": {
+                "prov:entity": "test:hate speech is…an attack on tolerance inclusion diversity and the very essence of our human rights norms and principles", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108618": {
+                "prov:entity": "test:mr morawiecki said poland was assessing the pact which is due to be implemented next month but added its own migration controls are its priority", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108614": {
+                "prov:entity": "test:it is very likely that  we will not be part of the global pact” poland follows the united states austria hungary and the czech republic in abandoning the plan", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108696": {
+                "prov:entity": "test:https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3", 
+                "prov:agent": "test:www.internations.org"
+            }, 
+            "108692": {
+                "prov:entity": "test:it’s not in the text there’s no sinister project to advance that", 
+                "prov:agent": "test:Louise Arbour"
+            }, 
+            "108562": {
+                "prov:entity": "test:children as young as 10 are trying to kill themselves", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108756": {
+                "prov:entity": "test:we need to ensure that women play a full and active role in this process” the permanent observer of the holy see to the un archbishop bernardito auza said that protecting the right to freedom of religion conscience and belief was an essential first step", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108698": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:agent": "test:www.thenews.com.pk"
+            }, 
+            "108752": {
+                "prov:entity": "test:the turkish envoy urged governments to work on increasing pluralism inclusiveness and creating equal opportunities for all", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108358": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Amir Taheri"
+            }, 
+            "108352": {
+                "prov:entity": "test:addressing hate speech does not mean limiting or prohibiting freedom of speech", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108354": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:www.gatestoneinstitute.org"
+            }, 
+            "108356": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Khaled Abu Toameh"
+            }, 
+            "108590": {
+                "prov:entity": "test:it is very likely that like austria the czech republic and the united states we will not be part of the un global compact", 
+                "prov:agent": "test:Mateusz Morawiecki"
+            }, 
+            "108608": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:agent": "test:Katie Harris"
+            }, 
+            "108606": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:agent": "test:www.express.co.uk"
+            }, 
+            "108364": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Alan M. Dershowitz"
+            }, 
+            "108366": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Judith Bergman"
+            }, 
+            "108360": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Majid Rafizadeh"
+            }, 
+            "108475": {
+                "prov:entity": "test:the biggest challenge that governments and institutions face today is to show that we care  and to mobilize solutions that respond to peoples fears and anxieties with answers", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108362": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:agent": "test:Gordon G. Chang"
+            }, 
+            "108684": {
+                "prov:entity": "test:i will be proposing to my partners in government that we act in the same way as austria or hungary", 
+                "prov:agent": "test:Andrej Babiš"
+            }, 
+            "108760": {
+                "prov:entity": "test:religion is not a problem but a part of the solution” he said while stressing that teaching in schools pulpits and through the internet do not foment intransigence and extremist radicalisation but dialogue respect for others and reconciliation", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108479": {
+                "prov:entity": "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108688": {
+                "prov:entity": "test:the question of whether this is an invidious way to start promoting a ‘human right to migrate’ is not correct", 
+                "prov:agent": "test:Louise Arbour"
+            }, 
+            "108764": {
+                "prov:entity": "test:adama dieng special advisor on the prevention of genocide referred to the challenge of hate speech said in both liberal democracies and authoritarian regimes some political leaders are bringing the hatefuelled ideas and language of these groups into the m", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108576": {
+                "prov:entity": "test:i think the government is trying to goad the people smugglers and goad the boats", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108816": {
+                "prov:entity": "test:the objective is to ban all critical examination of islam period", 
+                "prov:agent": "test:Andrew C. McCarthy"
+            }, 
+            "108776": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Majid Rafizadeh"
+            }, 
+            "108546": {
+                "prov:entity": "test:we’re not going to sign a deal that sacrifices anything in terms of our border protection policies", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108774": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Amir Taheri"
+            }, 
+            "108540": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:agent": "test:Ben Doherty"
+            }, 
+            "108772": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Khaled Abu Toameh"
+            }, 
+            "108542": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:agent": "test:Amy Remeikis"
+            }, 
+            "108770": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:www.gatestoneinstitute.org"
+            }, 
+            "108818": {
+                "prov:entity": "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "prov:agent": "test:dailytimes.com.pk"
+            }, 
+            "108778": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Gordon G. Chang"
+            }, 
+            "108812": {
+                "prov:entity": "test:the idea is not merely to ban gratuitous ridicule — which by the way sensible people realize government should not do and under our constitution may not do even if they themselves are repulsed by gratuitous ridicule", 
+                "prov:agent": "test:Andrew C. McCarthy"
+            }, 
+            "108376": {
+                "prov:entity": "test:the question of whether this is an invidious way to start promoting a human right to migrate is not correct", 
+                "prov:agent": "test:Louise Arbour"
+            }, 
+            "108676": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:agent": "test:Jennifer Rankin"
+            }, 
+            "108674": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "108463": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Judith Bergman"
+            }, 
+            "108461": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:agent": "test:Alan M. Dershowitz"
+            }, 
+            "108804": {
+                "prov:entity": "test:the european countries dont vote with us the united states doesnt vote with us", 
+                "prov:agent": "test:Ekmeleddin Ihsanoglu"
+            }, 
+            "108550": {
+                "prov:entity": "test:we’ve fought hard for them", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108554": {
+                "prov:entity": "test:we’re not going to surrender our sovereignty – i’m not going to allow unelected bodies dictate to us to the australian people", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108558": {
+                "prov:entity": "test:our government has detained 120 children in an island prison for five years", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108808": {
+                "prov:entity": "test:sharia forbids any speech — whether true or not — that casts islam in an unfavorable light dissents from settled muslim doctrine has the potential to sow discord within the ummah or entices muslims to renounce islam or convert to other faiths", 
+                "prov:agent": "test:Andrew C. McCarthy"
+            }, 
+            "108411": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:agent": "test:Michael J"
+            }, 
+            "108380": {
+                "prov:entity": "test:its not in the text theres no sinister project to advance that", 
+                "prov:agent": "test:Louise Arbour"
+            }, 
+            "108662": {
+                "prov:entity": "test:it is here to stay for centuries more", 
+                "prov:agent": "test:Miroslav Lajčák"
+            }, 
+            "108782": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Judith Bergman"
+            }, 
+            "108780": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:agent": "test:Alan M. Dershowitz"
+            }, 
+            "108308": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:agent": "test:www.activistpost.com"
+            }, 
+            "108710": {
+                "prov:entity": "test:in many parts of the world including our own region hateful rhetoric is being used to secure narrow political and electoral gains", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108714": {
+                "prov:entity": "test:our efforts to promote more peaceful societies must be founded on the most fundamental of human values that call for tolerance and respect for human life", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108718": {
+                "prov:entity": "test:let this be a moment for all of us to come together to reverse the tide of hate and intolerance and its violent manifestations", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108658": {
+                "prov:entity": "test:it has been here for centuries", 
+                "prov:agent": "test:Miroslav Lajčák"
+            }, 
+            "108650": {
+                "prov:entity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460", 
+                "prov:agent": "test:Simon Bradley"
+            }, 
+            "108652": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:agent": "test:www.reuters.com"
+            }, 
+            "108654": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:agent": "test:Ellen Wulfhorst"
+            }, 
+            "108407": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:agent": "test:Jeff Martin"
+            }, 
+            "108768": {
+                "prov:entity": "test:instead it should keep it from escalating into something more dangerous particularly incitement to discrimination hostility and violence", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108316": {
+                "prov:entity": "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108312": {
+                "prov:entity": "test:present a global plan of action against hate speech and hate crimes on a fasttrack basis", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108491": {
+                "prov:entity": "test:lets never forget the lessons of the 1930s", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108495": {
+                "prov:entity": "test:hate speech and hate crimes are direct threats to human rights", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108499": {
+                "prov:entity": "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108646": {
+                "prov:entity": "test:https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html", 
+                "prov:agent": "test:Shehab Khan"
+            }, 
+            "108644": {
+                "prov:entity": "test:https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html", 
+                "prov:agent": "test:www.independent.co.uk"
+            }, 
+            "108642": {
+                "prov:entity": "test:us president donald trump took america out of the pact in 2017", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108726": {
+                "prov:entity": "test:in his remarks undersecretarygeneral of the united nations office of counterterrorism vladimir voronkov noted an alarming rise in hate speech xenophobia and other forms of bigotry which can incite violence”\n\nhe pointed to a resurgence of antisemitism an", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108722": {
+                "prov:entity": "test:if we have to eliminate terrorism we must eliminate its root causes", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108648": {
+                "prov:entity": "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460", 
+                "prov:agent": "test:www.swissinfo.ch"
+            }, 
+            "108534": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1015529/EU-news-migrant-crisis-juncker-state-of-union-speec", 
+                "prov:agent": "test:www.express.co.uk"
+            }, 
+            "108536": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1015529/EU-news-migrant-crisis-juncker-state-of-union-speec", 
+                "prov:agent": "test:Paul Offord"
+            }, 
+            "108531": {
+                "prov:entity": "test:a whole of government and a whole of society approach was needed", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108538": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "108320": {
+                "prov:entity": "test:we hear troubling hateful echoes of eras long past", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108572": {
+                "prov:entity": "test:it’s the impact of lower migration numbers a positive one because if we’re bringing more productive people in then there’s more economic benefit for our country and there’s also greater societal benefit as well", 
+                "prov:agent": "test:Peter Dutton"
+            }, 
+            "108324": {
+                "prov:entity": "test:poisonous views are penetrating political debates and polluting the mainstream", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108328": {
+                "prov:entity": "test:let’s never forget the lessons of the 1930s", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108483": {
+                "prov:entity": "test:we hear troubling hateful echoes of eras long past", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108487": {
+                "prov:entity": "test:poisonous views are penetrating political debates and polluting the mainstream", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108630": {
+                "prov:entity": "test:the plan which was approved by un member states in july aims to boost international cooperation on migration", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108634": {
+                "prov:entity": "test:mateusz morawiecki revealed that it is “very likely” poland will back out of the pact\n\nmateusz morawiecki spoke in warsaw with angela merkel\n\nsupporters have insisted it will not impact state sovereignty as it is not legally binding", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108580": {
+                "prov:entity": "test:you almost get a sense they miss them", 
+                "prov:agent": "test:Bill Shorten"
+            }, 
+            "108638": {
+                "prov:entity": "test:but it has been met with increasing hostility as a number of key countries have pulled out", 
+                "prov:agent": "test:Morawiecki"
+            }, 
+            "108730": {
+                "prov:entity": "test:violence driven by ideology can only be effectively countered by more powerful ideological arguments", 
+                "prov:agent": "test:Lodhi"
+            }, 
+            "108584": {
+                "prov:entity": "test:that’s the only issue they can talk about in the byelections", 
+                "prov:agent": "test:Bill Shorten"
+            }, 
+            "108586": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:agent": "test:www.irishtimes.com"
+            }, 
+            "108503": {
+                "prov:entity": "test:that is the key to bring people along in defence of those values that are under such grave threat today", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108507": {
+                "prov:entity": "test:hate speech isan attack on tolerance inclusion diversity and the very essence of our human rights norms and principles", 
+                "prov:agent": "test:Antonio Guterres"
+            }, 
+            "108409": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:agent": "test:Ms Berry"
+            }, 
+            "108336": {
+                "prov:entity": "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger", 
+                "prov:agent": "test:Adama Dieng"
+            }, 
+            "108332": {
+                "prov:entity": "test:hate speech and hate crimes are direct threats to human rights", 
+                "prov:agent": "test:Adama Dieng"
+            }
+        }, 
+        "agent": {
+            "test:Miroslav Lajčák": {
+                "test:name": "Miroslav Lajčák", 
+                "test:type": "person"
+            }, 
+            "test:Andrej Babiš": {
+                "test:name": "Andrej Babiš", 
+                "test:type": "person"
+            }, 
+            "test:Simon Bradley": {
+                "test:name": "Simon Bradley", 
+                "test:type": "person"
+            }, 
+            "test:www.thenews.com.pk": {
+                "test:publisher": "www.thenews.com.pk", 
+                "test:type": "publisher"
+            }, 
+            "test:Ekmeleddin Ihsanoglu": {
+                "test:name": "Ekmeleddin Ihsanoglu", 
+                "test:type": "person"
+            }, 
+            "test:Ms Berry": {
+                "test:name": "Ms Berry", 
+                "test:type": "person"
+            }, 
+            "test:www.independent.co.uk": {
+                "test:publisher": "www.independent.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Peter Dutton": {
+                "test:name": "Peter Dutton", 
+                "test:type": "person"
+            }, 
+            "test:Antonio Guterres": {
+                "test:name": "Antonio Guterres", 
+                "test:type": "person"
+            }, 
+            "test:Majid Rafizadeh": {
+                "test:name": "Majid Rafizadeh", 
+                "test:type": "person"
+            }, 
+            "test:www.irishtimes.com": {
+                "test:publisher": "www.irishtimes.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Shehab Khan": {
+                "test:name": "Shehab Khan", 
+                "test:type": "person"
+            }, 
+            "test:Paul Offord": {
+                "test:name": "Paul Offord", 
+                "test:type": "person"
+            }, 
+            "test:www.internations.org": {
+                "test:publisher": "www.internations.org", 
+                "test:type": "publisher"
+            }, 
+            "test:dailytimes.com.pk": {
+                "test:publisher": "dailytimes.com.pk", 
+                "test:type": "publisher"
+            }, 
+            "test:Andrew C. McCarthy": {
+                "test:name": "Andrew C. McCarthy", 
+                "test:type": "person"
+            }, 
+            "test:Lodhi": {
+                "test:name": "Lodhi", 
+                "test:type": "person"
+            }, 
+            "test:Bill Shorten": {
+                "test:name": "Bill Shorten", 
+                "test:type": "person"
+            }, 
+            "test:Judith Bergman": {
+                "test:name": "Judith Bergman", 
+                "test:type": "person"
+            }, 
+            "test:www.swissinfo.ch": {
+                "test:publisher": "www.swissinfo.ch", 
+                "test:type": "publisher"
+            }, 
+            "test:Ben Doherty": {
+                "test:name": "Ben Doherty", 
+                "test:type": "person"
+            }, 
+            "test:Louise Arbour": {
+                "test:name": "Louise Arbour", 
+                "test:type": "person"
+            }, 
+            "test:www.theguardian.com": {
+                "test:publisher": "www.theguardian.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Michael J": {
+                "test:name": "Michael J", 
+                "test:type": "person"
+            }, 
+            "test:Khaled Abu Toameh": {
+                "test:name": "Khaled Abu Toameh", 
+                "test:type": "person"
+            }, 
+            "test:www.gatestoneinstitute.org": {
+                "test:publisher": "www.gatestoneinstitute.org", 
+                "test:type": "publisher"
+            }, 
+            "test:www.technocracy.news": {
+                "test:publisher": "www.technocracy.news", 
+                "test:type": "publisher"
+            }, 
+            "test:www.reuters.com": {
+                "test:publisher": "www.reuters.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.activistpost.com": {
+                "test:publisher": "www.activistpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Amir Taheri": {
+                "test:name": "Amir Taheri", 
+                "test:type": "person"
+            }, 
+            "test:www.express.co.uk": {
+                "test:publisher": "www.express.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Morawiecki": {
+                "test:name": "Morawiecki", 
+                "test:type": "person"
+            }, 
+            "test:Jeff Martin": {
+                "test:name": "Jeff Martin", 
+                "test:type": "person"
+            }, 
+            "test:Gordon G. Chang": {
+                "test:name": "Gordon G. Chang", 
+                "test:type": "person"
+            }, 
+            "test:Jennifer Rankin": {
+                "test:name": "Jennifer Rankin", 
+                "test:type": "person"
+            }, 
+            "test:Katie Harris": {
+                "test:name": "Katie Harris", 
+                "test:type": "person"
+            }, 
+            "test:Ellen Wulfhorst": {
+                "test:name": "Ellen Wulfhorst", 
+                "test:type": "person"
+            }, 
+            "test:Alan M. Dershowitz": {
+                "test:name": "Alan M. Dershowitz", 
+                "test:type": "person"
+            }, 
+            "test:Amy Remeikis": {
+                "test:name": "Amy Remeikis", 
+                "test:type": "person"
+            }, 
+            "test:Mateusz Morawiecki": {
+                "test:name": "Mateusz Morawiecki", 
+                "test:type": "person"
+            }, 
+            "test:Adama Dieng": {
+                "test:name": "Adama Dieng", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations": {
+                "test:url": "https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "test:date": "2018-11-03", 
+                "test:title": "UN migration plan collapsing as Poland is FIFTH country to REJECT pact", 
+                "test:type": "article"
+            }, 
+            "test:https://www.unhcr.org/uk/5b51fd587": {
+                "test:url": "https://www.unhcr.org/uk/5b51fd587", 
+                "test:type": "government"
+            }, 
+            "test:https://www.gatestoneinstitute.org/11932/europe-dhimmis": {
+                "test:url": "https://www.gatestoneinstitute.org/11932/europe-dhimmis", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gatestoneinstitute.org/11214/europe-journalists-free-speech": {
+                "test:url": "https://www.gatestoneinstitute.org/11214/europe-journalists-free-speech", 
+                "test:type": "article"
+            }, 
+            "test:http://www.pi-news.net/2017/08/eilt-sechs-monate-haft-fuer-pi-news-autor-michael-stuerzenberger/": {
+                "test:url": "http://www.pi-news.net/2017/08/eilt-sechs-monate-haft-fuer-pi-news-autor-michael-stuerzenberger/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.express.co.uk/latest/angela-merkel": {
+                "test:url": "https://www.express.co.uk/latest/angela-merkel", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW": {
+                "test:url": "https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "test:date": "2018-07-13", 
+                "test:title": "U.N. countries agree on pact to manage mass global migration", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/austria": {
+                "test:url": "https://www.theguardian.com/world/austria", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nationalreview.com/corner/re-oic-vs-freedom-expression-nina-shea/": {
+                "test:url": "https://www.nationalreview.com/corner/re-oic-vs-freedom-expression-nina-shea/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.internations.org/switzerland-expats/guide/29455-visa-administration/permission-to-stay-a-while-get-a-swiss-residence-permit-18986": {
+                "test:url": "https://www.internations.org/switzerland-expats/guide/29455-visa-administration/permission-to-stay-a-while-get-a-swiss-residence-permit-18986", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission": {
+                "test:url": "https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "test:date": "2018-11-01", 
+                "test:title": "EU criticises Austria for not signing UN global migration pact", 
+                "test:type": "article"
+            }, 
+            "test:https://www.oic-oci.org/docdown/?docID=31&refID=9": {
+                "test:url": "https://www.oic-oci.org/docdown/?docID=31&refID=9", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/australia-news/2018/jul/13/industry-brands-australias-10-migration-intake-drop-disappointing": {
+                "test:url": "https://www.theguardian.com/australia-news/2018/jul/13/industry-brands-australias-10-migration-intake-drop-disappointing", 
+                "test:type": "article"
+            }, 
+            "test:https://www.activistpost.com/privacy-policy": {
+                "test:url": "https://www.activistpost.com/privacy-policy", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.reuters.com/article/us-islam-blasphemy/wests-free-speech-stand-bars-blasphemy-ban-oic-idUSBRE89E18U20121015": {
+                "test:url": "https://www.reuters.com/article/us-islam-blasphemy/wests-free-speech-stand-bars-blasphemy-ban-oic-idUSBRE89E18U20121015", 
+                "test:type": "article"
+            }, 
+            "test:https://www.swissinfo.ch/eng/curious-switzerland_your-questions-become-our-stories-time-to-vote/43486070?utm_campaign=comonth19&utm_medium=display&utm_source=swissinfoch&utm_content=o": {
+                "test:url": "https://www.swissinfo.ch/eng/curious-switzerland_your-questions-become-our-stories-time-to-vote/43486070?utm_campaign=comonth19&utm_medium=display&utm_source=swissinfoch&utm_content=o", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/2017/dec/03/donald-trump-pulls-us-out-of-un-global-compact-on-migration": {
+                "test:url": "https://www.theguardian.com/world/2017/dec/03/donald-trump-pulls-us-out-of-un-global-compact-on-migration", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gatestoneinstitute.org/11205/germany-official-censorship": {
+                "test:url": "https://www.gatestoneinstitute.org/11205/germany-official-censorship", 
+                "test:type": "article"
+            }, 
+            "test:https://www.spa.gov.sa/viewfullstory.php?lang=en&newsid=1698948": {
+                "test:url": "https://www.spa.gov.sa/viewfullstory.php?lang=en&newsid=1698948", 
+                "test:type": "government"
+            }, 
+            "test:https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html": {
+                "test:url": "https://www.independent.co.uk/news/world/europe/austria-un-migration-global-pact-agreement-us-hungary-sebastian-kurz-freedom-party-a8610161.html", 
+                "test:date": "2018-10-31", 
+                "test:title": "Austria to follow US and Hungary by withdrawing from UN migration pact", 
+                "test:type": "article"
+            }, 
+            "test:https://www.independent.co.uk/subscribe?utm_medium=prompt&utm_source=internal&utm_campaign=brexit_inline&regSourceMethod=Standard+Article": {
+                "test:url": "https://www.independent.co.uk/subscribe?utm_medium=prompt&utm_source=internal&utm_campaign=brexit_inline&regSourceMethod=Standard+Article", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2018/sep/17/hungary-vows-to-keep-up-fight-against-eu-border-protection": {
+                "test:url": "https://www.theguardian.com/world/2018/sep/17/hungary-vows-to-keep-up-fight-against-eu-border-protection", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/law/human-rights": {
+                "test:url": "https://www.theguardian.com/law/human-rights", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.iqrasense.com/islamic-outreach/challenges-of-countering-islamophobia-the-oic-initiative.html": {
+                "test:url": "http://www.iqrasense.com/islamic-outreach/challenges-of-countering-islamophobia-the-oic-initiative.html", 
+                "test:type": "article"
+            }, 
+            "test:https://dailycaller.com/2016/04/26/18-cases-since-february-no-end-in-sight-for-arson-attacks-on-swedish-refugee-centers/": {
+                "test:url": "https://dailycaller.com/2016/04/26/18-cases-since-february-no-end-in-sight-for-arson-attacks-on-swedish-refugee-centers/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.admin.ch/opc/en/classified-compilation/20020232/index.html": {
+                "test:url": "https://www.admin.ch/opc/en/classified-compilation/20020232/index.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.theaustralian.com.au/nocookies?a=A.flavipes": {
+                "test:url": "https://www.theaustralian.com.au/nocookies?a=A.flavipes", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2018/jul/05/germany-austria-and-italy-to-moot-closing-southern-migrant-route": {
+                "test:url": "https://www.theguardian.com/world/2018/jul/05/germany-austria-and-italy-to-moot-closing-southern-migrant-route", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bloomberg.com/tosv2.html?vid=&uuid=14313d30-a670-11e9-8f87-7330d0fa127c&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0yNy9yYXBlLWNhc2Utc3VyZ2UtcHV0cy1mb2N1cy1vbi1jcmltZS1hcy1zd2VkaXNoLWVsZWN0aW9uLWxvb21z": {
+                "test:url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=14313d30-a670-11e9-8f87-7330d0fa127c&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0yNy9yYXBlLWNhc2Utc3VyZ2UtcHV0cy1mb2N1cy1vbi1jcmltZS1hcy1zd2VkaXNoLWVsZWN0aW9uLWxvb21z", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2018/jun/19/eu-migrant-processing-centres-north-africa-refugees": {
+                "test:url": "https://www.theguardian.com/world/2018/jun/19/eu-migrant-processing-centres-north-africa-refugees", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nationalreview.com/corner/under-sharia-speech-law-europe-has-and-obama-wants-truth-no-defense-andrew-c-mccarthy/": {
+                "test:url": "https://www.nationalreview.com/corner/under-sharia-speech-law-europe-has-and-obama-wants-truth-no-defense-andrew-c-mccarthy/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.2gb.com/not-in-its-current-form-immigration-minister-rules-out-global-migration-deal-sort-of/": {
+                "test:url": "https://www.2gb.com/not-in-its-current-form-immigration-minister-rules-out-global-migration-deal-sort-of/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.arabnews.com/node/1330536/saudi-arabia": {
+                "test:url": "http://www.arabnews.com/node/1330536/saudi-arabia", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/european-commission": {
+                "test:url": "https://www.theguardian.com/world/european-commission", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.ch.ch/en/renewal-overview-swiss-residence-permit/": {
+                "test:url": "https://www.ch.ch/en/renewal-overview-swiss-residence-permit/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.swissinfo.ch/eng/work-permits/29191706": {
+                "test:url": "https://www.swissinfo.ch/eng/work-permits/29191706", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.youtube.com/watch?v=6yC8COv6DE4&t=49s": {
+                "test:url": "https://www.youtube.com/watch?v=6yC8COv6DE4&t=49s", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3": {
+                "test:url": "https://www.internations.org/switzerland-expats/guide/moving-to-switzerland-15502/residence-permits-for-switzerland-3", 
+                "test:date": "", 
+                "test:title": "Residence Permits for Switzerland", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/australia-news/2018/jun/16/the-225000-campaign-to-dislodge-peter-dutton-from-dickson": {
+                "test:url": "https://www.theguardian.com/australia-news/2018/jun/16/the-225000-campaign-to-dislodge-peter-dutton-from-dickson", 
+                "test:type": "article"
+            }, 
+            "test:https://www.academia.edu/12584261/_The_OIC_NGOs_cooperation_in_combating_Islamophobia_": {
+                "test:url": "https://www.academia.edu/12584261/_The_OIC_NGOs_cooperation_in_combating_Islamophobia_", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right": {
+                "test:url": "https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "test:date": "2018-11-10", 
+                "test:title": "UN Member States: Migration Is a Human Right", 
+                "test:type": "article"
+            }, 
+            "test:https://www.friatider.se/skrev-om-sk-ggbarn-p-sds-facebook-sida-d-ms-till-b-ter": {
+                "test:url": "https://www.friatider.se/skrev-om-sk-ggbarn-p-sds-facebook-sida-d-ms-till-b-ter", 
+                "test:type": "article"
+            }, 
+            "test:https://www.un.org/press/en/2019/pi2264.doc.htm": {
+                "test:url": "https://www.un.org/press/en/2019/pi2264.doc.htm", 
+                "test:type": "government"
+            }, 
+            "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal": {
+                "test:url": "https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "test:date": "2018-07-25", 
+                "test:title": "Dutton says Australia won't 'surrender our sovereignty' by signing UN migration deal", 
+                "test:type": "article"
+            }, 
+            "test:https://www.un.org/sg/en/content/sg/articles/2019-06-18/the-wildfire-of-hate-speech": {
+                "test:url": "https://www.un.org/sg/en/content/sg/articles/2019-06-18/the-wildfire-of-hate-speech", 
+                "test:type": "government"
+            }, 
+            "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/": {
+                "test:url": "https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "test:date": "2017-07-08", 
+                "test:title": "Misuse of social media not allowed: Chaudhry Nisar", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gatestoneinstitute.org/3790/oic-brussels-islamophobia": {
+                "test:url": "https://www.gatestoneinstitute.org/3790/oic-brussels-islamophobia", 
+                "test:type": "article"
+            }, 
+            "test:https://web.whatsapp.com/send?text=All-Out%20War%20On%20Free%20Speech%20Launched%20By%20United%20Nations%20https%3A%2F%2Fwww.technocracy.news%2Fall-out-war-on-free-speech-launched-by-united-nations%2F": {
+                "test:url": "https://web.whatsapp.com/send?text=All-Out%20War%20On%20Free%20Speech%20Launched%20By%20United%20Nations%20https%3A%2F%2Fwww.technocracy.news%2Fall-out-war-on-free-speech-launched-by-united-nations%2F", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/business/australia-economy": {
+                "test:url": "https://www.theguardian.com/business/australia-economy", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonpost.com/news/worldviews/wp/2018/07/20/most-girls-in-somalia-experience-genital-mutilation-the-ritual-just-killed-a-10-year-old/?noredirect=on&utm_term=.ed16056a52e2": {
+                "test:url": "https://www.washingtonpost.com/news/worldviews/wp/2018/07/20/most-girls-in-somalia-experience-genital-mutilation-the-ritual-just-killed-a-10-year-old/?noredirect=on&utm_term=.ed16056a52e2", 
+                "test:type": "article"
+            }, 
+            "test:https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460": {
+                "test:url": "https://www.swissinfo.ch/eng/society/hundreds-of-rich-foreigners-buy-swiss-residency-thanks-to-derogation/42951460", 
+                "test:date": "2017-02-10", 
+                "test:title": "Rich foreigners ‘buy’ Swiss residency thanks to derogation", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.com/news/uk-england-shropshire-43385049": {
+                "test:url": "https://www.bbc.com/news/uk-england-shropshire-43385049", 
+                "test:type": "article"
+            }, 
+            "test:https://www.swissinfo.ch/eng/targeting-the-rich_cantons-weigh-up-value-of-lump-sum-tax/40810248": {
+                "test:url": "https://www.swissinfo.ch/eng/targeting-the-rich_cantons-weigh-up-value-of-lump-sum-tax/40810248", 
+                "test:type": "article"
+            }, 
+            "test:https://www.express.co.uk/news/world/1015529/EU-news-migrant-crisis-juncker-state-of-union-speec": {
+                "test:url": "https://www.express.co.uk/news/world/1015529/EU-news-migrant-crisis-juncker-state-of-union-speec", 
+                "test:date": "2018-09-11", 
+                "test:title": "EU MOMENT OF TRUTH: Juncker to arm 10k border officers as Brussels CRACKS DOWN on migrants", 
+                "test:type": "article"
+            }, 
+            "test:http://www.bfm.admin.ch/content/bfm/en/home/themen/aufenthalt/adressen.html": {
+                "test:url": "http://www.bfm.admin.ch/content/bfm/en/home/themen/aufenthalt/adressen.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.un.org/development/desa/en/news/population/un-finalizes-first-ever-global-compact-for-migration.html": {
+                "test:url": "https://www.un.org/development/desa/en/news/population/un-finalizes-first-ever-global-compact-for-migration.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.un.org/en/conf/migration/": {
+                "test:url": "https://www.un.org/en/conf/migration/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.dw.com/en/hungary-joins-us-in-refusing-uns-safe-global-migration-compact/a-44733306": {
+                "test:url": "https://www.dw.com/en/hungary-joins-us-in-refusing-uns-safe-global-migration-compact/a-44733306", 
+                "test:type": "article"
+            }, 
+            "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/": {
+                "test:url": "https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "test:date": "2019-07-12", 
+                "test:title": "All-Out War On Free Speech Launched By United Nations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.un.org/sg/en/content/sg/press-encounter/2019-01-18/secretary-generals-press-conference": {
+                "test:url": "https://www.un.org/sg/en/content/sg/press-encounter/2019-01-18/secretary-generals-press-conference", 
+                "test:type": "government"
+            }, 
+            "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech": {
+                "test:url": "https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "test:date": "2019-07-10", 
+                "test:title": "UN Launches All-out War on Free Speech", 
+                "test:type": "article"
+            }, 
+            "test:https://www.msn.com/en-xl/news/other/pakistan-calls-for-un-action-against-islamophobia-hate-speech/ar-AADa7xA": {
+                "test:url": "https://www.msn.com/en-xl/news/other/pakistan-calls-for-un-action-against-islamophobia-hate-speech/ar-AADa7xA", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.aargauerzeitung.ch/schweiz/523-auslaender-kauften-bisher-eine-schweizer-b-bewilligung-130960814": {
+                "test:url": "https://www.aargauerzeitung.ch/schweiz/523-auslaender-kauften-bisher-eine-schweizer-b-bewilligung-130960814", 
+                "test:type": "article"
+            }, 
+            "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210": {
+                "test:url": "https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "test:date": "", 
+                "test:title": "Poles and Czechs follow Austria and Hungary in rejecting UN migration pact", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/global-development/2018/sep/27/global-leaders-must-match-fine-words-on-migration-with-urgent-action-refugees-francesco-rocca": {
+                "test:url": "https://www.theguardian.com/global-development/2018/sep/27/global-leaders-must-match-fine-words-on-migration-with-urgent-action-refugees-francesco-rocca", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/commentisfree/2016/jun/10/austria-refugees-migration-crisis-eu": {
+                "test:url": "https://www.theguardian.com/commentisfree/2016/jun/10/austria-refugees-migration-crisis-eu", 
+                "test:type": "article"
+            }, 
+            "test:https://www.pressclub.be/event/1st-islamic-european-forum-for-examining-ways-of-cooperation-to-curb-hate-speech-in-the-media/": {
+                "test:url": "https://www.pressclub.be/event/1st-islamic-european-forum-for-examining-ways-of-cooperation-to-curb-hate-speech-in-the-media/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia": {
+                "test:url": "https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "test:date": "2019-06-25", 
+                "test:title": "Pakistan proposes plan at UN to address faith-based hatred, Islamophobia", 
+                "test:type": "article"
+            }, 
+            "test:https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20141014": {
+                "test:url": "https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20141014", 
+                "test:type": "reference"
+            }, 
+            "test:http://news.trust.org": {
+                "test:url": "http://news.trust.org", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/unitednations": {
+                "test:url": "https://www.theguardian.com/world/unitednations", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.iom.int/global-compact-migration": {
+                "test:url": "https://www.iom.int/global-compact-migration", 
+                "test:type": "government"
+            }, 
+            "test:https://www.theguardian.com/world/hungary": {
+                "test:url": "https://www.theguardian.com/world/hungary", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.oic-oci.org/confdetail/?cID=6&lan=en#collapseOne9": {
+                "test:url": "https://www.oic-oci.org/confdetail/?cID=6&lan=en#collapseOne9", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.oic-oci.org/docdown/?docID=7&refID=2": {
+                "test:url": "https://www.oic-oci.org/docdown/?docID=7&refID=2", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2017/dec/16/austrian-president-approves-far-right-freedom-party-role-in-coalition-government": {
+                "test:url": "https://www.theguardian.com/world/2017/dec/16/austrian-president-approves-far-right-freedom-party-role-in-coalition-government", 
+                "test:type": "article"
+            }, 
+            "test:https://www.oic-oci.org/page/?p_id=52&p_ref=26&lan=en": {
+                "test:url": "https://www.oic-oci.org/page/?p_id=52&p_ref=26&lan=en", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/australia-news/2018/jul/15/peter-dutton-contradicts-morrison-and-says-migrant-cut-positive-for-the-economy": {
+                "test:url": "https://www.theguardian.com/australia-news/2018/jul/15/peter-dutton-contradicts-morrison-and-says-migrant-cut-positive-for-the-economy", 
+                "test:type": "article"
+            }, 
+            "test:https://www.express.co.uk/latest/donald-trump": {
+                "test:url": "https://www.express.co.uk/latest/donald-trump", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.express.co.uk/news/world/1037696/Merkel-quits-cdu-germany-news-angela-merkel-latest": {
+                "test:url": "https://www.express.co.uk/news/world/1037696/Merkel-quits-cdu-germany-news-angela-merkel-latest", 
+                "test:type": "article"
+            }, 
+            "test:https://www.oic-oci.org/page/?p_id=53&p_ref=27&lan=en": {
+                "test:url": "https://www.oic-oci.org/page/?p_id=53&p_ref=27&lan=en", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.gatestoneinstitute.org/12078/sweden-free-speech": {
+                "test:url": "https://www.gatestoneinstitute.org/12078/sweden-free-speech", 
+                "test:type": "article"
+            }, 
+            "test:https://www.meforum.org/3721/oic-islamophobia-campaign": {
+                "test:url": "https://www.meforum.org/3721/oic-islamophobia-campaign", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/2017/sep/06/eu-court-dismisses-complaints-by-hungary-and-slovakia-over-refugees": {
+                "test:url": "https://www.theguardian.com/world/2017/sep/06/eu-court-dismisses-complaints-by-hungary-and-slovakia-over-refugees", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gatestoneinstitute.org/12975/killing-free-speech": {
+                "test:url": "https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "test:date": "2018-09-21", 
+                "test:title": "Killing Free Speech", 
+                "test:type": "article"
+            }, 
+            "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html": {
+                "test:url": "https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "test:date": "2019-07-12", 
+                "test:title": "All-Out War On Free Speech Launched By United Nations", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:let’s never forget the lessons of the 1930s": {
+                "test:quote": "let’s never forget the lessons of the 1930s", 
+                "test:type": "quote"
+            }, 
+            "test:silence can signal indifference to bigotry and intolerance": {
+                "test:quote": "silence can signal indifference to bigotry and intolerance", 
+                "test:type": "quote"
+            }, 
+            "test:populist narratives are being exploited by demagogues as a strategy to achieve political objectives": {
+                "test:quote": "populist narratives are being exploited by demagogues as a strategy to achieve political objectives", 
+                "test:type": "quote"
+            }, 
+            "test:hate speech and hate crimes are direct threats to human rights": {
+                "test:quote": "hate speech and hate crimes are direct threats to human rights", 
+                "test:type": "quote"
+            }, 
+            "test:ms merkel who has faced heavy criticism for her decision to allow one million refugees into germany in 2015 voiced her support for the un pact that germany has worked “intensively” on": {
+                "test:quote": "ms merkel who has faced heavy criticism for her decision to allow one million refugees into germany in 2015 voiced her support for the un pact that germany has worked “intensively” on", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not in the text there’s no sinister project to advance that": {
+                "test:quote": "it’s not in the text there’s no sinister project to advance that", 
+                "test:type": "quote"
+            }, 
+            "test:it is our responsibility to make sure that our children are taught to respect the other": {
+                "test:quote": "it is our responsibility to make sure that our children are taught to respect the other", 
+                "test:type": "quote"
+            }, 
+            "test:the un should establishstrengthen partnerships with relevant stakeholders including those working in the tech industry": {
+                "test:quote": "the un should establishstrengthen partnerships with relevant stakeholders including those working in the tech industry", 
+                "test:type": "quote"
+            }, 
+            "test:mr morawiecki said poland was assessing the pact which is due to be implemented next month but added its own migration controls are its priority": {
+                "test:quote": "mr morawiecki said poland was assessing the pact which is due to be implemented next month but added its own migration controls are its priority", 
+                "test:type": "quote"
+            }, 
+            "test:one of its main objectives is to reduce if not to eliminate altogether unsafe chaotic illegal poorly managed migration which is in nobody’s interest – not the migrants not the host communities not the countries of origin": {
+                "test:quote": "one of its main objectives is to reduce if not to eliminate altogether unsafe chaotic illegal poorly managed migration which is in nobody’s interest – not the migrants not the host communities not the countries of origin", 
+                "test:type": "quote"
+            }, 
+            "test:you almost get a sense they miss them": {
+                "test:quote": "you almost get a sense they miss them", 
+                "test:type": "quote"
+            }, 
+            "test:it has been here for centuries": {
+                "test:quote": "it has been here for centuries", 
+                "test:type": "quote"
+            }, 
+            "test:all relevant actors including teachers community and religious leaders had an important role to educate the young generation": {
+                "test:quote": "all relevant actors including teachers community and religious leaders had an important role to educate the young generation", 
+                "test:type": "quote"
+            }, 
+            "test:it is here to stay for centuries more": {
+                "test:quote": "it is here to stay for centuries more", 
+                "test:type": "quote"
+            }, 
+            "test:our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us": {
+                "test:quote": "our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us", 
+                "test:type": "quote"
+            }, 
+            "test:we can no longer turn a blind eye to this phenomenon which is becoming more and more mainstream in several societies": {
+                "test:quote": "we can no longer turn a blind eye to this phenomenon which is becoming more and more mainstream in several societies", 
+                "test:type": "quote"
+            }, 
+            "test:instead it should keep it from escalating into something more dangerous particularly incitement to discrimination hostility and violence": {
+                "test:quote": "instead it should keep it from escalating into something more dangerous particularly incitement to discrimination hostility and violence", 
+                "test:type": "quote"
+            }, 
+            "test:it’s no wonder our government is trying to shirk scrutiny": {
+                "test:quote": "it’s no wonder our government is trying to shirk scrutiny", 
+                "test:type": "quote"
+            }, 
+            "test:the question of whether this is an invidious way to start promoting a ‘human right to migrate’ is not correct": {
+                "test:quote": "the question of whether this is an invidious way to start promoting a ‘human right to migrate’ is not correct", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t like the fact that it blurs the distinction between legal and illegal migration ": {
+                "test:quote": "i don’t like the fact that it blurs the distinction between legal and illegal migration ", 
+                "test:type": "quote"
+            }, 
+            "test:we also need to take a closer look at the root causes of these phenomena": {
+                "test:quote": "we also need to take a closer look at the root causes of these phenomena", 
+                "test:type": "quote"
+            }, 
+            "test:establish open and accessible information points along relevant migration routes that can refer migrants to childsensitive and genderresponsive support and counselling offer opportunities to communicate with consular representatives of the country of orig": {
+                "test:quote": "establish open and accessible information points along relevant migration routes that can refer migrants to childsensitive and genderresponsive support and counselling offer opportunities to communicate with consular representatives of the country of origin and make available relevant information including on human rights and fundamental freedoms appropriate protection and assistance options and pathways for regular migration and possibilities for return in a language the person concerned understands", 
+                "test:type": "quote"
+            }, 
+            "test:to protect and defend the true image of islam to combat defamation of islam and encourage dialogue among civilisations and religions": {
+                "test:quote": "to protect and defend the true image of islam to combat defamation of islam and encourage dialogue among civilisations and religions", 
+                "test:type": "quote"
+            }, 
+            "test:that is the key to bring people along in defence of those values that are under such grave threat today": {
+                "test:quote": "that is the key to bring people along in defence of those values that are under such grave threat today", 
+                "test:type": "quote"
+            }, 
+            "test:provide newly arrived migrants with targeted genderresponsive childsensitive accessible and comprehensive information and legal guidance on their rights and obligations including on compliance with national and local laws obtaining of work and resident pe": {
+                "test:quote": "provide newly arrived migrants with targeted genderresponsive childsensitive accessible and comprehensive information and legal guidance on their rights and obligations including on compliance with national and local laws obtaining of work and resident permits status adjustments registration with authorities access to justice to file complaints about rights violations as well as on access to basic services", 
+                "test:type": "quote"
+            }, 
+            "test:within their sovereign jurisdiction states may distinguish between regular and irregular migration status": {
+                "test:quote": "within their sovereign jurisdiction states may distinguish between regular and irregular migration status", 
+                "test:type": "quote"
+            }, 
+            "test:present a global plan of action against hate speech and hate crimes on a fasttrack basis": {
+                "test:quote": "present a global plan of action against hate speech and hate crimes on a fasttrack basis", 
+                "test:type": "quote"
+            }, 
+            "test:our government has detained 120 children in an island prison for five years": {
+                "test:quote": "our government has detained 120 children in an island prison for five years", 
+                "test:type": "quote"
+            }, 
+            "test:launch and publicize a centralized and publicly accessible national website to make information available on regular migration options such as on countryspecific immigration laws and policies visa requirements application formalities fees and conversion c": {
+                "test:quote": "launch and publicize a centralized and publicly accessible national website to make information available on regular migration options such as on countryspecific immigration laws and policies visa requirements application formalities fees and conversion criteria employment permit requirements professional qualification requirements credential assessment and equivalences training and study opportunities and living costs and conditions in order to inform the decisions of migrants", 
+                "test:type": "quote"
+            }, 
+            "test:were not going to sign a deal that sacrifices anything in terms of our border protection policies were not going to surrender our sovereignty – im not going to allow unelected bodies dictate to us to the australian people": {
+                "test:quote": "were not going to sign a deal that sacrifices anything in terms of our border protection policies were not going to surrender our sovereignty – im not going to allow unelected bodies dictate to us to the australian people", 
+                "test:type": "quote"
+            }, 
+            "test:violence driven by ideology can only be effectively countered by more powerful ideological arguments": {
+                "test:quote": "violence driven by ideology can only be effectively countered by more powerful ideological arguments", 
+                "test:type": "quote"
+            }, 
+            "test:we’re not going to sign a deal that sacrifices anything in terms of our border protection policies": {
+                "test:quote": "we’re not going to sign a deal that sacrifices anything in terms of our border protection policies", 
+                "test:type": "quote"
+            }, 
+            "test:its not in the text theres no sinister project to advance that": {
+                "test:quote": "its not in the text theres no sinister project to advance that", 
+                "test:type": "quote"
+            }, 
+            "test:to disseminate promote and preserve the islamic teachings and values based on moderation and tolerance promote islamic culture and safeguard islamic heritage": {
+                "test:quote": "to disseminate promote and preserve the islamic teachings and values based on moderation and tolerance promote islamic culture and safeguard islamic heritage", 
+                "test:type": "quote"
+            }, 
+            "test:if we have to eliminate terrorism we must eliminate its root causes": {
+                "test:quote": "if we have to eliminate terrorism we must eliminate its root causes", 
+                "test:type": "quote"
+            }, 
+            "test:i think the government is trying to goad the people smugglers and goad the boats": {
+                "test:quote": "i think the government is trying to goad the people smugglers and goad the boats", 
+                "test:type": "quote"
+            }, 
+            "test:as hatred is born in the mind education would be key to promoting peace and tolerance": {
+                "test:quote": "as hatred is born in the mind education would be key to promoting peace and tolerance", 
+                "test:type": "quote"
+            }, 
+            "test:measures taken will be in line with international human rights norms and standards in particular the right to freedom of opinion and expression": {
+                "test:quote": "measures taken will be in line with international human rights norms and standards in particular the right to freedom of opinion and expression", 
+                "test:type": "quote"
+            }, 
+            "test:lahore is one of the largest developer circles in the world with more than 2000 community members": {
+                "test:quote": "lahore is one of the largest developer circles in the world with more than 2000 community members", 
+                "test:type": "quote"
+            }, 
+            "test:the european countries dont vote with us the united states doesnt vote with us": {
+                "test:quote": "the european countries dont vote with us the united states doesnt vote with us", 
+                "test:type": "quote"
+            }, 
+            "test:let this be a moment for all of us to come together to reverse the tide of hate and intolerance and its violent manifestations": {
+                "test:quote": "let this be a moment for all of us to come together to reverse the tide of hate and intolerance and its violent manifestations", 
+                "test:type": "quote"
+            }, 
+            "test:we are fully committed to support the uns strategy on hate speech": {
+                "test:quote": "we are fully committed to support the uns strategy on hate speech", 
+                "test:type": "quote"
+            }, 
+            "test:we continue to believe that migration is a global challenge where only global solutions and global responsibility sharing will bring results": {
+                "test:quote": "we continue to believe that migration is a global challenge where only global solutions and global responsibility sharing will bring results", 
+                "test:type": "quote"
+            }, 
+            "test:children are not born with hatred": {
+                "test:quote": "children are not born with hatred", 
+                "test:type": "quote"
+            }, 
+            "test:poisonous views are penetrating political debates and polluting the mainstream": {
+                "test:quote": "poisonous views are penetrating political debates and polluting the mainstream", 
+                "test:type": "quote"
+            }, 
+            "test:children as young as 10 are trying to kill themselves": {
+                "test:quote": "children as young as 10 are trying to kill themselves", 
+                "test:type": "quote"
+            }, 
+            "test:the strength the force of the document is its practical value": {
+                "test:quote": "the strength the force of the document is its practical value", 
+                "test:type": "quote"
+            }, 
+            "test:hate speech is…an attack on tolerance inclusion diversity and the very essence of our human rights norms and principles": {
+                "test:quote": "hate speech is…an attack on tolerance inclusion diversity and the very essence of our human rights norms and principles", 
+                "test:type": "quote"
+            }, 
+            "test:in an effort to limit immigration from noneuefta countries swiss authorities impose strict annual limitations on the number of residence and work permits granted to foreigners": {
+                "test:quote": "in an effort to limit immigration from noneuefta countries swiss authorities impose strict annual limitations on the number of residence and work permits granted to foreigners", 
+                "test:type": "quote"
+            }, 
+            "test:we need to ensure that women play a full and active role in this process” the permanent observer of the holy see to the un archbishop bernardito auza said that protecting the right to freedom of religion conscience and belief was an essential first step": {
+                "test:quote": "we need to ensure that women play a full and active role in this process” the permanent observer of the holy see to the un archbishop bernardito auza said that protecting the right to freedom of religion conscience and belief was an essential first step in countering terrorism and other acts of violence against religious believers and in promoting a culture of tolerance and inclusion", 
+                "test:type": "quote"
+            }, 
+            "test:in many parts of the world including our own region hateful rhetoric is being used to secure narrow political and electoral gains": {
+                "test:quote": "in many parts of the world including our own region hateful rhetoric is being used to secure narrow political and electoral gains", 
+                "test:type": "quote"
+            }, 
+            "test:it’s the impact of lower migration numbers a positive one because if we’re bringing more productive people in then there’s more economic benefit for our country and there’s also greater societal benefit as well": {
+                "test:quote": "it’s the impact of lower migration numbers a positive one because if we’re bringing more productive people in then there’s more economic benefit for our country and there’s also greater societal benefit as well", 
+                "test:type": "quote"
+            }, 
+            "test:we appreciate the understanding shown by the facebook administration and the cooperation being extended to us on these issues": {
+                "test:quote": "we appreciate the understanding shown by the facebook administration and the cooperation being extended to us on these issues", 
+                "test:type": "quote"
+            }, 
+            "test:promote mutual respect for the cultures traditions and customs of communities of destination and of migrants by exchanging and implementing best practices on integration policies programmes and activities including on ways to promote acceptance of diversi": {
+                "test:quote": "promote mutual respect for the cultures traditions and customs of communities of destination and of migrants by exchanging and implementing best practices on integration policies programmes and activities including on ways to promote acceptance of diversity and facilitate social cohesion and inclusion", 
+                "test:type": "quote"
+            }, 
+            "test:hatred is taught it is acquired": {
+                "test:quote": "hatred is taught it is acquired", 
+                "test:type": "quote"
+            }, 
+            "test:addressing hate speech does not mean limiting or prohibiting freedom of speech": {
+                "test:quote": "addressing hate speech does not mean limiting or prohibiting freedom of speech", 
+                "test:type": "quote"
+            }, 
+            "test:but it has been met with increasing hostility as a number of key countries have pulled out": {
+                "test:quote": "but it has been met with increasing hostility as a number of key countries have pulled out", 
+                "test:type": "quote"
+            }, 
+            "test:the biggest challenge that governments and institutions face today is to show that we care  and to mobilize solutions that respond to peoples fears and anxieties with answers": {
+                "test:quote": "the biggest challenge that governments and institutions face today is to show that we care  and to mobilize solutions that respond to peoples fears and anxieties with answers", 
+                "test:type": "quote"
+            }, 
+            "test:the issue of migration is highly political and there is naturally distrust or mistrust between countries on this": {
+                "test:quote": "the issue of migration is highly political and there is naturally distrust or mistrust between countries on this", 
+                "test:type": "quote"
+            }, 
+            "test:the objective is to ban all critical examination of islam period": {
+                "test:quote": "the objective is to ban all critical examination of islam period", 
+                "test:type": "quote"
+            }, 
+            "test:emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric such as labeling criminal terrorists as islamic fascists islamic extremists": {
+                "test:quote": "emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric such as labeling criminal terrorists as islamic fascists islamic extremists", 
+                "test:type": "quote"
+            }, 
+            "test:we view some points of the migration pact very critically such as the mixing up of seeking protection with labour migration": {
+                "test:quote": "we view some points of the migration pact very critically such as the mixing up of seeking protection with labour migration", 
+                "test:type": "quote"
+            }, 
+            "test:it is very likely that  we will not be part of the global pact” poland follows the united states austria hungary and the czech republic in abandoning the plan": {
+                "test:quote": "it is very likely that  we will not be part of the global pact” poland follows the united states austria hungary and the czech republic in abandoning the plan", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not clearly interpreted and it could be abused": {
+                "test:quote": "it’s not clearly interpreted and it could be abused", 
+                "test:type": "quote"
+            }, 
+            "test:we hear troubling hateful echoes of eras long past": {
+                "test:quote": "we hear troubling hateful echoes of eras long past", 
+                "test:type": "quote"
+            }, 
+            "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger": {
+                "test:quote": "we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger", 
+                "test:type": "quote"
+            }, 
+            "test:according to the action plan hate is moving into the mainstream – in liberal democracies and authoritarian systems alike": {
+                "test:quote": "according to the action plan hate is moving into the mainstream – in liberal democracies and authoritarian systems alike", 
+                "test:type": "quote"
+            }, 
+            "test:but we have never had an instrument that helps us to govern to manage this process": {
+                "test:quote": "but we have never had an instrument that helps us to govern to manage this process", 
+                "test:type": "quote"
+            }, 
+            "test:our efforts to promote more peaceful societies must be founded on the most fundamental of human values that call for tolerance and respect for human life": {
+                "test:quote": "our efforts to promote more peaceful societies must be founded on the most fundamental of human values that call for tolerance and respect for human life", 
+                "test:type": "quote"
+            }, 
+            "test:sharia forbids any speech — whether true or not — that casts islam in an unfavorable light dissents from settled muslim doctrine has the potential to sow discord within the ummah or entices muslims to renounce islam or convert to other faiths": {
+                "test:quote": "sharia forbids any speech — whether true or not — that casts islam in an unfavorable light dissents from settled muslim doctrine has the potential to sow discord within the ummah or entices muslims to renounce islam or convert to other faiths", 
+                "test:type": "quote"
+            }, 
+            "test:in his remarks undersecretarygeneral of the united nations office of counterterrorism vladimir voronkov noted an alarming rise in hate speech xenophobia and other forms of bigotry which can incite violence”\n\nhe pointed to a resurgence of antisemitism an": {
+                "test:quote": "in his remarks undersecretarygeneral of the united nations office of counterterrorism vladimir voronkov noted an alarming rise in hate speech xenophobia and other forms of bigotry which can incite violence”\n\nhe pointed to a resurgence of antisemitism and neonazi organisations while attacks on muslims in several societies were on the rise", 
+                "test:type": "quote"
+            }, 
+            "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance": {
+                "test:quote": "we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance", 
+                "test:type": "quote"
+            }, 
+            "test:to increase the interaction with media outlets and professionals while encouraging accurate and factualportrayal of islam": {
+                "test:quote": "to increase the interaction with media outlets and professionals while encouraging accurate and factualportrayal of islam", 
+                "test:type": "quote"
+            }, 
+            "test:i will propose to partners in the government that we should do the same as austria and hungary": {
+                "test:quote": "i will propose to partners in the government that we should do the same as austria and hungary", 
+                "test:type": "quote"
+            }, 
+            "test:as a matter of principle the united nations must confront hate speech at every turn": {
+                "test:quote": "as a matter of principle the united nations must confront hate speech at every turn", 
+                "test:type": "quote"
+            }, 
+            "test:a whole of government and a whole of society approach was needed": {
+                "test:quote": "a whole of government and a whole of society approach was needed", 
+                "test:type": "quote"
+            }, 
+            "test:i will be proposing to my partners in government that we act in the same way as austria or hungary": {
+                "test:quote": "i will be proposing to my partners in government that we act in the same way as austria or hungary", 
+                "test:type": "quote"
+            }, 
+            "test:we’ve fought hard for them": {
+                "test:quote": "we’ve fought hard for them", 
+                "test:type": "quote"
+            }, 
+            "test:it will be a point of reference for years to come and induce real change on the ground": {
+                "test:quote": "it will be a point of reference for years to come and induce real change on the ground", 
+                "test:type": "quote"
+            }, 
+            "test:we’re not going to surrender our sovereignty – i’m not going to allow unelected bodies dictate to us to the australian people": {
+                "test:quote": "we’re not going to surrender our sovereignty – i’m not going to allow unelected bodies dictate to us to the australian people", 
+                "test:type": "quote"
+            }, 
+            "test:sadly world leaders were not up to the challenge of delivering the bold and brave solutions that are so urgently needed": {
+                "test:quote": "sadly world leaders were not up to the challenge of delivering the bold and brave solutions that are so urgently needed", 
+                "test:type": "quote"
+            }, 
+            "test:it is very likely that like austria the czech republic and the united states we will not be part of the un global compact": {
+                "test:quote": "it is very likely that like austria the czech republic and the united states we will not be part of the un global compact", 
+                "test:type": "quote"
+            }, 
+            "test:this pact poses a threat to the world from the aspect that it could inspire millions of migrants": {
+                "test:quote": "this pact poses a threat to the world from the aspect that it could inspire millions of migrants", 
+                "test:type": "quote"
+            }, 
+            "test:the united states has pulled out hungary too now austria and poland is debating it as well": {
+                "test:quote": "the united states has pulled out hungary too now austria and poland is debating it as well", 
+                "test:type": "quote"
+            }, 
+            "test:lets never forget the lessons of the 1930s": {
+                "test:quote": "lets never forget the lessons of the 1930s", 
+                "test:type": "quote"
+            }, 
+            "test:a particularly alarming development is the rise of islamophobia which represents the recent manifestation of the ageold hatred that spawned antisemitism racism apartheid and many other forms of discrimination": {
+                "test:quote": "a particularly alarming development is the rise of islamophobia which represents the recent manifestation of the ageold hatred that spawned antisemitism racism apartheid and many other forms of discrimination", 
+                "test:type": "quote"
+            }, 
+            "test:hate speech isan attack on tolerance inclusion diversity and the very essence of our human rights norms and principles": {
+                "test:quote": "hate speech isan attack on tolerance inclusion diversity and the very essence of our human rights norms and principles", 
+                "test:type": "quote"
+            }, 
+            "test:emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric in the war on terror such as labeling criminal terrorists as islamic fascists islamic extremists": {
+                "test:quote": "emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric in the war on terror such as labeling criminal terrorists as islamic fascists islamic extremists", 
+                "test:type": "quote"
+            }, 
+            "test:we needed to strengthen the trust build trust": {
+                "test:quote": "we needed to strengthen the trust build trust", 
+                "test:type": "quote"
+            }, 
+            "test:the plan which was approved by un member states in july aims to boost international cooperation on migration": {
+                "test:quote": "the plan which was approved by un member states in july aims to boost international cooperation on migration", 
+                "test:type": "quote"
+            }, 
+            "test:this is a moment for all of us to come together to reverse the tide of hate and bigotry that threatens to undermine social solidarity and peaceful coexistence": {
+                "test:quote": "this is a moment for all of us to come together to reverse the tide of hate and bigotry that threatens to undermine social solidarity and peaceful coexistence", 
+                "test:type": "quote"
+            }, 
+            "test:promote independent objective and quality reporting of media outlets including internetbased information including by sensitizing and educating media professionals on migrationrelated issues and terminology investing in ethical reporting standards and adv": {
+                "test:quote": "promote independent objective and quality reporting of media outlets including internetbased information including by sensitizing and educating media professionals on migrationrelated issues and terminology investing in ethical reporting standards and advertising and stopping allocation of public funding or material support to media outlets that systematically promote intolerance xenophobia racism and other forms of discrimination towards migrants in full respect for the freedom of the media", 
+                "test:type": "quote"
+            }, 
+            "test:religion is not a problem but a part of the solution” he said while stressing that teaching in schools pulpits and through the internet do not foment intransigence and extremist radicalisation but dialogue respect for others and reconciliation": {
+                "test:quote": "religion is not a problem but a part of the solution” he said while stressing that teaching in schools pulpits and through the internet do not foment intransigence and extremist radicalisation but dialogue respect for others and reconciliation", 
+                "test:type": "quote"
+            }, 
+            "test:it was emphasized that muslims and western societies would have to address the issue with a sense of commitment to ending islamophobia islamophobia poses a threat not only to muslims but to the world at large": {
+                "test:quote": "it was emphasized that muslims and western societies would have to address the issue with a sense of commitment to ending islamophobia islamophobia poses a threat not only to muslims but to the world at large", 
+                "test:type": "quote"
+            }, 
+            "test:its main premise is that migration is a good and inevitable phenomenon": {
+                "test:quote": "its main premise is that migration is a good and inevitable phenomenon", 
+                "test:type": "quote"
+            }, 
+            "test:the organization is the collective voice of the muslim world espousing all causes close to the hearts of over 15 billion muslims of the world": {
+                "test:quote": "the organization is the collective voice of the muslim world espousing all causes close to the hearts of over 15 billion muslims of the world", 
+                "test:type": "quote"
+            }, 
+            "test:refugees and migrants are entitled to the same universal human rights and fundamental freedoms which must be respected protected and fulfilled at all times": {
+                "test:quote": "refugees and migrants are entitled to the same universal human rights and fundamental freedoms which must be respected protected and fulfilled at all times", 
+                "test:type": "quote"
+            }, 
+            "test:we believe that here our regulations our sovereign rules on border protection and migration control are our absolute priority": {
+                "test:quote": "we believe that here our regulations our sovereign rules on border protection and migration control are our absolute priority", 
+                "test:type": "quote"
+            }, 
+            "test:we have been in reactive mode": {
+                "test:quote": "we have been in reactive mode", 
+                "test:type": "quote"
+            }, 
+            "test:us president donald trump took america out of the pact in 2017": {
+                "test:quote": "us president donald trump took america out of the pact in 2017", 
+                "test:type": "quote"
+            }, 
+            "test:the idea is not merely to ban gratuitous ridicule — which by the way sensible people realize government should not do and under our constitution may not do even if they themselves are repulsed by gratuitous ridicule": {
+                "test:quote": "the idea is not merely to ban gratuitous ridicule — which by the way sensible people realize government should not do and under our constitution may not do even if they themselves are repulsed by gratuitous ridicule", 
+                "test:type": "quote"
+            }, 
+            "test:that’s the only issue they can talk about in the byelections": {
+                "test:quote": "that’s the only issue they can talk about in the byelections", 
+                "test:type": "quote"
+            }, 
+            "test:we regret the decision that the austrian government has taken": {
+                "test:quote": "we regret the decision that the austrian government has taken", 
+                "test:type": "quote"
+            }, 
+            "test:adama dieng special advisor on the prevention of genocide referred to the challenge of hate speech said in both liberal democracies and authoritarian regimes some political leaders are bringing the hatefuelled ideas and language of these groups into the m": {
+                "test:quote": "adama dieng special advisor on the prevention of genocide referred to the challenge of hate speech said in both liberal democracies and authoritarian regimes some political leaders are bringing the hatefuelled ideas and language of these groups into the mainstream”\n\naddressing hate speech should never be confused with suppressing freedom of expression", 
+                "test:type": "quote"
+            }, 
+            "test:facebook’s developers circlesa free communityled program for developers to connect learn and collaborated with other local developershave been started in lahore and karachi and would be launched in islamabad soon": {
+                "test:quote": "facebook’s developers circlesa free communityled program for developers to connect learn and collaborated with other local developershave been started in lahore and karachi and would be launched in islamabad soon", 
+                "test:type": "quote"
+            }, 
+            "test:our strategy focuses on interacting with the media academics and experts on various relevant topics in addition to engaging with western governments to raise awareness support the efforts of muslim civil society bodies in the west and engage the latter in": {
+                "test:quote": "our strategy focuses on interacting with the media academics and experts on various relevant topics in addition to engaging with western governments to raise awareness support the efforts of muslim civil society bodies in the west and engage the latter in developing plans and programs to counter islamophobia", 
+                "test:type": "quote"
+            }, 
+            "test:the point that was underscored in all these interactions was that islamophobia was gradually gaining inroads into the mindset of the common people in western societies a fact that has created a negative and distorted perception of islam": {
+                "test:quote": "the point that was underscored in all these interactions was that islamophobia was gradually gaining inroads into the mindset of the common people in western societies a fact that has created a negative and distorted perception of islam", 
+                "test:type": "quote"
+            }, 
+            "test:the question of whether this is an invidious way to start promoting a human right to migrate is not correct": {
+                "test:quote": "the question of whether this is an invidious way to start promoting a human right to migrate is not correct", 
+                "test:type": "quote"
+            }, 
+            "test:we consider migration a bad process which has extremely serious security implications": {
+                "test:quote": "we consider migration a bad process which has extremely serious security implications", 
+                "test:type": "quote"
+            }, 
+            "test:the polish prime minister said “our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us” it comes after poland clashed with the european union over national quotes for asylum seekers earlier ": {
+                "test:quote": "the polish prime minister said “our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us” it comes after poland clashed with the european union over national quotes for asylum seekers earlier this year", 
+                "test:type": "quote"
+            }, 
+            "test:the turkish envoy urged governments to work on increasing pluralism inclusiveness and creating equal opportunities for all": {
+                "test:quote": "the turkish envoy urged governments to work on increasing pluralism inclusiveness and creating equal opportunities for all", 
+                "test:type": "quote"
+            }, 
+            "test:hate is moving into the mainstream – in liberal democracies and authoritarian systems alike": {
+                "test:quote": "hate is moving into the mainstream – in liberal democracies and authoritarian systems alike", 
+                "test:type": "quote"
+            }, 
+            "test:we encourage the un and other relevant organisations to address this issue": {
+                "test:quote": "we encourage the un and other relevant organisations to address this issue", 
+                "test:type": "quote"
+            }, 
+            "test:mateusz morawiecki revealed that it is “very likely” poland will back out of the pact\n\nmateusz morawiecki spoke in warsaw with angela merkel\n\nsupporters have insisted it will not impact state sovereignty as it is not legally binding": {
+                "test:quote": "mateusz morawiecki revealed that it is “very likely” poland will back out of the pact\n\nmateusz morawiecki spoke in warsaw with angela merkel\n\nsupporters have insisted it will not impact state sovereignty as it is not legally binding", 
+                "test:type": "quote"
+            }, 
+            "test:what is needed more than ever is a humanrights based compassionate response to refugees’ needs based on global responsibility sharing not responsibility shirking": {
+                "test:quote": "what is needed more than ever is a humanrights based compassionate response to refugees’ needs based on global responsibility sharing not responsibility shirking", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "108620": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:the polish prime minister said “our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us” it comes after poland clashed with the european union over national quotes for asylum seekers earlier "
+            }, 
+            "108624": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:ms merkel who has faced heavy criticism for her decision to allow one million refugees into germany in 2015 voiced her support for the un pact that germany has worked “intensively” on"
+            }, 
+            "108628": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:the plan which was approved by un member states in july aims to boost international cooperation on migration"
+            }, 
+            "108395": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:its main premise is that migration is a good and inevitable phenomenon"
+            }, 
+            "108519": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:measures taken will be in line with international human rights norms and standards in particular the right to freedom of opinion and expression"
+            }, 
+            "108746": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:it is our responsibility to make sure that our children are taught to respect the other"
+            }, 
+            "108513": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:silence can signal indifference to bigotry and intolerance"
+            }, 
+            "108397": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:we consider migration a bad process which has extremely serious security implications"
+            }, 
+            "108511": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:as a matter of principle the united nations must confront hate speech at every turn"
+            }, 
+            "108800": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric in the war on terror such as labeling criminal terrorists as islamic fascists islamic extremists"
+            }, 
+            "108348": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:as a matter of principle the united nations must confront hate speech at every turn"
+            }, 
+            "108342": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:hate speech is…an attack on tolerance inclusion diversity and the very essence of our human rights norms and principles"
+            }, 
+            "108449": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:measures taken will be in line with international human rights norms and standards in particular the right to freedom of opinion and expression"
+            }, 
+            "108346": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:hate is moving into the mainstream – in liberal democracies and authoritarian systems alike"
+            }, 
+            "108656": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:it has been here for centuries"
+            }, 
+            "108678": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:we regret the decision that the austrian government has taken"
+            }, 
+            "108794": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:the point that was underscored in all these interactions was that islamophobia was gradually gaining inroads into the mindset of the common people in western societies a fact that has created a negative and distorted perception of islam"
+            }, 
+            "108616": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:mr morawiecki said poland was assessing the pact which is due to be implemented next month but added its own migration controls are its priority"
+            }, 
+            "108610": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:our sovereign principles on securing our borders and controlling migration flows are absolutely the priority for us"
+            }, 
+            "108612": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:it is very likely that  we will not be part of the global pact” poland follows the united states austria hungary and the czech republic in abandoning the plan"
+            }, 
+            "108694": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:within their sovereign jurisdiction states may distinguish between regular and irregular migration status"
+            }, 
+            "108444": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:addressing hate speech does not mean limiting or prohibiting freedom of speech"
+            }, 
+            "108447": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:promote independent objective and quality reporting of media outlets including internetbased information including by sensitizing and educating media professionals on migrationrelated issues and terminology investing in ethical reporting standards and adv"
+            }, 
+            "108690": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:it’s not in the text there’s no sinister project to advance that"
+            }, 
+            "108440": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:hate is moving into the mainstream – in liberal democracies and authoritarian systems alike"
+            }, 
+            "108442": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:as a matter of principle the united nations must confront hate speech at every turn"
+            }, 
+            "108754": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:we need to ensure that women play a full and active role in this process” the permanent observer of the holy see to the un archbishop bernardito auza said that protecting the right to freedom of religion conscience and belief was an essential first step"
+            }, 
+            "108560": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:children as young as 10 are trying to kill themselves"
+            }, 
+            "108566": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:sadly world leaders were not up to the challenge of delivering the bold and brave solutions that are so urgently needed"
+            }, 
+            "108750": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:the turkish envoy urged governments to work on increasing pluralism inclusiveness and creating equal opportunities for all"
+            }, 
+            "108564": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:it’s no wonder our government is trying to shirk scrutiny"
+            }, 
+            "108350": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:addressing hate speech does not mean limiting or prohibiting freedom of speech"
+            }, 
+            "108596": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:the united states has pulled out hungary too now austria and poland is debating it as well"
+            }, 
+            "108594": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:it’s not clearly interpreted and it could be abused"
+            }, 
+            "108592": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:we believe that here our regulations our sovereign rules on border protection and migration control are our absolute priority"
+            }, 
+            "108598": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:i don’t like the fact that it blurs the distinction between legal and illegal migration "
+            }, 
+            "108632": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:mateusz morawiecki revealed that it is “very likely” poland will back out of the pact\n\nmateusz morawiecki spoke in warsaw with angela merkel\n\nsupporters have insisted it will not impact state sovereignty as it is not legally binding"
+            }, 
+            "108602": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:we view some points of the migration pact very critically such as the mixing up of seeking protection with labour migration"
+            }, 
+            "108600": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:i will propose to partners in the government that we should do the same as austria and hungary"
+            }, 
+            "108604": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:one of its main objectives is to reduce if not to eliminate altogether unsafe chaotic illegal poorly managed migration which is in nobody’s interest – not the migrants not the host communities not the countries of origin"
+            }, 
+            "108578": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:you almost get a sense they miss them"
+            }, 
+            "108473": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:the biggest challenge that governments and institutions face today is to show that we care  and to mobilize solutions that respond to peoples fears and anxieties with answers"
+            }, 
+            "108686": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:the question of whether this is an invidious way to start promoting a ‘human right to migrate’ is not correct"
+            }, 
+            "108477": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance"
+            }, 
+            "108570": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:it’s the impact of lower migration numbers a positive one because if we’re bringing more productive people in then there’s more economic benefit for our country and there’s also greater societal benefit as well"
+            }, 
+            "108762": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:adama dieng special advisor on the prevention of genocide referred to the challenge of hate speech said in both liberal democracies and authoritarian regimes some political leaders are bringing the hatefuelled ideas and language of these groups into the m"
+            }, 
+            "108368": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:it will be a point of reference for years to come and induce real change on the ground"
+            }, 
+            "108574": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:i think the government is trying to goad the people smugglers and goad the boats"
+            }, 
+            "108766": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:instead it should keep it from escalating into something more dangerous particularly incitement to discrimination hostility and violence"
+            }, 
+            "108416": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance"
+            }, 
+            "108544": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:we’re not going to sign a deal that sacrifices anything in terms of our border protection policies"
+            }, 
+            "108814": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:the objective is to ban all critical examination of islam period"
+            }, 
+            "108810": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:the idea is not merely to ban gratuitous ridicule — which by the way sensible people realize government should not do and under our constitution may not do even if they themselves are repulsed by gratuitous ridicule"
+            }, 
+            "108548": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:we’ve fought hard for them"
+            }, 
+            "108372": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:refugees and migrants are entitled to the same universal human rights and fundamental freedoms which must be respected protected and fulfilled at all times"
+            }, 
+            "108370": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:in an effort to limit immigration from noneuefta countries swiss authorities impose strict annual limitations on the number of residence and work permits granted to foreigners"
+            }, 
+            "108469": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:present a global plan of action against hate speech and hate crimes on a fasttrack basis"
+            }, 
+            "108374": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:the question of whether this is an invidious way to start promoting a human right to migrate is not correct"
+            }, 
+            "108467": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:addressing hate speech does not mean limiting or prohibiting freedom of speech"
+            }, 
+            "108465": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:promote independent objective and quality reporting of media outlets including internetbased information including by sensitizing and educating media professionals on migrationrelated issues and terminology investing in ethical reporting standards and adv"
+            }, 
+            "108378": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:its not in the text theres no sinister project to advance that"
+            }, 
+            "108672": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:we needed to strengthen the trust build trust"
+            }, 
+            "108670": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:the issue of migration is highly political and there is naturally distrust or mistrust between countries on this"
+            }, 
+            "108798": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:to increase the interaction with media outlets and professionals while encouraging accurate and factualportrayal of islam"
+            }, 
+            "108742": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:hatred is taught it is acquired"
+            }, 
+            "108702": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:we encourage the un and other relevant organisations to address this issue"
+            }, 
+            "108552": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:we’re not going to surrender our sovereignty – i’m not going to allow unelected bodies dictate to us to the australian people"
+            }, 
+            "108700": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:a particularly alarming development is the rise of islamophobia which represents the recent manifestation of the ageold hatred that spawned antisemitism racism apartheid and many other forms of discrimination"
+            }, 
+            "108806": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:sharia forbids any speech — whether true or not — that casts islam in an unfavorable light dissents from settled muslim doctrine has the potential to sow discord within the ummah or entices muslims to renounce islam or convert to other faiths"
+            }, 
+            "108706": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:populist narratives are being exploited by demagogues as a strategy to achieve political objectives"
+            }, 
+            "108556": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:our government has detained 120 children in an island prison for five years"
+            }, 
+            "108704": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:as hatred is born in the mind education would be key to promoting peace and tolerance"
+            }, 
+            "108802": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:the european countries dont vote with us the united states doesnt vote with us"
+            }, 
+            "108708": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:in many parts of the world including our own region hateful rhetoric is being used to secure narrow political and electoral gains"
+            }, 
+            "108419": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:we hear troubling hateful echoes of eras long past"
+            }, 
+            "108668": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:the strength the force of the document is its practical value"
+            }, 
+            "108388": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:promote mutual respect for the cultures traditions and customs of communities of destination and of migrants by exchanging and implementing best practices on integration policies programmes and activities including on ways to promote acceptance of diversi"
+            }, 
+            "108386": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:provide newly arrived migrants with targeted genderresponsive childsensitive accessible and comprehensive information and legal guidance on their rights and obligations including on compliance with national and local laws obtaining of work and resident pe"
+            }, 
+            "108413": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:present a global plan of action against hate speech and hate crimes on a fasttrack basis"
+            }, 
+            "108384": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:establish open and accessible information points along relevant migration routes that can refer migrants to childsensitive and genderresponsive support and counselling offer opportunities to communicate with consular representatives of the country of orig"
+            }, 
+            "108666": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:we have been in reactive mode"
+            }, 
+            "108382": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:launch and publicize a centralized and publicly accessible national website to make information available on regular migration options such as on countryspecific immigration laws and policies visa requirements application formalities fees and conversion c"
+            }, 
+            "108660": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:it is here to stay for centuries more"
+            }, 
+            "108788": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:the organization is the collective voice of the muslim world espousing all causes close to the hearts of over 15 billion muslims of the world"
+            }, 
+            "108786": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:our strategy focuses on interacting with the media academics and experts on various relevant topics in addition to engaging with western governments to raise awareness support the efforts of muslim civil society bodies in the west and engage the latter in"
+            }, 
+            "108784": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:emphasis should be directed at avoidance of any link or association of islam with terrorism or the use of islamophobic rhetoric such as labeling criminal terrorists as islamic fascists islamic extremists"
+            }, 
+            "108712": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:our efforts to promote more peaceful societies must be founded on the most fundamental of human values that call for tolerance and respect for human life"
+            }, 
+            "108716": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:let this be a moment for all of us to come together to reverse the tide of hate and intolerance and its violent manifestations"
+            }, 
+            "108527": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:this is a moment for all of us to come together to reverse the tide of hate and bigotry that threatens to undermine social solidarity and peaceful coexistence"
+            }, 
+            "108525": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:we are fully committed to support the uns strategy on hate speech"
+            }, 
+            "108399": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:were not going to sign a deal that sacrifices anything in terms of our border protection policies were not going to surrender our sovereignty – im not going to allow unelected bodies dictate to us to the australian people"
+            }, 
+            "108523": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:a particularly alarming development is the rise of islamophobia which represents the recent manifestation of the ageold hatred that spawned antisemitism racism apartheid and many other forms of discrimination"
+            }, 
+            "108521": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:the un should establishstrengthen partnerships with relevant stakeholders including those working in the tech industry"
+            }, 
+            "108401": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:we view some points of the migration pact very critically such as the mixing up of seeking protection with labour migration"
+            }, 
+            "108403": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:we regret the decision that the austrian government has taken"
+            }, 
+            "108390": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:promote independent objective and quality reporting of media outlets including internetbased information including by sensitizing and educating media professionals on migrationrelated issues and terminology investing in ethical reporting standards and adv"
+            }, 
+            "108393": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/13263/un-migration-human-right", 
+                "prov:activity": "test:this pact poses a threat to the world from the aspect that it could inspire millions of migrants"
+            }, 
+            "108529": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:a whole of government and a whole of society approach was needed"
+            }, 
+            "108314": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:we need to enlist every segment of society in the battle for values that our world faces today – and in particular to tackle the rise of hate speech xenophobia and intolerance"
+            }, 
+            "108310": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:present a global plan of action against hate speech and hate crimes on a fasttrack basis"
+            }, 
+            "108682": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:i will be proposing to my partners in government that we act in the same way as austria or hungary"
+            }, 
+            "108790": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:to disseminate promote and preserve the islamic teachings and values based on moderation and tolerance promote islamic culture and safeguard islamic heritage"
+            }, 
+            "108792": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:to protect and defend the true image of islam to combat defamation of islam and encourage dialogue among civilisations and religions"
+            }, 
+            "108664": {
+                "prov:entity": "test:https://www.reuters.com/article/us-global-migration-pact/u-n-countries-agree-on-pact-to-manage-mass-global-migration-idUSKBN1K32YW", 
+                "prov:activity": "test:but we have never had an instrument that helps us to govern to manage this process"
+            }, 
+            "108318": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:we hear troubling hateful echoes of eras long past"
+            }, 
+            "108796": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/12975/killing-free-speech", 
+                "prov:activity": "test:it was emphasized that muslims and western societies would have to address the issue with a sense of commitment to ending islamophobia islamophobia poses a threat not only to muslims but to the world at large"
+            }, 
+            "108493": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:hate speech and hate crimes are direct threats to human rights"
+            }, 
+            "108680": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/nov/01/austria-criticised-not-signing-un-global-migration-compact-european-commission", 
+                "prov:activity": "test:we continue to believe that migration is a global challenge where only global solutions and global responsibility sharing will bring results"
+            }, 
+            "108497": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger"
+            }, 
+            "108434": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:that is the key to bring people along in defence of those values that are under such grave threat today"
+            }, 
+            "108437": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:hate speech is…an attack on tolerance inclusion diversity and the very essence of our human rights norms and principles"
+            }, 
+            "108728": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:violence driven by ideology can only be effectively countered by more powerful ideological arguments"
+            }, 
+            "108431": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger"
+            }, 
+            "108640": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:us president donald trump took america out of the pact in 2017"
+            }, 
+            "108724": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:in his remarks undersecretarygeneral of the united nations office of counterterrorism vladimir voronkov noted an alarming rise in hate speech xenophobia and other forms of bigotry which can incite violence”\n\nhe pointed to a resurgence of antisemitism an"
+            }, 
+            "108824": {
+                "prov:entity": "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "prov:activity": "test:lahore is one of the largest developer circles in the world with more than 2000 community members"
+            }, 
+            "108720": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:if we have to eliminate terrorism we must eliminate its root causes"
+            }, 
+            "108822": {
+                "prov:entity": "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "prov:activity": "test:facebook’s developers circlesa free communityled program for developers to connect learn and collaborated with other local developershave been started in lahore and karachi and would be launched in islamabad soon"
+            }, 
+            "108820": {
+                "prov:entity": "test:https://dailytimes.com.pk/3014/misuse-of-social-media-not-allowed-chaudhry-nisar/", 
+                "prov:activity": "test:we appreciate the understanding shown by the facebook administration and the cooperation being extended to us on these issues"
+            }, 
+            "108322": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:poisonous views are penetrating political debates and polluting the mainstream"
+            }, 
+            "108326": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:let’s never forget the lessons of the 1930s"
+            }, 
+            "108481": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:we hear troubling hateful echoes of eras long past"
+            }, 
+            "108485": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:poisonous views are penetrating political debates and polluting the mainstream"
+            }, 
+            "108489": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:lets never forget the lessons of the 1930s"
+            }, 
+            "108588": {
+                "prov:entity": "test:https://www.irishtimes.com/news/world/europe/poles-and-czechs-follow-austria-and-hungary-in-rejecting-un-migration-pact-1.3684210", 
+                "prov:activity": "test:it is very likely that like austria the czech republic and the united states we will not be part of the un global compact"
+            }, 
+            "108422": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:poisonous views are penetrating political debates and polluting the mainstream"
+            }, 
+            "108738": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:children are not born with hatred"
+            }, 
+            "108636": {
+                "prov:entity": "test:https://www.express.co.uk/news/world/1040349/poland-un-global-compact-for-migration-united-nations", 
+                "prov:activity": "test:but it has been met with increasing hostility as a number of key countries have pulled out"
+            }, 
+            "108425": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:let’s never forget the lessons of the 1930s"
+            }, 
+            "108732": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:we can no longer turn a blind eye to this phenomenon which is becoming more and more mainstream in several societies"
+            }, 
+            "108582": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:that’s the only issue they can talk about in the byelections"
+            }, 
+            "108428": {
+                "prov:entity": "test:https://www.technocracy.news/all-out-war-on-free-speech-launched-by-united-nations/", 
+                "prov:activity": "test:hate speech and hate crimes are direct threats to human rights"
+            }, 
+            "108736": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:we also need to take a closer look at the root causes of these phenomena"
+            }, 
+            "108734": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:all relevant actors including teachers community and religious leaders had an important role to educate the young generation"
+            }, 
+            "108501": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:that is the key to bring people along in defence of those values that are under such grave threat today"
+            }, 
+            "108505": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:hate speech isan attack on tolerance inclusion diversity and the very essence of our human rights norms and principles"
+            }, 
+            "108509": {
+                "prov:entity": "test:https://www.gatestoneinstitute.org/14516/united-nations-free-speech", 
+                "prov:activity": "test:according to the action plan hate is moving into the mainstream – in liberal democracies and authoritarian systems alike"
+            }, 
+            "108338": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:that is the key to bring people along in defence of those values that are under such grave threat today"
+            }, 
+            "108334": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:we need to be effective in both asserting our universal values and in addressing the root causes of fear mistrust anxiety and anger"
+            }, 
+            "108568": {
+                "prov:entity": "test:https://www.theguardian.com/australia-news/2018/jul/25/dutton-says-australia-wont-surrender-our-sovereignty-by-signing-un-migration-deal", 
+                "prov:activity": "test:what is needed more than ever is a humanrights based compassionate response to refugees’ needs based on global responsibility sharing not responsibility shirking"
+            }, 
+            "108330": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/all-out-war-on-free-speech-launched-by-united-nations.html", 
+                "prov:activity": "test:hate speech and hate crimes are direct threats to human rights"
+            }, 
+            "108758": {
+                "prov:entity": "test:https://www.thenews.com.pk/print/489762-pakistan-proposes-plan-at-un-to-address-faith-based-hatred-islamophobia", 
+                "prov:activity": "test:religion is not a problem but a part of the solution” he said while stressing that teaching in schools pulpits and through the internet do not foment intransigence and extremist radicalisation but dialogue respect for others and reconciliation"
+            }
+        }
+    }
+}

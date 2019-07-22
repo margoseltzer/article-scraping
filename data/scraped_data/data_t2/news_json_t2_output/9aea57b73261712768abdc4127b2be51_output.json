@@ -1,0 +1,249 @@
+{
+    "root": "https://www.bbc.com/news/world-us-canada-48972327", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "157276": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/business-48045138", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48972327"
+            }, 
+            "157288": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline"
+            }, 
+            "157292": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2019/02/14/technology/facebook-ftc-settlement.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline"
+            }, 
+            "157282": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage"
+            }, 
+            "157280": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48972327"
+            }, 
+            "157290": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2018/09/28/technology/facebook-hack-data-breach.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline"
+            }, 
+            "157286": {
+                "prov:usedEntity": "test:https://investor.fb.com/investor-news/press-release-details/2019/Facebook-Reports-First-Quarter-2019-Results/default.aspx", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline"
+            }, 
+            "157278": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48972327"
+            }, 
+            "157284": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/technology-45976300"
+            }
+        }, 
+        "wasAttributedTo": {
+            "157274": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained", 
+                "prov:agent": "test:www.bbc.co.uk"
+            }, 
+            "157268": {
+                "prov:entity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "157250": {
+                "prov:entity": "test:https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage", 
+                "prov:agent": "test:Cecilia Kang"
+            }, 
+            "157252": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:agent": "test:www.bbc.co.uk"
+            }, 
+            "157266": {
+                "prov:entity": "test:a company of its size and expertise should have known better and it should have done better", 
+                "prov:agent": "test:Elizabeth Denham"
+            }, 
+            "157272": {
+                "prov:entity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline", 
+                "prov:agent": "test:Mike Isaac"
+            }, 
+            "157270": {
+                "prov:entity": "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline", 
+                "prov:agent": "test:Cecilia Kang"
+            }, 
+            "157248": {
+                "prov:entity": "test:https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "157258": {
+                "prov:entity": "test:facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform", 
+                "prov:agent": "test:Denham"
+            }, 
+            "157236": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48972327", 
+                "prov:agent": "test:www.bbc.com"
+            }, 
+            "157242": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/business-48045138", 
+                "prov:agent": "test:www.bbc.co.uk"
+            }, 
+            "157240": {
+                "prov:entity": "test:with the ftc either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected its time for congress to act", 
+                "prov:agent": "test:Mark Warner"
+            }
+        }, 
+        "agent": {
+            "test:Denham": {
+                "test:name": "Denham", 
+                "test:type": "person"
+            }, 
+            "test:www.bbc.co.uk": {
+                "test:publisher": "www.bbc.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:www.bbc.com": {
+                "test:publisher": "www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Cecilia Kang": {
+                "test:name": "Cecilia Kang", 
+                "test:type": "person"
+            }, 
+            "test:Mike Isaac": {
+                "test:name": "Mike Isaac", 
+                "test:type": "person"
+            }, 
+            "test:Mark Warner": {
+                "test:name": "Mark Warner", 
+                "test:type": "person"
+            }, 
+            "test:Elizabeth Denham": {
+                "test:name": "Elizabeth Denham", 
+                "test:type": "person"
+            }, 
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://investor.fb.com/investor-news/press-release-details/2019/Facebook-Reports-First-Quarter-2019-Results/default.aspx": {
+                "test:url": "https://investor.fb.com/investor-news/press-release-details/2019/Facebook-Reports-First-Quarter-2019-Results/default.aspx", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/business-48045138": {
+                "test:url": "https://www.bbc.co.uk/news/business-48045138", 
+                "test:date": "", 
+                "test:title": "Facebook sets aside $3bn for privacy probe", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage": {
+                "test:url": "https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage", 
+                "test:date": "2019-07-12", 
+                "test:title": "F.T.C. Approves Facebook Fine of About $5 Billion", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/technology-45976300": {
+                "test:url": "https://www.bbc.co.uk/news/technology-45976300", 
+                "test:date": "", 
+                "test:title": "Facebook fined £500,000 for Cambridge Analytica scandal", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.com/news/world-us-canada-48972327": {
+                "test:url": "https://www.bbc.com/news/world-us-canada-48972327", 
+                "test:date": "", 
+                "test:title": "Facebook 'to be fined $5bn over Cambridge Analytica scandal'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2018/09/28/technology/facebook-hack-data-breach.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2018/09/28/technology/facebook-hack-data-breach.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2019/02/14/technology/facebook-ftc-settlement.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2019/02/14/technology/facebook-ftc-settlement.html?module=inline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained": {
+                "test:url": "https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained", 
+                "test:date": "", 
+                "test:title": "What is GDPR? Technology explained", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline", 
+                "test:date": "2019-04-24", 
+                "test:title": "Facebook Expects to Be Fined Up to $5 Billion by F.T.C. Over Privacy Issues", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:while we respectfully disagree with some of their findings we have said before that we should have done more to investigate claims about cambridge analytica and taken action in 2015": {
+                "test:quote": "while we respectfully disagree with some of their findings we have said before that we should have done more to investigate claims about cambridge analytica and taken action in 2015", 
+                "test:type": "quote"
+            }, 
+            "test:even after the misuse of the data was discovered in december 2015 facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action including deletion": {
+                "test:quote": "even after the misuse of the data was discovered in december 2015 facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action including deletion", 
+                "test:type": "quote"
+            }, 
+            "test:a company of its size and expertise should have known better and it should have done better": {
+                "test:quote": "a company of its size and expertise should have known better and it should have done better", 
+                "test:type": "quote"
+            }, 
+            "test:facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform": {
+                "test:quote": "facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform", 
+                "test:type": "quote"
+            }, 
+            "test:we had a good quarter and our business and community continued to grow": {
+                "test:quote": "we had a good quarter and our business and community continued to grow", 
+                "test:type": "quote"
+            }, 
+            "test:with the ftc either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected its time for congress to act": {
+                "test:quote": "with the ftc either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected its time for congress to act", 
+                "test:type": "quote"
+            }, 
+            "test:between 2007 and 2014 facebook processed the personal information of users unfairly by allowing application developers access to their information without sufficiently clear and informed consent and allowing access even if users had not downloaded the app": {
+                "test:quote": "between 2007 and 2014 facebook processed the personal information of users unfairly by allowing application developers access to their information without sufficiently clear and informed consent and allowing access even if users had not downloaded the app but were simply friends with people who had", 
+                "test:type": "quote"
+            }, 
+            "test:we are focused on building out our privacyfocused vision for the future of social networking and working collaboratively to address important issues around the internet": {
+                "test:quote": "we are focused on building out our privacyfocused vision for the future of social networking and working collaboratively to address important issues around the internet", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "157264": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:activity": "test:a company of its size and expertise should have known better and it should have done better"
+            }, 
+            "157238": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48972327", 
+                "prov:activity": "test:with the ftc either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected its time for congress to act"
+            }, 
+            "157254": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:activity": "test:between 2007 and 2014 facebook processed the personal information of users unfairly by allowing application developers access to their information without sufficiently clear and informed consent and allowing access even if users had not downloaded the app"
+            }, 
+            "157260": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:activity": "test:while we respectfully disagree with some of their findings we have said before that we should have done more to investigate claims about cambridge analytica and taken action in 2015"
+            }, 
+            "157256": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:activity": "test:facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform"
+            }, 
+            "157262": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/technology-45976300", 
+                "prov:activity": "test:even after the misuse of the data was discovered in december 2015 facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action including deletion"
+            }, 
+            "157246": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/business-48045138", 
+                "prov:activity": "test:we are focused on building out our privacyfocused vision for the future of social networking and working collaboratively to address important issues around the internet"
+            }, 
+            "157244": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/business-48045138", 
+                "prov:activity": "test:we had a good quarter and our business and community continued to grow"
+            }
+        }
+    }
+}

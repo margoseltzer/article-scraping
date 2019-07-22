@@ -1,0 +1,2271 @@
+{
+    "root": "https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "135319": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/"
+            }, 
+            "135277": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135357": {
+                "prov:usedEntity": "test:https://twitter.com/GlobalBC", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135275": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135351": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/"
+            }, 
+            "135353": {
+                "prov:usedEntity": "test:https://twitter.com/GraceKeGlobal/status/697116536801091585", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135361": {
+                "prov:usedEntity": "test:https://t.co/FsPPJcELiv", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135311": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135313": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/universite-de-montreal/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135315": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/Laurent-Lessard/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135317": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/"
+            }, 
+            "135279": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/adam-macvicar/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135345": {
+                "prov:usedEntity": "test:http://www.wpca.com/profile_detail.aspx?ID=53", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/"
+            }, 
+            "135369": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/98658/horse-lovers-demonstrate-in-montreal-urge-end-to-slaughter/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/"
+            }, 
+            "135377": {
+                "prov:usedEntity": "test:https://t.co/aAFn0OSXRO", 
+                "prov:generatedEntity": "test:https://t.co/84LDwAPid7"
+            }, 
+            "135365": {
+                "prov:usedEntity": "test:https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FRubysLegacy%2F%3Ffref%3Dts", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135383": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4068358/dog-chaine-duncan-neck-wound-animal-cruelty-spca/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/"
+            }, 
+            "135289": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/"
+            }, 
+            "135381": {
+                "prov:usedEntity": "test:https://twitter.com/NWestoll/status/980234000437514245?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://t.co/84LDwAPid7"
+            }, 
+            "135379": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/antler-kitchen-and-bar/", 
+                "prov:generatedEntity": "test:https://t.co/84LDwAPid7"
+            }, 
+            "135385": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4078261/duncan-dog-abuse-petition/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/"
+            }, 
+            "135283": {
+                "prov:usedEntity": "test:https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135281": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/phil-heidenreich/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135367": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3800631/seal-meat-toronto-restaurant/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/"
+            }, 
+            "135287": {
+                "prov:usedEntity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/"
+            }, 
+            "135285": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/jill-croteau/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "135325": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/"
+            }, 
+            "135327": {
+                "prov:usedEntity": "test:https://t.co/84LDwAPid7", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/"
+            }, 
+            "135355": {
+                "prov:usedEntity": "test:https://twitter.com/GraceKeGlobal/status/697124678876270592", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135321": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/"
+            }, 
+            "135323": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/"
+            }, 
+            "135329": {
+                "prov:usedEntity": "test:https://t.co/aAFn0OSXRO", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/"
+            }, 
+            "135347": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/"
+            }, 
+            "135309": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135343": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/"
+            }, 
+            "135341": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/bc-spca/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/"
+            }, 
+            "135303": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135375": {
+                "prov:usedEntity": "test:https://t.co/84LDwAPid7", 
+                "prov:generatedEntity": "test:https://t.co/84LDwAPid7"
+            }, 
+            "135301": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "135307": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135305": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/"
+            }, 
+            "135393": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/"
+            }, 
+            "135371": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/gnca-toronto/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/"
+            }, 
+            "135349": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/"
+            }, 
+            "135397": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3524871/chuckwagon-racer-lawsuit-husky-oil-death-injury-horses-saskatchewan-wayne-knight/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/"
+            }, 
+            "135387": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/2816299/driver-uninjured-in-rangeland-derby-chuckwagon-crash-at-2016-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/"
+            }, 
+            "135391": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/"
+            }, 
+            "135359": {
+                "prov:usedEntity": "test:https://t.co/7uoDYCeMoi", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135395": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/2816299/driver-uninjured-in-rangeland-derby-chuckwagon-crash-at-2016-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/"
+            }, 
+            "135299": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "135363": {
+                "prov:usedEntity": "test:https://rubyslegacy.wordpress.com/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/"
+            }, 
+            "135373": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:generatedEntity": "test:https://t.co/84LDwAPid7"
+            }, 
+            "135399": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/"
+            }, 
+            "135295": {
+                "prov:usedEntity": "test:http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "135297": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "135389": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/3331671/stampede-chuckwagon-auction-proceeds-up-slightly-from-2016/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/"
+            }, 
+            "135291": {
+                "prov:usedEntity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "135293": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "135333": {
+                "prov:usedEntity": "test:https://twitter.com/NWestoll/status/980234000437514245?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/"
+            }, 
+            "135331": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/antler-kitchen-and-bar/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/"
+            }, 
+            "135337": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/"
+            }, 
+            "135335": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/animal-cruelty/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/"
+            }, 
+            "135339": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "134946": {
+                "prov:entity": "test:had the calgary flames known that jaromir jagr was where he was they wouldn’t have signed him", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "134942": {
+                "prov:entity": "test:with my experience with dr leguillette and u of c medicine it’s gonna pan out", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "134728": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:agent": "test:Melissa Gilligan"
+            }, 
+            "134726": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134826": {
+                "prov:entity": "test:so it unfortunately led to euthanization", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "135237": {
+                "prov:entity": "test:we need to understand where the potential weaknesses are on these poles… then we need to get a design… that’s as best as we can design and then hopefully that eliminates any pole failures during competition", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "134822": {
+                "prov:entity": "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "135002": {
+                "prov:entity": "test:https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135004": {
+                "prov:entity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135006": {
+                "prov:entity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "prov:agent": "test:Leanne Wood-Hulme"
+            }, 
+            "135128": {
+                "prov:entity": "test:i suppose it was his way of taunting us or getting revenge", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135233": {
+                "prov:entity": "test:it’s not something that’s common but it’s something that’s possible", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "135122": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:agent": "test:Nick Westoll"
+            }, 
+            "135120": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:agent": "test:Digital Broadcast Journalist"
+            }, 
+            "135229": {
+                "prov:entity": "test:my goal is to gain a better understanding of why chuckwagon poles fail how they fail and to suggest some design changes to reduce the risk of failure", 
+                "prov:agent": "test:Pollock"
+            }, 
+            "134930": {
+                "prov:entity": "test:it’s a simple test you take a blood sample put it on the strip and it takes three or four minutes", 
+                "prov:agent": "test:Léguillette"
+            }, 
+            "134838": {
+                "prov:entity": "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment", 
+                "prov:agent": "test:Trev Miller"
+            }, 
+            "134934": {
+                "prov:entity": "test:then you have your results right away", 
+                "prov:agent": "test:Léguillette"
+            }, 
+            "134752": {
+                "prov:entity": "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries", 
+                "prov:agent": "test:Connell"
+            }, 
+            "134938": {
+                "prov:entity": "test:you get the results stallside that’s the benefit of it", 
+                "prov:agent": "test:Léguillette"
+            }, 
+            "134830": {
+                "prov:entity": "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "134756": {
+                "prov:entity": "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134834": {
+                "prov:entity": "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "135038": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:agent": "test:Spencer Gallichan-Lowe"
+            }, 
+            "135034": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135036": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:agent": "test:Bindu Suri"
+            }, 
+            "135032": {
+                "prov:entity": "test:we are still looking for a home for the goat but we are hopeful that a new guardian will be found soon", 
+                "prov:agent": "test:Moriarty"
+            }, 
+            "135136": {
+                "prov:entity": "test:it was obviously stressful for us since we’re there taking a stand for the animals — we love animals — and we’re seeing the leg of a dead animal in his window", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135132": {
+                "prov:entity": "test:i can can’t know because i haven’t had a conversation with him yet", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "134748": {
+                "prov:entity": "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core", 
+                "prov:agent": "test:Connell"
+            }, 
+            "134922": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134926": {
+                "prov:entity": "test:the study’s going to tell us how good the horse is running", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "135197": {
+                "prov:entity": "test:we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef", 
+                "prov:agent": "test:Laura Fracassi"
+            }, 
+            "134740": {
+                "prov:entity": "test:at this point there is no further appeal", 
+                "prov:agent": "test:Harden"
+            }, 
+            "134744": {
+                "prov:entity": "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him", 
+                "prov:agent": "test:Harden"
+            }, 
+            "134846": {
+                "prov:entity": "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity", 
+                "prov:agent": "test:Ficker"
+            }, 
+            "134842": {
+                "prov:entity": "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year", 
+                "prov:agent": "test:Peter Ficker"
+            }, 
+            "135028": {
+                "prov:entity": "test:this individual was running a petting zoo and trail riding company using compromised animals and allowing them to suffer", 
+                "prov:agent": "test:Marcie Moriarty"
+            }, 
+            "135249": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135020": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:agent": "test:Amy Judd"
+            }, 
+            "135024": {
+                "prov:entity": "test:we are very pleased that charges have been approved against mr bruvall as this is a very sad case where profits were clearly placed before the welfare of the animals in his care", 
+                "prov:agent": "test:Marcie Moriarty"
+            }, 
+            "135108": {
+                "prov:entity": "test:the dogs were kept in a filthy environment with high levels of ammonia from urine and have serious dental disease and badly matted fur", 
+                "prov:agent": "test:Kent Kokoska"
+            }, 
+            "135080": {
+                "prov:entity": "test:he was having a really good turn of the barrels", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "135102": {
+                "prov:entity": "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135104": {
+                "prov:entity": "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "prov:agent": "test:Paula Baker"
+            }, 
+            "134916": {
+                "prov:entity": "test:we are not surprised by the report’s negative findings since mr roy had already publicly announced his position on rodeos even before undertaking his analysis", 
+                "prov:agent": "test:Lafrenière"
+            }, 
+            "134912": {
+                "prov:entity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134994": {
+                "prov:entity": "test:just really really nasty cruel messages", 
+                "prov:agent": "test:Marni Ugar"
+            }, 
+            "134990": {
+                "prov:entity": "test:we have a full house which is not unlike other saturdays here", 
+                "prov:agent": "test:Laura Fracassi"
+            }, 
+            "134854": {
+                "prov:entity": "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "134998": {
+                "prov:entity": "test:looking back at all of my posts over the last couple of years and posting pictures of dead animals saying things like ‘mmm bacon", 
+                "prov:agent": "test:Marni Ugar"
+            }, 
+            "134850": {
+                "prov:entity": "test:those are all things that could be looked at and perhaps the race could be made safer", 
+                "prov:agent": "test:Ficker"
+            }, 
+            "135225": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:agent": "test:Heide Pearson"
+            }, 
+            "135116": {
+                "prov:entity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/", 
+                "prov:agent": "test:Amy Judd"
+            }, 
+            "135114": {
+                "prov:entity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/", 
+                "prov:agent": "test:Online Supervisor Bc"
+            }, 
+            "135112": {
+                "prov:entity": "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135118": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135215": {
+                "prov:entity": "test:he had his surgery to remove necrotic tissue from his neck and is recovering in our clinic right now", 
+                "prov:agent": "test:Christy King"
+            }, 
+            "135211": {
+                "prov:entity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:agent": "test:Sean Boynton"
+            }, 
+            "135058": {
+                "prov:entity": "test:the ground the dirt — everything is inspected", 
+                "prov:agent": "test:Obrey Motowylo"
+            }, 
+            "135054": {
+                "prov:entity": "test:track conditions were good in the stampede’s judgement", 
+                "prov:agent": "test:Obrey Motowylo"
+            }, 
+            "135219": {
+                "prov:entity": "test:he’s shown some aggression so we’re waiting for him to heal and then we’ll assess his behaviour and see if he’s able to be put up for adoption", 
+                "prov:agent": "test:Duncan"
+            }, 
+            "134909": {
+                "prov:entity": "test:that’s what the competitors and owners want too", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134920": {
+                "prov:entity": "test:the treatment of horses bulls steers and calves in rodeos is irreconcilable with the provisions of the new law according to which animals are no longer objects but ‘beings endowed with sentience’ whose welfare and safety must be assured", 
+                "prov:agent": "test:Roy"
+            }, 
+            "134901": {
+                "prov:entity": "test:without the health and safety of the animals we wouldn’t have a rodeo", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134905": {
+                "prov:entity": "test:we wouldn’t have chuckwagon races", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134868": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134982": {
+                "prov:entity": "test:we will keep protesting until we sit down with the owner to make menu changes – that’s the reason we do these protests", 
+                "prov:agent": "test:Marni Ugar"
+            }, 
+            "134860": {
+                "prov:entity": "test:obviously we have some very fundamental disagreements in animals participating in sport", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "134864": {
+                "prov:entity": "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "134866": {
+                "prov:entity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:agent": "test:www.calgarystampede.com"
+            }, 
+            "135160": {
+                "prov:entity": "test:an animal’s life is an animal’s life … if this restaurant had several vegan options but was serving humanelyraised dogs and cats everybody would be on our side", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135164": {
+                "prov:entity": "test:i don’t see the difference between a deer and a dog a cow and a cat — i don’t understand", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135168": {
+                "prov:entity": "test:i’m not sure if i want to do that", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "134776": {
+                "prov:entity": "test:seeing injuries despite the best and safest conditions possible is hard", 
+                "prov:agent": "test:Connell"
+            }, 
+            "135207": {
+                "prov:entity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134772": {
+                "prov:entity": "test:this was the result of driver error and has been determined a fatality that could have been avoided", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "135044": {
+                "prov:entity": "test:obrey came around that fourth barrel his wagon tipped to the right", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "135209": {
+                "prov:entity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:agent": "test:Online Journalist"
+            }, 
+            "135040": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:agent": "test:Phil Heidenreich"
+            }, 
+            "135267": {
+                "prov:entity": "test:that’s obviously not our goal", 
+                "prov:agent": "test:Mike Piper"
+            }, 
+            "134874": {
+                "prov:entity": "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "135263": {
+                "prov:entity": "test:nobody ever wants to lose an animal anywhere on stampede park", 
+                "prov:agent": "test:Mike Piper"
+            }, 
+            "134870": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:agent": "test:Cami Kepke"
+            }, 
+            "134878": {
+                "prov:entity": "test:we need to have information about what that means", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "134978": {
+                "prov:entity": "test:animals are not ours to use", 
+                "prov:agent": "test:Marni Ugar"
+            }, 
+            "134972": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:agent": "test:Nick Westoll"
+            }, 
+            "134970": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:agent": "test:Digital Broadcast Journalist"
+            }, 
+            "135172": {
+                "prov:entity": "test:i certainly would like to sit down and talk to him", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135174": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:agent": "test:t.co"
+            }, 
+            "135176": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:agent": "test:Digital Broadcast Journalist"
+            }, 
+            "135178": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:agent": "test:Nick Westoll"
+            }, 
+            "134760": {
+                "prov:entity": "test:on wednesday a horse sustained a fractured rightfront radius while running", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134764": {
+                "prov:entity": "test:neither of these injuries are specific to chuckwagon racing", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "135072": {
+                "prov:entity": "test:i said 100 per cent i would do that for him ‘cause i know he would do the same for me if i was in that situation", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "134768": {
+                "prov:entity": "test:due to interference and contact from another wagon a horse sustained severe injuries", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "134893": {
+                "prov:entity": "test:i think the time of this type of sport has got to end", 
+                "prov:agent": "test:Anderson"
+            }, 
+            "135076": {
+                "prov:entity": "test:i don’t think i would have done anything different from obrey", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "135251": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:agent": "test:Melissa Gilligan"
+            }, 
+            "134804": {
+                "prov:entity": "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "135092": {
+                "prov:entity": "test:it’s rare that it happens", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "135259": {
+                "prov:entity": "test:we do our very best to prevent all injuries", 
+                "prov:agent": "test:Mike Piper"
+            }, 
+            "134808": {
+                "prov:entity": "test:we want to know what happened to that horse", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "135096": {
+                "prov:entity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "prov:agent": "test:Spencer Gallichan-Lowe"
+            }, 
+            "135094": {
+                "prov:entity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134968": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134964": {
+                "prov:entity": "test:the bc spca has a number of web and print resources that outline the difference between legitimate breeders and puppy mills", 
+                "prov:agent": "test:Moriarty"
+            }, 
+            "134960": {
+                "prov:entity": "test:we are very pleased with the charges and we hope this sends a message that this type of neglect and cruelty is not acceptable to british columbians", 
+                "prov:agent": "test:Moriarty"
+            }, 
+            "134889": {
+                "prov:entity": "test:there’s really no way to make this comfortable for the animals", 
+                "prov:agent": "test:Anderson"
+            }, 
+            "135148": {
+                "prov:entity": "test:ultimately the reason i chose antler is because my goal is to debunk the ethical meat myth which is what antler is known for", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "134882": {
+                "prov:entity": "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "135140": {
+                "prov:entity": "test:we aren’t surprised by the protest as it’s not the first we have had", 
+                "prov:agent": "test:Jennifer Sidhu"
+            }, 
+            "135068": {
+                "prov:entity": "test:he asked me to drive for him tonight", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "135221": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134792": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:Melissa Gilligan"
+            }, 
+            "135223": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:agent": "test:Online Journalist"
+            }, 
+            "134790": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:Heide Pearson"
+            }, 
+            "135088": {
+                "prov:entity": "test:that’s just something that’s unfortunate", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "134732": {
+                "prov:entity": "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date", 
+                "prov:agent": "test:Mike Whittle"
+            }, 
+            "134812": {
+                "prov:entity": "test:the owner wants to know what happened to that horse and why that happened", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "134814": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134736": {
+                "prov:entity": "test:he could apply by sept 1 in any given year", 
+                "prov:agent": "test:Mike Whittle"
+            }, 
+            "134816": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:Adam Macvicar"
+            }, 
+            "134818": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:Kaylen Small"
+            }, 
+            "135245": {
+                "prov:entity": "test:i’m going to be able to tell a couple things about the safety factors of some aspects of the pole to the stampede this year", 
+                "prov:agent": "test:Pollock"
+            }, 
+            "135084": {
+                "prov:entity": "test:he has some great horses over there", 
+                "prov:agent": "test:McCurrach"
+            }, 
+            "135241": {
+                "prov:entity": "test:it’s cutting corners and user error that cause the failures that i’ve seen", 
+                "prov:agent": "test:Pollock"
+            }, 
+            "134950": {
+                "prov:entity": "test:i’m not saying it’s going to be a miracle that i can tell these horses are going to be my stars but it’s gonna help", 
+                "prov:agent": "test:Mark Sutherland"
+            }, 
+            "134952": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134954": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:agent": "test:Emily Lazatin"
+            }, 
+            "134956": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:agent": "test:Estefania Duran"
+            }, 
+            "135010": {
+                "prov:entity": "test:with resources available to help people who are unable to care for their pets there really is no excuse when it comes to neglecting to care for your animals", 
+                "prov:agent": "test:Bonnie Bishop"
+            }, 
+            "135016": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "135014": {
+                "prov:entity": "test:if you find yourself unable to provide proper care for your animals contact your local ontario spca animal centre or humane society to discuss resources and options", 
+                "prov:agent": "test:Bonnie Bishop"
+            }, 
+            "135018": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:agent": "test:Online Supervisor Bc"
+            }, 
+            "134897": {
+                "prov:entity": "test:we are in a more humane society than we were when it all began and it’s time it ended", 
+                "prov:agent": "test:Anderson"
+            }, 
+            "135144": {
+                "prov:entity": "test:we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef", 
+                "prov:agent": "test:Antler Kitchen"
+            }, 
+            "134788": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "134784": {
+                "prov:entity": "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86", 
+                "prov:agent": "test:Trev Miller"
+            }, 
+            "134780": {
+                "prov:entity": "test:knowing an injury was avoidable is much harder", 
+                "prov:agent": "test:Connell"
+            }
+        }, 
+        "agent": {
+            "test:Melissa Gilligan": {
+                "test:name": "Melissa Gilligan", 
+                "test:type": "person"
+            }, 
+            "test:Pajor": {
+                "test:name": "Pajor", 
+                "test:type": "person"
+            }, 
+            "test:Barnes": {
+                "test:name": "Barnes", 
+                "test:type": "person"
+            }, 
+            "test:Emily Lazatin": {
+                "test:name": "Emily Lazatin", 
+                "test:type": "person"
+            }, 
+            "test:Online Journalist": {
+                "test:name": "Online Journalist", 
+                "test:type": "person"
+            }, 
+            "test:Leanne Wood-Hulme": {
+                "test:name": "Leanne Wood-Hulme", 
+                "test:type": "person"
+            }, 
+            "test:Digital Broadcast Journalist": {
+                "test:name": "Digital Broadcast Journalist", 
+                "test:type": "person"
+            }, 
+            "test:Nick Westoll": {
+                "test:name": "Nick Westoll", 
+                "test:type": "person"
+            }, 
+            "test:Peter Ficker": {
+                "test:name": "Peter Ficker", 
+                "test:type": "person"
+            }, 
+            "test:Trev Miller": {
+                "test:name": "Trev Miller", 
+                "test:type": "person"
+            }, 
+            "test:Online Supervisor Bc": {
+                "test:name": "Online Supervisor Bc", 
+                "test:type": "person"
+            }, 
+            "test:Kristina Barnes": {
+                "test:name": "Kristina Barnes", 
+                "test:type": "person"
+            }, 
+            "test:Connell": {
+                "test:name": "Connell", 
+                "test:type": "person"
+            }, 
+            "test:McCurrach": {
+                "test:name": "McCurrach", 
+                "test:type": "person"
+            }, 
+            "test:Bonnie Bishop": {
+                "test:name": "Bonnie Bishop", 
+                "test:type": "person"
+            }, 
+            "test:Harden": {
+                "test:name": "Harden", 
+                "test:type": "person"
+            }, 
+            "test:Duncan": {
+                "test:name": "Duncan", 
+                "test:type": "person"
+            }, 
+            "test:Christy King": {
+                "test:name": "Christy King", 
+                "test:type": "person"
+            }, 
+            "test:Paula Baker": {
+                "test:name": "Paula Baker", 
+                "test:type": "person"
+            }, 
+            "test:Pollock": {
+                "test:name": "Pollock", 
+                "test:type": "person"
+            }, 
+            "test:Mark Sutherland": {
+                "test:name": "Mark Sutherland", 
+                "test:type": "person"
+            }, 
+            "test:Mike Piper": {
+                "test:name": "Mike Piper", 
+                "test:type": "person"
+            }, 
+            "test:Estefania Duran": {
+                "test:name": "Estefania Duran", 
+                "test:type": "person"
+            }, 
+            "test:www.calgarystampede.com": {
+                "test:publisher": "www.calgarystampede.com", 
+                "test:type": "publisher"
+            }, 
+            "test:globalnews.ca": {
+                "test:publisher": "globalnews.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Anderson": {
+                "test:name": "Anderson", 
+                "test:type": "person"
+            }, 
+            "test:Obrey Motowylo": {
+                "test:name": "Obrey Motowylo", 
+                "test:type": "person"
+            }, 
+            "test:Mike Whittle": {
+                "test:name": "Mike Whittle", 
+                "test:type": "person"
+            }, 
+            "test:Roy": {
+                "test:name": "Roy", 
+                "test:type": "person"
+            }, 
+            "test:Spencer Gallichan-Lowe": {
+                "test:name": "Spencer Gallichan-Lowe", 
+                "test:type": "person"
+            }, 
+            "test:Laura Fracassi": {
+                "test:name": "Laura Fracassi", 
+                "test:type": "person"
+            }, 
+            "test:Cami Kepke": {
+                "test:name": "Cami Kepke", 
+                "test:type": "person"
+            }, 
+            "test:Bindu Suri": {
+                "test:name": "Bindu Suri", 
+                "test:type": "person"
+            }, 
+            "test:Marni Ugar": {
+                "test:name": "Marni Ugar", 
+                "test:type": "person"
+            }, 
+            "test:t.co": {
+                "test:publisher": "t.co", 
+                "test:type": "publisher"
+            }, 
+            "test:Antler Kitchen": {
+                "test:name": "Antler Kitchen", 
+                "test:type": "person"
+            }, 
+            "test:Kaylen Small": {
+                "test:name": "Kaylen Small", 
+                "test:type": "person"
+            }, 
+            "test:Sean Boynton": {
+                "test:name": "Sean Boynton", 
+                "test:type": "person"
+            }, 
+            "test:Ficker": {
+                "test:name": "Ficker", 
+                "test:type": "person"
+            }, 
+            "test:Jennifer Sidhu": {
+                "test:name": "Jennifer Sidhu", 
+                "test:type": "person"
+            }, 
+            "test:Amy Judd": {
+                "test:name": "Amy Judd", 
+                "test:type": "person"
+            }, 
+            "test:Léguillette": {
+                "test:name": "Léguillette", 
+                "test:type": "person"
+            }, 
+            "test:Adam Macvicar": {
+                "test:name": "Adam Macvicar", 
+                "test:type": "person"
+            }, 
+            "test:Phil Heidenreich": {
+                "test:name": "Phil Heidenreich", 
+                "test:type": "person"
+            }, 
+            "test:Lafrenière": {
+                "test:name": "Lafrenière", 
+                "test:type": "person"
+            }, 
+            "test:Marcie Moriarty": {
+                "test:name": "Marcie Moriarty", 
+                "test:type": "person"
+            }, 
+            "test:Heide Pearson": {
+                "test:name": "Heide Pearson", 
+                "test:type": "person"
+            }, 
+            "test:Moriarty": {
+                "test:name": "Moriarty", 
+                "test:type": "person"
+            }, 
+            "test:Kent Kokoska": {
+                "test:name": "Kent Kokoska", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/": {
+                "test:url": "https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "test:date": "2018-04-06", 
+                "test:title": "Owner of Revelstoke Petting Zoo charged with animal cruelty", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/": {
+                "test:url": "https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "test:date": "2018-03-16", 
+                "test:title": "Animal cruelty charges laid against two West Grey residents", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/": {
+                "test:url": "https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "test:date": "2017-07-10", 
+                "test:title": "Improving chuckwagon safety the focus of new University of Calgary research", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/author/adam-macvicar/": {
+                "test:url": "https://globalnews.ca/author/adam-macvicar/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/": {
+                "test:url": "https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "test:date": "2018-03-31", 
+                "test:title": "‘No excuse for animal abuse’: Vegan activists protest at controversial Toronto restaurant", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/antler-kitchen-and-bar/": {
+                "test:url": "https://globalnews.ca/tag/antler-kitchen-and-bar/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/author/phil-heidenreich/": {
+                "test:url": "https://globalnews.ca/author/phil-heidenreich/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/GraceKeGlobal/status/697124678876270592": {
+                "test:url": "https://twitter.com/GraceKeGlobal/status/697124678876270592", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/2816299/driver-uninjured-in-rangeland-derby-chuckwagon-crash-at-2016-calgary-stampede/": {
+                "test:url": "https://globalnews.ca/news/2816299/driver-uninjured-in-rangeland-derby-chuckwagon-crash-at-2016-calgary-stampede/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3524871/chuckwagon-racer-lawsuit-husky-oil-death-injury-horses-saskatchewan-wayne-knight/": {
+                "test:url": "https://globalnews.ca/news/3524871/chuckwagon-racer-lawsuit-husky-oil-death-injury-horses-saskatchewan-wayne-knight/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby": {
+                "test:url": "https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "test:date": "", 
+                "test:title": "GMC Rangeland Derby & Chuckwagon Races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/": {
+                "test:url": "https://globalnews.ca/news/4081778/couple-arrested-animal-cruelty-charges-caledon-opp/", 
+                "test:date": "2018-03-13", 
+                "test:title": "Man, woman travelling from China arrested by OPP on outstanding animal cruelty charges from 2005", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/": {
+                "test:url": "https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "test:date": "2019-07-09", 
+                "test:title": "Horse dies at 2019 GMC Rangeland Derby chuckwagon races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4078261/duncan-dog-abuse-petition/": {
+                "test:url": "https://globalnews.ca/news/4078261/duncan-dog-abuse-petition/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/calgary-stampede/": {
+                "test:url": "https://globalnews.ca/tag/calgary-stampede/", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/FsPPJcELiv": {
+                "test:url": "https://t.co/FsPPJcELiv", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/98658/horse-lovers-demonstrate-in-montreal-urge-end-to-slaughter/": {
+                "test:url": "https://globalnews.ca/news/98658/horse-lovers-demonstrate-in-montreal-urge-end-to-slaughter/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/": {
+                "test:url": "https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "test:date": "2018-07-12", 
+                "test:title": "Horse euthanized after Calgary Stampede chuckwagon race", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/": {
+                "test:url": "https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "test:date": "2018-03-27", 
+                "test:title": "Toronto restaurant owner cuts animal leg at front window while vegan protest occurs outside: activists", 
+                "test:type": "article"
+            }, 
+            "test:https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed": {
+                "test:url": "https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/3331671/stampede-chuckwagon-auction-proceeds-up-slightly-from-2016/": {
+                "test:url": "https://globalnews.ca/news/3331671/stampede-chuckwagon-auction-proceeds-up-slightly-from-2016/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/": {
+                "test:url": "https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "test:date": "2017-12-20", 
+                "test:title": "3 people charged with animal cruelty in ‘Langley 66’ puppy mill seizure", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/bc-spca/": {
+                "test:url": "https://globalnews.ca/tag/bc-spca/", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/84LDwAPid7": {
+                "test:url": "https://t.co/84LDwAPid7", 
+                "test:date": "2018-03-31", 
+                "test:title": "‘No excuse for animal abuse’: Vegan activists protest at controversial Toronto restaurant", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/7uoDYCeMoi": {
+                "test:url": "https://t.co/7uoDYCeMoi", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/": {
+                "test:url": "https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "test:date": "2018-07-11", 
+                "test:title": "Chuckwagon driver in good spirits after injury in race at Calgary Stampede", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/aAFn0OSXRO": {
+                "test:url": "https://t.co/aAFn0OSXRO", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/universite-de-montreal/": {
+                "test:url": "https://globalnews.ca/tag/universite-de-montreal/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/gnca-toronto/": {
+                "test:url": "https://globalnews.ca/tag/gnca-toronto/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/": {
+                "test:url": "https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "test:date": "2018-03-13", 
+                "test:title": "BC SPCA identifies owner of dog found near Yahk with chain collar embedded in neck", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/": {
+                "test:url": "https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "test:date": "2017-04-24", 
+                "test:title": "BC SPCA removes 30 animals from puppy breeder near Lillooet", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/": {
+                "test:url": "https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "test:date": "2018-04-11", 
+                "test:title": "Quebec rodeos violated province’s animal welfare laws: professor", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/": {
+                "test:url": "https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "test:date": "2019-07-10", 
+                "test:title": "Second horse dies at 2019 Calgary Stampede chuckwagon races", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/GraceKeGlobal/status/697116536801091585": {
+                "test:url": "https://twitter.com/GraceKeGlobal/status/697116536801091585", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/animal-cruelty/": {
+                "test:url": "https://globalnews.ca/tag/animal-cruelty/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4068358/dog-chaine-duncan-neck-wound-animal-cruelty-spca/": {
+                "test:url": "https://globalnews.ca/news/4068358/dog-chaine-duncan-neck-wound-animal-cruelty-spca/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3800631/seal-meat-toronto-restaurant/": {
+                "test:url": "https://globalnews.ca/news/3800631/seal-meat-toronto-restaurant/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FRubysLegacy%2F%3Ffref%3Dts": {
+                "test:url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FRubysLegacy%2F%3Ffref%3Dts", 
+                "test:type": "reference"
+            }, 
+            "test:http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm": {
+                "test:url": "http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/author/jill-croteau/": {
+                "test:url": "https://globalnews.ca/author/jill-croteau/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/NWestoll/status/980234000437514245?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/NWestoll/status/980234000437514245?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/": {
+                "test:url": "https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "test:date": "2019-07-08", 
+                "test:title": "University of Calgary studying stressors, injury in Stampede bulls", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/": {
+                "test:url": "https://globalnews.ca/news/2506017/bc-spca-expected-to-comment-on-large-seizure-of-dogs/", 
+                "test:date": "2016-02-09", 
+                "test:title": "BC SPCA seize 66 dogs from Langley puppy mill", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/": {
+                "test:url": "https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "test:date": "2017-07-10", 
+                "test:title": "Horse euthanized at Calgary Stampede after fracturing leg in chuckwagon races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/": {
+                "test:url": "https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Chuckwagon driver fined, disqualified after 3rd horse death at Calgary Stampede", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/": {
+                "test:url": "https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "test:date": "2018-07-12", 
+                "test:title": "Veteran chuckwagon driver joins University of Calgary study meant to improve safety for outriders, horses", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/GlobalBC": {
+                "test:url": "https://twitter.com/GlobalBC", 
+                "test:type": "reference"
+            }, 
+            "test:https://rubyslegacy.wordpress.com/": {
+                "test:url": "https://rubyslegacy.wordpress.com/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.wpca.com/profile_detail.aspx?ID=53": {
+                "test:url": "http://www.wpca.com/profile_detail.aspx?ID=53", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/Laurent-Lessard/": {
+                "test:url": "https://globalnews.ca/tag/Laurent-Lessard/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:it’s rare that it happens": {
+                "test:quote": "it’s rare that it happens", 
+                "test:type": "quote"
+            }, 
+            "test:obviously we have some very fundamental disagreements in animals participating in sport": {
+                "test:quote": "obviously we have some very fundamental disagreements in animals participating in sport", 
+                "test:type": "quote"
+            }, 
+            "test:we are not surprised by the report’s negative findings since mr roy had already publicly announced his position on rodeos even before undertaking his analysis": {
+                "test:quote": "we are not surprised by the report’s negative findings since mr roy had already publicly announced his position on rodeos even before undertaking his analysis", 
+                "test:type": "quote"
+            }, 
+            "test:he had his surgery to remove necrotic tissue from his neck and is recovering in our clinic right now": {
+                "test:quote": "he had his surgery to remove necrotic tissue from his neck and is recovering in our clinic right now", 
+                "test:type": "quote"
+            }, 
+            "test:the study’s going to tell us how good the horse is running": {
+                "test:quote": "the study’s going to tell us how good the horse is running", 
+                "test:type": "quote"
+            }, 
+            "test:we urge people to arm themselves with knowledge and to immediately call our animal cruelty hotline 18556227722 to report any suspicious situations where animals may be in distress": {
+                "test:quote": "we urge people to arm themselves with knowledge and to immediately call our animal cruelty hotline 18556227722 to report any suspicious situations where animals may be in distress", 
+                "test:type": "quote"
+            }, 
+            "test:an animal’s life is an animal’s life … if this restaurant had several vegan options but was serving humanelyraised dogs and cats everybody would be on our side": {
+                "test:quote": "an animal’s life is an animal’s life … if this restaurant had several vegan options but was serving humanelyraised dogs and cats everybody would be on our side", 
+                "test:type": "quote"
+            }, 
+            "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible": {
+                "test:quote": "but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible", 
+                "test:type": "quote"
+            }, 
+            "test:at this point there is no further appeal": {
+                "test:quote": "at this point there is no further appeal", 
+                "test:type": "quote"
+            }, 
+            "test:he has some great horses over there": {
+                "test:quote": "he has some great horses over there", 
+                "test:type": "quote"
+            }, 
+            "test:it’s a simple test you take a blood sample put it on the strip and it takes three or four minutes": {
+                "test:quote": "it’s a simple test you take a blood sample put it on the strip and it takes three or four minutes", 
+                "test:type": "quote"
+            }, 
+            "test:the ground the dirt — everything is inspected": {
+                "test:quote": "the ground the dirt — everything is inspected", 
+                "test:type": "quote"
+            }, 
+            "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core": {
+                "test:quote": "we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core", 
+                "test:type": "quote"
+            }, 
+            "test:we’re used to that we see it all the time — but not thousands of messages": {
+                "test:quote": "we’re used to that we see it all the time — but not thousands of messages", 
+                "test:type": "quote"
+            }, 
+            "test:the owner wants to know what happened to that horse and why that happened": {
+                "test:quote": "the owner wants to know what happened to that horse and why that happened", 
+                "test:type": "quote"
+            }, 
+            "test:we’re out there to educate the public": {
+                "test:quote": "we’re out there to educate the public", 
+                "test:type": "quote"
+            }, 
+            "test:we do our very best to prevent all injuries": {
+                "test:quote": "we do our very best to prevent all injuries", 
+                "test:type": "quote"
+            }, 
+            "test:it’s a very sensitive issue for the driver and their family – it’s like a family member to them as well": {
+                "test:quote": "it’s a very sensitive issue for the driver and their family – it’s like a family member to them as well", 
+                "test:type": "quote"
+            }, 
+            "test:this isn’t about attacking or targeting": {
+                "test:quote": "this isn’t about attacking or targeting", 
+                "test:type": "quote"
+            }, 
+            "test:then over the next several years probably we’ll kind of incrementally learn everything we can and design is going to get better every year": {
+                "test:quote": "then over the next several years probably we’ll kind of incrementally learn everything we can and design is going to get better every year", 
+                "test:type": "quote"
+            }, 
+            "test:we are in a more humane society than we were when it all began and it’s time it ended": {
+                "test:quote": "we are in a more humane society than we were when it all began and it’s time it ended", 
+                "test:type": "quote"
+            }, 
+            "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment": {
+                "test:quote": "what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment", 
+                "test:type": "quote"
+            }, 
+            "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86": {
+                "test:quote": "the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86", 
+                "test:type": "quote"
+            }, 
+            "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible": {
+                "test:quote": "no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "test:type": "quote"
+            }, 
+            "test:so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection": {
+                "test:quote": "so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection", 
+                "test:type": "quote"
+            }, 
+            "test:we are still looking for a home for the goat but we are hopeful that a new guardian will be found soon": {
+                "test:quote": "we are still looking for a home for the goat but we are hopeful that a new guardian will be found soon", 
+                "test:type": "quote"
+            }, 
+            "test:it corrected itself as it did that obrey came out of the wagon on the left side": {
+                "test:quote": "it corrected itself as it did that obrey came out of the wagon on the left side", 
+                "test:type": "quote"
+            }, 
+            "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet": {
+                "test:quote": "so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet", 
+                "test:type": "quote"
+            }, 
+            "test:those are all things that could be looked at and perhaps the race could be made safer": {
+                "test:quote": "those are all things that could be looked at and perhaps the race could be made safer", 
+                "test:type": "quote"
+            }, 
+            "test:we aren’t surprised by the protest as it’s not the first we have had": {
+                "test:quote": "we aren’t surprised by the protest as it’s not the first we have had", 
+                "test:type": "quote"
+            }, 
+            "test:this individual was running a petting zoo and trail riding company using compromised animals and allowing them to suffer": {
+                "test:quote": "this individual was running a petting zoo and trail riding company using compromised animals and allowing them to suffer", 
+                "test:type": "quote"
+            }, 
+            "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options": {
+                "test:quote": "unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options", 
+                "test:type": "quote"
+            }, 
+            "test:so it unfortunately led to euthanization": {
+                "test:quote": "so it unfortunately led to euthanization", 
+                "test:type": "quote"
+            }, 
+            "test:it was obviously stressful for us since we’re there taking a stand for the animals — we love animals — and we’re seeing the leg of a dead animal in his window": {
+                "test:quote": "it was obviously stressful for us since we’re there taking a stand for the animals — we love animals — and we’re seeing the leg of a dead animal in his window", 
+                "test:type": "quote"
+            }, 
+            "test:it’s no different than most professional sports": {
+                "test:quote": "it’s no different than most professional sports", 
+                "test:type": "quote"
+            }, 
+            "test:we will keep protesting until we sit down with the owner to make menu changes – that’s the reason we do these protests": {
+                "test:quote": "we will keep protesting until we sit down with the owner to make menu changes – that’s the reason we do these protests", 
+                "test:type": "quote"
+            }, 
+            "test:had the calgary flames known that jaromir jagr was where he was they wouldn’t have signed him": {
+                "test:quote": "had the calgary flames known that jaromir jagr was where he was they wouldn’t have signed him", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t see the difference between a deer and a dog a cow and a cat — i don’t understand": {
+                "test:quote": "i don’t see the difference between a deer and a dog a cow and a cat — i don’t understand", 
+                "test:type": "quote"
+            }, 
+            "test:seeing injuries despite the best and safest conditions possible is hard": {
+                "test:quote": "seeing injuries despite the best and safest conditions possible is hard", 
+                "test:type": "quote"
+            }, 
+            "test:it’s unfortunate that this took place": {
+                "test:quote": "it’s unfortunate that this took place", 
+                "test:type": "quote"
+            }, 
+            "test:this was the result of driver error and has been determined a fatality that could have been avoided": {
+                "test:quote": "this was the result of driver error and has been determined a fatality that could have been avoided", 
+                "test:type": "quote"
+            }, 
+            "test:this is considered a serious injury": {
+                "test:quote": "this is considered a serious injury", 
+                "test:type": "quote"
+            }, 
+            "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season": {
+                "test:quote": "we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season", 
+                "test:type": "quote"
+            }, 
+            "test:we need to have information about what that means": {
+                "test:quote": "we need to have information about what that means", 
+                "test:type": "quote"
+            }, 
+            "test:we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef": {
+                "test:quote": "we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef", 
+                "test:type": "quote"
+            }, 
+            "test:the big message here for this restaurant is that humane meat does not exist": {
+                "test:quote": "the big message here for this restaurant is that humane meat does not exist", 
+                "test:type": "quote"
+            }, 
+            "test:my goal is to gain a better understanding of why chuckwagon poles fail how they fail and to suggest some design changes to reduce the risk of failure": {
+                "test:quote": "my goal is to gain a better understanding of why chuckwagon poles fail how they fail and to suggest some design changes to reduce the risk of failure", 
+                "test:type": "quote"
+            }, 
+            "test:you got to love what you do and the risks are always there": {
+                "test:quote": "you got to love what you do and the risks are always there", 
+                "test:type": "quote"
+            }, 
+            "test:it’s cutting corners and user error that cause the failures that i’ve seen": {
+                "test:quote": "it’s cutting corners and user error that cause the failures that i’ve seen", 
+                "test:type": "quote"
+            }, 
+            "test:that’s obviously not our goal": {
+                "test:quote": "that’s obviously not our goal", 
+                "test:type": "quote"
+            }, 
+            "test:i said 100 per cent i would do that for him ‘cause i know he would do the same for me if i was in that situation": {
+                "test:quote": "i said 100 per cent i would do that for him ‘cause i know he would do the same for me if i was in that situation", 
+                "test:type": "quote"
+            }, 
+            "test:looking back at all of my posts over the last couple of years and posting pictures of dead animals saying things like ‘mmm bacon": {
+                "test:quote": "looking back at all of my posts over the last couple of years and posting pictures of dead animals saying things like ‘mmm bacon", 
+                "test:type": "quote"
+            }, 
+            "test:at this time there is no indication that this medical condition is specific to chuckwagon racing": {
+                "test:quote": "at this time there is no indication that this medical condition is specific to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date": {
+                "test:quote": "the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date", 
+                "test:type": "quote"
+            }, 
+            "test:my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes": {
+                "test:quote": "my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes", 
+                "test:type": "quote"
+            }, 
+            "test:he was having a really good turn of the barrels": {
+                "test:quote": "he was having a really good turn of the barrels", 
+                "test:type": "quote"
+            }, 
+            "test:we are very pleased with the charges and we hope this sends a message that this type of neglect and cruelty is not acceptable to british columbians": {
+                "test:quote": "we are very pleased with the charges and we hope this sends a message that this type of neglect and cruelty is not acceptable to british columbians", 
+                "test:type": "quote"
+            }, 
+            "test:that’s just something that’s unfortunate": {
+                "test:quote": "that’s just something that’s unfortunate", 
+                "test:type": "quote"
+            }, 
+            "test:i certainly would like to sit down and talk to him": {
+                "test:quote": "i certainly would like to sit down and talk to him", 
+                "test:type": "quote"
+            }, 
+            "test:some of the dogs were being kept in a chicken coup filled with chicken and dog feces and one of the dogs and two puppies were being kept in a rodent cage": {
+                "test:quote": "some of the dogs were being kept in a chicken coup filled with chicken and dog feces and one of the dogs and two puppies were being kept in a rodent cage", 
+                "test:type": "quote"
+            }, 
+            "test:it’s obviously quite unfortunate to lose an animal but there’s a human element here as well and we’re always always mindful of the animal and their family": {
+                "test:quote": "it’s obviously quite unfortunate to lose an animal but there’s a human element here as well and we’re always always mindful of the animal and their family", 
+                "test:type": "quote"
+            }, 
+            "test:this type of injury is known in racing horses and is not unique to chuckwagon racing": {
+                "test:quote": "this type of injury is known in racing horses and is not unique to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:on wednesday a horse sustained a fractured rightfront radius while running": {
+                "test:quote": "on wednesday a horse sustained a fractured rightfront radius while running", 
+                "test:type": "quote"
+            }, 
+            "test:we need to understand where the potential weaknesses are on these poles… then we need to get a design… that’s as best as we can design and then hopefully that eliminates any pole failures during competition": {
+                "test:quote": "we need to understand where the potential weaknesses are on these poles… then we need to get a design… that’s as best as we can design and then hopefully that eliminates any pole failures during competition", 
+                "test:type": "quote"
+            }, 
+            "test:when people walk by we hand them literature we have dialogue": {
+                "test:quote": "when people walk by we hand them literature we have dialogue", 
+                "test:type": "quote"
+            }, 
+            "test:without the health and safety of the animals we wouldn’t have a rodeo": {
+                "test:quote": "without the health and safety of the animals we wouldn’t have a rodeo", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not something that’s common but it’s something that’s possible": {
+                "test:quote": "it’s not something that’s common but it’s something that’s possible", 
+                "test:type": "quote"
+            }, 
+            "test:i suppose it was his way of taunting us or getting revenge": {
+                "test:quote": "i suppose it was his way of taunting us or getting revenge", 
+                "test:type": "quote"
+            }, 
+            "test:then you have your results right away": {
+                "test:quote": "then you have your results right away", 
+                "test:type": "quote"
+            }, 
+            "test:we are very pleased that charges have been approved against mr bruvall as this is a very sad case where profits were clearly placed before the welfare of the animals in his care": {
+                "test:quote": "we are very pleased that charges have been approved against mr bruvall as this is a very sad case where profits were clearly placed before the welfare of the animals in his care", 
+                "test:type": "quote"
+            }, 
+            "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape": {
+                "test:quote": "troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape", 
+                "test:type": "quote"
+            }, 
+            "test:he’s shown some aggression so we’re waiting for him to heal and then we’ll assess his behaviour and see if he’s able to be put up for adoption": {
+                "test:quote": "he’s shown some aggression so we’re waiting for him to heal and then we’ll assess his behaviour and see if he’s able to be put up for adoption", 
+                "test:type": "quote"
+            }, 
+            "test:i’m not saying it’s going to be a miracle that i can tell these horses are going to be my stars but it’s gonna help": {
+                "test:quote": "i’m not saying it’s going to be a miracle that i can tell these horses are going to be my stars but it’s gonna help", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t think i would have done anything different from obrey": {
+                "test:quote": "i don’t think i would have done anything different from obrey", 
+                "test:type": "quote"
+            }, 
+            "test:he could apply by sept 1 in any given year": {
+                "test:quote": "he could apply by sept 1 in any given year", 
+                "test:type": "quote"
+            }, 
+            "test:no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible": {
+                "test:quote": "no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "test:type": "quote"
+            }, 
+            "test:we want to know what happened to that horse": {
+                "test:quote": "we want to know what happened to that horse", 
+                "test:type": "quote"
+            }, 
+            "test:this loss is felt deeply within our organization as well as by the owner": {
+                "test:quote": "this loss is felt deeply within our organization as well as by the owner", 
+                "test:type": "quote"
+            }, 
+            "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity": {
+                "test:quote": "the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity", 
+                "test:type": "quote"
+            }, 
+            "test:there are things we can’t identify and this must have been the case": {
+                "test:quote": "there are things we can’t identify and this must have been the case", 
+                "test:type": "quote"
+            }, 
+            "test:there’s no excuse for animal abuse … it’s not food it’s violence": {
+                "test:quote": "there’s no excuse for animal abuse … it’s not food it’s violence", 
+                "test:type": "quote"
+            }, 
+            "test:i’m going to be able to tell a couple things about the safety factors of some aspects of the pole to the stampede this year": {
+                "test:quote": "i’m going to be able to tell a couple things about the safety factors of some aspects of the pole to the stampede this year", 
+                "test:type": "quote"
+            }, 
+            "test:the treatment of horses bulls steers and calves in rodeos is irreconcilable with the provisions of the new law according to which animals are no longer objects but ‘beings endowed with sentience’ whose welfare and safety must be assured": {
+                "test:quote": "the treatment of horses bulls steers and calves in rodeos is irreconcilable with the provisions of the new law according to which animals are no longer objects but ‘beings endowed with sentience’ whose welfare and safety must be assured", 
+                "test:type": "quote"
+            }, 
+            "test:there’s really no way to make this comfortable for the animals": {
+                "test:quote": "there’s really no way to make this comfortable for the animals", 
+                "test:type": "quote"
+            }, 
+            "test:we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track": {
+                "test:quote": "we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track", 
+                "test:type": "quote"
+            }, 
+            "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year": {
+                "test:quote": "this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year", 
+                "test:type": "quote"
+            }, 
+            "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion": {
+                "test:quote": "an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion", 
+                "test:type": "quote"
+            }, 
+            "test:as the wagon moved forward it did make contact with obrey": {
+                "test:quote": "as the wagon moved forward it did make contact with obrey", 
+                "test:type": "quote"
+            }, 
+            "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him": {
+                "test:quote": "our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him", 
+                "test:type": "quote"
+            }, 
+            "test:it’s about educating and more than anything taking a stand for the animals — they don’t have their own voice that’s what we are for them": {
+                "test:quote": "it’s about educating and more than anything taking a stand for the animals — they don’t have their own voice that’s what we are for them", 
+                "test:type": "quote"
+            }, 
+            "test:obrey came around that fourth barrel his wagon tipped to the right": {
+                "test:quote": "obrey came around that fourth barrel his wagon tipped to the right", 
+                "test:type": "quote"
+            }, 
+            "test:ultimately the reason i chose antler is because my goal is to debunk the ethical meat myth which is what antler is known for": {
+                "test:quote": "ultimately the reason i chose antler is because my goal is to debunk the ethical meat myth which is what antler is known for", 
+                "test:type": "quote"
+            }, 
+            "test:you get the results stallside that’s the benefit of it": {
+                "test:quote": "you get the results stallside that’s the benefit of it", 
+                "test:type": "quote"
+            }, 
+            "test:there’s always a risk out there we all know it": {
+                "test:quote": "there’s always a risk out there we all know it", 
+                "test:type": "quote"
+            }, 
+            "test:knowing an injury was avoidable is much harder": {
+                "test:quote": "knowing an injury was avoidable is much harder", 
+                "test:type": "quote"
+            }, 
+            "test:due to interference and contact from another wagon a horse sustained severe injuries": {
+                "test:quote": "due to interference and contact from another wagon a horse sustained severe injuries", 
+                "test:type": "quote"
+            }, 
+            "test:this type of fracture is commonly known to thoroughbreds in the racing industry and is not unique to chuckwagon racing": {
+                "test:quote": "this type of fracture is commonly known to thoroughbreds in the racing industry and is not unique to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:i’m not sure if i want to do that": {
+                "test:quote": "i’m not sure if i want to do that", 
+                "test:type": "quote"
+            }, 
+            "test:just really really nasty cruel messages": {
+                "test:quote": "just really really nasty cruel messages", 
+                "test:type": "quote"
+            }, 
+            "test:that’s what the competitors and owners want too": {
+                "test:quote": "that’s what the competitors and owners want too", 
+                "test:type": "quote"
+            }, 
+            "test:with my experience with dr leguillette and u of c medicine it’s gonna pan out": {
+                "test:quote": "with my experience with dr leguillette and u of c medicine it’s gonna pan out", 
+                "test:type": "quote"
+            }, 
+            "test:animals are not ours to use": {
+                "test:quote": "animals are not ours to use", 
+                "test:type": "quote"
+            }, 
+            "test:i think the time of this type of sport has got to end": {
+                "test:quote": "i think the time of this type of sport has got to end", 
+                "test:type": "quote"
+            }, 
+            "test:nobody ever wants to lose an animal anywhere on stampede park": {
+                "test:quote": "nobody ever wants to lose an animal anywhere on stampede park", 
+                "test:type": "quote"
+            }, 
+            "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending": {
+                "test:quote": "a heart attack is suspected in the death of a horse on monday with postmortem results still pending", 
+                "test:type": "quote"
+            }, 
+            "test:neither of these injuries are specific to chuckwagon racing": {
+                "test:quote": "neither of these injuries are specific to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:track conditions were good in the stampede’s judgement": {
+                "test:quote": "track conditions were good in the stampede’s judgement", 
+                "test:type": "quote"
+            }, 
+            "test:with resources available to help people who are unable to care for their pets there really is no excuse when it comes to neglecting to care for your animals": {
+                "test:quote": "with resources available to help people who are unable to care for their pets there really is no excuse when it comes to neglecting to care for your animals", 
+                "test:type": "quote"
+            }, 
+            "test:we wouldn’t have chuckwagon races": {
+                "test:quote": "we wouldn’t have chuckwagon races", 
+                "test:type": "quote"
+            }, 
+            "test:the bc spca has a number of web and print resources that outline the difference between legitimate breeders and puppy mills": {
+                "test:quote": "the bc spca has a number of web and print resources that outline the difference between legitimate breeders and puppy mills", 
+                "test:type": "quote"
+            }, 
+            "test:there are things we can’t see in all of us in people and in animals": {
+                "test:quote": "there are things we can’t see in all of us in people and in animals", 
+                "test:type": "quote"
+            }, 
+            "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries": {
+                "test:quote": "as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries", 
+                "test:type": "quote"
+            }, 
+            "test:the dogs were kept in a filthy environment with high levels of ammonia from urine and have serious dental disease and badly matted fur": {
+                "test:quote": "the dogs were kept in a filthy environment with high levels of ammonia from urine and have serious dental disease and badly matted fur", 
+                "test:type": "quote"
+            }, 
+            "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days": {
+                "test:quote": "this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days", 
+                "test:type": "quote"
+            }, 
+            "test:these are animals that want to live": {
+                "test:quote": "these are animals that want to live", 
+                "test:type": "quote"
+            }, 
+            "test:if you find yourself unable to provide proper care for your animals contact your local ontario spca animal centre or humane society to discuss resources and options": {
+                "test:quote": "if you find yourself unable to provide proper care for your animals contact your local ontario spca animal centre or humane society to discuss resources and options", 
+                "test:type": "quote"
+            }, 
+            "test:i can can’t know because i haven’t had a conversation with him yet": {
+                "test:quote": "i can can’t know because i haven’t had a conversation with him yet", 
+                "test:type": "quote"
+            }, 
+            "test:we have a full house which is not unlike other saturdays here": {
+                "test:quote": "we have a full house which is not unlike other saturdays here", 
+                "test:type": "quote"
+            }, 
+            "test:an afternoon downpour and light evening rains made for sticky racetrack conditions": {
+                "test:quote": "an afternoon downpour and light evening rains made for sticky racetrack conditions", 
+                "test:type": "quote"
+            }, 
+            "test:he asked me to drive for him tonight": {
+                "test:quote": "he asked me to drive for him tonight", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "134944": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:had the calgary flames known that jaromir jagr was where he was they wouldn’t have signed him"
+            }, 
+            "134828": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days"
+            }, 
+            "134940": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:with my experience with dr leguillette and u of c medicine it’s gonna pan out"
+            }, 
+            "134824": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:so it unfortunately led to euthanization"
+            }, 
+            "135231": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:it’s not something that’s common but it’s something that’s possible"
+            }, 
+            "134820": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options"
+            }, 
+            "134948": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:i’m not saying it’s going to be a miracle that i can tell these horses are going to be my stars but it’s gonna help"
+            }, 
+            "135239": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:it’s cutting corners and user error that cause the failures that i’ve seen"
+            }, 
+            "135142": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef"
+            }, 
+            "135000": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:we’re used to that we see it all the time — but not thousands of messages"
+            }, 
+            "135008": {
+                "prov:entity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "prov:activity": "test:with resources available to help people who are unable to care for their pets there really is no excuse when it comes to neglecting to care for your animals"
+            }, 
+            "135126": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:i suppose it was his way of taunting us or getting revenge"
+            }, 
+            "135124": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:animals are not ours to use"
+            }, 
+            "134932": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:then you have your results right away"
+            }, 
+            "134758": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:on wednesday a horse sustained a fractured rightfront radius while running"
+            }, 
+            "134936": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:you get the results stallside that’s the benefit of it"
+            }, 
+            "135185": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:we will keep protesting until we sit down with the owner to make menu changes – that’s the reason we do these protests"
+            }, 
+            "135188": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:the big message here for this restaurant is that humane meat does not exist"
+            }, 
+            "134832": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet"
+            }, 
+            "134750": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries"
+            }, 
+            "134836": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment"
+            }, 
+            "134754": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending"
+            }, 
+            "135235": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:we need to understand where the potential weaknesses are on these poles… then we need to get a design… that’s as best as we can design and then hopefully that eliminates any pole failures during competition"
+            }, 
+            "135030": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:activity": "test:we are still looking for a home for the goat but we are hopeful that a new guardian will be found soon"
+            }, 
+            "134899": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:without the health and safety of the animals we wouldn’t have a rodeo"
+            }, 
+            "135134": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:it was obviously stressful for us since we’re there taking a stand for the animals — we love animals — and we’re seeing the leg of a dead animal in his window"
+            }, 
+            "135130": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:i can can’t know because i haven’t had a conversation with him yet"
+            }, 
+            "134924": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:the study’s going to tell us how good the horse is running"
+            }, 
+            "135199": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:just really really nasty cruel messages"
+            }, 
+            "134928": {
+                "prov:entity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:activity": "test:it’s a simple test you take a blood sample put it on the strip and it takes three or four minutes"
+            }, 
+            "135195": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:we will continue to stay true to our identity as a restaurant and to chef michael’s identity as a chef"
+            }, 
+            "134742": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him"
+            }, 
+            "135192": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:we have a full house which is not unlike other saturdays here"
+            }, 
+            "134746": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core"
+            }, 
+            "134848": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:those are all things that could be looked at and perhaps the race could be made safer"
+            }, 
+            "134844": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity"
+            }, 
+            "134840": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year"
+            }, 
+            "135022": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:activity": "test:we are very pleased that charges have been approved against mr bruvall as this is a very sad case where profits were clearly placed before the welfare of the animals in his care"
+            }, 
+            "135026": {
+                "prov:entity": "test:https://globalnews.ca/news/4128166/revelstoke-petting-zoo-animal-cruelty/", 
+                "prov:activity": "test:this individual was running a petting zoo and trail riding company using compromised animals and allowing them to suffer"
+            }, 
+            "135247": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:then over the next several years probably we’ll kind of incrementally learn everything we can and design is going to get better every year"
+            }, 
+            "135100": {
+                "prov:entity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "prov:activity": "test:this loss is felt deeply within our organization as well as by the owner"
+            }, 
+            "135106": {
+                "prov:entity": "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "prov:activity": "test:the dogs were kept in a filthy environment with high levels of ammonia from urine and have serious dental disease and badly matted fur"
+            }, 
+            "135138": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:we aren’t surprised by the protest as it’s not the first we have had"
+            }, 
+            "134918": {
+                "prov:entity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "prov:activity": "test:the treatment of horses bulls steers and calves in rodeos is irreconcilable with the provisions of the new law according to which animals are no longer objects but ‘beings endowed with sentience’ whose welfare and safety must be assured"
+            }, 
+            "134914": {
+                "prov:entity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "prov:activity": "test:we are not surprised by the report’s negative findings since mr roy had already publicly announced his position on rodeos even before undertaking his analysis"
+            }, 
+            "134996": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:looking back at all of my posts over the last couple of years and posting pictures of dead animals saying things like ‘mmm bacon"
+            }, 
+            "134858": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:obviously we have some very fundamental disagreements in animals participating in sport"
+            }, 
+            "134992": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:just really really nasty cruel messages"
+            }, 
+            "134856": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track"
+            }, 
+            "134852": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season"
+            }, 
+            "135110": {
+                "prov:entity": "test:https://globalnews.ca/news/3400847/bc-spca-puppy-breeder-lillooet/", 
+                "prov:activity": "test:some of the dogs were being kept in a chicken coup filled with chicken and dog feces and one of the dogs and two puppies were being kept in a rodent cage"
+            }, 
+            "135217": {
+                "prov:entity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:activity": "test:he’s shown some aggression so we’re waiting for him to heal and then we’ll assess his behaviour and see if he’s able to be put up for adoption"
+            }, 
+            "135213": {
+                "prov:entity": "test:https://globalnews.ca/news/4081466/bc-spca-looking-for-owner-of-dog-found-near-yahk-with-chain-collar-embedded-in-neck/", 
+                "prov:activity": "test:he had his surgery to remove necrotic tissue from his neck and is recovering in our clinic right now"
+            }, 
+            "135056": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:the ground the dirt — everything is inspected"
+            }, 
+            "135052": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:track conditions were good in the stampede’s judgement"
+            }, 
+            "135050": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:an afternoon downpour and light evening rains made for sticky racetrack conditions"
+            }, 
+            "135273": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:it’s obviously quite unfortunate to lose an animal but there’s a human element here as well and we’re always always mindful of the animal and their family"
+            }, 
+            "135271": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:it’s unfortunate that this took place"
+            }, 
+            "134903": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we wouldn’t have chuckwagon races"
+            }, 
+            "134907": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:that’s what the competitors and owners want too"
+            }, 
+            "135098": {
+                "prov:entity": "test:https://globalnews.ca/news/4327446/horse-euthanized-calgary-stampede/", 
+                "prov:activity": "test:this type of injury is known in racing horses and is not unique to chuckwagon racing"
+            }, 
+            "134980": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:we will keep protesting until we sit down with the owner to make menu changes – that’s the reason we do these protests"
+            }, 
+            "134986": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:these are animals that want to live"
+            }, 
+            "134984": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:the big message here for this restaurant is that humane meat does not exist"
+            }, 
+            "134862": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible"
+            }, 
+            "134988": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:we have a full house which is not unlike other saturdays here"
+            }, 
+            "135162": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:i don’t see the difference between a deer and a dog a cow and a cat — i don’t understand"
+            }, 
+            "135166": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:i’m not sure if i want to do that"
+            }, 
+            "134774": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:seeing injuries despite the best and safest conditions possible is hard"
+            }, 
+            "135202": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:looking back at all of my posts over the last couple of years and posting pictures of dead animals saying things like ‘mmm bacon"
+            }, 
+            "134770": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:this was the result of driver error and has been determined a fatality that could have been avoided"
+            }, 
+            "135048": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:as the wagon moved forward it did make contact with obrey"
+            }, 
+            "135205": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:we’re used to that we see it all the time — but not thousands of messages"
+            }, 
+            "135046": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:it corrected itself as it did that obrey came out of the wagon on the left side"
+            }, 
+            "134778": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:knowing an injury was avoidable is much harder"
+            }, 
+            "135042": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:obrey came around that fourth barrel his wagon tipped to the right"
+            }, 
+            "135265": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:that’s obviously not our goal"
+            }, 
+            "134876": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we need to have information about what that means"
+            }, 
+            "135261": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:nobody ever wants to lose an animal anywhere on stampede park"
+            }, 
+            "134872": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible"
+            }, 
+            "135269": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:it’s a very sensitive issue for the driver and their family – it’s like a family member to them as well"
+            }, 
+            "134976": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:animals are not ours to use"
+            }, 
+            "134974": {
+                "prov:entity": "test:https://globalnews.ca/news/4116014/antler-kitchen-and-bar-vegan-activists-protest-toronto/", 
+                "prov:activity": "test:there’s no excuse for animal abuse … it’s not food it’s violence"
+            }, 
+            "135190": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:these are animals that want to live"
+            }, 
+            "135170": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:i certainly would like to sit down and talk to him"
+            }, 
+            "135078": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:he was having a really good turn of the barrels"
+            }, 
+            "134762": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:neither of these injuries are specific to chuckwagon racing"
+            }, 
+            "134766": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:due to interference and contact from another wagon a horse sustained severe injuries"
+            }, 
+            "135070": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:i said 100 per cent i would do that for him ‘cause i know he would do the same for me if i was in that situation"
+            }, 
+            "135074": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:i don’t think i would have done anything different from obrey"
+            }, 
+            "134802": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape"
+            }, 
+            "135180": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:there’s no excuse for animal abuse … it’s not food it’s violence"
+            }, 
+            "134800": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:there are things we can’t identify and this must have been the case"
+            }, 
+            "135253": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:this is considered a serious injury"
+            }, 
+            "134806": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:we want to know what happened to that horse"
+            }, 
+            "135255": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:this type of fracture is commonly known to thoroughbreds in the racing industry and is not unique to chuckwagon racing"
+            }, 
+            "135257": {
+                "prov:entity": "test:https://globalnews.ca/news/3587298/horse-euthanized-at-calgary-stampede-after-fracturing-leg-in-chuckwagon-races/", 
+                "prov:activity": "test:we do our very best to prevent all injuries"
+            }, 
+            "135090": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:it’s rare that it happens"
+            }, 
+            "135182": {
+                "prov:entity": "test:https://t.co/84LDwAPid7", 
+                "prov:activity": "test:animals are not ours to use"
+            }, 
+            "134966": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:activity": "test:we urge people to arm themselves with knowledge and to immediately call our animal cruelty hotline 18556227722 to report any suspicious situations where animals may be in distress"
+            }, 
+            "134962": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:activity": "test:the bc spca has a number of web and print resources that outline the difference between legitimate breeders and puppy mills"
+            }, 
+            "135066": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:he asked me to drive for him tonight"
+            }, 
+            "135064": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:you got to love what you do and the risks are always there"
+            }, 
+            "135062": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:it’s no different than most professional sports"
+            }, 
+            "135060": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:there’s always a risk out there we all know it"
+            }, 
+            "134880": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion"
+            }, 
+            "134887": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:there’s really no way to make this comfortable for the animals"
+            }, 
+            "134884": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible"
+            }, 
+            "134798": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:there are things we can’t see in all of us in people and in animals"
+            }, 
+            "134796": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection"
+            }, 
+            "134794": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:at this time there is no indication that this medical condition is specific to chuckwagon racing"
+            }, 
+            "134730": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date"
+            }, 
+            "134810": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:the owner wants to know what happened to that horse and why that happened"
+            }, 
+            "134734": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:he could apply by sept 1 in any given year"
+            }, 
+            "134738": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:at this point there is no further appeal"
+            }, 
+            "135082": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:he has some great horses over there"
+            }, 
+            "135243": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:i’m going to be able to tell a couple things about the safety factors of some aspects of the pole to the stampede this year"
+            }, 
+            "135086": {
+                "prov:entity": "test:https://globalnews.ca/news/4324659/chuckwagon-driver-motowylo-injured-calgary-stampede/", 
+                "prov:activity": "test:that’s just something that’s unfortunate"
+            }, 
+            "134958": {
+                "prov:entity": "test:https://globalnews.ca/news/3927121/3-people-charged-with-animal-cruelty-in-langley-66-puppy-mill-seizure/", 
+                "prov:activity": "test:we are very pleased with the charges and we hope this sends a message that this type of neglect and cruelty is not acceptable to british columbians"
+            }, 
+            "135227": {
+                "prov:entity": "test:https://globalnews.ca/news/3587428/improving-chuckwagon-safety-the-focus-of-new-university-of-calgary-research/", 
+                "prov:activity": "test:my goal is to gain a better understanding of why chuckwagon poles fail how they fail and to suggest some design changes to reduce the risk of failure"
+            }, 
+            "135012": {
+                "prov:entity": "test:https://globalnews.ca/news/4087082/animal-cruelty-charges-laid-against-two-west-grey-residents/", 
+                "prov:activity": "test:if you find yourself unable to provide proper care for your animals contact your local ontario spca animal centre or humane society to discuss resources and options"
+            }, 
+            "135158": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:an animal’s life is an animal’s life … if this restaurant had several vegan options but was serving humanelyraised dogs and cats everybody would be on our side"
+            }, 
+            "134891": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:i think the time of this type of sport has got to end"
+            }, 
+            "135152": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:when people walk by we hand them literature we have dialogue"
+            }, 
+            "135150": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:we’re out there to educate the public"
+            }, 
+            "134895": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we are in a more humane society than we were when it all began and it’s time it ended"
+            }, 
+            "135156": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:it’s about educating and more than anything taking a stand for the animals — they don’t have their own voice that’s what we are for them"
+            }, 
+            "135154": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:this isn’t about attacking or targeting"
+            }, 
+            "134786": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes"
+            }, 
+            "135146": {
+                "prov:entity": "test:https://globalnews.ca/news/4108589/antler-kitchen-and-bar-protests-toronto/", 
+                "prov:activity": "test:ultimately the reason i chose antler is because my goal is to debunk the ethical meat myth which is what antler is known for"
+            }, 
+            "134782": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86"
+            }
+        }
+    }
+}

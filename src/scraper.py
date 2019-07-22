@@ -146,12 +146,17 @@ class NewsArticle(object):
         soup_a = BeautifulSoup(html_new3k, features="lxml")
         soup_m = BeautifulSoup(html_mercury, features="lxml")
         
-        a_tags_news3k  = soup_a.find_all("a", href=True)
-        a_tags_mercury = soup_m.find_all("a", href=True)
+        a_tags_news3k  = soup_a.find_all("a", href=True) or []
+        a_tags_mercury = soup_m.find_all("a", href=True) or []
 
         a_tags_all = a_tags_news3k if len(a_tags_news3k) else a_tags_mercury
         print('Newspaper a tag length is : ', len(a_tags_news3k))
         print('Mercuruparser a tag length is : ', len(a_tags_mercury))
+        print('news3k list : ')
+        for a_tag in a_tags_news3k: print(a_tag['href'])
+        
+        print('mercury list : ')
+        for a_tag in a_tags_mercury: print(a_tag['href'])
         
         links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
         if len(a_tags_all):
@@ -167,6 +172,9 @@ class NewsArticle(object):
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
             print(urls_no_dup)
             # Should consider switching the order of unsure and articles
+            print('URL IS FOR LOOP')
+            for url in urls_no_dup: print(url)
+        
             for url in urls_no_dup:
                 print(url)
                 url = url_utils.return_actual_url(url)
@@ -174,6 +182,22 @@ class NewsArticle(object):
                 elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
                 elif url_utils.is_news_article(url): links['articles'].append(url)
                 elif url_utils.is_reference(url)   : links['unsure'].append(url)
+                if not url_utils.is_valid_url(url) : 
+                    print('NOT VALID ', url)
+                    continue
+                elif url_utils.is_gov_page(url)    : 
+                    print('IS GOV PAGE ', url)
+                    links['gov_pgs'].append(url) 
+                    continue
+                elif url_utils.is_news_article(url):
+                    print('IS NEWS ARTICLE ', url) 
+                    links['articles'].append(url)
+                    continue
+                elif url_utils.is_reference(url)   :
+                    print('IS REFERENCE ', url) 
+                    links['unsure'].append(url)
+                    continue
+                print('IS NOTHING??? ', url)
             print('gov_pgs  : ', links['gov_pgs'])
             print('articles : ', links['articles'])
             print('unsure   : ', links['unsure'])
@@ -364,7 +388,7 @@ def handle_url_list_file(file_name, depth):
             idx = 1
             url_utils = UrlUtils()
             for row in csv_reader:
-                if idx <= 53: 
+                if idx <= 10: 
                     print(idx)
                     idx += 1
                     continue

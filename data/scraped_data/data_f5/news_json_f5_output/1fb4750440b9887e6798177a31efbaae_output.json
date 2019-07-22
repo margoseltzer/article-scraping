@@ -1,0 +1,37 @@
+{
+    "root": "https://www.huzlers.com/lil-nas-x-revealed-he-is-gay-old-town-road-subliminal-messages/", 
+    "bundle": {
+        "entity": {
+            "test:https://www.huzlers.com/lil-nas-x-revealed-he-is-gay-old-town-road-subliminal-messages/": {
+                "test:url": "https://www.huzlers.com/lil-nas-x-revealed-he-is-gay-old-town-road-subliminal-messages/", 
+                "test:date": "2019-07-01", 
+                "test:title": "Lil Nas X Revealed He Is Gay; Old Town Road Was Not About Horses", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "141233": {
+                "prov:entity": "test:https://www.huzlers.com/lil-nas-x-revealed-he-is-gay-old-town-road-subliminal-messages/", 
+                "prov:activity": "test:i’m gonna ride ’til i can’t no more"
+            }
+        }, 
+        "wasAttributedTo": {
+            "141231": {
+                "prov:entity": "test:https://www.huzlers.com/lil-nas-x-revealed-he-is-gay-old-town-road-subliminal-messages/", 
+                "prov:agent": "test:www.huzlers.com"
+            }
+        }, 
+        "agent": {
+            "test:www.huzlers.com": {
+                "test:publisher": "www.huzlers.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "activity": {
+            "test:i’m gonna ride ’til i can’t no more": {
+                "test:quote": "i’m gonna ride ’til i can’t no more", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

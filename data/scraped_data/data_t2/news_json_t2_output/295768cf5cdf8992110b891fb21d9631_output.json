@@ -1,0 +1,2131 @@
+{
+    "root": "https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "156579": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1588544/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156589": {
+                "prov:usedEntity": "test:https://twitter.com/primetimeMitch/status/887057018779049984", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video"
+            }, 
+            "156585": {
+                "prov:usedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-keeping-women-in-a-cult", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video"
+            }, 
+            "156583": {
+                "prov:usedEntity": "test:https://www.tmz.com/2017/07/17/r-kelly-joycelyn-savage-denies-sex-cult-hostage-allegations/", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video"
+            }, 
+            "156581": {
+                "prov:usedEntity": "test:https://www.tmz.com/2017/07/18/r-kelly-hostage-jocelyn-savage-tells-father-to-stop/", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video"
+            }, 
+            "156573": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1589342/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156571": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1586932/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156559": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link"
+            }, 
+            "156575": {
+                "prov:usedEntity": "test:http://www.mtv.com/bands/r/r_kelly/news_feature_051304/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156555": {
+                "prov:usedEntity": "test:https://web.archive.org/web/20090704033103/http://www.southtownstar.com/news/1648929,070209rkelly.article", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156557": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link"
+            }, 
+            "156551": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156553": {
+                "prov:usedEntity": "test:https://www.scribd.com/doc/152989248/R-Kelly-Timeline-Chicago-Sun-Times-Coverage", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156539": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html"
+            }, 
+            "156537": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html"
+            }, 
+            "156535": {
+                "prov:usedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html"
+            }, 
+            "156591": {
+                "prov:usedEntity": "test:https://twitter.com/primetimeMitch/status/887056662854545408", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video"
+            }, 
+            "156593": {
+                "prov:usedEntity": "test:https://www.nytimes.com/newsletters", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html"
+            }, 
+            "156595": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/ct-viz-r-kelly-timeline-htmlstory.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link"
+            }, 
+            "156597": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link"
+            }, 
+            "156599": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/wp-stat/404-not-found/404-Not-Found.htm?fail=/news/arts-and-entertainment/wp/2015/08/31/a-dad-in-a-garage-wiz-khalifa-and-tony-hawk-all-want-the-hoverboard-to-be-born/?noredirect=on&noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on"
+            }, 
+            "156563": {
+                "prov:usedEntity": "test:https://ew.com/creative-work/music-biz/", 
+                "prov:generatedEntity": "test:https://ew.com/article/2008/05/16/r-kelly-2/"
+            }, 
+            "156577": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1587729/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156561": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link"
+            }, 
+            "156549": {
+                "prov:usedEntity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156565": {
+                "prov:usedEntity": "test:http://hollywoodinsider.ew.com/2008/05/on-the-scene--1.html/", 
+                "prov:generatedEntity": "test:https://ew.com/article/2008/05/16/r-kelly-2/"
+            }, 
+            "156567": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1587989/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }, 
+            "156543": {
+                "prov:usedEntity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156541": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-federal-indictment-20190712-d2kqppemwzck3kadxqddjmq6i4-story.html#nt=instory-link", 
+                "prov:generatedEntity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html"
+            }, 
+            "156547": {
+                "prov:usedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156545": {
+                "prov:usedEntity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:generatedEntity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out"
+            }, 
+            "156569": {
+                "prov:usedEntity": "test:http://www.mtv.com//www.mtv.com/news/1589304/", 
+                "prov:generatedEntity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "156329": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:agent": "test:Talal Ansari"
+            }, 
+            "156323": {
+                "prov:entity": "test:they dont have proof of that", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156327": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:agent": "test:Michelle Broder Van Dyke"
+            }, 
+            "156325": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:agent": "test:www.buzzfeednews.com"
+            }, 
+            "156437": {
+                "prov:entity": "test:but nobody could agree if it was her", 
+                "prov:agent": "test:John Petrean"
+            }, 
+            "156433": {
+                "prov:entity": "test:most of us felt that maybe it was kelly maybe not", 
+                "prov:agent": "test:John Petrean"
+            }, 
+            "156203": {
+                "prov:entity": "test:the manager always says yes even if theres no money in the checking account", 
+                "prov:agent": "test:Robert S. Kelly"
+            }, 
+            "156207": {
+                "prov:entity": "test:because if they dont say yes they get fired", 
+                "prov:agent": "test:Robert S. Kelly"
+            }, 
+            "156128": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-federal-indictment-20190712-d2kqppemwzck3kadxqddjmq6i4-story.html#nt=instory-link", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156283": {
+                "prov:entity": "test:in 1998 1999 he did not look like that", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156287": {
+                "prov:entity": "test:yeah he was bald he had a nice body but he did not have a gut and he had one on the tape", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156120": {
+                "prov:entity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156122": {
+                "prov:entity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "prov:agent": "test:Tracy Swartz"
+            }, 
+            "156533": {
+                "prov:entity": "test:because what you’re doing is definitely not rap", 
+                "prov:agent": "test:Erykah Badu"
+            }, 
+            "156048": {
+                "prov:entity": "test:at the time i was still you know pretty starstruck so i was in disbelief", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "155986": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "155988": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "prov:agent": "test:Megan Crepeau"
+            }, 
+            "156215": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:agent": "test:Jennifer Vineyard"
+            }, 
+            "156213": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:agent": "test:www.mtv.com"
+            }, 
+            "156199": {
+                "prov:entity": "test:but when you get a call from your client at midnight and theyre at a dealership and they ask you is it ok for me to buy a lamborghini", 
+                "prov:agent": "test:Robert S. Kelly"
+            }, 
+            "156211": {
+                "prov:entity": "test:this is something they do to get your attention", 
+                "prov:agent": "test:Blanc"
+            }, 
+            "156195": {
+                "prov:entity": "test:they have managers who are supposed to be watching their money", 
+                "prov:agent": "test:Robert S. Kelly"
+            }, 
+            "156191": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:agent": "test:Andy Grimm"
+            }, 
+            "156219": {
+                "prov:entity": "test:from the beginning i thought he was innocent", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156116": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156441": {
+                "prov:entity": "test:we had seen photos of her at other times and she seemed like a young girl", 
+                "prov:agent": "test:John Petrean"
+            }, 
+            "156359": {
+                "prov:entity": "test:shes being controlled by a woman or man", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156355": {
+                "prov:entity": "test:shes not free to call her mother or father", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156118": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link", 
+                "prov:agent": "test:Megan Crepeau"
+            }, 
+            "156351": {
+                "prov:entity": "test:because shes not free to go", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156529": {
+                "prov:entity": "test:no no no no no no no", 
+                "prov:agent": "test:Erykah Badu"
+            }, 
+            "156413": {
+                "prov:entity": "test:this is a victory for the concept of reasonable doubt", 
+                "prov:agent": "test:Leonard Cavise"
+            }, 
+            "156299": {
+                "prov:entity": "test:i thought it would be the dumbest thing for him to do to testify", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156052": {
+                "prov:entity": "test:he told me that he wanted me to undress for him and walk back and forth like i was modeling", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156525": {
+                "prov:entity": "test:who has done more for black folks than anybody", 
+                "prov:agent": "test:Kelly"
+            }, 
+            "156295": {
+                "prov:entity": "test:i mean he still is but the man on the tape was so different", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156465": {
+                "prov:entity": "test:its been a terrible ordeal for him and his family and at this point all he wants to do is move forward and try to put it behind him", 
+                "prov:agent": "test:Allan Mayer"
+            }, 
+            "156521": {
+                "prov:entity": "test:so they have banned me from all of the hiphop awards with a sign saying ‘erykah badu leave our rappers alone", 
+                "prov:agent": "test:Erykah Badu"
+            }, 
+            "156291": {
+                "prov:entity": "test:he had a sixpack and everything back then", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "155990": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "prov:agent": "test:Madeline Buckley"
+            }, 
+            "155992": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "prov:agent": "test:Jason Meisner"
+            }, 
+            "155996": {
+                "prov:entity": "test:if convicted on all counts the defendant faces the prospect of spending decades in prison", 
+                "prov:agent": "test:Richard Donoghue"
+            }, 
+            "155998": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:agent": "test:www.buzzfeednews.com"
+            }, 
+            "156263": {
+                "prov:entity": "test:and all the other ladies such as witness lisa van allen wanted money", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156189": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156267": {
+                "prov:entity": "test:the state had some bad witnesses", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156181": {
+                "prov:entity": "test:i think there’s robert and then rkelly", 
+                "prov:agent": "test:Jones"
+            }, 
+            "156187": {
+                "prov:entity": "test:r kelly is the man whois behind the music", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156453": {
+                "prov:entity": "test:as we must we accept the verdict of the jury in this case", 
+                "prov:agent": "test:Devine"
+            }, 
+            "156100": {
+                "prov:entity": "test:it is the opinion of this examiner based upon an analysis of her polygraph records that she is truthful in her answers", 
+                "prov:agent": "test:F.L. Hunter"
+            }, 
+            "156457": {
+                "prov:entity": "test:this prosecution is one we have no reservations about", 
+                "prov:agent": "test:Devine"
+            }, 
+            "156347": {
+                "prov:entity": "test:if you look at the video and i looked at it over 10 times the video has someone in the back telling her what to say and what not to say", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156341": {
+                "prov:entity": "test:no i wouldnt speak on that as well", 
+                "prov:agent": "test:Savage"
+            }, 
+            "156060": {
+                "prov:entity": "test:i gave him my state id", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156511": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:agent": "test:Soraya Nadia Mcdonald"
+            }, 
+            "156517": {
+                "prov:entity": "test:as you know i am the queen of neo soul and people say i have this common effect on rappers that i make them change gods and wear crochet hats shoulder pads", 
+                "prov:agent": "test:Erykah Badu"
+            }, 
+            "156445": {
+                "prov:entity": "test:it seemed like the girl on the tape was much more developed", 
+                "prov:agent": "test:John Petrean"
+            }, 
+            "156271": {
+                "prov:entity": "test:they didnt have any of her immediate family so i was like they didnt prove the case", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156275": {
+                "prov:entity": "test:i say it wasnt him", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156279": {
+                "prov:entity": "test:it wasnt r kelly at all", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156507": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:agent": "test:Soraya Nadia Mcdonald Worked For The Washington Post'S Features Desk. She Left The Post In January"
+            }, 
+            "156379": {
+                "prov:entity": "test:dad you know everything thats going on with the media and the internet and what you have done is a complete disaster", 
+                "prov:agent": "test:Joycelyn Savage"
+            }, 
+            "156505": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:agent": "test:www.washingtonpost.com"
+            }, 
+            "156503": {
+                "prov:entity": "test:we show the world how difficult it is to prosecute", 
+                "prov:agent": "test:Shauna Boliker"
+            }, 
+            "156469": {
+                "prov:entity": "test:he wants to thank his lawyers who defended him so brilliantly", 
+                "prov:agent": "test:Allan Mayer"
+            }, 
+            "156371": {
+                "prov:entity": "test:i just mainly want to say i’m in a happy place with my life", 
+                "prov:agent": "test:Joycelyn Savage"
+            }, 
+            "156375": {
+                "prov:entity": "test:and i’m not being brainwashed or anything like that", 
+                "prov:agent": "test:Joycelyn Savage"
+            }, 
+            "156509": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:agent": "test:November"
+            }, 
+            "156177": {
+                "prov:entity": "test:i think he’s the same manwith two different personalities", 
+                "prov:agent": "test:Jones"
+            }, 
+            "156173": {
+                "prov:entity": "test:if he did itthen he shouldn’t have recorded it", 
+                "prov:agent": "test:Jones"
+            }, 
+            "156078": {
+                "prov:entity": "test:the largest taxpayer in the village of 4700", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156074": {
+                "prov:entity": "test:we investigated the issues found there to be no crime and the matters have been closed", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156070": {
+                "prov:entity": "test:we were informed of a possible criminal matter", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156485": {
+                "prov:entity": "test:we didnt care what the jurors thought about the case before the trial", 
+                "prov:agent": "test:Marc Martin"
+            }, 
+            "156481": {
+                "prov:entity": "test:its a good thing they were alternates", 
+                "prov:agent": "test:Sam Adam Jr."
+            }, 
+            "156489": {
+                "prov:entity": "test:we wanted intelligent people who would keep an open mind and we found them", 
+                "prov:agent": "test:Marc Martin"
+            }, 
+            "156367": {
+                "prov:entity": "test:when i saw the video i called and no one picked up the phone", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156363": {
+                "prov:entity": "test:ive tried to reach out to her", 
+                "prov:agent": "test:Tim"
+            }, 
+            "156085": {
+                "prov:entity": "test:two underage girls who claimed the rb superstar r kelly had sex with them", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156089": {
+                "prov:entity": "test:i was often treated as his personal sex object and cast aside", 
+                "prov:agent": "test:Loggans"
+            }, 
+            "156243": {
+                "prov:entity": "test:it was my first real trial that i saw that wasnt on television or scripted", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156247": {
+                "prov:entity": "test:i was like oh its like this", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156477": {
+                "prov:entity": "test:most of all he wants to thank god for giving him the strength to get through this", 
+                "prov:agent": "test:Allan Mayer"
+            }, 
+            "156164": {
+                "prov:entity": "test:r kelly is the man who\n\nis behind the music", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156045": {
+                "prov:entity": "test:even though i had already met him at his trial i was like literally at his house so it did not feel real", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156160": {
+                "prov:entity": "test:robert is the person who is coming to court", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156002": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:agent": "test:Jim Derogatis"
+            }, 
+            "156000": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:agent": "test:Buzzfeed Contributor"
+            }, 
+            "156495": {
+                "prov:entity": "test:r kelly got his name back and his goddaughter never had to lose her virtue", 
+                "prov:agent": "test:Adam Jr."
+            }, 
+            "156449": {
+                "prov:entity": "test:it seemed to me that the goddaughters family was very divided over this from the beginning", 
+                "prov:agent": "test:Petrean"
+            }, 
+            "156499": {
+                "prov:entity": "test:if we do anything with this prosecution", 
+                "prov:agent": "test:Shauna Boliker"
+            }, 
+            "156259": {
+                "prov:entity": "test:but then i thought lemme put aside r kelly and just listen to what they got to say", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156311": {
+                "prov:entity": "test:there is nothing that he could ever do to make me doubt him", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156315": {
+                "prov:entity": "test:they cant call him a pedophile anymore", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156251": {
+                "prov:entity": "test:it helped a lot for my major and it made me think about going to law school", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156319": {
+                "prov:entity": "test:they cant say he likes little girls", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156255": {
+                "prov:entity": "test:going into it i felt he was innocent", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156152": {
+                "prov:entity": "test:i think he’s the same man\n\nwith two different personalities", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156156": {
+                "prov:entity": "test:i think there’s robert and then r\n\nkelly", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156409": {
+                "prov:entity": "test:if we receive similar evidence today or tomorrow we are going to bring that case", 
+                "prov:agent": "test:Richard Devine"
+            }, 
+            "156405": {
+                "prov:entity": "test:child pornography cases can be extremely difficult in many ways", 
+                "prov:agent": "test:Richard Devine"
+            }, 
+            "156461": {
+                "prov:entity": "test:he did not expect that it would take 6 12 years", 
+                "prov:agent": "test:Allan Mayer"
+            }, 
+            "156303": {
+                "prov:entity": "test:because then theyd be able to use his past against him and they would probably convict him", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156307": {
+                "prov:entity": "test:yes and the whole thing about him supposedly marrying aaliyah when she was underage", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156473": {
+                "prov:entity": "test:he wants to thank his fans who stuck by him and supported him with such love", 
+                "prov:agent": "test:Allan Mayer"
+            }, 
+            "156021": {
+                "prov:entity": "test:i just really hope i can help these women out", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156227": {
+                "prov:entity": "test:and when they read the verdict i wanted to scream but i didnt", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156223": {
+                "prov:entity": "test:i never had any doubt they would find him not guilty", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156389": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:agent": "test:David Streitfeld"
+            }, 
+            "156419": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156148": {
+                "prov:entity": "test:if he did it\n\nthen he shouldn’t have recorded it", 
+                "prov:agent": "test:Jones"
+            }, 
+            "156417": {
+                "prov:entity": "test:the jury gave him the extra benefit of the doubt because of who he is just like the o j simpson jury", 
+                "prov:agent": "test:Cavise"
+            }, 
+            "156385": {
+                "prov:entity": "test:honestly you know the situation that had happened that night when i went to meet r kelly", 
+                "prov:agent": "test:Joycelyn Savage"
+            }, 
+            "156387": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "156335": {
+                "prov:entity": "test:i wouldnt want to speak on that", 
+                "prov:agent": "test:Joycelyn Savage"
+            }, 
+            "156239": {
+                "prov:entity": "test:they did after a little bit", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156235": {
+                "prov:entity": "test:even though my eyes were watering i didnt let the tears fall down", 
+                "prov:agent": "test:Johnson"
+            }, 
+            "156039": {
+                "prov:entity": "test:seemed like a cool guy and he would always speak to me when he saw me", 
+                "prov:agent": "test:WireImage R. Kelly"
+            }, 
+            "156231": {
+                "prov:entity": "test:i had to control my happiness until i got outside", 
+                "prov:agent": "test:Keyonia Jones"
+            }, 
+            "156093": {
+                "prov:entity": "test:he often tried to control every aspect of my life including who i would see and where i would go", 
+                "prov:agent": "test:Loggans"
+            }, 
+            "156429": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:agent": "test:Stacy St. Clair"
+            }, 
+            "156138": {
+                "prov:entity": "test:probably not the smartest\n\nguy but will do what is best and fair", 
+                "prov:agent": "test:R. Kelly"
+            }, 
+            "156132": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:agent": "test:ew.com"
+            }, 
+            "156421": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link", 
+                "prov:agent": "test:Jason Meisner"
+            }, 
+            "156130": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-federal-indictment-20190712-d2kqppemwzck3kadxqddjmq6i4-story.html#nt=instory-link", 
+                "prov:agent": "test:Chicago Tribune Staff"
+            }, 
+            "156423": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link", 
+                "prov:agent": "test:Megan Crepeau"
+            }, 
+            "156425": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "156134": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:agent": "test:Vanessa Juarez"
+            }, 
+            "156427": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:agent": "test:Kayce T. Ataiyero"
+            }
+        }, 
+        "agent": {
+            "test:F.L. Hunter": {
+                "test:name": "F.L. Hunter", 
+                "test:type": "person"
+            }, 
+            "test:David Streitfeld": {
+                "test:name": "David Streitfeld", 
+                "test:type": "person"
+            }, 
+            "test:Petrean": {
+                "test:name": "Petrean", 
+                "test:type": "person"
+            }, 
+            "test:Erykah Badu": {
+                "test:name": "Erykah Badu", 
+                "test:type": "person"
+            }, 
+            "test:Jennifer Vineyard": {
+                "test:name": "Jennifer Vineyard", 
+                "test:type": "person"
+            }, 
+            "test:ew.com": {
+                "test:publisher": "ew.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Talal Ansari": {
+                "test:name": "Talal Ansari", 
+                "test:type": "person"
+            }, 
+            "test:Andy Grimm": {
+                "test:name": "Andy Grimm", 
+                "test:type": "person"
+            }, 
+            "test:Leonard Cavise": {
+                "test:name": "Leonard Cavise", 
+                "test:type": "person"
+            }, 
+            "test:Devine": {
+                "test:name": "Devine", 
+                "test:type": "person"
+            }, 
+            "test:Megan Crepeau": {
+                "test:name": "Megan Crepeau", 
+                "test:type": "person"
+            }, 
+            "test:Jim Derogatis": {
+                "test:name": "Jim Derogatis", 
+                "test:type": "person"
+            }, 
+            "test:Keyonia Jones": {
+                "test:name": "Keyonia Jones", 
+                "test:type": "person"
+            }, 
+            "test:Madeline Buckley": {
+                "test:name": "Madeline Buckley", 
+                "test:type": "person"
+            }, 
+            "test:WireImage R. Kelly": {
+                "test:name": "WireImage R. Kelly", 
+                "test:type": "person"
+            }, 
+            "test:Tim": {
+                "test:name": "Tim", 
+                "test:type": "person"
+            }, 
+            "test:Savage": {
+                "test:name": "Savage", 
+                "test:type": "person"
+            }, 
+            "test:Joycelyn Savage": {
+                "test:name": "Joycelyn Savage", 
+                "test:type": "person"
+            }, 
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Kelly": {
+                "test:name": "Kelly", 
+                "test:type": "person"
+            }, 
+            "test:R. Kelly": {
+                "test:name": "R. Kelly", 
+                "test:type": "person"
+            }, 
+            "test:www.buzzfeednews.com": {
+                "test:publisher": "www.buzzfeednews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Stacy St. Clair": {
+                "test:name": "Stacy St. Clair", 
+                "test:type": "person"
+            }, 
+            "test:Buzzfeed Contributor": {
+                "test:name": "Buzzfeed Contributor", 
+                "test:type": "person"
+            }, 
+            "test:Jones": {
+                "test:name": "Jones", 
+                "test:type": "person"
+            }, 
+            "test:Cavise": {
+                "test:name": "Cavise", 
+                "test:type": "person"
+            }, 
+            "test:Johnson": {
+                "test:name": "Johnson", 
+                "test:type": "person"
+            }, 
+            "test:Allan Mayer": {
+                "test:name": "Allan Mayer", 
+                "test:type": "person"
+            }, 
+            "test:Blanc": {
+                "test:name": "Blanc", 
+                "test:type": "person"
+            }, 
+            "test:Adam Jr.": {
+                "test:name": "Adam Jr.", 
+                "test:type": "person"
+            }, 
+            "test:www.chicagotribune.com": {
+                "test:publisher": "www.chicagotribune.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.washingtonpost.com": {
+                "test:publisher": "www.washingtonpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Loggans": {
+                "test:name": "Loggans", 
+                "test:type": "person"
+            }, 
+            "test:Jason Meisner": {
+                "test:name": "Jason Meisner", 
+                "test:type": "person"
+            }, 
+            "test:Marc Martin": {
+                "test:name": "Marc Martin", 
+                "test:type": "person"
+            }, 
+            "test:Richard Devine": {
+                "test:name": "Richard Devine", 
+                "test:type": "person"
+            }, 
+            "test:Robert S. Kelly": {
+                "test:name": "Robert S. Kelly", 
+                "test:type": "person"
+            }, 
+            "test:Richard Donoghue": {
+                "test:name": "Richard Donoghue", 
+                "test:type": "person"
+            }, 
+            "test:Michelle Broder Van Dyke": {
+                "test:name": "Michelle Broder Van Dyke", 
+                "test:type": "person"
+            }, 
+            "test:www.mtv.com": {
+                "test:publisher": "www.mtv.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Kayce T. Ataiyero": {
+                "test:name": "Kayce T. Ataiyero", 
+                "test:type": "person"
+            }, 
+            "test:Vanessa Juarez": {
+                "test:name": "Vanessa Juarez", 
+                "test:type": "person"
+            }, 
+            "test:Soraya Nadia Mcdonald Worked For The Washington Post'S Features Desk. She Left The Post In January": {
+                "test:name": "Soraya Nadia Mcdonald Worked For The Washington Post'S Features Desk. She Left The Post In January", 
+                "test:type": "person"
+            }, 
+            "test:Sam Adam Jr.": {
+                "test:name": "Sam Adam Jr.", 
+                "test:type": "person"
+            }, 
+            "test:Chicago Tribune Staff": {
+                "test:name": "Chicago Tribune Staff", 
+                "test:type": "person"
+            }, 
+            "test:Shauna Boliker": {
+                "test:name": "Shauna Boliker", 
+                "test:type": "person"
+            }, 
+            "test:November": {
+                "test:name": "November", 
+                "test:type": "person"
+            }, 
+            "test:Tracy Swartz": {
+                "test:name": "Tracy Swartz", 
+                "test:type": "person"
+            }, 
+            "test:Soraya Nadia Mcdonald": {
+                "test:name": "Soraya Nadia Mcdonald", 
+                "test:type": "person"
+            }, 
+            "test:John Petrean": {
+                "test:name": "John Petrean", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/": {
+                "test:url": "http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "test:date": "", 
+                "test:title": "R. Kelly's Biggest Fans -- Who Came To Every Day Of Singer's Trial -- 'Never Had Any Doubt They Would Find Him Not Guilty'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-federal-indictment-20190712-d2kqppemwzck3kadxqddjmq6i4-story.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-federal-indictment-20190712-d2kqppemwzck3kadxqddjmq6i4-story.html#nt=instory-link", 
+                "test:date": "2019-07-12", 
+                "test:title": "Read the federal indictments against R. Kelly, his former manager and ex-employee", 
+                "test:type": "article"
+            }, 
+            "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "test:date": "2008-06-14", 
+                "test:title": "Why the jury acquitted R. Kelly", 
+                "test:type": "article"
+            }, 
+            "test:https://www.tmz.com/2017/07/18/r-kelly-hostage-jocelyn-savage-tells-father-to-stop/": {
+                "test:url": "https://www.tmz.com/2017/07/18/r-kelly-hostage-jocelyn-savage-tells-father-to-stop/", 
+                "test:type": "article"
+            }, 
+            "test:https://ew.com/creative-work/music-biz/": {
+                "test:url": "https://ew.com/creative-work/music-biz/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html": {
+                "test:url": "https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "test:date": "2019-07-12", 
+                "test:title": "R. Kelly hit with federal indictments in New York, Chicago; faces new racketeering, sex crime charges, allegations he paid to recover sex tapes and cover up conduct", 
+                "test:type": "article"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1586932/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1586932/", 
+                "test:type": "reference"
+            }, 
+            "test:http://hollywoodinsider.ew.com/2008/05/on-the-scene--1.html/": {
+                "test:url": "http://hollywoodinsider.ew.com/2008/05/on-the-scene--1.html/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/newsletters": {
+                "test:url": "https://www.nytimes.com/newsletters", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.scribd.com/doc/152989248/R-Kelly-Timeline-Chicago-Sun-Times-Coverage": {
+                "test:url": "https://www.scribd.com/doc/152989248/R-Kelly-Timeline-Chicago-Sun-Times-Coverage", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.tmz.com/2017/07/17/r-kelly-joycelyn-savage-denies-sex-cult-hostage-allegations/": {
+                "test:url": "https://www.tmz.com/2017/07/17/r-kelly-joycelyn-savage-denies-sex-cult-hostage-allegations/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/primetimeMitch/status/887056662854545408": {
+                "test:url": "https://twitter.com/primetimeMitch/status/887056662854545408", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.chicagotribune.com/news/ct-viz-r-kelly-timeline-htmlstory.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/news/ct-viz-r-kelly-timeline-htmlstory.html#nt=instory-link", 
+                "test:type": "article"
+            }, 
+            "test:https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-keeping-women-in-a-cult": {
+                "test:url": "https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-keeping-women-in-a-cult", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/wp-stat/404-not-found/404-Not-Found.htm?fail=/news/arts-and-entertainment/wp/2015/08/31/a-dad-in-a-garage-wiz-khalifa-and-tony-hawk-all-want-the-hoverboard-to-be-born/?noredirect=on&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/wp-stat/404-not-found/404-Not-Found.htm?fail=/news/arts-and-entertainment/wp/2015/08/31/a-dad-in-a-garage-wiz-khalifa-and-tony-hawk-all-want-the-hoverboard-to-be-born/?noredirect=on&noredirect=on", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-new-federal-charges-what-next-20190713-xricujfptjh2pgyg3fofr7fttq-story.html#nt=instory-link", 
+                "test:date": "2019-07-13", 
+                "test:title": "R. Kelly’s road through criminal woes becomes much tougher as feds join forces against him", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html": {
+                "test:url": "https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "test:date": "2008-06-14", 
+                "test:title": "R. Kelly Is Acquitted in Child Pornography Case", 
+                "test:type": "article"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1589304/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1589304/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1587989/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1587989/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/primetimeMitch/status/887057018779049984": {
+                "test:url": "https://twitter.com/primetimeMitch/status/887057018779049984", 
+                "test:type": "reference"
+            }, 
+            "test:https://ew.com/article/2008/05/16/r-kelly-2/": {
+                "test:url": "https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "test:date": "2008-05-16", 
+                "test:title": "R. Kelly trial: Jury selection ends and the case moves forward", 
+                "test:type": "article"
+            }, 
+            "test:https://web.archive.org/web/20090704033103/http://www.southtownstar.com/news/1648929,070209rkelly.article": {
+                "test:url": "https://web.archive.org/web/20090704033103/http://www.southtownstar.com/news/1648929,070209rkelly.article", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out": {
+                "test:url": "https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "test:date": "", 
+                "test:title": "A Woman Who Says She Had Underage Sex With R. Kelly Is Finally Telling Her Story", 
+                "test:type": "article"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1588544/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1588544/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html": {
+                "test:url": "https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "test:date": "2012-06-16", 
+                "test:title": "R&B star R. Kelly owes nearly $5M in back taxes, IRS says", 
+                "test:type": "article"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1589342/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1589342/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/news/breaking/ct-met-r-kelly-sex-charge-20190222-story.html#nt=instory-link", 
+                "test:date": "2019-02-22", 
+                "test:title": "R. Kelly surrenders to Chicago police after being charged with sexually abusing 4 alleged victims", 
+                "test:type": "article"
+            }, 
+            "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video": {
+                "test:url": "https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "test:date": "", 
+                "test:title": "One Of R. Kelly's Alleged Captives Has Now Released Two Videos, But Won't Reveal Her Location Or Say She's Free To Leave", 
+                "test:type": "article"
+            }, 
+            "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link": {
+                "test:url": "https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "test:date": "2019-01-02", 
+                "test:title": "R. Kelly accuser still believes she did the right thing, she says as part of six-hour 'Surviving R. Kelly' doc", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "test:date": "2015-11-29", 
+                "test:title": "Erykah Badu shades Iggy Azalea and Babyface brings down the house at the 2015 Soul Train Awards", 
+                "test:type": "article"
+            }, 
+            "test:http://www.mtv.com/bands/r/r_kelly/news_feature_051304/": {
+                "test:url": "http://www.mtv.com/bands/r/r_kelly/news_feature_051304/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.mtv.com//www.mtv.com/news/1587729/": {
+                "test:url": "http://www.mtv.com//www.mtv.com/news/1587729/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:we wanted intelligent people who would keep an open mind and we found them": {
+                "test:quote": "we wanted intelligent people who would keep an open mind and we found them", 
+                "test:type": "quote"
+            }, 
+            "test:i feel like this is a healing process for me because ive been holding this in for so many years and to see that he always gets away with it it’s just not right": {
+                "test:quote": "i feel like this is a healing process for me because ive been holding this in for so many years and to see that he always gets away with it it’s just not right", 
+                "test:type": "quote"
+            }, 
+            "test:graduated from late middleage to senior citizen": {
+                "test:quote": "graduated from late middleage to senior citizen", 
+                "test:type": "quote"
+            }, 
+            "test:already too high as it is": {
+                "test:quote": "already too high as it is", 
+                "test:type": "quote"
+            }, 
+            "test:the manager always says yes even if theres no money in the checking account": {
+                "test:quote": "the manager always says yes even if theres no money in the checking account", 
+                "test:type": "quote"
+            }, 
+            "test:i gave him my state id": {
+                "test:quote": "i gave him my state id", 
+                "test:type": "quote"
+            }, 
+            "test:because if they dont say yes they get fired": {
+                "test:quote": "because if they dont say yes they get fired", 
+                "test:type": "quote"
+            }, 
+            "test:the allegations against mr kelly are false and are being made by individuals known to be dishonest": {
+                "test:quote": "the allegations against mr kelly are false and are being made by individuals known to be dishonest", 
+                "test:type": "quote"
+            }, 
+            "test:honestly you know the situation that had happened that night when i went to meet r kelly": {
+                "test:quote": "honestly you know the situation that had happened that night when i went to meet r kelly", 
+                "test:type": "quote"
+            }, 
+            "test:the jury gave him the extra benefit of the doubt because of who he is just like the o j simpson jury": {
+                "test:quote": "the jury gave him the extra benefit of the doubt because of who he is just like the o j simpson jury", 
+                "test:type": "quote"
+            }, 
+            "test:at the time i was still you know pretty starstruck so i was in disbelief": {
+                "test:quote": "at the time i was still you know pretty starstruck so i was in disbelief", 
+                "test:type": "quote"
+            }, 
+            "test:if we do anything with this prosecution": {
+                "test:quote": "if we do anything with this prosecution", 
+                "test:type": "quote"
+            }, 
+            "test:it is the opinion of this examiner based upon an analysis of her polygraph records that she is truthful in her answers": {
+                "test:quote": "it is the opinion of this examiner based upon an analysis of her polygraph records that she is truthful in her answers", 
+                "test:type": "quote"
+            }, 
+            "test:has done more for black folks than anybody": {
+                "test:quote": "has done more for black folks than anybody", 
+                "test:type": "quote"
+            }, 
+            "test:in terms of celebrities and people in the industry i got way more nos than yeses": {
+                "test:quote": "in terms of celebrities and people in the industry i got way more nos than yeses", 
+                "test:type": "quote"
+            }, 
+            "test:in 1998 1999 he did not look like that": {
+                "test:quote": "in 1998 1999 he did not look like that", 
+                "test:type": "quote"
+            }, 
+            "test:most of us felt that maybe it was kelly maybe not": {
+                "test:quote": "most of us felt that maybe it was kelly maybe not", 
+                "test:type": "quote"
+            }, 
+            "test:i know speaking out against kelly kelly could sue me": {
+                "test:quote": "i know speaking out against kelly kelly could sue me", 
+                "test:type": "quote"
+            }, 
+            "test:and i’m not being brainwashed or anything like that": {
+                "test:quote": "and i’m not being brainwashed or anything like that", 
+                "test:type": "quote"
+            }, 
+            "test:probably not the smartestguy but will do what is best and fair": {
+                "test:quote": "probably not the smartestguy but will do what is best and fair", 
+                "test:type": "quote"
+            }, 
+            "test:i think there’s robert and then rkelly": {
+                "test:quote": "i think there’s robert and then rkelly", 
+                "test:type": "quote"
+            }, 
+            "test:i do everything pro bono when i fight for the innocent like mr kelly": {
+                "test:quote": "i do everything pro bono when i fight for the innocent like mr kelly", 
+                "test:type": "quote"
+            }, 
+            "test:but then i thought lemme put aside r kelly and just listen to what they got to say": {
+                "test:quote": "but then i thought lemme put aside r kelly and just listen to what they got to say", 
+                "test:type": "quote"
+            }, 
+            "test:we didnt care what the jurors thought about the case before the trial": {
+                "test:quote": "we didnt care what the jurors thought about the case before the trial", 
+                "test:type": "quote"
+            }, 
+            "test:this is something they do to get your attention": {
+                "test:quote": "this is something they do to get your attention", 
+                "test:type": "quote"
+            }, 
+            "test:but i’m really not worried about it anymore": {
+                "test:quote": "but i’m really not worried about it anymore", 
+                "test:type": "quote"
+            }, 
+            "test:it was my first real trial that i saw that wasnt on television or scripted": {
+                "test:quote": "it was my first real trial that i saw that wasnt on television or scripted", 
+                "test:type": "quote"
+            }, 
+            "test:probably not the smartest\n\nguy but will do what is best and fair": {
+                "test:quote": "probably not the smartest\n\nguy but will do what is best and fair", 
+                "test:type": "quote"
+            }, 
+            "test:i was like oh its like this": {
+                "test:quote": "i was like oh its like this", 
+                "test:type": "quote"
+            }, 
+            "test:i mean he still is but the man on the tape was so different": {
+                "test:quote": "i mean he still is but the man on the tape was so different", 
+                "test:type": "quote"
+            }, 
+            "test:controls every aspect of their lives dictating what they eat how they dress when they bathe when they sleep and how they engage in sexual encounters that he records": {
+                "test:quote": "controls every aspect of their lives dictating what they eat how they dress when they bathe when they sleep and how they engage in sexual encounters that he records", 
+                "test:type": "quote"
+            }, 
+            "test:his music overshadows everything when it comes to his wrongdoings": {
+                "test:quote": "his music overshadows everything when it comes to his wrongdoings", 
+                "test:type": "quote"
+            }, 
+            "test:so they have banned me from all of the hiphop awards with a sign saying ‘erykah badu leave our rappers alone": {
+                "test:quote": "so they have banned me from all of the hiphop awards with a sign saying ‘erykah badu leave our rappers alone", 
+                "test:type": "quote"
+            }, 
+            "test:its a good thing they were alternates": {
+                "test:quote": "its a good thing they were alternates", 
+                "test:type": "quote"
+            }, 
+            "test:most of all he wants to thank god for giving him the strength to get through this": {
+                "test:quote": "most of all he wants to thank god for giving him the strength to get through this", 
+                "test:type": "quote"
+            }, 
+            "test:they didnt have any of her immediate family so i was like they didnt prove the case": {
+                "test:quote": "they didnt have any of her immediate family so i was like they didnt prove the case", 
+                "test:type": "quote"
+            }, 
+            "test:we weren’t totally sure it was the girl we weren’t totally sure it was him": {
+                "test:quote": "we weren’t totally sure it was the girl we weren’t totally sure it was him", 
+                "test:type": "quote"
+            }, 
+            "test:chicago radio station wgci was the biggest supporter — they played him all the time — and it was my favorite radio station": {
+                "test:quote": "chicago radio station wgci was the biggest supporter — they played him all the time — and it was my favorite radio station", 
+                "test:type": "quote"
+            }, 
+            "test:i wanted to see everything for myself": {
+                "test:quote": "i wanted to see everything for myself", 
+                "test:type": "quote"
+            }, 
+            "test:i never had any doubt they would find him not guilty": {
+                "test:quote": "i never had any doubt they would find him not guilty", 
+                "test:type": "quote"
+            }, 
+            "test:there is nothing that he could ever do to make me doubt him": {
+                "test:quote": "there is nothing that he could ever do to make me doubt him", 
+                "test:type": "quote"
+            }, 
+            "test:they have managers who are supposed to be watching their money": {
+                "test:quote": "they have managers who are supposed to be watching their money", 
+                "test:type": "quote"
+            }, 
+            "test:this prosecution is one we have no reservations about": {
+                "test:quote": "this prosecution is one we have no reservations about", 
+                "test:type": "quote"
+            }, 
+            "test:the state had some bad witnesses": {
+                "test:quote": "the state had some bad witnesses", 
+                "test:type": "quote"
+            }, 
+            "test:they dont have proof of that": {
+                "test:quote": "they dont have proof of that", 
+                "test:type": "quote"
+            }, 
+            "test:he told me that he wanted me to undress for him and walk back and forth like i was modeling": {
+                "test:quote": "he told me that he wanted me to undress for him and walk back and forth like i was modeling", 
+                "test:type": "quote"
+            }, 
+            "test:going into it i felt he was innocent": {
+                "test:quote": "going into it i felt he was innocent", 
+                "test:type": "quote"
+            }, 
+            "test:we were informed of a possible criminal matter": {
+                "test:quote": "we were informed of a possible criminal matter", 
+                "test:type": "quote"
+            }, 
+            "test:he’s brainwashed them really bad and it kind of reminds me of charles manson": {
+                "test:quote": "he’s brainwashed them really bad and it kind of reminds me of charles manson", 
+                "test:type": "quote"
+            }, 
+            "test:the terms and existence of this agreement and of the 2010 settlement agreement shall be strictly confidential": {
+                "test:quote": "the terms and existence of this agreement and of the 2010 settlement agreement shall be strictly confidential", 
+                "test:type": "quote"
+            }, 
+            "test:it was on their website that they had worked with a lot of women who went against kelly and i thought oh that’s a good thing": {
+                "test:quote": "it was on their website that they had worked with a lot of women who went against kelly and i thought oh that’s a good thing", 
+                "test:type": "quote"
+            }, 
+            "test:he wants to thank his lawyers who defended him so brilliantly": {
+                "test:quote": "he wants to thank his lawyers who defended him so brilliantly", 
+                "test:type": "quote"
+            }, 
+            "test:they did after a little bit": {
+                "test:quote": "they did after a little bit", 
+                "test:type": "quote"
+            }, 
+            "test:we investigated the issues found there to be no crime and the matters have been closed": {
+                "test:quote": "we investigated the issues found there to be no crime and the matters have been closed", 
+                "test:type": "quote"
+            }, 
+            "test:yeah he was bald he had a nice body but he did not have a gut and he had one on the tape": {
+                "test:quote": "yeah he was bald he had a nice body but he did not have a gut and he had one on the tape", 
+                "test:type": "quote"
+            }, 
+            "test:he often tried to control every aspect of my life including who i would see and where i would go": {
+                "test:quote": "he often tried to control every aspect of my life including who i would see and where i would go", 
+                "test:type": "quote"
+            }, 
+            "test:shes not free to call her mother or father": {
+                "test:quote": "shes not free to call her mother or father", 
+                "test:type": "quote"
+            }, 
+            "test:no i wouldnt speak on that as well": {
+                "test:quote": "no i wouldnt speak on that as well", 
+                "test:type": "quote"
+            }, 
+            "test:yes and the whole thing about him supposedly marrying aaliyah when she was underage": {
+                "test:quote": "yes and the whole thing about him supposedly marrying aaliyah when she was underage", 
+                "test:type": "quote"
+            }, 
+            "test:shes being controlled by a woman or man": {
+                "test:quote": "shes being controlled by a woman or man", 
+                "test:type": "quote"
+            }, 
+            "test:if we receive similar evidence today or tomorrow we are going to bring that case": {
+                "test:quote": "if we receive similar evidence today or tomorrow we are going to bring that case", 
+                "test:type": "quote"
+            }, 
+            "test:it seemed to me that the goddaughters family was very divided over this from the beginning": {
+                "test:quote": "it seemed to me that the goddaughters family was very divided over this from the beginning", 
+                "test:type": "quote"
+            }, 
+            "test:it helped a lot for my major and it made me think about going to law school": {
+                "test:quote": "it helped a lot for my major and it made me think about going to law school", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t have any hourly rate": {
+                "test:quote": "i don’t have any hourly rate", 
+                "test:type": "quote"
+            }, 
+            "test:if convicted on all counts the defendant faces the prospect of spending decades in prison": {
+                "test:quote": "if convicted on all counts the defendant faces the prospect of spending decades in prison", 
+                "test:type": "quote"
+            }, 
+            "test:even though my eyes were watering i didnt let the tears fall down": {
+                "test:quote": "even though my eyes were watering i didnt let the tears fall down", 
+                "test:type": "quote"
+            }, 
+            "test:who has done more for black folks than anybody": {
+                "test:quote": "who has done more for black folks than anybody", 
+                "test:type": "quote"
+            }, 
+            "test:if you look at the video and i looked at it over 10 times the video has someone in the back telling her what to say and what not to say": {
+                "test:quote": "if you look at the video and i looked at it over 10 times the video has someone in the back telling her what to say and what not to say", 
+                "test:type": "quote"
+            }, 
+            "test:it is clear these continuing stories are the result of the effort of those with personal agendas who are working in concert to interfere with and damage his career": {
+                "test:quote": "it is clear these continuing stories are the result of the effort of those with personal agendas who are working in concert to interfere with and damage his career", 
+                "test:type": "quote"
+            }, 
+            "test:two underage girls who claimed the rb superstar r kelly had sex with them": {
+                "test:quote": "two underage girls who claimed the rb superstar r kelly had sex with them", 
+                "test:type": "quote"
+            }, 
+            "test:we show the world how difficult it is to prosecute": {
+                "test:quote": "we show the world how difficult it is to prosecute", 
+                "test:type": "quote"
+            }, 
+            "test:it seemed like the girl on the tape was much more developed": {
+                "test:quote": "it seemed like the girl on the tape was much more developed", 
+                "test:type": "quote"
+            }, 
+            "test:and all the other ladies such as witness lisa van allen wanted money": {
+                "test:quote": "and all the other ladies such as witness lisa van allen wanted money", 
+                "test:type": "quote"
+            }, 
+            "test:seemed like a cool guy and he would always speak to me when he saw me": {
+                "test:quote": "seemed like a cool guy and he would always speak to me when he saw me", 
+                "test:type": "quote"
+            }, 
+            "test:i had to call him ‘daddy’ and he would call me ‘baby’ he wanted me to have two pigtails and i had to go out and find little schoolgirl outfits": {
+                "test:quote": "i had to call him ‘daddy’ and he would call me ‘baby’ he wanted me to have two pigtails and i had to go out and find little schoolgirl outfits", 
+                "test:type": "quote"
+            }, 
+            "test:i was drunk because i wasn’t used to alcohol": {
+                "test:quote": "i was drunk because i wasn’t used to alcohol", 
+                "test:type": "quote"
+            }, 
+            "test:i say it wasnt him": {
+                "test:quote": "i say it wasnt him", 
+                "test:type": "quote"
+            }, 
+            "test:if he did itthen he shouldn’t have recorded it": {
+                "test:quote": "if he did itthen he shouldn’t have recorded it", 
+                "test:type": "quote"
+            }, 
+            "test:it wasnt r kelly at all": {
+                "test:quote": "it wasnt r kelly at all", 
+                "test:type": "quote"
+            }, 
+            "test:it’s all one color to me": {
+                "test:quote": "it’s all one color to me", 
+                "test:type": "quote"
+            }, 
+            "test:he wants to thank his fans who stuck by him and supported him with such love": {
+                "test:quote": "he wants to thank his fans who stuck by him and supported him with such love", 
+                "test:type": "quote"
+            }, 
+            "test:even though i had already met him at his trial i was like literally at his house so it did not feel real": {
+                "test:quote": "even though i had already met him at his trial i was like literally at his house so it did not feel real", 
+                "test:type": "quote"
+            }, 
+            "test:we had seen photos of her at other times and she seemed like a young girl": {
+                "test:quote": "we had seen photos of her at other times and she seemed like a young girl", 
+                "test:type": "quote"
+            }, 
+            "test:its been a terrible ordeal for him and his family and at this point all he wants to do is move forward and try to put it behind him": {
+                "test:quote": "its been a terrible ordeal for him and his family and at this point all he wants to do is move forward and try to put it behind him", 
+                "test:type": "quote"
+            }, 
+            "test:r kelly is the man whois behind the music": {
+                "test:quote": "r kelly is the man whois behind the music", 
+                "test:type": "quote"
+            }, 
+            "test:i just knew that i liked his music so i was pretty much accepting of anything that came with him at the time": {
+                "test:quote": "i just knew that i liked his music so i was pretty much accepting of anything that came with him at the time", 
+                "test:type": "quote"
+            }, 
+            "test:if i can speak out and i can help them get out of that situation that’s what i will do": {
+                "test:quote": "if i can speak out and i can help them get out of that situation that’s what i will do", 
+                "test:type": "quote"
+            }, 
+            "test:i had to control my happiness until i got outside": {
+                "test:quote": "i had to control my happiness until i got outside", 
+                "test:type": "quote"
+            }, 
+            "test:this whole thing from beginning to end is about money": {
+                "test:quote": "this whole thing from beginning to end is about money", 
+                "test:type": "quote"
+            }, 
+            "test:and when they read the verdict i wanted to scream but i didnt": {
+                "test:quote": "and when they read the verdict i wanted to scream but i didnt", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t look at people like that": {
+                "test:quote": "i don’t look at people like that", 
+                "test:type": "quote"
+            }, 
+            "test:if he did it\n\nthen he shouldn’t have recorded it": {
+                "test:quote": "if he did it\n\nthen he shouldn’t have recorded it", 
+                "test:type": "quote"
+            }, 
+            "test:how do you victimize a person when she says ‘it’s not me’": {
+                "test:quote": "how do you victimize a person when she says ‘it’s not me’", 
+                "test:type": "quote"
+            }, 
+            "test:no contact at all by any means": {
+                "test:quote": "no contact at all by any means", 
+                "test:type": "quote"
+            }, 
+            "test:ive tried to reach out to her": {
+                "test:quote": "ive tried to reach out to her", 
+                "test:type": "quote"
+            }, 
+            "test:my family listened to his music my friends listened to his music everybody was just in love with the music": {
+                "test:quote": "my family listened to his music my friends listened to his music everybody was just in love with the music", 
+                "test:type": "quote"
+            }, 
+            "test:i think there’s robert and then r\n\nkelly": {
+                "test:quote": "i think there’s robert and then r\n\nkelly", 
+                "test:type": "quote"
+            }, 
+            "test:if i was to get criminal charges it would probably be like it was last time where he wouldn’t get convicted": {
+                "test:quote": "if i was to get criminal charges it would probably be like it was last time where he wouldn’t get convicted", 
+                "test:type": "quote"
+            }, 
+            "test:i was slapped and i was choked and i was spit on": {
+                "test:quote": "i was slapped and i was choked and i was spit on", 
+                "test:type": "quote"
+            }, 
+            "test:they cant say he likes little girls": {
+                "test:quote": "they cant say he likes little girls", 
+                "test:type": "quote"
+            }, 
+            "test:i wouldnt want to speak on that": {
+                "test:quote": "i wouldnt want to speak on that", 
+                "test:type": "quote"
+            }, 
+            "test:mr kelly again denies any and all wrong doing and is taking appropriate legal action to protect himself from ongoing defamation": {
+                "test:quote": "mr kelly again denies any and all wrong doing and is taking appropriate legal action to protect himself from ongoing defamation", 
+                "test:type": "quote"
+            }, 
+            "test:r kelly got his name back and his goddaughter never had to lose her virtue": {
+                "test:quote": "r kelly got his name back and his goddaughter never had to lose her virtue", 
+                "test:type": "quote"
+            }, 
+            "test:robert is the person who is coming to court": {
+                "test:quote": "robert is the person who is coming to court", 
+                "test:type": "quote"
+            }, 
+            "test:he did not expect that it would take 6 12 years": {
+                "test:quote": "he did not expect that it would take 6 12 years", 
+                "test:type": "quote"
+            }, 
+            "test:let’s cut to the chase": {
+                "test:quote": "let’s cut to the chase", 
+                "test:type": "quote"
+            }, 
+            "test:because shes not free to go": {
+                "test:quote": "because shes not free to go", 
+                "test:type": "quote"
+            }, 
+            "test:r kelly is the man who\n\nis behind the music": {
+                "test:quote": "r kelly is the man who\n\nis behind the music", 
+                "test:type": "quote"
+            }, 
+            "test:i thought it would be the dumbest thing for him to do to testify": {
+                "test:quote": "i thought it would be the dumbest thing for him to do to testify", 
+                "test:type": "quote"
+            }, 
+            "test:because what you’re doing is definitely not rap": {
+                "test:quote": "because what you’re doing is definitely not rap", 
+                "test:type": "quote"
+            }, 
+            "test:nobody thinks about the damage hes done or is doing to young women and his personal life means nothing when it comes to executives making money off of him": {
+                "test:quote": "nobody thinks about the damage hes done or is doing to young women and his personal life means nothing when it comes to executives making money off of him", 
+                "test:type": "quote"
+            }, 
+            "test:i think he’s the same man\n\nwith two different personalities": {
+                "test:quote": "i think he’s the same man\n\nwith two different personalities", 
+                "test:type": "quote"
+            }, 
+            "test:i just really hope i can help these women out": {
+                "test:quote": "i just really hope i can help these women out", 
+                "test:type": "quote"
+            }, 
+            "test:he didn’t have anything to sign and neither did i but my friend reached into her pocket and found an old bank slip so i got his autograph on her bank slip": {
+                "test:quote": "he didn’t have anything to sign and neither did i but my friend reached into her pocket and found an old bank slip so i got his autograph on her bank slip", 
+                "test:type": "quote"
+            }, 
+            "test:dad you know everything thats going on with the media and the internet and what you have done is a complete disaster": {
+                "test:quote": "dad you know everything thats going on with the media and the internet and what you have done is a complete disaster", 
+                "test:type": "quote"
+            }, 
+            "test:child pornography cases can be extremely difficult in many ways": {
+                "test:quote": "child pornography cases can be extremely difficult in many ways", 
+                "test:type": "quote"
+            }, 
+            "test:at the time i didn’t know what i liked honestly": {
+                "test:quote": "at the time i didn’t know what i liked honestly", 
+                "test:type": "quote"
+            }, 
+            "test:erykah badu leave our rappers alone": {
+                "test:quote": "erykah badu leave our rappers alone", 
+                "test:type": "quote"
+            }, 
+            "test:but when you get a call from your client at midnight and theyre at a dealership and they ask you is it ok for me to buy a lamborghini": {
+                "test:quote": "but when you get a call from your client at midnight and theyre at a dealership and they ask you is it ok for me to buy a lamborghini", 
+                "test:type": "quote"
+            }, 
+            "test:as we must we accept the verdict of the jury in this case": {
+                "test:quote": "as we must we accept the verdict of the jury in this case", 
+                "test:type": "quote"
+            }, 
+            "test:i didn’t have anybody to speak up on my behalf when i was going through what i was going through with him": {
+                "test:quote": "i didn’t have anybody to speak up on my behalf when i was going through what i was going through with him", 
+                "test:type": "quote"
+            }, 
+            "test:they cant call him a pedophile anymore": {
+                "test:quote": "they cant call him a pedophile anymore", 
+                "test:type": "quote"
+            }, 
+            "test:the largest taxpayer in the village of 4700": {
+                "test:quote": "the largest taxpayer in the village of 4700", 
+                "test:type": "quote"
+            }, 
+            "test:i was often treated as his personal sex object and cast aside": {
+                "test:quote": "i was often treated as his personal sex object and cast aside", 
+                "test:type": "quote"
+            }, 
+            "test:are you with other roommates are you free to go where you are": {
+                "test:quote": "are you with other roommates are you free to go where you are", 
+                "test:type": "quote"
+            }, 
+            "test:from the beginning i thought he was innocent": {
+                "test:quote": "from the beginning i thought he was innocent", 
+                "test:type": "quote"
+            }, 
+            "test:because then theyd be able to use his past against him and they would probably convict him": {
+                "test:quote": "because then theyd be able to use his past against him and they would probably convict him", 
+                "test:type": "quote"
+            }, 
+            "test:i’m just going forward with my head held high": {
+                "test:quote": "i’m just going forward with my head held high", 
+                "test:type": "quote"
+            }, 
+            "test:are you currently in georgia or where are you": {
+                "test:quote": "are you currently in georgia or where are you", 
+                "test:type": "quote"
+            }, 
+            "test:but nobody could agree if it was her": {
+                "test:quote": "but nobody could agree if it was her", 
+                "test:type": "quote"
+            }, 
+            "test:he had a sixpack and everything back then": {
+                "test:quote": "he had a sixpack and everything back then", 
+                "test:type": "quote"
+            }, 
+            "test:no no no no no no no": {
+                "test:quote": "no no no no no no no", 
+                "test:type": "quote"
+            }, 
+            "test:as you know i am the queen of neo soul and people say i have this common effect on rappers that i make them change gods and wear crochet hats shoulder pads": {
+                "test:quote": "as you know i am the queen of neo soul and people say i have this common effect on rappers that i make them change gods and wear crochet hats shoulder pads", 
+                "test:type": "quote"
+            }, 
+            "test:i think he’s the same manwith two different personalities": {
+                "test:quote": "i think he’s the same manwith two different personalities", 
+                "test:type": "quote"
+            }, 
+            "test:when i saw the video i called and no one picked up the phone": {
+                "test:quote": "when i saw the video i called and no one picked up the phone", 
+                "test:type": "quote"
+            }, 
+            "test:happy where im at and with the people that im around": {
+                "test:quote": "happy where im at and with the people that im around", 
+                "test:type": "quote"
+            }, 
+            "test:i just mainly want to say i’m in a happy place with my life": {
+                "test:quote": "i just mainly want to say i’m in a happy place with my life", 
+                "test:type": "quote"
+            }, 
+            "test:this is a victory for the concept of reasonable doubt": {
+                "test:quote": "this is a victory for the concept of reasonable doubt", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "156321": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:they dont have proof of that"
+            }, 
+            "156209": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:activity": "test:this is something they do to get your attention"
+            }, 
+            "156435": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:but nobody could agree if it was her"
+            }, 
+            "156431": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:most of us felt that maybe it was kelly maybe not"
+            }, 
+            "156201": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:activity": "test:the manager always says yes even if theres no money in the checking account"
+            }, 
+            "156205": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:activity": "test:because if they dont say yes they get fired"
+            }, 
+            "156439": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:we had seen photos of her at other times and she seemed like a young girl"
+            }, 
+            "156281": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:in 1998 1999 he did not look like that"
+            }, 
+            "156043": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:even though i had already met him at his trial i was like literally at his house so it did not feel real"
+            }, 
+            "156041": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:he didn’t have anything to sign and neither did i but my friend reached into her pocket and found an old bank slip so i got his autograph on her bank slip"
+            }, 
+            "156289": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:he had a sixpack and everything back then"
+            }, 
+            "156124": {
+                "prov:entity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "prov:activity": "test:has done more for black folks than anybody"
+            }, 
+            "156126": {
+                "prov:entity": "test:https://www.chicagotribune.com/entertainment/tv/ct-ent-r-kelly-documentary-lifetime-20190102-story.html#nt=instory-link", 
+                "prov:activity": "test:in terms of celebrities and people in the industry i got way more nos than yeses"
+            }, 
+            "156217": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:from the beginning i thought he was innocent"
+            }, 
+            "156415": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:the jury gave him the extra benefit of the doubt because of who he is just like the o j simpson jury"
+            }, 
+            "156197": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:activity": "test:but when you get a call from your client at midnight and theyre at a dealership and they ask you is it ok for me to buy a lamborghini"
+            }, 
+            "156193": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2012-06-16-ct-talk-rkelly-taxes-0616-20120616-story.html", 
+                "prov:activity": "test:they have managers who are supposed to be watching their money"
+            }, 
+            "156114": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i’m just going forward with my head held high"
+            }, 
+            "156443": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:it seemed like the girl on the tape was much more developed"
+            }, 
+            "156110": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:but i’m really not worried about it anymore"
+            }, 
+            "156447": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:it seemed to me that the goddaughters family was very divided over this from the beginning"
+            }, 
+            "156112": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i feel like this is a healing process for me because ive been holding this in for so many years and to see that he always gets away with it it’s just not right"
+            }, 
+            "156357": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:shes being controlled by a woman or man"
+            }, 
+            "156353": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:shes not free to call her mother or father"
+            }, 
+            "156054": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i was drunk because i wasn’t used to alcohol"
+            }, 
+            "156056": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i had to call him ‘daddy’ and he would call me ‘baby’ he wanted me to have two pigtails and i had to go out and find little schoolgirl outfits"
+            }, 
+            "156050": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:he told me that he wanted me to undress for him and walk back and forth like i was modeling"
+            }, 
+            "156297": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i thought it would be the dumbest thing for him to do to testify"
+            }, 
+            "156527": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:no no no no no no no"
+            }, 
+            "156293": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i mean he still is but the man on the tape was so different"
+            }, 
+            "156058": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i gave him my state id"
+            }, 
+            "156523": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:who has done more for black folks than anybody"
+            }, 
+            "156087": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i was often treated as his personal sex object and cast aside"
+            }, 
+            "155994": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/criminal-justice/ct-r-kelly-arrested-federal-charges-20190712-6ghntysw3zf3lpncn4owcfzyje-story.html", 
+                "prov:activity": "test:if convicted on all counts the defendant faces the prospect of spending decades in prison"
+            }, 
+            "156531": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:because what you’re doing is definitely not rap"
+            }, 
+            "156261": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:and all the other ladies such as witness lisa van allen wanted money"
+            }, 
+            "156265": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:the state had some bad witnesses"
+            }, 
+            "156269": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:they didnt have any of her immediate family so i was like they didnt prove the case"
+            }, 
+            "156185": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:r kelly is the man whois behind the music"
+            }, 
+            "156407": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:if we receive similar evidence today or tomorrow we are going to bring that case"
+            }, 
+            "156451": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:as we must we accept the verdict of the jury in this case"
+            }, 
+            "156102": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:the terms and existence of this agreement and of the 2010 settlement agreement shall be strictly confidential"
+            }, 
+            "156349": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:because shes not free to go"
+            }, 
+            "156106": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:nobody thinks about the damage hes done or is doing to young women and his personal life means nothing when it comes to executives making money off of him"
+            }, 
+            "156104": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:his music overshadows everything when it comes to his wrongdoings"
+            }, 
+            "156345": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:if you look at the video and i looked at it over 10 times the video has someone in the back telling her what to say and what not to say"
+            }, 
+            "156108": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i know speaking out against kelly kelly could sue me"
+            }, 
+            "156343": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:controls every aspect of their lives dictating what they eat how they dress when they bathe when they sleep and how they engage in sexual encounters that he records"
+            }, 
+            "156519": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:so they have banned me from all of the hiphop awards with a sign saying ‘erykah badu leave our rappers alone"
+            }, 
+            "156062": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:at the time i didn’t know what i liked honestly"
+            }, 
+            "156064": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i just knew that i liked his music so i was pretty much accepting of anything that came with him at the time"
+            }, 
+            "156066": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i was slapped and i was choked and i was spit on"
+            }, 
+            "156068": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:we were informed of a possible criminal matter"
+            }, 
+            "156513": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:erykah badu leave our rappers alone"
+            }, 
+            "156515": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/29/erykah-badu-shades-iggy-azalea-and-babyface-brings-down-the-house-at-the-2015-soul-train-awards/?utm_term=.badd0c811228&noredirect=on", 
+                "prov:activity": "test:as you know i am the queen of neo soul and people say i have this common effect on rappers that i make them change gods and wear crochet hats shoulder pads"
+            }, 
+            "156273": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i say it wasnt him"
+            }, 
+            "156277": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:it wasnt r kelly at all"
+            }, 
+            "156393": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:this whole thing from beginning to end is about money"
+            }, 
+            "156391": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:we weren’t totally sure it was the girl we weren’t totally sure it was him"
+            }, 
+            "156501": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:we show the world how difficult it is to prosecute"
+            }, 
+            "156373": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:and i’m not being brainwashed or anything like that"
+            }, 
+            "156377": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:dad you know everything thats going on with the media and the internet and what you have done is a complete disaster"
+            }, 
+            "156175": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:i think he’s the same manwith two different personalities"
+            }, 
+            "156171": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:if he did itthen he shouldn’t have recorded it"
+            }, 
+            "156076": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:the largest taxpayer in the village of 4700"
+            }, 
+            "156401": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:i do everything pro bono when i fight for the innocent like mr kelly"
+            }, 
+            "156072": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:we investigated the issues found there to be no crime and the matters have been closed"
+            }, 
+            "156179": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:i think there’s robert and then rkelly"
+            }, 
+            "156487": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:we wanted intelligent people who would keep an open mind and we found them"
+            }, 
+            "156483": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:we didnt care what the jurors thought about the case before the trial"
+            }, 
+            "156083": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:two underage girls who claimed the rb superstar r kelly had sex with them"
+            }, 
+            "156365": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:when i saw the video i called and no one picked up the phone"
+            }, 
+            "156081": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:it was on their website that they had worked with a lot of women who went against kelly and i thought oh that’s a good thing"
+            }, 
+            "156249": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:it helped a lot for my major and it made me think about going to law school"
+            }, 
+            "156361": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:ive tried to reach out to her"
+            }, 
+            "156403": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:child pornography cases can be extremely difficult in many ways"
+            }, 
+            "156245": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i was like oh its like this"
+            }, 
+            "156241": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:it was my first real trial that i saw that wasnt on television or scripted"
+            }, 
+            "156369": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:i just mainly want to say i’m in a happy place with my life"
+            }, 
+            "156479": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:its a good thing they were alternates"
+            }, 
+            "156471": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:he wants to thank his fans who stuck by him and supported him with such love"
+            }, 
+            "156475": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:most of all he wants to thank god for giving him the strength to get through this"
+            }, 
+            "156008": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:mr kelly again denies any and all wrong doing and is taking appropriate legal action to protect himself from ongoing defamation"
+            }, 
+            "156166": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:probably not the smartestguy but will do what is best and fair"
+            }, 
+            "156162": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:r kelly is the man who\n\nis behind the music"
+            }, 
+            "156006": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:it is clear these continuing stories are the result of the effort of those with personal agendas who are working in concert to interfere with and damage his career"
+            }, 
+            "156004": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:the allegations against mr kelly are false and are being made by individuals known to be dishonest"
+            }, 
+            "156285": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:yeah he was bald he had a nice body but he did not have a gut and he had one on the tape"
+            }, 
+            "156497": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:if we do anything with this prosecution"
+            }, 
+            "156491": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:graduated from late middleage to senior citizen"
+            }, 
+            "156493": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:r kelly got his name back and his goddaughter never had to lose her virtue"
+            }, 
+            "156091": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:he often tried to control every aspect of my life including who i would see and where i would go"
+            }, 
+            "156313": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:they cant call him a pedophile anymore"
+            }, 
+            "156095": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:if i was to get criminal charges it would probably be like it was last time where he wouldn’t get convicted"
+            }, 
+            "156019": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i just really hope i can help these women out"
+            }, 
+            "156253": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:going into it i felt he was innocent"
+            }, 
+            "156098": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:it is the opinion of this examiner based upon an analysis of her polygraph records that she is truthful in her answers"
+            }, 
+            "156257": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:but then i thought lemme put aside r kelly and just listen to what they got to say"
+            }, 
+            "156150": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:i think he’s the same man\n\nwith two different personalities"
+            }, 
+            "156399": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:i don’t have any hourly rate"
+            }, 
+            "156154": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:i think there’s robert and then r\n\nkelly"
+            }, 
+            "156158": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:robert is the person who is coming to court"
+            }, 
+            "156010": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:no contact at all by any means"
+            }, 
+            "156012": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:if i can speak out and i can help them get out of that situation that’s what i will do"
+            }, 
+            "156015": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i didn’t have anybody to speak up on my behalf when i was going through what i was going through with him"
+            }, 
+            "156397": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:how do you victimize a person when she says ‘it’s not me’"
+            }, 
+            "156017": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:he’s brainwashed them really bad and it kind of reminds me of charles manson"
+            }, 
+            "156395": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:let’s cut to the chase"
+            }, 
+            "156467": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:he wants to thank his lawyers who defended him so brilliantly"
+            }, 
+            "156301": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:because then theyd be able to use his past against him and they would probably convict him"
+            }, 
+            "156305": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:yes and the whole thing about him supposedly marrying aaliyah when she was underage"
+            }, 
+            "156309": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:there is nothing that he could ever do to make me doubt him"
+            }, 
+            "156463": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:its been a terrible ordeal for him and his family and at this point all he wants to do is move forward and try to put it behind him"
+            }, 
+            "156025": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:chicago radio station wgci was the biggest supporter — they played him all the time — and it was my favorite radio station"
+            }, 
+            "156027": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:i wanted to see everything for myself"
+            }, 
+            "156229": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i had to control my happiness until i got outside"
+            }, 
+            "156225": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:and when they read the verdict i wanted to scream but i didnt"
+            }, 
+            "156029": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:at the time i was still you know pretty starstruck so i was in disbelief"
+            }, 
+            "156221": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:i never had any doubt they would find him not guilty"
+            }, 
+            "156381": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:happy where im at and with the people that im around"
+            }, 
+            "156146": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:if he did it\n\nthen he shouldn’t have recorded it"
+            }, 
+            "156383": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:honestly you know the situation that had happened that night when i went to meet r kelly"
+            }, 
+            "156144": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:already too high as it is"
+            }, 
+            "156411": {
+                "prov:entity": "test:https://www.nytimes.com/2008/06/14/arts/music/14kell.html", 
+                "prov:activity": "test:this is a victory for the concept of reasonable doubt"
+            }, 
+            "156142": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:it’s all one color to me"
+            }, 
+            "156140": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:i don’t look at people like that"
+            }, 
+            "156339": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:no i wouldnt speak on that as well"
+            }, 
+            "156455": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:this prosecution is one we have no reservations about"
+            }, 
+            "156337": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:are you with other roommates are you free to go where you are"
+            }, 
+            "156331": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:are you currently in georgia or where are you"
+            }, 
+            "156333": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/talalansari/joycelyn-savage-video", 
+                "prov:activity": "test:i wouldnt want to speak on that"
+            }, 
+            "156033": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:they cant say he likes little girls"
+            }, 
+            "156031": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:they cant call him a pedophile anymore"
+            }, 
+            "156037": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:seemed like a cool guy and he would always speak to me when he saw me"
+            }, 
+            "156035": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:they dont have proof of that"
+            }, 
+            "156237": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:they did after a little bit"
+            }, 
+            "156023": {
+                "prov:entity": "test:https://www.buzzfeednews.com/article/jimderogatis/r-kelly-underage-woman-speaks-out", 
+                "prov:activity": "test:my family listened to his music my friends listened to his music everybody was just in love with the music"
+            }, 
+            "156233": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:even though my eyes were watering i didnt let the tears fall down"
+            }, 
+            "156459": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/ct-xpm-2008-06-14-0806140185-story.html#nt=instory-link", 
+                "prov:activity": "test:he did not expect that it would take 6 12 years"
+            }, 
+            "156136": {
+                "prov:entity": "test:https://ew.com/article/2008/05/16/r-kelly-2/", 
+                "prov:activity": "test:probably not the smartest\n\nguy but will do what is best and fair"
+            }, 
+            "156317": {
+                "prov:entity": "test:http://www.mtv.com/news/1589554/r-kellys-biggest-fans-who-came-to-every-day-of-singers-trial-never-had-any-doubt-they-would-find-him-not-guilty/", 
+                "prov:activity": "test:they cant say he likes little girls"
+            }
+        }
+    }
+}

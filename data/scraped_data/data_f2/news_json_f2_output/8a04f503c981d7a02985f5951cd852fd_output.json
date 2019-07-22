@@ -1,0 +1,215 @@
+{
+    "root": "https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "105449": {
+                "prov:usedEntity": "test:https://www.infowarsstore.com/my-patriot-points", 
+                "prov:generatedEntity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC"
+            }, 
+            "105451": {
+                "prov:usedEntity": "test:https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15", 
+                "prov:generatedEntity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/"
+            }, 
+            "105443": {
+                "prov:usedEntity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "prov:generatedEntity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/"
+            }, 
+            "105453": {
+                "prov:usedEntity": "test:https://www.clickorlando.com/news/2-dead-in-marion-county-home-invasion", 
+                "prov:generatedEntity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/"
+            }, 
+            "105441": {
+                "prov:usedEntity": "test:https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15", 
+                "prov:generatedEntity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/"
+            }, 
+            "105455": {
+                "prov:usedEntity": "test:https://www.breitbart.com/downrange/", 
+                "prov:generatedEntity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/"
+            }, 
+            "105447": {
+                "prov:usedEntity": "test:https://www.minds.com/adan_infowars", 
+                "prov:generatedEntity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/"
+            }, 
+            "105445": {
+                "prov:usedEntity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:generatedEntity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "105421": {
+                "prov:entity": "test:https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15", 
+                "prov:agent": "test:Austin L. Miller"
+            }, 
+            "105423": {
+                "prov:entity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "prov:agent": "test:www.infowarsstore.com"
+            }, 
+            "105411": {
+                "prov:entity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "prov:agent": "test:Adan Salazar"
+            }, 
+            "105425": {
+                "prov:entity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:agent": "test:www.breitbart.com"
+            }, 
+            "105439": {
+                "prov:entity": "test:https://www.clickorlando.com/news/2-dead-in-marion-county-home-invasion", 
+                "prov:agent": "test:www.clickorlando.com"
+            }, 
+            "105427": {
+                "prov:entity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:agent": "test:Awr Hawkins"
+            }, 
+            "105435": {
+                "prov:entity": "test:hamilton faces home invasion robbery with a firearm", 
+                "prov:agent": "test:Rodriguez"
+            }, 
+            "105419": {
+                "prov:entity": "test:https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15", 
+                "prov:agent": "test:www.ocala.com"
+            }, 
+            "105431": {
+                "prov:entity": "test:arrested on charges of murder and home invasion robbery with a firearm", 
+                "prov:agent": "test:Rodriguez"
+            }, 
+            "105409": {
+                "prov:entity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "prov:agent": "test:www.infowars.com"
+            }
+        }, 
+        "agent": {
+            "test:Awr Hawkins": {
+                "test:name": "Awr Hawkins", 
+                "test:type": "person"
+            }, 
+            "test:Rodriguez": {
+                "test:name": "Rodriguez", 
+                "test:type": "person"
+            }, 
+            "test:www.infowars.com": {
+                "test:publisher": "www.infowars.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.clickorlando.com": {
+                "test:publisher": "www.clickorlando.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.ocala.com": {
+                "test:publisher": "www.ocala.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Austin L. Miller": {
+                "test:name": "Austin L. Miller", 
+                "test:type": "person"
+            }, 
+            "test:www.breitbart.com": {
+                "test:publisher": "www.breitbart.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.infowarsstore.com": {
+                "test:publisher": "www.infowarsstore.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Adan Salazar": {
+                "test:name": "Adan Salazar", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.clickorlando.com/news/2-dead-in-marion-county-home-invasion": {
+                "test:url": "https://www.clickorlando.com/news/2-dead-in-marion-county-home-invasion", 
+                "test:date": "2019-07-11", 
+                "test:title": "Intruders, 1 in Jason mask, killed in Marion County home invasion", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/": {
+                "test:url": "https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Homeowner Uses AR-15 to Fend Off Four Armed Intruders, Kills Two", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15": {
+                "test:url": "https://www.ocala.com/news/20190711/summerfield-homeowner-injured-kills-2-intruders-with-ar-15", 
+                "test:date": "2019-07-11", 
+                "test:title": "Summerfield homeowner injured, kills 2 intruders with AR-15", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC": {
+                "test:url": "https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "test:date": "", 
+                "test:title": "Welcome to the Alex Jones Infowars Store", 
+                "test:type": "article"
+            }, 
+            "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/": {
+                "test:url": "https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "test:date": "2019-07-11", 
+                "test:title": "Homeowner with AR-15 Repels Four Armed Intrusion Suspects, Killing Two", 
+                "test:type": "article"
+            }, 
+            "test:https://www.breitbart.com/downrange/": {
+                "test:url": "https://www.breitbart.com/downrange/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.minds.com/adan_infowars": {
+                "test:url": "https://www.minds.com/adan_infowars", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.infowarsstore.com/my-patriot-points": {
+                "test:url": "https://www.infowarsstore.com/my-patriot-points", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:he saw a masked person inside the home he said and he and the intruders exchanged gunfire": {
+                "test:quote": "he saw a masked person inside the home he said and he and the intruders exchanged gunfire", 
+                "test:type": "quote"
+            }, 
+            "test:as for the homeowner detectives said there are no charges against him and nothing prevents him from owning guns": {
+                "test:quote": "as for the homeowner detectives said there are no charges against him and nothing prevents him from owning guns", 
+                "test:type": "quote"
+            }, 
+            "test:hamilton faces home invasion robbery with a firearm": {
+                "test:quote": "hamilton faces home invasion robbery with a firearm", 
+                "test:type": "quote"
+            }, 
+            "test:with an ar15 rifle next to his legs": {
+                "test:quote": "with an ar15 rifle next to his legs", 
+                "test:type": "quote"
+            }, 
+            "test:arrested on charges of murder and home invasion robbery with a firearm": {
+                "test:quote": "arrested on charges of murder and home invasion robbery with a firearm", 
+                "test:type": "quote"
+            }, 
+            "test:he said he shot at the man in the mask and at a second person coming toward him": {
+                "test:quote": "he said he shot at the man in the mask and at a second person coming toward him", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "105415": {
+                "prov:entity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "prov:activity": "test:he said he shot at the man in the mask and at a second person coming toward him"
+            }, 
+            "105417": {
+                "prov:entity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "prov:activity": "test:as for the homeowner detectives said there are no charges against him and nothing prevents him from owning guns"
+            }, 
+            "105413": {
+                "prov:entity": "test:https://www.infowars.com/homeowner-uses-ar-15-to-fend-off-four-intruders-kills-two/", 
+                "prov:activity": "test:he saw a masked person inside the home he said and he and the intruders exchanged gunfire"
+            }, 
+            "105437": {
+                "prov:entity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:activity": "test:with an ar15 rifle next to his legs"
+            }, 
+            "105429": {
+                "prov:entity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:activity": "test:arrested on charges of murder and home invasion robbery with a firearm"
+            }, 
+            "105433": {
+                "prov:entity": "test:https://www.breitbart.com/2nd-amendment/2019/07/11/homeowner-ar-15-repels-four-armed-intrusion-suspects-killing-two/", 
+                "prov:activity": "test:hamilton faces home invasion robbery with a firearm"
+            }
+        }
+    }
+}

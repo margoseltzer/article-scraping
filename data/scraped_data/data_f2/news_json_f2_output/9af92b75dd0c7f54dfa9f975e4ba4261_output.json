@@ -1,0 +1,353 @@
+{
+    "root": "https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "105525": {
+                "prov:usedEntity": "test:https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105511": {
+                "prov:usedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "105527": {
+                "prov:usedEntity": "test:https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105513": {
+                "prov:usedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "105521": {
+                "prov:usedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105515": {
+                "prov:usedEntity": "test:https://www.sciencedaily.com/releases/2019/07/190703121407.htm", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "105509": {
+                "prov:usedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:generatedEntity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/"
+            }, 
+            "105517": {
+                "prov:usedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105519": {
+                "prov:usedEntity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105531": {
+                "prov:usedEntity": "test:https://twitter.com/DanielleRyanJ", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105529": {
+                "prov:usedEntity": "test:https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105539": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105543": {
+                "prov:usedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105541": {
+                "prov:usedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105535": {
+                "prov:usedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105523": {
+                "prov:usedEntity": "test:https://t.co/txapQhXt5L", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "105537": {
+                "prov:usedEntity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105545": {
+                "prov:usedEntity": "test:https://oilprice.com/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "105533": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "105459": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:agent": "test:Niamh Harris"
+            }, 
+            "105507": {
+                "prov:entity": "test:all manner of fossil fuel giveaways", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "105457": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "105499": {
+                "prov:entity": "test:fastestgrowing economy in the nation", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "105475": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "105489": {
+                "prov:entity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "105495": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:agent": "test:www.rt.com"
+            }
+        }, 
+        "agent": {
+            "test:www.rt.com": {
+                "test:publisher": "www.rt.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Inslee": {
+                "test:name": "Inslee", 
+                "test:type": "person"
+            }, 
+            "test:newspunch.com": {
+                "test:publisher": "newspunch.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Niamh Harris": {
+                "test:name": "Niamh Harris", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/": {
+                "test:url": "https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/DanielleRyanJ": {
+                "test:url": "https://twitter.com/DanielleRyanJ", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/": {
+                "test:url": "https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "test:date": "", 
+                "test:title": "Finnish study finds ‘practically no’ evidence for man-made climate change", 
+                "test:type": "article"
+            }, 
+            "test:https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study": {
+                "test:url": "https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study", 
+                "test:type": "reference"
+            }, 
+            "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/": {
+                "test:url": "https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Uncorroborated Document by Finnish Researchers Claims ‘Practically No’ Evidence For Man Made Climate Change", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/": {
+                "test:url": "https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/": {
+                "test:url": "https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/business/459666-us-aoc-climate-deal/": {
+                "test:url": "https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "test:date": "", 
+                "test:title": "Meet America’s newest $9 trillion climate change solution", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/": {
+                "test:url": "https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.sciencedaily.com/releases/2019/07/190703121407.htm": {
+                "test:url": "https://www.sciencedaily.com/releases/2019/07/190703121407.htm", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/txapQhXt5L": {
+                "test:url": "https://t.co/txapQhXt5L", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/": {
+                "test:url": "https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "test:date": "", 
+                "test:title": "‘Climate emergency’ on Monday, pipeline expansion on Tuesday: Trudeau the fraud strikes again", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/": {
+                "test:url": "https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "test:type": "article"
+            }, 
+            "test:https://oilprice.com/": {
+                "test:url": "https://oilprice.com/", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html": {
+                "test:url": "https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "test:type": "article"
+            }, 
+            "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html": {
+                "test:url": "https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "test:type": "article"
+            }, 
+            "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html": {
+                "test:url": "https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan": {
+                "test:url": "https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:a strong negative feedback of the clouds is missing": {
+                "test:quote": "a strong negative feedback of the clouds is missing", 
+                "test:type": "quote"
+            }, 
+            "test:the low clouds control mainly the global temperature": {
+                "test:quote": "the low clouds control mainly the global temperature", 
+                "test:type": "quote"
+            }, 
+            "test:fastestgrowing economy in the nation": {
+                "test:quote": "fastestgrowing economy in the nation", 
+                "test:type": "quote"
+            }, 
+            "test:all manner of fossil fuel giveaways": {
+                "test:quote": "all manner of fossil fuel giveaways", 
+                "test:type": "quote"
+            }, 
+            "test:cannot compute correctly the natural component included in the observed global temperature": {
+                "test:quote": "cannot compute correctly the natural component included in the observed global temperature", 
+                "test:type": "quote"
+            }, 
+            "test:if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice": {
+                "test:quote": "if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice", 
+                "test:type": "quote"
+            }, 
+            "test:we have practically no anthropogenic climate change": {
+                "test:quote": "we have practically no anthropogenic climate change", 
+                "test:type": "quote"
+            }, 
+            "test:declaring war on cancer and then announcing a campaign to promote smoking": {
+                "test:quote": "declaring war on cancer and then announcing a campaign to promote smoking", 
+                "test:type": "quote"
+            }, 
+            "test:real and urgent crisis driven by human activity": {
+                "test:quote": "real and urgent crisis driven by human activity", 
+                "test:type": "quote"
+            }, 
+            "test:we do not consider computational results as experimental evidence": {
+                "test:quote": "we do not consider computational results as experimental evidence", 
+                "test:type": "quote"
+            }, 
+            "test:no experimental evidence for the significant anthropogenic climate change": {
+                "test:quote": "no experimental evidence for the significant anthropogenic climate change", 
+                "test:type": "quote"
+            }, 
+            "test:these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support": {
+                "test:quote": "these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support", 
+                "test:type": "quote"
+            }, 
+            "test:urgent need to support frontline lowincome and indigenous communities and communities of color": {
+                "test:quote": "urgent need to support frontline lowincome and indigenous communities and communities of color", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "105497": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:activity": "test:fastestgrowing economy in the nation"
+            }, 
+            "105505": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:activity": "test:all manner of fossil fuel giveaways"
+            }, 
+            "105503": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:activity": "test:these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support"
+            }, 
+            "105501": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:activity": "test:urgent need to support frontline lowincome and indigenous communities and communities of color"
+            }, 
+            "105483": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:we do not consider computational results as experimental evidence"
+            }, 
+            "105473": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:the low clouds control mainly the global temperature"
+            }, 
+            "105465": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:a strong negative feedback of the clouds is missing"
+            }, 
+            "105471": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:we have practically no anthropogenic climate change"
+            }, 
+            "105467": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice"
+            }, 
+            "105477": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:no experimental evidence for the significant anthropogenic climate change"
+            }, 
+            "105461": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:no experimental evidence for the significant anthropogenic climate change"
+            }, 
+            "105463": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:cannot compute correctly the natural component included in the observed global temperature"
+            }, 
+            "105487": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:the low clouds control mainly the global temperature"
+            }, 
+            "105479": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:cannot compute correctly the natural component included in the observed global temperature"
+            }, 
+            "105485": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:we have practically no anthropogenic climate change"
+            }, 
+            "105491": {
+                "prov:entity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:activity": "test:real and urgent crisis driven by human activity"
+            }, 
+            "105469": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:we do not consider computational results as experimental evidence"
+            }, 
+            "105493": {
+                "prov:entity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:activity": "test:declaring war on cancer and then announcing a campaign to promote smoking"
+            }, 
+            "105481": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:a strong negative feedback of the clouds is missing"
+            }
+        }
+    }
+}
