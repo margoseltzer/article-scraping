@@ -1,0 +1,1343 @@
+{
+    "root": "http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "174160": {
+                "prov:usedEntity": "test:https://thinkprogress.org/pastor-tells-fox-news-immigrant-detention-center-fine-because-kids-pray-weekly-and-dont-complain-1ebc2ae21f1e/", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519"
+            }, 
+            "174162": {
+                "prov:usedEntity": "test:https://www.miamiherald.com/news/local/immigration/article231035753.html", 
+                "prov:generatedEntity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518"
+            }, 
+            "174158": {
+                "prov:usedEntity": "test:https://www.miamiherald.com/news/local/immigration/article232586272.html", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519"
+            }, 
+            "174164": {
+                "prov:usedEntity": "test:https://www.miamiherald.com/news/local/immigration/article231717178.html", 
+                "prov:generatedEntity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518"
+            }, 
+            "174154": {
+                "prov:usedEntity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519"
+            }, 
+            "174156": {
+                "prov:usedEntity": "test:https://www.miamiherald.com/news/local/immigration/article231075518.html", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519"
+            }, 
+            "174152": {
+                "prov:usedEntity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519"
+            }
+        }, 
+        "wasAttributedTo": {
+            "173993": {
+                "prov:entity": "test:i can see how she wouldn’t be aware of that", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173997": {
+                "prov:entity": "test:i enjoy makeup and having someone who does my hair", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173806": {
+                "prov:entity": "test:all right well the president says it’s fake news", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173756": {
+                "prov:entity": "test:senate democrats blasting conditions at facilities that house migrant children", 
+                "prov:agent": "test:Griff Jenkins"
+            }, 
+            "173752": {
+                "prov:entity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "prov:agent": "test:www.newshounds.us"
+            }, 
+            "174144": {
+                "prov:entity": "test:the administration refuses to answer to the american people and we’re insulted by their lack of accountability", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "174042": {
+                "prov:entity": "test:i just want to turn on the tv and watch a game you know", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173900": {
+                "prov:entity": "test:in my heart i was drawn to pr", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174046": {
+                "prov:entity": "test:i just listen to what they think and we have discussions about it", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173904": {
+                "prov:entity": "test:will you marry me matt lauer", 
+                "prov:agent": "test:Cindy Parker"
+            }, 
+            "173908": {
+                "prov:entity": "test:all i really worry about is my little world", 
+                "prov:agent": "test:Earhardt"
+            }, 
+            "173868": {
+                "prov:entity": "test:we were going to be in a sorority", 
+                "prov:agent": "test:Earhardt"
+            }, 
+            "173864": {
+                "prov:entity": "test:we were definitely going to college", 
+                "prov:agent": "test:Earhardt"
+            }, 
+            "173860": {
+                "prov:entity": "test:always had her makeup just right and dressed beautifully", 
+                "prov:agent": "test:Cindy Parker"
+            }, 
+            "173912": {
+                "prov:entity": "test:i do want everyone to be happy and safe", 
+                "prov:agent": "test:Earhardt"
+            }, 
+            "174128": {
+                "prov:entity": "test:but in may the miami herald reported it was unclear whether the people in charge of the homestead camp had a proper hurricane evacuation plan despite the fact that the facility is supposed to hold as many as 3200 kids and is in part made from tents that c", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "174050": {
+                "prov:entity": "test:she never criticizes anyone for their beliefs", 
+                "prov:agent": "test:Laurie Costantino"
+            }, 
+            "173888": {
+                "prov:entity": "test:but it turned out to be a great experience", 
+                "prov:agent": "test:Cindy Parker"
+            }, 
+            "174054": {
+                "prov:entity": "test:if i’m doing a fox  friends segment i’m crossing my fingers that she’ll be the interviewer because i know if i’m personally attacked she’s going to do her best to make sure there’s balance", 
+                "prov:agent": "test:Jehmu Greene"
+            }, 
+            "173916": {
+                "prov:entity": "test:but i try not to focus too much on the negative", 
+                "prov:agent": "test:Earhardt"
+            }, 
+            "174058": {
+                "prov:entity": "test:just because i don’t agree doesn’t mean i don’t care about you and i can’t see your side", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173814": {
+                "prov:entity": "test:what do you think about that", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174110": {
+                "prov:entity": "test:i think it’s just a good allamerican story", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173852": {
+                "prov:entity": "test:i wanted to be famous when i was little but not because i needed that", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174114": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:agent": "test:Jerry Iannelli"
+            }, 
+            "173856": {
+                "prov:entity": "test:and i was so sad because i wasn’t sure my parents supported a theater career", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173810": {
+                "prov:entity": "test:it’s something we have to tell you about because it is a headline in the new york times", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174106": {
+                "prov:entity": "test:that’s what i’d tell that girl in new jersey", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173844": {
+                "prov:entity": "test:though i hope he doesn’t for a little while", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173928": {
+                "prov:entity": "test:i want it filled with you", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174102": {
+                "prov:entity": "test:and god you gave me this job’ i’m just a normal person", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173840": {
+                "prov:entity": "test:if god tells me to write another book then i will", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173924": {
+                "prov:entity": "test:i want this void in my life filled forever", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174066": {
+                "prov:entity": "test:i feel like the left wants to destroy fox news", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173920": {
+                "prov:entity": "test:one foot in bible study and one foot at the frat party", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174062": {
+                "prov:entity": "test:it does weigh on me that one side wants to destroy the other so much", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173848": {
+                "prov:entity": "test:i just really want to spend some time with my daughter maybe go on a vacation", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174086": {
+                "prov:entity": "test:it’s hard because we have a long list of people who want to come in and they’re doing it the right way", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174082": {
+                "prov:entity": "test:you can choose what channel you want to watch", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174112": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:agent": "test:www.miaminewtimes.com"
+            }, 
+            "173832": {
+                "prov:entity": "test:that is so thoughtful of you", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173939": {
+                "prov:entity": "test:i didn’t want my birthday to happen", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174078": {
+                "prov:entity": "test:i don’t feel like that", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173836": {
+                "prov:entity": "test:all i could think was how did i get here", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173932": {
+                "prov:entity": "test:i just wanted to be angelic and pure and nice and kind", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174070": {
+                "prov:entity": "test:i don’t feel i do", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173788": {
+                "prov:entity": "test:it’s hard to be a christian these days", 
+                "prov:agent": "test:Donna Chiappa"
+            }, 
+            "173935": {
+                "prov:entity": "test:i will make all your dreams come true", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174074": {
+                "prov:entity": "test:i think that makes america wonderful that we have diferent opinions", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174094": {
+                "prov:entity": "test:that’s not for me to judge", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174090": {
+                "prov:entity": "test:i just want to be safe", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174098": {
+                "prov:entity": "test:afterward we learned that was the number one trending thing in the world", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174150": {
+                "prov:entity": "test:may be forced to explore legal avenues to obtain the information", 
+                "prov:agent": "test:ORR"
+            }, 
+            "173792": {
+                "prov:entity": "test:i’m blessed to have written a book about faith that’s become a number six new york times bestseller", 
+                "prov:agent": "test:Barbie"
+            }, 
+            "173822": {
+                "prov:entity": "test:there is a need to represent middle america and i think we do that", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173828": {
+                "prov:entity": "test:get an early sense of white house policy messaging for the day", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174009": {
+                "prov:entity": "test:i think they see a southern blonde", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173947": {
+                "prov:entity": "test:i was always the tough one", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174005": {
+                "prov:entity": "test:it’s taken me a long time to get here", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173943": {
+                "prov:entity": "test:because i wanted to act tough", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174001": {
+                "prov:entity": "test:but i want that little girl to see it is hard work it is being kind it is knowing who you are", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173784": {
+                "prov:entity": "test:she’s such a role model for women and moms for people who want to put their faith out there", 
+                "prov:agent": "test:Donna Chiappa"
+            }, 
+            "174124": {
+                "prov:entity": "test:to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter”\n\na spokesperson for the us departm", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "173818": {
+                "prov:entity": "test:something you probably do care about is immigration", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173768": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:agent": "test:www.elle.com"
+            }, 
+            "173766": {
+                "prov:entity": "test:paints a different picture than the one we heard from those lawmakers particularly running for president", 
+                "prov:agent": "test:Jenkins"
+            }, 
+            "173762": {
+                "prov:entity": "test:privileged to be able to conduct religious services there", 
+                "prov:agent": "test:Griff Jenkins"
+            }, 
+            "174023": {
+                "prov:entity": "test:i do want everyone to be happy and safe", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174120": {
+                "prov:entity": "test:this letter serves as a follow up to numerous requests that i have made to your office both in person and through official correspondence seeking information relating to the operation of and living conditions at the homestead temporary shelter” mucarsel", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "173896": {
+                "prov:entity": "test:but the way i grew up you go to new york to visit maybe once in your life", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173959": {
+                "prov:entity": "test:people might try to single her out because she works for fox news but no one who actually knew her then says anything negative", 
+                "prov:agent": "test:Curtis Wilson"
+            }, 
+            "173892": {
+                "prov:entity": "test:i remember asking god why was i born into this family in south carolina", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173955": {
+                "prov:entity": "test:everyone is equal to her no matter their background", 
+                "prov:agent": "test:Curtis Wilson"
+            }, 
+            "174017": {
+                "prov:entity": "test:i have this wonderful schedule where i work fulltime and also get to be a fulltime mom", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173951": {
+                "prov:entity": "test:how can you not like ainsley", 
+                "prov:agent": "test:Curtis Wilson"
+            }, 
+            "174013": {
+                "prov:entity": "test:honestly i just love my life", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173802": {
+                "prov:entity": "test:it’s nice to get unbiased news and not just trumpbashing", 
+                "prov:agent": "test:Barbie"
+            }, 
+            "174140": {
+                "prov:entity": "test:but the congresswoman was not allowed to see it", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "173770": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:agent": "test:Molly Langmuir Is A Staff Writer For Elle."
+            }, 
+            "173772": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:agent": "test:Molly Langmuir"
+            }, 
+            "173969": {
+                "prov:entity": "test:her success hasn’t been at anybody else’s expense", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173880": {
+                "prov:entity": "test:gosh i hope someone comes forward", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173884": {
+                "prov:entity": "test:we really didn’t have a choice", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174020": {
+                "prov:entity": "test:all i really worry about is my little world", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173963": {
+                "prov:entity": "test:everybody knew she was a star", 
+                "prov:agent": "test:Deborah Knapp"
+            }, 
+            "174026": {
+                "prov:entity": "test:but i try not to focus too much on the negative", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173989": {
+                "prov:entity": "test:and naïve in a positive way", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173981": {
+                "prov:entity": "test:i’ve never been in a situation like that thankfully", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173985": {
+                "prov:entity": "test:she’s a very loyal person", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174136": {
+                "prov:entity": "test:then in june mucarselpowells office told the herald that orr had finally responded to her — and claimed the facility definitely totally has an evacuation plan", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "173977": {
+                "prov:entity": "test:i don’t think she’s ever gone to her bosses to complain about anything", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174034": {
+                "prov:entity": "test:the people who are fighting because of the division in our country are dividing the country", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173973": {
+                "prov:entity": "test:she did it on talent and hard work", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174030": {
+                "prov:entity": "test:we all want what’s best for the environment", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "174132": {
+                "prov:entity": "test:the camp sits in the second most vulnerable area for hurricanes in all of south florida", 
+                "prov:agent": "test:Debbie Mucarsel-Powell"
+            }, 
+            "174038": {
+                "prov:entity": "test:football will never be the same", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173876": {
+                "prov:entity": "test:or ‘today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }, 
+            "173872": {
+                "prov:entity": "test:the notes would say ‘jesus loves you", 
+                "prov:agent": "test:Ainsley Earhardt"
+            }
+        }, 
+        "agent": {
+            "test:Molly Langmuir": {
+                "test:name": "Molly Langmuir", 
+                "test:type": "person"
+            }, 
+            "test:Earhardt": {
+                "test:name": "Earhardt", 
+                "test:type": "person"
+            }, 
+            "test:www.miaminewtimes.com": {
+                "test:publisher": "www.miaminewtimes.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Jerry Iannelli": {
+                "test:name": "Jerry Iannelli", 
+                "test:type": "person"
+            }, 
+            "test:Griff Jenkins": {
+                "test:name": "Griff Jenkins", 
+                "test:type": "person"
+            }, 
+            "test:Jenkins": {
+                "test:name": "Jenkins", 
+                "test:type": "person"
+            }, 
+            "test:Debbie Mucarsel-Powell": {
+                "test:name": "Debbie Mucarsel-Powell", 
+                "test:type": "person"
+            }, 
+            "test:ORR": {
+                "test:name": "ORR", 
+                "test:type": "person"
+            }, 
+            "test:Molly Langmuir Is A Staff Writer For Elle.": {
+                "test:name": "Molly Langmuir Is A Staff Writer For Elle.", 
+                "test:type": "person"
+            }, 
+            "test:Jehmu Greene": {
+                "test:name": "Jehmu Greene", 
+                "test:type": "person"
+            }, 
+            "test:Curtis Wilson": {
+                "test:name": "Curtis Wilson", 
+                "test:type": "person"
+            }, 
+            "test:Ainsley Earhardt": {
+                "test:name": "Ainsley Earhardt", 
+                "test:type": "person"
+            }, 
+            "test:Donna Chiappa": {
+                "test:name": "Donna Chiappa", 
+                "test:type": "person"
+            }, 
+            "test:Deborah Knapp": {
+                "test:name": "Deborah Knapp", 
+                "test:type": "person"
+            }, 
+            "test:Cindy Parker": {
+                "test:name": "Cindy Parker", 
+                "test:type": "person"
+            }, 
+            "test:Barbie": {
+                "test:name": "Barbie", 
+                "test:type": "person"
+            }, 
+            "test:Laurie Costantino": {
+                "test:name": "Laurie Costantino", 
+                "test:type": "person"
+            }, 
+            "test:www.newshounds.us": {
+                "test:publisher": "www.newshounds.us", 
+                "test:type": "publisher"
+            }, 
+            "test:www.elle.com": {
+                "test:publisher": "www.elle.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.miamiherald.com/news/local/immigration/article232586272.html": {
+                "test:url": "https://www.miamiherald.com/news/local/immigration/article232586272.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.miamiherald.com/news/local/immigration/article231717178.html": {
+                "test:url": "https://www.miamiherald.com/news/local/immigration/article231717178.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.miamiherald.com/news/local/immigration/article231035753.html": {
+                "test:url": "https://www.miamiherald.com/news/local/immigration/article231035753.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.miamiherald.com/news/local/immigration/article231075518.html": {
+                "test:url": "https://www.miamiherald.com/news/local/immigration/article231075518.html", 
+                "test:type": "article"
+            }, 
+            "test:https://thinkprogress.org/pastor-tells-fox-news-immigrant-detention-center-fine-because-kids-pray-weekly-and-dont-complain-1ebc2ae21f1e/": {
+                "test:url": "https://thinkprogress.org/pastor-tells-fox-news-immigrant-detention-center-fine-because-kids-pray-weekly-and-dont-complain-1ebc2ae21f1e/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519": {
+                "test:url": "http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "test:date": "", 
+                "test:title": "Fox & Friends: Pastor Defends Children Detention Camp Cuz Kids Pray", 
+                "test:type": "article"
+            }, 
+            "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518": {
+                "test:url": "https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "test:date": "2019-07-09", 
+                "test:title": "Homestead Congresswoman Says Migrant Camp Operators Keep Ignoring Her Questions", 
+                "test:type": "article"
+            }, 
+            "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/": {
+                "test:url": "https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "test:date": "2018-08-07", 
+                "test:title": "How Ainsley Earhardt Became America’s (President’s) Sweetheart", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:the notes would say ‘jesus loves you": {
+                "test:quote": "the notes would say ‘jesus loves you", 
+                "test:type": "quote"
+            }, 
+            "test:and naïve in a positive way": {
+                "test:quote": "and naïve in a positive way", 
+                "test:type": "quote"
+            }, 
+            "test:football will never be the same": {
+                "test:quote": "football will never be the same", 
+                "test:type": "quote"
+            }, 
+            "test:there is a need to represent middle america and i think we do that": {
+                "test:quote": "there is a need to represent middle america and i think we do that", 
+                "test:type": "quote"
+            }, 
+            "test:the people who are fighting because of the division in our country are dividing the country": {
+                "test:quote": "the people who are fighting because of the division in our country are dividing the country", 
+                "test:type": "quote"
+            }, 
+            "test:but it’s not about me it’s about god": {
+                "test:quote": "but it’s not about me it’s about god", 
+                "test:type": "quote"
+            }, 
+            "test:or ‘today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad": {
+                "test:quote": "or ‘today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad", 
+                "test:type": "quote"
+            }, 
+            "test:i have this wonderful schedule where i work fulltime and also get to be a fulltime mom": {
+                "test:quote": "i have this wonderful schedule where i work fulltime and also get to be a fulltime mom", 
+                "test:type": "quote"
+            }, 
+            "test:i want this void in my life filled forever": {
+                "test:quote": "i want this void in my life filled forever", 
+                "test:type": "quote"
+            }, 
+            "test:everyone is equal to her no matter their background": {
+                "test:quote": "everyone is equal to her no matter their background", 
+                "test:type": "quote"
+            }, 
+            "test:i enjoy makeup and having someone who does my hair": {
+                "test:quote": "i enjoy makeup and having someone who does my hair", 
+                "test:type": "quote"
+            }, 
+            "test:it does weigh on me that one side wants to destroy the other so much": {
+                "test:quote": "it does weigh on me that one side wants to destroy the other so much", 
+                "test:type": "quote"
+            }, 
+            "test:that’s what i’d tell that girl in new jersey": {
+                "test:quote": "that’s what i’d tell that girl in new jersey", 
+                "test:type": "quote"
+            }, 
+            "test:we all want what’s best for the environment": {
+                "test:quote": "we all want what’s best for the environment", 
+                "test:type": "quote"
+            }, 
+            "test:i just listen to what they think and we have discussions about it": {
+                "test:quote": "i just listen to what they think and we have discussions about it", 
+                "test:type": "quote"
+            }, 
+            "test:afterward we learned that was the number one trending thing in the world": {
+                "test:quote": "afterward we learned that was the number one trending thing in the world", 
+                "test:type": "quote"
+            }, 
+            "test:she did it on talent and hard work": {
+                "test:quote": "she did it on talent and hard work", 
+                "test:type": "quote"
+            }, 
+            "test:the administration refuses to answer to the american people and we’re insulted by their lack of accountability": {
+                "test:quote": "the administration refuses to answer to the american people and we’re insulted by their lack of accountability", 
+                "test:type": "quote"
+            }, 
+            "test:i was always the tough one": {
+                "test:quote": "i was always the tough one", 
+                "test:type": "quote"
+            }, 
+            "test:take delight in the lord and he will give you the desires of your heart": {
+                "test:quote": "take delight in the lord and he will give you the desires of your heart", 
+                "test:type": "quote"
+            }, 
+            "test:is almost like a summer camp": {
+                "test:quote": "is almost like a summer camp", 
+                "test:type": "quote"
+            }, 
+            "test:that is so thoughtful of you": {
+                "test:quote": "that is so thoughtful of you", 
+                "test:type": "quote"
+            }, 
+            "test:privileged to be able to conduct religious services there": {
+                "test:quote": "privileged to be able to conduct religious services there", 
+                "test:type": "quote"
+            }, 
+            "test:this letter serves as a follow up to numerous requests that i have made to your office both in person and through official correspondence seeking information relating to the operation of and living conditions at the homestead temporary shelter” mucarsel": {
+                "test:quote": "this letter serves as a follow up to numerous requests that i have made to your office both in person and through official correspondence seeking information relating to the operation of and living conditions at the homestead temporary shelter” mucarselpowell wrote", 
+                "test:type": "quote"
+            }, 
+            "test:i just want to turn on the tv and watch a game you know": {
+                "test:quote": "i just want to turn on the tv and watch a game you know", 
+                "test:type": "quote"
+            }, 
+            "test:the camp sits in the second most vulnerable area for hurricanes in all of south florida": {
+                "test:quote": "the camp sits in the second most vulnerable area for hurricanes in all of south florida", 
+                "test:type": "quote"
+            }, 
+            "test:it’s nice to get unbiased news and not just trumpbashing": {
+                "test:quote": "it’s nice to get unbiased news and not just trumpbashing", 
+                "test:type": "quote"
+            }, 
+            "test:will you marry me matt lauer": {
+                "test:quote": "will you marry me matt lauer", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t think she’s ever gone to her bosses to complain about anything": {
+                "test:quote": "i don’t think she’s ever gone to her bosses to complain about anything", 
+                "test:type": "quote"
+            }, 
+            "test:just because i don’t agree doesn’t mean i don’t care about you and i can’t see your side": {
+                "test:quote": "just because i don’t agree doesn’t mean i don’t care about you and i can’t see your side", 
+                "test:type": "quote"
+            }, 
+            "test:i just want to be safe": {
+                "test:quote": "i just want to be safe", 
+                "test:type": "quote"
+            }, 
+            "test:but the way i grew up you go to new york to visit maybe once in your life": {
+                "test:quote": "but the way i grew up you go to new york to visit maybe once in your life", 
+                "test:type": "quote"
+            }, 
+            "test:may be forced to explore legal avenues to obtain the information": {
+                "test:quote": "may be forced to explore legal avenues to obtain the information", 
+                "test:type": "quote"
+            }, 
+            "test:then in june mucarselpowells office told the herald that orr had finally responded to her — and claimed the facility definitely totally has an evacuation plan": {
+                "test:quote": "then in june mucarselpowells office told the herald that orr had finally responded to her — and claimed the facility definitely totally has an evacuation plan", 
+                "test:type": "quote"
+            }, 
+            "test:she’s a very loyal person": {
+                "test:quote": "she’s a very loyal person", 
+                "test:type": "quote"
+            }, 
+            "test:everybody knew she was a star": {
+                "test:quote": "everybody knew she was a star", 
+                "test:type": "quote"
+            }, 
+            "test:and i was so sad because i wasn’t sure my parents supported a theater career": {
+                "test:quote": "and i was so sad because i wasn’t sure my parents supported a theater career", 
+                "test:type": "quote"
+            }, 
+            "test:i didn’t want my birthday to happen": {
+                "test:quote": "i didn’t want my birthday to happen", 
+                "test:type": "quote"
+            }, 
+            "test:she never criticizes anyone for their beliefs": {
+                "test:quote": "she never criticizes anyone for their beliefs", 
+                "test:type": "quote"
+            }, 
+            "test:and god you gave me this job’ i’m just a normal person": {
+                "test:quote": "and god you gave me this job’ i’m just a normal person", 
+                "test:type": "quote"
+            }, 
+            "test:but the congresswoman was not allowed to see it": {
+                "test:quote": "but the congresswoman was not allowed to see it", 
+                "test:type": "quote"
+            }, 
+            "test:but i try not to focus too much on the negative": {
+                "test:quote": "but i try not to focus too much on the negative", 
+                "test:type": "quote"
+            }, 
+            "test:but it turned out to be a great experience": {
+                "test:quote": "but it turned out to be a great experience", 
+                "test:type": "quote"
+            }, 
+            "test:honestly i just love my life": {
+                "test:quote": "honestly i just love my life", 
+                "test:type": "quote"
+            }, 
+            "test:her success hasn’t been at anybody else’s expense": {
+                "test:quote": "her success hasn’t been at anybody else’s expense", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t feel like that": {
+                "test:quote": "i don’t feel like that", 
+                "test:type": "quote"
+            }, 
+            "test:i just really want to spend some time with my daughter maybe go on a vacation": {
+                "test:quote": "i just really want to spend some time with my daughter maybe go on a vacation", 
+                "test:type": "quote"
+            }, 
+            "test:and god you gave me this job": {
+                "test:quote": "and god you gave me this job", 
+                "test:type": "quote"
+            }, 
+            "test:that’s not for me to judge": {
+                "test:quote": "that’s not for me to judge", 
+                "test:type": "quote"
+            }, 
+            "test:in my heart i was drawn to pr": {
+                "test:quote": "in my heart i was drawn to pr", 
+                "test:type": "quote"
+            }, 
+            "test:i think that makes america wonderful that we have diferent opinions": {
+                "test:quote": "i think that makes america wonderful that we have diferent opinions", 
+                "test:type": "quote"
+            }, 
+            "test:you can choose what channel you want to watch": {
+                "test:quote": "you can choose what channel you want to watch", 
+                "test:type": "quote"
+            }, 
+            "test:something you probably do care about is immigration": {
+                "test:quote": "something you probably do care about is immigration", 
+                "test:type": "quote"
+            }, 
+            "test:we were going to be in a sorority": {
+                "test:quote": "we were going to be in a sorority", 
+                "test:type": "quote"
+            }, 
+            "test:i think it’s just a good allamerican story": {
+                "test:quote": "i think it’s just a good allamerican story", 
+                "test:type": "quote"
+            }, 
+            "test:how can you not like ainsley": {
+                "test:quote": "how can you not like ainsley", 
+                "test:type": "quote"
+            }, 
+            "test:senate democrats blasting conditions at facilities that house migrant children": {
+                "test:quote": "senate democrats blasting conditions at facilities that house migrant children", 
+                "test:type": "quote"
+            }, 
+            "test:all i really worry about is my little world": {
+                "test:quote": "all i really worry about is my little world", 
+                "test:type": "quote"
+            }, 
+            "test:if god tells me to write another book then i will": {
+                "test:quote": "if god tells me to write another book then i will", 
+                "test:type": "quote"
+            }, 
+            "test:all i could think was how did i get here": {
+                "test:quote": "all i could think was how did i get here", 
+                "test:type": "quote"
+            }, 
+            "test:with that comes the support of the president": {
+                "test:quote": "with that comes the support of the president", 
+                "test:type": "quote"
+            }, 
+            "test:i like the way she interviews people": {
+                "test:quote": "i like the way she interviews people", 
+                "test:type": "quote"
+            }, 
+            "test:but in may the miami herald reported it was unclear whether the people in charge of the homestead camp had a proper hurricane evacuation plan despite the fact that the facility is supposed to hold as many as 3200 kids and is in part made from tents that c": {
+                "test:quote": "but in may the miami herald reported it was unclear whether the people in charge of the homestead camp had a proper hurricane evacuation plan despite the fact that the facility is supposed to hold as many as 3200 kids and is in part made from tents that could easily blow away in a storm", 
+                "test:type": "quote"
+            }, 
+            "test:what do you think about that": {
+                "test:quote": "what do you think about that", 
+                "test:type": "quote"
+            }, 
+            "test:today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad": {
+                "test:quote": "today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad", 
+                "test:type": "quote"
+            }, 
+            "test:to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter": {
+                "test:quote": "to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter", 
+                "test:type": "quote"
+            }, 
+            "test:i do want everyone to be happy and safe": {
+                "test:quote": "i do want everyone to be happy and safe", 
+                "test:type": "quote"
+            }, 
+            "test:though i hope he doesn’t for a little while": {
+                "test:quote": "though i hope he doesn’t for a little while", 
+                "test:type": "quote"
+            }, 
+            "test:she’s such a role model for women and moms for people who want to put their faith out there": {
+                "test:quote": "she’s such a role model for women and moms for people who want to put their faith out there", 
+                "test:type": "quote"
+            }, 
+            "test:people might try to single her out because she works for fox news but no one who actually knew her then says anything negative": {
+                "test:quote": "people might try to single her out because she works for fox news but no one who actually knew her then says anything negative", 
+                "test:type": "quote"
+            }, 
+            "test:i want it filled with you": {
+                "test:quote": "i want it filled with you", 
+                "test:type": "quote"
+            }, 
+            "test:but i want that little girl to see it is hard work it is being kind it is knowing who you are": {
+                "test:quote": "but i want that little girl to see it is hard work it is being kind it is knowing who you are", 
+                "test:type": "quote"
+            }, 
+            "test:it’s something we have to tell you about because it is a headline in the new york times": {
+                "test:quote": "it’s something we have to tell you about because it is a headline in the new york times", 
+                "test:type": "quote"
+            }, 
+            "test:it’s taken me a long time to get here": {
+                "test:quote": "it’s taken me a long time to get here", 
+                "test:type": "quote"
+            }, 
+            "test:we really didn’t have a choice": {
+                "test:quote": "we really didn’t have a choice", 
+                "test:type": "quote"
+            }, 
+            "test:all right well the president says it’s fake news": {
+                "test:quote": "all right well the president says it’s fake news", 
+                "test:type": "quote"
+            }, 
+            "test:i’ve never been in a situation like that thankfully": {
+                "test:quote": "i’ve never been in a situation like that thankfully", 
+                "test:type": "quote"
+            }, 
+            "test:i feel like the left wants to destroy fox news": {
+                "test:quote": "i feel like the left wants to destroy fox news", 
+                "test:type": "quote"
+            }, 
+            "test:i’m blessed to have written a book about faith that’s become a number six new york times bestseller": {
+                "test:quote": "i’m blessed to have written a book about faith that’s become a number six new york times bestseller", 
+                "test:type": "quote"
+            }, 
+            "test:i remember asking god why was i born into this family in south carolina": {
+                "test:quote": "i remember asking god why was i born into this family in south carolina", 
+                "test:type": "quote"
+            }, 
+            "test:paints a different picture than the one we heard from those lawmakers particularly running for president": {
+                "test:quote": "paints a different picture than the one we heard from those lawmakers particularly running for president", 
+                "test:type": "quote"
+            }, 
+            "test:it’s hard to be a christian these days": {
+                "test:quote": "it’s hard to be a christian these days", 
+                "test:type": "quote"
+            }, 
+            "test:if i’m doing a fox  friends segment i’m crossing my fingers that she’ll be the interviewer because i know if i’m personally attacked she’s going to do her best to make sure there’s balance": {
+                "test:quote": "if i’m doing a fox  friends segment i’m crossing my fingers that she’ll be the interviewer because i know if i’m personally attacked she’s going to do her best to make sure there’s balance", 
+                "test:type": "quote"
+            }, 
+            "test:to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter”\n\na spokesperson for the us departm": {
+                "test:quote": "to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter”\n\na spokesperson for the us department of health and human services which runs orr did not respond to a message from new times yesterday", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not just their constitutional duty to respond to our inquiries they ought to have a plan in place by now": {
+                "test:quote": "it’s not just their constitutional duty to respond to our inquiries they ought to have a plan in place by now", 
+                "test:type": "quote"
+            }, 
+            "test:hopefully my story will help change people’s lives": {
+                "test:quote": "hopefully my story will help change people’s lives", 
+                "test:type": "quote"
+            }, 
+            "test:gosh i hope someone comes forward": {
+                "test:quote": "gosh i hope someone comes forward", 
+                "test:type": "quote"
+            }, 
+            "test:i think they see a southern blonde": {
+                "test:quote": "i think they see a southern blonde", 
+                "test:type": "quote"
+            }, 
+            "test:it’s hard because we have a long list of people who want to come in and they’re doing it the right way": {
+                "test:quote": "it’s hard because we have a long list of people who want to come in and they’re doing it the right way", 
+                "test:type": "quote"
+            }, 
+            "test:i will make all your dreams come true": {
+                "test:quote": "i will make all your dreams come true", 
+                "test:type": "quote"
+            }, 
+            "test:because i wanted to act tough": {
+                "test:quote": "because i wanted to act tough", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t feel i do": {
+                "test:quote": "i don’t feel i do", 
+                "test:type": "quote"
+            }, 
+            "test:i can see how she wouldn’t be aware of that": {
+                "test:quote": "i can see how she wouldn’t be aware of that", 
+                "test:type": "quote"
+            }, 
+            "test:always had her makeup just right and dressed beautifully": {
+                "test:quote": "always had her makeup just right and dressed beautifully", 
+                "test:type": "quote"
+            }, 
+            "test:i just wanted to be angelic and pure and nice and kind": {
+                "test:quote": "i just wanted to be angelic and pure and nice and kind", 
+                "test:type": "quote"
+            }, 
+            "test:we were definitely going to college": {
+                "test:quote": "we were definitely going to college", 
+                "test:type": "quote"
+            }, 
+            "test:one foot in bible study and one foot at the frat party": {
+                "test:quote": "one foot in bible study and one foot at the frat party", 
+                "test:type": "quote"
+            }, 
+            "test:get an early sense of white house policy messaging for the day": {
+                "test:quote": "get an early sense of white house policy messaging for the day", 
+                "test:type": "quote"
+            }, 
+            "test:i wanted to be famous when i was little but not because i needed that": {
+                "test:quote": "i wanted to be famous when i was little but not because i needed that", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "173999": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:but i want that little girl to see it is hard work it is being kind it is knowing who you are"
+            }, 
+            "173776": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i will make all your dreams come true"
+            }, 
+            "173991": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i can see how she wouldn’t be aware of that"
+            }, 
+            "173995": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i enjoy makeup and having someone who does my hair"
+            }, 
+            "173826": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:get an early sense of white house policy messaging for the day"
+            }, 
+            "173754": {
+                "prov:entity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "prov:activity": "test:senate democrats blasting conditions at facilities that house migrant children"
+            }, 
+            "173758": {
+                "prov:entity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "prov:activity": "test:is almost like a summer camp"
+            }, 
+            "173902": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:will you marry me matt lauer"
+            }, 
+            "174040": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i just want to turn on the tv and watch a game you know"
+            }, 
+            "173906": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:all i really worry about is my little world"
+            }, 
+            "174044": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i just listen to what they think and we have discussions about it"
+            }, 
+            "174048": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:she never criticizes anyone for their beliefs"
+            }, 
+            "173866": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:we were going to be in a sorority"
+            }, 
+            "173862": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:we were definitely going to college"
+            }, 
+            "173910": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i do want everyone to be happy and safe"
+            }, 
+            "174052": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:if i’m doing a fox  friends segment i’m crossing my fingers that she’ll be the interviewer because i know if i’m personally attacked she’s going to do her best to make sure there’s balance"
+            }, 
+            "173914": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:but i try not to focus too much on the negative"
+            }, 
+            "174056": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:just because i don’t agree doesn’t mean i don’t care about you and i can’t see your side"
+            }, 
+            "173918": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:one foot in bible study and one foot at the frat party"
+            }, 
+            "173858": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:always had her makeup just right and dressed beautifully"
+            }, 
+            "173850": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i wanted to be famous when i was little but not because i needed that"
+            }, 
+            "173854": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:and i was so sad because i wasn’t sure my parents supported a theater career"
+            }, 
+            "173816": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:something you probably do care about is immigration"
+            }, 
+            "174116": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter"
+            }, 
+            "173760": {
+                "prov:entity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "prov:activity": "test:privileged to be able to conduct religious services there"
+            }, 
+            "173846": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i just really want to spend some time with my daughter maybe go on a vacation"
+            }, 
+            "174104": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:that’s what i’d tell that girl in new jersey"
+            }, 
+            "174068": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i don’t feel i do"
+            }, 
+            "173842": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:though i hope he doesn’t for a little while"
+            }, 
+            "174100": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:and god you gave me this job’ i’m just a normal person"
+            }, 
+            "174064": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i feel like the left wants to destroy fox news"
+            }, 
+            "173926": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i want it filled with you"
+            }, 
+            "174060": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it does weigh on me that one side wants to destroy the other so much"
+            }, 
+            "173922": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i want this void in my life filled forever"
+            }, 
+            "174108": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i think it’s just a good allamerican story"
+            }, 
+            "174084": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it’s hard because we have a long list of people who want to come in and they’re doing it the right way"
+            }, 
+            "174080": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:you can choose what channel you want to watch"
+            }, 
+            "174088": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i just want to be safe"
+            }, 
+            "173796": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:hopefully my story will help change people’s lives"
+            }, 
+            "173830": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:that is so thoughtful of you"
+            }, 
+            "173780": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:take delight in the lord and he will give you the desires of your heart"
+            }, 
+            "173834": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:all i could think was how did i get here"
+            }, 
+            "174072": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i think that makes america wonderful that we have diferent opinions"
+            }, 
+            "173838": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:if god tells me to write another book then i will"
+            }, 
+            "173930": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i just wanted to be angelic and pure and nice and kind"
+            }, 
+            "173937": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i didn’t want my birthday to happen"
+            }, 
+            "174076": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i don’t feel like that"
+            }, 
+            "174096": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:afterward we learned that was the number one trending thing in the world"
+            }, 
+            "174092": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:that’s not for me to judge"
+            }, 
+            "173820": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:there is a need to represent middle america and i think we do that"
+            }, 
+            "173790": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i’m blessed to have written a book about faith that’s become a number six new york times bestseller"
+            }, 
+            "173824": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:with that comes the support of the president"
+            }, 
+            "173794": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:but it’s not about me it’s about god"
+            }, 
+            "173898": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:in my heart i was drawn to pr"
+            }, 
+            "173798": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i like the way she interviews people"
+            }, 
+            "173949": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:how can you not like ainsley"
+            }, 
+            "174007": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i think they see a southern blonde"
+            }, 
+            "173945": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i was always the tough one"
+            }, 
+            "174003": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it’s taken me a long time to get here"
+            }, 
+            "173941": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:because i wanted to act tough"
+            }, 
+            "173786": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it’s hard to be a christian these days"
+            }, 
+            "174118": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:this letter serves as a follow up to numerous requests that i have made to your office both in person and through official correspondence seeking information relating to the operation of and living conditions at the homestead temporary shelter” mucarsel"
+            }, 
+            "174126": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:but in may the miami herald reported it was unclear whether the people in charge of the homestead camp had a proper hurricane evacuation plan despite the fact that the facility is supposed to hold as many as 3200 kids and is in part made from tents that c"
+            }, 
+            "173782": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:she’s such a role model for women and moms for people who want to put their faith out there"
+            }, 
+            "173764": {
+                "prov:entity": "test:http://www.newshounds.us/fox_friends_pastor_defends_children_detention_camp_cuz_kids_can_pray_071519", 
+                "prov:activity": "test:paints a different picture than the one we heard from those lawmakers particularly running for president"
+            }, 
+            "173812": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:what do you think about that"
+            }, 
+            "173894": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:but the way i grew up you go to new york to visit maybe once in your life"
+            }, 
+            "173890": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i remember asking god why was i born into this family in south carolina"
+            }, 
+            "174015": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i have this wonderful schedule where i work fulltime and also get to be a fulltime mom"
+            }, 
+            "173957": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:people might try to single her out because she works for fox news but no one who actually knew her then says anything negative"
+            }, 
+            "174122": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:to date my office has not received any official correspondence from you regarding my repeated requests to view the hurricane and natural disaster evacuation plan allegedly in effect for the homestead temporary shelter”\n\na spokesperson for the us departm"
+            }, 
+            "174011": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:honestly i just love my life"
+            }, 
+            "173953": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:everyone is equal to her no matter their background"
+            }, 
+            "173808": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it’s something we have to tell you about because it is a headline in the new york times"
+            }, 
+            "173778": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:and god you gave me this job"
+            }, 
+            "173774": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad"
+            }, 
+            "173800": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:it’s nice to get unbiased news and not just trumpbashing"
+            }, 
+            "174146": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:it’s not just their constitutional duty to respond to our inquiries they ought to have a plan in place by now"
+            }, 
+            "173804": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:all right well the president says it’s fake news"
+            }, 
+            "174028": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:we all want what’s best for the environment"
+            }, 
+            "173882": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:we really didn’t have a choice"
+            }, 
+            "173886": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:but it turned out to be a great experience"
+            }, 
+            "173961": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:everybody knew she was a star"
+            }, 
+            "173967": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:her success hasn’t been at anybody else’s expense"
+            }, 
+            "174138": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:but the congresswoman was not allowed to see it"
+            }, 
+            "173983": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:she’s a very loyal person"
+            }, 
+            "173987": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:and naïve in a positive way"
+            }, 
+            "174148": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:may be forced to explore legal avenues to obtain the information"
+            }, 
+            "174134": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:then in june mucarselpowells office told the herald that orr had finally responded to her — and claimed the facility definitely totally has an evacuation plan"
+            }, 
+            "174036": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:football will never be the same"
+            }, 
+            "173975": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i don’t think she’s ever gone to her bosses to complain about anything"
+            }, 
+            "174032": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:the people who are fighting because of the division in our country are dividing the country"
+            }, 
+            "173971": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:she did it on talent and hard work"
+            }, 
+            "173979": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:i’ve never been in a situation like that thankfully"
+            }, 
+            "174130": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:the camp sits in the second most vulnerable area for hurricanes in all of south florida"
+            }, 
+            "173878": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:gosh i hope someone comes forward"
+            }, 
+            "174142": {
+                "prov:entity": "test:https://www.miaminewtimes.com/news/florida-rep-debbie-mucarsel-powell-cant-get-answers-about-homestead-shelter-for-unaccompanied-children-11214518", 
+                "prov:activity": "test:the administration refuses to answer to the american people and we’re insulted by their lack of accountability"
+            }, 
+            "173874": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:or ‘today you have forgotten to acknowledge me and i’m standing here and i’m alone and sad"
+            }, 
+            "173870": {
+                "prov:entity": "test:https://www.elle.com/culture/career-politics/a22363294/ainsley-earhardt-fox-and-friends-donald-trump-americas-sweetheart/", 
+                "prov:activity": "test:the notes would say ‘jesus loves you"
+            }
+        }
+    }
+}

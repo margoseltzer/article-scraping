@@ -1,0 +1,69 @@
+{
+    "root": "https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+    "bundle": {
+        "entity": {
+            "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/": {
+                "test:url": "https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "test:date": "2017-11-03", 
+                "test:title": "Elderly woman accused of training her 65 cats to steal from neighbors", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "174402": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:activity": "test:in less than three hours of surveillance the detectives saw the cats bring home more than a hundred objects"
+            }, 
+            "174400": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:activity": "test:she was like fagin in oliver twist but she was using cats as thieves instead of children"
+            }, 
+            "174406": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:activity": "test:most were voluntarily malnurished so they would easily gain the neighbors’ pity and be allowed inside their houses"
+            }, 
+            "174404": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:activity": "test:she would only feed the animals if they brought home valuables so the animals had to steal every day in order to survive"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174396": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:agent": "test:worldnewsdailyreport.com"
+            }, 
+            "174398": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/elderly-woman-accused-of-training-her-65-cats-to-steal-from-neighbors/", 
+                "prov:agent": "test:Barbara Jennnings"
+            }
+        }, 
+        "agent": {
+            "test:worldnewsdailyreport.com": {
+                "test:publisher": "worldnewsdailyreport.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Barbara Jennnings": {
+                "test:name": "Barbara Jennnings", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:in less than three hours of surveillance the detectives saw the cats bring home more than a hundred objects": {
+                "test:quote": "in less than three hours of surveillance the detectives saw the cats bring home more than a hundred objects", 
+                "test:type": "quote"
+            }, 
+            "test:most were voluntarily malnurished so they would easily gain the neighbors’ pity and be allowed inside their houses": {
+                "test:quote": "most were voluntarily malnurished so they would easily gain the neighbors’ pity and be allowed inside their houses", 
+                "test:type": "quote"
+            }, 
+            "test:she would only feed the animals if they brought home valuables so the animals had to steal every day in order to survive": {
+                "test:quote": "she would only feed the animals if they brought home valuables so the animals had to steal every day in order to survive", 
+                "test:type": "quote"
+            }, 
+            "test:she was like fagin in oliver twist but she was using cats as thieves instead of children": {
+                "test:quote": "she was like fagin in oliver twist but she was using cats as thieves instead of children", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

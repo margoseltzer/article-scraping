@@ -1,0 +1,921 @@
+{
+    "root": "https://newspunch.com/james-bond-black-female-actor-new-007/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "174621": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/jonathan-demme", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174625": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/jaws", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174605": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/filmblog/2018/feb/05/black-panther-fought-off-a-toxic-ghostbusters-online-campaign-rotten-tomatoes", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls"
+            }, 
+            "174617": {
+                "prov:usedEntity": "test:https://www.imdb.com/name/nm0372217/", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174615": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/jodie-foster", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174613": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/roger-corman", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174599": {
+                "prov:usedEntity": "test:https://www.marvel.com/movies/captain-marvel", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174611": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/anthony-hopkins", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174595": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/scarlettjohansson", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174597": {
+                "prov:usedEntity": "test:https://www.theguardian.com/profile/carolecadwalladr", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174591": {
+                "prov:usedEntity": "test:https://www.theguardian.com/tv-and-radio/humans", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174619": {
+                "prov:usedEntity": "test:https://twitter.com/intent/tweet?text=The%20Silence%20of%20the%20Lambs%20review%20%E2%80%93%20psycho-killer%20Hannibal%20still%20chills&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2017%2Fnov%2F01%2Fthe-silence-of-the-lambs-review-anthony-hopkins-j", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174593": {
+                "prov:usedEntity": "test:https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174515": {
+                "prov:usedEntity": "test:https://dailycaller.com/2019/06/04/james-bond-25-explosion-injury/", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174517": {
+                "prov:usedEntity": "test:https://dailycaller.com/2019/07/14/james-bond-25-007-lashana-lynch/", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174639": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2016/jul/07/legend-tarzan-review-alexander-skarsgard-christoph-waltz", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174511": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174513": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174635": {
+                "prov:usedEntity": "test:https://www.theguardian.com/tv-and-radio/2016/sep/22/luke-cage-netflix-marvel-comics", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174637": {
+                "prov:usedEntity": "test:https://www.theguardian.com/culture/2016/jul/18/leslie-jones-racist-tweets-ghostbusters", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174631": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/avengers--infinity-war", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition"
+            }, 
+            "174519": {
+                "prov:usedEntity": "test:https://dailycaller.com/2019/06/25/james-bond-25-movie-inside-look/", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174633": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2002/sep/23/news1", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174641": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/filmblog/2014/oct/29/marvel-black-panther-black-superhero-chadwick-boseman", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174551": {
+                "prov:usedEntity": "test:https://www.theguardian.com/culture/jude-law", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174539": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174555": {
+                "prov:usedEntity": "test:https://www.theguardian.com/music/nirvana", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174557": {
+                "prov:usedEntity": "test:https://www.theguardian.com/culture/marvel", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174533": {
+                "prov:usedEntity": "test:https://twitter.com/freeblackgirl/status/1146515213853741056?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174531": {
+                "prov:usedEntity": "test:https://t.co/sndjYUS6wO", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174537": {
+                "prov:usedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174535": {
+                "prov:usedEntity": "test:https://t.co/FGuwAzAHUT", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174563": {
+                "prov:usedEntity": "test:https://twitter.com/intent/tweet?text=Captain%20Marvel%20review%20%E2%80%93%20Brie%20Larson%20kicks%20ass%20across%20the%20universe&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2019%2Fmar%2F05%2Fcaptain-marvel-review-brie-larson-samuel-l-jackson%3F", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174623": {
+                "prov:usedEntity": "test:https://www.imdb.com/name/nm0001277/", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme"
+            }, 
+            "174571": {
+                "prov:usedEntity": "test:https://www.theguardian.com/culture/ben-mendelsohn", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174575": {
+                "prov:usedEntity": "test:https://www.theguardian.com/tv-and-radio/david-attenborough", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174627": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/black-panther", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition"
+            }, 
+            "174521": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html", 
+                "prov:generatedEntity": "test:https://www.dailymail.co.uk/news/italy/index.html"
+            }, 
+            "174589": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/shortcuts/2018/apr/25/crazy-rich-asians-can-the-romcom-be-a-gamechanger-for-representation", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174569": {
+                "prov:usedEntity": "test:https://www.imdb.com/name/nm2736476/", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174559": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/annette-bening", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174583": {
+                "prov:usedEntity": "test:https://www.theguardian.com/books/2004/mar/13/featuresreviews.guardianreview5", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174553": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/samuel-l-jackson", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174581": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/feb/18/sisters-this-is-our-moment-to-say-times-up", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174587": {
+                "prov:usedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/jul/14/martin-kemp-actor-interview-george-michael-first-date", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174523": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/italy/index.html", 
+                "prov:generatedEntity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html"
+            }, 
+            "174585": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-2423819/Gemma-Chan-tells-court-horrifying-moment-watched-schizophrenic-stab-homeless-man-death-busy-London-street.html", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174643": {
+                "prov:usedEntity": "test:https://en.wikipedia.org/wiki/Black_Panther_(TV_series)", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man"
+            }, 
+            "174609": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/rotten-tomatoes", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls"
+            }, 
+            "174507": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/italy/index.html", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174505": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2012/jun/14/fast-girls-review", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174629": {
+                "prov:usedEntity": "test:https://www.theguardian.com/culture/marvel", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition"
+            }, 
+            "174525": {
+                "prov:usedEntity": "test:https://twitter.com/WajahatAli/status/1146515563780423682?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174509": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:generatedEntity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/"
+            }, 
+            "174603": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2019/feb/21/captain-marvel-why-sexist-attempts-at-sabotage-will-fail", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls"
+            }, 
+            "174565": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/brie-larson", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174607": {
+                "prov:usedEntity": "test:https://editorial.rottentomatoes.com/article/making-some-changes/", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls"
+            }, 
+            "174529": {
+                "prov:usedEntity": "test:https://twitter.com/chloexhalle/status/1146509551497170944?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174573": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/tvshowbiz/love-island/index.html", 
+                "prov:generatedEntity": "test:https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html"
+            }, 
+            "174567": {
+                "prov:usedEntity": "test:https://twitter.com/intent/tweet?text=Captain%20Marvel%20review%20%E2%80%93%20Brie%20Larson%20kicks%20ass%20across%20the%20universe&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2019%2Fmar%2F05%2Fcaptain-marvel-review-brie-larson-samuel-l-jackson%3F", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174561": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/guardians-of-the-galaxy", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174527": {
+                "prov:usedEntity": "test:https://twitter.com/kpfallon/status/1146509835158151168?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid"
+            }, 
+            "174549": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/superhero-movies", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174601": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2018/feb/26/rotten-tomatoes-hollywood-love-hate-relationship", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls"
+            }, 
+            "174547": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/captain-marvel", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174577": {
+                "prov:usedEntity": "test:https://www.theguardian.com/books/2014/may/28/maya-angelou", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174545": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174579": {
+                "prov:usedEntity": "test:https://www.theguardian.com/business/2013/dec/12/blockbuster-disappear-high-street-close-dvds", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan"
+            }, 
+            "174543": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }, 
+            "174541": {
+                "prov:usedEntity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174490": {
+                "prov:entity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174492": {
+                "prov:entity": "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition", 
+                "prov:agent": "test:Peter Bradshaw"
+            }, 
+            "174494": {
+                "prov:entity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174496": {
+                "prov:entity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "prov:agent": "test:Benjamin Lee"
+            }, 
+            "174418": {
+                "prov:entity": "test:https://www.theguardian.com/film/2012/jun/14/fast-girls-review", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174436": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid", 
+                "prov:agent": "test:Press Association"
+            }, 
+            "174434": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174408": {
+                "prov:entity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "174462": {
+                "prov:entity": "test:are we talking about oral sex", 
+                "prov:agent": "test:Gemma Chan"
+            }, 
+            "174454": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:agent": "test:Micha Frazer-Carroll"
+            }, 
+            "174450": {
+                "prov:entity": "test:https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html", 
+                "prov:agent": "test:Lily Waddell"
+            }, 
+            "174452": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174410": {
+                "prov:entity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "174474": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:agent": "test:George Nash"
+            }, 
+            "174472": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174470": {
+                "prov:entity": "test:george michael came on our first date", 
+                "prov:agent": "test:Martin Kemp"
+            }, 
+            "174503": {
+                "prov:entity": "test:i have seen him walk down the street in malta drunk as a lord and just hit anybody he got near to – even a man walking with his children", 
+                "prov:agent": "test:Crowe"
+            }, 
+            "174480": {
+                "prov:entity": "test:its influence is growing and broadening out", 
+                "prov:agent": "test:Ethan Titelman"
+            }, 
+            "174486": {
+                "prov:entity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174484": {
+                "prov:entity": "test:once it would have been for your techsavvy early adopters but it has actually doubled its influence over moviegoers aged over 45 in the last couple of years alone", 
+                "prov:agent": "test:Ethan Titelman"
+            }, 
+            "174488": {
+                "prov:entity": "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme", 
+                "prov:agent": "test:Peter Bradshaw"
+            }, 
+            "174424": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:agent": "test:www.dailymail.co.uk"
+            }, 
+            "174426": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:agent": "test:Caroline Graham For The Mail On Sunday In Los Angeles"
+            }, 
+            "174420": {
+                "prov:entity": "test:https://www.theguardian.com/film/2012/jun/14/fast-girls-review", 
+                "prov:agent": "test:Peter Bradshaw"
+            }, 
+            "174422": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/italy/index.html", 
+                "prov:agent": "test:www.dailymail.co.uk"
+            }, 
+            "174458": {
+                "prov:entity": "test:is it better to give or to receive", 
+                "prov:agent": "test:Gemma Chan"
+            }, 
+            "174444": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson", 
+                "prov:agent": "test:Peter Bradshaw"
+            }, 
+            "174442": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "174440": {
+                "prov:entity": "test:after an extensive search it was abundantly clear that halle possesses that rare combination of spirit heart youth innocence and substance  plus a glorious singing voice  all intrinsic qualities necessary to play this iconic role", 
+                "prov:agent": "test:Rob Marshall"
+            }, 
+            "174448": {
+                "prov:entity": "test:https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html", 
+                "prov:agent": "test:www.dailymail.co.uk"
+            }
+        }, 
+        "agent": {
+            "test:Peter Bradshaw": {
+                "test:name": "Peter Bradshaw", 
+                "test:type": "person"
+            }, 
+            "test:Martin Kemp": {
+                "test:name": "Martin Kemp", 
+                "test:type": "person"
+            }, 
+            "test:Baxter Dmitry": {
+                "test:name": "Baxter Dmitry", 
+                "test:type": "person"
+            }, 
+            "test:Benjamin Lee": {
+                "test:name": "Benjamin Lee", 
+                "test:type": "person"
+            }, 
+            "test:newspunch.com": {
+                "test:publisher": "newspunch.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Micha Frazer-Carroll": {
+                "test:name": "Micha Frazer-Carroll", 
+                "test:type": "person"
+            }, 
+            "test:Press Association": {
+                "test:name": "Press Association", 
+                "test:type": "person"
+            }, 
+            "test:Crowe": {
+                "test:name": "Crowe", 
+                "test:type": "person"
+            }, 
+            "test:www.dailymail.co.uk": {
+                "test:publisher": "www.dailymail.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Gemma Chan": {
+                "test:name": "Gemma Chan", 
+                "test:type": "person"
+            }, 
+            "test:Ethan Titelman": {
+                "test:name": "Ethan Titelman", 
+                "test:type": "person"
+            }, 
+            "test:Lily Waddell": {
+                "test:name": "Lily Waddell", 
+                "test:type": "person"
+            }, 
+            "test:George Nash": {
+                "test:name": "George Nash", 
+                "test:type": "person"
+            }, 
+            "test:www.theguardian.com": {
+                "test:publisher": "www.theguardian.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Rob Marshall": {
+                "test:name": "Rob Marshall", 
+                "test:type": "person"
+            }, 
+            "test:Caroline Graham For The Mail On Sunday In Los Angeles": {
+                "test:name": "Caroline Graham For The Mail On Sunday In Los Angeles", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson": {
+                "test:url": "https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson", 
+                "test:date": "2019-03-05", 
+                "test:title": "Captain Marvel review – Brie Larson kicks ass across the universe", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/shortcuts/2018/apr/25/crazy-rich-asians-can-the-romcom-be-a-gamechanger-for-representation": {
+                "test:url": "https://www.theguardian.com/film/shortcuts/2018/apr/25/crazy-rich-asians-can-the-romcom-be-a-gamechanger-for-representation", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/lifeandstyle/2018/jul/14/martin-kemp-actor-interview-george-michael-first-date": {
+                "test:url": "https://www.theguardian.com/lifeandstyle/2018/jul/14/martin-kemp-actor-interview-george-michael-first-date", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/annette-bening": {
+                "test:url": "https://www.theguardian.com/film/annette-bening", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition": {
+                "test:url": "https://www.theguardian.com/film/2018/apr/24/avengers-infinity-war-review-supremely-entertaining-showdown-in-the-grand-marvel-tradition", 
+                "test:date": "2018-04-24", 
+                "test:title": "Avengers: Infinity War review – colossal Marvel showdown revels in apocalyptic mayhem", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/culture/jude-law": {
+                "test:url": "https://www.theguardian.com/culture/jude-law", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/jaws": {
+                "test:url": "https://www.theguardian.com/film/jaws", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/WajahatAli/status/1146515563780423682?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/WajahatAli/status/1146515563780423682?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/jonathan-demme": {
+                "test:url": "https://www.theguardian.com/film/jonathan-demme", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html": {
+                "test:url": "https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "test:date": "2019-07-13", 
+                "test:title": "Thought 007 could never be a woman or black? Well, she's both! James Bond will hand the number over", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls": {
+                "test:url": "https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "test:date": "2019-02-27", 
+                "test:title": "Rotten Tomatoes rescues Captain Marvel from review trolls", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/FGuwAzAHUT": {
+                "test:url": "https://t.co/FGuwAzAHUT", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/business/2013/dec/12/blockbuster-disappear-high-street-close-dvds": {
+                "test:url": "https://www.theguardian.com/business/2013/dec/12/blockbuster-disappear-high-street-close-dvds", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/profile/carolecadwalladr": {
+                "test:url": "https://www.theguardian.com/profile/carolecadwalladr", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/kpfallon/status/1146509835158151168?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/kpfallon/status/1146509835158151168?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/rotten-tomatoes": {
+                "test:url": "https://www.theguardian.com/film/rotten-tomatoes", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/filmblog/2018/feb/05/black-panther-fought-off-a-toxic-ghostbusters-online-campaign-rotten-tomatoes": {
+                "test:url": "https://www.theguardian.com/film/filmblog/2018/feb/05/black-panther-fought-off-a-toxic-ghostbusters-online-campaign-rotten-tomatoes", 
+                "test:type": "article"
+            }, 
+            "test:https://www.dailymail.co.uk/tvshowbiz/love-island/index.html": {
+                "test:url": "https://www.dailymail.co.uk/tvshowbiz/love-island/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan": {
+                "test:url": "https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "test:date": "2018-08-11", 
+                "test:title": "Gemma Chan: ‘Is it better to give or to receive? Are we talking about oral sex?’", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/avengers--infinity-war": {
+                "test:url": "https://www.theguardian.com/film/avengers--infinity-war", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.dailymail.co.uk/news/italy/index.html": {
+                "test:url": "https://www.dailymail.co.uk/news/italy/index.html", 
+                "test:date": "", 
+                "test:title": "Italy News with Updates on Rome, Milan and PM Paolo Gentiloni", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/tv-and-radio/humans": {
+                "test:url": "https://www.theguardian.com/tv-and-radio/humans", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.imdb.com/name/nm2736476/": {
+                "test:url": "https://www.imdb.com/name/nm2736476/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/samuel-l-jackson": {
+                "test:url": "https://www.theguardian.com/film/samuel-l-jackson", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/culture/ben-mendelsohn": {
+                "test:url": "https://www.theguardian.com/culture/ben-mendelsohn", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2018/feb/18/sisters-this-is-our-moment-to-say-times-up": {
+                "test:url": "https://www.theguardian.com/world/2018/feb/18/sisters-this-is-our-moment-to-say-times-up", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/tv-and-radio/2016/sep/22/luke-cage-netflix-marvel-comics": {
+                "test:url": "https://www.theguardian.com/tv-and-radio/2016/sep/22/luke-cage-netflix-marvel-comics", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/chloexhalle/status/1146509551497170944?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/chloexhalle/status/1146509551497170944?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.marvel.com/movies/captain-marvel": {
+                "test:url": "https://www.marvel.com/movies/captain-marvel", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/freeblackgirl/status/1146515213853741056?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/freeblackgirl/status/1146515213853741056?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/intent/tweet?text=The%20Silence%20of%20the%20Lambs%20review%20%E2%80%93%20psycho-killer%20Hannibal%20still%20chills&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2017%2Fnov%2F01%2Fthe-silence-of-the-lambs-review-anthony-hopkins-j": {
+                "test:url": "https://twitter.com/intent/tweet?text=The%20Silence%20of%20the%20Lambs%20review%20%E2%80%93%20psycho-killer%20Hannibal%20still%20chills&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2017%2Fnov%2F01%2Fthe-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme%3FCMP%3Dshare_btn_tw%26page%3Dwith%3Aimg-2%23img-2", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/books/2004/mar/13/featuresreviews.guardianreview5": {
+                "test:url": "https://www.theguardian.com/books/2004/mar/13/featuresreviews.guardianreview5", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/guardians-of-the-galaxy": {
+                "test:url": "https://www.theguardian.com/film/guardians-of-the-galaxy", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/black-panther": {
+                "test:url": "https://www.theguardian.com/film/black-panther", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/culture/marvel": {
+                "test:url": "https://www.theguardian.com/culture/marvel", 
+                "test:type": "reference"
+            }, 
+            "test:https://dailycaller.com/2019/06/04/james-bond-25-explosion-injury/": {
+                "test:url": "https://dailycaller.com/2019/06/04/james-bond-25-explosion-injury/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2002/sep/23/news1": {
+                "test:url": "https://www.theguardian.com/film/2002/sep/23/news1", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/scarlettjohansson": {
+                "test:url": "https://www.theguardian.com/film/scarlettjohansson", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2016/jul/07/legend-tarzan-review-alexander-skarsgard-christoph-waltz": {
+                "test:url": "https://www.theguardian.com/film/2016/jul/07/legend-tarzan-review-alexander-skarsgard-christoph-waltz", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/captain-marvel": {
+                "test:url": "https://www.theguardian.com/film/captain-marvel", 
+                "test:type": "reference"
+            }, 
+            "test:https://newspunch.com/james-bond-black-female-actor-new-007/": {
+                "test:url": "https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "test:date": "2019-07-15", 
+                "test:title": "James Bond: Black Female Actor Is Revealed As ‘The New 007’", 
+                "test:type": "article"
+            }, 
+            "test:https://dailycaller.com/2019/06/25/james-bond-25-movie-inside-look/": {
+                "test:url": "https://dailycaller.com/2019/06/25/james-bond-25-movie-inside-look/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/roger-corman": {
+                "test:url": "https://www.theguardian.com/film/roger-corman", 
+                "test:type": "reference"
+            }, 
+            "test:https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson": {
+                "test:url": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.imdb.com/name/nm0001277/": {
+                "test:url": "https://www.imdb.com/name/nm0001277/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.imdb.com/name/nm0372217/": {
+                "test:url": "https://www.imdb.com/name/nm0372217/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2019/feb/21/captain-marvel-why-sexist-attempts-at-sabotage-will-fail": {
+                "test:url": "https://www.theguardian.com/film/2019/feb/21/captain-marvel-why-sexist-attempts-at-sabotage-will-fail", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/jodie-foster": {
+                "test:url": "https://www.theguardian.com/film/jodie-foster", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/culture/2016/jul/18/leslie-jones-racist-tweets-ghostbusters": {
+                "test:url": "https://www.theguardian.com/culture/2016/jul/18/leslie-jones-racist-tweets-ghostbusters", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/superhero-movies": {
+                "test:url": "https://www.theguardian.com/film/superhero-movies", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/anthony-hopkins": {
+                "test:url": "https://www.theguardian.com/film/anthony-hopkins", 
+                "test:type": "reference"
+            }, 
+            "test:https://dailycaller.com/2019/07/14/james-bond-25-007-lashana-lynch/": {
+                "test:url": "https://dailycaller.com/2019/07/14/james-bond-25-007-lashana-lynch/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/music/nirvana": {
+                "test:url": "https://www.theguardian.com/music/nirvana", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2018/feb/26/rotten-tomatoes-hollywood-love-hate-relationship": {
+                "test:url": "https://www.theguardian.com/film/2018/feb/26/rotten-tomatoes-hollywood-love-hate-relationship", 
+                "test:type": "article"
+            }, 
+            "test:https://editorial.rottentomatoes.com/article/making-some-changes/": {
+                "test:url": "https://editorial.rottentomatoes.com/article/making-some-changes/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/intent/tweet?text=Captain%20Marvel%20review%20%E2%80%93%20Brie%20Larson%20kicks%20ass%20across%20the%20universe&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2019%2Fmar%2F05%2Fcaptain-marvel-review-brie-larson-samuel-l-jackson%3F": {
+                "test:url": "https://twitter.com/intent/tweet?text=Captain%20Marvel%20review%20%E2%80%93%20Brie%20Larson%20kicks%20ass%20across%20the%20universe&url=https%3A%2F%2Fwww.theguardian.com%2Ffilm%2F2019%2Fmar%2F05%2Fcaptain-marvel-review-brie-larson-samuel-l-jackson%3FCMP%3Dshare_btn_tw%26page%3Dwith%3Aimg-2%23img-2", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html": {
+                "test:url": "https://www.dailymail.co.uk/tvshowbiz/article-7250373/Love-Island-fans-let-rip-savage-Michael-disrespecting-Amber.html", 
+                "test:date": "2019-07-15", 
+                "test:title": "Love Island fans let rip at 'savage' Michael for 'disrespecting' Amber", 
+                "test:type": "article"
+            }, 
+            "test:https://www.dailymail.co.uk/news/article-2423819/Gemma-Chan-tells-court-horrifying-moment-watched-schizophrenic-stab-homeless-man-death-busy-London-street.html": {
+                "test:url": "https://www.dailymail.co.uk/news/article-2423819/Gemma-Chan-tells-court-horrifying-moment-watched-schizophrenic-stab-homeless-man-death-busy-London-street.html", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/sndjYUS6wO": {
+                "test:url": "https://t.co/sndjYUS6wO", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2012/jun/14/fast-girls-review": {
+                "test:url": "https://www.theguardian.com/film/2012/jun/14/fast-girls-review", 
+                "test:date": "2012-06-14", 
+                "test:title": "Fast Girls – review", 
+                "test:type": "article"
+            }, 
+            "test:https://en.wikipedia.org/wiki/Black_Panther_(TV_series)": {
+                "test:url": "https://en.wikipedia.org/wiki/Black_Panther_(TV_series)", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/brie-larson": {
+                "test:url": "https://www.theguardian.com/film/brie-larson", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid": {
+                "test:url": "https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid", 
+                "test:date": "2019-07-04", 
+                "test:title": "US singer Halle Bailey cast as Ariel in Disney's live-action remake of The Little Mermaid", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/filmblog/2014/oct/29/marvel-black-panther-black-superhero-chadwick-boseman": {
+                "test:url": "https://www.theguardian.com/film/filmblog/2014/oct/29/marvel-black-panther-black-superhero-chadwick-boseman", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/books/2014/may/28/maya-angelou": {
+                "test:url": "https://www.theguardian.com/books/2014/may/28/maya-angelou", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme": {
+                "test:url": "https://www.theguardian.com/film/2017/nov/01/the-silence-of-the-lambs-review-anthony-hopkins-jodie-foster-jonathan-demme", 
+                "test:date": "2017-11-01", 
+                "test:title": "The Silence of the Lambs review – psycho-killer Hannibal still chills", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man": {
+                "test:url": "https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "test:date": "2016-11-03", 
+                "test:title": "Djimon Hounsou: ‘My son told me, I want to be light-skinned so I can climb the walls like Spider-Man’", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/tv-and-radio/david-attenborough": {
+                "test:url": "https://www.theguardian.com/tv-and-radio/david-attenborough", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:are we talking about oral sex": {
+                "test:quote": "are we talking about oral sex", 
+                "test:type": "quote"
+            }, 
+            "test:after an extensive search it was abundantly clear that halle possesses that rare combination of spirit heart youth innocence and substance  plus a glorious singing voice  all intrinsic qualities necessary to play this iconic role": {
+                "test:quote": "after an extensive search it was abundantly clear that halle possesses that rare combination of spirit heart youth innocence and substance  plus a glorious singing voice  all intrinsic qualities necessary to play this iconic role", 
+                "test:type": "quote"
+            }, 
+            "test:so his face will be superimposed later": {
+                "test:quote": "so his face will be superimposed later", 
+                "test:type": "quote"
+            }, 
+            "test:its influence is growing and broadening out": {
+                "test:quote": "its influence is growing and broadening out", 
+                "test:type": "quote"
+            }, 
+            "test:is it better to give or to receive": {
+                "test:quote": "is it better to give or to receive", 
+                "test:type": "quote"
+            }, 
+            "test:once it would have been for your techsavvy early adopters but it has actually doubled its influence over moviegoers aged over 45 in the last couple of years alone": {
+                "test:quote": "once it would have been for your techsavvy early adopters but it has actually doubled its influence over moviegoers aged over 45 in the last couple of years alone", 
+                "test:type": "quote"
+            }, 
+            "test:bond is still bond but he’s been replaced as 007": {
+                "test:quote": "bond is still bond but he’s been replaced as 007", 
+                "test:type": "quote"
+            }, 
+            "test:uptick in nonconstructive input sometimes bordering on trolling": {
+                "test:quote": "uptick in nonconstructive input sometimes bordering on trolling", 
+                "test:type": "quote"
+            }, 
+            "test:come as you are as you were  as i want you to be  as a friend as a friend  as a known enemy ": {
+                "test:quote": "come as you are as you were  as i want you to be  as a friend as a friend  as a known enemy ", 
+                "test:type": "quote"
+            }, 
+            "test:we send the eu £350m a week let’s fund the nhs instead": {
+                "test:quote": "we send the eu £350m a week let’s fund the nhs instead", 
+                "test:type": "quote"
+            }, 
+            "test:daniel is in great shape but there are some scenes he can’t do because they are too physically challenging": {
+                "test:quote": "daniel is in great shape but there are some scenes he can’t do because they are too physically challenging", 
+                "test:type": "quote"
+            }, 
+            "test:it’s a popcorndropping moment": {
+                "test:quote": "it’s a popcorndropping moment", 
+                "test:type": "quote"
+            }, 
+            "test:my son told me i want to be lightskinned so i can climb the walls like spiderman": {
+                "test:quote": "my son told me i want to be lightskinned so i can climb the walls like spiderman", 
+                "test:type": "quote"
+            }, 
+            "test:there is a pivotal scene at the start of the film where m says “come in 007” and in walks lashana who is black beautiful and a woman": {
+                "test:quote": "there is a pivotal scene at the start of the film where m says “come in 007” and in walks lashana who is black beautiful and a woman", 
+                "test:type": "quote"
+            }, 
+            "test:plus the insurance company won’t let him": {
+                "test:quote": "plus the insurance company won’t let him", 
+                "test:type": "quote"
+            }, 
+            "test:i have seen him walk down the street in malta drunk as a lord and just hit anybody he got near to – even a man walking with his children": {
+                "test:quote": "i have seen him walk down the street in malta drunk as a lord and just hit anybody he got near to – even a man walking with his children", 
+                "test:type": "quote"
+            }, 
+            "test:donald trump has been elected president": {
+                "test:quote": "donald trump has been elected president", 
+                "test:type": "quote"
+            }, 
+            "test:george michael came on our first date": {
+                "test:quote": "george michael came on our first date", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "174432": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:activity": "test:so his face will be superimposed later"
+            }, 
+            "174501": {
+                "prov:entity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "prov:activity": "test:i have seen him walk down the street in malta drunk as a lord and just hit anybody he got near to – even a man walking with his children"
+            }, 
+            "174430": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:activity": "test:plus the insurance company won’t let him"
+            }, 
+            "174460": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:activity": "test:are we talking about oral sex"
+            }, 
+            "174438": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/jul/04/us-singer-halle-bailey-cast-as-ariel-in-disneys-live-action-remake-of-the-little-mermaid", 
+                "prov:activity": "test:after an extensive search it was abundantly clear that halle possesses that rare combination of spirit heart youth innocence and substance  plus a glorious singing voice  all intrinsic qualities necessary to play this iconic role"
+            }, 
+            "174428": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7244671/Thought-007-never-woman-black-shes-James-Bond-hand-number-over.html", 
+                "prov:activity": "test:daniel is in great shape but there are some scenes he can’t do because they are too physically challenging"
+            }, 
+            "174498": {
+                "prov:entity": "test:https://www.theguardian.com/film/2016/nov/03/djimon-hounsou-my-son-told-me-i-want-to-be-light-skinned-so-i-can-climb-the-walls-like-spider-man", 
+                "prov:activity": "test:my son told me i want to be lightskinned so i can climb the walls like spiderman"
+            }, 
+            "174446": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/mar/05/captain-marvel-review-brie-larson-samuel-l-jackson", 
+                "prov:activity": "test:come as you are as you were  as i want you to be  as a friend as a friend  as a known enemy "
+            }, 
+            "174456": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:activity": "test:is it better to give or to receive"
+            }, 
+            "174464": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:activity": "test:we send the eu £350m a week let’s fund the nhs instead"
+            }, 
+            "174466": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:activity": "test:donald trump has been elected president"
+            }, 
+            "174478": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:activity": "test:its influence is growing and broadening out"
+            }, 
+            "174468": {
+                "prov:entity": "test:https://www.theguardian.com/lifeandstyle/2018/aug/11/q-and-a-gemma-chan", 
+                "prov:activity": "test:george michael came on our first date"
+            }, 
+            "174476": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:activity": "test:uptick in nonconstructive input sometimes bordering on trolling"
+            }, 
+            "174412": {
+                "prov:entity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "prov:activity": "test:there is a pivotal scene at the start of the film where m says “come in 007” and in walks lashana who is black beautiful and a woman"
+            }, 
+            "174482": {
+                "prov:entity": "test:https://www.theguardian.com/film/2019/feb/27/rotten-tomatoes-captain-marvel-brie-larson-review-trolls", 
+                "prov:activity": "test:once it would have been for your techsavvy early adopters but it has actually doubled its influence over moviegoers aged over 45 in the last couple of years alone"
+            }, 
+            "174414": {
+                "prov:entity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "prov:activity": "test:it’s a popcorndropping moment"
+            }, 
+            "174416": {
+                "prov:entity": "test:https://newspunch.com/james-bond-black-female-actor-new-007/", 
+                "prov:activity": "test:bond is still bond but he’s been replaced as 007"
+            }
+        }
+    }
+}

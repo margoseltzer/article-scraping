@@ -1,0 +1,1609 @@
+{
+    "root": "https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "160414": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160494": {
+                "prov:usedEntity": "test:https://www.nytimes.com/elections/2016/results/house", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160406": {
+                "prov:usedEntity": "test:https://twitter.com/SpeakerPelosi/status/1150408691713265665", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019"
+            }, 
+            "160404": {
+                "prov:usedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019"
+            }, 
+            "160402": {
+                "prov:usedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019"
+            }, 
+            "160466": {
+                "prov:usedEntity": "test:https://twitter.com/IlhanMN/status/1095046561254567937?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160442": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1150720283654938625", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160440": {
+                "prov:usedEntity": "test:https://twitter.com/AOC/status/1150445185438035968?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160446": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160444": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/FamiliesBelongTogether?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160428": {
+                "prov:usedEntity": "test:https://twitter.com/RepDonBeyer/status/1150537893594750976?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160468": {
+                "prov:usedEntity": "test:https://twitter.com/ChelseaClinton/status/1094773371823366145", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160424": {
+                "prov:usedEntity": "test:https://twitter.com/IlhanMN/status/1102296763292139520", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160426": {
+                "prov:usedEntity": "test:https://www.mprnews.org/pin", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160420": {
+                "prov:usedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160500": {
+                "prov:usedEntity": "test:https://www.house.gov/representatives/find-your-representative", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160422": {
+                "prov:usedEntity": "test:http://jewswithilhan.org/", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160478": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means"
+            }, 
+            "160488": {
+                "prov:usedEntity": "test:https://www.npr.org/2019/03/04/699985857/new-election-schedule-set-in-north-carolinas-9th-district", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160486": {
+                "prov:usedEntity": "test:https://www.apmresearchlab.org/stories/2018/10/09/representing-us-2018-preelection-content", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160408": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=W4Lei124mWk", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019"
+            }, 
+            "160482": {
+                "prov:usedEntity": "test:https://apps.npr.org/documents/document.html?id=5762660-Anti-Hate-House-Resolution", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments"
+            }, 
+            "160480": {
+                "prov:usedEntity": "test:https://www.npr.org/2019/02/11/693480995/house-democrats-urge-party-leaders-to-condemn-anti-semitism", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments"
+            }, 
+            "160430": {
+                "prov:usedEntity": "test:https://twitter.com/IlhanMN/status/1150456031694245888", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160472": {
+                "prov:usedEntity": "test:https://t.co/7TSroSf8h1", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160470": {
+                "prov:usedEntity": "test:https://twitter.com/SpeakerPelosi/status/1095026564503343104", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160458": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism"
+            }, 
+            "160474": {
+                "prov:usedEntity": "test:https://twitter.com/IlhanMN/status/1094747501578633216", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160454": {
+                "prov:usedEntity": "test:https://twitter.com/SpeakerPelosi/status/1150408693021908992?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160456": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism"
+            }, 
+            "160450": {
+                "prov:usedEntity": "test:https://twitter.com/Ilhan?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160452": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1150381394234941448", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160418": {
+                "prov:usedEntity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160484": {
+                "prov:usedEntity": "test:https://www.nytimes.com/interactive/2018/02/19/upshot/pennsylvania-new-house-districts-gerrymandering.html", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160438": {
+                "prov:usedEntity": "test:https://twitter.com/BernieSanders/status/1150414765119946753?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160460": {
+                "prov:usedEntity": "test:https://live.mprnews.org/Event/MPR_News_Somali/1154817196", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160410": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1150381394234941448", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019"
+            }, 
+            "160412": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160432": {
+                "prov:usedEntity": "test:https://t.co/EOUCCj7Ldx", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160416": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:generatedEntity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism"
+            }, 
+            "160490": {
+                "prov:usedEntity": "test:https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160436": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/contact-us/editorial", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160492": {
+                "prov:usedEntity": "test:https://cookpolitical.com/introducing-2017-cook-political-report-partisan-voter-index", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160448": {
+                "prov:usedEntity": "test:https://t.co/lweeJk7NoF", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160462": {
+                "prov:usedEntity": "test:https://twitter.com/ggreenwald/status/1094727576013193216", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }, 
+            "160496": {
+                "prov:usedEntity": "test:https://www.politico.com/mapdata-2016/2016-election/results/map/house/", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160498": {
+                "prov:usedEntity": "test:https://www.cnn.com/election/2016/results/house", 
+                "prov:generatedEntity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            }, 
+            "160476": {
+                "prov:usedEntity": "test:https://www.mprnews.org/story/2019/02/12/trump-calls-for-omar-to-resign-over-israel-tweets", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means"
+            }, 
+            "160434": {
+                "prov:usedEntity": "test:https://twitter.com/AyannaPressley/status/1150460489199173632", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/world-us-canada-48990760"
+            }, 
+            "160464": {
+                "prov:usedEntity": "test:https://twitter.com/MaxRose4NY/status/1094783506323042304", 
+                "prov:generatedEntity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            }
+        }, 
+        "wasAttributedTo": {
+            "160193": {
+                "prov:entity": "test:this is what racism looks like", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160211": {
+                "prov:entity": "test:i want to ask why is it ok for me to talk about the influence of the national rifle association or fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policy", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160197": {
+                "prov:entity": "test:we are what democracy looks like", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160215": {
+                "prov:entity": "test:antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160199": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:agent": "test:www.mprnews.org"
+            }, 
+            "160358": {
+                "prov:entity": "test:i feel confident that her words were not based on any antisemitic attitude but that she didnt have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her", 
+                "prov:agent": "test:Pelosi"
+            }, 
+            "160119": {
+                "prov:entity": "test:being opposed to israeli prime minister benjamin netanyahu and the occupation is not the same as being antisemitic", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160051": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:agent": "test:John Paul"
+            }, 
+            "160298": {
+                "prov:entity": "test:will it be about antisemitism", 
+                "prov:agent": "test:Carin Mrotz"
+            }, 
+            "160053": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:agent": "test:Parliamentary Bureau"
+            }, 
+            "160057": {
+                "prov:entity": "test:i think canadians and indeed people around the world know exactly what i think about those particular comments", 
+                "prov:agent": "test:Justin Trudeau"
+            }, 
+            "160111": {
+                "prov:entity": "test:its the standard fare of thenku klux klan leader david duke", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160290": {
+                "prov:entity": "test:shes establishing herself as a firebrand", 
+                "prov:agent": "test:Carin Mrotz"
+            }, 
+            "160115": {
+                "prov:entity": "test:its difficult and dangerous because it evokes the jews as the malevolent other conspiring against society", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160294": {
+                "prov:entity": "test:do i think she is going to have another twitter dustup", 
+                "prov:agent": "test:Carin Mrotz"
+            }, 
+            "160201": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:agent": "test:Ap File"
+            }, 
+            "160203": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:agent": "test:Andrew Harnik"
+            }, 
+            "160207": {
+                "prov:entity": "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160328": {
+                "prov:entity": "test:the challenge of her is  going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160123": {
+                "prov:entity": "test:i am grateful to the many jewish allies who have spoken out and said the same", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160324": {
+                "prov:entity": "test:that does not seem to be the path that she is taking", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160129": {
+                "prov:entity": "test:when a resolution is brought forth to basically criticize the representative for her remarks i have to ask myself is everybody on that level in washington being held to the same standard", 
+                "prov:agent": "test:Scully"
+            }, 
+            "160320": {
+                "prov:entity": "test:many members of congress when they first enter spend a lot of time getting the lay of the land developing policy expertise forging relationships", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160049": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:agent": "test:J.P."
+            }, 
+            "160047": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:agent": "test:Follow J.P. On Twitter"
+            }, 
+            "160045": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "160282": {
+                "prov:entity": "test:there are 435 members of congress so you cant overstate how unusual it is for one member to attract so much attention — both from the media and the president himself", 
+                "prov:agent": "test:Kathryn Pearson"
+            }, 
+            "160286": {
+                "prov:entity": "test:antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes", 
+                "prov:agent": "test:Ilhan Omar"
+            }, 
+            "160239": {
+                "prov:entity": "test:its stunning how much time us political leaders spend defending a foreign nation even if it means attacking free speech rights of americans", 
+                "prov:agent": "test:Greenwald"
+            }, 
+            "160266": {
+                "prov:entity": "test:im going to support israel and the jewish people", 
+                "prov:agent": "test:Gazelka"
+            }, 
+            "160235": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:agent": "test:Briana Bierschbach"
+            }, 
+            "160231": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:agent": "test:Alex Wong"
+            }, 
+            "160233": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:agent": "test:Brian Bakst"
+            }, 
+            "160133": {
+                "prov:entity": "test:and it does not seem to me that that is the case", 
+                "prov:agent": "test:Scully"
+            }, 
+            "160137": {
+                "prov:entity": "test:i absolutely welcome criticism of israel", 
+                "prov:agent": "test:Scully"
+            }, 
+            "160336": {
+                "prov:entity": "test:there are going to be people on the right who want to tear her down because they cant stand the idea of what she represents", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160332": {
+                "prov:entity": "test:unfortunately the country today — the way it is — a muslim woman who is unapologetic about who she is and what she brings to the us capitol is going to be a lightning rod for criticism", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160229": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:agent": "test:Getty Images"
+            }, 
+            "160221": {
+                "prov:entity": "test:our community is exasperated by rep omars unfulfilled promises to listen and learn from jewish constituents while seemingly simultaneously finding another opportunity to make an antisemitic remark and insult our community", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160227": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:agent": "test:www.mprnews.org"
+            }, 
+            "160225": {
+                "prov:entity": "test:the charge of dual loyalty not only raises the ominous specter of classic antisemitism but it is also deeply insulting to the millions upon millions of patriotic americans jewish and nonjewish who stand by our democratic ally israel", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160302": {
+                "prov:entity": "test:i dont think her tweets are evidence that she is an antisemite her tweets are an example that antisemitism is so ingrained in our society and culture that we dont even realize it", 
+                "prov:agent": "test:Mrotz"
+            }, 
+            "160306": {
+                "prov:entity": "test:i will say to her credit is she has displayed a willingness to learn and grow and change", 
+                "prov:agent": "test:Mrotz"
+            }, 
+            "160380": {
+                "prov:entity": "test:we should be having a sound respectful discussion about policy", 
+                "prov:agent": "test:Harris"
+            }, 
+            "160145": {
+                "prov:entity": "test:however it is not ok to traffic in classic antisemitic tropes about jews and money and power when making those criticisms", 
+                "prov:agent": "test:Scully"
+            }, 
+            "160384": {
+                "prov:entity": "test:you can both support israel and be loyal to our country", 
+                "prov:agent": "test:Harris"
+            }, 
+            "160141": {
+                "prov:entity": "test:it should not be taboo to criticize israeli government policies", 
+                "prov:agent": "test:Scully"
+            }, 
+            "160388": {
+                "prov:entity": "test:i also believe there is a difference between criticism of policy or political leaders and antisemitism", 
+                "prov:agent": "test:Harris"
+            }, 
+            "160149": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:agent": "test:www.bbc.com"
+            }, 
+            "160316": {
+                "prov:entity": "test:we want to be abundantly clear this is not a rebuke of federal workers or those who depend on the services they provide but a rejection of the hateful policies priorities and rhetoric of the trump administration", 
+                "prov:agent": "test:Pearson"
+            }, 
+            "160099": {
+                "prov:entity": "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160310": {
+                "prov:entity": "test:theres a learning opportunity in here for her to talk with members of the jewish community in her district", 
+                "prov:agent": "test:Darin Broton"
+            }, 
+            "160095": {
+                "prov:entity": "test:its all about the benjamins baby", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160091": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:agent": "test:Cody Nelson"
+            }, 
+            "160258": {
+                "prov:entity": "test:well see going forward if shes going to continue in this vein of being more careful in the words she chooses", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160254": {
+                "prov:entity": "test:we want to have a respectful working relationship with her", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160250": {
+                "prov:entity": "test:we hope she will have learned from this situation", 
+                "prov:agent": "test:Hunegs"
+            }, 
+            "160398": {
+                "prov:entity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage", 
+                "prov:agent": "test:www.apmresearchlab.org"
+            }, 
+            "160396": {
+                "prov:entity": "test:threats of violence — like those made against rep omar — are never acceptable", 
+                "prov:agent": "test:Warren"
+            }, 
+            "160392": {
+                "prov:entity": "test:branding criticism of israel as automatically antisemitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between israelis and palestinians", 
+                "prov:agent": "test:Warren"
+            }, 
+            "160362": {
+                "prov:entity": "test:representative omar embodies a vile hatefilled antisemitic antiisrael bigotry", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160089": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:agent": "test:www.npr.org"
+            }, 
+            "160083": {
+                "prov:entity": "test:if youre not happy in the us if youre complaining all the time very simply you can leave you can leave right now", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160087": {
+                "prov:entity": "test:come back if you want dont come back thats ok too but if youre not happy you can leave", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160262": {
+                "prov:entity": "test:its a combination of quotes shes made over the last year that i just decided im going to take a stand and say its not ok", 
+                "prov:agent": "test:Gazelka"
+            }, 
+            "160163": {
+                "prov:entity": "test:when will the radical left congresswomen apologise to our country the people of israel and even to the office of the president for the foul language they have used and the terrible things they have said", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160167": {
+                "prov:entity": "test:so many people are angry at them and their horrible and disgusting actions", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160376": {
+                "prov:entity": "test:what i fear is going on in the house now is an effort to target congresswoman omar as a way of stifling that debate", 
+                "prov:agent": "test:Sanders"
+            }, 
+            "160278": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:agent": "test:Briana Bierschbach"
+            }, 
+            "160270": {
+                "prov:entity": "test:i think somebody needs to when somebody on the other side continues to say something negative", 
+                "prov:agent": "test:Gazelka"
+            }, 
+            "160272": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:agent": "test:www.mprnews.org"
+            }, 
+            "160274": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:agent": "test:Ap Photo File"
+            }, 
+            "160276": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:agent": "test:Andrew Harnik"
+            }, 
+            "160075": {
+                "prov:entity": "test:im surprised shed say that", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160175": {
+                "prov:entity": "test:that is not how we do things in canada", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160079": {
+                "prov:entity": "test:if you hate our country if youre not happy here you can leave and thats what i say all the time ", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160183": {
+                "prov:entity": "test:when realdonaldtrump tells four american congresswomen to go back to their countries he reaffirms his plan to make america great again has always been about making america white again", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160348": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:agent": "test:Susan Davis"
+            }, 
+            "160187": {
+                "prov:entity": "test:our diversity is our strength and our unity is our power", 
+                "prov:agent": "test:Trump"
+            }, 
+            "160344": {
+                "prov:entity": "test:i just hope that she will think carefully about the powerful effect her words can have", 
+                "prov:agent": "test:Winkler"
+            }, 
+            "160346": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:agent": "test:www.npr.org"
+            }, 
+            "160340": {
+                "prov:entity": "test:as much as im concerned about the language she has used in respect to the jewish community i think that its very important that people like ilhan omar are in leadership positions because it demonstrates the way america is changing and what the future look", 
+                "prov:agent": "test:Winkler"
+            }, 
+            "160065": {
+                "prov:entity": "test:a canadian is a canadian is a canadian", 
+                "prov:agent": "test:Justin Trudeau"
+            }, 
+            "160061": {
+                "prov:entity": "test:that is not how we do things in canada", 
+                "prov:agent": "test:Justin Trudeau"
+            }, 
+            "160103": {
+                "prov:entity": "test:i want to ask why is it ok for me to talk about the influence of the nra national rifle association of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies", 
+                "prov:agent": "test:Omar"
+            }, 
+            "160069": {
+                "prov:entity": "test:the diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for canadians and we will to continue to defend that", 
+                "prov:agent": "test:Justin Trudeau"
+            }, 
+            "160107": {
+                "prov:entity": "test:accusing jews of harboring dual loyalty has a long violent sordid history", 
+                "prov:agent": "test:Omar"
+            }
+        }, 
+        "agent": {
+            "test:Ilhan Omar": {
+                "test:name": "Ilhan Omar", 
+                "test:type": "person"
+            }, 
+            "test:John Paul": {
+                "test:name": "John Paul", 
+                "test:type": "person"
+            }, 
+            "test:Kathryn Pearson": {
+                "test:name": "Kathryn Pearson", 
+                "test:type": "person"
+            }, 
+            "test:Susan Davis": {
+                "test:name": "Susan Davis", 
+                "test:type": "person"
+            }, 
+            "test:Getty Images": {
+                "test:name": "Getty Images", 
+                "test:type": "person"
+            }, 
+            "test:Alex Wong": {
+                "test:name": "Alex Wong", 
+                "test:type": "person"
+            }, 
+            "test:Gazelka": {
+                "test:name": "Gazelka", 
+                "test:type": "person"
+            }, 
+            "test:Brian Bakst": {
+                "test:name": "Brian Bakst", 
+                "test:type": "person"
+            }, 
+            "test:Briana Bierschbach": {
+                "test:name": "Briana Bierschbach", 
+                "test:type": "person"
+            }, 
+            "test:Winkler": {
+                "test:name": "Winkler", 
+                "test:type": "person"
+            }, 
+            "test:Follow J.P. On Twitter": {
+                "test:name": "Follow J.P. On Twitter", 
+                "test:type": "person"
+            }, 
+            "test:Pearson": {
+                "test:name": "Pearson", 
+                "test:type": "person"
+            }, 
+            "test:www.apmresearchlab.org": {
+                "test:publisher": "www.apmresearchlab.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Warren": {
+                "test:name": "Warren", 
+                "test:type": "person"
+            }, 
+            "test:Hunegs": {
+                "test:name": "Hunegs", 
+                "test:type": "person"
+            }, 
+            "test:www.cbc.ca": {
+                "test:publisher": "www.cbc.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Justin Trudeau": {
+                "test:name": "Justin Trudeau", 
+                "test:type": "person"
+            }, 
+            "test:Scully": {
+                "test:name": "Scully", 
+                "test:type": "person"
+            }, 
+            "test:J.P.": {
+                "test:name": "J.P.", 
+                "test:type": "person"
+            }, 
+            "test:www.mprnews.org": {
+                "test:publisher": "www.mprnews.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Cody Nelson": {
+                "test:name": "Cody Nelson", 
+                "test:type": "person"
+            }, 
+            "test:Ap Photo File": {
+                "test:name": "Ap Photo File", 
+                "test:type": "person"
+            }, 
+            "test:Trump": {
+                "test:name": "Trump", 
+                "test:type": "person"
+            }, 
+            "test:www.bbc.com": {
+                "test:publisher": "www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Greenwald": {
+                "test:name": "Greenwald", 
+                "test:type": "person"
+            }, 
+            "test:Harris": {
+                "test:name": "Harris", 
+                "test:type": "person"
+            }, 
+            "test:Carin Mrotz": {
+                "test:name": "Carin Mrotz", 
+                "test:type": "person"
+            }, 
+            "test:Omar": {
+                "test:name": "Omar", 
+                "test:type": "person"
+            }, 
+            "test:Darin Broton": {
+                "test:name": "Darin Broton", 
+                "test:type": "person"
+            }, 
+            "test:Andrew Harnik": {
+                "test:name": "Andrew Harnik", 
+                "test:type": "person"
+            }, 
+            "test:Parliamentary Bureau": {
+                "test:name": "Parliamentary Bureau", 
+                "test:type": "person"
+            }, 
+            "test:Pelosi": {
+                "test:name": "Pelosi", 
+                "test:type": "person"
+            }, 
+            "test:Sanders": {
+                "test:name": "Sanders", 
+                "test:type": "person"
+            }, 
+            "test:www.npr.org": {
+                "test:publisher": "www.npr.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Ap File": {
+                "test:name": "Ap File", 
+                "test:type": "person"
+            }, 
+            "test:Mrotz": {
+                "test:name": "Mrotz", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://twitter.com/IlhanMN/status/1095046561254567937?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/IlhanMN/status/1095046561254567937?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.apmresearchlab.org/stories/2018/10/09/representing-us-2018-preelection-content": {
+                "test:url": "https://www.apmresearchlab.org/stories/2018/10/09/representing-us-2018-preelection-content", 
+                "test:type": "article"
+            }, 
+            "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments": {
+                "test:url": "https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "test:date": "2019-03-07", 
+                "test:title": "House Votes To Condemn Anti-Semitism After Rep. Omar's Comments", 
+                "test:type": "article"
+            }, 
+            "test:https://www.house.gov/representatives/find-your-representative": {
+                "test:url": "https://www.house.gov/representatives/find-your-representative", 
+                "test:type": "government"
+            }, 
+            "test:https://twitter.com/AOC/status/1150445185438035968?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/AOC/status/1150445185438035968?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.mprnews.org/story/2019/02/12/trump-calls-for-omar-to-resign-over-israel-tweets": {
+                "test:url": "https://www.mprnews.org/story/2019/02/12/trump-calls-for-omar-to-resign-over-israel-tweets", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/SpeakerPelosi/status/1150408693021908992?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/SpeakerPelosi/status/1150408693021908992?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://cookpolitical.com/introducing-2017-cook-political-report-partisan-voter-index": {
+                "test:url": "https://cookpolitical.com/introducing-2017-cook-political-report-partisan-voter-index", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/ChelseaClinton/status/1094773371823366145": {
+                "test:url": "https://twitter.com/ChelseaClinton/status/1094773371823366145", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.npr.org/2019/03/04/699985857/new-election-schedule-set-in-north-carolinas-9th-district": {
+                "test:url": "https://www.npr.org/2019/03/04/699985857/new-election-schedule-set-in-north-carolinas-9th-district", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/EOUCCj7Ldx": {
+                "test:url": "https://t.co/EOUCCj7Ldx", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.com/news/world-us-canada-48990760": {
+                "test:url": "https://www.bbc.com/news/world-us-canada-48990760", 
+                "test:date": "", 
+                "test:title": "Theresa May condemns Trump's 'go back' remark to congresswomen", 
+                "test:type": "article"
+            }, 
+            "test:https://www.youtube.com/watch?v=W4Lei124mWk": {
+                "test:url": "https://www.youtube.com/watch?v=W4Lei124mWk", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/1150381394234941448": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/1150381394234941448", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.politico.com/mapdata-2016/2016-election/results/map/house/": {
+                "test:url": "https://www.politico.com/mapdata-2016/2016-election/results/map/house/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/FamiliesBelongTogether?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/FamiliesBelongTogether?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019": {
+                "test:url": "https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/IlhanMN/status/1102296763292139520": {
+                "test:url": "https://twitter.com/IlhanMN/status/1102296763292139520", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SpeakerPelosi/status/1150408691713265665": {
+                "test:url": "https://twitter.com/SpeakerPelosi/status/1150408691713265665", 
+                "test:type": "reference"
+            }, 
+            "test:http://jewswithilhan.org/": {
+                "test:url": "http://jewswithilhan.org/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SpeakerPelosi/status/1095026564503343104": {
+                "test:url": "https://twitter.com/SpeakerPelosi/status/1095026564503343104", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html": {
+                "test:url": "https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage": {
+                "test:url": "https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage", 
+                "test:date": "2018-06-26", 
+                "test:title": "Representing US", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/lweeJk7NoF": {
+                "test:url": "https://t.co/lweeJk7NoF", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.co.uk/news/contact-us/editorial": {
+                "test:url": "https://www.bbc.co.uk/news/contact-us/editorial", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism": {
+                "test:url": "https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "test:date": "2019-03-07", 
+                "test:title": "Minnesota Congresswoman Ignites Debate On Israel And Anti-Semitism", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/elections/2016/results/house": {
+                "test:url": "https://www.nytimes.com/elections/2016/results/house", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/1150720283654938625": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/1150720283654938625", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.npr.org/2019/02/11/693480995/house-democrats-urge-party-leaders-to-condemn-anti-semitism": {
+                "test:url": "https://www.npr.org/2019/02/11/693480995/house-democrats-urge-party-leaders-to-condemn-anti-semitism", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/7TSroSf8h1": {
+                "test:url": "https://t.co/7TSroSf8h1", 
+                "test:type": "reference"
+            }, 
+            "test:https://live.mprnews.org/Event/MPR_News_Somali/1154817196": {
+                "test:url": "https://live.mprnews.org/Event/MPR_News_Somali/1154817196", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/RepDonBeyer/status/1150537893594750976?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/RepDonBeyer/status/1150537893594750976?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://apps.npr.org/documents/document.html?id=5762660-Anti-Hate-House-Resolution": {
+                "test:url": "https://apps.npr.org/documents/document.html?id=5762660-Anti-Hate-House-Resolution", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means": {
+                "test:url": "https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "test:date": "2019-02-14", 
+                "test:title": "Ilhan Omar's had a week: Here's what it means", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/MaxRose4NY/status/1094783506323042304": {
+                "test:url": "https://twitter.com/MaxRose4NY/status/1094783506323042304", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/ggreenwald/status/1094727576013193216": {
+                "test:url": "https://twitter.com/ggreenwald/status/1094727576013193216", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism": {
+                "test:url": "https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "test:date": "2019-02-11", 
+                "test:title": "Rep. Omar apologizes for Israel tweets as criticism mounts", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/IlhanMN/status/1150456031694245888": {
+                "test:url": "https://twitter.com/IlhanMN/status/1150456031694245888", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/IlhanMN/status/1094747501578633216": {
+                "test:url": "https://twitter.com/IlhanMN/status/1094747501578633216", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.mprnews.org/pin": {
+                "test:url": "https://www.mprnews.org/pin", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism": {
+                "test:url": "https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "test:date": "2019-03-01", 
+                "test:title": "Rep. Ilhan Omar criticized again for alleged anti-Semitism", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/Ilhan?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/Ilhan?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/AyannaPressley/status/1150460489199173632": {
+                "test:url": "https://twitter.com/AyannaPressley/status/1150460489199173632", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/BernieSanders/status/1150414765119946753?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/BernieSanders/status/1150414765119946753?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/election/2016/results/house": {
+                "test:url": "https://www.cnn.com/election/2016/results/house", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/interactive/2018/02/19/upshot/pennsylvania-new-house-districts-gerrymandering.html": {
+                "test:url": "https://www.nytimes.com/interactive/2018/02/19/upshot/pennsylvania-new-house-districts-gerrymandering.html", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:the diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for canadians and we will to continue to defend that": {
+                "test:quote": "the diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for canadians and we will to continue to defend that", 
+                "test:type": "quote"
+            }, 
+            "test:what i fear is going on in the house now is an effort to target congresswoman omar as a way of stifling that debate": {
+                "test:quote": "what i fear is going on in the house now is an effort to target congresswoman omar as a way of stifling that debate", 
+                "test:type": "quote"
+            }, 
+            "test:branding criticism of israel as automatically antisemitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between israelis and palestinians": {
+                "test:quote": "branding criticism of israel as automatically antisemitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between israelis and palestinians", 
+                "test:type": "quote"
+            }, 
+            "test:i certainly support a strong and safe israel as the only democracy in the middle east and im going to continue to do that": {
+                "test:quote": "i certainly support a strong and safe israel as the only democracy in the middle east and im going to continue to do that", 
+                "test:type": "quote"
+            }, 
+            "test:a canadian is a canadian is a canadian": {
+                "test:quote": "a canadian is a canadian is a canadian", 
+                "test:type": "quote"
+            }, 
+            "test:many members of congress when they first enter spend a lot of time getting the lay of the land developing policy expertise forging relationships": {
+                "test:quote": "many members of congress when they first enter spend a lot of time getting the lay of the land developing policy expertise forging relationships", 
+                "test:type": "quote"
+            }, 
+            "test:i want to ask why is it ok for me to talk about the influence of the nra of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies": {
+                "test:quote": "i want to ask why is it ok for me to talk about the influence of the nra of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies", 
+                "test:type": "quote"
+            }, 
+            "test:its all about the benjamins baby": {
+                "test:quote": "its all about the benjamins baby", 
+                "test:type": "quote"
+            }, 
+            "test:when a resolution is brought forth to basically criticize the representative for her remarks i have to ask myself is everybody on that level in washington being held to the same standard": {
+                "test:quote": "when a resolution is brought forth to basically criticize the representative for her remarks i have to ask myself is everybody on that level in washington being held to the same standard", 
+                "test:type": "quote"
+            }, 
+            "test:threats of violence — like those made against rep omar — are never acceptable": {
+                "test:quote": "threats of violence — like those made against rep omar — are never acceptable", 
+                "test:type": "quote"
+            }, 
+            "test:our community is exasperated by rep omars unfulfilled promises to listen and learn from jewish constituents while seemingly simultaneously finding another opportunity to make an antisemitic remark and insult our community": {
+                "test:quote": "our community is exasperated by rep omars unfulfilled promises to listen and learn from jewish constituents while seemingly simultaneously finding another opportunity to make an antisemitic remark and insult our community", 
+                "test:type": "quote"
+            }, 
+            "test:being opposed to israeli prime minister benjamin netanyahu and the occupation is not the same as being antisemitic": {
+                "test:quote": "being opposed to israeli prime minister benjamin netanyahu and the occupation is not the same as being antisemitic", 
+                "test:type": "quote"
+            }, 
+            "test:its a combination of quotes shes made over the last year that i just decided im going to take a stand and say its not ok": {
+                "test:quote": "its a combination of quotes shes made over the last year that i just decided im going to take a stand and say its not ok", 
+                "test:type": "quote"
+            }, 
+            "test:i absolutely welcome criticism of israel": {
+                "test:quote": "i absolutely welcome criticism of israel", 
+                "test:type": "quote"
+            }, 
+            "test:that does not seem to be the path that she is taking": {
+                "test:quote": "that does not seem to be the path that she is taking", 
+                "test:type": "quote"
+            }, 
+            "test:why dont they go back and help fix the totally broken and crimeinfested places from which they came": {
+                "test:quote": "why dont they go back and help fix the totally broken and crimeinfested places from which they came", 
+                "test:type": "quote"
+            }, 
+            "test:its the standard fare of thenku klux klan leader david duke": {
+                "test:quote": "its the standard fare of thenku klux klan leader david duke", 
+                "test:type": "quote"
+            }, 
+            "test:im sure that nancy pelosi would be very happy to quickly work out free travel arrangements": {
+                "test:quote": "im sure that nancy pelosi would be very happy to quickly work out free travel arrangements", 
+                "test:type": "quote"
+            }, 
+            "test:we should be having a sound respectful discussion about policy": {
+                "test:quote": "we should be having a sound respectful discussion about policy", 
+                "test:type": "quote"
+            }, 
+            "test:its the first time we have voted on a resolution condemning antimuslim bigotry in our nations history": {
+                "test:quote": "its the first time we have voted on a resolution condemning antimuslim bigotry in our nations history", 
+                "test:type": "quote"
+            }, 
+            "test:i think canadians and indeed people around the world know exactly what i think about those particular comments": {
+                "test:quote": "i think canadians and indeed people around the world know exactly what i think about those particular comments", 
+                "test:type": "quote"
+            }, 
+            "test:when will the radical left congresswomen apologise to our country the people of israel and even to the office of the president for the foul language they have used and the terrible things they have said": {
+                "test:quote": "when will the radical left congresswomen apologise to our country the people of israel and even to the office of the president for the foul language they have used and the terrible things they have said", 
+                "test:type": "quote"
+            }, 
+            "test:theres a learning opportunity in here for her to talk with members of the jewish community in her district": {
+                "test:quote": "theres a learning opportunity in here for her to talk with members of the jewish community in her district", 
+                "test:type": "quote"
+            }, 
+            "test:as much as im concerned about the language she has used in respect to the jewish community i think that its very important that people like ilhan omar are in leadership positions because it demonstrates the way america is changing and what the future look": {
+                "test:quote": "as much as im concerned about the language she has used in respect to the jewish community i think that its very important that people like ilhan omar are in leadership positions because it demonstrates the way america is changing and what the future looks like", 
+                "test:type": "quote"
+            }, 
+            "test:we are what democracy looks like": {
+                "test:quote": "we are what democracy looks like", 
+                "test:type": "quote"
+            }, 
+            "test:on top of not accepting an america that elected us you cannot accept that we dont fear you either": {
+                "test:quote": "on top of not accepting an america that elected us you cannot accept that we dont fear you either", 
+                "test:type": "quote"
+            }, 
+            "test:our diversity is our strength and our unity is our power": {
+                "test:quote": "our diversity is our strength and our unity is our power", 
+                "test:type": "quote"
+            }, 
+            "test:unfortunately the country today — the way it is — a muslim woman who is unapologetic about who she is and what she brings to the us capitol is going to be a lightning rod for criticism": {
+                "test:quote": "unfortunately the country today — the way it is — a muslim woman who is unapologetic about who she is and what she brings to the us capitol is going to be a lightning rod for criticism", 
+                "test:type": "quote"
+            }, 
+            "test:so many people are angry at them and their horrible and disgusting actions": {
+                "test:quote": "so many people are angry at them and their horrible and disgusting actions", 
+                "test:type": "quote"
+            }, 
+            "test:i am grateful to the many jewish allies who have spoken out and said the same": {
+                "test:quote": "i am grateful to the many jewish allies who have spoken out and said the same", 
+                "test:type": "quote"
+            }, 
+            "test:that is not how we do things in canada": {
+                "test:quote": "that is not how we do things in canada", 
+                "test:type": "quote"
+            }, 
+            "test:i also believe there is a difference between criticism of policy or political leaders and antisemitism": {
+                "test:quote": "i also believe there is a difference between criticism of policy or political leaders and antisemitism", 
+                "test:type": "quote"
+            }, 
+            "test:we want to be abundantly clear this is not a rebuke of federal workers or those who depend on the services they provide but a rejection of the hateful policies priorities and rhetoric of the trump administration": {
+                "test:quote": "we want to be abundantly clear this is not a rebuke of federal workers or those who depend on the services they provide but a rejection of the hateful policies priorities and rhetoric of the trump administration", 
+                "test:type": "quote"
+            }, 
+            "test:and it does not seem to me that that is the case": {
+                "test:quote": "and it does not seem to me that that is the case", 
+                "test:type": "quote"
+            }, 
+            "test:there is absolutely nothing antisemitic about calling out the noxious role of the american israel public affairs committee which spends millions each year to buy us political support for israeli aggression and militarism against the palestinian people": {
+                "test:quote": "there is absolutely nothing antisemitic about calling out the noxious role of the american israel public affairs committee which spends millions each year to buy us political support for israeli aggression and militarism against the palestinian people", 
+                "test:type": "quote"
+            }, 
+            "test:however it is not ok to traffic in classic antisemitic tropes about jews and money and power when making those criticisms": {
+                "test:quote": "however it is not ok to traffic in classic antisemitic tropes about jews and money and power when making those criticisms", 
+                "test:type": "quote"
+            }, 
+            "test:im grateful that i have a brave representative who is willing to criticize not just the israeli government but also the us governmental system of which she is a part": {
+                "test:quote": "im grateful that i have a brave representative who is willing to criticize not just the israeli government but also the us governmental system of which she is a part", 
+                "test:type": "quote"
+            }, 
+            "test:they should stop empowering her disgusting hatred before it turns into horror": {
+                "test:quote": "they should stop empowering her disgusting hatred before it turns into horror", 
+                "test:type": "quote"
+            }, 
+            "test:ive decided im going to speak for myself and let others speak for themselves and well let the voters react to that": {
+                "test:quote": "ive decided im going to speak for myself and let others speak for themselves and well let the voters react to that", 
+                "test:type": "quote"
+            }, 
+            "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country": {
+                "test:quote": "i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country", 
+                "test:type": "quote"
+            }, 
+            "test:shes establishing herself as a firebrand": {
+                "test:quote": "shes establishing herself as a firebrand", 
+                "test:type": "quote"
+            }, 
+            "test:so interesting to see progressive democrat congresswomen who originally came from countries whose governments are a complete and total catastrophe the worst most corrupt and inept anywhere in the world if they even have a functioning government at all now": {
+                "test:quote": "so interesting to see progressive democrat congresswomen who originally came from countries whose governments are a complete and total catastrophe the worst most corrupt and inept anywhere in the world if they even have a functioning government at all now loudly and viciously telling the people of the united states the greatest and most powerful nation on earth how our government is to be run", 
+                "test:type": "quote"
+            }, 
+            "test:we hope she will have learned from this situation": {
+                "test:quote": "we hope she will have learned from this situation", 
+                "test:type": "quote"
+            }, 
+            "test:its stunning how much time us political leaders spend defending a foreign nation even if it means attacking free speech rights of americans": {
+                "test:quote": "its stunning how much time us political leaders spend defending a foreign nation even if it means attacking free speech rights of americans", 
+                "test:type": "quote"
+            }, 
+            "test:i just hope that she will think carefully about the powerful effect her words can have": {
+                "test:quote": "i just hope that she will think carefully about the powerful effect her words can have", 
+                "test:type": "quote"
+            }, 
+            "test:antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes": {
+                "test:quote": "antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes", 
+                "test:type": "quote"
+            }, 
+            "test:i dont think her tweets are evidence that she is an antisemite her tweets are an example that antisemitism is so ingrained in our society and culture that we dont even realize it": {
+                "test:quote": "i dont think her tweets are evidence that she is an antisemite her tweets are an example that antisemitism is so ingrained in our society and culture that we dont even realize it", 
+                "test:type": "quote"
+            }, 
+            "test:it should not be taboo to criticize israeli government policies": {
+                "test:quote": "it should not be taboo to criticize israeli government policies", 
+                "test:type": "quote"
+            }, 
+            "test:the charge of dual loyalty not only raises the ominous specter of classic antisemitism but it is also deeply insulting to the millions upon millions of patriotic americans jewish and nonjewish who stand by our democratic ally israel": {
+                "test:quote": "the charge of dual loyalty not only raises the ominous specter of classic antisemitism but it is also deeply insulting to the millions upon millions of patriotic americans jewish and nonjewish who stand by our democratic ally israel", 
+                "test:type": "quote"
+            }, 
+            "test:accusing jews of harboring dual loyalty has a long violent sordid history": {
+                "test:quote": "accusing jews of harboring dual loyalty has a long violent sordid history", 
+                "test:type": "quote"
+            }, 
+            "test:i think somebody needs to when somebody on the other side continues to say something negative": {
+                "test:quote": "i think somebody needs to when somebody on the other side continues to say something negative", 
+                "test:type": "quote"
+            }, 
+            "test:i want to ask why is it ok for me to talk about the influence of the nra national rifle association of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies": {
+                "test:quote": "i want to ask why is it ok for me to talk about the influence of the nra national rifle association of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies", 
+                "test:type": "quote"
+            }, 
+            "test:there are 435 members of congress so you cant overstate how unusual it is for one member to attract so much attention — both from the media and the president himself": {
+                "test:quote": "there are 435 members of congress so you cant overstate how unusual it is for one member to attract so much attention — both from the media and the president himself", 
+                "test:type": "quote"
+            }, 
+            "test:im surprised shed say that": {
+                "test:quote": "im surprised shed say that", 
+                "test:type": "quote"
+            }, 
+            "test:well see going forward if shes going to continue in this vein of being more careful in the words she chooses": {
+                "test:quote": "well see going forward if shes going to continue in this vein of being more careful in the words she chooses", 
+                "test:type": "quote"
+            }, 
+            "test:then come back and show us how it is done": {
+                "test:quote": "then come back and show us how it is done", 
+                "test:type": "quote"
+            }, 
+            "test:its difficult and dangerous because it evokes the jews as the malevolent other conspiring against society": {
+                "test:quote": "its difficult and dangerous because it evokes the jews as the malevolent other conspiring against society", 
+                "test:type": "quote"
+            }, 
+            "test:you can both support israel and be loyal to our country": {
+                "test:quote": "you can both support israel and be loyal to our country", 
+                "test:type": "quote"
+            }, 
+            "test:they should remove her from the house foreign affairs committee": {
+                "test:quote": "they should remove her from the house foreign affairs committee", 
+                "test:type": "quote"
+            }, 
+            "test:if democrats want to unite around the foul language and racist hatred spewed from the mouths and actions of these very unpopular and unrepresentative congresswomen it will be interesting to see how it plays out": {
+                "test:quote": "if democrats want to unite around the foul language and racist hatred spewed from the mouths and actions of these very unpopular and unrepresentative congresswomen it will be interesting to see how it plays out", 
+                "test:type": "quote"
+            }, 
+            "test:im going to support israel and the jewish people": {
+                "test:quote": "im going to support israel and the jewish people", 
+                "test:type": "quote"
+            }, 
+            "test:come back if you want dont come back thats ok too but if youre not happy you can leave": {
+                "test:quote": "come back if you want dont come back thats ok too but if youre not happy you can leave", 
+                "test:type": "quote"
+            }, 
+            "test:i feel confident that her words were not based on any antisemitic attitude but that she didnt have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her": {
+                "test:quote": "i feel confident that her words were not based on any antisemitic attitude but that she didnt have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her", 
+                "test:type": "quote"
+            }, 
+            "test:apparently within the speakers new farleft democratic majority even a symbolic resolution condemning antisemitism seems to be a bridge too far": {
+                "test:quote": "apparently within the speakers new farleft democratic majority even a symbolic resolution condemning antisemitism seems to be a bridge too far", 
+                "test:type": "quote"
+            }, 
+            "test:they should stand up to her": {
+                "test:quote": "they should stand up to her", 
+                "test:type": "quote"
+            }, 
+            "test:when realdonaldtrump tells four american congresswomen to go back to their countries he reaffirms his plan to make america great again has always been about making america white again": {
+                "test:quote": "when realdonaldtrump tells four american congresswomen to go back to their countries he reaffirms his plan to make america great again has always been about making america white again", 
+                "test:type": "quote"
+            }, 
+            "test:do i think she is going to have another twitter dustup": {
+                "test:quote": "do i think she is going to have another twitter dustup", 
+                "test:type": "quote"
+            }, 
+            "test:i can tell you that they have made israel feel abandoned by the us": {
+                "test:quote": "i can tell you that they have made israel feel abandoned by the us", 
+                "test:type": "quote"
+            }, 
+            "test:representative omar embodies a vile hatefilled antisemitic antiisrael bigotry": {
+                "test:quote": "representative omar embodies a vile hatefilled antisemitic antiisrael bigotry", 
+                "test:type": "quote"
+            }, 
+            "test:if you hate our country if youre not happy here you can leave and thats what i say all the time ": {
+                "test:quote": "if you hate our country if youre not happy here you can leave and thats what i say all the time ", 
+                "test:type": "quote"
+            }, 
+            "test:this is a time for the democratic leaders in this institution to do the right thing": {
+                "test:quote": "this is a time for the democratic leaders in this institution to do the right thing", 
+                "test:type": "quote"
+            }, 
+            "test:if youre not happy in the us if youre complaining all the time very simply you can leave you can leave right now": {
+                "test:quote": "if youre not happy in the us if youre complaining all the time very simply you can leave you can leave right now", 
+                "test:type": "quote"
+            }, 
+            "test:the challenge of her is  going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue": {
+                "test:quote": "the challenge of her is  going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue", 
+                "test:type": "quote"
+            }, 
+            "test:there are going to be people on the right who want to tear her down because they cant stand the idea of what she represents": {
+                "test:quote": "there are going to be people on the right who want to tear her down because they cant stand the idea of what she represents", 
+                "test:type": "quote"
+            }, 
+            "test:this is what racism looks like": {
+                "test:quote": "this is what racism looks like", 
+                "test:type": "quote"
+            }, 
+            "test:as she said in her apology we must distinguish between criticism of a particular faith and fair critiques of lobbying groups": {
+                "test:quote": "as she said in her apology we must distinguish between criticism of a particular faith and fair critiques of lobbying groups", 
+                "test:type": "quote"
+            }, 
+            "test:these places need your help badly you cant leave fast enough": {
+                "test:quote": "these places need your help badly you cant leave fast enough", 
+                "test:type": "quote"
+            }, 
+            "test:i will say to her credit is she has displayed a willingness to learn and grow and change": {
+                "test:quote": "i will say to her credit is she has displayed a willingness to learn and grow and change", 
+                "test:type": "quote"
+            }, 
+            "test:i want to ask why is it ok for me to talk about the influence of the national rifle association or fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policy": {
+                "test:quote": "i want to ask why is it ok for me to talk about the influence of the national rifle association or fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policy", 
+                "test:type": "quote"
+            }, 
+            "test:we want to have a respectful working relationship with her": {
+                "test:quote": "we want to have a respectful working relationship with her", 
+                "test:type": "quote"
+            }, 
+            "test:will it be about antisemitism": {
+                "test:quote": "will it be about antisemitism", 
+                "test:type": "quote"
+            }, 
+            "test:it didnt matter if the tweet came from the president or if the tweet came from someone else we shouldnt be fundraising off of something that was insensitive": {
+                "test:quote": "it didnt matter if the tweet came from the president or if the tweet came from someone else we shouldnt be fundraising off of something that was insensitive", 
+                "test:type": "quote"
+            }, 
+            "test:which us house seats were held or flipped by each party": {
+                "test:quote": "which us house seats were held or flipped by each party", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "160191": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:this is what racism looks like"
+            }, 
+            "160213": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes"
+            }, 
+            "160195": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:we are what democracy looks like"
+            }, 
+            "160217": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:as she said in her apology we must distinguish between criticism of a particular faith and fair critiques of lobbying groups"
+            }, 
+            "160352": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country"
+            }, 
+            "160350": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:its the first time we have voted on a resolution condemning antimuslim bigotry in our nations history"
+            }, 
+            "160356": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:i feel confident that her words were not based on any antisemitic attitude but that she didnt have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her"
+            }, 
+            "160354": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:i want to ask why is it ok for me to talk about the influence of the nra of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies"
+            }, 
+            "160400": {
+                "prov:entity": "test:https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage", 
+                "prov:activity": "test:which us house seats were held or flipped by each party"
+            }, 
+            "160055": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:i think canadians and indeed people around the world know exactly what i think about those particular comments"
+            }, 
+            "160292": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:do i think she is going to have another twitter dustup"
+            }, 
+            "160059": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:that is not how we do things in canada"
+            }, 
+            "160113": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:its difficult and dangerous because it evokes the jews as the malevolent other conspiring against society"
+            }, 
+            "160296": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:will it be about antisemitism"
+            }, 
+            "160117": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:being opposed to israeli prime minister benjamin netanyahu and the occupation is not the same as being antisemitic"
+            }, 
+            "160219": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:our community is exasperated by rep omars unfulfilled promises to listen and learn from jewish constituents while seemingly simultaneously finding another opportunity to make an antisemitic remark and insult our community"
+            }, 
+            "160205": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country"
+            }, 
+            "160209": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:i want to ask why is it ok for me to talk about the influence of the national rifle association or fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policy"
+            }, 
+            "160125": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:there is absolutely nothing antisemitic about calling out the noxious role of the american israel public affairs committee which spends millions each year to buy us political support for israeli aggression and militarism against the palestinian people"
+            }, 
+            "160127": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:when a resolution is brought forth to basically criticize the representative for her remarks i have to ask myself is everybody on that level in washington being held to the same standard"
+            }, 
+            "160121": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:i am grateful to the many jewish allies who have spoken out and said the same"
+            }, 
+            "160326": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:the challenge of her is  going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue"
+            }, 
+            "160318": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:many members of congress when they first enter spend a lot of time getting the lay of the land developing policy expertise forging relationships"
+            }, 
+            "160322": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:that does not seem to be the path that she is taking"
+            }, 
+            "160288": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:shes establishing herself as a firebrand"
+            }, 
+            "160280": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:there are 435 members of congress so you cant overstate how unusual it is for one member to attract so much attention — both from the media and the president himself"
+            }, 
+            "160284": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:antisemitism is real and i am grateful for jewish allies and colleagues who are educating me on the painful history of antisemitic tropes"
+            }, 
+            "160237": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:its stunning how much time us political leaders spend defending a foreign nation even if it means attacking free speech rights of americans"
+            }, 
+            "160131": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:and it does not seem to me that that is the case"
+            }, 
+            "160181": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:when realdonaldtrump tells four american congresswomen to go back to their countries he reaffirms his plan to make america great again has always been about making america white again"
+            }, 
+            "160338": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:as much as im concerned about the language she has used in respect to the jewish community i think that its very important that people like ilhan omar are in leadership positions because it demonstrates the way america is changing and what the future look"
+            }, 
+            "160135": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:i absolutely welcome criticism of israel"
+            }, 
+            "160334": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:there are going to be people on the right who want to tear her down because they cant stand the idea of what she represents"
+            }, 
+            "160139": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:it should not be taboo to criticize israeli government policies"
+            }, 
+            "160330": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:unfortunately the country today — the way it is — a muslim woman who is unapologetic about who she is and what she brings to the us capitol is going to be a lightning rod for criticism"
+            }, 
+            "160260": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:its a combination of quotes shes made over the last year that i just decided im going to take a stand and say its not ok"
+            }, 
+            "160223": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism", 
+                "prov:activity": "test:the charge of dual loyalty not only raises the ominous specter of classic antisemitism but it is also deeply insulting to the millions upon millions of patriotic americans jewish and nonjewish who stand by our democratic ally israel"
+            }, 
+            "160308": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:theres a learning opportunity in here for her to talk with members of the jewish community in her district"
+            }, 
+            "160300": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:i dont think her tweets are evidence that she is an antisemite her tweets are an example that antisemitism is so ingrained in our society and culture that we dont even realize it"
+            }, 
+            "160304": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:i will say to her credit is she has displayed a willingness to learn and grow and change"
+            }, 
+            "160147": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:im grateful that i have a brave representative who is willing to criticize not just the israeli government but also the us governmental system of which she is a part"
+            }, 
+            "160382": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:you can both support israel and be loyal to our country"
+            }, 
+            "160143": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:however it is not ok to traffic in classic antisemitic tropes about jews and money and power when making those criticisms"
+            }, 
+            "160386": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:i also believe there is a difference between criticism of policy or political leaders and antisemitism"
+            }, 
+            "160314": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:we want to be abundantly clear this is not a rebuke of federal workers or those who depend on the services they provide but a rejection of the hateful policies priorities and rhetoric of the trump administration"
+            }, 
+            "160312": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:it didnt matter if the tweet came from the president or if the tweet came from someone else we shouldnt be fundraising off of something that was insensitive"
+            }, 
+            "160097": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:i want to talk about the political influence in this country that says it is ok for people to push for allegiance to a foreign country"
+            }, 
+            "160093": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:its all about the benjamins baby"
+            }, 
+            "160256": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:well see going forward if shes going to continue in this vein of being more careful in the words she chooses"
+            }, 
+            "160252": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:we want to have a respectful working relationship with her"
+            }, 
+            "160155": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:then come back and show us how it is done"
+            }, 
+            "160157": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:these places need your help badly you cant leave fast enough"
+            }, 
+            "160151": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:so interesting to see progressive democrat congresswomen who originally came from countries whose governments are a complete and total catastrophe the worst most corrupt and inept anywhere in the world if they even have a functioning government at all now"
+            }, 
+            "160153": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:why dont they go back and help fix the totally broken and crimeinfested places from which they came"
+            }, 
+            "160394": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:threats of violence — like those made against rep omar — are never acceptable"
+            }, 
+            "160159": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:im sure that nancy pelosi would be very happy to quickly work out free travel arrangements"
+            }, 
+            "160390": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:branding criticism of israel as automatically antisemitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between israelis and palestinians"
+            }, 
+            "160360": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:representative omar embodies a vile hatefilled antisemitic antiisrael bigotry"
+            }, 
+            "160366": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:they should remove her from the house foreign affairs committee"
+            }, 
+            "160364": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:this is a time for the democratic leaders in this institution to do the right thing"
+            }, 
+            "160368": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:they should stand up to her"
+            }, 
+            "160085": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:come back if you want dont come back thats ok too but if youre not happy you can leave"
+            }, 
+            "160248": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:we hope she will have learned from this situation"
+            }, 
+            "160244": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:i certainly support a strong and safe israel as the only democracy in the middle east and im going to continue to do that"
+            }, 
+            "160246": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:ive decided im going to speak for myself and let others speak for themselves and well let the voters react to that"
+            }, 
+            "160241": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:its all about the benjamins baby"
+            }, 
+            "160161": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:when will the radical left congresswomen apologise to our country the people of israel and even to the office of the president for the foul language they have used and the terrible things they have said"
+            }, 
+            "160165": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:so many people are angry at them and their horrible and disgusting actions"
+            }, 
+            "160169": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:if democrats want to unite around the foul language and racist hatred spewed from the mouths and actions of these very unpopular and unrepresentative congresswomen it will be interesting to see how it plays out"
+            }, 
+            "160370": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:they should stop empowering her disgusting hatred before it turns into horror"
+            }, 
+            "160372": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:apparently within the speakers new farleft democratic majority even a symbolic resolution condemning antisemitism seems to be a bridge too far"
+            }, 
+            "160374": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:what i fear is going on in the house now is an effort to target congresswoman omar as a way of stifling that debate"
+            }, 
+            "160378": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments", 
+                "prov:activity": "test:we should be having a sound respectful discussion about policy"
+            }, 
+            "160077": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:if you hate our country if youre not happy here you can leave and thats what i say all the time "
+            }, 
+            "160073": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:im surprised shed say that"
+            }, 
+            "160179": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:a canadian is a canadian is a canadian"
+            }, 
+            "160071": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:when realdonaldtrump tells four american congresswomen to go back to their countries he reaffirms his plan to make america great again has always been about making america white again"
+            }, 
+            "160177": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:i think canadians and indeed people around the world know exactly what i think about those particular comments"
+            }, 
+            "160173": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:that is not how we do things in canada"
+            }, 
+            "160171": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:i can tell you that they have made israel feel abandoned by the us"
+            }, 
+            "160081": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:if youre not happy in the us if youre complaining all the time very simply you can leave you can leave right now"
+            }, 
+            "160264": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:im going to support israel and the jewish people"
+            }, 
+            "160185": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:our diversity is our strength and our unity is our power"
+            }, 
+            "160189": {
+                "prov:entity": "test:https://www.bbc.com/news/world-us-canada-48990760", 
+                "prov:activity": "test:on top of not accepting an america that elected us you cannot accept that we dont fear you either"
+            }, 
+            "160342": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means", 
+                "prov:activity": "test:i just hope that she will think carefully about the powerful effect her words can have"
+            }, 
+            "160268": {
+                "prov:entity": "test:https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism", 
+                "prov:activity": "test:i think somebody needs to when somebody on the other side continues to say something negative"
+            }, 
+            "160067": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:the diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for canadians and we will to continue to defend that"
+            }, 
+            "160109": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:its the standard fare of thenku klux klan leader david duke"
+            }, 
+            "160063": {
+                "prov:entity": "test:https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019", 
+                "prov:activity": "test:a canadian is a canadian is a canadian"
+            }, 
+            "160101": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:i want to ask why is it ok for me to talk about the influence of the nra national rifle association of fossil fuel industries or big pharma and not talk about a powerful lobbying group that is influencing policies"
+            }, 
+            "160105": {
+                "prov:entity": "test:https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism", 
+                "prov:activity": "test:accusing jews of harboring dual loyalty has a long violent sordid history"
+            }
+        }
+    }
+}

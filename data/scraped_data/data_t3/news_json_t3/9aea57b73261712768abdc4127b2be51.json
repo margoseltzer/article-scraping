@@ -1,0 +1,448 @@
+[
+    {
+        "url": "https://www.bbc.com/news/world-us-canada-48972327",
+        "title": "Facebook 'to be fined $5bn over Cambridge Analytica scandal'",
+        "authors": [],
+        "publisher": "www.bbc.com",
+        "publish_date": "",
+        "text": "Media playback is unsupported on your device Media caption How the Facebook-Cambridge Analytica data scandal unfolded\n\nUS regulators have approved a record $5bn (£4bn) fine on Facebook to settle an investigation into data privacy violations, reports in US media say.\n\nThe Federal Trade Commission (FTC) has been investigating allegations that political consultancy Cambridge Analytica improperly obtained the data of up to 87 million Facebook users.\n\nThe settlement was approved by the FTC in a 3-2 vote, sources told US media.\n\nFacebook and the FTC told the BBC they had no comment on the reports.\n\nHow was the settlement reached?\n\nThe consumer protection agency the FTC began investigating Facebook in March 2018 following reports that Cambridge Analytica had accessed the data of tens of millions of its users.\n\nThe investigation focused on whether Facebook had violated a 2011 agreement under which it was required to clearly notify users and gain \"express consent\" to share their data.\n\nThe $5bn fine was approved by the FTC in a 3-2 vote which broke along party lines, with Republican commissioners in favour and Democrats opposed.\n\nThe New York Times reported that the Democrats wanted stricter limits on the firm, while other Democrats have criticised the fine as inadequate.\n\n\"With the FTC either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected, it's time for Congress to act,\" US Senator Mark Warner said.\n\nThe fine still needs to be finalised by the Justice Department's civil division, and it is unclear how long this may take, the sources said.\n\nIf confirmed, it would be the largest fine ever levied by the FTC on a tech company.\n\nHowever, the amount falls in line with estimates by Facebook, which earlier this year said it was expecting a fine of up to $5bn.\n\nInvestors responded positively to the news, pushing Facebook shares up 1.8%.\n\nFacebook has been expecting this\n\nAnalysis by Dave Lee, BBC North America technology reporter in San Francisco\n\nFacebook had been expecting this. It told investors back in April that it had put aside most of the money, which means the firm won't feel much added financial strain from this penalty.\n\nWhat we don't yet know is what additional measures may be placed on the company, such as increased privacy oversight, or if there will be any personal repercussions for the company's chief executive, Mark Zuckerberg.\n\nThe settlement, which amounts to around one quarter of the company's yearly profit, will reignite criticism from those who say this amounts to little more than a slap on the wrist.\n\nWhat was the Cambridge Analytica scandal?\n\nCambridge Analytica was a British political consulting firm that had access to the data of millions of users, some of which was allegedly used to psychologically profile US voters and target them with material to help Donald Trump's 2016 presidential campaign.\n\nThe data was acquired via a quiz, which invited users to find out their personality type.\n\nAs was common with apps and games at that time, it was designed to harvest not only the user data of the person taking part in the quiz, but also the data of their friends.\n\nFacebook has said it believes the data of up to 87 million users was improperly shared with the now defunct consultancy.\n\nThe scandal sparked several investigations around the world.\n\nIn October, Facebook was fined £500,000 by the UK's data protection watchdog, which said the company had let a \"serious breach\" of the law take place.\n\nCanada's data watchdog earlier this year said Facebook had committed \"serious contraventions\" of its privacy laws.",
+        "quotes": [
+            [
+                "With the FTC either unable or unwilling to put in place reasonable guardrails to ensure that user privacy and data are protected, it's time for Congress to act,",
+                "Mark Warner",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.bbc.co.uk/news/technology-45976300",
+                "https://www.bbc.co.uk/news/business-48045138",
+                "https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "fine",
+            "data",
+            "told",
+            "analytica",
+            "5bn",
+            "media",
+            "settlement",
+            "users",
+            "facebook",
+            "cambridge",
+            "ftc",
+            "scandal",
+            "privacy",
+            "fined"
+        ]
+    },
+    {
+        "url": "https://www.bbc.co.uk/news/technology-45976300",
+        "title": "Facebook fined £500,000 for Cambridge Analytica scandal",
+        "authors": [],
+        "publisher": "www.bbc.co.uk",
+        "publish_date": "",
+        "text": "Image copyright Getty Images Image caption Facebook's chief executive has repeatedly declined to answer questions from UK MPs about the scandal\n\nFacebook has been fined £500,000 by the UK's data protection watchdog for its role in the Cambridge Analytica data scandal.\n\nThe Information Commissioner's Office (ICO) said Facebook had let a \"serious breach\" of the law take place.\n\nThe fine is the maximum allowed under the old data protection rules that applied before GDPR took effect in May.\n\nThe ICO said Facebook had given app developers access to people's data \"without clear consent\".\n\nIn July, the ICO notified the social network that it intended to issue the maximum fine.\n\nConfirming the fine, it said in a statement: \"Between 2007 and 2014, Facebook processed the personal information of users unfairly by allowing application developers access to their information without sufficiently clear and informed consent, and allowing access even if users had not downloaded the app, but were simply 'friends' with people who had.\"\n\nMedia playback is unsupported on your device Media caption JULY 2018: Ms Denham warns Facebook\n\n\"Facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform.\"\n\nFacebook said it was \"reviewing\" the ICO's decision.\n\n\"While we respectfully disagree with some of their findings, we have said before that we should have done more to investigate claims about Cambridge Analytica and taken action in 2015,\" it said in a statement.\n\nWhat was the Cambridge Analytica data scandal?\n\nResearcher Dr Aleksandr Kogan and his company GSR used a personality quiz to harvest the Facebook data of up to 87 million people.\n\nSome of this data was shared with Cambridge Analytica, which used it to target political advertising in the US.\n\n\"Even after the misuse of the data was discovered in December 2015, Facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action, including deletion,\" the ICO said.\n\nThe ICO found that more than one million people in the UK had their data harvested by the personality quiz.\n\n\"A company of its size and expertise should have known better and it should have done better,\" said Information Commissioner Elizabeth Denham.\n\nThe ICO is still investigating how data analytics is used for political purposes.\n\nMs Denham is due to give evidence to the Department for Digital, Culture, Media and Sport (DCMS) Select Committee on 6 November.",
+        "quotes": [
+            [
+                "Between 2007 and 2014, Facebook processed the personal information of users unfairly by allowing application developers access to their information without sufficiently clear and informed consent, and allowing access even if users had not downloaded the app, but were simply 'friends' with people who had.",
+                "",
+                true
+            ],
+            [
+                "Facebook also failed to keep the personal information secure because it failed to make suitable checks on apps and developers using its platform.",
+                "Denham",
+                true
+            ],
+            [
+                "While we respectfully disagree with some of their findings, we have said before that we should have done more to investigate claims about Cambridge Analytica and taken action in 2015,",
+                "",
+                true
+            ],
+            [
+                "Even after the misuse of the data was discovered in December 2015, Facebook did not do enough to ensure those who continued to hold it had taken adequate and timely remedial action, including deletion,",
+                "",
+                true
+            ],
+            [
+                "A company of its size and expertise should have known better and it should have done better,",
+                "Elizabeth Denham",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "data",
+            "analytica",
+            "500000",
+            "used",
+            "access",
+            "information",
+            "developers",
+            "facebook",
+            "cambridge",
+            "users",
+            "scandal",
+            "ico",
+            "fined"
+        ]
+    },
+    {
+        "url": "https://www.bbc.co.uk/news/business-48045138",
+        "title": "Facebook sets aside $3bn for privacy probe",
+        "authors": [],
+        "publisher": "www.bbc.co.uk",
+        "publish_date": "",
+        "text": "Image copyright Reuters\n\nFacebook has said it will set aside $3bn (£2.3bn) to cover the potential costs of an investigation by US authorities into its privacy practices.\n\nWhile it has provided for a heavy toll from the investigation by the US Federal Trade Commission, the final cost could be $5bn, it said.\n\nThe social media giant also said total sales for the first three months of the year leapt 26% to $15.08bn, narrowly beating market expectations.\n\nMonthly users rose 8%, it said.\n\nThat rise takes the number of users to 2.38 billion.\n\n\"We had a good quarter and our business and community continued to grow,\" founder and chief executive Mark Zuckerberg said.\n\n\"We are focused on building out our privacy-focused vision for the future of social networking, and working collaboratively to address important issues around the internet.\"\n\nShares rise\n\nThe shares are up by nearly 40% in the year to date, far outperforming the broader market, and were up nearly 5% in late trading on Wall Street.\n\nFacebook is facing a probe over the Cambridge Analytica data scandal, however no findings have yet been published.\n\nFacebook was labelled \"morally bankrupt pathological liars\" by New Zealand's privacy commissioner this month after hosting a livestream of the Christchurch attacks that left 50 dead.\n\nIn an interview after the attacks, Mr Zuckerberg refused to commit to any changes to the platform's live technology, including a time delay on livestreams.\n\nFacebook, which owns Instagram, last week admitted that millions more Instagram users were affected by a security lapse than it had previously disclosed. It had mistakenly stored the passwords of hundreds of millions of users without encryption.",
+        "quotes": [
+            [
+                "We had a good quarter and our business and community continued to grow,",
+                "",
+                true
+            ],
+            [
+                "We are focused on building out our privacy-focused vision for the future of social networking, and working collaboratively to address important issues around the internet.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "nearly",
+            "aside",
+            "zuckerberg",
+            "millions",
+            "3bn",
+            "social",
+            "sets",
+            "attacks",
+            "users",
+            "facebook",
+            "market",
+            "instagram",
+            "investigation",
+            "probe",
+            "privacy"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2019/07/12/technology/facebook-ftc-fine.html?action=click&module=Top%20Stories&pgtype=Homepage",
+        "title": "F.T.C. Approves Facebook Fine of About $5 Billion",
+        "authors": [
+            {
+                "name": "Cecilia Kang",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2019-07-12",
+        "text": "The Federal Trade Commission has approved a fine of roughly $5 billion against Facebook for mishandling users’ personal information, according to three people briefed on the vote, in what would be a landmark settlement that signals a newly aggressive stance by regulators toward the country’s most powerful technology companies.\n\nThe much-anticipated settlement still needs final approval in the coming weeks from the Justice Department, which rarely rejects settlements reached by the agency. It would be the biggest fine by far levied by the federal government against a technology company, easily eclipsing the $22 million imposed on Google in 2012. The size of the penalty underscored the rising frustration among Washington officials with how Silicon Valley giants collect, store and use people’s information.\n\nIt would also represent one of the most aggressive regulatory actions by the Trump administration, and a sign of the government’s willingness to punish one of the country’s biggest and most powerful companies. President Trump has dialed back regulations in many industries, but the Facebook settlement sets a new bar for privacy enforcement by United States officials, who have brought few cases against large technology companies.\n\nIn addition to the fine, Facebook agreed to more comprehensive oversight of how it handles user data, according to the people. But none of the conditions in the settlement will impose strict limitations on Facebook’s ability to collect and share data with third parties. And that decision appeared to help split the five-member commission. The 3-to-2 vote, taken in secret this week, drew the dissent of the two Democrats on the commission because they sought stricter limits on the company, the people said.",
+        "quotes": [],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "technology",
+            "settlement",
+            "commission",
+            "ftc",
+            "facebook",
+            "vote",
+            "officials",
+            "powerful",
+            "fine",
+            "trump",
+            "federal",
+            "approves",
+            "billion"
+        ]
+    },
+    {
+        "url": "https://www.bbc.co.uk/news/av/technology-44006602/what-is-gdpr-technology-explained",
+        "title": "What is GDPR? Technology explained",
+        "authors": [],
+        "publisher": "www.bbc.co.uk",
+        "publish_date": "",
+        "text": "Video\n\nA new EU law that changes how companies use our personal information kicks in on 25 May.\n\nThe BBC's Chris Foxx explains what GDPR is and how it will affect you.",
+        "quotes": [],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "explained",
+            "law",
+            "technology",
+            "maythe",
+            "eu",
+            "gdpr",
+            "information",
+            "kicks",
+            "foxx",
+            "videoa",
+            "personal",
+            "explains"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html?module=inline",
+        "title": "Facebook Expects to Be Fined Up to $5 Billion by F.T.C. Over Privacy Issues",
+        "authors": [
+            {
+                "name": "Cecilia Kang",
+                "link": null
+            },
+            {
+                "name": "Mike Isaac",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2019-04-24",
+        "text": "SAN FRANCISCO — Facebook said on Wednesday that it expected to be fined up to $5 billion by the Federal Trade Commission for privacy violations. The penalty would be a record by the agency against a technology company and a sign that the United States was willing to punish big tech companies.\n\nThe social network disclosed the amount in its quarterly financial results, saying it estimated a one-time charge of $3 billion to $5 billion in connection with an “ongoing inquiry” by the F.T.C. Facebook added that “the matter remains unresolved, and there can be no assurance as to the timing or the terms of any final outcome.”\n\nFacebook has been in negotiations with the regulator for months over a financial penalty for claims that the company violated a 2011 privacy consent decree. That year, the social network promised a series of measures to protect its users’ privacy after an investigation found that its handling of data had harmed consumers.\n\nThe F.T.C. opened a new investigation last year after Facebook came under fire again. This time, the company was accused of not protecting its users’ data from being harvested without their consent by Cambridge Analytica, a British political consulting firm that was building voter profiles for the Trump campaign. Facebook also suffered a data breach that exposed the personal information of nearly 50 million users.",
+        "quotes": [
+            [
+                "the matter remains unresolved, and there can be no assurance as to the timing or the terms of any final outcome.",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2018/09/28/technology/facebook-hack-data-breach.html?module=inline",
+                "https://investor.fb.com/investor-news/press-release-details/2019/Facebook-Reports-First-Quarter-2019-Results/default.aspx",
+                "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline",
+                "https://www.nytimes.com/2019/02/14/technology/facebook-ftc-settlement.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "company",
+            "data",
+            "social",
+            "network",
+            "issues",
+            "expects",
+            "ftc",
+            "facebook",
+            "users",
+            "penalty",
+            "investigation",
+            "privacy",
+            "fined",
+            "billion"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2018/09/28/technology/facebook-hack-data-breach.html?module=inline",
+        "title": "Facebook Security Breach Exposes Accounts of 50 Million Users",
+        "authors": [
+            {
+                "name": "Sheera Frenkel",
+                "link": null
+            },
+            {
+                "name": "Mike Isaac",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2018-09-28",
+        "text": "SAN FRANCISCO — Facebook, already facing scrutiny over how it handles the private information of its users, said on Friday that an attack on its computer network had exposed the personal information of nearly 50 million users.\n\nThe breach, which was discovered this week, was the largest in the company’s 14-year history. The attackers exploited a feature in Facebook’s code to gain access to user accounts and potentially take control of them.\n\nThe news could not have come at a worse time for Facebook. It has been buffeted over the last year by scandal, from revelations that a British analytics firm got access to the private information of up to 87 million users to worries that disinformation on Facebook has affected elections and even led to deaths in several countries.\n\nSenior executives have testified several times this year in congressional hearings where some lawmakers suggested that the government will need to step in if the social network is unable to get tighter control of its service. On Friday, regulators and lawmakers quickly seized on the breach to renew calls for more oversight.",
+        "quotes": [],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "50",
+            "network",
+            "access",
+            "million",
+            "information",
+            "users",
+            "facebook",
+            "breach",
+            "lawmakers",
+            "accounts",
+            "control",
+            "security",
+            "private",
+            "exposes"
+        ]
+    },
+    {
+        "url": "https://investor.fb.com/investor-news/press-release-details/2019/Facebook-Reports-First-Quarter-2019-Results/default.aspx",
+        "title": "Facebook Reports First Quarter 2019 Results",
+        "authors": [],
+        "publisher": "investor.fb.com",
+        "publish_date": "",
+        "text": "MENLO PARK, Calif., April 24, 2019 /PRNewswire/ -- Facebook, Inc. (Nasdaq: FB) today reported financial results for the quarter ended March 31, 2019.\n\n\"We had a good quarter and our business and community continue to grow,\" said Mark Zuckerberg, Facebook founder and CEO. \"We are focused on building out our privacy-focused vision for the future of social networking, and working collaboratively to address important issues around the internet.\"\n\nFirst Quarter 2019 Financial Highlights\n\n\n\nThree Months Ended March 31,\n\nYear-over-Year %\n\nChange In millions, except percentages and per share amounts 2019\n\n2018\n\nRevenue:\n\n\n\n\n\n\n\n\n\nAdvertising $ 14,912\n\n\n\n$ 11,795\n\n\n\n26 % Payments and other fees 165\n\n\n\n171\n\n\n\n(4) % Total revenue 15,077\n\n\n\n11,966\n\n\n\n26 % Total costs and expenses* 11,760\n\n\n\n6,517\n\n\n\n80 % Income from operations* $ 3,317\n\n\n\n$ 5,449\n\n\n\n(39) % Operating margin* 22 %\n\n46 %\n\n\n\nProvision for income taxes $ 1,053\n\n\n\n\n\n\n\n\n\nEffective tax rate* 30 %\n\n\n\n\n\n\n\nNet income* $ 2,429\n\n\n\n$ 4,988\n\n\n\n(51) % Diluted earnings per share (EPS)* $ 0.85\n\n\n\n$ 1.69\n\n\n\n(50) %\n\n\n\n*Includes a $3.0 billion legal expense accrued in the first quarter of 2019 related to the ongoing U.S. Federal Trade Commission (FTC) matter as discussed below. As this expense is not expected to be tax-deductible, it had no effect on our provision for income taxes. Excluding this expense, our operating margin would have been 20 percentage points higher, our effective tax rate would have been 14 percentage points lower and our diluted EPS would have been $1.04 higher.\n\nFirst Quarter 2019 Operational and Other Financial Highlights\n\nDaily active users (DAUs) – DAUs were 1.56 billion on average for March 2019, an increase of 8% year-over-year.\n\n– DAUs were 1.56 billion on average for March 2019, an increase of 8% year-over-year. Monthly active users (MAUs) – MAUs were 2.38 billion as of March 31, 2019, an increase of 8% year-over-year.\n\n– MAUs were 2.38 billion as of March 31, 2019, an increase of 8% year-over-year. Mobile advertising revenue – Mobile advertising revenue represented approximately 93% of advertising revenue for the first quarter of 2019, up from approximately 91% of advertising revenue in the first quarter of 2018.\n\n– Mobile advertising revenue represented approximately 93% of advertising revenue for the first quarter of 2019, up from approximately 91% of advertising revenue in the first quarter of 2018. Capital expenditures – Capital expenditures, including principal payments on finance leases, were $3.96 billion for the first quarter of 2019.\n\n– Capital expenditures, including principal payments on finance leases, were $3.96 billion for the first quarter of 2019. Cash and cash equivalents and marketable securities – Cash and cash equivalents and marketable securities were $45.24 billion at the end of the first quarter of 2019.\n\n– Cash and cash equivalents and marketable securities were $45.24 billion at the end of the first quarter of 2019. Headcount – Headcount was 37,773 as of March 31, 2019, an increase of 36% year-over-year.\n\nIn addition, we estimate that more than 2.1 billion people now use Facebook, Instagram, WhatsApp, or Messenger (our \"Family\" of services) every day on average, and around 2.7 billion people use at least one of our Family of services each month.\n\nIn the first quarter of 2019, we reasonably estimated a probable loss and recorded an accrual of $3.0 billion in connection with the inquiry of the FTC into our platform and user data practices, which accrual is included in accrued expenses and other current liabilities on our condensed consolidated balance sheet. We estimate that the range of loss in this matter is $3.0 billion to $5.0 billion. The matter remains unresolved, and there can be no assurance as to the timing or the terms of any final outcome.\n\nWebcast and Conference Call Information\n\nFacebook will host a conference call to discuss the results at 2 p.m. PT / 5 p.m. ET today. The live webcast of Facebook's earnings conference call can be accessed at investor.fb.com, along with the earnings press release, financial tables, and slide presentation. Facebook uses the investor.fb.com and newsroom.fb.com websites as well as Mark Zuckerberg's Facebook Page (https://www.facebook.com/zuck) as means of disclosing material non-public information and for complying with its disclosure obligations under Regulation FD.\n\nFollowing the call, a replay will be available at the same website. A telephonic replay will be available for one week following the conference call at +1 (404) 537-3406 or +1 (855) 859-2056, conference ID 9195605.\n\nTranscripts of conference calls with publishing equity research analysts held today will also be posted to the investor.fb.com website.\n\nAbout Facebook\n\nFounded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them.\n\nContacts\n\nInvestors:\n\nDeborah Crawford\n\ninvestor@fb.com / investor.fb.com\n\nPress:\n\nVanessa Chan\n\npress@fb.com / newsroom.fb.com\n\nForward Looking Statements\n\nThis press release contains forward-looking statements regarding our future business expectations, which are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. These forward-looking statements are only predictions and may differ materially from actual results due to a variety of factors including: our ability to retain or increase users and engagement levels; our reliance on advertising revenue; our dependency on mobile operating systems, networks, and standards that we do not control; risks associated with new products and changes to existing products as well as other new business initiatives; our emphasis on user growth and engagement and the user experience over short-term financial results; maintaining and enhancing our brand and reputation; our ongoing safety, security, and content review efforts; competition; risks associated with government actions that could restrict access to our products or impair our ability to sell advertising in certain countries; litigation and government inquiries; privacy and regulatory concerns; risks associated with acquisitions; security breaches; and our ability to manage growth and geographically-dispersed operations. These and other potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed under the caption \"Risk Factors\" in our Annual Report on Form 10-K filed with the SEC on January 31, 2019, which is available on our Investor Relations website at investor.fb.com and on the SEC website at www.sec.gov. Additional information will also be set forth in our Quarterly Report on Form 10-Q for the quarter ended March 31, 2019. In addition, please note that the date of this press release is April 24, 2019, and any forward-looking statements contained herein are based on assumptions that we believe to be reasonable as of this date. We undertake no obligation to update these statements as a result of new information or future events.\n\nNon-GAAP Financial Measures\n\nTo supplement our condensed consolidated financial statements, which are prepared and presented in accordance with generally accepted accounting principles in the United States (GAAP), we use the following non-GAAP financial measures: revenue excluding foreign exchange effect, advertising revenue excluding foreign exchange effect and free cash flow. The presentation of these financial measures is not intended to be considered in isolation or as a substitute for, or superior to, financial information prepared and presented in accordance with GAAP. Investors are cautioned that there are material limitations associated with the use of non-GAAP financial measures as an analytical tool. In addition, these measures may be different from non-GAAP financial measures used by other companies, limiting their usefulness for comparison purposes. We compensate for these limitations by providing specific information regarding the GAAP amounts excluded from these non-GAAP financial measures.\n\nWe believe these non-GAAP financial measures provide investors with useful supplemental information about the financial performance of our business, enable comparison of financial results between periods where certain items may vary independent of business performance, and allow for greater transparency with respect to key metrics used by management in operating our business.\n\nWe exclude the following items from our non-GAAP financial measures:\n\nForeign exchange effect on revenue. We translated revenue for the three months ended March 31, 2019 using the prior year's monthly exchange rates for our settlement or billing currencies other than the U.S. dollar, which we believe is a useful metric that facilitates comparison to our historical performance.\n\nPurchases of property and equipment, net; Principal payments on finance leases. (1) We subtract both net purchases of property and equipment and principal payments on finance leases in our calculation of free cash flow because we believe that these two items collectively represent the amount of property and equipment we need to procure to support our business, regardless of whether we procure such property or equipment with a finance lease. We believe that this methodology can provide useful supplemental information to help investors better understand underlying trends in our business. Free cash flow is not intended to represent our residual cash flow available for discretionary expenditures.\n\nFor more information on our non-GAAP financial measures and a reconciliation of GAAP to non-GAAP measures, please see the \"Reconciliation of GAAP to Non-GAAP Results\" table in this press release.\n\n(1) As a result of our adoption of Accounting Standards Update No. 2016-02, Leases (Topic 842) on January 1, 2019, we have conformed our definition of free cash flow to the nomenclature of the new accounting standard.\n\nFACEBOOK, INC.\n\nCONDENSED CONSOLIDATED STATEMENTS OF INCOME\n\n(In millions, except for per share amounts)\n\n(Unaudited)\n\n\n\nThree Months Ended March 31,\n\n\n\n2019*\n\n2018\n\nRevenue $ 15,077\n\n\n\n$ 11,966\n\n\n\nCosts and expenses:\n\n\n\n\n\n\n\nCost of revenue 2,816\n\n\n\n1,927\n\n\n\nResearch and development 2,860\n\n\n\n2,238\n\n\n\nMarketing and sales 2,020\n\n\n\n1,595\n\n\n\nGeneral and administrative 4,064\n\n\n\n757\n\n\n\nTotal costs and expenses 11,760\n\n\n\n6,517\n\n\n\nIncome from operations 3,317\n\n\n\n5,449\n\n\n\nInterest and other income, net 165\n\n\n\n161\n\n\n\nIncome before provision for income taxes 3,482\n\n\n\n5,610\n\n\n\nProvision for income taxes 1,053\n\n\n\n622\n\n\n\nNet income $ 2,429\n\n\n\n$ 4,988\n\n\n\nLess: Net income attributable to participating securities —\n\n\n\n1\n\n\n\nNet income attributable to Class A and Class B common stockholders $ 2,429\n\n\n\n$ 4,987\n\n\n\nEarnings per share attributable to Class A and Class B common stockholders:\n\n\n\n\n\n\n\n\n\n\n\nBasic $ 0.85\n\n\n\n$ 1.72\n\n\n\nDiluted $ 0.85\n\n\n\n$ 1.69\n\n\n\nWeighted average shares used to compute earnings per share attributable to Class A and\n\n\n\n\n\n\n\nClass B common stockholders:\n\n\n\n\n\n\n\nBasic 2,856\n\n\n\n2,906\n\n\n\nDiluted 2,869\n\n\n\n2,945\n\n\n\nShare-based compensation expense included in costs and expenses:\n\n\n\n\n\n\n\nCost of revenue $ 87\n\n\n\n$ 56\n\n\n\nResearch and development 723\n\n\n\n718\n\n\n\nMarketing and sales 113\n\n\n\n109\n\n\n\nGeneral and administrative 87\n\n\n\n72\n\n\n\nTotal share-based compensation expense $ 1,010\n\n\n\n$ 955\n\n\n\n\n\n\n\n*Includes a $3.0 billion legal expense accrued within general and administrative expense related to the ongoing FTC matter as discussed above.\n\nFACEBOOK, INC.\n\nCONDENSED CONSOLIDATED BALANCE SHEETS\n\n(In millions)\n\n(Unaudited)\n\n\n\n\n\n\n\nMarch 31, 2019\n\nDecember 31, 2018\n\nAssets\n\n\n\n\n\n\n\nCurrent assets:\n\n\n\n\n\n\n\n\n\nCash and cash equivalents $ 11,076\n\n\n\n$ 10,019\n\n\n\n\n\nMarketable securities 34,167\n\n\n\n31,095\n\n\n\n\n\nAccounts receivable, net of allowances of $216 and $229 as of March 31, 2019 and 6,475\n\n\n\n7,587\n\n\n\n\n\nDecember 31, 2018, respectively\n\n\n\n\n\nPrepaid expenses and other current assets 1,582\n\n\n\n1,779\n\n\n\n\n\n\n\nTotal current assets 53,300\n\n\n\n50,480\n\n\n\nProperty and equipment, net 27,345\n\n\n\n24,683\n\n\n\nOperating lease right-of-use assets, net 6,747\n\n\n\n—\n\n\n\nIntangible assets, net 1,150\n\n\n\n1,294\n\n\n\nGoodwill 18,333\n\n\n\n18,301\n\n\n\nOther assets 2,602\n\n\n\n2,576\n\n\n\nTotal assets $ 109,477\n\n\n\n$ 97,334\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiabilities and stockholders' equity\n\n\n\n\n\n\n\nCurrent liabilities:\n\n\n\n\n\n\n\n\n\nAccounts payable $ 604\n\n\n\n$ 820\n\n\n\n\n\nPartners payable 537\n\n\n\n541\n\n\n\n\n\nOperating lease liabilities, current 645\n\n\n\n—\n\n\n\n\n\nAccrued expenses and other current liabilities 7,980\n\n\n\n5,509\n\n\n\n\n\nDeferred revenue and deposits 142\n\n\n\n147\n\n\n\n\n\n\n\nTotal current liabilities 9,908\n\n\n\n7,017\n\n\n\nOperating lease liabilities, non-current 6,565\n\n\n\n—\n\n\n\nOther liabilities 6,488\n\n\n\n6,190\n\n\n\n\n\n\n\nTotal liabilities 22,961\n\n\n\n13,207\n\n\n\nCommitments and contingencies\n\n\n\n\n\n\n\nStockholders' equity:\n\n\n\n\n\n\n\n\n\nCommon stock and additional paid-in capital 43,533\n\n\n\n42,906\n\n\n\n\n\nAccumulated other comprehensive loss (781)\n\n\n\n(760)\n\n\n\n\n\nRetained earnings 43,764\n\n\n\n41,981\n\n\n\n\n\n\n\nTotal stockholders' equity 86,516\n\n\n\n84,127\n\n\n\nTotal liabilities and stockholders' equity $ 109,477\n\n\n\n$ 97,334\n\n\n\n\n\nFACEBOOK, INC.\n\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS\n\n(In millions)\n\n(Unaudited)\n\n\n\nThree Months Ended March 31,\n\n\n\n2019\n\n2018\n\nCash flows from operating activities\n\n\n\n\n\n\n\nNet income $ 2,429\n\n\n\n$ 4,988\n\n\n\nAdjustments to reconcile net income to net cash provided by operating activities:\n\n\n\n\n\n\n\nDepreciation and amortization 1,355\n\n\n\n949\n\n\n\nShare-based compensation 1,010\n\n\n\n955\n\n\n\nDeferred income taxes 183\n\n\n\n(47)\n\n\n\nOther 6\n\n\n\n8\n\n\n\nChanges in assets and liabilities:\n\n\n\n\n\n\n\nAccounts receivable 1,070\n\n\n\n788\n\n\n\nPrepaid expenses and other current assets 84\n\n\n\n(365)\n\n\n\nOther assets 41\n\n\n\n22\n\n\n\nOperating lease right-of-use assets, net (1,190)\n\n\n\n—\n\n\n\nAccounts payable (96)\n\n\n\n1\n\n\n\nPartners payable (1)\n\n\n\n2\n\n\n\nAccrued expenses and other current liabilities 3,154\n\n\n\n707\n\n\n\nDeferred revenue and deposits (4)\n\n\n\n(5)\n\n\n\nOperating lease liabilities, non-current 1,083\n\n\n\n—\n\n\n\nOther liabilities 184\n\n\n\n(143)\n\n\n\nNet cash provided by operating activities 9,308\n\n\n\n7,860\n\n\n\nCash flows from investing activities\n\n\n\n\n\n\n\nPurchases of property and equipment, net (3,837)\n\n\n\n(2,812)\n\n\n\nPurchases of marketable securities (6,603)\n\n\n\n(4,022)\n\n\n\nSales of marketable securities 1,512\n\n\n\n4,330\n\n\n\nMaturities of marketable securities 2,210\n\n\n\n1,267\n\n\n\nOther investing activities, net (50)\n\n\n\n(50)\n\n\n\nNet cash used in investing activities (6,768)\n\n\n\n(1,287)\n\n\n\nCash flows from financing activities\n\n\n\n\n\n\n\nTaxes paid related to net share settlement of equity awards (512)\n\n\n\n(832)\n\n\n\nRepurchases of Class A common stock (613)\n\n\n\n(1,774)\n\n\n\nPrincipal payments on finance leases (125)\n\n\n\n—\n\n\n\nNet change in overdraft in cash pooling entities (177)\n\n\n\n—\n\n\n\nOther financing activities, net 4\n\n\n\n3\n\n\n\nNet cash used in financing activities (1,423)\n\n\n\n(2,603)\n\n\n\nEffect of exchange rate changes on cash, cash equivalents, and restricted cash (44)\n\n\n\n36\n\n\n\nNet increase in cash, cash equivalents, and restricted cash 1,073\n\n\n\n4,006\n\n\n\nCash, cash equivalents, and restricted cash at beginning of the period 10,124\n\n\n\n8,204\n\n\n\nCash, cash equivalents, and restricted cash at end of the period $ 11,197\n\n\n\n$ 12,210\n\n\n\n\n\n\n\n\n\n\n\n\n\nReconciliation of cash, cash equivalents, and restricted cash to the condensed\n\n\n\n\n\n\n\nconsolidated balance sheets\n\n\n\n\n\n\n\nCash and cash equivalents $ 11,076\n\n\n\n$ 12,082\n\n\n\nRestricted cash, included in prepaid expenses and other current assets 10\n\n\n\n14\n\n\n\nRestricted cash, included in other assets 111\n\n\n\n114\n\n\n\nTotal cash, cash equivalents, and restricted cash $ 11,197\n\n\n\n$ 12,210\n\n\n\n\n\nFACEBOOK, INC. CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) (Unaudited)\n\nThree Months Ended March 31,\n\n2019\n\n2018 Supplemental cash flow data\n\n\n\n\n\nCash paid during the period for:\n\n\n\n\n\nInterest $ 2\n\n\n\n$ —\n\nIncome taxes, net $ 682\n\n\n\n$ 736\n\nNon-cash investing activities:\n\n\n\n\n\nNet change in prepaids and liabilities related to property and equipment $ (314)\n\n\n\n$ 429\n\nAccrued property and equipment $ 1,617\n\n\n\n$ 1,291\n\n\n\nReconciliation of GAAP to Non-GAAP Results (In millions, except percentages) (Unaudited)\n\nThree Months Ended March 31,\n\n2019\n\n2018 GAAP revenue $ 15,077\n\n\n\n$ 11,966\n\nForeign exchange effect on 2019 revenue using 2018 rates 503\n\n\n\n\n\nRevenue excluding foreign exchange effect $ 15,580\n\n\n\n\n\nGAAP revenue year-over-year change % 26 %\n\n\n\nRevenue excluding foreign exchange effect year-over-year change % 30 %\n\n\n\nGAAP advertising revenue $ 14,912\n\n\n\n$ 11,795\n\nForeign exchange effect on 2019 advertising revenue using 2018 rates 503\n\n\n\n\n\nAdvertising revenue excluding foreign exchange effect $ 15,415\n\n\n\n\n\nGAAP advertising revenue year-over-year change % 26 %\n\n\n\nAdvertising revenue excluding foreign exchange effect year-over-year change % 31 %\n\n\n\n\n\n\n\n\n\n\n\nNet cash provided by operating activities $ 9,308\n\n\n\n$ 7,860\n\nPurchases of property and equipment, net (3,837)\n\n\n\n(2,812)\n\nPrincipal payments on finance leases (125)\n\n\n\n—\n\nFree cash flow $ 5,346\n\n\n\n$ 5,048\n\n\n\nView original content:http://www.prnewswire.com/news-releases/facebook-reports-first-quarter-2019-results-300837763.html\n\nSOURCE Facebook",
+        "quotes": [
+            [
+                "We had a good quarter and our business and community continue to grow,",
+                "Mark Zuckerberg",
+                true
+            ],
+            [
+                "We are focused on building out our privacy-focused vision for the future of social networking, and working collaboratively to address important issues around the internet.",
+                "Mark Zuckerberg",
+                true
+            ],
+            [
+                "Reconciliation of GAAP to Non-GAAP Results",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.prnewswire.com/news-releases/facebook-reports-first-quarter-2019-results-300837763.html"
+            ],
+            "gov_pgs": [
+                "https://www.sec.gov/"
+            ],
+            "unsure": [
+                "https://investor.fb.com/home/default.aspx",
+                "https://newsroom.fb.com/",
+                "https://www.facebook.com/zuck"
+            ]
+        },
+        "key_words": [
+            "reports",
+            "revenue",
+            "net",
+            "results",
+            "financial",
+            "income",
+            "billion",
+            "facebook",
+            "advertising",
+            "liabilities",
+            "quarter",
+            "2019",
+            "cash"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?module=inline",
+        "title": "How Trump Consultants Exploited the Facebook Data of Millions",
+        "authors": [
+            {
+                "name": "Carole Cadwalladr",
+                "link": null
+            },
+            {
+                "name": "Nicholas Confessore",
+                "link": null
+            },
+            {
+                "name": "Matthew Rosenberg",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2018-03-17",
+        "text": "But the full scale of the data leak involving Americans has not been previously disclosed — and Facebook, until now, has not acknowledged it. Interviews with a half-dozen former employees and contractors, and a review of the firm’s emails and documents, have revealed that Cambridge not only relied on the private Facebook data but still possesses most or all of the trove.\n\nCambridge paid to acquire the personal information through an outside researcher who, Facebook says, claimed to be collecting it for academic purposes.\n\nDuring a week of inquiries from The Times, Facebook downplayed the scope of the leak and questioned whether any of the data still remained out of its control. But on Friday, the company posted a statement expressing alarm and promising to take action.\n\n“This was a scam — and a fraud,” Paul Grewal, a vice president and deputy general counsel at the social network, said in a statement to The Times earlier on Friday. He added that the company was suspending Cambridge Analytica, Mr. Wylie and the researcher, Aleksandr Kogan, a Russian-American academic, from Facebook. “We will take whatever steps are required to see that the data in question is deleted once and for all — and take action against all offending parties,” Mr. Grewal said.\n\nAlexander Nix, the chief executive of Cambridge Analytica, and other officials had repeatedly denied obtaining or using Facebook data, most recently during a parliamentary hearing last month. But in a statement to The Times, the company acknowledged that it had acquired the data, though it blamed Mr. Kogan for violating Facebook’s rules and said it had deleted the information as soon as it learned of the problem two years ago.\n\nIn Britain, Cambridge Analytica is facing intertwined investigations by Parliament and government regulators into allegations that it performed illegal work on the “Brexit” campaign. The country has strict privacy laws, and its information commissioner announced on Saturday that she was looking into whether the Facebook data was “illegally acquired and used.”",
+        "quotes": [
+            [
+                "This was a scam — and a fraud,",
+                "Paul Grewal",
+                true
+            ],
+            [
+                "We will take whatever steps are required to see that the data in question is deleted once and for all — and take action against all offending parties,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-russia.html?module=inline",
+                "https://newsroom.fb.com/news/2018/03/suspending-cambridge-analytica/"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2018/05/ico-statement-investigation-into-data-analytics-for-political-purposes/"
+            ]
+        },
+        "key_words": [
+            "company",
+            "researcher",
+            "consultants",
+            "millions",
+            "statement",
+            "analytica",
+            "exploited",
+            "information",
+            "facebook",
+            "cambridge",
+            "mr",
+            "trump",
+            "times",
+            "data"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2019/02/14/technology/facebook-ftc-settlement.html?module=inline",
+        "title": "Facebook Fine Could Total Billions if F.T.C. Talks Lead to a Deal",
+        "authors": [
+            {
+                "name": "Cecilia Kang",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2019-02-14",
+        "text": "WASHINGTON — Facebook and the Federal Trade Commission are discussing a settlement over privacy violations that could amount to a record, multibillion-dollar fine, according to three people with knowledge of the talks.\n\nThe company and the F.T.C.’s consumer protection and enforcement staff have been in negotiations over a financial penalty for claims that Facebook violated a 2011 privacy consent decree with the agency, said the people, who spoke on the condition of anonymity because the investigation is private.\n\nIn 2011, Facebook promised a series of measures to protect user privacy after an investigation found it had harmed consumers with its handling of user data.\n\nThe current talks have not yet reached the F.T.C.’s five commissioners for a vote and it is unclear how close the two sides are to wrapping up the nearly 11-month investigation. The commissioners met in mid-December and were updated by staff members that they had at that point found considerable evidence of violations of the 2011 consent decree.",
+        "quotes": [],
+        "links": {
+            "articles": [],
+            "gov_pgs": [
+                "https://www.ftc.gov/news-events/press-releases/2011/11/facebook-settles-ftc-charges-it-deceived-consumers-failing-keep"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "lead",
+            "billions",
+            "decree",
+            "user",
+            "violations",
+            "talks",
+            "ftcs",
+            "deal",
+            "2011",
+            "ftc",
+            "facebook",
+            "staff",
+            "investigation",
+            "fine",
+            "privacy",
+            "consent",
+            "total"
+        ]
+    }
+]

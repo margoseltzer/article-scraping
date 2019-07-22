@@ -1,0 +1,33 @@
+{
+    "root": "https://www.cbc.ca/news/business/alberta-denmark-quarantine-canntrust-cannabis-products-1.5207984", 
+    "bundle": {
+        "wasAttributedTo": {
+            "157294": {
+                "prov:entity": "test:https://www.cbc.ca/news/business/alberta-denmark-quarantine-canntrust-cannabis-products-1.5207984", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "157296": {
+                "prov:entity": "test:https://www.cbc.ca/news/business/alberta-denmark-quarantine-canntrust-cannabis-products-1.5207984", 
+                "prov:agent": "test:Thomson Reuters"
+            }
+        }, 
+        "agent": {
+            "test:www.cbc.ca": {
+                "test:publisher": "www.cbc.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Thomson Reuters": {
+                "test:name": "Thomson Reuters", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.cbc.ca/news/business/alberta-denmark-quarantine-canntrust-cannabis-products-1.5207984": {
+                "test:url": "https://www.cbc.ca/news/business/alberta-denmark-quarantine-canntrust-cannabis-products-1.5207984", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }
+        }
+    }
+}

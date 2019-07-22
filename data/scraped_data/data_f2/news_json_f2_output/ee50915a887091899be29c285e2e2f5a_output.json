@@ -1,0 +1,33 @@
+{
+    "root": "https://beforeitsnews.com/v3/paranormal/2019/2543202.html", 
+    "bundle": {
+        "wasAttributedTo": {
+            "174767": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/paranormal/2019/2543202.html", 
+                "prov:agent": "test:Jeffery Pritchett"
+            }, 
+            "174765": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/paranormal/2019/2543202.html", 
+                "prov:agent": "test:beforeitsnews.com"
+            }
+        }, 
+        "agent": {
+            "test:Jeffery Pritchett": {
+                "test:name": "Jeffery Pritchett", 
+                "test:type": "person"
+            }, 
+            "test:beforeitsnews.com": {
+                "test:publisher": "beforeitsnews.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://beforeitsnews.com/v3/paranormal/2019/2543202.html": {
+                "test:url": "https://beforeitsnews.com/v3/paranormal/2019/2543202.html", 
+                "test:date": "", 
+                "test:title": "Gary McKinnon's Secret Space Program Reports - Solar Warden Deepest Dive Ever!", 
+                "test:type": "article"
+            }
+        }
+    }
+}

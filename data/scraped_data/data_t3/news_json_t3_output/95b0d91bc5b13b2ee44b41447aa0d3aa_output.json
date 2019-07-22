@@ -1,0 +1,35 @@
+{
+    "root": "https://www.ft.com/content/c454364e-a496-11e9-a282-2df48f366f7d", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "122279": {
+                "prov:usedEntity": "test:https://help.ft.com/help/legal-privacy/terms-conditions/", 
+                "prov:generatedEntity": "test:https://www.ft.com/content/c454364e-a496-11e9-a282-2df48f366f7d"
+            }
+        }, 
+        "wasAttributedTo": {
+            "122277": {
+                "prov:entity": "test:https://www.ft.com/content/c454364e-a496-11e9-a282-2df48f366f7d", 
+                "prov:agent": "test:www.ft.com"
+            }
+        }, 
+        "agent": {
+            "test:www.ft.com": {
+                "test:publisher": "www.ft.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://help.ft.com/help/legal-privacy/terms-conditions/": {
+                "test:url": "https://help.ft.com/help/legal-privacy/terms-conditions/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.ft.com/content/c454364e-a496-11e9-a282-2df48f366f7d": {
+                "test:url": "https://www.ft.com/content/c454364e-a496-11e9-a282-2df48f366f7d", 
+                "test:date": "", 
+                "test:title": "Subscribe to read", 
+                "test:type": "article"
+            }
+        }
+    }
+}

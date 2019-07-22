@@ -1,0 +1,117 @@
+{
+    "root": "https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+    "bundle": {
+        "entity": {
+            "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/": {
+                "test:url": "https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Cancer survivor who had half of his brain surgically removed now believes he is a woman", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "113180": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:he used to be really mellow but now he constantly keeps nagging people all the time for the stupidest reasons"
+            }, 
+            "113172": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:i’m afraid i’m going to kill someone every time i get into my car"
+            }, 
+            "113184": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:he used to hate shopping but now he just can’t wait to go to the mall every week with me to get some new shoes or a nice dress"
+            }, 
+            "113176": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:i used to think that all women were crazy but now that my brain functions like that of a woman’s i can definitely tell you that they are all crazy"
+            }, 
+            "113188": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:we even share jewelry and beauty tips it’s just great"
+            }, 
+            "113168": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:activity": "test:i start crying at any moment and for no reason at all and act in completely irrational ways but the worst is my driving"
+            }
+        }, 
+        "wasAttributedTo": {
+            "113170": {
+                "prov:entity": "test:i start crying at any moment and for no reason at all and act in completely irrational ways but the worst is my driving", 
+                "prov:agent": "test:Anthony Perk"
+            }, 
+            "113182": {
+                "prov:entity": "test:he used to be really mellow but now he constantly keeps nagging people all the time for the stupidest reasons", 
+                "prov:agent": "test:Alexandra Niles"
+            }, 
+            "113166": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:agent": "test:Bob Flanagan"
+            }, 
+            "113174": {
+                "prov:entity": "test:i’m afraid i’m going to kill someone every time i get into my car", 
+                "prov:agent": "test:Anthony Perk"
+            }, 
+            "113164": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/cancer-survivor-who-had-half-of-his-brain-surgically-removed-now-believes-he-is-a-woman/", 
+                "prov:agent": "test:worldnewsdailyreport.com"
+            }, 
+            "113178": {
+                "prov:entity": "test:i used to think that all women were crazy but now that my brain functions like that of a woman’s i can definitely tell you that they are all crazy", 
+                "prov:agent": "test:Anthony Perk"
+            }, 
+            "113190": {
+                "prov:entity": "test:we even share jewelry and beauty tips it’s just great", 
+                "prov:agent": "test:Alexandra Niles"
+            }, 
+            "113186": {
+                "prov:entity": "test:he used to hate shopping but now he just can’t wait to go to the mall every week with me to get some new shoes or a nice dress", 
+                "prov:agent": "test:Alexandra Niles"
+            }
+        }, 
+        "agent": {
+            "test:Bob Flanagan": {
+                "test:name": "Bob Flanagan", 
+                "test:type": "person"
+            }, 
+            "test:Alexandra Niles": {
+                "test:name": "Alexandra Niles", 
+                "test:type": "person"
+            }, 
+            "test:worldnewsdailyreport.com": {
+                "test:publisher": "worldnewsdailyreport.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Anthony Perk": {
+                "test:name": "Anthony Perk", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:i start crying at any moment and for no reason at all and act in completely irrational ways but the worst is my driving": {
+                "test:quote": "i start crying at any moment and for no reason at all and act in completely irrational ways but the worst is my driving", 
+                "test:type": "quote"
+            }, 
+            "test:we even share jewelry and beauty tips it’s just great": {
+                "test:quote": "we even share jewelry and beauty tips it’s just great", 
+                "test:type": "quote"
+            }, 
+            "test:he used to be really mellow but now he constantly keeps nagging people all the time for the stupidest reasons": {
+                "test:quote": "he used to be really mellow but now he constantly keeps nagging people all the time for the stupidest reasons", 
+                "test:type": "quote"
+            }, 
+            "test:he used to hate shopping but now he just can’t wait to go to the mall every week with me to get some new shoes or a nice dress": {
+                "test:quote": "he used to hate shopping but now he just can’t wait to go to the mall every week with me to get some new shoes or a nice dress", 
+                "test:type": "quote"
+            }, 
+            "test:i used to think that all women were crazy but now that my brain functions like that of a woman’s i can definitely tell you that they are all crazy": {
+                "test:quote": "i used to think that all women were crazy but now that my brain functions like that of a woman’s i can definitely tell you that they are all crazy", 
+                "test:type": "quote"
+            }, 
+            "test:i’m afraid i’m going to kill someone every time i get into my car": {
+                "test:quote": "i’m afraid i’m going to kill someone every time i get into my car", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

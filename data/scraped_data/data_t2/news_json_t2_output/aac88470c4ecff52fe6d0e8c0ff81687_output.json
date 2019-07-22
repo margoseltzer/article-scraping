@@ -1,0 +1,111 @@
+{
+    "root": "https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "161384": {
+                "prov:usedEntity": "test:https://geminiuntwined.org/", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins"
+            }
+        }, 
+        "wasAttributedTo": {
+            "161382": {
+                "prov:entity": "test:she sometimes talked to herself but when we spoke to her she didn’t always reply", 
+                "prov:agent": "test:Zainab Bibi"
+            }, 
+            "161364": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:agent": "test:bbc.co.uk"
+            }, 
+            "161366": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:agent": "test:Rachael Buchanan"
+            }
+        }, 
+        "agent": {
+            "test:Rachael Buchanan": {
+                "test:name": "Rachael Buchanan", 
+                "test:type": "person"
+            }, 
+            "test:bbc.co.uk": {
+                "test:publisher": "bbc.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Zainab Bibi": {
+                "test:name": "Zainab Bibi", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://geminiuntwined.org/": {
+                "test:url": "https://geminiuntwined.org/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins": {
+                "test:url": "https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "test:date": "", 
+                "test:title": "The battle to separate Safa and Marwa", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:they were very beautiful and they had nice hair with white skin": {
+                "test:quote": "they were very beautiful and they had nice hair with white skin", 
+                "test:type": "quote"
+            }, 
+            "test:i didn’t even think about the fact they were joined": {
+                "test:quote": "i didn’t even think about the fact they were joined", 
+                "test:type": "quote"
+            }, 
+            "test:she sometimes talked to herself but when we spoke to her she didn’t always reply": {
+                "test:quote": "she sometimes talked to herself but when we spoke to her she didn’t always reply", 
+                "test:type": "quote"
+            }, 
+            "test:the kids were here and i must say i was really stressed": {
+                "test:quote": "the kids were here and i must say i was really stressed", 
+                "test:type": "quote"
+            }, 
+            "test:i was happy to see them but i was thinking what am i going to do with them because of their joined heads": {
+                "test:quote": "i was happy to see them but i was thinking what am i going to do with them because of their joined heads", 
+                "test:type": "quote"
+            }, 
+            "test:they turned up in early august and at this point we only had a small amount of the money we needed": {
+                "test:quote": "they turned up in early august and at this point we only had a small amount of the money we needed", 
+                "test:type": "quote"
+            }, 
+            "test:at this stage it felt like a personal responsibility": {
+                "test:quote": "at this stage it felt like a personal responsibility", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "161372": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:i didn’t even think about the fact they were joined"
+            }, 
+            "161370": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:they were very beautiful and they had nice hair with white skin"
+            }, 
+            "161376": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:the kids were here and i must say i was really stressed"
+            }, 
+            "161374": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:they turned up in early august and at this point we only had a small amount of the money we needed"
+            }, 
+            "161368": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:i was happy to see them but i was thinking what am i going to do with them because of their joined heads"
+            }, 
+            "161378": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:at this stage it felt like a personal responsibility"
+            }, 
+            "161380": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/extra/PLNMqvmycN/conjoined-twins", 
+                "prov:activity": "test:she sometimes talked to herself but when we spoke to her she didn’t always reply"
+            }
+        }
+    }
+}

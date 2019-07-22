@@ -1,0 +1,37 @@
+{
+    "root": "https://www.huzlers.com/woman-files-divorce-after-man-spends-entire-savings-on-monster-energy-drinks/", 
+    "bundle": {
+        "entity": {
+            "test:https://www.huzlers.com/woman-files-divorce-after-man-spends-entire-savings-on-monster-energy-drinks/": {
+                "test:url": "https://www.huzlers.com/woman-files-divorce-after-man-spends-entire-savings-on-monster-energy-drinks/", 
+                "test:date": "2019-06-15", 
+                "test:title": "Woman Files Divorce After Man Spends Entire Savings On Monster Energy Drinks", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "174647": {
+                "prov:entity": "test:https://www.huzlers.com/woman-files-divorce-after-man-spends-entire-savings-on-monster-energy-drinks/", 
+                "prov:activity": "test:i ain’t signing shit that’s my cousin she belongs to me"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174645": {
+                "prov:entity": "test:https://www.huzlers.com/woman-files-divorce-after-man-spends-entire-savings-on-monster-energy-drinks/", 
+                "prov:agent": "test:www.huzlers.com"
+            }
+        }, 
+        "agent": {
+            "test:www.huzlers.com": {
+                "test:publisher": "www.huzlers.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "activity": {
+            "test:i ain’t signing shit that’s my cousin she belongs to me": {
+                "test:quote": "i ain’t signing shit that’s my cousin she belongs to me", 
+                "test:type": "quote"
+            }
+        }
+    }
+}
