@@ -1,0 +1,1423 @@
+{
+    "root": "https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "141019": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Crude-Oil/China-Faces-An-Uphill-Battle-For-Energy-Independence.html", 
+                "prov:generatedEntity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html"
+            }, 
+            "141011": {
+                "prov:usedEntity": "test:https://www.theguardian.com/us-news/2019/may/07/nearly-two-dozen-democrats-running-for-president-only-two-have-a-climate-plan", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141013": {
+                "prov:usedEntity": "test:https://www.theguardian.com/us-news/2019/feb/11/green-new-deal-alexandria-ocasio-cortez-ed-markey", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141015": {
+                "prov:usedEntity": "test:https://jayinslee.com/issues/evergreen-economy", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141017": {
+                "prov:usedEntity": "test:https://www.jayinslee.com/issues/100clean", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141061": {
+                "prov:usedEntity": "test:https://twitter.com/TheBabylonBee/status/1093566310003367936?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141025": {
+                "prov:usedEntity": "test:https://www.reuters.com/article/us-usa-interior-oil/u-s-interior-agency-speeds-up-process-to-lease-oil-gas-on-federal-land-idUSKBN1FL6P8", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html"
+            }, 
+            "141027": {
+                "prov:usedEntity": "test:https://www.reuters.com/article/us-usa-interior-oil/u-s-federal-oil-output-hits-record-in-2017-in-boost-for-trump-energy-agenda-idUSKBN1JE29M", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html"
+            }, 
+            "141021": {
+                "prov:usedEntity": "test:https://www.huffingtonpost.ca/entry/green-new-deal-poll_n_5c169f2ae4b05d7e5d8332a5", 
+                "prov:generatedEntity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html"
+            }, 
+            "141023": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Oil-Prices/The-Lucky-Few-In-Canadas-Oil-Patch.html", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html"
+            }, 
+            "141029": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2018/10/27/climate/trump-fracking-drilling-oil-gas.html", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html"
+            }, 
+            "140945": {
+                "prov:usedEntity": "test:https://www.20minutes.fr/politique/2388863-20181206-sondage-macron-philippe-plus-bas-niveau-popularite", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140947": {
+                "prov:usedEntity": "test:https://www.theguardian.com/commentisfree/2017/apr/17/stop-swooning-justin-trudeau-man-disaster-planet?CMP=share_btn_fb&fbclid=IwAR0pWyRiggu6Ok_70EwkB1VD7wK8SbfkmywmEhkW4Z7GTgJpAPmK5P_XD24", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140941": {
+                "prov:usedEntity": "test:https://www.rt.com/business/458735-canada-oil-pipeline-expansion/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/"
+            }, 
+            "140943": {
+                "prov:usedEntity": "test:https://www.rt.com/business/458421-canadian-producers-lose-20-billion/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/"
+            }, 
+            "140949": {
+                "prov:usedEntity": "test:https://www.bbc.com/news/world-us-canada-44687654", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140927": {
+                "prov:usedEntity": "test:https://t.co/G6JjZsQO4b", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140925": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/wetsuwetenstrong?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140923": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2019/jan/11/canada-pipeline-indigenous-trudeau-treaty", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140921": {
+                "prov:usedEntity": "test:https://oilprice.com/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140929": {
+                "prov:usedEntity": "test:https://www.rt.com/trends/dakota-access-pipeline/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "141033": {
+                "prov:usedEntity": "test:https://www.rt.com/viral/386649-fyre-festival-monument-millennial-naivety/", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140893": {
+                "prov:usedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "141031": {
+                "prov:usedEntity": "test:https://twitter.com/EricLiptonNYT/status/1056557237714538498?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html"
+            }, 
+            "140891": {
+                "prov:usedEntity": "test:https://www.sciencedaily.com/releases/2019/07/190703121407.htm", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "141037": {
+                "prov:usedEntity": "test:https://twitter.com/justicedems?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140897": {
+                "prov:usedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "141035": {
+                "prov:usedEntity": "test:https://twitter.com/AOC?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140895": {
+                "prov:usedEntity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "141039": {
+                "prov:usedEntity": "test:https://twitter.com/bdomenech/status/1093565900245090304?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140899": {
+                "prov:usedEntity": "test:https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "140953": {
+                "prov:usedEntity": "test:https://www.rt.com/news/452638-trudeau-scandal-bribe-pressure-resign/", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140951": {
+                "prov:usedEntity": "test:https://www.rt.com/news/450929-macron-lectured-venezuela-egypt-africa-trump/", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140957": {
+                "prov:usedEntity": "test:https://www.rt.com/news/420973-canada-pipeline-protest-trudeau/", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140955": {
+                "prov:usedEntity": "test:https://www.thepostmillennial.com/trudeau-believes-all-women-except-jody-wilson-raybould/", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140959": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/TransMountain?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140935": {
+                "prov:usedEntity": "test:https://twitter.com/JustinTrudeau?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140937": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/WetsuwetenStrong?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140931": {
+                "prov:usedEntity": "test:https://t.co/Xs6ZCpma71", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140933": {
+                "prov:usedEntity": "test:https://twitter.com/M_Tol/status/1082336216475873280?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "140939": {
+                "prov:usedEntity": "test:https://twitter.com/MikeHudema/status/1082674495775621121?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/"
+            }, 
+            "141069": {
+                "prov:usedEntity": "test:https://t.co/t30NOqVnFP", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140885": {
+                "prov:usedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:generatedEntity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/"
+            }, 
+            "140887": {
+                "prov:usedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "140889": {
+                "prov:usedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/"
+            }, 
+            "141047": {
+                "prov:usedEntity": "test:https://twitter.com/_waleedshahid/status/1093502775261040640?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141045": {
+                "prov:usedEntity": "test:https://twitter.com/JStein_WaPo/status/1093488858375905282?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141043": {
+                "prov:usedEntity": "test:https://t.co/ESUu6aCfp3", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141041": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/GreenNewDeal?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141049": {
+                "prov:usedEntity": "test:https://apps.npr.org/documents/document.html?id=5729035-Green-New-Deal-FAQ", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140901": {
+                "prov:usedEntity": "test:https://twitter.com/DanielleRyanJ", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "140903": {
+                "prov:usedEntity": "test:https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "140905": {
+                "prov:usedEntity": "test:https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "140907": {
+                "prov:usedEntity": "test:https://t.co/txapQhXt5L", 
+                "prov:generatedEntity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/"
+            }, 
+            "140909": {
+                "prov:usedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "141055": {
+                "prov:usedEntity": "test:https://t.co/JLQF7DkeUf", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141057": {
+                "prov:usedEntity": "test:https://twitter.com/HowieHawkins?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141051": {
+                "prov:usedEntity": "test:https://twitter.com/GreenPartyUS?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141053": {
+                "prov:usedEntity": "test:https://t.co/uJmbrI0wlb", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141059": {
+                "prov:usedEntity": "test:https://twitter.com/SenMarkey?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140919": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140917": {
+                "prov:usedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140915": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140913": {
+                "prov:usedEntity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140911": {
+                "prov:usedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:generatedEntity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/"
+            }, 
+            "140989": {
+                "prov:usedEntity": "test:https://t.co/08oGRSOSIm", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "141063": {
+                "prov:usedEntity": "test:https://twitter.com/conservmillen/status/1093567747513114625?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141065": {
+                "prov:usedEntity": "test:https://twitter.com/JackPosobiec/status/1093578721984946176?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141067": {
+                "prov:usedEntity": "test:https://twitter.com/sunrisemvmt/status/1093577815927209984?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140981": {
+                "prov:usedEntity": "test:https://www.rt.com/usa/454839-green-new-deal-flops-senate/", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140983": {
+                "prov:usedEntity": "test:https://twitter.com/NaomiAKlein/status/1126898745956814851?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140985": {
+                "prov:usedEntity": "test:https://twitter.com/AOC/status/1126958896973778950?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140987": {
+                "prov:usedEntity": "test:https://twitter.com/sunrisemvmt/status/1126875478483263488?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140969": {
+                "prov:usedEntity": "test:https://twitter.com/LukewSavage/status/997611937037930496?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140963": {
+                "prov:usedEntity": "test:https://twitter.com/SpencerFernando/status/1093925812275957760?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140961": {
+                "prov:usedEntity": "test:https://t.co/L6jetOosNm", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140967": {
+                "prov:usedEntity": "test:https://t.co/RemwqGN982", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140965": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/QP?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140997": {
+                "prov:usedEntity": "test:https://t.co/KvrBmaJd75", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140995": {
+                "prov:usedEntity": "test:https://t.co/AxMfJcZ1pY", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140993": {
+                "prov:usedEntity": "test:https://twitter.com/greenpeaceusa/status/1126876412890140673?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140991": {
+                "prov:usedEntity": "test:https://t.co/8q2WPzU7w0", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "140999": {
+                "prov:usedEntity": "test:https://twitter.com/joshfoxfilm/status/1126936843780591616?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "141079": {
+                "prov:usedEntity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html"
+            }, 
+            "141077": {
+                "prov:usedEntity": "test:https://twitter.com/DrJillStein/status/1093546358122971136?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141075": {
+                "prov:usedEntity": "test:https://t.co/HVsipGK90f", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141073": {
+                "prov:usedEntity": "test:https://t.co/QsfJhnN3M4", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "141071": {
+                "prov:usedEntity": "test:https://twitter.com/StephanieKelton/status/1093575469440618496?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/"
+            }, 
+            "140979": {
+                "prov:usedEntity": "test:https://twitter.com/nathancullen/status/1100188212801294337?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140971": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/cdnpoli?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140973": {
+                "prov:usedEntity": "test:https://twitter.com/MercedesGlobal/status/961322180813426689?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140975": {
+                "prov:usedEntity": "test:https://t.co/Vui6U6PO2y", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "140977": {
+                "prov:usedEntity": "test:https://twitter.com/matthewstoller/status/1100980142091001856?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/"
+            }, 
+            "141083": {
+                "prov:usedEntity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html"
+            }, 
+            "141081": {
+                "prov:usedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:generatedEntity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html"
+            }, 
+            "141009": {
+                "prov:usedEntity": "test:https://medium.com/@teamwarren/our-military-can-help-lead-the-fight-in-combating-climate-change-2955003555a3", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141003": {
+                "prov:usedEntity": "test:https://twitter.com/JoeBiden?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "141001": {
+                "prov:usedEntity": "test:https://twitter.com/AOC/status/1126990102532698114?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }, 
+            "141007": {
+                "prov:usedEntity": "test:https://www.reuters.com/article/us-usa-election-biden-climate-exclusive/exclusive-presidential-hopeful-biden-looking-for-middle-ground-climate-policy-idUSKCN1SG18G", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan"
+            }, 
+            "141005": {
+                "prov:usedEntity": "test:https://twitter.com/BernieSanders/status/1126899050555564032?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "140809": {
+                "prov:entity": "test:it is not only vital for our environment but it is a recipe for more affordable housing and vibrant communities goodpaying jobs corporate and municipal accountability and global leadership for the united states", 
+                "prov:agent": "test:Kammen"
+            }, 
+            "140787": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:agent": "test:Emily Holden"
+            }, 
+            "140847": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:agent": "test:More Info"
+            }, 
+            "140785": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "140783": {
+                "prov:entity": "test:blaming ‘blue collar’ americans as the main opponents to bold climate policy is gas lobbyist 101", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "140843": {
+                "prov:entity": "test:even the solutions that we have considered big and bold are nowhere near the scale of the actual problem that climate change presents to us our country our world", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "140801": {
+                "prov:entity": "test:this challenge also presents an unprecedented economic opportunity to lead the world in building a clean energy future", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "140873": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:More Info"
+            }, 
+            "140805": {
+                "prov:entity": "test:this is not a single issue it’s all the issues", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "140855": {
+                "prov:entity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140775": {
+                "prov:entity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140845": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:agent": "test:oilprice.com"
+            }, 
+            "140875": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:A Member Of The Creative Professionals Networking Group."
+            }, 
+            "140751": {
+                "prov:entity": "test:they want to break down my door", 
+                "prov:agent": "test:Freda Huson"
+            }, 
+            "140753": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140733": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140869": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:Daniel Williams"
+            }, 
+            "140757": {
+                "prov:entity": "test:as weve seen over the past few years anything can happen with our neighbors to the south", 
+                "prov:agent": "test:Trudeau"
+            }, 
+            "140849": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:agent": "test:Gas Industry."
+            }, 
+            "140771": {
+                "prov:entity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140877": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:Researcher For Oilprice.Com"
+            }, 
+            "140739": {
+                "prov:entity": "test:i shouldn’t have to be dragged into the courts to prove that i own land that i know is ours", 
+                "prov:agent": "test:Freda Huson"
+            }, 
+            "140835": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Gas"
+            }, 
+            "140837": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Nick Cunningham Is A Freelance Writer On Oil"
+            }, 
+            "140831": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Climate Change"
+            }, 
+            "140833": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Renewable Energy"
+            }, 
+            "140715": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "140717": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:agent": "test:Niamh Harris"
+            }, 
+            "140839": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Nick Cunningham"
+            }, 
+            "140871": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:Dan Pearson"
+            }, 
+            "140797": {
+                "prov:entity": "test:today america faces a new threat to our modern civilization climate change", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "140819": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:oilprice.com"
+            }, 
+            "140853": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:agent": "test:Irina Slav"
+            }, 
+            "140793": {
+                "prov:entity": "test:we are working toward a definite goal which is to prevent the return of conditions which came very close to destroying what we call modern civilization", 
+                "prov:agent": "test:Inslee"
+            }, 
+            "140851": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "prov:agent": "test:Irina Is A Writer For Oilprice.Com With Over A Decade Of Experience Writing On The Oil"
+            }, 
+            "140813": {
+                "prov:entity": "test:you know and i know that the scientific community has been very clear", 
+                "prov:agent": "test:Sanders"
+            }, 
+            "140779": {
+                "prov:entity": "test:there is no ‘middle ground’ w climate denial  delay", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "140863": {
+                "prov:entity": "test:the green new deal seems a lot more like a green leap forward", 
+                "prov:agent": "test:Jack Posobiec"
+            }, 
+            "140817": {
+                "prov:entity": "test:if we do not act boldly and aggressively to transform our global energy system away from fossil fuels within the next few years – a very short period of time – there will be irreparable harm done to our planet", 
+                "prov:agent": "test:Sanders"
+            }, 
+            "140867": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:oilprice.com"
+            }, 
+            "140859": {
+                "prov:entity": "test:this is a massive transformation of our society", 
+                "prov:agent": "test:Waleed Shahid"
+            }, 
+            "140881": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:Julianne Geiger"
+            }, 
+            "140743": {
+                "prov:entity": "test:our people owned these territories since time immemorial", 
+                "prov:agent": "test:Freda Huson"
+            }, 
+            "140879": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:agent": "test:Writer"
+            }, 
+            "140747": {
+                "prov:entity": "test:we’re not doing anything wrong", 
+                "prov:agent": "test:Freda Huson"
+            }, 
+            "140761": {
+                "prov:entity": "test:right now were prisoners to the american market", 
+                "prov:agent": "test:Trudeau"
+            }, 
+            "140823": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Louis Spring"
+            }, 
+            "140729": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140821": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Jd Alexander"
+            }, 
+            "140827": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Geopolitics. He Is Based In Pittsburgh"
+            }, 
+            "140825": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:More Info"
+            }, 
+            "140829": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:agent": "test:Energy Policy"
+            }, 
+            "140723": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:agent": "test:www.rt.com"
+            }, 
+            "140727": {
+                "prov:entity": "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "prov:agent": "test:www.rt.com"
+            }
+        }, 
+        "agent": {
+            "test:Julianne Geiger": {
+                "test:name": "Julianne Geiger", 
+                "test:type": "person"
+            }, 
+            "test:Geopolitics. He Is Based In Pittsburgh": {
+                "test:name": "Geopolitics. He Is Based In Pittsburgh", 
+                "test:type": "person"
+            }, 
+            "test:Inslee": {
+                "test:name": "Inslee", 
+                "test:type": "person"
+            }, 
+            "test:Ocasio-Cortez": {
+                "test:name": "Ocasio-Cortez", 
+                "test:type": "person"
+            }, 
+            "test:Nick Cunningham Is A Freelance Writer On Oil": {
+                "test:name": "Nick Cunningham Is A Freelance Writer On Oil", 
+                "test:type": "person"
+            }, 
+            "test:Louis Spring": {
+                "test:name": "Louis Spring", 
+                "test:type": "person"
+            }, 
+            "test:Writer": {
+                "test:name": "Writer", 
+                "test:type": "person"
+            }, 
+            "test:Emily Holden": {
+                "test:name": "Emily Holden", 
+                "test:type": "person"
+            }, 
+            "test:Nick Cunningham": {
+                "test:name": "Nick Cunningham", 
+                "test:type": "person"
+            }, 
+            "test:Freda Huson": {
+                "test:name": "Freda Huson", 
+                "test:type": "person"
+            }, 
+            "test:Daniel Williams": {
+                "test:name": "Daniel Williams", 
+                "test:type": "person"
+            }, 
+            "test:Gas Industry.": {
+                "test:name": "Gas Industry.", 
+                "test:type": "person"
+            }, 
+            "test:www.theguardian.com": {
+                "test:publisher": "www.theguardian.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Irina Slav": {
+                "test:name": "Irina Slav", 
+                "test:type": "person"
+            }, 
+            "test:More Info": {
+                "test:name": "More Info", 
+                "test:type": "person"
+            }, 
+            "test:Irina Is A Writer For Oilprice.Com With Over A Decade Of Experience Writing On The Oil": {
+                "test:name": "Irina Is A Writer For Oilprice.Com With Over A Decade Of Experience Writing On The Oil", 
+                "test:type": "person"
+            }, 
+            "test:Kammen": {
+                "test:name": "Kammen", 
+                "test:type": "person"
+            }, 
+            "test:Gas": {
+                "test:name": "Gas", 
+                "test:type": "person"
+            }, 
+            "test:oilprice.com": {
+                "test:publisher": "oilprice.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Renewable Energy": {
+                "test:name": "Renewable Energy", 
+                "test:type": "person"
+            }, 
+            "test:www.rt.com": {
+                "test:publisher": "www.rt.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Energy Policy": {
+                "test:name": "Energy Policy", 
+                "test:type": "person"
+            }, 
+            "test:Waleed Shahid": {
+                "test:name": "Waleed Shahid", 
+                "test:type": "person"
+            }, 
+            "test:Jack Posobiec": {
+                "test:name": "Jack Posobiec", 
+                "test:type": "person"
+            }, 
+            "test:Niamh Harris": {
+                "test:name": "Niamh Harris", 
+                "test:type": "person"
+            }, 
+            "test:Jd Alexander": {
+                "test:name": "Jd Alexander", 
+                "test:type": "person"
+            }, 
+            "test:newspunch.com": {
+                "test:publisher": "newspunch.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Climate Change": {
+                "test:name": "Climate Change", 
+                "test:type": "person"
+            }, 
+            "test:A Member Of The Creative Professionals Networking Group.": {
+                "test:name": "A Member Of The Creative Professionals Networking Group.", 
+                "test:type": "person"
+            }, 
+            "test:Dan Pearson": {
+                "test:name": "Dan Pearson", 
+                "test:type": "person"
+            }, 
+            "test:Sanders": {
+                "test:name": "Sanders", 
+                "test:type": "person"
+            }, 
+            "test:Trudeau": {
+                "test:name": "Trudeau", 
+                "test:type": "person"
+            }, 
+            "test:Researcher For Oilprice.Com": {
+                "test:name": "Researcher For Oilprice.Com", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.thepostmillennial.com/trudeau-believes-all-women-except-jody-wilson-raybould/": {
+                "test:url": "https://www.thepostmillennial.com/trudeau-believes-all-women-except-jody-wilson-raybould/", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/t30NOqVnFP": {
+                "test:url": "https://t.co/t30NOqVnFP", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/": {
+                "test:url": "https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "test:date": "", 
+                "test:title": "'No longer US prisoner': Canada green-lights pipeline expansion despite environmental concerns", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/billmckibben/status/1141088232211386368?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/EricLiptonNYT/status/1056557237714538498?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/EricLiptonNYT/status/1056557237714538498?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/wetsuwetenstrong?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/wetsuwetenstrong?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/StephanieKelton/status/1093575469440618496?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/StephanieKelton/status/1093575469440618496?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/450929-macron-lectured-venezuela-egypt-africa-trump/": {
+                "test:url": "https://www.rt.com/news/450929-macron-lectured-venezuela-egypt-africa-trump/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.reuters.com/article/us-usa-interior-oil/u-s-interior-agency-speeds-up-process-to-lease-oil-gas-on-federal-land-idUSKBN1FL6P8": {
+                "test:url": "https://www.reuters.com/article/us-usa-interior-oil/u-s-interior-agency-speeds-up-process-to-lease-oil-gas-on-federal-land-idUSKBN1FL6P8", 
+                "test:type": "article"
+            }, 
+            "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html": {
+                "test:url": "https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "test:date": "", 
+                "test:title": "The ‘Shocking Details’ Of The Green New Deal", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/news/420973-canada-pipeline-protest-trudeau/": {
+                "test:url": "https://www.rt.com/news/420973-canada-pipeline-protest-trudeau/", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/Xs6ZCpma71": {
+                "test:url": "https://t.co/Xs6ZCpma71", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/business/458735-canada-oil-pipeline-expansion/": {
+                "test:url": "https://www.rt.com/business/458735-canada-oil-pipeline-expansion/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/AOC?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/AOC?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/TheBabylonBee/status/1093566310003367936?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/TheBabylonBee/status/1093566310003367936?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/AOC/status/1126958896973778950?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/AOC/status/1126958896973778950?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.huffingtonpost.ca/entry/green-new-deal-poll_n_5c169f2ae4b05d7e5d8332a5": {
+                "test:url": "https://www.huffingtonpost.ca/entry/green-new-deal-poll_n_5c169f2ae4b05d7e5d8332a5", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/AxMfJcZ1pY": {
+                "test:url": "https://t.co/AxMfJcZ1pY", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/HowieHawkins?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/HowieHawkins?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/GreenPartyUS?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/GreenPartyUS?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/_waleedshahid/status/1093502775261040640?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/_waleedshahid/status/1093502775261040640?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/TransMountain?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/TransMountain?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2018/10/27/climate/trump-fracking-drilling-oil-gas.html": {
+                "test:url": "https://www.nytimes.com/2018/10/27/climate/trump-fracking-drilling-oil-gas.html", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/AOC/status/1126990102532698114?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/AOC/status/1126990102532698114?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/commentisfree/2017/apr/17/stop-swooning-justin-trudeau-man-disaster-planet?CMP=share_btn_fb&fbclid=IwAR0pWyRiggu6Ok_70EwkB1VD7wK8SbfkmywmEhkW4Z7GTgJpAPmK5P_XD24": {
+                "test:url": "https://www.theguardian.com/commentisfree/2017/apr/17/stop-swooning-justin-trudeau-man-disaster-planet?CMP=share_btn_fb&fbclid=IwAR0pWyRiggu6Ok_70EwkB1VD7wK8SbfkmywmEhkW4Z7GTgJpAPmK5P_XD24", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/nathancullen/status/1100188212801294337?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/nathancullen/status/1100188212801294337?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/sunrisemvmt/status/1093577815927209984?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/sunrisemvmt/status/1093577815927209984?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.jayinslee.com/issues/100clean": {
+                "test:url": "https://www.jayinslee.com/issues/100clean", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/KvrBmaJd75": {
+                "test:url": "https://t.co/KvrBmaJd75", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/sunrisemvmt/status/1126875478483263488?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/sunrisemvmt/status/1126875478483263488?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/Underground_RT/status/1141318624323481600?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/matthewstoller/status/1100980142091001856?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/matthewstoller/status/1100980142091001856?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/GreenNewDeal?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/GreenNewDeal?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://medium.com/@teamwarren/our-military-can-help-lead-the-fight-in-combating-climate-change-2955003555a3": {
+                "test:url": "https://medium.com/@teamwarren/our-military-can-help-lead-the-fight-in-combating-climate-change-2955003555a3", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/ESUu6aCfp3": {
+                "test:url": "https://t.co/ESUu6aCfp3", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/DanielleRyanJ": {
+                "test:url": "https://twitter.com/DanielleRyanJ", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/": {
+                "test:url": "https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "test:date": "", 
+                "test:title": "Surprise! ‘Progressive hero’ Justin Trudeau is a fraud and a hypocrite", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/hashtag/cdnpoli?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/cdnpoli?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/": {
+                "test:url": "https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "test:date": "", 
+                "test:title": "Standing Rock, the sequel: Canadian tribe battles pipeline land grab", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/": {
+                "test:url": "https://www.rt.com/news/462241-justin-trudeau-tmx-pipeline-hypocrisy/", 
+                "test:date": "", 
+                "test:title": "‘Climate emergency’ on Monday, pipeline expansion on Tuesday: Trudeau the fraud strikes again", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/JackPosobiec/status/1093578721984946176?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/JackPosobiec/status/1093578721984946176?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.20minutes.fr/politique/2388863-20181206-sondage-macron-philippe-plus-bas-niveau-popularite": {
+                "test:url": "https://www.20minutes.fr/politique/2388863-20181206-sondage-macron-philippe-plus-bas-niveau-popularite", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/conservmillen/status/1093567747513114625?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/conservmillen/status/1093567747513114625?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/Energy/Crude-Oil/China-Faces-An-Uphill-Battle-For-Energy-Independence.html": {
+                "test:url": "https://oilprice.com/Energy/Crude-Oil/China-Faces-An-Uphill-Battle-For-Energy-Independence.html", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/G6JjZsQO4b": {
+                "test:url": "https://t.co/G6JjZsQO4b", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/txapQhXt5L": {
+                "test:url": "https://t.co/txapQhXt5L", 
+                "test:type": "reference"
+            }, 
+            "test:https://jayinslee.com/issues/evergreen-economy": {
+                "test:url": "https://jayinslee.com/issues/evergreen-economy", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/uJmbrI0wlb": {
+                "test:url": "https://t.co/uJmbrI0wlb", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/joshfoxfilm/status/1126936843780591616?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/joshfoxfilm/status/1126936843780591616?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/MikeHudema/status/1082674495775621121?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/MikeHudema/status/1082674495775621121?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/RemwqGN982": {
+                "test:url": "https://t.co/RemwqGN982", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/": {
+                "test:url": "https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "test:date": "", 
+                "test:title": "‘Deal breaker!’ AOC blasts Biden’s climate change stance as ‘lack of leadership’", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/NaomiAKlein/status/1126898745956814851?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/NaomiAKlein/status/1126898745956814851?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/usa/454839-green-new-deal-flops-senate/": {
+                "test:url": "https://www.rt.com/usa/454839-green-new-deal-flops-senate/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/us-news/2019/feb/11/green-new-deal-alexandria-ocasio-cortez-ed-markey": {
+                "test:url": "https://www.theguardian.com/us-news/2019/feb/11/green-new-deal-alexandria-ocasio-cortez-ed-markey", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/": {
+                "test:url": "https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Uncorroborated Document by Finnish Researchers Claims ‘Practically No’ Evidence For Man Made Climate Change", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/news/452638-trudeau-scandal-bribe-pressure-resign/": {
+                "test:url": "https://www.rt.com/news/452638-trudeau-scandal-bribe-pressure-resign/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/SenMarkey?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/SenMarkey?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/M_Tol/status/1082336216475873280?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/M_Tol/status/1082336216475873280?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/L6jetOosNm": {
+                "test:url": "https://t.co/L6jetOosNm", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.reuters.com/article/us-usa-election-biden-climate-exclusive/exclusive-presidential-hopeful-biden-looking-for-middle-ground-climate-policy-idUSKCN1SG18G": {
+                "test:url": "https://www.reuters.com/article/us-usa-election-biden-climate-exclusive/exclusive-presidential-hopeful-biden-looking-for-middle-ground-climate-policy-idUSKCN1SG18G", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/business/458421-canadian-producers-lose-20-billion/": {
+                "test:url": "https://www.rt.com/business/458421-canadian-producers-lose-20-billion/", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/Vui6U6PO2y": {
+                "test:url": "https://t.co/Vui6U6PO2y", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/JStein_WaPo/status/1093488858375905282?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/JStein_WaPo/status/1093488858375905282?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan": {
+                "test:url": "https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "test:date": "2019-05-16", 
+                "test:title": "Eight million jobs, $9tn in spending: Jay Inslee's radical plan to tackle climate change", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/JoeBiden?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/JoeBiden?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/Energy/Oil-Prices/The-Lucky-Few-In-Canadas-Oil-Patch.html": {
+                "test:url": "https://oilprice.com/Energy/Oil-Prices/The-Lucky-Few-In-Canadas-Oil-Patch.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study": {
+                "test:url": "https://www.iisd.org/gsi/news-events/government-handouts-public-money-fossil-fuel-industry-undermine-climate-solutions-study", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/BernieSanders/status/1126899050555564032?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/BernieSanders/status/1126899050555564032?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/QP?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/QP?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/": {
+                "test:url": "https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "test:date": "", 
+                "test:title": "Finnish study finds ‘practically no’ evidence for man-made climate change", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/hashtag/WetsuwetenStrong?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/WetsuwetenStrong?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/business/459666-us-aoc-climate-deal/": {
+                "test:url": "https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "test:date": "", 
+                "test:title": "Meet America’s newest $9 trillion climate change solution", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/MercedesGlobal/status/961322180813426689?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/MercedesGlobal/status/961322180813426689?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/us-news/2019/may/07/nearly-two-dozen-democrats-running-for-president-only-two-have-a-climate-plan": {
+                "test:url": "https://www.theguardian.com/us-news/2019/may/07/nearly-two-dozen-democrats-running-for-president-only-two-have-a-climate-plan", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/8q2WPzU7w0": {
+                "test:url": "https://t.co/8q2WPzU7w0", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.com/news/world-us-canada-44687654": {
+                "test:url": "https://www.bbc.com/news/world-us-canada-44687654", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/JustinTrudeau?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/JustinTrudeau?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/": {
+                "test:url": "https://oilprice.com/", 
+                "test:type": "reference"
+            }, 
+            "test:https://apps.npr.org/documents/document.html?id=5729035-Green-New-Deal-FAQ": {
+                "test:url": "https://apps.npr.org/documents/document.html?id=5729035-Green-New-Deal-FAQ", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/DrJillStein/status/1093546358122971136?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/DrJillStein/status/1093546358122971136?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/HVsipGK90f": {
+                "test:url": "https://t.co/HVsipGK90f", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/greenpeaceusa/status/1126876412890140673?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/greenpeaceusa/status/1126876412890140673?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/SpencerFernando/status/1093925812275957760?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/SpencerFernando/status/1093925812275957760?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.theguardian.com/world/2019/jan/11/canada-pipeline-indigenous-trudeau-treaty": {
+                "test:url": "https://www.theguardian.com/world/2019/jan/11/canada-pipeline-indigenous-trudeau-treaty", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/QsfJhnN3M4": {
+                "test:url": "https://t.co/QsfJhnN3M4", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html": {
+                "test:url": "https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "test:date": "", 
+                "test:title": "Meet America’s Newest $9 Trillion Climate Change Solution", 
+                "test:type": "article"
+            }, 
+            "test:https://www.sciencedaily.com/releases/2019/07/190703121407.htm": {
+                "test:url": "https://www.sciencedaily.com/releases/2019/07/190703121407.htm", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/08oGRSOSIm": {
+                "test:url": "https://t.co/08oGRSOSIm", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/viral/386649-fyre-festival-monument-millennial-naivety/": {
+                "test:url": "https://www.rt.com/viral/386649-fyre-festival-monument-millennial-naivety/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/": {
+                "test:url": "https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "test:date": "", 
+                "test:title": "‘Green dream or whatever’: AOC leads Democrat push for US economic revolution", 
+                "test:type": "article"
+            }, 
+            "test:https://www.reuters.com/article/us-usa-interior-oil/u-s-federal-oil-output-hits-record-in-2017-in-boost-for-trump-energy-agenda-idUSKBN1JE29M": {
+                "test:url": "https://www.reuters.com/article/us-usa-interior-oil/u-s-federal-oil-output-hits-record-in-2017-in-boost-for-trump-energy-agenda-idUSKBN1JE29M", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/LukewSavage/status/997611937037930496?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/LukewSavage/status/997611937037930496?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html": {
+                "test:url": "https://oilprice.com/Energy/Energy-General/Oil-Production-On-Federal-Lands-To-Hit-New-Record.html", 
+                "test:date": "", 
+                "test:title": "Oil Production On Federal Lands To Hit New Record", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/bdomenech/status/1093565900245090304?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/bdomenech/status/1093565900245090304?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.rt.com/trends/dakota-access-pipeline/": {
+                "test:url": "https://www.rt.com/trends/dakota-access-pipeline/", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/JLQF7DkeUf": {
+                "test:url": "https://t.co/JLQF7DkeUf", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/justicedems?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/justicedems?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:no relationship is more important to canada than the relationship with indigenous peoples": {
+                "test:quote": "no relationship is more important to canada than the relationship with indigenous peoples", 
+                "test:type": "quote"
+            }, 
+            "test:these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support": {
+                "test:quote": "these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support", 
+                "test:type": "quote"
+            }, 
+            "test:no country would find 173 billion barrels of oil in the ground and just leave them there": {
+                "test:quote": "no country would find 173 billion barrels of oil in the ground and just leave them there", 
+                "test:type": "quote"
+            }, 
+            "test:now is not the time to recklessly pursue environmentally devastating projects while our territories suffer": {
+                "test:quote": "now is not the time to recklessly pursue environmentally devastating projects while our territories suffer", 
+                "test:type": "quote"
+            }, 
+            "test:the green new deal seems a lot more like a green leap forward": {
+                "test:quote": "the green new deal seems a lot more like a green leap forward", 
+                "test:type": "quote"
+            }, 
+            "test:they want to break down my door": {
+                "test:quote": "they want to break down my door", 
+                "test:type": "quote"
+            }, 
+            "test:blaming ‘blue collar’ americans as the main opponents to bold climate policy is gas lobbyist 101": {
+                "test:quote": "blaming ‘blue collar’ americans as the main opponents to bold climate policy is gas lobbyist 101", 
+                "test:type": "quote"
+            }, 
+            "test:it is not only vital for our environment but it is a recipe for more affordable housing and vibrant communities goodpaying jobs corporate and municipal accountability and global leadership for the united states": {
+                "test:quote": "it is not only vital for our environment but it is a recipe for more affordable housing and vibrant communities goodpaying jobs corporate and municipal accountability and global leadership for the united states", 
+                "test:type": "quote"
+            }, 
+            "test:we’re not doing anything wrong": {
+                "test:quote": "we’re not doing anything wrong", 
+                "test:type": "quote"
+            }, 
+            "test:right now were prisoners to the american market": {
+                "test:quote": "right now were prisoners to the american market", 
+                "test:type": "quote"
+            }, 
+            "test:if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice": {
+                "test:quote": "if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice", 
+                "test:type": "quote"
+            }, 
+            "test:this is a massive transformation of our society": {
+                "test:quote": "this is a massive transformation of our society", 
+                "test:type": "quote"
+            }, 
+            "test:i shouldn’t have to be dragged into the courts to prove that i own land that i know is ours": {
+                "test:quote": "i shouldn’t have to be dragged into the courts to prove that i own land that i know is ours", 
+                "test:type": "quote"
+            }, 
+            "test:the green dream or whatever they call it nobody knows what it is but they’re for it right": {
+                "test:quote": "the green dream or whatever they call it nobody knows what it is but they’re for it right", 
+                "test:type": "quote"
+            }, 
+            "test:there is no ‘middle ground’ w climate denial  delay": {
+                "test:quote": "there is no ‘middle ground’ w climate denial  delay", 
+                "test:type": "quote"
+            }, 
+            "test:our people owned these territories since time immemorial": {
+                "test:quote": "our people owned these territories since time immemorial", 
+                "test:type": "quote"
+            }, 
+            "test:this is like declaring war on cancer and then announcing a campaign to promote smoking": {
+                "test:quote": "this is like declaring war on cancer and then announcing a campaign to promote smoking", 
+                "test:type": "quote"
+            }, 
+            "test:our lands are burning and flooding": {
+                "test:quote": "our lands are burning and flooding", 
+                "test:type": "quote"
+            }, 
+            "test:you think of the green new deal as saying ‘we should go to the moon’ – but in my plan is how to build the rocket ship": {
+                "test:quote": "you think of the green new deal as saying ‘we should go to the moon’ – but in my plan is how to build the rocket ship", 
+                "test:type": "quote"
+            }, 
+            "test:if we do not act boldly and aggressively to transform our global energy system away from fossil fuels within the next few years – a very short period of time – there will be irreparable harm done to our planet": {
+                "test:quote": "if we do not act boldly and aggressively to transform our global energy system away from fossil fuels within the next few years – a very short period of time – there will be irreparable harm done to our planet", 
+                "test:type": "quote"
+            }, 
+            "test:we are working toward a definite goal which is to prevent the return of conditions which came very close to destroying what we call modern civilization": {
+                "test:quote": "we are working toward a definite goal which is to prevent the return of conditions which came very close to destroying what we call modern civilization", 
+                "test:type": "quote"
+            }, 
+            "test:you know and i know that the scientific community has been very clear": {
+                "test:quote": "you know and i know that the scientific community has been very clear", 
+                "test:type": "quote"
+            }, 
+            "test:we do not consider computational results as experimental evidence": {
+                "test:quote": "we do not consider computational results as experimental evidence", 
+                "test:type": "quote"
+            }, 
+            "test:even the solutions that we have considered big and bold are nowhere near the scale of the actual problem that climate change presents to us our country our world": {
+                "test:quote": "even the solutions that we have considered big and bold are nowhere near the scale of the actual problem that climate change presents to us our country our world", 
+                "test:type": "quote"
+            }, 
+            "test:this is not a single issue it’s all the issues": {
+                "test:quote": "this is not a single issue it’s all the issues", 
+                "test:type": "quote"
+            }, 
+            "test:our fish are dying and our people are suffering": {
+                "test:quote": "our fish are dying and our people are suffering", 
+                "test:type": "quote"
+            }, 
+            "test:today america faces a new threat to our modern civilization climate change": {
+                "test:quote": "today america faces a new threat to our modern civilization climate change", 
+                "test:type": "quote"
+            }, 
+            "test:this challenge also presents an unprecedented economic opportunity to lead the world in building a clean energy future": {
+                "test:quote": "this challenge also presents an unprecedented economic opportunity to lead the world in building a clean energy future", 
+                "test:type": "quote"
+            }, 
+            "test:as weve seen over the past few years anything can happen with our neighbors to the south": {
+                "test:quote": "as weve seen over the past few years anything can happen with our neighbors to the south", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "140749": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:activity": "test:they want to break down my door"
+            }, 
+            "140841": {
+                "prov:entity": "test:https://oilprice.com/The-Environment/Global-Warming/The-Shocking-Details-Of-The-Green-New-Deal.html", 
+                "prov:activity": "test:even the solutions that we have considered big and bold are nowhere near the scale of the actual problem that climate change presents to us our country our world"
+            }, 
+            "140781": {
+                "prov:entity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "prov:activity": "test:blaming ‘blue collar’ americans as the main opponents to bold climate policy is gas lobbyist 101"
+            }, 
+            "140803": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:this is not a single issue it’s all the issues"
+            }, 
+            "140807": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:it is not only vital for our environment but it is a recipe for more affordable housing and vibrant communities goodpaying jobs corporate and municipal accountability and global leadership for the united states"
+            }, 
+            "140789": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:you think of the green new deal as saying ‘we should go to the moon’ – but in my plan is how to build the rocket ship"
+            }, 
+            "140737": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:activity": "test:i shouldn’t have to be dragged into the courts to prove that i own land that i know is ours"
+            }, 
+            "140735": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:activity": "test:no relationship is more important to canada than the relationship with indigenous peoples"
+            }, 
+            "140755": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:as weve seen over the past few years anything can happen with our neighbors to the south"
+            }, 
+            "140731": {
+                "prov:entity": "test:https://www.rt.com/business/459666-us-aoc-climate-deal/", 
+                "prov:activity": "test:these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support"
+            }, 
+            "140759": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:right now were prisoners to the american market"
+            }, 
+            "140777": {
+                "prov:entity": "test:https://www.rt.com/usa/459067-ocasio-cortez-biden-climate-election/", 
+                "prov:activity": "test:there is no ‘middle ground’ w climate denial  delay"
+            }, 
+            "140719": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:if we pay attention to the fact that only a small part of the increased co2 concentration is anthropogenic we have to recognize that the anthropogenic climate change does not exist in practice"
+            }, 
+            "140865": {
+                "prov:entity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:activity": "test:the green dream or whatever they call it nobody knows what it is but they’re for it right"
+            }, 
+            "140795": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:today america faces a new threat to our modern civilization climate change"
+            }, 
+            "140857": {
+                "prov:entity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:activity": "test:this is a massive transformation of our society"
+            }, 
+            "140791": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:we are working toward a definite goal which is to prevent the return of conditions which came very close to destroying what we call modern civilization"
+            }, 
+            "140811": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:you know and i know that the scientific community has been very clear"
+            }, 
+            "140799": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:this challenge also presents an unprecedented economic opportunity to lead the world in building a clean energy future"
+            }, 
+            "140815": {
+                "prov:entity": "test:https://www.theguardian.com/us-news/2019/may/16/2020-jay-inslee-climate-change-plan", 
+                "prov:activity": "test:if we do not act boldly and aggressively to transform our global energy system away from fossil fuels within the next few years – a very short period of time – there will be irreparable harm done to our planet"
+            }, 
+            "140861": {
+                "prov:entity": "test:https://www.rt.com/usa/450931-green-new-deal-us-economy/", 
+                "prov:activity": "test:the green new deal seems a lot more like a green leap forward"
+            }, 
+            "140883": {
+                "prov:entity": "test:https://oilprice.com/Energy/Energy-General/Meet-Americas-Newest-9-Trillion-Climate-Change-Solution.html", 
+                "prov:activity": "test:these communities are being impacted first and worst by the accelerating damages of climate change and have endured a legacy of air water toxics and climate pollution along with a deficit of public investment and support"
+            }, 
+            "140741": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:activity": "test:our people owned these territories since time immemorial"
+            }, 
+            "140769": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:now is not the time to recklessly pursue environmentally devastating projects while our territories suffer"
+            }, 
+            "140745": {
+                "prov:entity": "test:https://www.rt.com/news/448626-canada-pipeline-tribal-protests/", 
+                "prov:activity": "test:we’re not doing anything wrong"
+            }, 
+            "140765": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:our lands are burning and flooding"
+            }, 
+            "140767": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:our fish are dying and our people are suffering"
+            }, 
+            "140763": {
+                "prov:entity": "test:https://www.rt.com/news/462182-canada-approved-pipeline-oil/", 
+                "prov:activity": "test:this is like declaring war on cancer and then announcing a campaign to promote smoking"
+            }, 
+            "140773": {
+                "prov:entity": "test:https://www.rt.com/op-ed/452696-trudeau-corruption-scandal-fraud/", 
+                "prov:activity": "test:no country would find 173 billion barrels of oil in the ground and just leave them there"
+            }, 
+            "140721": {
+                "prov:entity": "test:https://newspunch.com/finnish-researchers-find-practically-no-evidence-for-man-made-climate-change/", 
+                "prov:activity": "test:we do not consider computational results as experimental evidence"
+            }, 
+            "140725": {
+                "prov:entity": "test:https://www.rt.com/news/464051-finnish-study-no-evidence-warming/", 
+                "prov:activity": "test:we do not consider computational results as experimental evidence"
+            }
+        }
+    }
+}

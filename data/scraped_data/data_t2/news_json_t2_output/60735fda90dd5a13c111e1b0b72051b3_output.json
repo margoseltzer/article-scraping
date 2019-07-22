@@ -1,0 +1,747 @@
+{
+    "root": "https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "157196": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "157198": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/calgary-stampede/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "157180": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/phil-heidenreich/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157182": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/jill-croteau/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157172": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157184": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "157174": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157186": {
+                "prov:usedEntity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "157176": {
+                "prov:usedEntity": "test:https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157188": {
+                "prov:usedEntity": "test:http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/"
+            }, 
+            "157178": {
+                "prov:usedEntity": "test:https://globalnews.ca/author/adam-macvicar/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/"
+            }, 
+            "157194": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/"
+            }, 
+            "157192": {
+                "prov:usedEntity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/"
+            }, 
+            "157190": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "156996": {
+                "prov:entity": "test:he could apply by sept 1 in any given year", 
+                "prov:agent": "test:Mike Whittle"
+            }, 
+            "156992": {
+                "prov:entity": "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date", 
+                "prov:agent": "test:Mike Whittle"
+            }, 
+            "157165": {
+                "prov:entity": "test:we wouldn’t have chuckwagon races", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157012": {
+                "prov:entity": "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries", 
+                "prov:agent": "test:Connell"
+            }, 
+            "157116": {
+                "prov:entity": "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157016": {
+                "prov:entity": "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157076": {
+                "prov:entity": "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year", 
+                "prov:agent": "test:Peter Ficker"
+            }, 
+            "157153": {
+                "prov:entity": "test:i think the time of this type of sport has got to end", 
+                "prov:agent": "test:Anderson"
+            }, 
+            "157036": {
+                "prov:entity": "test:seeing injuries despite the best and safest conditions possible is hard", 
+                "prov:agent": "test:Connell"
+            }, 
+            "157157": {
+                "prov:entity": "test:we are in a more humane society than we were when it all began and it’s time it ended", 
+                "prov:agent": "test:Anderson"
+            }, 
+            "157032": {
+                "prov:entity": "test:this was the result of driver error and has been determined a fatality that could have been avoided", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157124": {
+                "prov:entity": "test:the owner wants to know what happened to that horse and why that happened", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157169": {
+                "prov:entity": "test:that’s what the competitors and owners want too", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157138": {
+                "prov:entity": "test:we need to have information about what that means", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "157056": {
+                "prov:entity": "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157134": {
+                "prov:entity": "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "157072": {
+                "prov:entity": "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment", 
+                "prov:agent": "test:Trev Miller"
+            }, 
+            "157052": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:Kaylen Small"
+            }, 
+            "157130": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:agent": "test:Cami Kepke"
+            }, 
+            "157050": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:Adam Macvicar"
+            }, 
+            "157098": {
+                "prov:entity": "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157161": {
+                "prov:entity": "test:without the health and safety of the animals we wouldn’t have a rodeo", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157068": {
+                "prov:entity": "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157094": {
+                "prov:entity": "test:obviously we have some very fundamental disagreements in animals participating in sport", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157126": {
+                "prov:entity": "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "prov:agent": "test:www.calgarystampede.com"
+            }, 
+            "156986": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "156988": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:agent": "test:Melissa Gilligan"
+            }, 
+            "157000": {
+                "prov:entity": "test:at this point there is no further appeal", 
+                "prov:agent": "test:Harden"
+            }, 
+            "157064": {
+                "prov:entity": "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157004": {
+                "prov:entity": "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him", 
+                "prov:agent": "test:Harden"
+            }, 
+            "157060": {
+                "prov:entity": "test:so it unfortunately led to euthanization", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157008": {
+                "prov:entity": "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core", 
+                "prov:agent": "test:Connell"
+            }, 
+            "157020": {
+                "prov:entity": "test:on wednesday a horse sustained a fractured rightfront radius while running", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157142": {
+                "prov:entity": "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion", 
+                "prov:agent": "test:Pajor"
+            }, 
+            "157024": {
+                "prov:entity": "test:neither of these injuries are specific to chuckwagon racing", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157048": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "157128": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "157100": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "157044": {
+                "prov:entity": "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86", 
+                "prov:agent": "test:Trev Miller"
+            }, 
+            "157102": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:Heide Pearson"
+            }, 
+            "157104": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:agent": "test:Melissa Gilligan"
+            }, 
+            "157040": {
+                "prov:entity": "test:knowing an injury was avoidable is much harder", 
+                "prov:agent": "test:Connell"
+            }, 
+            "157120": {
+                "prov:entity": "test:we want to know what happened to that horse", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157088": {
+                "prov:entity": "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season", 
+                "prov:agent": "test:Barnes"
+            }, 
+            "157028": {
+                "prov:entity": "test:due to interference and contact from another wagon a horse sustained severe injuries", 
+                "prov:agent": "test:Kristina Barnes"
+            }, 
+            "157080": {
+                "prov:entity": "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity", 
+                "prov:agent": "test:Ficker"
+            }, 
+            "157084": {
+                "prov:entity": "test:those are all things that could be looked at and perhaps the race could be made safer", 
+                "prov:agent": "test:Ficker"
+            }, 
+            "157149": {
+                "prov:entity": "test:there’s really no way to make this comfortable for the animals", 
+                "prov:agent": "test:Anderson"
+            }
+        }, 
+        "agent": {
+            "test:Kaylen Small": {
+                "test:name": "Kaylen Small", 
+                "test:type": "person"
+            }, 
+            "test:Connell": {
+                "test:name": "Connell", 
+                "test:type": "person"
+            }, 
+            "test:Melissa Gilligan": {
+                "test:name": "Melissa Gilligan", 
+                "test:type": "person"
+            }, 
+            "test:Barnes": {
+                "test:name": "Barnes", 
+                "test:type": "person"
+            }, 
+            "test:Harden": {
+                "test:name": "Harden", 
+                "test:type": "person"
+            }, 
+            "test:Ficker": {
+                "test:name": "Ficker", 
+                "test:type": "person"
+            }, 
+            "test:Cami Kepke": {
+                "test:name": "Cami Kepke", 
+                "test:type": "person"
+            }, 
+            "test:Heide Pearson": {
+                "test:name": "Heide Pearson", 
+                "test:type": "person"
+            }, 
+            "test:Adam Macvicar": {
+                "test:name": "Adam Macvicar", 
+                "test:type": "person"
+            }, 
+            "test:globalnews.ca": {
+                "test:publisher": "globalnews.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Mike Whittle": {
+                "test:name": "Mike Whittle", 
+                "test:type": "person"
+            }, 
+            "test:Pajor": {
+                "test:name": "Pajor", 
+                "test:type": "person"
+            }, 
+            "test:Anderson": {
+                "test:name": "Anderson", 
+                "test:type": "person"
+            }, 
+            "test:Peter Ficker": {
+                "test:name": "Peter Ficker", 
+                "test:type": "person"
+            }, 
+            "test:Trev Miller": {
+                "test:name": "Trev Miller", 
+                "test:type": "person"
+            }, 
+            "test:Kristina Barnes": {
+                "test:name": "Kristina Barnes", 
+                "test:type": "person"
+            }, 
+            "test:www.calgarystampede.com": {
+                "test:publisher": "www.calgarystampede.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby": {
+                "test:url": "https://www.calgarystampede.com/stampede/shows/evening/gmc-rangeland-derby", 
+                "test:date": "", 
+                "test:title": "GMC Rangeland Derby & Chuckwagon Races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/": {
+                "test:url": "https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "test:date": "2019-07-08", 
+                "test:title": "University of Calgary studying stressors, injury in Stampede bulls", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/": {
+                "test:url": "https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "test:date": "2019-07-09", 
+                "test:title": "Horse dies at 2019 GMC Rangeland Derby chuckwagon races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/author/adam-macvicar/": {
+                "test:url": "https://globalnews.ca/author/adam-macvicar/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/": {
+                "test:url": "https://globalnews.ca/news/4328913/chuckwagon-horse-rider-safety-university-calgary-stampede/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/": {
+                "test:url": "https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "test:date": "2019-07-12", 
+                "test:title": "Chuckwagon driver fined, disqualified after 3rd horse death at Calgary Stampede", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/": {
+                "test:url": "https://globalnews.ca/news/4137411/quebec-rodeos-violated-provinces-animal-welfare-laws-professor/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/": {
+                "test:url": "https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "test:date": "2019-07-10", 
+                "test:title": "Second horse dies at 2019 Calgary Stampede chuckwagon races", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/author/phil-heidenreich/": {
+                "test:url": "https://globalnews.ca/author/phil-heidenreich/", 
+                "test:type": "reference"
+            }, 
+            "test:https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed": {
+                "test:url": "https://omny.fm/shows/ched-afternoon-news/a-difficult-debate-is-it-time-to-rid-of-chuckwagon/embed", 
+                "test:type": "reference"
+            }, 
+            "test:http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm": {
+                "test:url": "http://cs.calgarystampede.com/events/gmc-rangeland-derby/results/?file=2017/BarrelDraw-Jul07-2017.htm", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/author/jill-croteau/": {
+                "test:url": "https://globalnews.ca/author/jill-croteau/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/calgary-stampede/": {
+                "test:url": "https://globalnews.ca/tag/calgary-stampede/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:due to interference and contact from another wagon a horse sustained severe injuries": {
+                "test:quote": "due to interference and contact from another wagon a horse sustained severe injuries", 
+                "test:type": "quote"
+            }, 
+            "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet": {
+                "test:quote": "so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet", 
+                "test:type": "quote"
+            }, 
+            "test:those are all things that could be looked at and perhaps the race could be made safer": {
+                "test:quote": "those are all things that could be looked at and perhaps the race could be made safer", 
+                "test:type": "quote"
+            }, 
+            "test:obviously we have some very fundamental disagreements in animals participating in sport": {
+                "test:quote": "obviously we have some very fundamental disagreements in animals participating in sport", 
+                "test:type": "quote"
+            }, 
+            "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options": {
+                "test:quote": "unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options", 
+                "test:type": "quote"
+            }, 
+            "test:so it unfortunately led to euthanization": {
+                "test:quote": "so it unfortunately led to euthanization", 
+                "test:type": "quote"
+            }, 
+            "test:knowing an injury was avoidable is much harder": {
+                "test:quote": "knowing an injury was avoidable is much harder", 
+                "test:type": "quote"
+            }, 
+            "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape": {
+                "test:quote": "troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape", 
+                "test:type": "quote"
+            }, 
+            "test:that’s what the competitors and owners want too": {
+                "test:quote": "that’s what the competitors and owners want too", 
+                "test:type": "quote"
+            }, 
+            "test:seeing injuries despite the best and safest conditions possible is hard": {
+                "test:quote": "seeing injuries despite the best and safest conditions possible is hard", 
+                "test:type": "quote"
+            }, 
+            "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible": {
+                "test:quote": "but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible", 
+                "test:type": "quote"
+            }, 
+            "test:on wednesday a horse sustained a fractured rightfront radius while running": {
+                "test:quote": "on wednesday a horse sustained a fractured rightfront radius while running", 
+                "test:type": "quote"
+            }, 
+            "test:i think the time of this type of sport has got to end": {
+                "test:quote": "i think the time of this type of sport has got to end", 
+                "test:type": "quote"
+            }, 
+            "test:at this point there is no further appeal": {
+                "test:quote": "at this point there is no further appeal", 
+                "test:type": "quote"
+            }, 
+            "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment": {
+                "test:quote": "what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment", 
+                "test:type": "quote"
+            }, 
+            "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season": {
+                "test:quote": "we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season", 
+                "test:type": "quote"
+            }, 
+            "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending": {
+                "test:quote": "a heart attack is suspected in the death of a horse on monday with postmortem results still pending", 
+                "test:type": "quote"
+            }, 
+            "test:neither of these injuries are specific to chuckwagon racing": {
+                "test:quote": "neither of these injuries are specific to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:we want to know what happened to that horse": {
+                "test:quote": "we want to know what happened to that horse", 
+                "test:type": "quote"
+            }, 
+            "test:the owner wants to know what happened to that horse and why that happened": {
+                "test:quote": "the owner wants to know what happened to that horse and why that happened", 
+                "test:type": "quote"
+            }, 
+            "test:we need to have information about what that means": {
+                "test:quote": "we need to have information about what that means", 
+                "test:type": "quote"
+            }, 
+            "test:we wouldn’t have chuckwagon races": {
+                "test:quote": "we wouldn’t have chuckwagon races", 
+                "test:type": "quote"
+            }, 
+            "test:without the health and safety of the animals we wouldn’t have a rodeo": {
+                "test:quote": "without the health and safety of the animals we wouldn’t have a rodeo", 
+                "test:type": "quote"
+            }, 
+            "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity": {
+                "test:quote": "the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity", 
+                "test:type": "quote"
+            }, 
+            "test:there are things we can’t see in all of us in people and in animals": {
+                "test:quote": "there are things we can’t see in all of us in people and in animals", 
+                "test:type": "quote"
+            }, 
+            "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries": {
+                "test:quote": "as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries", 
+                "test:type": "quote"
+            }, 
+            "test:there are things we can’t identify and this must have been the case": {
+                "test:quote": "there are things we can’t identify and this must have been the case", 
+                "test:type": "quote"
+            }, 
+            "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core": {
+                "test:quote": "we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core", 
+                "test:type": "quote"
+            }, 
+            "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days": {
+                "test:quote": "this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days", 
+                "test:type": "quote"
+            }, 
+            "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date": {
+                "test:quote": "the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date", 
+                "test:type": "quote"
+            }, 
+            "test:my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes": {
+                "test:quote": "my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes", 
+                "test:type": "quote"
+            }, 
+            "test:this was the result of driver error and has been determined a fatality that could have been avoided": {
+                "test:quote": "this was the result of driver error and has been determined a fatality that could have been avoided", 
+                "test:type": "quote"
+            }, 
+            "test:we are in a more humane society than we were when it all began and it’s time it ended": {
+                "test:quote": "we are in a more humane society than we were when it all began and it’s time it ended", 
+                "test:type": "quote"
+            }, 
+            "test:he could apply by sept 1 in any given year": {
+                "test:quote": "he could apply by sept 1 in any given year", 
+                "test:type": "quote"
+            }, 
+            "test:no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible": {
+                "test:quote": "no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "test:type": "quote"
+            }, 
+            "test:there’s really no way to make this comfortable for the animals": {
+                "test:quote": "there’s really no way to make this comfortable for the animals", 
+                "test:type": "quote"
+            }, 
+            "test:we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track": {
+                "test:quote": "we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track", 
+                "test:type": "quote"
+            }, 
+            "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year": {
+                "test:quote": "this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year", 
+                "test:type": "quote"
+            }, 
+            "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion": {
+                "test:quote": "an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion", 
+                "test:type": "quote"
+            }, 
+            "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86": {
+                "test:quote": "the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86", 
+                "test:type": "quote"
+            }, 
+            "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him": {
+                "test:quote": "our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him", 
+                "test:type": "quote"
+            }, 
+            "test:at this time there is no indication that this medical condition is specific to chuckwagon racing": {
+                "test:quote": "at this time there is no indication that this medical condition is specific to chuckwagon racing", 
+                "test:type": "quote"
+            }, 
+            "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible": {
+                "test:quote": "no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible", 
+                "test:type": "quote"
+            }, 
+            "test:so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection": {
+                "test:quote": "so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "156994": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:he could apply by sept 1 in any given year"
+            }, 
+            "156990": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:the rulebook does outline a process for a disqualified driver to apply for reinstatement at a future date"
+            }, 
+            "156998": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:at this point there is no further appeal"
+            }, 
+            "157010": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:as part of our commitment to keeping stampede as safe as possible for animals and humans alike our organization has a stringent zerotolerance policy … for preventable injuries"
+            }, 
+            "157114": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:troy himself knowing that he’s done everything for that horse in care and spending time with it and knowing that horse very very well he did everything he can to ensure that it was in good shape"
+            }, 
+            "157038": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:knowing an injury was avoidable is much harder"
+            }, 
+            "157112": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:there are things we can’t identify and this must have been the case"
+            }, 
+            "157014": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:a heart attack is suspected in the death of a horse on monday with postmortem results still pending"
+            }, 
+            "157110": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:there are things we can’t see in all of us in people and in animals"
+            }, 
+            "157034": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:seeing injuries despite the best and safest conditions possible is hard"
+            }, 
+            "157018": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:on wednesday a horse sustained a fractured rightfront radius while running"
+            }, 
+            "157030": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:this was the result of driver error and has been determined a fatality that could have been avoided"
+            }, 
+            "157151": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:i think the time of this type of sport has got to end"
+            }, 
+            "157155": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we are in a more humane society than we were when it all began and it’s time it ended"
+            }, 
+            "157118": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:we want to know what happened to that horse"
+            }, 
+            "157078": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:the problem is there are just too many horses and too many teams going at high speed taking tight turns at close proximity"
+            }, 
+            "157058": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:so it unfortunately led to euthanization"
+            }, 
+            "157070": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:what we have to do is stop looking at horses as objects that we can look at for our viewing entertainment"
+            }, 
+            "157054": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:unfortunately it was found to have a fractured leftfront radius which is an injury where there wasn’t really any treatment options"
+            }, 
+            "157136": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we need to have information about what that means"
+            }, 
+            "157074": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:this is the second horse to die in the chuckwagon race this week — horses die in this event virtually every year"
+            }, 
+            "157132": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:no matter what we use animals for — whether we use them for events like this for food for research for companionship — we have a responsibility to make sure the animals are treated as humanely as possible"
+            }, 
+            "157092": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:obviously we have some very fundamental disagreements in animals participating in sport"
+            }, 
+            "157090": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:we’re very confident in the safety of the drivers the safety of the riders the safety of our track again there are things just beyond our control and we wish we could control them because no one wants an animal to be injured out on that track"
+            }, 
+            "157096": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:but i think the one thing we can agree on – us and them – is that we want these animals to be as safe as possible"
+            }, 
+            "157066": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:so it had been through a series of fitness tests and this wasn’t something that could have been identified by the vet"
+            }, 
+            "157002": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:our decision has been rendered and he provided us his thoughts last night … he is processing what we have told him"
+            }, 
+            "157062": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:this horse was fitnesstested when it arrived at stampede park when it first moved in it was fitness tested prior to racing wednesday night and it had raced two other evenings through the first six days"
+            }, 
+            "157006": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:we live and work as a family committed to the wellbeing of our beloved animals and this type of incident impacts us deeply to the core"
+            }, 
+            "157144": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:no matter what we use animals for whether we use them for events like this for food for research for companionship we have a responsibility to make sure the animals are treated as humanely as possible"
+            }, 
+            "157022": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:neither of these injuries are specific to chuckwagon racing"
+            }, 
+            "157147": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:there’s really no way to make this comfortable for the animals"
+            }, 
+            "157140": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:an animal that’s getting on or off a truck for example might clip a foot on something… you’re usually looking at minor skin abrasion"
+            }, 
+            "157026": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:due to interference and contact from another wagon a horse sustained severe injuries"
+            }, 
+            "157108": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:so they’re looking at heart lungs movement of legs so muscular skeletal — so a pretty thorough veterinary inspection"
+            }, 
+            "157163": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:we wouldn’t have chuckwagon races"
+            }, 
+            "157046": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:my impression of people with the stampede when they say ‘they love these animals’ — it’s fairly difficult to use the word ‘love’ when you’re risking that individual’s body and life for profit or entertainment or prizes"
+            }, 
+            "157122": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:the owner wants to know what happened to that horse and why that happened"
+            }, 
+            "157159": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:without the health and safety of the animals we wouldn’t have a rodeo"
+            }, 
+            "157106": {
+                "prov:entity": "test:https://globalnews.ca/news/5474552/horse-injured-at-2019-gmc-rangeland-derby-chuckwagon-races/", 
+                "prov:activity": "test:at this time there is no indication that this medical condition is specific to chuckwagon racing"
+            }, 
+            "157042": {
+                "prov:entity": "test:https://globalnews.ca/news/5487060/horses-crash-calgary-stampede-chuckwagon/", 
+                "prov:activity": "test:the calgary stampede considers the animals to be disposable and they have a long track record of this — over 100 animals since ’86"
+            }, 
+            "157167": {
+                "prov:entity": "test:https://globalnews.ca/news/5471107/university-of-calgary-stress-injury-stampede-bulls-rodeo/", 
+                "prov:activity": "test:that’s what the competitors and owners want too"
+            }, 
+            "157082": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:those are all things that could be looked at and perhaps the race could be made safer"
+            }, 
+            "157086": {
+                "prov:entity": "test:https://globalnews.ca/news/5482680/horse-injured-calgary-stampede-2019-chuckwagon/", 
+                "prov:activity": "test:we’re looking at the health of the horses the safety of the wagons we’re looking at those a lot more closely the safety of the drivers and their safety record not just at the stampede but throughout the season"
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "root": "http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "105371": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/business/economy/this-doesnt-look-like-the-best-economy-ever-40percent-of-americans-say-they-still-struggle-to-pay-bills/2019/07/04/855c382e-99b5-11e9-916d-9c61607d8190_story.html?utm_term=.e8ee2023f381&noredirect=on", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219"
+            }, 
+            "105373": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=v96mDRSor2w", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219"
+            }, 
+            "105375": {
+                "prov:usedEntity": "test:https://www.mediamatters.org/video/2019/07/08/fox-guest-enthusiastically-spins-new-poll-showing-23-americans-plan-never-retire-what-great-country/224135", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219"
+            }
+        }, 
+        "wasAttributedTo": {
+            "105337": {
+                "prov:entity": "test:is that worrisome for you donald", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105333": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:agent": "test:www.newshounds.us"
+            }, 
+            "105345": {
+                "prov:entity": "test:were you the profligate grasshopper instead of the ant who saved up", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105357": {
+                "prov:entity": "test:all i can say is that we have – we’re very close to what is statistically full employment right now which means that anybody who wants a job can have a job", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105341": {
+                "prov:entity": "test:they should be grateful to eat cake all the time", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105353": {
+                "prov:entity": "test:in discussions with 30 americans unable to pay all of their bills a clear pattern emerged most were able to eke by until they faced an unexpected crisis such as a job loss cancer car trouble or storm damage", 
+                "prov:agent": "test:Heather Long"
+            }, 
+            "105369": {
+                "prov:entity": "test:economic circumstances or dire economic circumstances as well", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105365": {
+                "prov:entity": "test:flexibility of working for uber and lyft", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105349": {
+                "prov:entity": "test:i mean were you just messing around when you were a kid and didn’t contribute enough to your 401k or did the economy just fail to provide a job for you", 
+                "prov:agent": "test:Luskin"
+            }, 
+            "105361": {
+                "prov:entity": "test:back to the blessing part of it", 
+                "prov:agent": "test:Luskin"
+            }
+        }, 
+        "agent": {
+            "test:Luskin": {
+                "test:name": "Luskin", 
+                "test:type": "person"
+            }, 
+            "test:Heather Long": {
+                "test:name": "Heather Long", 
+                "test:type": "person"
+            }, 
+            "test:www.newshounds.us": {
+                "test:publisher": "www.newshounds.us", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.washingtonpost.com/business/economy/this-doesnt-look-like-the-best-economy-ever-40percent-of-americans-say-they-still-struggle-to-pay-bills/2019/07/04/855c382e-99b5-11e9-916d-9c61607d8190_story.html?utm_term=.e8ee2023f381&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/business/economy/this-doesnt-look-like-the-best-economy-ever-40percent-of-americans-say-they-still-struggle-to-pay-bills/2019/07/04/855c382e-99b5-11e9-916d-9c61607d8190_story.html?utm_term=.e8ee2023f381&noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.mediamatters.org/video/2019/07/08/fox-guest-enthusiastically-spins-new-poll-showing-23-americans-plan-never-retire-what-great-country/224135": {
+                "test:url": "https://www.mediamatters.org/video/2019/07/08/fox-guest-enthusiastically-spins-new-poll-showing-23-americans-plan-never-retire-what-great-country/224135", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219": {
+                "test:url": "http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "test:date": "", 
+                "test:title": "Fox Guest: It's ‘Like Going To Heaven’ To Work Two Jobs Without Ever Retiring", 
+                "test:type": "article"
+            }, 
+            "test:https://www.youtube.com/watch?v=v96mDRSor2w": {
+                "test:url": "https://www.youtube.com/watch?v=v96mDRSor2w", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:all i can say is that we have – we’re very close to what is statistically full employment right now which means that anybody who wants a job can have a job": {
+                "test:quote": "all i can say is that we have – we’re very close to what is statistically full employment right now which means that anybody who wants a job can have a job", 
+                "test:type": "quote"
+            }, 
+            "test:flexibility of working for uber and lyft": {
+                "test:quote": "flexibility of working for uber and lyft", 
+                "test:type": "quote"
+            }, 
+            "test:i mean were you just messing around when you were a kid and didn’t contribute enough to your 401k or did the economy just fail to provide a job for you": {
+                "test:quote": "i mean were you just messing around when you were a kid and didn’t contribute enough to your 401k or did the economy just fail to provide a job for you", 
+                "test:type": "quote"
+            }, 
+            "test:in discussions with 30 americans unable to pay all of their bills a clear pattern emerged most were able to eke by until they faced an unexpected crisis such as a job loss cancer car trouble or storm damage": {
+                "test:quote": "in discussions with 30 americans unable to pay all of their bills a clear pattern emerged most were able to eke by until they faced an unexpected crisis such as a job loss cancer car trouble or storm damage", 
+                "test:type": "quote"
+            }, 
+            "test:back to the blessing part of it": {
+                "test:quote": "back to the blessing part of it", 
+                "test:type": "quote"
+            }, 
+            "test:they should be grateful to eat cake all the time": {
+                "test:quote": "they should be grateful to eat cake all the time", 
+                "test:type": "quote"
+            }, 
+            "test:is that worrisome for you donald": {
+                "test:quote": "is that worrisome for you donald", 
+                "test:type": "quote"
+            }, 
+            "test:were you the profligate grasshopper instead of the ant who saved up": {
+                "test:quote": "were you the profligate grasshopper instead of the ant who saved up", 
+                "test:type": "quote"
+            }, 
+            "test:economic circumstances or dire economic circumstances as well": {
+                "test:quote": "economic circumstances or dire economic circumstances as well", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "105335": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:is that worrisome for you donald"
+            }, 
+            "105339": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:they should be grateful to eat cake all the time"
+            }, 
+            "105347": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:i mean were you just messing around when you were a kid and didn’t contribute enough to your 401k or did the economy just fail to provide a job for you"
+            }, 
+            "105355": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:all i can say is that we have – we’re very close to what is statistically full employment right now which means that anybody who wants a job can have a job"
+            }, 
+            "105343": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:were you the profligate grasshopper instead of the ant who saved up"
+            }, 
+            "105351": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:in discussions with 30 americans unable to pay all of their bills a clear pattern emerged most were able to eke by until they faced an unexpected crisis such as a job loss cancer car trouble or storm damage"
+            }, 
+            "105367": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:economic circumstances or dire economic circumstances as well"
+            }, 
+            "105363": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:flexibility of working for uber and lyft"
+            }, 
+            "105359": {
+                "prov:entity": "test:http://www.newshounds.us/fox_guest_like_going_to_heaven_baby_to_work_two_jobs_without_retiring_071219", 
+                "prov:activity": "test:back to the blessing part of it"
+            }
+        }
+    }
+}

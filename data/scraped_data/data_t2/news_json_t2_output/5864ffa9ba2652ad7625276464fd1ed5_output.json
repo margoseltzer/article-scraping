@@ -1,0 +1,33 @@
+{
+    "root": "https://www.chicagotribune.com/news/breaking/ct-kierra-coles-news-conference-20190715-qdloyrdyubbanhrweak6sv47xm-story.html", 
+    "bundle": {
+        "wasAttributedTo": {
+            "161386": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/breaking/ct-kierra-coles-news-conference-20190715-qdloyrdyubbanhrweak6sv47xm-story.html", 
+                "prov:agent": "test:www.chicagotribune.com"
+            }, 
+            "161388": {
+                "prov:entity": "test:https://www.chicagotribune.com/news/breaking/ct-kierra-coles-news-conference-20190715-qdloyrdyubbanhrweak6sv47xm-story.html", 
+                "prov:agent": "test:Marie Fazio"
+            }
+        }, 
+        "agent": {
+            "test:Marie Fazio": {
+                "test:name": "Marie Fazio", 
+                "test:type": "person"
+            }, 
+            "test:www.chicagotribune.com": {
+                "test:publisher": "www.chicagotribune.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.chicagotribune.com/news/breaking/ct-kierra-coles-news-conference-20190715-qdloyrdyubbanhrweak6sv47xm-story.html": {
+                "test:url": "https://www.chicagotribune.com/news/breaking/ct-kierra-coles-news-conference-20190715-qdloyrdyubbanhrweak6sv47xm-story.html", 
+                "test:date": "2019-07-15", 
+                "test:title": "'I do believe my daughter is still alive’: Family of missing Chicago postal worker Kierra Coles continues search", 
+                "test:type": "article"
+            }
+        }
+    }
+}

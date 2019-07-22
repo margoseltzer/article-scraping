@@ -1,0 +1,759 @@
+{
+    "root": "https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "174362": {
+                "prov:usedEntity": "test:https://mashable.com/2018/05/19/google-removes-dont-be-evil-motto-from-code-of-conduct/#pon5AclUtOqR", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china"
+            }, 
+            "174360": {
+                "prov:usedEntity": "test:https://theintercept.com/2018/08/01/google-china-search-engine-censorship/", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china"
+            }, 
+            "174370": {
+                "prov:usedEntity": "test:https://www.blog.google/around-the-globe/google-asia/google-ai-china-center/", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance"
+            }, 
+            "174366": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/TechWontBuildIt?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract"
+            }, 
+            "174352": {
+                "prov:usedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys"
+            }, 
+            "174364": {
+                "prov:usedEntity": "test:https://twitter.com/techworkersco/status/1049429136454770688?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract"
+            }, 
+            "174348": {
+                "prov:usedEntity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys"
+            }, 
+            "174358": {
+                "prov:usedEntity": "test:https://gizmodo.com/google-plans-not-to-renew-its-contract-for-project-mave-1826488620", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china"
+            }, 
+            "174368": {
+                "prov:usedEntity": "test:https://www.washingtonexaminer.com/news/devin-nunes-warns-google-may-need-to-testify-if-anti-gop-search-results-keep-happening", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance"
+            }, 
+            "174338": {
+                "prov:usedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:generatedEntity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/"
+            }, 
+            "174340": {
+                "prov:usedEntity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "prov:generatedEntity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/"
+            }, 
+            "174350": {
+                "prov:usedEntity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys"
+            }, 
+            "174342": {
+                "prov:usedEntity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:generatedEntity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/"
+            }, 
+            "174356": {
+                "prov:usedEntity": "test:https://blog.google/technology/ai/ai-principles/", 
+                "prov:generatedEntity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china"
+            }, 
+            "174344": {
+                "prov:usedEntity": "test:https://twitter.com/BenInfoWarren", 
+                "prov:generatedEntity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/"
+            }, 
+            "174354": {
+                "prov:usedEntity": "test:https://www.infowarsstore.com/my-patriot-points", 
+                "prov:generatedEntity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC"
+            }, 
+            "174346": {
+                "prov:usedEntity": "test:https://www.infowars.com/watch/?video=5c9467a096f802002664de56", 
+                "prov:generatedEntity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174192": {
+                "prov:entity": "test:my concern when you think about things like artificial intelligence… they’re gonna help an authoritarian government assert control over its own population", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174210": {
+                "prov:entity": "test:and so my concern when you think about things like artificial intelligence … theyre gonna help an authoritarian government assert control over its own population", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174196": {
+                "prov:entity": "test:what china is able to do is identify patterns of behavior amongst people and determine who’s reliable and who’s not reliable", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174221": {
+                "prov:entity": "test:im happy to have that debate", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174225": {
+                "prov:entity": "test:youre telling me that google an american company supposedly is refusing to work with the department of defense but is doing work with china in china in a way that at least indirectly benefits the chinese government", 
+                "prov:agent": "test:Shanahan"
+            }, 
+            "174168": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:agent": "test:Ben Warren"
+            }, 
+            "174206": {
+                "prov:entity": "test:that is going to lead to that intellectual property from that company finding its way to the chinese military", 
+                "prov:agent": "test:Joseph Dunford"
+            }, 
+            "174229": {
+                "prov:entity": "test:in fact the way i described it to our industry partners is look were the good guys", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174200": {
+                "prov:entity": "test:there is no question in my mind that china will leverage technology to assist the 6 of the chinese population in controlling the other 94", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174202": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:agent": "test:www.washingtonexaminer.com"
+            }, 
+            "174316": {
+                "prov:entity": "test:all of it will be shared with the military and with the repressive forces that are doing this", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174332": {
+                "prov:entity": "test:we look forward to working with the brightest ai researchers in china to help find solutions to the world’s problems", 
+                "prov:agent": "test:Fei-Fei Li"
+            }, 
+            "174312": {
+                "prov:entity": "test:to guarantee that this suppression continues beyond the internment camps into the daily lives of all uighurs chinese authorities have constructed a highly intrusive hightech surveillance system in xinjiang which many experts fear will be extended througho", 
+                "prov:agent": "test:Kelley Currie"
+            }, 
+            "174336": {
+                "prov:entity": "test:once again the science of ai has no borders neither do its benefits", 
+                "prov:agent": "test:Fei-Fei Li"
+            }, 
+            "174266": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "prov:agent": "test:Mark Schiefelbein Ap"
+            }, 
+            "174241": {
+                "prov:entity": "test:there is no question in my mind that china will leverage technology to assist the 6 percent of the chinese population in controlling the other 94 percent", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174264": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "prov:agent": "test:www.washingtonexaminer.com"
+            }, 
+            "174243": {
+                "prov:entity": "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "prov:agent": "test:www.infowarsstore.com"
+            }, 
+            "174262": {
+                "prov:entity": "test:sabbatical leave from the department of geodesy of the institute of surveying and mapping zhengzhou china", 
+                "prov:agent": "test:Guo"
+            }, 
+            "174245": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:agent": "test:www.aspi.org.au"
+            }, 
+            "174247": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:agent": "test:Alex Joske"
+            }, 
+            "174186": {
+                "prov:entity": "test:this is not about me and google", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174302": {
+                "prov:entity": "test:and they don’t criticize the government of china and the communist party because they dont want to jeopardize their ability to sell products in that country", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174182": {
+                "prov:entity": "test:companies doing business with china will to lead to intellectual property from that company finding its way to the chinese military", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174233": {
+                "prov:entity": "test:and the values that we represent and the system that we represent is the one that will allow and has allowed you to thrive", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174324": {
+                "prov:entity": "test:but google has no problem opening up a center of ai in china knowing full well how anything you do in china — if its a benefit to the military theyre going to use it if its a benefit to the security services theyre going to use it", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174237": {
+                "prov:entity": "test:what china is able to do is identify patterns of behavior amongst people and determine whos reliable and whos not reliable", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174251": {
+                "prov:entity": "test:the system asked me to use the partner university", 
+                "prov:agent": "test:Yang"
+            }, 
+            "174320": {
+                "prov:entity": "test:google doesnt want to give ai technology to the us military because god forbid we may use it some day to target a terrorist or someone who wants to harm america", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174288": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:agent": "test:www.washingtonexaminer.com"
+            }, 
+            "174166": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:agent": "test:www.infowars.com"
+            }, 
+            "174217": {
+                "prov:entity": "test:this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact thats going to have on the united states ability to maintain a competitive military advantage and all that goes wit", 
+                "prov:agent": "test:Dunford"
+            }, 
+            "174328": {
+                "prov:entity": "test:i believe ai and its benefits have no borders", 
+                "prov:agent": "test:Fei-Fei Li"
+            }, 
+            "174290": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:agent": "test:Ap Photo Carolyn Kaster"
+            }, 
+            "174294": {
+                "prov:entity": "test:who have reportedly supplied surveillance and biometric technology", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174274": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:agent": "test:Lance Cpl. Tia Dufour"
+            }, 
+            "174298": {
+                "prov:entity": "test:its hypocritical for american corporations and multinationals doing business in china — who are fully prepared to boycott american cities and american communities because they dont like things that are happening here — to be okay to turn a blind eye t", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "174308": {
+                "prov:entity": "test:a wide array of evidence indicates that the number of individuals detained in such reeducation centers since april 2017 numbers at least in the hundreds of thousands and possibly millions", 
+                "prov:agent": "test:Kelley Currie"
+            }, 
+            "174272": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:agent": "test:www.washingtonexaminer.com"
+            }
+        }, 
+        "agent": {
+            "test:Kelley Currie": {
+                "test:name": "Kelley Currie", 
+                "test:type": "person"
+            }, 
+            "test:Shanahan": {
+                "test:name": "Shanahan", 
+                "test:type": "person"
+            }, 
+            "test:Dunford": {
+                "test:name": "Dunford", 
+                "test:type": "person"
+            }, 
+            "test:Alex Joske": {
+                "test:name": "Alex Joske", 
+                "test:type": "person"
+            }, 
+            "test:www.washingtonexaminer.com": {
+                "test:publisher": "www.washingtonexaminer.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Ap Photo Carolyn Kaster": {
+                "test:name": "Ap Photo Carolyn Kaster", 
+                "test:type": "person"
+            }, 
+            "test:Fei-Fei Li": {
+                "test:name": "Fei-Fei Li", 
+                "test:type": "person"
+            }, 
+            "test:www.infowars.com": {
+                "test:publisher": "www.infowars.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Rubio": {
+                "test:name": "Rubio", 
+                "test:type": "person"
+            }, 
+            "test:Guo": {
+                "test:name": "Guo", 
+                "test:type": "person"
+            }, 
+            "test:Joseph Dunford": {
+                "test:name": "Joseph Dunford", 
+                "test:type": "person"
+            }, 
+            "test:Lance Cpl. Tia Dufour": {
+                "test:name": "Lance Cpl. Tia Dufour", 
+                "test:type": "person"
+            }, 
+            "test:www.infowarsstore.com": {
+                "test:publisher": "www.infowarsstore.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Mark Schiefelbein Ap": {
+                "test:name": "Mark Schiefelbein Ap", 
+                "test:type": "person"
+            }, 
+            "test:Yang": {
+                "test:name": "Yang", 
+                "test:type": "person"
+            }, 
+            "test:www.aspi.org.au": {
+                "test:publisher": "www.aspi.org.au", 
+                "test:type": "publisher"
+            }, 
+            "test:Ben Warren": {
+                "test:name": "Ben Warren", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys": {
+                "test:url": "https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "test:date": "2019-03-21", 
+                "test:title": "Joint Chiefs chairman says he’ll meet with Google to explain, ‘We’re the good guys’", 
+                "test:type": "article"
+            }, 
+            "test:https://www.blog.google/around-the-globe/google-asia/google-ai-china-center/": {
+                "test:url": "https://www.blog.google/around-the-globe/google-asia/google-ai-china-center/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowars.com/watch/?video=5c9467a096f802002664de56": {
+                "test:url": "https://www.infowars.com/watch/?video=5c9467a096f802002664de56", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/": {
+                "test:url": "https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "test:date": "2019-07-15", 
+                "test:title": "Flashback: China Secretly Planting Military Scientists in Western Universities – Report", 
+                "test:type": "article"
+            }, 
+            "test:https://gizmodo.com/google-plans-not-to-renew-its-contract-for-project-mave-1826488620": {
+                "test:url": "https://gizmodo.com/google-plans-not-to-renew-its-contract-for-project-mave-1826488620", 
+                "test:type": "article"
+            }, 
+            "test:https://mashable.com/2018/05/19/google-removes-dont-be-evil-motto-from-code-of-conduct/#pon5AclUtOqR": {
+                "test:url": "https://mashable.com/2018/05/19/google-removes-dont-be-evil-motto-from-code-of-conduct/#pon5AclUtOqR", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance": {
+                "test:url": "https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "test:date": "2018-07-26", 
+                "test:title": "Marco Rubio: Google, other US companies are aiding Chinese surveillance", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract": {
+                "test:url": "https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "test:date": "2018-10-09", 
+                "test:title": "Google abandons fight for military's $10 billion JEDI cloud contract", 
+                "test:type": "article"
+            }, 
+            "test:https://www.aspi.org.au/report/picking-flowers-making-honey": {
+                "test:url": "https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "test:date": "", 
+                "test:title": "Picking flowers, making honey.", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC": {
+                "test:url": "https://www.infowarsstore.com/?ims=jotaf&utm_campaign=1776Worldwide&utm_source=Infowars&utm_medium=Banner&utm_content=800X800-RC", 
+                "test:date": "", 
+                "test:title": "Welcome to the Alex Jones Infowars Store", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/hashtag/TechWontBuildIt?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/TechWontBuildIt?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonexaminer.com/news/devin-nunes-warns-google-may-need-to-testify-if-anti-gop-search-results-keep-happening": {
+                "test:url": "https://www.washingtonexaminer.com/news/devin-nunes-warns-google-may-need-to-testify-if-anti-gop-search-results-keep-happening", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/techworkersco/status/1049429136454770688?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/techworkersco/status/1049429136454770688?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china": {
+                "test:url": "https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "test:date": "2018-08-02", 
+                "test:title": "Google is fine playing big brother for communist China", 
+                "test:type": "article"
+            }, 
+            "test:https://theintercept.com/2018/08/01/google-china-search-engine-censorship/": {
+                "test:url": "https://theintercept.com/2018/08/01/google-china-search-engine-censorship/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/BenInfoWarren": {
+                "test:url": "https://twitter.com/BenInfoWarren", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.infowarsstore.com/my-patriot-points": {
+                "test:url": "https://www.infowarsstore.com/my-patriot-points", 
+                "test:type": "reference"
+            }, 
+            "test:https://blog.google/technology/ai/ai-principles/": {
+                "test:url": "https://blog.google/technology/ai/ai-principles/", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:and the values that we represent and the system that we represent is the one that will allow and has allowed you to thrive": {
+                "test:quote": "and the values that we represent and the system that we represent is the one that will allow and has allowed you to thrive", 
+                "test:type": "quote"
+            }, 
+            "test:but google has no problem opening up a center of ai in china knowing full well how anything you do in china — if its a benefit to the military theyre going to use it if its a benefit to the security services theyre going to use it": {
+                "test:quote": "but google has no problem opening up a center of ai in china knowing full well how anything you do in china — if its a benefit to the military theyre going to use it if its a benefit to the security services theyre going to use it", 
+                "test:type": "quote"
+            }, 
+            "test:what china is able to do is identify patterns of behavior amongst people and determine whos reliable and whos not reliable": {
+                "test:quote": "what china is able to do is identify patterns of behavior amongst people and determine whos reliable and whos not reliable", 
+                "test:type": "quote"
+            }, 
+            "test:military and political courses can be excluded": {
+                "test:quote": "military and political courses can be excluded", 
+                "test:type": "quote"
+            }, 
+            "test:once again the science of ai has no borders neither do its benefits": {
+                "test:quote": "once again the science of ai has no borders neither do its benefits", 
+                "test:type": "quote"
+            }, 
+            "test:those scientists work in strategic and emerging technology sectors such as quantum physics signal processing cryptography navigation technology and autonomous vehicles": {
+                "test:quote": "those scientists work in strategic and emerging technology sectors such as quantum physics signal processing cryptography navigation technology and autonomous vehicles", 
+                "test:type": "quote"
+            }, 
+            "test:what is done in china will become a template for many other nations": {
+                "test:quote": "what is done in china will become a template for many other nations", 
+                "test:type": "quote"
+            }, 
+            "test:this is not about me and google": {
+                "test:quote": "this is not about me and google", 
+                "test:type": "quote"
+            }, 
+            "test:that is going to lead to that intellectual property from that company finding its way to the chinese military": {
+                "test:quote": "that is going to lead to that intellectual property from that company finding its way to the chinese military", 
+                "test:type": "quote"
+            }, 
+            "test:and they don’t criticize the government of china and the communist party because they dont want to jeopardize their ability to sell products in that country": {
+                "test:quote": "and they don’t criticize the government of china and the communist party because they dont want to jeopardize their ability to sell products in that country", 
+                "test:type": "quote"
+            }, 
+            "test:sabbatical leave from the department of geodesy of the institute of surveying and mapping zhengzhou china": {
+                "test:quote": "sabbatical leave from the department of geodesy of the institute of surveying and mapping zhengzhou china", 
+                "test:type": "quote"
+            }, 
+            "test:had the jedi contract been open to multiple vendors we would have submitted a compelling solution for portions of it": {
+                "test:quote": "had the jedi contract been open to multiple vendors we would have submitted a compelling solution for portions of it", 
+                "test:type": "quote"
+            }, 
+            "test:this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact thats going to have on the united states ability to maintain a competitive military advantage and all that goes wit": {
+                "test:quote": "this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact thats going to have on the united states ability to maintain a competitive military advantage and all that goes with it", 
+                "test:type": "quote"
+            }, 
+            "test:i believe ai and its benefits have no borders": {
+                "test:quote": "i believe ai and its benefits have no borders", 
+                "test:type": "quote"
+            }, 
+            "test:those countries don’t count china as a security ally but rather treat it as one of their main intelligence adversaries": {
+                "test:quote": "those countries don’t count china as a security ally but rather treat it as one of their main intelligence adversaries", 
+                "test:type": "quote"
+            }, 
+            "test:we couldnt be assured that it would align with our artificial intelligence principles": {
+                "test:quote": "we couldnt be assured that it would align with our artificial intelligence principles", 
+                "test:type": "quote"
+            }, 
+            "test:can carry more payload than ordinary flight vehicles": {
+                "test:quote": "can carry more payload than ordinary flight vehicles", 
+                "test:type": "quote"
+            }, 
+            "test:picking flowers in foreign lands to make honey in china": {
+                "test:quote": "picking flowers in foreign lands to make honey in china", 
+                "test:type": "quote"
+            }, 
+            "test:at a time when new technology is constantly becoming available customers should have the ability to take advantage of that innovation": {
+                "test:quote": "at a time when new technology is constantly becoming available customers should have the ability to take advantage of that innovation", 
+                "test:type": "quote"
+            }, 
+            "test:embedding of party personnel in homes": {
+                "test:quote": "embedding of party personnel in homes", 
+                "test:type": "quote"
+            }, 
+            "test:right now i’m a professor at rfeu and head of the military key lab on missile testing and control technology": {
+                "test:quote": "right now i’m a professor at rfeu and head of the military key lab on missile testing and control technology", 
+                "test:type": "quote"
+            }, 
+            "test:im happy to have that debate": {
+                "test:quote": "im happy to have that debate", 
+                "test:type": "quote"
+            }, 
+            "test:and so my concern when you think about things like artificial intelligence … theyre gonna help an authoritarian government assert control over its own population": {
+                "test:quote": "and so my concern when you think about things like artificial intelligence … theyre gonna help an authoritarian government assert control over its own population", 
+                "test:type": "quote"
+            }, 
+            "test:its hypocritical for american corporations and multinationals doing business in china — who are fully prepared to boycott american cities and american communities because they dont like things that are happening here — to be okay to turn a blind eye t": {
+                "test:quote": "its hypocritical for american corporations and multinationals doing business in china — who are fully prepared to boycott american cities and american communities because they dont like things that are happening here — to be okay to turn a blind eye to what’s happening", 
+                "test:type": "quote"
+            }, 
+            "test:my concern when you think about things like artificial intelligence… they’re gonna help an authoritarian government assert control over its own population": {
+                "test:quote": "my concern when you think about things like artificial intelligence… they’re gonna help an authoritarian government assert control over its own population", 
+                "test:type": "quote"
+            }, 
+            "test:a multicloud approach is in the best interest of government agencies because it allows them to choose the right cloud for the right workload": {
+                "test:quote": "a multicloud approach is in the best interest of government agencies because it allows them to choose the right cloud for the right workload", 
+                "test:type": "quote"
+            }, 
+            "test:what china is able to do is identify patterns of behavior amongst people and determine who’s reliable and who’s not reliable": {
+                "test:quote": "what china is able to do is identify patterns of behavior amongst people and determine who’s reliable and who’s not reliable", 
+                "test:type": "quote"
+            }, 
+            "test:this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact that’s going to have on the united states’ ability to maintain a competitive military advantage and all that go": {
+                "test:quote": "this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact that’s going to have on the united states’ ability to maintain a competitive military advantage and all that goes with it", 
+                "test:type": "quote"
+            }, 
+            "test:i’m against large companies and governments collaborating in the oppression of their people and feel like transparency around what’s being done is in the public interest": {
+                "test:quote": "i’m against large companies and governments collaborating in the oppression of their people and feel like transparency around what’s being done is in the public interest", 
+                "test:type": "quote"
+            }, 
+            "test:who have reportedly supplied surveillance and biometric technology": {
+                "test:quote": "who have reportedly supplied surveillance and biometric technology", 
+                "test:type": "quote"
+            }, 
+            "test:google points to its ai principles as the reason for this decision principles that are themselves a response to internal dissent": {
+                "test:quote": "google points to its ai principles as the reason for this decision principles that are themselves a response to internal dissent", 
+                "test:type": "quote"
+            }, 
+            "test:we look forward to working with the brightest ai researchers in china to help find solutions to the world’s problems": {
+                "test:quote": "we look forward to working with the brightest ai researchers in china to help find solutions to the world’s problems", 
+                "test:type": "quote"
+            }, 
+            "test:the truth is that the project was stopped by the thousands of workers who demanded a say in what they build": {
+                "test:quote": "the truth is that the project was stopped by the thousands of workers who demanded a say in what they build", 
+                "test:type": "quote"
+            }, 
+            "test:google doesnt want to give ai technology to the us military because god forbid we may use it some day to target a terrorist or someone who wants to harm america": {
+                "test:quote": "google doesnt want to give ai technology to the us military because god forbid we may use it some day to target a terrorist or someone who wants to harm america", 
+                "test:type": "quote"
+            }, 
+            "test:to guarantee that this suppression continues beyond the internment camps into the daily lives of all uighurs chinese authorities have constructed a highly intrusive hightech surveillance system in xinjiang which many experts fear will be extended througho": {
+                "test:quote": "to guarantee that this suppression continues beyond the internment camps into the daily lives of all uighurs chinese authorities have constructed a highly intrusive hightech surveillance system in xinjiang which many experts fear will be extended throughout china", 
+                "test:type": "quote"
+            }, 
+            "test:there is no question in my mind that china will leverage technology to assist the 6 of the chinese population in controlling the other 94": {
+                "test:quote": "there is no question in my mind that china will leverage technology to assist the 6 of the chinese population in controlling the other 94", 
+                "test:type": "quote"
+            }, 
+            "test:there is no question in my mind that china will leverage technology to assist the 6 percent of the chinese population in controlling the other 94 percent": {
+                "test:quote": "there is no question in my mind that china will leverage technology to assist the 6 percent of the chinese population in controlling the other 94 percent", 
+                "test:type": "quote"
+            }, 
+            "test:in fact the way i described it to our industry partners is look were the good guys": {
+                "test:quote": "in fact the way i described it to our industry partners is look were the good guys", 
+                "test:type": "quote"
+            }, 
+            "test:companies doing business with china will to lead to intellectual property from that company finding its way to the chinese military": {
+                "test:quote": "companies doing business with china will to lead to intellectual property from that company finding its way to the chinese military", 
+                "test:type": "quote"
+            }, 
+            "test:the pla has sponsored more than 2500 military scientists and engineers to study abroad and has developed relationships with researchers and institutions across the globe": {
+                "test:quote": "the pla has sponsored more than 2500 military scientists and engineers to study abroad and has developed relationships with researchers and institutions across the globe", 
+                "test:type": "quote"
+            }, 
+            "test:dozens of pla scientists have obscured their military affiliations to travel to five eyes countries and the european union including at least 17 to australia where they work in areas such as hypersonic missiles and navigation technology": {
+                "test:quote": "dozens of pla scientists have obscured their military affiliations to travel to five eyes countries and the european union including at least 17 to australia where they work in areas such as hypersonic missiles and navigation technology", 
+                "test:type": "quote"
+            }, 
+            "test:youre telling me that google an american company supposedly is refusing to work with the department of defense but is doing work with china in china in a way that at least indirectly benefits the chinese government": {
+                "test:quote": "youre telling me that google an american company supposedly is refusing to work with the department of defense but is doing work with china in china in a way that at least indirectly benefits the chinese government", 
+                "test:type": "quote"
+            }, 
+            "test:all of it will be shared with the military and with the repressive forces that are doing this": {
+                "test:quote": "all of it will be shared with the military and with the repressive forces that are doing this", 
+                "test:type": "quote"
+            }, 
+            "test:a wide array of evidence indicates that the number of individuals detained in such reeducation centers since april 2017 numbers at least in the hundreds of thousands and possibly millions": {
+                "test:quote": "a wide array of evidence indicates that the number of individuals detained in such reeducation centers since april 2017 numbers at least in the hundreds of thousands and possibly millions", 
+                "test:type": "quote"
+            }, 
+            "test:the system asked me to use the partner university": {
+                "test:quote": "the system asked me to use the partner university", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "174190": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:my concern when you think about things like artificial intelligence… they’re gonna help an authoritarian government assert control over its own population"
+            }, 
+            "174270": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "prov:activity": "test:what is done in china will become a template for many other nations"
+            }, 
+            "174194": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:what china is able to do is identify patterns of behavior amongst people and determine who’s reliable and who’s not reliable"
+            }, 
+            "174198": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:there is no question in my mind that china will leverage technology to assist the 6 of the chinese population in controlling the other 94"
+            }, 
+            "174334": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:once again the science of ai has no borders neither do its benefits"
+            }, 
+            "174318": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:google doesnt want to give ai technology to the us military because god forbid we may use it some day to target a terrorist or someone who wants to harm america"
+            }, 
+            "174300": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:and they don’t criticize the government of china and the communist party because they dont want to jeopardize their ability to sell products in that country"
+            }, 
+            "174223": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:youre telling me that google an american company supposedly is refusing to work with the department of defense but is doing work with china in china in a way that at least indirectly benefits the chinese government"
+            }, 
+            "174310": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:to guarantee that this suppression continues beyond the internment camps into the daily lives of all uighurs chinese authorities have constructed a highly intrusive hightech surveillance system in xinjiang which many experts fear will be extended througho"
+            }, 
+            "174208": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:and so my concern when you think about things like artificial intelligence … theyre gonna help an authoritarian government assert control over its own population"
+            }, 
+            "174227": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:in fact the way i described it to our industry partners is look were the good guys"
+            }, 
+            "174304": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:embedding of party personnel in homes"
+            }, 
+            "174204": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:that is going to lead to that intellectual property from that company finding its way to the chinese military"
+            }, 
+            "174322": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:but google has no problem opening up a center of ai in china knowing full well how anything you do in china — if its a benefit to the military theyre going to use it if its a benefit to the security services theyre going to use it"
+            }, 
+            "174314": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:all of it will be shared with the military and with the repressive forces that are doing this"
+            }, 
+            "174284": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:a multicloud approach is in the best interest of government agencies because it allows them to choose the right cloud for the right workload"
+            }, 
+            "174249": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:activity": "test:the system asked me to use the partner university"
+            }, 
+            "174286": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:at a time when new technology is constantly becoming available customers should have the ability to take advantage of that innovation"
+            }, 
+            "174280": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:the truth is that the project was stopped by the thousands of workers who demanded a say in what they build"
+            }, 
+            "174268": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/opinion/google-is-fine-playing-big-brother-for-communist-china", 
+                "prov:activity": "test:i’m against large companies and governments collaborating in the oppression of their people and feel like transparency around what’s being done is in the public interest"
+            }, 
+            "174253": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:activity": "test:military and political courses can be excluded"
+            }, 
+            "174260": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:activity": "test:sabbatical leave from the department of geodesy of the institute of surveying and mapping zhengzhou china"
+            }, 
+            "174296": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:its hypocritical for american corporations and multinationals doing business in china — who are fully prepared to boycott american cities and american communities because they dont like things that are happening here — to be okay to turn a blind eye t"
+            }, 
+            "174231": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:and the values that we represent and the system that we represent is the one that will allow and has allowed you to thrive"
+            }, 
+            "174282": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:had the jedi contract been open to multiple vendors we would have submitted a compelling solution for portions of it"
+            }, 
+            "174188": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact that’s going to have on the united states’ ability to maintain a competitive military advantage and all that go"
+            }, 
+            "174184": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:this is not about me and google"
+            }, 
+            "174219": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:im happy to have that debate"
+            }, 
+            "174180": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:companies doing business with china will to lead to intellectual property from that company finding its way to the chinese military"
+            }, 
+            "174235": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:what china is able to do is identify patterns of behavior amongst people and determine whos reliable and whos not reliable"
+            }, 
+            "174172": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:those countries don’t count china as a security ally but rather treat it as one of their main intelligence adversaries"
+            }, 
+            "174170": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:dozens of pla scientists have obscured their military affiliations to travel to five eyes countries and the european union including at least 17 to australia where they work in areas such as hypersonic missiles and navigation technology"
+            }, 
+            "174176": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:those scientists work in strategic and emerging technology sectors such as quantum physics signal processing cryptography navigation technology and autonomous vehicles"
+            }, 
+            "174174": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:the pla has sponsored more than 2500 military scientists and engineers to study abroad and has developed relationships with researchers and institutions across the globe"
+            }, 
+            "174239": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:there is no question in my mind that china will leverage technology to assist the 6 percent of the chinese population in controlling the other 94 percent"
+            }, 
+            "174212": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:this is not about me and google"
+            }, 
+            "174178": {
+                "prov:entity": "test:https://www.infowars.com/flashback-china-secretly-planting-military-scientists-in-western-universities-report/", 
+                "prov:activity": "test:picking flowers in foreign lands to make honey in china"
+            }, 
+            "174215": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/joint-chiefs-chairman-says-hell-meet-with-google-to-explain-were-the-good-guys", 
+                "prov:activity": "test:this is about us looking at the second and thirdorder effects of our business ventures in china china’s form of government and the impact thats going to have on the united states ability to maintain a competitive military advantage and all that goes wit"
+            }, 
+            "174258": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:activity": "test:can carry more payload than ordinary flight vehicles"
+            }, 
+            "174292": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:who have reportedly supplied surveillance and biometric technology"
+            }, 
+            "174306": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:a wide array of evidence indicates that the number of individuals detained in such reeducation centers since april 2017 numbers at least in the hundreds of thousands and possibly millions"
+            }, 
+            "174278": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:google points to its ai principles as the reason for this decision principles that are themselves a response to internal dissent"
+            }, 
+            "174326": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:i believe ai and its benefits have no borders"
+            }, 
+            "174330": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/policy/defense-national-security/marco-rubio-google-other-us-companies-are-aiding-chinese-surveillance", 
+                "prov:activity": "test:we look forward to working with the brightest ai researchers in china to help find solutions to the world’s problems"
+            }, 
+            "174276": {
+                "prov:entity": "test:https://www.washingtonexaminer.com/business/google-abandons-fight-for-militarys-10-billion-jedi-cloud-contract", 
+                "prov:activity": "test:we couldnt be assured that it would align with our artificial intelligence principles"
+            }, 
+            "174255": {
+                "prov:entity": "test:https://www.aspi.org.au/report/picking-flowers-making-honey", 
+                "prov:activity": "test:right now i’m a professor at rfeu and head of the military key lab on missile testing and control technology"
+            }
+        }
+    }
+}

@@ -1,0 +1,2221 @@
+{
+    "root": "https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "161266": {
+                "prov:usedEntity": "test:https://www.documentcloud.org/documents/6178150-BOWEN-TEXT-MESSAGE-EXHIBIT-DEF.html", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161244": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-undocumented-immigrants/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html"
+            }, 
+            "161224": {
+                "prov:usedEntity": "test:https://www.ice.gov/removal-statistics/2017", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161256": {
+                "prov:usedEntity": "test:https://www.propublica.org/getinvolved/people-are-using-secret-facebook-groups-to-spread-hate-we-cant-see-we-need-your-help", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161210": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/28/politics/migrant-immigration-mcaleenan/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161163": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161226": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/07/politics/trump-tariffs-mexico-mike-pence/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html"
+            }, 
+            "161161": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161234": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/02/us/detention-facilities-protests-migrants-close-camps/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html"
+            }, 
+            "161167": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161188": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html"
+            }, 
+            "161165": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/27/politics/border-funding-migrant-crisis-nancy-pelosi-house-senate-bills/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161230": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/28/politics/migrant-immigration-mcaleenan/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html"
+            }, 
+            "161273": {
+                "prov:usedEntity": "test:https://www.texastribune.org/2019/06/24/texas-border-facility-donations-turned-away/", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html"
+            }, 
+            "161184": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/alexandria-ocasio-cortez-clint-texas-facility/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html"
+            }, 
+            "161169": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/02/us/detention-facilities-protests-migrants-close-camps/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161186": {
+                "prov:usedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html"
+            }, 
+            "161271": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/23/politics/mike-pence-border-conditions-congress/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html"
+            }, 
+            "161212": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/31/politics/inspector-general-warns-overcrowded-conditions/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161275": {
+                "prov:usedEntity": "test:https://www.gao.gov/legal/appropriations-law-decisions/resources", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html"
+            }, 
+            "161238": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/25/americas/mexico-photo-of-father-and-daughter-dead-in-rio-grande/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html"
+            }, 
+            "161148": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html"
+            }, 
+            "161218": {
+                "prov:usedEntity": "test:https://www.cnn.com/2018/03/02/politics/ice-immigration-deportations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161254": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2017/11/14/women-federal-law-enforcement-male-dominated-244649", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161214": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/10/politics/trump-family-deportation-migrants/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161216": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/19/politics/trump-mass-deportations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161144": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html"
+            }, 
+            "161146": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html"
+            }, 
+            "161262": {
+                "prov:usedEntity": "test:https://www.plainviewproject.org/", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161248": {
+                "prov:usedEntity": "test:https://www.revealnews.org/article/inside-hate-groups-on-facebook-police-officers-trade-racist-memes-conspiracy-theories-and-islamophobia/", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161258": {
+                "prov:usedEntity": "test:https://www.propublica.org/article/investigation-of-secret-border-patrol-group-launched-as-new-degrading-facebook-posts-surface", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161260": {
+                "prov:usedEntity": "test:https://www.propublica.org/leak-to-us/", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161264": {
+                "prov:usedEntity": "test:https://go.propublica.org/big-story-2019", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161250": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/nation/2019/05/20/mindless-murdering-savages-border-agent-used-slurs-before-allegedly-hitting-migrant-with-his-truck/?utm_term=.7d09cc499eca&noredirect=on", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161242": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/19/politics/trump-mass-deportations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html"
+            }, 
+            "161175": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161240": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/28/politics/border-funding-bill-house-democrats-divided-progressives-moderates/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html"
+            }, 
+            "161177": {
+                "prov:usedEntity": "test:https://twitter.com/DHSMcAleenan/status/1146398640962977793", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161246": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/18/politics/donald-trump-ice-undocumented-immigrants-deportations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html"
+            }, 
+            "161171": {
+                "prov:usedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161198": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/25/politics/customs-and-border-protection-john-sanders/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd"
+            }, 
+            "161173": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161196": {
+                "prov:usedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:generatedEntity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd"
+            }, 
+            "161194": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd"
+            }, 
+            "161192": {
+                "prov:usedEntity": "test:https://www.cnn.com/videos/politics/2019/07/03/border-patrol-agent-exclusive-facilities-valencia-ctn-pkg-vpx.cnn", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html"
+            }, 
+            "161179": {
+                "prov:usedEntity": "test:https://twitter.com/DHSMcAleenan/status/1146398639826329601", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html"
+            }, 
+            "161190": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html"
+            }, 
+            "161228": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/08/politics/border-patrol-apprehension-numbers/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html"
+            }, 
+            "161159": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161208": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/alexandria-ocasio-cortez-clint-texas-facility/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161236": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/27/americas/drowned-father-daughter-rio-grande-migrants-el-salvador/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html"
+            }, 
+            "161206": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/28/us/mcallen-texas-processing-center/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161153": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html"
+            }, 
+            "161204": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/02/politics/cnn-poll-immigration-border-crisis/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161151": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html"
+            }, 
+            "161202": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/02/us/detention-facilities-protests-migrants-close-camps/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html"
+            }, 
+            "161157": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html"
+            }, 
+            "161200": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd"
+            }, 
+            "161155": {
+                "prov:usedEntity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html"
+            }, 
+            "161220": {
+                "prov:usedEntity": "test:https://twitter.com/nolaready/status/1149370750287192065", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161252": {
+                "prov:usedEntity": "test:https://www.propublica.org/article/en-un-grupo-secreto-en-facebook-agentes-de-la-patrulla-fronteriza-se-burlan-de-inmigrantes-muertos-y-publican-memes-sexistas", 
+                "prov:generatedEntity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes"
+            }, 
+            "161269": {
+                "prov:usedEntity": "test:https://www.cnn.com/2018/12/20/us/gofundme-border-wall/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html"
+            }, 
+            "161222": {
+                "prov:usedEntity": "test:https://www.ice.gov/news/releases/ice-announces-results-operation-border-guardianborder-resolve", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html"
+            }, 
+            "161232": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/01/politics/alexandria-ocasio-cortez-clint-texas-facility/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "160502": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160696": {
+                "prov:entity": "test:these agents dont deserve to wear any uniform representing the united states of america", 
+                "prov:agent": "test:Joaquin Castro"
+            }, 
+            "160566": {
+                "prov:entity": "test:this crisis is real the time for action is now", 
+                "prov:agent": "test:Pence"
+            }, 
+            "160692": {
+                "prov:entity": "test:any employees found to have violated our standards of conduct will be held accountable", 
+                "prov:agent": "test:Carla Provost"
+            }, 
+            "160562": {
+                "prov:entity": "test:to be honest with you i was not surprised by what we saw", 
+                "prov:agent": "test:Pence"
+            }, 
+            "160614": {
+                "prov:entity": "test:you have a president saying everythings just fine", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160610": {
+                "prov:entity": "test:what do you think they are going to see", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160815": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:agent": "test:Catherine E. Shoichet"
+            }, 
+            "160764": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:agent": "test:Cnn'S Matthew Hilk"
+            }, 
+            "160762": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "160811": {
+                "prov:entity": "test:stop cruelty to migrant children act", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160618": {
+                "prov:entity": "test:these facilities these detention centers are just being run great", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160813": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160895": {
+                "prov:entity": "test:this week were planning to move out for a week until this stops but next month were going to move from the apartment", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160958": {
+                "prov:entity": "test:that’s why they’re the worst at recruiting women", 
+                "prov:agent": "test:Gaubeca"
+            }, 
+            "160899": {
+                "prov:entity": "test:ive been in that apartment for five years now so i dont think its secure", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160952": {
+                "prov:entity": "test:it confirms some of the worst criticisms of customs and border protection", 
+                "prov:agent": "test:Castro"
+            }, 
+            "160688": {
+                "prov:entity": "test:these posts are completely inappropriate and contrary to the honor and integrity i see — and expect — from our agents day in and day out", 
+                "prov:agent": "test:Carla Provost"
+            }, 
+            "161049": {
+                "prov:entity": "test:let the community get involved if anybody higher up in terms of the administration or likewise in government is not able to do so", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "160606": {
+                "prov:entity": "test:i dont want to participate in what is basically the trump show the trumppence show", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160779": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160602": {
+                "prov:entity": "test:now were going to continue to improve were going to continue to provide care at the standard the american people expect", 
+                "prov:agent": "test:Pence"
+            }, 
+            "160803": {
+                "prov:entity": "test:and if you didnt feel shame pain", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160777": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "161073": {
+                "prov:entity": "test:so the lines of communication are open", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160807": {
+                "prov:entity": "test:if you werent appalled by these pictures then something is dead or dying in your hearts and in the heart of america", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "161045": {
+                "prov:entity": "test:obviously the community wants to help out", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "160775": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160962": {
+                "prov:entity": "test:they have the lowest percentage of female agents or officers of any federal law enforcement agency", 
+                "prov:agent": "test:Gaubeca"
+            }, 
+            "160638": {
+                "prov:entity": "test:i have directed an immediate investigation and as the usbpchief has made clear any employee found to have compromised the publics trust in our law enforcement mission will be held accountable", 
+                "prov:agent": "test:McAleenan"
+            }, 
+            "160966": {
+                "prov:entity": "test:i have never seen floaters like this", 
+                "prov:agent": "test:Gaubeca"
+            }, 
+            "161057": {
+                "prov:entity": "test:we rang the intercom buzzer to no response and we called the help line posted on the window to no response", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "161053": {
+                "prov:entity": "test:the facility itself was shut down", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "160630": {
+                "prov:entity": "test:believe me when any of us visit they will make sure that they see what they want us to see", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160632": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160634": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:agent": "test:Priscilla Alvarez"
+            }, 
+            "160506": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+                "prov:agent": "test:Priscilla Alvarez"
+            }, 
+            "160742": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160744": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "160746": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:agent": "test:Nick Valencia"
+            }, 
+            "160877": {
+                "prov:entity": "test:ive seen those sorts of messages and calls more than usual which really worries me because those are people that are preparing in fear", 
+                "prov:agent": "test:Taveras"
+            }, 
+            "160873": {
+                "prov:entity": "test:we keep getting calls and messages from folks saying were scared", 
+                "prov:agent": "test:Taveras"
+            }, 
+            "160756": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160754": {
+                "prov:entity": "test:the bottom line is the agency may bring discipline against an employee who posts offensive messages on a social media page where there is a nexus to the agency workplace", 
+                "prov:agent": "test:Matthew Klein"
+            }, 
+            "161027": {
+                "prov:entity": "test:the short answer is its against the law", 
+                "prov:agent": "test:Brown"
+            }, 
+            "160750": {
+                "prov:entity": "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employees could access on which inappropriate and offensive posts were made", 
+                "prov:agent": "test:Matthew Klein"
+            }, 
+            "160758": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:agent": "test:Cnn'S Eliott C. Mclaughlin"
+            }, 
+            "160903": {
+                "prov:entity": "test:i want to sayi give up", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160907": {
+                "prov:entity": "test:because this is not a life", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160514": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:agent": "test:Nick Valencia"
+            }, 
+            "160516": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "160622": {
+                "prov:entity": "test:yeah thats what theyre going to see", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160512": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160594": {
+                "prov:entity": "test:the facility you saw today represents the level and the standards of care that we are working to bring to all those caught up in this crisis", 
+                "prov:agent": "test:Pence"
+            }, 
+            "160869": {
+                "prov:entity": "test:she was trying to figure out how to make it there", 
+                "prov:agent": "test:Melissa Taveras"
+            }, 
+            "160590": {
+                "prov:entity": "test:i cant account for that", 
+                "prov:agent": "test:Pence"
+            }, 
+            "160865": {
+                "prov:entity": "test:we got a call from a mom who said that her little girl wasnt feeling well and she was afraid to go to the doctor", 
+                "prov:agent": "test:Melissa Taveras"
+            }, 
+            "160598": {
+                "prov:entity": "test:remember it was just a few short weeks ago that congress finally acknowledged the crisis and gave us an additional 46 billion in humanitarian aid", 
+                "prov:agent": "test:Pence"
+            }, 
+            "161031": {
+                "prov:entity": "test:that law is a law passed by congress that says the government cannot accept goods and services without remuneration", 
+                "prov:agent": "test:Theresa Cardinal Brown"
+            }, 
+            "160720": {
+                "prov:entity": "test:its obviously not acceptable for anyone to threaten a member of congress", 
+                "prov:agent": "test:Escobar"
+            }, 
+            "161035": {
+                "prov:entity": "test:because it cannot spend or use things that have not been appropriated to it by congress", 
+                "prov:agent": "test:Theresa Cardinal Brown"
+            }, 
+            "160760": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:agent": "test:Cnn'S Priscilla Alvarez"
+            }, 
+            "160724": {
+                "prov:entity": "test:im more concerned that there are men and women people in customs and border protection and dhs who feel this way about migrants especially children", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160558": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:agent": "test:Betsy Klein"
+            }, 
+            "161039": {
+                "prov:entity": "test:if cbp was able to accept donations outside of that it would be overspending what it was authorized to spend", 
+                "prov:agent": "test:Theresa Cardinal Brown"
+            }, 
+            "160728": {
+                "prov:entity": "test:it could be civilians or spouses of agents", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160911": {
+                "prov:entity": "test:i have no drivers license", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160915": {
+                "prov:entity": "test:my daughter sometimes says mom im scared youre not going to come back home", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160919": {
+                "prov:entity": "test:i dont know if im going to get the opportunity to feel that i have a free life that i live in peace", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160853": {
+                "prov:entity": "test:yes im taking the risk", 
+                "prov:agent": "test:Élfido García"
+            }, 
+            "160732": {
+                "prov:entity": "test:i can say with certainty that they represent a lot of hate out there against people like me who advocate for the dignity of human beings", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "161009": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:agent": "test:Catherine E. Shoichet"
+            }, 
+            "160736": {
+                "prov:entity": "test:this facebook group is beyond sexist and racist  it is truly abhorrent and shameful and there is no excuse for this depraved behavior", 
+                "prov:agent": "test:Thompson"
+            }, 
+            "161007": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "161085": {
+                "prov:entity": "test:i understand there can be some policy reasons and security reasons but these reasons can be overcome", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160845": {
+                "prov:entity": "test:my husband says what happened to you last night", 
+                "prov:agent": "test:Elena"
+            }, 
+            "161081": {
+                "prov:entity": "test:to say that you dont have the adequate resources yet were going to turn down resources that are being offered for free is derelict", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160841": {
+                "prov:entity": "test:these past two days ive been waking up in the middle of the night", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160642": {
+                "prov:entity": "test:they do not represent the men and women of the border patrol or dhsgov", 
+                "prov:agent": "test:McAleenan"
+            }, 
+            "160921": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:agent": "test:www.propublica.org"
+            }, 
+            "160849": {
+                "prov:entity": "test:you started screaming in your dream", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160923": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:agent": "test:A.C. Thompson"
+            }, 
+            "160626": {
+                "prov:entity": "test:but we know from all of the reports that things are not great", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "160510": {
+                "prov:entity": "test:obviously the number of cases we anticipate will continue to grow as we receive additional information and perform further research and conduct interviews", 
+                "prov:agent": "test:Klein"
+            }, 
+            "161013": {
+                "prov:entity": "test:it just befuddles me and i think its just heartbreaking to know that theres so many people that want to help and that help is being denied for no definable reasons that anybodys been able to communicate", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160540": {
+                "prov:entity": "test:we take all the posts that were put out today very seriously", 
+                "prov:agent": "test:Brian Hastings"
+            }, 
+            "160708": {
+                "prov:entity": "test:we are dealing with a crisis right now", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160671": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:agent": "test:Matthew Hilk"
+            }, 
+            "160544": {
+                "prov:entity": "test:these do not represent the thoughts of the men and women of the us border patrol", 
+                "prov:agent": "test:Brian Hastings"
+            }, 
+            "160704": {
+                "prov:entity": "test:in the last facility i was not safe from the officers", 
+                "prov:agent": "test:Joaquin Castro"
+            }, 
+            "160548": {
+                "prov:entity": "test:each one of these allegations will be thoroughly investigated", 
+                "prov:agent": "test:Brian Hastings"
+            }, 
+            "160700": {
+                "prov:entity": "test:theyre threatening violence on members of congress", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160785": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "160939": {
+                "prov:entity": "test:they’re clearly xenophobic and sexist", 
+                "prov:agent": "test:Daniel Martinez"
+            }, 
+            "160787": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160781": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html", 
+                "prov:agent": "test:Priscilla Alvarez"
+            }, 
+            "160783": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160789": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:agent": "test:Sarah Fortinsky"
+            }, 
+            "160935": {
+                "prov:entity": "test:these comments and memes are extremely troubling", 
+                "prov:agent": "test:Daniel Martinez"
+            }, 
+            "160833": {
+                "prov:entity": "test:i know that i dont have to open the door", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160552": {
+                "prov:entity": "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employee could access on which inappropriate and offensive posts were made", 
+                "prov:agent": "test:Klein"
+            }, 
+            "160667": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160554": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "160556": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:agent": "test:Pamela Brown"
+            }, 
+            "160712": {
+                "prov:entity": "test:over 680000 apprehensions so far this year", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160669": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:agent": "test:Geneva Sands"
+            }, 
+            "160716": {
+                "prov:entity": "test:agents are under a great deal of stress", 
+                "prov:agent": "test:Ocasio-Cortez"
+            }, 
+            "160837": {
+                "prov:entity": "test:i know a lot of things but even with that its really scary", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160821": {
+                "prov:entity": "test:i said ok you know what were going to keep the windows down the blinds down", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160791": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:agent": "test:Suzanne Malveaux"
+            }, 
+            "160825": {
+                "prov:entity": "test:i dont want any noise", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160795": {
+                "prov:entity": "test:when you saw the pictures of the kids at these detention facilities", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "161069": {
+                "prov:entity": "test:we had a semiproductive conversation with respect to what was happening and the rio grande sector chief seemed to be receptive to trying to come to some sort of arrangement wherein he could accept donations", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160829": {
+                "prov:entity": "test:i want everybody to stay calm and try to turn off the lights in the living room so if they come they dont know that we are in the house", 
+                "prov:agent": "test:Elena"
+            }, 
+            "160799": {
+                "prov:entity": "test:when you saw the father the little girl drowned in the rio grande", 
+                "prov:agent": "test:Hirono"
+            }, 
+            "161065": {
+                "prov:entity": "test:the agents in the vehicles saw us clearly and in some cases stopped the vehicle to stare back but no one interacted with us", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "161061": {
+                "prov:entity": "test:the only activity was vehicles moving in and out from the facility through an electronic sliding gate", 
+                "prov:agent": "test:Gabriel Acuña"
+            }, 
+            "160740": {
+                "prov:entity": "test:the agents found to be responsible for these vile comments should no longer have the privilege of representing the united states of america in uniform", 
+                "prov:agent": "test:Thompson"
+            }, 
+            "161077": {
+                "prov:entity": "test:but the reality is border patrol is overwhelmed and whether theyve got the monetary funding to provide the resources and whether they can provide the resources are two different things", 
+                "prov:agent": "test:Canales"
+            }, 
+            "160504": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+                "prov:agent": "test:Nick Valencia"
+            }
+        }, 
+        "agent": {
+            "test:Suzanne Malveaux": {
+                "test:name": "Suzanne Malveaux", 
+                "test:type": "person"
+            }, 
+            "test:www.propublica.org": {
+                "test:publisher": "www.propublica.org", 
+                "test:type": "publisher"
+            }, 
+            "test:A.C. Thompson": {
+                "test:name": "A.C. Thompson", 
+                "test:type": "person"
+            }, 
+            "test:Canales": {
+                "test:name": "Canales", 
+                "test:type": "person"
+            }, 
+            "test:Brown": {
+                "test:name": "Brown", 
+                "test:type": "person"
+            }, 
+            "test:Hirono": {
+                "test:name": "Hirono", 
+                "test:type": "person"
+            }, 
+            "test:Catherine E. Shoichet": {
+                "test:name": "Catherine E. Shoichet", 
+                "test:type": "person"
+            }, 
+            "test:Élfido García": {
+                "test:name": "Élfido García", 
+                "test:type": "person"
+            }, 
+            "test:McAleenan": {
+                "test:name": "McAleenan", 
+                "test:type": "person"
+            }, 
+            "test:Castro": {
+                "test:name": "Castro", 
+                "test:type": "person"
+            }, 
+            "test:Geneva Sands": {
+                "test:name": "Geneva Sands", 
+                "test:type": "person"
+            }, 
+            "test:Nick Valencia": {
+                "test:name": "Nick Valencia", 
+                "test:type": "person"
+            }, 
+            "test:Pamela Brown": {
+                "test:name": "Pamela Brown", 
+                "test:type": "person"
+            }, 
+            "test:Escobar": {
+                "test:name": "Escobar", 
+                "test:type": "person"
+            }, 
+            "test:Pence": {
+                "test:name": "Pence", 
+                "test:type": "person"
+            }, 
+            "test:Matthew Hilk": {
+                "test:name": "Matthew Hilk", 
+                "test:type": "person"
+            }, 
+            "test:Daniel Martinez": {
+                "test:name": "Daniel Martinez", 
+                "test:type": "person"
+            }, 
+            "test:Thompson": {
+                "test:name": "Thompson", 
+                "test:type": "person"
+            }, 
+            "test:Elena": {
+                "test:name": "Elena", 
+                "test:type": "person"
+            }, 
+            "test:Carla Provost": {
+                "test:name": "Carla Provost", 
+                "test:type": "person"
+            }, 
+            "test:Melissa Taveras": {
+                "test:name": "Melissa Taveras", 
+                "test:type": "person"
+            }, 
+            "test:Gaubeca": {
+                "test:name": "Gaubeca", 
+                "test:type": "person"
+            }, 
+            "test:Gabriel Acuña": {
+                "test:name": "Gabriel Acuña", 
+                "test:type": "person"
+            }, 
+            "test:Joaquin Castro": {
+                "test:name": "Joaquin Castro", 
+                "test:type": "person"
+            }, 
+            "test:Cnn'S Eliott C. Mclaughlin": {
+                "test:name": "Cnn'S Eliott C. Mclaughlin", 
+                "test:type": "person"
+            }, 
+            "test:Taveras": {
+                "test:name": "Taveras", 
+                "test:type": "person"
+            }, 
+            "test:Theresa Cardinal Brown": {
+                "test:name": "Theresa Cardinal Brown", 
+                "test:type": "person"
+            }, 
+            "test:Betsy Klein": {
+                "test:name": "Betsy Klein", 
+                "test:type": "person"
+            }, 
+            "test:www.cnn.com": {
+                "test:publisher": "www.cnn.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Brian Hastings": {
+                "test:name": "Brian Hastings", 
+                "test:type": "person"
+            }, 
+            "test:Matthew Klein": {
+                "test:name": "Matthew Klein", 
+                "test:type": "person"
+            }, 
+            "test:Cnn'S Priscilla Alvarez": {
+                "test:name": "Cnn'S Priscilla Alvarez", 
+                "test:type": "person"
+            }, 
+            "test:Cnn'S Matthew Hilk": {
+                "test:name": "Cnn'S Matthew Hilk", 
+                "test:type": "person"
+            }, 
+            "test:Sarah Fortinsky": {
+                "test:name": "Sarah Fortinsky", 
+                "test:type": "person"
+            }, 
+            "test:Ocasio-Cortez": {
+                "test:name": "Ocasio-Cortez", 
+                "test:type": "person"
+            }, 
+            "test:Klein": {
+                "test:name": "Klein", 
+                "test:type": "person"
+            }, 
+            "test:Priscilla Alvarez": {
+                "test:name": "Priscilla Alvarez", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.propublica.org/getinvolved/people-are-using-secret-facebook-groups-to-spread-hate-we-cant-see-we-need-your-help": {
+                "test:url": "https://www.propublica.org/getinvolved/people-are-using-secret-facebook-groups-to-spread-hate-we-cant-see-we-need-your-help", 
+                "test:type": "article"
+            }, 
+            "test:https://www.propublica.org/article/en-un-grupo-secreto-en-facebook-agentes-de-la-patrulla-fronteriza-se-burlan-de-inmigrantes-muertos-y-publican-memes-sexistas": {
+                "test:url": "https://www.propublica.org/article/en-un-grupo-secreto-en-facebook-agentes-de-la-patrulla-fronteriza-se-burlan-de-inmigrantes-muertos-y-publican-memes-sexistas", 
+                "test:type": "article"
+            }, 
+            "test:https://www.gao.gov/legal/appropriations-law-decisions/resources": {
+                "test:url": "https://www.gao.gov/legal/appropriations-law-decisions/resources", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "test:date": "2019-06-25", 
+                "test:title": "Why Border Patrol isn't accepting donations for kids in custody", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/18/politics/donald-trump-ice-undocumented-immigrants-deportations/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/18/politics/donald-trump-ice-undocumented-immigrants-deportations/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ice.gov/removal-statistics/2017": {
+                "test:url": "https://www.ice.gov/removal-statistics/2017", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cnn.com/2019/05/31/politics/inspector-general-warns-overcrowded-conditions/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/31/politics/inspector-general-warns-overcrowded-conditions/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2018/12/20/us/gofundme-border-wall/index.html": {
+                "test:url": "https://www.cnn.com/2018/12/20/us/gofundme-border-wall/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "test:date": "2019-07-11", 
+                "test:title": "Senator grows emotional recalling photo of dead father and child at the border", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/07/politics/trump-tariffs-mexico-mike-pence/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/07/politics/trump-tariffs-mexico-mike-pence/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/DHSMcAleenan/status/1146398639826329601": {
+                "test:url": "https://twitter.com/DHSMcAleenan/status/1146398639826329601", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/11/politics/ice-raids-explainer/index.html", 
+                "test:date": "2019-07-11", 
+                "test:title": "What to know about the ICE raids scheduled for this weekend", 
+                "test:type": "article"
+            }, 
+            "test:https://www.politico.com/story/2017/11/14/women-federal-law-enforcement-male-dominated-244649": {
+                "test:url": "https://www.politico.com/story/2017/11/14/women-federal-law-enforcement-male-dominated-244649", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/02/politics/cnn-poll-immigration-border-crisis/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/02/politics/cnn-poll-immigration-border-crisis/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/nolaready/status/1149370750287192065": {
+                "test:url": "https://twitter.com/nolaready/status/1149370750287192065", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/07/02/us/detention-facilities-protests-migrants-close-camps/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/02/us/detention-facilities-protests-migrants-close-camps/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes": {
+                "test:url": "https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "test:date": "2019-07-01", 
+                "test:title": "Inside the Secret Border Patrol Facebook Group Where Agents Joke About Migrant Deaths and Post Sexist Memes — ProPublica", 
+                "test:type": "article"
+            }, 
+            "test:https://www.texastribune.org/2019/06/24/texas-border-facility-donations-turned-away/": {
+                "test:url": "https://www.texastribune.org/2019/06/24/texas-border-facility-donations-turned-away/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/02/politics/migrant-camps-border-patrol-inspector-general-report/index.html", 
+                "test:date": "2019-07-02", 
+                "test:title": "Watchdog finds extreme overcrowding in Border Patrol facilities in unannounced inspections", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "test:date": "2019-07-12", 
+                "test:title": "ICE raids are looming. Panicked immigrants are skipping work, hiding out and bracing for the worst", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/videos/politics/2019/07/03/border-patrol-agent-exclusive-facilities-valencia-ctn-pkg-vpx.cnn": {
+                "test:url": "https://www.cnn.com/videos/politics/2019/07/03/border-patrol-agent-exclusive-facilities-valencia-ctn-pkg-vpx.cnn", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.propublica.org/leak-to-us/": {
+                "test:url": "https://www.propublica.org/leak-to-us/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/07/01/politics/alexandria-ocasio-cortez-clint-texas-facility/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/01/politics/alexandria-ocasio-cortez-clint-texas-facility/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://go.propublica.org/big-story-2019": {
+                "test:url": "https://go.propublica.org/big-story-2019", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.propublica.org/article/investigation-of-secret-border-patrol-group-launched-as-new-degrading-facebook-posts-surface": {
+                "test:url": "https://www.propublica.org/article/investigation-of-secret-border-patrol-group-launched-as-new-degrading-facebook-posts-surface", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "test:date": "2019-07-05", 
+                "test:title": "Posts from second CBP-connected secret Facebook group show mocking images", 
+                "test:type": "article"
+            }, 
+            "test:https://www.documentcloud.org/documents/6178150-BOWEN-TEXT-MESSAGE-EXHIBIT-DEF.html": {
+                "test:url": "https://www.documentcloud.org/documents/6178150-BOWEN-TEXT-MESSAGE-EXHIBIT-DEF.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/06/27/americas/drowned-father-daughter-rio-grande-migrants-el-salvador/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/27/americas/drowned-father-daughter-rio-grande-migrants-el-salvador/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/28/politics/migrant-immigration-mcaleenan/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/28/politics/migrant-immigration-mcaleenan/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ice.gov/news/releases/ice-announces-results-operation-border-guardianborder-resolve": {
+                "test:url": "https://www.ice.gov/news/releases/ice-announces-results-operation-border-guardianborder-resolve", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cnn.com/2019/06/27/politics/border-funding-migrant-crisis-nancy-pelosi-house-senate-bills/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/27/politics/border-funding-migrant-crisis-nancy-pelosi-house-senate-bills/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/DHSMcAleenan/status/1146398640962977793": {
+                "test:url": "https://twitter.com/DHSMcAleenan/status/1146398640962977793", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/06/19/politics/trump-mass-deportations/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/19/politics/trump-mass-deportations/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/25/americas/mexico-photo-of-father-and-daughter-dead-in-rio-grande/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/25/americas/mexico-photo-of-father-and-daughter-dead-in-rio-grande/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/08/politics/border-patrol-apprehension-numbers/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/08/politics/border-patrol-apprehension-numbers/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "test:date": "2019-07-12", 
+                "test:title": "Pence: Border facility conditions are unacceptable", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+                "test:date": "2019-07-15", 
+                "test:title": "70 current and former US border employees connected to Facebook groups with lewd and mocking posts", 
+                "test:type": "article"
+            }, 
+            "test:https://www.plainviewproject.org/": {
+                "test:url": "https://www.plainviewproject.org/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/06/28/us/mcallen-texas-processing-center/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/28/us/mcallen-texas-processing-center/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/10/politics/trump-family-deportation-migrants/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/10/politics/trump-family-deportation-migrants/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/28/politics/border-funding-bill-house-democrats-divided-progressives-moderates/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/28/politics/border-funding-bill-house-democrats-divided-progressives-moderates/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "test:date": "2019-07-03", 
+                "test:title": "Acting DHS chief orders immediate investigation into offensive posts", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/11/politics/ice-raids-undocumented-immigrants/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/11/politics/ice-raids-undocumented-immigrants/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2018/03/02/politics/ice-immigration-deportations/index.html": {
+                "test:url": "https://www.cnn.com/2018/03/02/politics/ice-immigration-deportations/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/23/politics/mike-pence-border-conditions-congress/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/23/politics/mike-pence-border-conditions-congress/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "test:date": "2019-07-04", 
+                "test:title": "Customs and Border Protection 2018 memo warns of social media behavior", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/nation/2019/05/20/mindless-murdering-savages-border-agent-used-slurs-before-allegedly-hitting-migrant-with-his-truck/?utm_term=.7d09cc499eca&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/nation/2019/05/20/mindless-murdering-savages-border-agent-used-slurs-before-allegedly-hitting-migrant-with-his-truck/?utm_term=.7d09cc499eca&noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd": {
+                "test:url": "https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "test:date": "2019-07-02", 
+                "test:title": "Investigative report reveals CBP Facebook group featuring crude posts and jokes about migrant deaths", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/25/politics/customs-and-border-protection-john-sanders/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/25/politics/customs-and-border-protection-john-sanders/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "test:date": "2019-07-01", 
+                "test:title": "Report of cruel and lewd posts from Customs and Border Protection agents in a Facebook group sparks investigation", 
+                "test:type": "article"
+            }, 
+            "test:https://www.revealnews.org/article/inside-hate-groups-on-facebook-police-officers-trade-racist-memes-conspiracy-theories-and-islamophobia/": {
+                "test:url": "https://www.revealnews.org/article/inside-hate-groups-on-facebook-police-officers-trade-racist-memes-conspiracy-theories-and-islamophobia/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/03/politics/us-mexico-border-arrests-drop/index.html", 
+                "test:date": "2019-07-03", 
+                "test:title": "US-Mexico border arrests drop from May to June, CBP data shows", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:believe me when any of us visit they will make sure that they see what they want us to see": {
+                "test:quote": "believe me when any of us visit they will make sure that they see what they want us to see", 
+                "test:type": "quote"
+            }, 
+            "test:these agents dont deserve to wear any uniform representing the united states of america": {
+                "test:quote": "these agents dont deserve to wear any uniform representing the united states of america", 
+                "test:type": "quote"
+            }, 
+            "test:but the reality is border patrol is overwhelmed and whether theyve got the monetary funding to provide the resources and whether they can provide the resources are two different things": {
+                "test:quote": "but the reality is border patrol is overwhelmed and whether theyve got the monetary funding to provide the resources and whether they can provide the resources are two different things", 
+                "test:type": "quote"
+            }, 
+            "test:the government could not accept that money for a border wall because it would be a donation": {
+                "test:quote": "the government could not accept that money for a border wall because it would be a donation", 
+                "test:type": "quote"
+            }, 
+            "test:this isn’t just a few rogue agents or ‘bad apples": {
+                "test:quote": "this isn’t just a few rogue agents or ‘bad apples", 
+                "test:type": "quote"
+            }, 
+            "test:it just befuddles me and i think its just heartbreaking to know that theres so many people that want to help and that help is being denied for no definable reasons that anybodys been able to communicate": {
+                "test:quote": "it just befuddles me and i think its just heartbreaking to know that theres so many people that want to help and that help is being denied for no definable reasons that anybodys been able to communicate", 
+                "test:type": "quote"
+            }, 
+            "test:we believe in giving people a voice but we also want everyone using facebook to feel safe": {
+                "test:quote": "we believe in giving people a voice but we also want everyone using facebook to feel safe", 
+                "test:type": "quote"
+            }, 
+            "test:lucky illegal immigrant glory hole special starring aoc": {
+                "test:quote": "lucky illegal immigrant glory hole special starring aoc", 
+                "test:type": "quote"
+            }, 
+            "test:this is what i have to say": {
+                "test:quote": "this is what i have to say", 
+                "test:type": "quote"
+            }, 
+            "test:so we are looking at the possibility of using some of those donations going forward": {
+                "test:quote": "so we are looking at the possibility of using some of those donations going forward", 
+                "test:type": "quote"
+            }, 
+            "test:the vice presidents office specifically instructed cbp to not clean up or sanitize the facility beyond what is routine so the american people could see how serious the crisis at our border is overcrowding lack of resources beds": {
+                "test:quote": "the vice presidents office specifically instructed cbp to not clean up or sanitize the facility beyond what is routine so the american people could see how serious the crisis at our border is overcrowding lack of resources beds", 
+                "test:type": "quote"
+            }, 
+            "test:he was making fun of them": {
+                "test:quote": "he was making fun of them", 
+                "test:type": "quote"
+            }, 
+            "test:that law is a law passed by congress that says the government cannot accept goods and services without remuneration": {
+                "test:quote": "that law is a law passed by congress that says the government cannot accept goods and services without remuneration", 
+                "test:type": "quote"
+            }, 
+            "test:these are clearly agents who are desensitized to the point of being dangerous to migrants and their coworkers": {
+                "test:quote": "these are clearly agents who are desensitized to the point of being dangerous to migrants and their coworkers", 
+                "test:type": "quote"
+            }, 
+            "test:my daughter sometimes says mom im scared youre not going to come back home": {
+                "test:quote": "my daughter sometimes says mom im scared youre not going to come back home", 
+                "test:type": "quote"
+            }, 
+            "test:these past two days ive been waking up in the middle of the night": {
+                "test:quote": "these past two days ive been waking up in the middle of the night", 
+                "test:type": "quote"
+            }, 
+            "test:these will be individuals who are facing a deportation order and the priority that homeland security and ice will be placing will be on those individuals that have also committed crimes in this country and represent a threat to our communities": {
+                "test:quote": "these will be individuals who are facing a deportation order and the priority that homeland security and ice will be placing will be on those individuals that have also committed crimes in this country and represent a threat to our communities", 
+                "test:type": "quote"
+            }, 
+            "test:lost 7000 members in a day": {
+                "test:quote": "lost 7000 members in a day", 
+                "test:type": "quote"
+            }, 
+            "test:i want everybody to stay calm and try to turn off the lights in the living room so if they come they dont know that we are in the house": {
+                "test:quote": "i want everybody to stay calm and try to turn off the lights in the living room so if they come they dont know that we are in the house", 
+                "test:type": "quote"
+            }, 
+            "test:the agents in the vehicles saw us clearly and in some cases stopped the vehicle to stare back but no one interacted with us": {
+                "test:quote": "the agents in the vehicles saw us clearly and in some cases stopped the vehicle to stare back but no one interacted with us", 
+                "test:type": "quote"
+            }, 
+            "test:if you werent appalled by these pictures then something is dead or dying in your hearts and in the heart of america": {
+                "test:quote": "if you werent appalled by these pictures then something is dead or dying in your hearts and in the heart of america", 
+                "test:type": "quote"
+            }, 
+            "test:the facility you saw today represents the level and the standards of care that we are working to bring to all those caught up in this crisis": {
+                "test:quote": "the facility you saw today represents the level and the standards of care that we are working to bring to all those caught up in this crisis", 
+                "test:type": "quote"
+            }, 
+            "test:i have never seen floaters like this": {
+                "test:quote": "i have never seen floaters like this", 
+                "test:type": "quote"
+            }, 
+            "test:i have directed an immediate investigation and as the usbpchief has made clear any employee found to have compromised the publics trust in our law enforcement mission will be held accountable": {
+                "test:quote": "i have directed an immediate investigation and as the usbpchief has made clear any employee found to have compromised the publics trust in our law enforcement mission will be held accountable", 
+                "test:type": "quote"
+            }, 
+            "test:because it cannot spend or use things that have not been appropriated to it by congress": {
+                "test:quote": "because it cannot spend or use things that have not been appropriated to it by congress", 
+                "test:type": "quote"
+            }, 
+            "test:over 680000 apprehensions so far this year": {
+                "test:quote": "over 680000 apprehensions so far this year", 
+                "test:type": "quote"
+            }, 
+            "test:thats why we have community standards and remove anything that violates them": {
+                "test:quote": "thats why we have community standards and remove anything that violates them", 
+                "test:type": "quote"
+            }, 
+            "test:but those items its important to note are available now": {
+                "test:quote": "but those items its important to note are available now", 
+                "test:type": "quote"
+            }, 
+            "test:we talked to a boy who tried not to eat because he was so embarrassed to use the toilet": {
+                "test:quote": "we talked to a boy who tried not to eat because he was so embarrassed to use the toilet", 
+                "test:type": "quote"
+            }, 
+            "test:what do you think they are going to see": {
+                "test:quote": "what do you think they are going to see", 
+                "test:type": "quote"
+            }, 
+            "test:i dont want any noise": {
+                "test:quote": "i dont want any noise", 
+                "test:type": "quote"
+            }, 
+            "test:it confirms some of the worst criticisms of customs and border protection": {
+                "test:quote": "it confirms some of the worst criticisms of customs and border protection", 
+                "test:type": "quote"
+            }, 
+            "test:you have a president saying everythings just fine": {
+                "test:quote": "you have a president saying everythings just fine", 
+                "test:type": "quote"
+            }, 
+            "test:ive seen those sorts of messages and calls more than usual which really worries me because those are people that are preparing in fear": {
+                "test:quote": "ive seen those sorts of messages and calls more than usual which really worries me because those are people that are preparing in fear", 
+                "test:type": "quote"
+            }, 
+            "test:they do not represent the men and women of the border patrol or dhsgov": {
+                "test:quote": "they do not represent the men and women of the border patrol or dhsgov", 
+                "test:type": "quote"
+            }, 
+            "test:remember it was just a few short weeks ago that congress finally acknowledged the crisis and gave us an additional 46 billion in humanitarian aid": {
+                "test:quote": "remember it was just a few short weeks ago that congress finally acknowledged the crisis and gave us an additional 46 billion in humanitarian aid", 
+                "test:type": "quote"
+            }, 
+            "test:i know a lot of things but even with that its really scary": {
+                "test:quote": "i know a lot of things but even with that its really scary", 
+                "test:type": "quote"
+            }, 
+            "test:disappointed on sic all of you who abandoned ship": {
+                "test:quote": "disappointed on sic all of you who abandoned ship", 
+                "test:type": "quote"
+            }, 
+            "test:when you saw the father the little girl drowned in the rio grande": {
+                "test:quote": "when you saw the father the little girl drowned in the rio grande", 
+                "test:type": "quote"
+            }, 
+            "test:its one thing for me to give you a card or a paper with your rights": {
+                "test:quote": "its one thing for me to give you a card or a paper with your rights", 
+                "test:type": "quote"
+            }, 
+            "test:i want to sayi give up": {
+                "test:quote": "i want to sayi give up", 
+                "test:type": "quote"
+            }, 
+            "test:in the last facility i was not safe from the officers": {
+                "test:quote": "in the last facility i was not safe from the officers", 
+                "test:type": "quote"
+            }, 
+            "test:the bottom line is the agency may bring discipline against an employee who posts offensive messages on a social media page where there is a nexus to the agency workplace": {
+                "test:quote": "the bottom line is the agency may bring discipline against an employee who posts offensive messages on a social media page where there is a nexus to the agency workplace", 
+                "test:type": "quote"
+            }, 
+            "test:the masses have spoken and today democracy won": {
+                "test:quote": "the masses have spoken and today democracy won", 
+                "test:type": "quote"
+            }, 
+            "test:theyre threatening violence on members of congress": {
+                "test:quote": "theyre threatening violence on members of congress", 
+                "test:type": "quote"
+            }, 
+            "test:but those things are available now and they have been continuously": {
+                "test:quote": "but those things are available now and they have been continuously", 
+                "test:type": "quote"
+            }, 
+            "test:i think the question is if it does happen to them are they going to implement it": {
+                "test:quote": "i think the question is if it does happen to them are they going to implement it", 
+                "test:type": "quote"
+            }, 
+            "test:to be honest with you i was not surprised by what we saw": {
+                "test:quote": "to be honest with you i was not surprised by what we saw", 
+                "test:type": "quote"
+            }, 
+            "test:we had a semiproductive conversation with respect to what was happening and the rio grande sector chief seemed to be receptive to trying to come to some sort of arrangement wherein he could accept donations": {
+                "test:quote": "we had a semiproductive conversation with respect to what was happening and the rio grande sector chief seemed to be receptive to trying to come to some sort of arrangement wherein he could accept donations", 
+                "test:type": "quote"
+            }, 
+            "test:the upcoming efforts are going to focus exclusively on individuals who have been fully adjudicated and ordered by a judge to be deported": {
+                "test:quote": "the upcoming efforts are going to focus exclusively on individuals who have been fully adjudicated and ordered by a judge to be deported", 
+                "test:type": "quote"
+            }, 
+            "test:the mcallen station where our cells are overflowing  ought to be a very clear message to every american that the time for action is now and the time for congress to act to end the flow of families that are coming north from central america to our border i": {
+                "test:quote": "the mcallen station where our cells are overflowing  ought to be a very clear message to every american that the time for action is now and the time for congress to act to end the flow of families that are coming north from central america to our border is now", 
+                "test:type": "quote"
+            }, 
+            "test:when you saw the pictures of the kids at these detention facilities": {
+                "test:quote": "when you saw the pictures of the kids at these detention facilities", 
+                "test:type": "quote"
+            }, 
+            "test:in clint we talked to girls who were so embarrassed that boys could see them while they were using the toilet": {
+                "test:quote": "in clint we talked to girls who were so embarrassed that boys could see them while they were using the toilet", 
+                "test:type": "quote"
+            }, 
+            "test:we have made significant investments in humanitarian care": {
+                "test:quote": "we have made significant investments in humanitarian care", 
+                "test:type": "quote"
+            }, 
+            "test:she was trying to figure out how to make it there": {
+                "test:quote": "she was trying to figure out how to make it there", 
+                "test:type": "quote"
+            }, 
+            "test:these do not represent the thoughts of the men and women of the us border patrol": {
+                "test:quote": "these do not represent the thoughts of the men and women of the us border patrol", 
+                "test:type": "quote"
+            }, 
+            "test:we are dealing with a crisis right now": {
+                "test:quote": "we are dealing with a crisis right now", 
+                "test:type": "quote"
+            }, 
+            "test:obviously the community wants to help out": {
+                "test:quote": "obviously the community wants to help out", 
+                "test:type": "quote"
+            }, 
+            "test:i understand there can be some policy reasons and security reasons but these reasons can be overcome": {
+                "test:quote": "i understand there can be some policy reasons and security reasons but these reasons can be overcome", 
+                "test:type": "quote"
+            }, 
+            "test:the facility itself was shut down": {
+                "test:quote": "the facility itself was shut down", 
+                "test:type": "quote"
+            }, 
+            "test:what you saw today was a very clean facility where people were being detained indoors and then you saw a temporary facility that was constructed because this facility is overcrowded": {
+                "test:quote": "what you saw today was a very clean facility where people were being detained indoors and then you saw a temporary facility that was constructed because this facility is overcrowded", 
+                "test:type": "quote"
+            }, 
+            "test:i felt that day like it was a hurricane coming": {
+                "test:quote": "i felt that day like it was a hurricane coming", 
+                "test:type": "quote"
+            }, 
+            "test:they have the lowest percentage of female agents or officers of any federal law enforcement agency": {
+                "test:quote": "they have the lowest percentage of female agents or officers of any federal law enforcement agency", 
+                "test:type": "quote"
+            }, 
+            "test:now were going to continue to improve were going to continue to provide care at the standard the american people expect": {
+                "test:quote": "now were going to continue to improve were going to continue to provide care at the standard the american people expect", 
+                "test:type": "quote"
+            }, 
+            "test:so the lines of communication are open": {
+                "test:quote": "so the lines of communication are open", 
+                "test:type": "quote"
+            }, 
+            "test:there should be no photo ops for these scum buckets": {
+                "test:quote": "there should be no photo ops for these scum buckets", 
+                "test:type": "quote"
+            }, 
+            "test:each one of these allegations will be thoroughly investigated": {
+                "test:quote": "each one of these allegations will be thoroughly investigated", 
+                "test:type": "quote"
+            }, 
+            "test:that’s why they’re the worst at recruiting women": {
+                "test:quote": "that’s why they’re the worst at recruiting women", 
+                "test:type": "quote"
+            }, 
+            "test:these comments and memes are extremely troubling": {
+                "test:quote": "these comments and memes are extremely troubling", 
+                "test:type": "quote"
+            }, 
+            "test:we have removed several pieces of content from the group the real cbp nation for violating our policies on bullying and harassment cruel and insensitive content and sexual exploitation of adults": {
+                "test:quote": "we have removed several pieces of content from the group the real cbp nation for violating our policies on bullying and harassment cruel and insensitive content and sexual exploitation of adults", 
+                "test:type": "quote"
+            }, 
+            "test:i said ok you know what were going to keep the windows down the blinds down": {
+                "test:quote": "i said ok you know what were going to keep the windows down the blinds down", 
+                "test:type": "quote"
+            }, 
+            "test:i dont want to leave my family devastated": {
+                "test:quote": "i dont want to leave my family devastated", 
+                "test:type": "quote"
+            }, 
+            "test:this week were planning to move out for a week until this stops but next month were going to move from the apartment": {
+                "test:quote": "this week were planning to move out for a week until this stops but next month were going to move from the apartment", 
+                "test:type": "quote"
+            }, 
+            "test:the agents found to be responsible for these vile comments should no longer have the privilege of representing the united states of america in uniform": {
+                "test:quote": "the agents found to be responsible for these vile comments should no longer have the privilege of representing the united states of america in uniform", 
+                "test:type": "quote"
+            }, 
+            "test:we take all the posts that were put out today very seriously": {
+                "test:quote": "we take all the posts that were put out today very seriously", 
+                "test:type": "quote"
+            }, 
+            "test:my husband says what happened to you last night": {
+                "test:quote": "my husband says what happened to you last night", 
+                "test:type": "quote"
+            }, 
+            "test:if the investigation verifies that employees posted content in violation of cbps code of conduct the findings will inform management decisions regarding appropriate disciplinary action": {
+                "test:quote": "if the investigation verifies that employees posted content in violation of cbps code of conduct the findings will inform management decisions regarding appropriate disciplinary action", 
+                "test:type": "quote"
+            }, 
+            "test:are you going to let them in": {
+                "test:quote": "are you going to let them in", 
+                "test:type": "quote"
+            }, 
+            "test:the short answer is its against the law": {
+                "test:quote": "the short answer is its against the law", 
+                "test:type": "quote"
+            }, 
+            "test:i can say with certainty that they represent a lot of hate out there against people like me who advocate for the dignity of human beings": {
+                "test:quote": "i can say with certainty that they represent a lot of hate out there against people like me who advocate for the dignity of human beings", 
+                "test:type": "quote"
+            }, 
+            "test:these facilities these detention centers are just being run great": {
+                "test:quote": "these facilities these detention centers are just being run great", 
+                "test:type": "quote"
+            }, 
+            "test:thats the reason why we demanded that congress provide 46 billion in additional support to customs and border protection": {
+                "test:quote": "thats the reason why we demanded that congress provide 46 billion in additional support to customs and border protection", 
+                "test:type": "quote"
+            }, 
+            "test:but we know from all of the reports that things are not great": {
+                "test:quote": "but we know from all of the reports that things are not great", 
+                "test:type": "quote"
+            }, 
+            "test:to say that you dont have the adequate resources yet were going to turn down resources that are being offered for free is derelict": {
+                "test:quote": "to say that you dont have the adequate resources yet were going to turn down resources that are being offered for free is derelict", 
+                "test:type": "quote"
+            }, 
+            "test:this crisis is real the time for action is now": {
+                "test:quote": "this crisis is real the time for action is now", 
+                "test:type": "quote"
+            }, 
+            "test:this facebook group is beyond sexist and racist  it is truly abhorrent and shameful and there is no excuse for this depraved behavior": {
+                "test:quote": "this facebook group is beyond sexist and racist  it is truly abhorrent and shameful and there is no excuse for this depraved behavior", 
+                "test:type": "quote"
+            }, 
+            "test:weve all seen the dems and liberal parties do some pretty sick things": {
+                "test:quote": "weve all seen the dems and liberal parties do some pretty sick things", 
+                "test:type": "quote"
+            }, 
+            "test:i watched my baby girl die slowly and painfully just a few months before her second birthday": {
+                "test:quote": "i watched my baby girl die slowly and painfully just a few months before her second birthday", 
+                "test:type": "quote"
+            }, 
+            "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employee could access on which inappropriate and offensive posts were made": {
+                "test:quote": "recently the agency was made aware of a private facebook group page that only a specific group of cbp employee could access on which inappropriate and offensive posts were made", 
+                "test:type": "quote"
+            }, 
+            "test:because this is not a life": {
+                "test:quote": "because this is not a life", 
+                "test:type": "quote"
+            }, 
+            "test:agents are under a great deal of stress": {
+                "test:quote": "agents are under a great deal of stress", 
+                "test:type": "quote"
+            }, 
+            "test:thats a very different environment": {
+                "test:quote": "thats a very different environment", 
+                "test:type": "quote"
+            }, 
+            "test:the only activity was vehicles moving in and out from the facility through an electronic sliding gate": {
+                "test:quote": "the only activity was vehicles moving in and out from the facility through an electronic sliding gate", 
+                "test:type": "quote"
+            }, 
+            "test:because of the lack of workers many times people are losing up to 50 of their harvest": {
+                "test:quote": "because of the lack of workers many times people are losing up to 50 of their harvest", 
+                "test:type": "quote"
+            }, 
+            "test:you started screaming in your dream": {
+                "test:quote": "you started screaming in your dream", 
+                "test:type": "quote"
+            }, 
+            "test:i have no drivers license": {
+                "test:quote": "i have no drivers license", 
+                "test:type": "quote"
+            }, 
+            "test:we got a call from a mom who said that her little girl wasnt feeling well and she was afraid to go to the doctor": {
+                "test:quote": "we got a call from a mom who said that her little girl wasnt feeling well and she was afraid to go to the doctor", 
+                "test:type": "quote"
+            }, 
+            "test:a lot of people have heard that message": {
+                "test:quote": "a lot of people have heard that message", 
+                "test:type": "quote"
+            }, 
+            "test:furthermore the comments made by border patrol agents towards immigrants especially those that have lost their lives are disgusting and show a complete disregard for human life and dignity": {
+                "test:quote": "furthermore the comments made by border patrol agents towards immigrants especially those that have lost their lives are disgusting and show a complete disregard for human life and dignity", 
+                "test:type": "quote"
+            }, 
+            "test:were using operational funding to provide those things": {
+                "test:quote": "were using operational funding to provide those things", 
+                "test:type": "quote"
+            }, 
+            "test:i know that i dont have to open the door": {
+                "test:quote": "i know that i dont have to open the door", 
+                "test:type": "quote"
+            }, 
+            "test:yeah thats what theyre going to see": {
+                "test:quote": "yeah thats what theyre going to see", 
+                "test:type": "quote"
+            }, 
+            "test:it could be civilians or spouses of agents": {
+                "test:quote": "it could be civilians or spouses of agents", 
+                "test:type": "quote"
+            }, 
+            "test:at this point its just about repetition reminding them of what they have so that its muscle memory": {
+                "test:quote": "at this point its just about repetition reminding them of what they have so that its muscle memory", 
+                "test:type": "quote"
+            }, 
+            "test:were in this till the end pleasedontjicmeorcalloig": {
+                "test:quote": "were in this till the end pleasedontjicmeorcalloig", 
+                "test:type": "quote"
+            }, 
+            "test:remember you are never alone in this family": {
+                "test:quote": "remember you are never alone in this family", 
+                "test:type": "quote"
+            }, 
+            "test:and we cant keep people in a cell beyond what the rules and regulations allow for but everyone in that temporary facility is getting health care theyre getting hygiene and the customs and border protection is doing their level best in an overcrowded envir": {
+                "test:quote": "and we cant keep people in a cell beyond what the rules and regulations allow for but everyone in that temporary facility is getting health care theyre getting hygiene and the customs and border protection is doing their level best in an overcrowded environment and a difficult environment to address this issue but congress has got to act", 
+                "test:type": "quote"
+            }, 
+            "test:i cant account for that": {
+                "test:quote": "i cant account for that", 
+                "test:type": "quote"
+            }, 
+            "test:these posts are completely inappropriate and contrary to the honor and integrity i see — and expect — from our agents day in and day out": {
+                "test:quote": "these posts are completely inappropriate and contrary to the honor and integrity i see — and expect — from our agents day in and day out", 
+                "test:type": "quote"
+            }, 
+            "test:these posts do not reflect the core values of the agency and do not reflect the vast majority of employees who conduct themselves professionally and honorably every day on and off duty": {
+                "test:quote": "these posts do not reflect the core values of the agency and do not reflect the vast majority of employees who conduct themselves professionally and honorably every day on and off duty", 
+                "test:type": "quote"
+            }, 
+            "test:if cbp was able to accept donations outside of that it would be overspending what it was authorized to spend": {
+                "test:quote": "if cbp was able to accept donations outside of that it would be overspending what it was authorized to spend", 
+                "test:type": "quote"
+            }, 
+            "test:something feels tangibly different this time around": {
+                "test:quote": "something feels tangibly different this time around", 
+                "test:type": "quote"
+            }, 
+            "test:cbp does not tolerate misconduct on or off duty and will hold those who violate our code of conduct accountable": {
+                "test:quote": "cbp does not tolerate misconduct on or off duty and will hold those who violate our code of conduct accountable", 
+                "test:type": "quote"
+            }, 
+            "test:there is a lot of panic and a lot of fear even though we know that these raids happen every year": {
+                "test:quote": "there is a lot of panic and a lot of fear even though we know that these raids happen every year", 
+                "test:type": "quote"
+            }, 
+            "test:we keep getting calls and messages from folks saying were scared": {
+                "test:quote": "we keep getting calls and messages from folks saying were scared", 
+                "test:type": "quote"
+            }, 
+            "test:racism and sexism in the border patrol just doesnt belong": {
+                "test:quote": "racism and sexism in the border patrol just doesnt belong", 
+                "test:type": "quote"
+            }, 
+            "test:yes im taking the risk": {
+                "test:quote": "yes im taking the risk", 
+                "test:type": "quote"
+            }, 
+            "test:we rang the intercom buzzer to no response and we called the help line posted on the window to no response": {
+                "test:quote": "we rang the intercom buzzer to no response and we called the help line posted on the window to no response", 
+                "test:type": "quote"
+            }, 
+            "test:im more concerned that there are men and women people in customs and border protection and dhs who feel this way about migrants especially children": {
+                "test:quote": "im more concerned that there are men and women people in customs and border protection and dhs who feel this way about migrants especially children", 
+                "test:type": "quote"
+            }, 
+            "test:i dont know if im going to get the opportunity to feel that i have a free life that i live in peace": {
+                "test:quote": "i dont know if im going to get the opportunity to feel that i have a free life that i live in peace", 
+                "test:type": "quote"
+            }, 
+            "test:stop cruelty to migrant children act": {
+                "test:quote": "stop cruelty to migrant children act", 
+                "test:type": "quote"
+            }, 
+            "test:its another thing at five in the morning when you hear a loud knock at your door and someones yelling  police": {
+                "test:quote": "its another thing at five in the morning when you hear a loud knock at your door and someones yelling  police", 
+                "test:type": "quote"
+            }, 
+            "test:to everyone who knows the real me and had my back i say thank you": {
+                "test:quote": "to everyone who knows the real me and had my back i say thank you", 
+                "test:type": "quote"
+            }, 
+            "test:ive been in that apartment for five years now so i dont think its secure": {
+                "test:quote": "ive been in that apartment for five years now so i dont think its secure", 
+                "test:type": "quote"
+            }, 
+            "test:let the community get involved if anybody higher up in terms of the administration or likewise in government is not able to do so": {
+                "test:quote": "let the community get involved if anybody higher up in terms of the administration or likewise in government is not able to do so", 
+                "test:type": "quote"
+            }, 
+            "test:any employees found to have violated our standards of conduct will be held accountable": {
+                "test:quote": "any employees found to have violated our standards of conduct will be held accountable", 
+                "test:type": "quote"
+            }, 
+            "test:and if you didnt feel shame pain": {
+                "test:quote": "and if you didnt feel shame pain", 
+                "test:type": "quote"
+            }, 
+            "test:its obviously not acceptable for anyone to threaten a member of congress": {
+                "test:quote": "its obviously not acceptable for anyone to threaten a member of congress", 
+                "test:type": "quote"
+            }, 
+            "test:obviously the number of cases we anticipate will continue to grow as we receive additional information and perform further research and conduct interviews": {
+                "test:quote": "obviously the number of cases we anticipate will continue to grow as we receive additional information and perform further research and conduct interviews", 
+                "test:type": "quote"
+            }, 
+            "test:i dont want to participate in what is basically the trump show the trumppence show": {
+                "test:quote": "i dont want to participate in what is basically the trump show the trumppence show", 
+                "test:type": "quote"
+            }, 
+            "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employees could access on which inappropriate and offensive posts were made": {
+                "test:quote": "recently the agency was made aware of a private facebook group page that only a specific group of cbp employees could access on which inappropriate and offensive posts were made", 
+                "test:type": "quote"
+            }, 
+            "test:they’re clearly xenophobic and sexist": {
+                "test:quote": "they’re clearly xenophobic and sexist", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "160568": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:the vice presidents office specifically instructed cbp to not clean up or sanitize the facility beyond what is routine so the american people could see how serious the crisis at our border is overcrowding lack of resources beds"
+            }, 
+            "160698": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:theyre threatening violence on members of congress"
+            }, 
+            "160572": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:the mcallen station where our cells are overflowing  ought to be a very clear message to every american that the time for action is now and the time for congress to act to end the flow of families that are coming north from central america to our border i"
+            }, 
+            "160564": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:this crisis is real the time for action is now"
+            }, 
+            "160694": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:these agents dont deserve to wear any uniform representing the united states of america"
+            }, 
+            "160560": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:to be honest with you i was not surprised by what we saw"
+            }, 
+            "160690": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:any employees found to have violated our standards of conduct will be held accountable"
+            }, 
+            "160616": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:these facilities these detention centers are just being run great"
+            }, 
+            "160570": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:thats the reason why we demanded that congress provide 46 billion in additional support to customs and border protection"
+            }, 
+            "160612": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:you have a president saying everythings just fine"
+            }, 
+            "160819": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i said ok you know what were going to keep the windows down the blinds down"
+            }, 
+            "160769": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:activity": "test:these do not represent the thoughts of the men and women of the us border patrol"
+            }, 
+            "160766": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:activity": "test:we take all the posts that were put out today very seriously"
+            }, 
+            "160817": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i felt that day like it was a hurricane coming"
+            }, 
+            "161071": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:so the lines of communication are open"
+            }, 
+            "160897": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:ive been in that apartment for five years now so i dont think its secure"
+            }, 
+            "160891": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:at this point its just about repetition reminding them of what they have so that its muscle memory"
+            }, 
+            "160893": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:this week were planning to move out for a week until this stops but next month were going to move from the apartment"
+            }, 
+            "160954": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:these are clearly agents who are desensitized to the point of being dangerous to migrants and their coworkers"
+            }, 
+            "160682": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:i have never seen floaters like this"
+            }, 
+            "160950": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:it confirms some of the worst criticisms of customs and border protection"
+            }, 
+            "160578": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:i watched my baby girl die slowly and painfully just a few months before her second birthday"
+            }, 
+            "160684": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:weve all seen the dems and liberal parties do some pretty sick things"
+            }, 
+            "160686": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:these posts are completely inappropriate and contrary to the honor and integrity i see — and expect — from our agents day in and day out"
+            }, 
+            "160576": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:these will be individuals who are facing a deportation order and the priority that homeland security and ice will be placing will be on those individuals that have also committed crimes in this country and represent a threat to our communities"
+            }, 
+            "160574": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:the upcoming efforts are going to focus exclusively on individuals who have been fully adjudicated and ordered by a judge to be deported"
+            }, 
+            "160604": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:i dont want to participate in what is basically the trump show the trumppence show"
+            }, 
+            "160809": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:activity": "test:stop cruelty to migrant children act"
+            }, 
+            "160600": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:now were going to continue to improve were going to continue to provide care at the standard the american people expect"
+            }, 
+            "161041": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:the government could not accept that money for a border wall because it would be a donation"
+            }, 
+            "160801": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:activity": "test:and if you didnt feel shame pain"
+            }, 
+            "161043": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:obviously the community wants to help out"
+            }, 
+            "160608": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:what do you think they are going to see"
+            }, 
+            "160805": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:activity": "test:if you werent appalled by these pictures then something is dead or dying in your hearts and in the heart of america"
+            }, 
+            "160772": {
+                "prov:entity": "test:https://www.cnn.com/politics/live-news/immigration-crisis-us-border-july-2019/h_7e31156d56ce76d53de791276c700abd", 
+                "prov:activity": "test:each one of these allegations will be thoroughly investigated"
+            }, 
+            "160883": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:its one thing for me to give you a card or a paper with your rights"
+            }, 
+            "160881": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i think the question is if it does happen to them are they going to implement it"
+            }, 
+            "160887": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:are you going to let them in"
+            }, 
+            "160885": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:its another thing at five in the morning when you hear a loud knock at your door and someones yelling  police"
+            }, 
+            "160925": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:remember you are never alone in this family"
+            }, 
+            "160960": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:they have the lowest percentage of female agents or officers of any federal law enforcement agency"
+            }, 
+            "160889": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:thats a very different environment"
+            }, 
+            "160964": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:i have never seen floaters like this"
+            }, 
+            "160927": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:the masses have spoken and today democracy won"
+            }, 
+            "161019": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:so we are looking at the possibility of using some of those donations going forward"
+            }, 
+            "161055": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:we rang the intercom buzzer to no response and we called the help line posted on the window to no response"
+            }, 
+            "161051": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:the facility itself was shut down"
+            }, 
+            "161047": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:let the community get involved if anybody higher up in terms of the administration or likewise in government is not able to do so"
+            }, 
+            "161059": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:the only activity was vehicles moving in and out from the facility through an electronic sliding gate"
+            }, 
+            "160748": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:activity": "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employees could access on which inappropriate and offensive posts were made"
+            }, 
+            "160508": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/15/politics/cbp-facebook-groups-investigation/index.html", 
+                "prov:activity": "test:obviously the number of cases we anticipate will continue to grow as we receive additional information and perform further research and conduct interviews"
+            }, 
+            "160586": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:and we cant keep people in a cell beyond what the rules and regulations allow for but everyone in that temporary facility is getting health care theyre getting hygiene and the customs and border protection is doing their level best in an overcrowded envir"
+            }, 
+            "160584": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:what you saw today was a very clean facility where people were being detained indoors and then you saw a temporary facility that was constructed because this facility is overcrowded"
+            }, 
+            "160582": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:we talked to a boy who tried not to eat because he was so embarrassed to use the toilet"
+            }, 
+            "160580": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:in clint we talked to girls who were so embarrassed that boys could see them while they were using the toilet"
+            }, 
+            "160879": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:a lot of people have heard that message"
+            }, 
+            "160875": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:ive seen those sorts of messages and calls more than usual which really worries me because those are people that are preparing in fear"
+            }, 
+            "160588": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:i cant account for that"
+            }, 
+            "160871": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:we keep getting calls and messages from folks saying were scared"
+            }, 
+            "161023": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:we have made significant investments in humanitarian care"
+            }, 
+            "161021": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:but those items its important to note are available now"
+            }, 
+            "160752": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/04/politics/customs-and-border-protection-memo-social-media/index.html", 
+                "prov:activity": "test:the bottom line is the agency may bring discipline against an employee who posts offensive messages on a social media page where there is a nexus to the agency workplace"
+            }, 
+            "161025": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:the short answer is its against the law"
+            }, 
+            "161079": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:to say that you dont have the adequate resources yet were going to turn down resources that are being offered for free is derelict"
+            }, 
+            "161029": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:that law is a law passed by congress that says the government cannot accept goods and services without remuneration"
+            }, 
+            "160901": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i want to sayi give up"
+            }, 
+            "160518": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:racism and sexism in the border patrol just doesnt belong"
+            }, 
+            "160628": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:believe me when any of us visit they will make sure that they see what they want us to see"
+            }, 
+            "160624": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:but we know from all of the reports that things are not great"
+            }, 
+            "160620": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:yeah thats what theyre going to see"
+            }, 
+            "161075": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:but the reality is border patrol is overwhelmed and whether theyve got the monetary funding to provide the resources and whether they can provide the resources are two different things"
+            }, 
+            "160596": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:remember it was just a few short weeks ago that congress finally acknowledged the crisis and gave us an additional 46 billion in humanitarian aid"
+            }, 
+            "160592": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mike-pence-border-immigration/index.html", 
+                "prov:activity": "test:the facility you saw today represents the level and the standards of care that we are working to bring to all those caught up in this crisis"
+            }, 
+            "160867": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:she was trying to figure out how to make it there"
+            }, 
+            "160861": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:something feels tangibly different this time around"
+            }, 
+            "160863": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:we got a call from a mom who said that her little girl wasnt feeling well and she was afraid to go to the doctor"
+            }, 
+            "160722": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:im more concerned that there are men and women people in customs and border protection and dhs who feel this way about migrants especially children"
+            }, 
+            "161033": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:because it cannot spend or use things that have not been appropriated to it by congress"
+            }, 
+            "160726": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:it could be civilians or spouses of agents"
+            }, 
+            "161037": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:if cbp was able to accept donations outside of that it would be overspending what it was authorized to spend"
+            }, 
+            "160528": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:we believe in giving people a voice but we also want everyone using facebook to feel safe"
+            }, 
+            "160913": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:my daughter sometimes says mom im scared youre not going to come back home"
+            }, 
+            "160917": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i dont know if im going to get the opportunity to feel that i have a free life that i live in peace"
+            }, 
+            "160520": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:disappointed on sic all of you who abandoned ship"
+            }, 
+            "160522": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:lost 7000 members in a day"
+            }, 
+            "160524": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:were in this till the end pleasedontjicmeorcalloig"
+            }, 
+            "160526": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:we have removed several pieces of content from the group the real cbp nation for violating our policies on bullying and harassment cruel and insensitive content and sexual exploitation of adults"
+            }, 
+            "160859": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:there is a lot of panic and a lot of fear even though we know that these raids happen every year"
+            }, 
+            "160851": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:yes im taking the risk"
+            }, 
+            "160855": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:because of the lack of workers many times people are losing up to 50 of their harvest"
+            }, 
+            "160857": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i dont want to leave my family devastated"
+            }, 
+            "160536": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:these posts do not reflect the core values of the agency and do not reflect the vast majority of employees who conduct themselves professionally and honorably every day on and off duty"
+            }, 
+            "160534": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:cbp does not tolerate misconduct on or off duty and will hold those who violate our code of conduct accountable"
+            }, 
+            "160532": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:if the investigation verifies that employees posted content in violation of cbps code of conduct the findings will inform management decisions regarding appropriate disciplinary action"
+            }, 
+            "160530": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:thats why we have community standards and remove anything that violates them"
+            }, 
+            "160738": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:the agents found to be responsible for these vile comments should no longer have the privilege of representing the united states of america in uniform"
+            }, 
+            "160538": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:we take all the posts that were put out today very seriously"
+            }, 
+            "160847": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:you started screaming in your dream"
+            }, 
+            "160956": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:that’s why they’re the worst at recruiting women"
+            }, 
+            "160843": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:my husband says what happened to you last night"
+            }, 
+            "160929": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:to everyone who knows the real me and had my back i say thank you"
+            }, 
+            "161083": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:i understand there can be some policy reasons and security reasons but these reasons can be overcome"
+            }, 
+            "160640": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:activity": "test:they do not represent the men and women of the border patrol or dhsgov"
+            }, 
+            "160905": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:because this is not a life"
+            }, 
+            "160644": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:activity": "test:he was making fun of them"
+            }, 
+            "161011": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:it just befuddles me and i think its just heartbreaking to know that theres so many people that want to help and that help is being denied for no definable reasons that anybodys been able to communicate"
+            }, 
+            "160909": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i have no drivers license"
+            }, 
+            "160542": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:these do not represent the thoughts of the men and women of the us border patrol"
+            }, 
+            "160676": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:these do not represent the thoughts of the men and women of the us border patrol"
+            }, 
+            "160546": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:each one of these allegations will be thoroughly investigated"
+            }, 
+            "160673": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:we take all the posts that were put out today very seriously"
+            }, 
+            "160706": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:we are dealing with a crisis right now"
+            }, 
+            "161017": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:but those things are available now and they have been continuously"
+            }, 
+            "160679": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:each one of these allegations will be thoroughly investigated"
+            }, 
+            "160702": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:in the last facility i was not safe from the officers"
+            }, 
+            "160831": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i know that i dont have to open the door"
+            }, 
+            "160835": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i know a lot of things but even with that its really scary"
+            }, 
+            "160933": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:these comments and memes are extremely troubling"
+            }, 
+            "160931": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:this is what i have to say"
+            }, 
+            "160839": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:these past two days ive been waking up in the middle of the night"
+            }, 
+            "160937": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:they’re clearly xenophobic and sexist"
+            }, 
+            "161015": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:were using operational funding to provide those things"
+            }, 
+            "160550": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/05/politics/cbp-second-facebook-group-images/index.html", 
+                "prov:activity": "test:recently the agency was made aware of a private facebook group page that only a specific group of cbp employee could access on which inappropriate and offensive posts were made"
+            }, 
+            "160718": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:its obviously not acceptable for anyone to threaten a member of congress"
+            }, 
+            "160710": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:over 680000 apprehensions so far this year"
+            }, 
+            "160714": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:agents are under a great deal of stress"
+            }, 
+            "160793": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:activity": "test:when you saw the pictures of the kids at these detention facilities"
+            }, 
+            "160823": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i dont want any noise"
+            }, 
+            "160945": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:lucky illegal immigrant glory hole special starring aoc"
+            }, 
+            "160797": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/mazie-hirono-immigration-press-conference/index.html", 
+                "prov:activity": "test:when you saw the father the little girl drowned in the rio grande"
+            }, 
+            "160636": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/03/politics/acting-dhs-secretary-orders-investigation/index.html", 
+                "prov:activity": "test:i have directed an immediate investigation and as the usbpchief has made clear any employee found to have compromised the publics trust in our law enforcement mission will be held accountable"
+            }, 
+            "160827": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/us/immigration-ice-raids-fear/index.html", 
+                "prov:activity": "test:i want everybody to stay calm and try to turn off the lights in the living room so if they come they dont know that we are in the house"
+            }, 
+            "160730": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:i can say with certainty that they represent a lot of hate out there against people like me who advocate for the dignity of human beings"
+            }, 
+            "161067": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:we had a semiproductive conversation with respect to what was happening and the rio grande sector chief seemed to be receptive to trying to come to some sort of arrangement wherein he could accept donations"
+            }, 
+            "161063": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/25/us/border-patrol-donations/index.html", 
+                "prov:activity": "test:the agents in the vehicles saw us clearly and in some cases stopped the vehicle to stare back but no one interacted with us"
+            }, 
+            "160948": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:furthermore the comments made by border patrol agents towards immigrants especially those that have lost their lives are disgusting and show a complete disregard for human life and dignity"
+            }, 
+            "160941": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:this isn’t just a few rogue agents or ‘bad apples"
+            }, 
+            "160943": {
+                "prov:entity": "test:https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes", 
+                "prov:activity": "test:there should be no photo ops for these scum buckets"
+            }, 
+            "160734": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/01/politics/cbp-agent-facebook-group/index.html", 
+                "prov:activity": "test:this facebook group is beyond sexist and racist  it is truly abhorrent and shameful and there is no excuse for this depraved behavior"
+            }
+        }
+    }
+}

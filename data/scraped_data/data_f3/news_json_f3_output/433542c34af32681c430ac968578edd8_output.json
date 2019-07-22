@@ -1,0 +1,79 @@
+{
+    "root": "https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "111998": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=http://dx.doi.org/10.1038/s41586-019-1332-y", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "111988": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:agent": "test:Alton Parrish"
+            }, 
+            "111986": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:agent": "test:beforeitsnews.com"
+            }
+        }, 
+        "agent": {
+            "test:Alton Parrish": {
+                "test:name": "Alton Parrish", 
+                "test:type": "person"
+            }, 
+            "test:beforeitsnews.com": {
+                "test:publisher": "beforeitsnews.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://beforeitsnews.com/v3/r2/?url=http://dx.doi.org/10.1038/s41586-019-1332-y": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=http://dx.doi.org/10.1038/s41586-019-1332-y", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html": {
+                "test:url": "https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "test:date": "", 
+                "test:title": "Before the Last Ice Age, More \"Reactive\" Land Surfaces Cooled the Earth", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:if the atmosphere had actually lost as much co2 as the weathering created by erosion would have caused it would hardly have had any co2 left after less than a million years": {
+                "test:quote": "if the atmosphere had actually lost as much co2 as the weathering created by erosion would have caused it would hardly have had any co2 left after less than a million years", 
+                "test:type": "quote"
+            }, 
+            "test:the hypothesis however has a big catch": {
+                "test:quote": "the hypothesis however has a big catch", 
+                "test:type": "quote"
+            }, 
+            "test:all water would have had frozen to ice and life would have had a hard time to survive": {
+                "test:quote": "all water would have had frozen to ice and life would have had a hard time to survive", 
+                "test:type": "quote"
+            }, 
+            "test:but that was not the case": {
+                "test:quote": "but that was not the case", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "111990": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:activity": "test:the hypothesis however has a big catch"
+            }, 
+            "111992": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:activity": "test:if the atmosphere had actually lost as much co2 as the weathering created by erosion would have caused it would hardly have had any co2 left after less than a million years"
+            }, 
+            "111994": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:activity": "test:all water would have had frozen to ice and life would have had a hard time to survive"
+            }, 
+            "111996": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/science-and-technology/2019/2960327.html", 
+                "prov:activity": "test:but that was not the case"
+            }
+        }
+    }
+}

@@ -1,0 +1,921 @@
+[
+    {
+        "url": "https://www.cbc.ca/news/politics/trudeau-trump-tweets-1.5212019",
+        "title": "",
+        "authors": [
+            {
+                "name": "Follow J.P. On Twitter",
+                "link": null
+            },
+            {
+                "name": "J.P.",
+                "link": null
+            },
+            {
+                "name": "John Paul",
+                "link": null
+            },
+            {
+                "name": "Parliamentary Bureau",
+                "link": null
+            }
+        ],
+        "publisher": "www.cbc.ca",
+        "publish_date": "",
+        "text": "Prime Minister Justin Trudeau today denounced tweets sent by U.S. President Donald Trump over the weekend that told a series of first-term congresswomen of diverse ethnic backgrounds to \"go back\" to their countries of origin rather than tell U.S. politicians how America should be governed.\n\nTrump's tweets on Sunday ignited a political firestorm in the U.S. and have been widely denounced as racist, as only one of the four Democrats he targeted — frequent critics of Trump who have called for his impeachment — was born outside the U.S.\n\nRather than apologize, Trump said Monday that Representatives Alexandria Ocasio-Cortez of New York, Ilhan Omar of Minnesota, Rashida Tlaib of Michigan and Ayanna S. Pressley of Massachusetts should instead apologize to him, the United States and Israel for what he claimed was their \"foul language & racist hatred.\" He said the politicians have \"made Israel feel abandoned by the U.S.\"\n\nSpeaking at a press conference with Jens Stoltenberg, the secretary-general of NATO, Trudeau said today that sort of talk isn't welcome in Canada.\n\n\"I think Canadians and indeed people around the world know exactly what I think about those particular comments. That is not how we do things in Canada. A Canadian is a Canadian is a Canadian. The diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for Canadians and we will to continue to defend that,\" Trudeau said.\n\nPM Justin Trudeau addresses tweets by President Trump telling four Congresswomen to go back to the countries they came from. 0:22\n\nTrudeau did not say whether he'd personally define Trump's call for the four representatives to \"go back and help fix the totally broken and crime infested places from which they came\" as racist.\n\nOutgoing British Prime Minister Theresa May also said the president's Twitter tirade was \"completely unacceptable.\"\n\nOcasio-Cortez has denounced Israel's \"occupation\" of Palestinian territory while advocating for cuts to U.S. foreign aid for the Middle Eastern country. Omar has been accused of using negative and harmful stereotypes of Jewish Americans. Tlaib, the first Palestinian-American congresswoman, has compared the Israel-Palestine situation to past racial segregation in the U.S.\n\n'Socialist' congresswomen\n\nU.S. House Speaker Nancy Pelosi, the highest ranking Democrat in Congress, said the president's comments suggested Trump was advocating white nationalism.\n\n\"When @realDonaldTrump tells four American Congresswomen to go back to their countries, he reaffirms his plan to 'Make America Great Again' has always been about making America white again,\" she said in a tweet.\n\nIn response, Trump said Pelosi's tweet was \"very racist ... that's a very racist statement. I'm surprised she'd say that.\"\n\nWhen <a href=\"https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw\">@realDonaldTrump</a> tells four American Congresswomen to go back to their countries, he reaffirms his plan to “Make America Great Again” has always been about making America white again.<br><br>Our diversity is our strength and our unity is our power. <a href=\"https://t.co/ODqqHneyES\">https://t.co/ODqqHneyES</a> —@SpeakerPelosi\n\nDuring a press conference at the White House Monday, Trump denied the tweets were racially motivated and said it was rather an attempt to denounce \"socialist\" congresswomen who frequently complain about the state of affairs in America.\n\nTrump said that he thinks these congresswomen \"hate our country\" and announced he isn't afraid to \"take them on.\"\n\n\"If you hate our country, if you're not happy here, you can leave and that's what I say all the time ... If you're not happy in the U.S., if you're complaining all the time, very simply, you can leave, you can leave right now,\" Trump said. \"Come back if you want, don't come back, that's OK too but, if you're not happy, you can leave.\"",
+        "quotes": [
+            [
+                "made Israel feel abandoned by the U.S.",
+                "Trump",
+                false
+            ],
+            [
+                "I think Canadians and indeed people around the world know exactly what I think about those particular comments.",
+                "Justin Trudeau",
+                true
+            ],
+            [
+                "That is not how we do things in Canada.",
+                "Justin Trudeau",
+                true
+            ],
+            [
+                "A Canadian is a Canadian is a Canadian.",
+                "Justin Trudeau",
+                true
+            ],
+            [
+                "The diversity of our country is actually one of our greatest strengths and a source of tremendous resilience and pride for Canadians and we will to continue to defend that,",
+                "Justin Trudeau",
+                true
+            ],
+            [
+                "go back and help fix the totally broken and crime infested places from which they came",
+                "Justin Trudeau",
+                false
+            ],
+            [
+                "When @realDonaldTrump tells four American Congresswomen to go back to their countries, he reaffirms his plan to 'Make America Great Again' has always been about making America white again,",
+                "",
+                true
+            ],
+            [
+                "very racist ... that's a very racist statement.",
+                "Trump",
+                false
+            ],
+            [
+                "I'm surprised she'd say that.",
+                "Trump",
+                true
+            ],
+            [
+                "https://twitter.com/realDonaldTrump?ref_src=twsrc^tfw\">@realDonaldTrump</a> tells four American Congresswomen to go back to their countries, he reaffirms his plan to “Make America Great Again” has always been about making America white again.<br><br>Our diversity is our strength and our unity is our power.",
+                "",
+                false
+            ],
+            [
+                "a href=\"https://t.co/ODqqHneyES\">https://t.co/ODqqHneyES</a> —@SpeakerPelosi\n\nDuring a press conference at the White House Monday, Trump denied the tweets were racially motivated and said it was rather an attempt to denounce \"socialist",
+                "",
+                false
+            ],
+            [
+                "If you hate our country, if you're not happy here, you can leave and that's what I say all the time ...",
+                "Trump",
+                true
+            ],
+            [
+                "If you're not happy in the U.S., if you're complaining all the time, very simply, you can leave, you can leave right now,",
+                "Trump",
+                true
+            ],
+            [
+                "Come back if you want, don't come back, that's OK too but, if you're not happy, you can leave.",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism",
+                "https://www.bbc.com/news/world-us-canada-48990760"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/SpeakerPelosi/status/1150408691713265665",
+                "https://www.youtube.com/watch?v=W4Lei124mWk",
+                "https://twitter.com/realDonaldTrump/status/1150381394234941448"
+            ]
+        },
+        "key_words": [
+            "youre",
+            "trump",
+            "congresswomen",
+            "white",
+            "leave",
+            "trudeau",
+            "country",
+            "tweets",
+            "america",
+            "racist"
+        ]
+    },
+    {
+        "url": "https://www.npr.org/2019/03/07/700901834/minnesota-congresswoman-ignites-debate-on-israel-and-anti-semitism",
+        "title": "Minnesota Congresswoman Ignites Debate On Israel And Anti-Semitism",
+        "authors": [
+            {
+                "name": "Cody Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.npr.org",
+        "publish_date": "2019-03-07",
+        "text": "Minnesota Congresswoman Ignites Debate On Israel And Anti-Semitism\n\nEnlarge this image toggle caption Andrew Harnik/AP Andrew Harnik/AP\n\nUpdated 5:40 pm E.T.\n\nOn Thursday, the House passed a resolution to condemn \"anti-Semitism, Islamophobia, racism and other forms of bigotry\" in an effort to tamp down the uproar over Minnesota Democratic Rep. Ilhan Omar's criticism of Israel.\n\nThe controversy has split the Democratic party and clouded their agenda. The resolution does not mention Omar by name but appears targeted at her recent remarks and their fallout.\n\nThis the second time the House voted on a resolution denouncing hate speech following controversial comments by Omar that lawmakers said played into anti-Semitic tropes, although she was not named in either measure.\n\nHere's some background on the events of the past several weeks leading up to this moment, plus reactions from some of Omar's constituents in Minnesota's 5th District.\n\nWhat started this controversy?\n\nIn February, Omar responded to a tweet from journalist Glenn Greenwald, who posted about House GOP Leader Kevin McCarthy threatening to punish Omar and another congresswoman for being critical of Israel.\n\nOmar wrote back, \"It's all about the Benjamins baby,\" a line about $100 bills from a Puff Daddy song. Critics jumped on the tweet and said Omar was calling up a negative and harmful stereotype of Jewish Americans.\n\nIn another tweet soon after, Omar named the American Israel Public Affairs Committee, or AIPAC, saying it was funding Republican support for Israel.\n\nThis tweet received bipartisan backlash, and Omar was widely accused of anti-Semitic speech.\n\nOmar apologized and said she was learning about \"the painful history of anti-Semitic tropes\" but held onto her criticism of AIPAC's lobbying.\n\nThe latest controversy comes from Omar's remarks at an event at a Washington bookstore called Busboys and Poets last week. The comment in question refers to the weeks of controversy that followed Omar's earlier criticism:\n\n\"I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country. I want to ask why is it OK for me to talk about the influence of the NRA (National Rifle Association), of fossil fuel industries or Big Pharma, and not talk about a powerful lobbying group that is influencing policies?\"\n\nAgain, Omar was accused of anti-Semitism.\n\nYouTube\n\nWhy are people taking offense to the bookstore comments?\n\nCritics including Steve Hunegs, executive director of the Jewish Community Relations Council of Minnesota and the Dakotas, said Omar was suggesting Jews have \"dual loyalty\" in this case for the U.S. and Israel.\n\n\"Accusing Jews of harboring dual loyalty has a long, violent, sordid history,\" he said on MPR News' Morning Edition on Tuesday. \"It's the standard fare of [then-Ku Klux Klan leader] David Duke. It's difficult and dangerous because it evokes the Jews as the malevolent other, conspiring against society.\"\n\nOmar has, so far, stood by her remarks and said she is simply criticizing Israel.\n\nEnlarge this image toggle caption Andrew Harnik/AP Andrew Harnik/AP\n\n\"Being opposed to [Israeli Prime Minister Benjamin] Netanyahu and the occupation is not the same as being anti-Semitic. I am grateful to the many Jewish allies who have spoken out and said the same,\" Omar wrote on Twitter.\n\nWhat are people supporting Omar saying?\n\nMany supporters of Omar are saying she's opening up a crucial debate on Israel and its treatment of Palestinians.\n\nA new organization, Jews With Ilhan, sums up a common argument on its website:\n\n\"There is absolutely nothing anti-Semitic about calling out the noxious role of [the American Israel Public Affairs Committee], which spends millions each year to buy U.S. political support for Israeli aggression and militarism against the Palestinian people.\"\n\nSome people also believe Omar's identity as a Muslim woman in Congress is making her an unfair target of criticism.\n\nOmar and fellow freshman Rep. Rashida Tlaib, a Michigan Democrat, are the first two Muslim women elected to Congress. Some of their supporters point out that they've been subject to criticism over their views on Israel while others haven't.\n\nHow are Omar's constituents responding?\n\nOmar won 78 percent of the vote in the highly Democratic district in the 2018 election.\n\nThe district is mostly urban, made up of Minneapolis and some of its suburbs to the north, south and west.\n\nPatrick Scully, 65, is a performing artist in Minneapolis and an Omar constituent. He said it's absurd for President Trump to criticize Omar for alleged bigotry given the president's track record.\n\nScully said it's unfair to pass a resolution essentially criticizing Omar for her remarks when other members of Congress have clearly made bigoted remarks but avoided criticism.\n\n\"When a resolution is brought forth to basically criticize the representative for her remarks, I have to ask myself, 'Is everybody on that level in Washington being held to the same standard?' And it does not seem to me that that is the case,\" Scully said.\n\nDan Israel, an Omar constituent from St. Louis Park, said he is troubled by what he views as a pattern of anti-Semitic comments by the congresswoman. He also said it's not hard to criticize the state of Israel without being anti-Semitic.\n\n\"I absolutely welcome criticism of Israel,\" Israel wrote in a submission to MPR News' Public Insight Network. \"It should not be taboo to criticize Israeli government policies. However, it is not OK to traffic in classic anti-Semitic tropes about Jews and money and power when making those criticisms.\"\n\nAaron Albertson, a 5th District resident, wrote to the Public Insight Network that he appreciates Omar's position: \"[I'm] grateful that I have a brave representative who is willing to criticize not just the Israeli government but also the U.S. governmental system of which she is a part.\"\n\nMPR News reporter Martin Moylan contributed to this story.",
+        "quotes": [
+            [
+                "anti-Semitism, Islamophobia, racism and other forms of bigotry",
+                "",
+                false
+            ],
+            [
+                "It's all about the Benjamins baby,",
+                "Omar",
+                true
+            ],
+            [
+                "the painful history of anti-Semitic tropes",
+                "Omar",
+                false
+            ],
+            [
+                "I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country.",
+                "Omar",
+                true
+            ],
+            [
+                "I want to ask why is it OK for me to talk about the influence of the NRA (National Rifle Association), of fossil fuel industries or Big Pharma, and not talk about a powerful lobbying group that is influencing policies?",
+                "Omar",
+                true
+            ],
+            [
+                "Accusing Jews of harboring dual loyalty has a long, violent, sordid history,",
+                "Omar",
+                true
+            ],
+            [
+                "It's the standard fare of [then-Ku Klux Klan leader] David Duke.",
+                "Omar",
+                true
+            ],
+            [
+                "It's difficult and dangerous because it evokes the Jews as the malevolent other, conspiring against society.",
+                "Omar",
+                true
+            ],
+            [
+                "Being opposed to [Israeli Prime Minister Benjamin] Netanyahu and the occupation is not the same as being anti-Semitic.",
+                "Omar",
+                true
+            ],
+            [
+                "I am grateful to the many Jewish allies who have spoken out and said the same,",
+                "Omar",
+                true
+            ],
+            [
+                "There is absolutely nothing anti-Semitic about calling out the noxious role of [the American Israel Public Affairs Committee], which spends millions each year to buy U.S. political support for Israeli aggression and militarism against the Palestinian people.",
+                "",
+                true
+            ],
+            [
+                "When a resolution is brought forth to basically criticize the representative for her remarks, I have to ask myself, 'Is everybody on that level in Washington being held to the same standard?",
+                "Scully",
+                true
+            ],
+            [
+                "And it does not seem to me that that is the case,",
+                "Scully",
+                true
+            ],
+            [
+                "I absolutely welcome criticism of Israel,",
+                "Scully",
+                true
+            ],
+            [
+                "It should not be taboo to criticize Israeli government policies.",
+                "Scully",
+                true
+            ],
+            [
+                "However, it is not OK to traffic in classic anti-Semitic tropes about Jews and money and power when making those criticisms.",
+                "Scully",
+                true
+            ],
+            [
+                "I'm] grateful that I have a brave representative who is willing to criticize not just the Israeli government but also the U.S. governmental system of which she is a part.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism",
+                "https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism",
+                "https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means",
+                "https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments",
+                "https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "http://jewswithilhan.org/",
+                "https://twitter.com/IlhanMN/status/1102296763292139520",
+                "https://www.mprnews.org/pin"
+            ]
+        },
+        "key_words": [
+            "criticize",
+            "antisemitism",
+            "ignites",
+            "omar",
+            "resolution",
+            "israel",
+            "jews",
+            "minnesota",
+            "omars",
+            "remarks",
+            "debate",
+            "public",
+            "antisemitic",
+            "congresswoman",
+            "wrote"
+        ]
+    },
+    {
+        "url": "https://www.bbc.com/news/world-us-canada-48990760",
+        "title": "Theresa May condemns Trump's 'go back' remark to congresswomen",
+        "authors": [],
+        "publisher": "www.bbc.com",
+        "publish_date": "",
+        "text": "Image copyright Getty Images Image caption Alexandria Ocasio-Cortez (left), Rashida Tlaib (centre) and Ayanna Pressley (right)\n\nUK Prime Minister Theresa May has criticised US President Donald Trump for calling on several Democratic congresswomen of colour to \"go back\".\n\nThe outgoing PM called Mr Trump's words \"completely unacceptable\", according to her spokesperson.\n\nMr Trump said the women \"originally came from countries whose governments are a complete and total catastrophe\".\n\nHe was referring to four congresswomen - three who were born in the US and one who came as a child refugee.\n\nHis remarks were widely condemned as racist, and as having gone beyond previous statements and actions by the president that drew allegations of racism.\n\nProspective Democratic presidential candidates denounced Mr Trump's tweets as racist and divisive. Republican Party representatives largely kept quiet.\n\nDespite the criticism, President Trump launched another Twitter tirade on Monday morning, calling on the women themselves to apologise.\n\nThe women - Alexandria Ocasio-Cortez, Rashida Tlaib and Ayanna Pressley, and Ilhan Omar, who came to the US as a refugee aged 12 - all called the president racist and were backed by members of the Democratic Party.\n\nMs Ocasio-Cortez was born in the Bronx in New York, approximately 12 miles away from the Queens hospital where Mr Trump was born.\n\nMrs May resigned as leader of the UK's governing Conservative Party in June after being unable to get a Brexit deal through parliament. Two candidates are currently vying to replace her as prime minister.\n\nWhat did the president say?\n\nIn Sunday's three-tweet thread, Mr Trump accused the congresswomen of \"viciously\" criticising him and the US.\n\nThe president did not explicitly name the women, but the context - and references to Democratic House Speaker Nancy Pelosi - made a clear link. He said Ms Pelosi would happily organise for them to leave the country.\n\nA week ago, Ms Pelosi clashed with the four women - sometimes nicknamed \"the squad\" - but she has since come to their defence following his tweets.\n\nThe president wrote: \"So interesting to see 'progressive' Democrat congresswomen, who originally came from countries whose governments are a complete and total catastrophe, the worst, most corrupt and inept anywhere in the world (if they even have a functioning government at all), now loudly and viciously telling the people of the United States, the greatest and most powerful nation on earth, how our government is to be run.\n\n\"Why don't they go back and help fix the totally broken and crime-infested places from which they came. Then come back and show us how it is done.\n\n\"These places need your help badly, you can't leave fast enough. I'm sure that Nancy Pelosi would be very happy to quickly work out free travel arrangements!\"\n\nImage copyright AFP Image caption President Trump has been accused of racism and white nationalism\n\nThere have been internal feuds among Democrats over a border funding package, with Ms Pelosi arguing in favour of the package, and the four women - all newcomers to Congress with a progressive agenda - voting against.\n\nLast week, Ms Ocasio-Cortez accused Ms Pelosi of singling out women of colour for criticism.\n\nOn Monday, Mr Trump lashed out again in two tweets.\n\n\"When will the Radical Left Congresswomen apologise to our country, the people of Israel and even to the office of the President, for the foul language they have used, and the terrible things they have said. So many people are angry at them and their horrible and disgusting actions,\" he said.\n\n\"If Democrats want to unite around the foul language and racist hatred spewed from the mouths and actions of these very unpopular and unrepresentative Congresswomen, it will be interesting to see how it plays out. I can tell you that they have made Israel feel abandoned by the US.\"\n\nMr Trump was referring to a prior row with Ms Omar, who has faced accusations of anti-Semitism over comments she made about Israel and pro-Israel lobbyists earlier this year.\n\nMs Tlaib, the other Muslim serving in Congress, has also had to defend herself from calls of anti-Semitism from Republicans after she discussed the Israeli-Palestinian conflict on a Yahoo News Podcast in May.\n\nWhat response was there?\n\nCanadian Prime Minister Justin Trudeau signalled his dislike of Mr Trump's comments, saying on Monday: \"That is not how we do things in Canada.\"\n\n\"I think Canadians and indeed people around the world know exactly what I think about those particular comments,\" he said, adding: \"A Canadian is a Canadian is a Canadian\".\n\nMs Pelosi quoted Mr Trump's tweets and described them as \"xenophobic\".\n\n\"When @realDonaldTrump tells four American congresswomen to go back to their countries, he reaffirms his plan to 'Make America Great Again' has always been about making America white again. Our diversity is our strength and our unity is our power,\" she wrote.\n\nSkip Twitter post by @SpeakerPelosi I reject @realDonaldTrump’s xenophobic comments meant to divide our nation. Rather than attack Members of Congress, he should work with us for humane immigration policy that reflects American values. Stop the raids - #FamiliesBelongTogether! — Nancy Pelosi (@SpeakerPelosi) July 14, 2019 Report\n\nMs Tlaib, congresswoman for Michigan's 13th district, tweeted calling for Mr Trump's impeachment.\n\nMs Ocasio-Cortez tweeted at Mr Trump: \"On top of not accepting an America that elected us, you cannot accept that we don't fear you either.\"\n\nSkip Twitter post by @AOC You are angry because you can’t conceive of an America that includes us. You rely on a frightened America for your plunder.\n\n\n\nYou won’t accept a nation that sees healthcare as a right or education as a #1 priority, especially where we’re the ones fighting for it.\n\n\n\nYet here we are. — Alexandria Ocasio-Cortez (@AOC) July 14, 2019 Report\n\nMs Omar told the president that he was \"stoking white nationalism because you are angry that people like us are serving in Congress and fighting against your hate-filled agenda\". And Ms Pressley shared a screenshot of Mr Trump's tweet, adding: \"THIS is what racism looks like. WE are what democracy looks like.\"\n\nCandidates for the Democrat presidential nomination, including Elizabeth Warren, Beto O'Rourke and Bernie Sanders, condemned Mr Trump's remarks as racist.\n\nSkip Twitter post by @BernieSanders When I call the president a racist, this is what I'm talking about\n\n\n\nWe must stand together for justice and dignity towards all. https://t.co/lweeJk7NoF — Bernie Sanders (@BernieSanders) July 14, 2019 Report\n\nSenior Republicans have declined to comment, although one, Senator Lindsey Graham, advised President Trump to \"aim higher\".\n\nIn an interview with Fox Television on Monday, he said the women were US citizens who were \"duly elected\" and said the president should take issue with their policies instead of making personal attacks.\n\nHowever, he also described the women as \"a bunch of communists\".\n\nSkip Twitter post by @RepDonBeyer Only one of the Members of Congress pictured below was born outside the United States.\n\n\n\nIt’s me, also the only one who was not the subject of a racist tweet by the President today. All of us — including those like @Ilhan and me born elsewhere — are proud Americans. pic.twitter.com/EOUCCj7Ldx — Rep. Don Beyer (@RepDonBeyer) July 14, 2019 Report\n\nWhat sparked Trump's tweets?\n\nMr Trump did not specifically mention a link to recent news events, but immigration at the southern border was a dominant topic in US news at the weekend. On Friday, Ms Ocasio-Cortez, Ms Tlaib and Ms Pressley testified to a House committee about conditions in a migrant detention centre they had visited. They expressed horror about alleged mistreatment happening \"under American flags\".\n\nMs Ocasio-Cortez said migrants told her they had drunk water from toilets because sinks were broken.\n\nMedia playback is unsupported on your device Media caption Ocasio-Cortez on detained migrants: 'The women were told to drink out of a toilet bowl'\n\nVice-President Mike Pence also toured a facility on Friday. He said everyone was being \"well cared for\".\n\nThe president tweeted that children's detention centres had had \"great reviews\" and the adult male areas were \"loaded up with a big percentage of criminals\".\n\nThe president on race\n\nMr Trump has been accused of racism before in connection with different incidents.\n\nFor years, he made false claims that former President Barack Obama was not born in the US - propagating the racist \"birther\" conspiracy. He has also made numerous slurs against Central American migrants, calling them criminals and rapists. In 2018, he faced criticism from both Democrats and Republicans after reports said that during a meeting at the White House he called African nations \"shitholes\".\n\nWhen white supremacists marched in Charlottesville, Virginia, resulting in the death of 32-year-old counter protester Heather Heyer, the president said there were \"good people on both sides\".\n\nMr Trump and his father Fred Trump were sued by the Department of Justice in 1973 for discrimination against African Americans in their renting practices. They settled the case without admitting guilt in 1975 but were accused again by the justice department in 1978 of an \"underlying pattern of discrimination\" against black tenants.\n\nIn 2018, President Trump told a reporter: \"I am not a racist. I'm the least racist person you have ever interviewed\".",
+        "quotes": [
+            [
+                "originally came from countries whose governments are a complete and total catastrophe",
+                "Trump",
+                false
+            ],
+            [
+                "So interesting to see 'progressive' Democrat congresswomen, who originally came from countries whose governments are a complete and total catastrophe, the worst, most corrupt and inept anywhere in the world (if they even have a functioning government at all), now loudly and viciously telling the people of the United States, the greatest and most powerful nation on earth, how our government is to be run.",
+                "",
+                true
+            ],
+            [
+                "Why don't they go back and help fix the totally broken and crime-infested places from which they came.",
+                "",
+                true
+            ],
+            [
+                "Then come back and show us how it is done.",
+                "",
+                true
+            ],
+            [
+                "These places need your help badly, you can't leave fast enough.",
+                "",
+                true
+            ],
+            [
+                "I'm sure that Nancy Pelosi would be very happy to quickly work out free travel arrangements!",
+                "",
+                true
+            ],
+            [
+                "When will the Radical Left Congresswomen apologise to our country, the people of Israel and even to the office of the President, for the foul language they have used, and the terrible things they have said.",
+                "Trump",
+                true
+            ],
+            [
+                "So many people are angry at them and their horrible and disgusting actions,",
+                "Trump",
+                true
+            ],
+            [
+                "If Democrats want to unite around the foul language and racist hatred spewed from the mouths and actions of these very unpopular and unrepresentative Congresswomen, it will be interesting to see how it plays out.",
+                "",
+                true
+            ],
+            [
+                "I can tell you that they have made Israel feel abandoned by the US.",
+                "",
+                true
+            ],
+            [
+                "That is not how we do things in Canada.",
+                "Trump",
+                true
+            ],
+            [
+                "I think Canadians and indeed people around the world know exactly what I think about those particular comments,",
+                "",
+                true
+            ],
+            [
+                "A Canadian is a Canadian is a Canadian",
+                "",
+                false
+            ],
+            [
+                "When @realDonaldTrump tells four American congresswomen to go back to their countries, he reaffirms his plan to 'Make America Great Again' has always been about making America white again.",
+                "Trump",
+                true
+            ],
+            [
+                "Our diversity is our strength and our unity is our power,",
+                "Trump",
+                true
+            ],
+            [
+                "On top of not accepting an America that elected us, you cannot accept that we don't fear you either.",
+                "",
+                true
+            ],
+            [
+                "stoking white nationalism because you are angry that people like us are serving in Congress and fighting against your hate-filled agenda",
+                "",
+                false
+            ],
+            [
+                "THIS is what racism looks like.",
+                "Trump",
+                true
+            ],
+            [
+                "WE are what democracy looks like.",
+                "Trump",
+                true
+            ],
+            [
+                "loaded up with a big percentage of criminals",
+                "",
+                false
+            ],
+            [
+                "I'm the least racist person you have ever interviewed",
+                "Trump",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/RepDonBeyer/status/1150537893594750976?ref_src=twsrc%5Etfw",
+                "https://twitter.com/IlhanMN/status/1150456031694245888",
+                "https://t.co/EOUCCj7Ldx",
+                "https://twitter.com/AyannaPressley/status/1150460489199173632",
+                "https://www.bbc.co.uk/news/contact-us/editorial",
+                "https://twitter.com/BernieSanders/status/1150414765119946753?ref_src=twsrc%5Etfw",
+                "https://twitter.com/AOC/status/1150445185438035968?ref_src=twsrc%5Etfw",
+                "https://twitter.com/realDonaldTrump/status/1150720283654938625",
+                "https://twitter.com/hashtag/FamiliesBelongTogether?src=hash&ref_src=twsrc%5Etfw",
+                "https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw",
+                "https://t.co/lweeJk7NoF",
+                "https://twitter.com/Ilhan?ref_src=twsrc%5Etfw",
+                "https://twitter.com/realDonaldTrump/status/1150381394234941448",
+                "https://twitter.com/SpeakerPelosi/status/1150408693021908992?ref_src=twsrc%5Etfw"
+            ]
+        },
+        "key_words": [
+            "women",
+            "theresa",
+            "trump",
+            "congresswomen",
+            "ocasiocortez",
+            "mr",
+            "pelosi",
+            "remark",
+            "trumps",
+            "ms",
+            "condemns",
+            "president",
+            "racist"
+        ]
+    },
+    {
+        "url": "https://www.mprnews.org/story/2019/03/01/omar-criticized-again-for-alleged-anti-semitism",
+        "title": "Rep. Ilhan Omar criticized again for alleged anti-Semitism",
+        "authors": [
+            {
+                "name": "Ap File",
+                "link": null
+            },
+            {
+                "name": "Andrew Harnik",
+                "link": null
+            }
+        ],
+        "publisher": "www.mprnews.org",
+        "publish_date": "2019-03-01",
+        "text": "Rep. Ilhan Omar came under a fresh round of criticism Friday for remarks about Israel that critics decried as anti-Semitic.\n\nSpeaking Wednesday night at a forum at a Washington, D.C., bookstore with fellow freshman Rep. Rashida Tlaib of Michigan, the Minnesota Democrat said she fears everything they say about Israel is construed as anti-Semitic because they're Muslim. She said that prevents a \"broader debate\" about Israel's treatment of Palestinians.\n\nOmar and Tlaib won their seats in November, becoming the first Muslim women elected to Congress.\n\nThe comments, which Omar made when the questions turned to her previous criticism of the American Israel Public Affairs Committee, were first reported by the website Jewish Insider .\n\nSome Jewish leaders said she then revived an old trope about divided loyalties among Jewish-Americans when she said, \"I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country.\"\n\nShe added, \"I want to ask, 'Why is it OK for me to talk about the influence of the (National Rifle Association), or fossil fuel industries or Big Pharma, and not talk about a powerful lobbying group that is influencing policy?'\"\n\nSteve Hunegs, executive director of the Jewish Community Relations Council of Minnesota and the Dakotas, said in a statement that he was appalled by her suggestion that Jewish-Americans have divided loyalties between the U.S. and Israel. He said her comment \"continues the unacceptable pattern of the Congresswoman deploying anti-Semitic rhetoric when speaking about Jewish-Americans' involvement in our nation's democratic process.\"\n\nOmar ignited a bipartisan uproar in Washington and at home in Minnesota last month when she suggested on Twitter that members of Congress support Israel for money. Many Jewish leaders denounced her remarks as reviving old stereotypes about Jews, money and power. She soon apologized and said, \"Anti-Semitism is real and I am grateful for Jewish allies and colleagues who are educating me on the painful history of anti-Semitic tropes.\"\n\nMany progressive Jews rushed to her defense, however, saying it's not inherently anti-Semitic to criticize Israeli government policies or AIPAC.\n\nOmar's spokesperson, Jerermy Slevin, said Friday that Omar reiterated at Wednesday's event \"the remorse she feels for her comments last month -- and the pain she knows they caused. As she said in her apology, we must distinguish between criticism of a particular faith and fair critiques of lobbying groups.\" He added that she has \"consistently spoken out about the undue influence of lobbying groups for foreign interests of all kinds.\"\n\nHunegs said he met with Omar last week and found her new comments \"particularly insulting\" because he had showed her a photo of the grave of his cousin who died in France fighting for the U.S. in World War II to \"illustrate the proud patriotism\" of Jewish-Americans.\n\n\"Our community is exasperated by Rep. Omar's unfulfilled promises to listen and learn from Jewish constituents while seemingly simultaneously finding another opportunity to make an anti-Semitic remark and insult our community,\" Hunegs said.\n\nAIPAC tweeted about her latest remarks, \"The charge of dual loyalty not only raises the ominous specter of classic anti-Semitism, but it is also deeply insulting to the millions upon millions of patriotic Americans, Jewish and non-Jewish, who stand by our democratic ally, Israel.\"",
+        "quotes": [
+            [
+                "I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country.",
+                "Hunegs",
+                true
+            ],
+            [
+                "I want to ask, 'Why is it OK for me to talk about the influence of the (National Rifle Association), or fossil fuel industries or Big Pharma, and not talk about a powerful lobbying group that is influencing policy?",
+                "Hunegs",
+                true
+            ],
+            [
+                "continues the unacceptable pattern of the Congresswoman deploying anti-Semitic rhetoric when speaking about Jewish-Americans' involvement in our nation's democratic process.",
+                "",
+                false
+            ],
+            [
+                "Anti-Semitism is real and I am grateful for Jewish allies and colleagues who are educating me on the painful history of anti-Semitic tropes.",
+                "Hunegs",
+                true
+            ],
+            [
+                "the remorse she feels for her comments last month -- and the pain she knows they caused.",
+                "",
+                false
+            ],
+            [
+                "As she said in her apology, we must distinguish between criticism of a particular faith and fair critiques of lobbying groups.",
+                "",
+                true
+            ],
+            [
+                "consistently spoken out about the undue influence of lobbying groups for foreign interests of all kinds.",
+                "Hunegs",
+                false
+            ],
+            [
+                "Our community is exasperated by Rep. Omar's unfulfilled promises to listen and learn from Jewish constituents while seemingly simultaneously finding another opportunity to make an anti-Semitic remark and insult our community,",
+                "Hunegs",
+                true
+            ],
+            [
+                "The charge of dual loyalty not only raises the ominous specter of classic anti-Semitism, but it is also deeply insulting to the millions upon millions of patriotic Americans, Jewish and non-Jewish, who stand by our democratic ally, Israel.",
+                "Hunegs",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means",
+                "https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "criticized",
+            "rep",
+            "antisemitism",
+            "jewishamericans",
+            "omar",
+            "israel",
+            "talk",
+            "minnesota",
+            "remarks",
+            "alleged",
+            "jewish",
+            "ilhan",
+            "antisemitic",
+            "lobbying"
+        ]
+    },
+    {
+        "url": "https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism",
+        "title": "Rep. Omar apologizes for Israel tweets as criticism mounts",
+        "authors": [
+            {
+                "name": "Getty Images",
+                "link": null
+            },
+            {
+                "name": "Alex Wong",
+                "link": null
+            },
+            {
+                "name": "Brian Bakst",
+                "link": null
+            },
+            {
+                "name": "Briana Bierschbach",
+                "link": null
+            }
+        ],
+        "publisher": "www.mprnews.org",
+        "publish_date": "2019-02-11",
+        "text": "Tweets from Minnesota DFL U.S. Rep. Ilhan Omar suggesting that U.S. political leaders defend Israel because of campaign money have drawn a stern rebuke from Democratic and Republican leaders.\n\nUpdated 3:35 p.m. | Posted 12:42 p.m.\n\nMinnesota DFL U.S. Rep. Ilhan Omar is under fire for Twitter exchanges that Democratic allies, along with Republicans and Jewish organizations, are condemning as hateful and anti-Semitic.\n\nThat criticism intensified Monday afternoon as House Speaker Nancy Pelosi and other top House leaders condemned the remarks and called on Omar to \"immediately apologize for these hurtful comments.\"\n\nShortly after, Omar apologized.\n\nListening and learning, but standing strong 💪🏽 pic.twitter.com/7TSroSf8h1 — Ilhan Omar (@IlhanMN) February 11, 2019\n\nThe controversy began Sunday night when Omar responded to a tweet from journalist Glenn Greenwald taking House GOP Leader Kevin McCarthy to task for threatening punishment against Omar and Michigan Democratic Rep. Rashida Tlaib over their criticisms of Israel.\n\n\"It's stunning how much time US political leaders spend defending a foreign nation even if it means attacking free speech rights of Americans,\" Greenwald wrote.\n\n• In Somali: Ilhaan Cumar oo raali galin ka bixisay Yuhuud nacaybka\n\nOmar responded: \"It's all about the Benjamins baby,\" followed by a musical note emoji. The line comes from a 1997 Puff Daddy rap song referring to $100 bills.\n\nThe tweet was immediately criticized as being anti-Semitic, implying Jewish Americans use money to influence a sympathetic U.S. foreign policy toward Israel.\n\nIn a subsequent tweet, Omar was more specific, suggesting it was funding from \"AIPAC,\" the American Israel Public Affairs Committee, a prominent pro-Israel group, fueling Republican support for Israel.\n\nThe backlash was swift. Freshman Democrat Rep. Max Rose, from New York, tweeted her comments were \"deeply hurtful to Jews.\"\n\nThe chair of the House Judiciary Committee, Rep. Jerry Nadler, D-N.Y., issued a similar statement, and other Democrats weren't bashful in calling Omar out. Chelsea Clinton said elected officials should \"not traffic in anti-Semitism.\"\n\nIt's not the first backlash the freshman from Minneapolis has faced during her short tenure in Congress. But so far, Minnesota Democrats are saying little in response to the controversy.\n\nThe Minnesota DFL Party declined to comment on the tweets. Fellow first-term DFL Rep. Angie Craig, who was at the Minnesota Capitol on Monday, said she would let her House colleagues \"speak for themselves.\"\n\n\"I certainly support a strong and safe Israel as the only democracy in the Middle East and I'm going to continue to do that,\" she said. \"I've decided I'm going to speak for myself and let others speak for themselves and we'll let the voters react to that.\"\n\nOther Minnesota groups were critical of Omar.\n\nSteve Hunegs, executive director of the Jewish Community Relations Council of Minnesota and the Dakotas, said her assertion that Jewish groups \"manipulate government with money invokes age-old anti-Semitism.\"\n\nAfter Omar apologized Monday afternoon, Hunegs said \"actions will speak louder than words\" going forward.\n\n\"We hope she will have learned from this situation,\" he said. \"We want to have a respectful working relationship with her. We'll see going forward if she's going to continue in this vein of being more careful in the words she chooses.\"\n\nHer comments, though, remained a sore point for state Sen. Ron Latz, DFL-St. Louis Park, who criticized her for \"clearly anti-Semitic public statements.\"\n\nOmar, he added, \"cannot constantly make statements that suggest she was 'ignorant' of the anti-Semitic implications of what she says or publishes, as she has been educated by myself and others on numerous occasions.\"\n\nOmar has been openly critical of the Israeli government over its treatment of Palestinians and is part of a movement calling to cut economic ties with Israel over Israeli occupation of the West Bank.\n\nShe also recently came under fire for a 2012 tweet where she said Israel had \"hypnotized the world\" and accused them of \"evil doings,\" words that Hunegs warned were outside the bounds of politics and put Jewish people in danger.\n\nMinnesota Senate Republican Majority Leader Paul Gazelka also condemned Omar's rhetoric.\n\n\"It's a combination of quotes she's made over the last year that I just decided I'm going to take a stand and say it's not OK,\" Gazelka, R-Nisswa, said prior to Omar's apology Monday afternoon.\n\n\"I'm going to support Israel and the Jewish people,\" Gazelka added. \"I think somebody needs to when somebody on the other side continues to say something negative.\"\n\nMcCarthy, the GOP leader, has been critical of Omar and other Democrats' comments about Israel, calling them anti-Semitic. The Republicans recently punished one their own, Iowa U.S. Rep. Steve King, for comments questioning when language like \"white supremacist\" became offensive.",
+        "quotes": [
+            [
+                "immediately apologize for these hurtful comments.",
+                "Omar",
+                false
+            ],
+            [
+                "It's stunning how much time US political leaders spend defending a foreign nation even if it means attacking free speech rights of Americans,",
+                "Greenwald",
+                true
+            ],
+            [
+                "It's all about the Benjamins baby,",
+                "Omar",
+                true
+            ],
+            [
+                "I certainly support a strong and safe Israel as the only democracy in the Middle East and I'm going to continue to do that,",
+                "",
+                true
+            ],
+            [
+                "I've decided I'm going to speak for myself and let others speak for themselves and we'll let the voters react to that.",
+                "",
+                true
+            ],
+            [
+                "manipulate government with money invokes age-old anti-Semitism.",
+                "Steve Hunegs",
+                false
+            ],
+            [
+                "actions will speak louder than words",
+                "Hunegs",
+                false
+            ],
+            [
+                "We hope she will have learned from this situation,",
+                "Hunegs",
+                true
+            ],
+            [
+                "We want to have a respectful working relationship with her.",
+                "Hunegs",
+                true
+            ],
+            [
+                "We'll see going forward if she's going to continue in this vein of being more careful in the words she chooses.",
+                "Hunegs",
+                true
+            ],
+            [
+                "cannot constantly make statements that suggest she was 'ignorant' of the anti-Semitic implications of what she says or publishes, as she has been educated by myself and others on numerous occasions.",
+                "Omar",
+                false
+            ],
+            [
+                "It's a combination of quotes she's made over the last year that I just decided I'm going to take a stand and say it's not OK,",
+                "Gazelka",
+                true
+            ],
+            [
+                "I'm going to support Israel and the Jewish people,",
+                "Gazelka",
+                true
+            ],
+            [
+                "I think somebody needs to when somebody on the other side continues to say something negative.",
+                "Gazelka",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://live.mprnews.org/Event/MPR_News_Somali/1154817196",
+                "https://twitter.com/ggreenwald/status/1094727576013193216",
+                "https://twitter.com/MaxRose4NY/status/1094783506323042304",
+                "https://twitter.com/IlhanMN/status/1095046561254567937?ref_src=twsrc%5Etfw",
+                "https://twitter.com/ChelseaClinton/status/1094773371823366145",
+                "https://twitter.com/SpeakerPelosi/status/1095026564503343104",
+                "https://t.co/7TSroSf8h1",
+                "https://twitter.com/IlhanMN/status/1094747501578633216"
+            ]
+        },
+        "key_words": [
+            "rep",
+            "house",
+            "omar",
+            "comments",
+            "israel",
+            "criticism",
+            "apologizes",
+            "minnesota",
+            "dfl",
+            "tweets",
+            "jewish",
+            "going",
+            "speak",
+            "mounts"
+        ]
+    },
+    {
+        "url": "https://www.mprnews.org/story/2019/02/14/omar-had-a-week-here-s-what-it-means",
+        "title": "Ilhan Omar's had a week: Here's what it means",
+        "authors": [
+            {
+                "name": "Ap Photo File",
+                "link": null
+            },
+            {
+                "name": "Andrew Harnik",
+                "link": null
+            },
+            {
+                "name": "Briana Bierschbach",
+                "link": null
+            }
+        ],
+        "publisher": "www.mprnews.org",
+        "publish_date": "2019-02-14",
+        "text": "Minnesota U.S. Rep. Ilhan Omar walks through the halls of the Capitol Building in Washington on Jan. 16, 2019.\n\nIt started with a tweet. And then another one.\n\nWhat followed was a stunning week in Washington for Ilhan Omar, a freshman member of Congress from Minnesota's 5th District, that included condemnation from her Democratic allies, a public apology — also via a tweet — and President Trump calling for her to step down from a high-profile committee and resign from office.\n\nTwo days later, she stole the national spotlight again for her questioning of Elliott Abrams, President Trump's special envoy to Venezuela, about his role in Central American killings during his stint in the Reagan administration.\n\n\"There are 435 members of Congress, so you can't overstate how unusual it is for one member to attract so much attention — both from the media and the president himself,\" said Kathryn Pearson, a political science professor at the University of Minnesota.\n\nIt's attention, in good times and bad, that Omar and her home state can expect more of during her time in Congress.\n\nOmar made history last fall as the first Somali woman and one of the first two Muslim women ever elected to Congress. She's a darling of the national media — she even had a cameo in a Maroon 5's music video — and she's part of a high-profile class of freshman Democrats, the most diverse ever, trying to shake up the establishment in Washington.\n\nHer historic profile and unapologetic style have given her a megaphone on social media, where she frequently weighs in on the issue of the day, earning hundreds of thousands of responses. This week, it backfired.\n\nOmar tweeted Sunday that American politicians' support for Israel is \"all about the Benjamins,\" and followed it up with another tweet specifically calling out the American Israel Public Affairs Committee. That earned her swift rebuke from Republicans and Democrats alike, who accused her of trafficking in dangerous anti-Semitic stereotypes.\n\nAfter House Speaker Nancy Pelosi called for her to apologize, Omar did \"unequivocally,\" saying she was referring to the powerful Israel lobby and was \"grateful for Jewish allies and colleagues who are educating me on the painful history of anti-Semitic tropes.\"\n\nEven with the apology, it's made for uncomfortable conversations among her Democratic allies back in her district.\n\n\"She's establishing herself as a firebrand. Do I think she is going to have another Twitter dustup? Yes. Will it be about anti-Semitism? I have no idea,\" said Carin Mrotz, executive director of Jewish Community Action.\n\n\"I don't think her tweets are evidence that she is an anti-Semite; her tweets are an example that anti-Semitism is so ingrained in our society and culture that we don't even realize it,\" Mrotz added. \"I will say to her credit is she has displayed a willingness to learn and grow and change.\"\n\nPeople leave Post-it notes of support outside the office of Minnesota U.S. Rep. Ilhan Omar on Capitol Hill Monday in Washington. Andrew Harnik | AP Photo file\n\nOthers felt her celebrity and inexperience in politics — Omar served just one term in the state House before moving to Congress — collided in the tweet.\n\n\"There's a learning opportunity in here for her to talk with members of the Jewish community in her district,\" said Darin Broton, a DFL consultant and strategist with the Tunheim public affairs firm.\n\nBut he was turned off when he saw a fundraising email from Omar this week — titled \"We Won't Be Silenced\" — after Trump asked her to resign. \"It didn't matter if the tweet came from the president or if the tweet came from someone else, we shouldn't be fundraising off of something that was insensitive,\" he said.\n\nThe U of M's Pearson said Omar's difficulty now is balancing her firebrand profile with building relationships in her district and allies in Congress who could help her pass legislation. She contrasted her style with two other Minnesota freshman Democrats — Angie Craig and Dean Phillips — who have taken more moderate, problem-solver stances.\n\nFor example, on Thursday, Omar and three other freshman members of Congress, Alexandria Ocasio-Cortez, D-N.Y., Ayanna Pressley, D-Mass., and Rashida Tlaib, D-Mich., issued a joint statement opposing the bipartisan agreement reached to prevent another government shutdown. \"We want to be abundantly clear: This is not a rebuke of federal workers or those who depend on the services they provide, but a rejection of the hateful policies, priorities and rhetoric of the Trump Administration,\" they wrote.\n\n\"Many members of Congress, when they first enter, spend a lot of time getting the lay of the land, developing policy expertise, forging relationships. That does not seem to be the path that she is taking,\" Pearson said. \"The challenge of her is ... going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue.\"\n\nAnd her detractors contribute to her high profile as much as her supporters. Omar and her allies have become a target for the right for their outspoken style on issues before Congress.\n\n\"Unfortunately, the country today — the way it is — a Muslim woman who is unapologetic about who she is and what she brings to the U.S. Capitol is going to be a lightning rod for criticism. There are going to be people on the right who want to tear her down because they can't stand the idea of what she represents,\" said Minnesota House Majority Leader Ryan Winkler, DFL-Golden Valley, who represents a large Jewish community in his state House district.\n\n\"As much as I'm concerned about the language she has used in respect to the Jewish community, I think that it's very important that people like Ilhan Omar are in leadership positions because it demonstrates the way America is changing and what the future looks like,\" said Winkler. \"I just hope that she will think carefully about the powerful effect her words can have.\"",
+        "quotes": [
+            [
+                "There are 435 members of Congress, so you can't overstate how unusual it is for one member to attract so much attention — both from the media and the president himself,",
+                "Kathryn Pearson",
+                true
+            ],
+            [
+                "grateful for Jewish allies and colleagues who are educating me on the painful history of anti-Semitic tropes.",
+                "Ilhan Omar",
+                false
+            ],
+            [
+                "She's establishing herself as a firebrand.",
+                "Carin Mrotz",
+                true
+            ],
+            [
+                "Do I think she is going to have another Twitter dustup?",
+                "Carin Mrotz",
+                true
+            ],
+            [
+                "Will it be about anti-Semitism?",
+                "Carin Mrotz",
+                true
+            ],
+            [
+                "I don't think her tweets are evidence that she is an anti-Semite; her tweets are an example that anti-Semitism is so ingrained in our society and culture that we don't even realize it,",
+                "Mrotz",
+                true
+            ],
+            [
+                "I will say to her credit is she has displayed a willingness to learn and grow and change.",
+                "Mrotz",
+                true
+            ],
+            [
+                "There's a learning opportunity in here for her to talk with members of the Jewish community in her district,",
+                "Darin Broton",
+                true
+            ],
+            [
+                "It didn't matter if the tweet came from the president or if the tweet came from someone else, we shouldn't be fundraising off of something that was insensitive,",
+                "",
+                true
+            ],
+            [
+                "We want to be abundantly clear: This is not a rebuke of federal workers or those who depend on the services they provide, but a rejection of the hateful policies, priorities and rhetoric of the Trump Administration,",
+                "Pearson",
+                true
+            ],
+            [
+                "Many members of Congress, when they first enter, spend a lot of time getting the lay of the land, developing policy expertise, forging relationships.",
+                "Pearson",
+                true
+            ],
+            [
+                "That does not seem to be the path that she is taking,",
+                "Pearson",
+                true
+            ],
+            [
+                "The challenge of her is ... going to be being able to build consensus and build policy coalitions with people who might not agree with her on every issue.",
+                "Pearson",
+                true
+            ],
+            [
+                "Unfortunately, the country today — the way it is — a Muslim woman who is unapologetic about who she is and what she brings to the U.S. Capitol is going to be a lightning rod for criticism.",
+                "Pearson",
+                true
+            ],
+            [
+                "There are going to be people on the right who want to tear her down because they can't stand the idea of what she represents,",
+                "Pearson",
+                true
+            ],
+            [
+                "As much as I'm concerned about the language she has used in respect to the Jewish community, I think that it's very important that people like Ilhan Omar are in leadership positions because it demonstrates the way America is changing and what the future looks like,",
+                "Winkler",
+                true
+            ],
+            [
+                "I just hope that she will think carefully about the powerful effect her words can have.",
+                "Winkler",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.mprnews.org/story/2019/02/12/trump-calls-for-omar-to-resign-over-israel-tweets",
+                "https://www.mprnews.org/story/2019/02/11/ilhan-omar-israel-tweets-criticism-antisemitism"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "house",
+            "heres",
+            "omar",
+            "allies",
+            "think",
+            "minnesota",
+            "omars",
+            "means",
+            "congress",
+            "ilhan",
+            "jewish",
+            "president",
+            "week",
+            "members"
+        ]
+    },
+    {
+        "url": "https://www.npr.org/2019/03/07/701074291/house-votes-to-condemn-anti-semitism-after-rep-omars-comments",
+        "title": "House Votes To Condemn Anti-Semitism After Rep. Omar's Comments",
+        "authors": [
+            {
+                "name": "Susan Davis",
+                "link": null
+            }
+        ],
+        "publisher": "www.npr.org",
+        "publish_date": "2019-03-07",
+        "text": "House Votes To Condemn Anti-Semitism After Rep. Omar's Comments\n\nEnlarge this image toggle caption J. Scott Applewhite/AP J. Scott Applewhite/AP\n\nUpdated at 7:04 p.m. ET\n\nThe House approved a resolution Thursday to condemn \"anti-Semitism, Islamophobia, racism and other forms of bigotry\" in a move that Democrats hope will quell the latest uproar over Rep. Ilhan Omar's criticism of Israel.\n\nThe vote on the measure was 407-23. The 23 opposed were all Republican lawmakers.\n\nFor the second time in as many months, the freshman Minnesota Democrat has provoked contentious debate on Capitol Hill over rhetoric that many lawmakers — including senior Democrats — view as anti-Semitic.\n\nIt is the second time that the House voted to condemn anti-Semitism as a rebuke of Omar, although she is not named in either resolution. The first time was in response to tweets that played on tropes about Jewish money and influence on American politics.\n\nOmar did not speak on the House floor during the debate but released a joint statement with the two other Democratic lawmakers who are also Muslim — Rep. Andre Carson of Indiana and Rep. Rashida Tlaib of Michigan — calling the vote on the resolution \"historic.\"\n\n\"It's the first time we have voted on a resolution condemning Anti-Muslim bigotry in our nation's history,\" the three Democrats said.\n\nThe resolution Thursday was put forward after Omar made comments at a Washington, D.C., coffee shop last week in which she again questioned the pro-Israel lobby's influence in American politics. \"I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country,\" she said. \"I want to ask why is it OK for me to talk about the influence of the NRA, of fossil fuel industries or Big Pharma and not talk about a powerful lobbying group that is influencing policies?\"\n\nFor many lawmakers, her comments played off the \"dual loyalty\" accusations that have been used to harass and persecute Jews throughout history. This time, Omar refused to apologize for her remarks, and a number of prominent Democrats came to her defense, including fellow freshman Rep. Alexandria Ocasio-Cortez of New York. It served to expose a generational rift inside the Democratic Caucus, with younger, liberal Democrats willing to criticize Israel and U.S. foreign policy in a way that older, long-serving Democrats generally oppose.\n\nParty leaders initially decided to punt on the resolution vote to address concerns across the caucus about the text of the resolution. Democrats reversed course early Thursday and announced that the House would vote on it hours before the resolution was even released. Democrats feared that House Republicans would be able to force a vote on the floor if the party did not take control of the matter.\n\nHouse Speaker Nancy Pelosi, D-Calif., was an early supporter of the resolution that began to take shape over the weekend. On Thursday, she said she did not believe Omar harbored anti-Semitic views. \"I feel confident that her words were not based on any anti-Semitic attitude but that she didn't have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her,\" Pelosi told reporters.\n\nRepublicans have amped up attacks against Omar, with one top Republican suggesting that Democratic support of her could lead to violence. \"Representative Omar embodies a vile, hate-filled, anti-Semitic, anti-Israel bigotry,\" House Republican Conference Chairwoman Liz Cheney, R-Wyo., said Wednesday. \"This is a time for the Democratic leaders in this institution to do the right thing. They should remove her from the House Foreign Affairs Committee. They should stand up to her. They should stop empowering her disgusting hatred before it turns into horror.\"\n\nHouse GOP leaders are calling for her removal from the Foreign Affairs panel, but Democrats have not gone there. The panel's chairman, Eliot Engel, has been a leading critic of Omar's rhetoric, but he has not called for her ousting from the committee.\n\nThursday's resolution was co-sponsored by Democratic Reps. Jamie Raskin of Maryland, who is Jewish, and Cedric Richmond of Louisiana, who is black. Members of the Congressional Black Caucus had also voiced concern about the resolution and the haste with which the House was moving to condemn a Muslim African-American woman while other offensive comments made by lawmakers — and President Trump — often go by without notice or attention. To accommodate members' concerns, the resolution was broadened to condemn all forms of racism and bigotry beyond anti-Semitism.\n\nThe controversy spilled out across the U.S. Capitol and onto the 2020 campaign trail. On Thursday morning, Senate Majority Leader Mitch McConnell, R-Ky., criticized House Democrats for their handling of the matter. \"Apparently within the speaker's new far-left Democratic majority, even a symbolic resolution condemning anti-Semitism seems to be a bridge too far,\" he said.\n\nLeading 2020 Democratic presidential contenders, including Sens. Bernie Sanders, Kamala Harris and Elizabeth Warren, came to Omar's defense this week. Sanders, who is Jewish, said attacks on Omar from Republicans are intended to silence debate about U.S.-Israel foreign policy. \"What I fear is going on in the House now is an effort to target Congresswoman Omar as a way of stifling that debate,\" Sanders said in a statement, adding: \"That's wrong.\"\n\nHarris also raised concerns about Omar's personal safety. \"We should be having a sound, respectful discussion about policy. You can both support Israel and be loyal to our country. I also believe there is a difference between criticism of policy or political leaders, and anti-Semitism,\" Harris said.\n\n\"Branding criticism of Israel as automatically anti-Semitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between Israelis and Palestinians,\" said Warren. \"Threats of violence — like those made against Rep. Omar — are never acceptable.\"",
+        "quotes": [
+            [
+                "anti-Semitism, Islamophobia, racism and other forms of bigotry",
+                "",
+                false
+            ],
+            [
+                "It's the first time we have voted on a resolution condemning Anti-Muslim bigotry in our nation's history,",
+                "",
+                true
+            ],
+            [
+                "I want to talk about the political influence in this country that says it is OK for people to push for allegiance to a foreign country,",
+                "",
+                true
+            ],
+            [
+                "I want to ask why is it OK for me to talk about the influence of the NRA, of fossil fuel industries or Big Pharma and not talk about a powerful lobbying group that is influencing policies?",
+                "",
+                true
+            ],
+            [
+                "I feel confident that her words were not based on any anti-Semitic attitude but that she didn't have a full appreciation of how they landed on other people where these words have a history and a cultural impact that might have been unknown to her,",
+                "Pelosi",
+                true
+            ],
+            [
+                "Representative Omar embodies a vile, hate-filled, anti-Semitic, anti-Israel bigotry,",
+                "Omar",
+                true
+            ],
+            [
+                "This is a time for the Democratic leaders in this institution to do the right thing.",
+                "",
+                true
+            ],
+            [
+                "They should remove her from the House Foreign Affairs Committee.",
+                "",
+                true
+            ],
+            [
+                "They should stand up to her.",
+                "",
+                true
+            ],
+            [
+                "They should stop empowering her disgusting hatred before it turns into horror.",
+                "",
+                true
+            ],
+            [
+                "Apparently within the speaker's new far-left Democratic majority, even a symbolic resolution condemning anti-Semitism seems to be a bridge too far,",
+                "",
+                true
+            ],
+            [
+                "What I fear is going on in the House now is an effort to target Congresswoman Omar as a way of stifling that debate,",
+                "Sanders",
+                true
+            ],
+            [
+                "We should be having a sound, respectful discussion about policy.",
+                "Harris",
+                true
+            ],
+            [
+                "You can both support Israel and be loyal to our country.",
+                "Harris",
+                true
+            ],
+            [
+                "I also believe there is a difference between criticism of policy or political leaders, and anti-Semitism,",
+                "Harris",
+                true
+            ],
+            [
+                "Branding criticism of Israel as automatically anti-Semitic has a chilling effect on our public discourse and makes it harder to achieve a peaceful solution between Israelis and Palestinians,",
+                "Warren",
+                true
+            ],
+            [
+                "Threats of violence — like those made against Rep. Omar — are never acceptable.",
+                "Warren",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.npr.org/2019/02/11/693480995/house-democrats-urge-party-leaders-to-condemn-anti-semitism"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://apps.npr.org/documents/document.html?id=5762660-Anti-Hate-House-Resolution"
+            ]
+        },
+        "key_words": [
+            "votes",
+            "vote",
+            "rep",
+            "house",
+            "antisemitism",
+            "resolution",
+            "comments",
+            "omar",
+            "foreign",
+            "omars",
+            "democratic",
+            "condemn",
+            "democrats"
+        ]
+    },
+    {
+        "url": "https://www.apmresearchlab.org/stories/2018/06/26/representing-us?refid=homepage",
+        "title": "Representing US",
+        "authors": [],
+        "publisher": "www.apmresearchlab.org",
+        "publish_date": "2018-06-26",
+        "text": "Our nonpartisan Representing US project has been exploring the differences across all 435 U.S. House districts—from education and poverty levels, to racial and immigrant make-up, to congressional and presidential voting history, and more.\n\nWith this, our third release of Representing US, we’re highlighting the November 6, 2018, election outcomes. All vote percentages below have been certified by states.\n\n\n\nRevisit our pre-election RepresentingUS content including our Demographics Tool and Voting Insights Tool.\n\n\n\nThe midterm elections erased what was a 43-seat advantage for the Republicans and handed the majority to the Democrats. Democrats won 235 seats, including 43 formerly Republican districts. Republicans claimed 199 seats, including three flipped from the Democrats. (North Carolina’s 9th district seat remains vacant, as the election results between Dan McCready (D) and Mark Harris (R) were thrown out due to election fraud. Harris subsequently dropped out of the race. Dan Bishop won the new Republican primary election on May 14, 2019, and will face Democrat Dan McCready in a new general election on Sept. 10, 2019.)\n\n\n\nExplore all the results in our interactive tools below.\n\n\n\nJUMP TO CONTENT\n\n\n\n\n\nMidterms 2018: Which U.S. House seats were held or flipped by each political party?\n\nHOVER OVER ANY DISTRICT FOR DETAILS\n\nKEY FINDINGS\n\nDemocrats held 192 seats (including five in redistricted Pennsylvania). Democrats also flipped 43 seats from Republicans (including four in Pennsylvania’s revised districts). Democrats have control of 235 seats, with one race (North Carolina’s 9th) yet undecided. Democrats have gained the majority in the U.S. House by surpassing 218 seats.\n\nRepublicans successfully defended 196 of their seats (including eight in redistricted Pennsylvania). However, Republicans only flipped one Pennsylvania seat, along with two other districts (Minnesota’s 1st and 8th) from the Democrats. Republicans have won 199 seats, with one race remaining uncalled.\n\nMidterms 2018: Where did women win U.S. House races?\n\nHOVER OVER ANY DISTRICT FOR DETAILS\n\n\n\nKEY FINDINGS\n\nFollowing the historic midterm election, a record-setting 102 congresswomen were seated in the 116th Congress’ House of Representatives.\n\nThirteen Republican women won a seat in the U.S. House of Representatives, resulting in a victory for 25 percent of all Republican women running. Additionally, 89 Democratic women won their congressional district races, or 48 percent all Democratic women running.\n\n\n\nMidterms 2018: How close was the U.S. House race?\n\nHOVER OVER ANY BAR FOR DETAILS\n\n\n\nKEY FINDINGS\n\nThe smallest margins of victory in the 2018 midterm elections were in Georgia’s 7th district (in which Republican incumbent Rob Woodall narrowly defeated Democrat Carolyn Bordeaux) and Utah’s 4th district (where Democrat Ben McAdams unseated Republican incumbent Mia Love). In both, 0.2 percentage points separated the candidates after all votes were counted.\n\nCompared to 28 uncontested House races in the 2016 election, 2018 saw 18 House races that were uncontested. Only two of the 18 were Republican-held; Democrats were assured a victory in the 16 other unchallenged seats.\n\nMidterms 2018: How red or blue was the outcome of each race?\n\nHOVER OVER ANY DISTRICT FOR DETAILS\n\n\n\nKEY FINDINGS\n\nThere were 46 House races that were won by five percentage points or less, including seven races in Texas, five races in California, three races in New York, and three in redistricted Pennsylvania.\n\nNorth Carolina’s 9th district seat remains vacant, as the election results between Dan McCready (D) and Mark Harris (R) were thrown out due to election fraud. Harris subsequently dropped out of the race. Dan Bishop won the new Republican primary election on May 14, 2019, and will face Democrat Dan McCready in a new general election on Sept. 10, 2019.\n\nMidterms 2018: How strong was support for Trump in 2016, compared to which party won the seat in 2018?\n\nHOVER OVER ANY BAR FOR DETAILS\n\n\n\nKEY FINDINGS\n\nThirty-three U.S. House districts that voted in greater numbers for President Trump over Hillary Clinton in 2016 also sent a Democrat to Congress in 2018. (This count includes Pennsylvania’s new 6th, 7th, 8th, and 17th districts, which were compared to their most comparable district in 2016, prior to redistricting. See bit.ly/PAredistricting for more details). Most notable was Minnesota’s 7th district, in which voters sent longstanding Democratic Representative Collin Peterson back to Congress by a four-point margin, despite favoring President Trump by 31 percentage points two years earlier.\n\nOnly two districts that favored Clinton over Trump in 2016 sent a Republican to the U.S. House in 2018: New York’s 24th and Texas’ 23rd district. Republican incumbents John Katko and Will Hurd won by 5.2 and 0.5 percentage points, respectively, in those districts. Each district had preferred Trump to Clinton by a margin of four percentage points in 2016.\n\nNotes about use\n\nOn map views, use + or – (in toolbar along the left side of any map view) or your mouse scroll wheel to zoom in and out. You may also click the magnifying glass icon and enter a location to zoom to it. Use the cross-shaped tool to pan and move about, including locating data for Hawaii or Alaska.\n\nClick the home icon or refresh your browser page to reset the view. All bar graphs and tables may be sorted (high-to-low, low-to-high, or alphabetically) by clicking the sort icon (three stacked bars).\n\nClick here if you do not know your U.S. House district to locate it by your zip code, or use the magnifying glass icon on the map views to identify district(s) associated with a zip code, city, state, or other geography.\n\n\n\nData sources and notes\n\nThe 2018 election results were sourced from the New York Times ’ 2018 coverage. (D) refers to Democrat, (R) refers to Republican, (I) refers to independent, (L) refers to Libertarian, and (G) refers to Green party.\n\nIn the case of formerly vacant U.S. House seats, the party which last held the seat is used to determine who held or flipped the seat for the map titled “Which U.S. House seats were held or flipped by each party?”\n\nData on Trump/Clinton margin in 2016 by U.S. House district sourced from Cook Political Report’s most recent Partisan Voting Index by state and district, which uses data collected by POLIDATA. Further methodology can be found in the full Report by Cook. Data on 2016 U.S. House election results (and subsequent special elections) sourced from CNN , Politico the New York Times and states’ Secretary of State offices.",
+        "quotes": [
+            [
+                "Which U.S. House seats were held or flipped by each party?",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/interactive/2018/02/19/upshot/pennsylvania-new-house-districts-gerrymandering.html",
+                "https://www.apmresearchlab.org/stories/2018/10/09/representing-us-2018-preelection-content",
+                "https://www.npr.org/2019/03/04/699985857/new-election-schedule-set-in-north-carolinas-9th-district",
+                "https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html",
+                "https://cookpolitical.com/introducing-2017-cook-political-report-partisan-voter-index",
+                "https://www.nytimes.com/elections/2016/results/house"
+            ],
+            "gov_pgs": [
+                "https://www.house.gov/representatives/find-your-representative"
+            ],
+            "unsure": [
+                "https://www.politico.com/mapdata-2016/2016-election/results/map/house/",
+                "https://www.cnn.com/election/2016/results/house"
+            ]
+        },
+        "key_words": [
+            "house",
+            "2018",
+            "seats",
+            "district",
+            "won",
+            "districts",
+            "including",
+            "democrats",
+            "republican",
+            "election",
+            "representing"
+        ]
+    }
+]

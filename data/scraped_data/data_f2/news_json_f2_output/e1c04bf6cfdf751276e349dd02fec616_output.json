@@ -1,0 +1,115 @@
+{
+    "root": "https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "174749": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/rally6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174759": {
+                "prov:usedEntity": "test:https://www.activistpost.com/privacy-policy", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174745": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/reset6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174757": {
+                "prov:usedEntity": "test:http://activistpost.net/superfood.html", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174747": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/take6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174755": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/attack6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174753": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/drama6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174743": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/bear6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174751": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174763": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/myth6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }, 
+            "174761": {
+                "prov:usedEntity": "test:https://www.wealthresearchgroup.com/goldplaybook6/", 
+                "prov:generatedEntity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174741": {
+                "prov:entity": "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html", 
+                "prov:agent": "test:www.activistpost.com"
+            }
+        }, 
+        "agent": {
+            "test:www.activistpost.com": {
+                "test:publisher": "www.activistpost.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.wealthresearchgroup.com/reset6/": {
+                "test:url": "https://www.wealthresearchgroup.com/reset6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/bear6/": {
+                "test:url": "https://www.wealthresearchgroup.com/bear6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/": {
+                "test:url": "https://www.wealthresearchgroup.com/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/myth6/": {
+                "test:url": "https://www.wealthresearchgroup.com/myth6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/take6/": {
+                "test:url": "https://www.wealthresearchgroup.com/take6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/goldplaybook6/": {
+                "test:url": "https://www.wealthresearchgroup.com/goldplaybook6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.activistpost.com/privacy-policy": {
+                "test:url": "https://www.activistpost.com/privacy-policy", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/attack6/": {
+                "test:url": "https://www.wealthresearchgroup.com/attack6/", 
+                "test:type": "reference"
+            }, 
+            "test:http://activistpost.net/superfood.html": {
+                "test:url": "http://activistpost.net/superfood.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/drama6/": {
+                "test:url": "https://www.wealthresearchgroup.com/drama6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wealthresearchgroup.com/rally6/": {
+                "test:url": "https://www.wealthresearchgroup.com/rally6/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html": {
+                "test:url": "https://www.activistpost.com/2019/07/oxygen-tank-empty-even-gold-wont-help-you.html", 
+                "test:date": "2019-07-15", 
+                "test:title": "OXYGEN TANK EMPTY: Even Gold Won’t HELP YOU!", 
+                "test:type": "article"
+            }
+        }
+    }
+}
