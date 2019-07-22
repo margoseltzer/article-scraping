@@ -1,0 +1,1399 @@
+{
+    "root": "https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "156959": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/06/politics/congress-disaster-relief-talks-continue/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156945": {
+                "prov:usedEntity": "test:https://www.bloomberg.com/tosv2.html?vid=&uuid=74b1d2a0-a60c-11e9-9fe6-9ff6e71c3cbf&url=L3BvbGl0aWNzL2FydGljbGVzLzIwMTUtMTAtMTYvdHJ1bXAtc3BlYWtzLWluLWJsb29tYmVyZy10di1pbnRlcnZpZXctb24tamFuZXQteWVsbGVuLWludGVyZXN0LXJhdGVz", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156978": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/18/politics/senators-deal-emergency-border-funding/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html"
+            }, 
+            "156976": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/10/politics/justin-amash-leaves-freedom-caucus/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html"
+            }, 
+            "156951": {
+                "prov:usedEntity": "test:https://www.cnn.com/videos/politics/2019/03/12/kushner-inc-nyt-trump-john-kelly-donald-trump-ivanka-jared-white-house-deny-bennett-dnt-vpx.cnn", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html"
+            }, 
+            "156974": {
+                "prov:usedEntity": "test:https://www.majorityleader.gov/newsroom/121218-3", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html"
+            }, 
+            "156953": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/02/25/politics/debt-limit-congress-deadline/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html"
+            }, 
+            "156972": {
+                "prov:usedEntity": "test:https://www.cnn.com/2018/12/12/politics/nancy-pelosi-votes-deal-democrats/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html"
+            }, 
+            "156955": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/08/politics/donald-trump-rally-panama-city-beach/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156970": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1126625647214964737", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156957": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/22/health/hurricane-maria-funding-study-trnd/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156899": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html"
+            }, 
+            "156968": {
+                "prov:usedEntity": "test:https://www.politifact.com/florida/statements/2019/apr/03/donald-trump/trumps-false-tweet-puerto-rico-got-91-billion-hurr/", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156947": {
+                "prov:usedEntity": "test:https://www.theatlantic.com/politics/archive/2019/04/mick-mulvaney-white-house-2020-and-mueller/588022/", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html"
+            }, 
+            "156909": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }, 
+            "156921": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html"
+            }, 
+            "156923": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/11/politics/mark-milley-confirmation-hearing-not-intimidated/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/specials/politics/president-donald-trump-45"
+            }, 
+            "156925": {
+                "prov:usedEntity": "test:https://www.cnn.com/travel/article/mlk-sites-atlanta-opening-government-shutdown/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/specials/politics/government-shutdown-2019"
+            }, 
+            "156941": {
+                "prov:usedEntity": "test:https://www.cnbc.com/2016/05/05/donald-trump-a-chance-ill-pick-a-vp-from-field-of-former-gop-candidates.html", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156929": {
+                "prov:usedEntity": "test:https://money.cnn.com/2015/08/31/news/companies/donald-trump-bankruptcy/", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156943": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/05/02/investing/puerto-rico-default-may-1/index.html", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156901": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html"
+            }, 
+            "156907": {
+                "prov:usedEntity": "test:https://www.cnn.com/specials/politics/government-shutdown-2019", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }, 
+            "156905": {
+                "prov:usedEntity": "test:https://www.cnn.com/specials/politics/president-donald-trump-45", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html"
+            }, 
+            "156919": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html"
+            }, 
+            "156982": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/06/11/politics/nancy-pelosi-trump-prison/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html"
+            }, 
+            "156980": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/12/politics/donald-trump-democrats-government-shutdown-history/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html"
+            }, 
+            "156927": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/25/us/air-traffic-controller-shortage-faa/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html"
+            }, 
+            "156984": {
+                "prov:usedEntity": "test:https://www.cnn.com/2013/02/06/politics/cnn-explains-sequestration/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html"
+            }, 
+            "156964": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2019/04/02/trump-puerto-rico-hurricane-aid-1247759", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156966": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/04/12/politics/disaster-relief-stalled-puerto-rico-trump-congress/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156962": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/09/politics/disaster-relief-richard-shelby-mick-mulvaney/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html"
+            }, 
+            "156903": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html"
+            }, 
+            "156917": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }, 
+            "156949": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/01/18/politics/polling-roundup-shutdown/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html"
+            }, 
+            "156933": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/04/04/news/economy/donald-trump-bubble-debt/", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156931": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/05/04/investing/donald-trump-hillary-clinton-stocks/index.html", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156937": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/05/04/investing/betting-against-tesla-trump-will-win-sohn/index.html?iid=hp-stack-dom", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156935": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/05/05/investing/stanley-druckenmiller-sounds-crisis-alarm-sohn/index.html", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156915": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }, 
+            "156939": {
+                "prov:usedEntity": "test:https://www.cnn.com/2016/05/04/politics/donald-trump-john-kasich/index.html", 
+                "prov:generatedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html"
+            }, 
+            "156911": {
+                "prov:usedEntity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }, 
+            "156913": {
+                "prov:usedEntity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "156607": {
+                "prov:entity": "test:based on updated projections there is a scenario in which we run of out cash in early september before congress reconvenes", 
+                "prov:agent": "test:Mnuchin"
+            }, 
+            "156859": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156863": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:agent": "test:Clare Foran"
+            }, 
+            "156743": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156855": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "prov:agent": "test:Clare Foran"
+            }, 
+            "156801": {
+                "prov:entity": "test:he gives the president his space and lets him shine and he protects his back", 
+                "prov:agent": "test:Christopher Ruddy"
+            }, 
+            "156755": {
+                "prov:entity": "test:it doesnt mean he ever obscures facts but he tends to view the world through an optimist point of view", 
+                "prov:agent": "test:John Czwartacki"
+            }, 
+            "156851": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156853": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "prov:agent": "test:Phil Mattingly"
+            }, 
+            "156779": {
+                "prov:entity": "test:i dont think im telling any secrets  john hated the job", 
+                "prov:agent": "test:Mick Mulvaney"
+            }, 
+            "156885": {
+                "prov:entity": "test:i see myself as a bridge to the next generation of leaders a recognition of my continuing responsibility to mentor and advance new members into positions of power and responsibility in the house democratic caucus", 
+                "prov:agent": "test:Nancy Pelosi"
+            }, 
+            "156783": {
+                "prov:entity": "test:that job under trump is a son of a b", 
+                "prov:agent": "test:Panetta"
+            }, 
+            "156891": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:agent": "test:Ted Barrett"
+            }, 
+            "156893": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:agent": "test:Lauren Fox"
+            }, 
+            "156791": {
+                "prov:entity": "test:it took a while but he realized he was dealing with someone who was totally undisciplined", 
+                "prov:agent": "test:Panetta"
+            }, 
+            "156897": {
+                "prov:entity": "test:i dont know if there is any goodwill but there is mutual selfinterest so i hope they can find it", 
+                "prov:agent": "test:Roy Blunt"
+            }, 
+            "156657": {
+                "prov:entity": "test:i think if you talk to my republican colleagues and they told you what theyre telling us theyd tell you the same thing", 
+                "prov:agent": "test:Schumer"
+            }, 
+            "156877": {
+                "prov:entity": "test:we will call upon bold thinking to address the disparity of income in america which is at the root of the crisis of confidence felt by so many americans", 
+                "prov:agent": "test:Nancy Pelosi"
+            }, 
+            "156633": {
+                "prov:entity": "test:this is the longest i remember ive ever seen something this important not be resolved", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156759": {
+                "prov:entity": "test:you have to be able to ensure that the president is in many ways protected from himself", 
+                "prov:agent": "test:Leon Panetta"
+            }, 
+            "156653": {
+                "prov:entity": "test:i think that the only way well get a budget is the way weve gotten one the last two years if the president stays out of it", 
+                "prov:agent": "test:Schumer"
+            }, 
+            "156823": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156637": {
+                "prov:entity": "test:but i said this is small — very important but small — compared to what were going to have to face if we dont get some direction", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156717": {
+                "prov:entity": "test:people i know have a high regard for her", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "156613": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156611": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html", 
+                "prov:agent": "test:Donna Borak"
+            }, 
+            "156617": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:agent": "test:Haley Byrd"
+            }, 
+            "156615": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:agent": "test:Phil Mattingly"
+            }, 
+            "156887": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156693": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html", 
+                "prov:agent": "test:Rene Marsh"
+            }, 
+            "156691": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156733": {
+                "prov:entity": "test:the beautiful thing about infrastructure is it puts people to work immediately puts people to work", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "156697": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:agent": "test:money.cnn.com"
+            }, 
+            "156807": {
+                "prov:entity": "test:i think hes good too", 
+                "prov:agent": "test:Ivanka Trump"
+            }, 
+            "156703": {
+                "prov:entity": "test:im the king of debt", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "156787": {
+                "prov:entity": "test:he believes you dont accomplish a mission unless you have a disciplined force", 
+                "prov:agent": "test:Panetta"
+            }, 
+            "156741": {
+                "prov:entity": "test:lets face it donald trump is extremely comfortable with debt", 
+                "prov:agent": "test:Gundlach"
+            }, 
+            "156815": {
+                "prov:entity": "test:banking that this a president willing to be bold even if it doesnt work", 
+                "prov:agent": "test:Mick Mulvaney"
+            }, 
+            "156699": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:agent": "test:Matt Egan"
+            }, 
+            "156827": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:agent": "test:Donna Borak"
+            }, 
+            "156745": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:agent": "test:Betsy Klein"
+            }, 
+            "156721": {
+                "prov:entity": "test:are we looking at a dovish deficit building gop nominee here", 
+                "prov:agent": "test:Michael Block"
+            }, 
+            "156713": {
+                "prov:entity": "test:i would borrow knowing that if the economy crashed you could make a deal", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "156763": {
+                "prov:entity": "test:otherwise youre not worth a damn if youre not protecting the county", 
+                "prov:agent": "test:Leon Panetta"
+            }, 
+            "156845": {
+                "prov:entity": "test:its beyond even considering that the united states would not honor all of its obligations and pay them when due", 
+                "prov:agent": "test:Powell"
+            }, 
+            "156729": {
+                "prov:entity": "test:or someone in a large bird costume", 
+                "prov:agent": "test:Michael Block"
+            }, 
+            "156849": {
+                "prov:entity": "test:it is just something that cant even be considered", 
+                "prov:agent": "test:Powell"
+            }, 
+            "156861": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:agent": "test:Ashley Killough"
+            }, 
+            "156771": {
+                "prov:entity": "test:trump has a unique management style and if you get how he operates then you can function better than some of the guys who came in and thought im going to get this job and do whatever i want because the world loves me and i was elected to nothing", 
+                "prov:agent": "test:Grover Norquist"
+            }, 
+            "156737": {
+                "prov:entity": "test:deficits would explode in his administration", 
+                "prov:agent": "test:Greg Valliere"
+            }, 
+            "156867": {
+                "prov:entity": "test:we enter this new congress with a sense of great hope and confidence for the future and deep humility", 
+                "prov:agent": "test:Nancy Pelosi"
+            }, 
+            "156889": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:agent": "test:Phil Mattingly"
+            }, 
+            "156825": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:agent": "test:Cnn Business"
+            }, 
+            "156767": {
+                "prov:entity": "test:youre not hired to be a court jester to a king youre hired to serve the country", 
+                "prov:agent": "test:Panetta"
+            }, 
+            "156881": {
+                "prov:entity": "test:we must also face the existential threat of our time the climate crisis", 
+                "prov:agent": "test:Nancy Pelosi"
+            }, 
+            "156725": {
+                "prov:entity": "test:so maybe he wants someone more dovish", 
+                "prov:agent": "test:Michael Block"
+            }, 
+            "156689": {
+                "prov:entity": "test:https://www.cnn.com/specials/politics/government-shutdown-2019", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156775": {
+                "prov:entity": "test:when i got here morale wasnt what it needed to be", 
+                "prov:agent": "test:Mick Mulvaney"
+            }, 
+            "156751": {
+                "prov:entity": "test:if mick is guilty of anything its that hes more of a glass half full kind of guy", 
+                "prov:agent": "test:John Czwartacki"
+            }, 
+            "156609": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156625": {
+                "prov:entity": "test:if we cant do this what the heck can we do on something much bigger", 
+                "prov:agent": "test:Mick Mulvaney"
+            }, 
+            "156797": {
+                "prov:entity": "test:i think hes the perfect fit for the president", 
+                "prov:agent": "test:Christopher Ruddy"
+            }, 
+            "156629": {
+                "prov:entity": "test:i hope this is not a preview of coming events", 
+                "prov:agent": "test:Mick Mulvaney"
+            }, 
+            "156601": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156603": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html", 
+                "prov:agent": "test:Donna Borak"
+            }, 
+            "156811": {
+                "prov:entity": "test:hes better than the other two", 
+                "prov:agent": "test:Ivanka Trump"
+            }, 
+            "156649": {
+                "prov:entity": "test:here it is june coming up and wow weve got some mountains to climb", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156839": {
+                "prov:entity": "test:certain extraordinary measures in order to temporarily prevent the united states from defaulting on its obligations", 
+                "prov:agent": "test:Brian Gardner"
+            }, 
+            "156687": {
+                "prov:entity": "test:https://www.cnn.com/specials/politics/president-donald-trump-45", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156747": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:agent": "test:Abphillip"
+            }, 
+            "156681": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "156871": {
+                "prov:entity": "test:our nation is at a historic moment", 
+                "prov:agent": "test:Nancy Pelosi"
+            }, 
+            "156683": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html", 
+                "prov:agent": "test:Phil Mattingly"
+            }, 
+            "156641": {
+                "prov:entity": "test:i told our caucus yesterday that this will be draconian", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156831": {
+                "prov:entity": "test:i can tell you that if you look back at previous debt limit debates that theyve always sort of worked out in the end", 
+                "prov:agent": "test:Hassett"
+            }, 
+            "156665": {
+                "prov:entity": "test:weve gotta have all those to hold up the stool", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156645": {
+                "prov:entity": "test:they probably havent thought about it much because they think well take care of it", 
+                "prov:agent": "test:Shelby"
+            }, 
+            "156835": {
+                "prov:entity": "test:we think there is little appetite for a fight over the debt ceiling and we expect congress will raise the debt ceiling in the next several months", 
+                "prov:agent": "test:Brian Gardner"
+            }, 
+            "156661": {
+                "prov:entity": "test:weve got a threelegged stool", 
+                "prov:agent": "test:Shelby"
+            }
+        }, 
+        "agent": {
+            "test:Brian Gardner": {
+                "test:name": "Brian Gardner", 
+                "test:type": "person"
+            }, 
+            "test:Nancy Pelosi": {
+                "test:name": "Nancy Pelosi", 
+                "test:type": "person"
+            }, 
+            "test:Lauren Fox": {
+                "test:name": "Lauren Fox", 
+                "test:type": "person"
+            }, 
+            "test:Abphillip": {
+                "test:name": "Abphillip", 
+                "test:type": "person"
+            }, 
+            "test:Mick Mulvaney": {
+                "test:name": "Mick Mulvaney", 
+                "test:type": "person"
+            }, 
+            "test:Ted Barrett": {
+                "test:name": "Ted Barrett", 
+                "test:type": "person"
+            }, 
+            "test:Schumer": {
+                "test:name": "Schumer", 
+                "test:type": "person"
+            }, 
+            "test:Donna Borak": {
+                "test:name": "Donna Borak", 
+                "test:type": "person"
+            }, 
+            "test:Grover Norquist": {
+                "test:name": "Grover Norquist", 
+                "test:type": "person"
+            }, 
+            "test:Panetta": {
+                "test:name": "Panetta", 
+                "test:type": "person"
+            }, 
+            "test:Phil Mattingly": {
+                "test:name": "Phil Mattingly", 
+                "test:type": "person"
+            }, 
+            "test:Hassett": {
+                "test:name": "Hassett", 
+                "test:type": "person"
+            }, 
+            "test:Greg Valliere": {
+                "test:name": "Greg Valliere", 
+                "test:type": "person"
+            }, 
+            "test:Shelby": {
+                "test:name": "Shelby", 
+                "test:type": "person"
+            }, 
+            "test:Gundlach": {
+                "test:name": "Gundlach", 
+                "test:type": "person"
+            }, 
+            "test:Christopher Ruddy": {
+                "test:name": "Christopher Ruddy", 
+                "test:type": "person"
+            }, 
+            "test:Rene Marsh": {
+                "test:name": "Rene Marsh", 
+                "test:type": "person"
+            }, 
+            "test:Ashley Killough": {
+                "test:name": "Ashley Killough", 
+                "test:type": "person"
+            }, 
+            "test:Clare Foran": {
+                "test:name": "Clare Foran", 
+                "test:type": "person"
+            }, 
+            "test:Leon Panetta": {
+                "test:name": "Leon Panetta", 
+                "test:type": "person"
+            }, 
+            "test:Roy Blunt": {
+                "test:name": "Roy Blunt", 
+                "test:type": "person"
+            }, 
+            "test:Betsy Klein": {
+                "test:name": "Betsy Klein", 
+                "test:type": "person"
+            }, 
+            "test:Mnuchin": {
+                "test:name": "Mnuchin", 
+                "test:type": "person"
+            }, 
+            "test:www.cnn.com": {
+                "test:publisher": "www.cnn.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Haley Byrd": {
+                "test:name": "Haley Byrd", 
+                "test:type": "person"
+            }, 
+            "test:Ivanka Trump": {
+                "test:name": "Ivanka Trump", 
+                "test:type": "person"
+            }, 
+            "test:Donald Trump": {
+                "test:name": "Donald Trump", 
+                "test:type": "person"
+            }, 
+            "test:Michael Block": {
+                "test:name": "Michael Block", 
+                "test:type": "person"
+            }, 
+            "test:money.cnn.com": {
+                "test:publisher": "money.cnn.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Powell": {
+                "test:name": "Powell", 
+                "test:type": "person"
+            }, 
+            "test:John Czwartacki": {
+                "test:name": "John Czwartacki", 
+                "test:type": "person"
+            }, 
+            "test:Cnn Business": {
+                "test:name": "Cnn Business", 
+                "test:type": "person"
+            }, 
+            "test:Matt Egan": {
+                "test:name": "Matt Egan", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.cnn.com/2019/04/12/politics/disaster-relief-stalled-puerto-rico-trump-congress/index.html": {
+                "test:url": "https://www.cnn.com/2019/04/12/politics/disaster-relief-stalled-puerto-rico-trump-congress/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/specials/politics/government-shutdown-2019": {
+                "test:url": "https://www.cnn.com/specials/politics/government-shutdown-2019", 
+                "test:date": "2019-01-23", 
+                "test:title": "2019 government shutdown -- Timeline, history, news and how to help", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html": {
+                "test:url": "https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "test:date": "2019-04-29", 
+                "test:title": "Mick Mulvaney's chief of staff playbook: Dismantling Trump's guardrails", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnbc.com/2016/05/05/donald-trump-a-chance-ill-pick-a-vp-from-field-of-former-gop-candidates.html": {
+                "test:url": "https://www.cnbc.com/2016/05/05/donald-trump-a-chance-ill-pick-a-vp-from-field-of-former-gop-candidates.html", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/04/04/news/economy/donald-trump-bubble-debt/": {
+                "test:url": "https://money.cnn.com/2016/04/04/news/economy/donald-trump-bubble-debt/", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html": {
+                "test:url": "https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "test:date": "2016-05-05", 
+                "test:title": "Donald Trump: 'I'm the king of debt'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/06/politics/congress-disaster-relief-talks-continue/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/06/politics/congress-disaster-relief-talks-continue/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bloomberg.com/tosv2.html?vid=&uuid=74b1d2a0-a60c-11e9-9fe6-9ff6e71c3cbf&url=L3BvbGl0aWNzL2FydGljbGVzLzIwMTUtMTAtMTYvdHJ1bXAtc3BlYWtzLWluLWJsb29tYmVyZy10di1pbnRlcnZpZXctb24tamFuZXQteWVsbGVuLWludGVyZXN0LXJhdGVz": {
+                "test:url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=74b1d2a0-a60c-11e9-9fe6-9ff6e71c3cbf&url=L3BvbGl0aWNzL2FydGljbGVzLzIwMTUtMTAtMTYvdHJ1bXAtc3BlYWtzLWluLWJsb29tYmVyZy10di1pbnRlcnZpZXctb24tamFuZXQteWVsbGVuLWludGVyZXN0LXJhdGVz", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/1126625647214964737": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/1126625647214964737", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "test:date": "2019-06-19", 
+                "test:title": "Congress is getting serious about a spending crisis that looms this fall", 
+                "test:type": "article"
+            }, 
+            "test:https://www.politifact.com/florida/statements/2019/apr/03/donald-trump/trumps-false-tweet-puerto-rico-got-91-billion-hurr/": {
+                "test:url": "https://www.politifact.com/florida/statements/2019/apr/03/donald-trump/trumps-false-tweet-puerto-rico-got-91-billion-hurr/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.politico.com/story/2019/04/02/trump-puerto-rico-hurricane-aid-1247759": {
+                "test:url": "https://www.politico.com/story/2019/04/02/trump-puerto-rico-hurricane-aid-1247759", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theatlantic.com/politics/archive/2019/04/mick-mulvaney-white-house-2020-and-mueller/588022/": {
+                "test:url": "https://www.theatlantic.com/politics/archive/2019/04/mick-mulvaney-white-house-2020-and-mueller/588022/", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/05/04/investing/betting-against-tesla-trump-will-win-sohn/index.html?iid=hp-stack-dom": {
+                "test:url": "https://money.cnn.com/2016/05/04/investing/betting-against-tesla-trump-will-win-sohn/index.html?iid=hp-stack-dom", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/08/politics/donald-trump-rally-panama-city-beach/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/08/politics/donald-trump-rally-panama-city-beach/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/10/politics/justin-amash-leaves-freedom-caucus/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/10/politics/justin-amash-leaves-freedom-caucus/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html", 
+                "test:date": "2019-07-08", 
+                "test:title": "Congress returns with no sign of spending deal ahead of September deadline", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2018/12/12/politics/nancy-pelosi-votes-deal-democrats/index.html": {
+                "test:url": "https://www.cnn.com/2018/12/12/politics/nancy-pelosi-votes-deal-democrats/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/11/politics/nancy-pelosi-trump-prison/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/11/politics/nancy-pelosi-trump-prison/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/11/politics/treasury-us-budget-deficit-widens/index.html", 
+                "test:date": "2019-07-11", 
+                "test:title": "US budget deficit jumps 23.1% over last year as debt crisis looms", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/09/politics/disaster-relief-richard-shelby-mick-mulvaney/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/09/politics/disaster-relief-richard-shelby-mick-mulvaney/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html", 
+                "test:date": "2019-07-12", 
+                "test:title": "US government is running out of money faster than expected, Mnuchin warns", 
+                "test:type": "article"
+            }, 
+            "test:https://www.majorityleader.gov/newsroom/121218-3": {
+                "test:url": "https://www.majorityleader.gov/newsroom/121218-3", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "test:date": "2019-01-03", 
+                "test:title": "Nancy Pelosi elected House speaker, reclaims gavel to lead Democrats' new majority", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2016/05/04/politics/donald-trump-john-kasich/index.html": {
+                "test:url": "https://www.cnn.com/2016/05/04/politics/donald-trump-john-kasich/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/01/12/politics/donald-trump-democrats-government-shutdown-history/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/12/politics/donald-trump-democrats-government-shutdown-history/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/05/05/investing/stanley-druckenmiller-sounds-crisis-alarm-sohn/index.html": {
+                "test:url": "https://money.cnn.com/2016/05/05/investing/stanley-druckenmiller-sounds-crisis-alarm-sohn/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2015/08/31/news/companies/donald-trump-bankruptcy/": {
+                "test:url": "https://money.cnn.com/2015/08/31/news/companies/donald-trump-bankruptcy/", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/05/04/investing/donald-trump-hillary-clinton-stocks/index.html": {
+                "test:url": "https://money.cnn.com/2016/05/04/investing/donald-trump-hillary-clinton-stocks/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/01/18/politics/polling-roundup-shutdown/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/18/politics/polling-roundup-shutdown/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/02/25/politics/debt-limit-congress-deadline/index.html": {
+                "test:url": "https://www.cnn.com/2019/02/25/politics/debt-limit-congress-deadline/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://money.cnn.com/2016/05/02/investing/puerto-rico-default-may-1/index.html": {
+                "test:url": "https://money.cnn.com/2016/05/02/investing/puerto-rico-default-may-1/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "test:date": "2019-05-10", 
+                "test:title": "House passes disaster aid bill but the fight isn't over", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/travel/article/mlk-sites-atlanta-opening-government-shutdown/index.html": {
+                "test:url": "https://www.cnn.com/travel/article/mlk-sites-atlanta-opening-government-shutdown/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/06/18/politics/senators-deal-emergency-border-funding/index.html": {
+                "test:url": "https://www.cnn.com/2019/06/18/politics/senators-deal-emergency-border-funding/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/07/11/politics/mark-milley-confirmation-hearing-not-intimidated/index.html": {
+                "test:url": "https://www.cnn.com/2019/07/11/politics/mark-milley-confirmation-hearing-not-intimidated/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html": {
+                "test:url": "https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "test:date": "2019-05-11", 
+                "test:title": "Washington is flirting with a debt crisis. No one has a plan to stop it", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2013/02/06/politics/cnn-explains-sequestration/index.html": {
+                "test:url": "https://www.cnn.com/2013/02/06/politics/cnn-explains-sequestration/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/01/22/health/hurricane-maria-funding-study-trnd/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/22/health/hurricane-maria-funding-study-trnd/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html": {
+                "test:url": "https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "test:date": "2019-03-01", 
+                "test:title": "The federal government is about to hit its credit limit", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html", 
+                "test:date": "2019-01-25", 
+                "test:title": "Impact on aviation contributed to movement on shutdown negotiations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2019/01/25/us/air-traffic-controller-shortage-faa/index.html": {
+                "test:url": "https://www.cnn.com/2019/01/25/us/air-traffic-controller-shortage-faa/index.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/videos/politics/2019/03/12/kushner-inc-nyt-trump-john-kelly-donald-trump-ivanka-jared-white-house-deny-bennett-dnt-vpx.cnn": {
+                "test:url": "https://www.cnn.com/videos/politics/2019/03/12/kushner-inc-nyt-trump-john-kelly-donald-trump-ivanka-jared-white-house-deny-bennett-dnt-vpx.cnn", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cnn.com/specials/politics/president-donald-trump-45": {
+                "test:url": "https://www.cnn.com/specials/politics/president-donald-trump-45", 
+                "test:date": "2017-02-16", 
+                "test:title": "Donald Trump news, commentary and analysis", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:you can provide options but ultimately hes going to say and do what he wants": {
+                "test:quote": "you can provide options but ultimately hes going to say and do what he wants", 
+                "test:type": "quote"
+            }, 
+            "test:based on updated projections there is a scenario in which we run of out cash in early september before congress reconvenes": {
+                "test:quote": "based on updated projections there is a scenario in which we run of out cash in early september before congress reconvenes", 
+                "test:type": "quote"
+            }, 
+            "test:here it is june coming up and wow weve got some mountains to climb": {
+                "test:quote": "here it is june coming up and wow weve got some mountains to climb", 
+                "test:type": "quote"
+            }, 
+            "test:our nation is at a historic moment": {
+                "test:quote": "our nation is at a historic moment", 
+                "test:type": "quote"
+            }, 
+            "test:that job under trump is a son of a b": {
+                "test:quote": "that job under trump is a son of a b", 
+                "test:type": "quote"
+            }, 
+            "test:i think hes the perfect fit for the president": {
+                "test:quote": "i think hes the perfect fit for the president", 
+                "test:type": "quote"
+            }, 
+            "test:or someone in a large bird costume": {
+                "test:quote": "or someone in a large bird costume", 
+                "test:type": "quote"
+            }, 
+            "test:lets face it donald trump is extremely comfortable with debt": {
+                "test:quote": "lets face it donald trump is extremely comfortable with debt", 
+                "test:type": "quote"
+            }, 
+            "test:im the king of debt": {
+                "test:quote": "im the king of debt", 
+                "test:type": "quote"
+            }, 
+            "test:certain extraordinary measures in order to temporarily prevent the united states from defaulting on its obligations": {
+                "test:quote": "certain extraordinary measures in order to temporarily prevent the united states from defaulting on its obligations", 
+                "test:type": "quote"
+            }, 
+            "test:if we cant do this what the heck can we do on something much bigger": {
+                "test:quote": "if we cant do this what the heck can we do on something much bigger", 
+                "test:type": "quote"
+            }, 
+            "test:we all look around knowingly like man were about to get crushed by this but nobodys really sure how to get out from underneath it right now": {
+                "test:quote": "we all look around knowingly like man were about to get crushed by this but nobodys really sure how to get out from underneath it right now", 
+                "test:type": "quote"
+            }, 
+            "test:weve got a threelegged stool": {
+                "test:quote": "weve got a threelegged stool", 
+                "test:type": "quote"
+            }, 
+            "test:both sides seem to think they can leverage these things into something and i dont think you can": {
+                "test:quote": "both sides seem to think they can leverage these things into something and i dont think you can", 
+                "test:type": "quote"
+            }, 
+            "test:i can tell you that if you look back at previous debt limit debates that theyve always sort of worked out in the end": {
+                "test:quote": "i can tell you that if you look back at previous debt limit debates that theyve always sort of worked out in the end", 
+                "test:type": "quote"
+            }, 
+            "test:you cant try to limit what the presidents going to do": {
+                "test:quote": "you cant try to limit what the presidents going to do", 
+                "test:type": "quote"
+            }, 
+            "test:we will call upon bold thinking to address the disparity of income in america which is at the root of the crisis of confidence felt by so many americans": {
+                "test:quote": "we will call upon bold thinking to address the disparity of income in america which is at the root of the crisis of confidence felt by so many americans", 
+                "test:type": "quote"
+            }, 
+            "test:people i know have a high regard for her": {
+                "test:quote": "people i know have a high regard for her", 
+                "test:type": "quote"
+            }, 
+            "test:its beyond even considering that the united states would not honor all of its obligations and pay them when due": {
+                "test:quote": "its beyond even considering that the united states would not honor all of its obligations and pay them when due", 
+                "test:type": "quote"
+            }, 
+            "test:but and this is a big but we need to avoid a crisis of shutting down the government as happened under the republican leadership in the last congress which bled over to this congress": {
+                "test:quote": "but and this is a big but we need to avoid a crisis of shutting down the government as happened under the republican leadership in the last congress which bled over to this congress", 
+                "test:type": "quote"
+            }, 
+            "test:we enter this new congress with a sense of great hope and confidence for the future and deep humility": {
+                "test:quote": "we enter this new congress with a sense of great hope and confidence for the future and deep humility", 
+                "test:type": "quote"
+            }, 
+            "test:america is not going to welch on its debts and what it owes": {
+                "test:quote": "america is not going to welch on its debts and what it owes", 
+                "test:type": "quote"
+            }, 
+            "test:the beautiful thing about infrastructure is it puts people to work immediately puts people to work": {
+                "test:quote": "the beautiful thing about infrastructure is it puts people to work immediately puts people to work", 
+                "test:type": "quote"
+            }, 
+            "test:but i said this is small — very important but small — compared to what were going to have to face if we dont get some direction": {
+                "test:quote": "but i said this is small — very important but small — compared to what were going to have to face if we dont get some direction", 
+                "test:type": "quote"
+            }, 
+            "test:what happens if that interest rate goes up 2 3 4 points": {
+                "test:quote": "what happens if that interest rate goes up 2 3 4 points", 
+                "test:type": "quote"
+            }, 
+            "test:banking that this a president willing to be bold even if it doesnt work": {
+                "test:quote": "banking that this a president willing to be bold even if it doesnt work", 
+                "test:type": "quote"
+            }, 
+            "test:otherwise youre not worth a damn if youre not protecting the county": {
+                "test:quote": "otherwise youre not worth a damn if youre not protecting the county", 
+                "test:type": "quote"
+            }, 
+            "test:i hope this is not a preview of coming events": {
+                "test:quote": "i hope this is not a preview of coming events", 
+                "test:type": "quote"
+            }, 
+            "test:mulvaney has the benefit of hindsight to know that is going to piss off the president and make enemies of the only staffers in the white house who cant get fired": {
+                "test:quote": "mulvaney has the benefit of hindsight to know that is going to piss off the president and make enemies of the only staffers in the white house who cant get fired", 
+                "test:type": "quote"
+            }, 
+            "test:if interest rates go up one percent thats devastating": {
+                "test:quote": "if interest rates go up one percent thats devastating", 
+                "test:type": "quote"
+            }, 
+            "test:as far away from agreement as theyve been": {
+                "test:quote": "as far away from agreement as theyve been", 
+                "test:type": "quote"
+            }, 
+            "test:weve gotta have all those to hold up the stool": {
+                "test:quote": "weve gotta have all those to hold up the stool", 
+                "test:type": "quote"
+            }, 
+            "test:i dont think im telling any secrets  john hated the job": {
+                "test:quote": "i dont think im telling any secrets  john hated the job", 
+                "test:type": "quote"
+            }, 
+            "test:are we looking at a dovish deficit building gop nominee here": {
+                "test:quote": "are we looking at a dovish deficit building gop nominee here", 
+                "test:type": "quote"
+            }, 
+            "test:you have to be able to ensure that the president is in many ways protected from himself": {
+                "test:quote": "you have to be able to ensure that the president is in many ways protected from himself", 
+                "test:type": "quote"
+            }, 
+            "test:i dont know if there is any goodwill but there is mutual selfinterest so i hope they can find it": {
+                "test:quote": "i dont know if there is any goodwill but there is mutual selfinterest so i hope they can find it", 
+                "test:type": "quote"
+            }, 
+            "test:every time you do you end up in a government shutdown": {
+                "test:quote": "every time you do you end up in a government shutdown", 
+                "test:type": "quote"
+            }, 
+            "test:two months ago the american people spoke and demanded a new dawn": {
+                "test:quote": "two months ago the american people spoke and demanded a new dawn", 
+                "test:type": "quote"
+            }, 
+            "test:it doesnt mean he ever obscures facts but he tends to view the world through an optimist point of view": {
+                "test:quote": "it doesnt mean he ever obscures facts but he tends to view the world through an optimist point of view", 
+                "test:type": "quote"
+            }, 
+            "test:they probably havent thought about it much because they think well take care of it": {
+                "test:quote": "they probably havent thought about it much because they think well take care of it", 
+                "test:type": "quote"
+            }, 
+            "test:it took a while but he realized he was dealing with someone who was totally undisciplined": {
+                "test:quote": "it took a while but he realized he was dealing with someone who was totally undisciplined", 
+                "test:type": "quote"
+            }, 
+            "test:as a result i am urging that we do both in a bipartisan constructive way": {
+                "test:quote": "as a result i am urging that we do both in a bipartisan constructive way", 
+                "test:type": "quote"
+            }, 
+            "test:i think hes good too": {
+                "test:quote": "i think hes good too", 
+                "test:type": "quote"
+            }, 
+            "test:he gives the president his space and lets him shine and he protects his back": {
+                "test:quote": "he gives the president his space and lets him shine and he protects his back", 
+                "test:type": "quote"
+            }, 
+            "test:it is just something that cant even be considered": {
+                "test:quote": "it is just something that cant even be considered", 
+                "test:type": "quote"
+            }, 
+            "test:i told our caucus yesterday that this will be draconian": {
+                "test:quote": "i told our caucus yesterday that this will be draconian", 
+                "test:type": "quote"
+            }, 
+            "test:this is the longest i remember ive ever seen something this important not be resolved": {
+                "test:quote": "this is the longest i remember ive ever seen something this important not be resolved", 
+                "test:type": "quote"
+            }, 
+            "test:he believes you dont accomplish a mission unless you have a disciplined force": {
+                "test:quote": "he believes you dont accomplish a mission unless you have a disciplined force", 
+                "test:type": "quote"
+            }, 
+            "test:hes better than the other two": {
+                "test:quote": "hes better than the other two", 
+                "test:type": "quote"
+            }, 
+            "test:its one of those cartoonish anviloverhead moments": {
+                "test:quote": "its one of those cartoonish anviloverhead moments", 
+                "test:type": "quote"
+            }, 
+            "test:he doesnt like people shadowing him all the time": {
+                "test:quote": "he doesnt like people shadowing him all the time", 
+                "test:type": "quote"
+            }, 
+            "test:deficits would explode in his administration": {
+                "test:quote": "deficits would explode in his administration", 
+                "test:type": "quote"
+            }, 
+            "test:we think there is little appetite for a fight over the debt ceiling and we expect congress will raise the debt ceiling in the next several months": {
+                "test:quote": "we think there is little appetite for a fight over the debt ceiling and we expect congress will raise the debt ceiling in the next several months", 
+                "test:type": "quote"
+            }, 
+            "test:we must also face the existential threat of our time the climate crisis": {
+                "test:quote": "we must also face the existential threat of our time the climate crisis", 
+                "test:type": "quote"
+            }, 
+            "test:youre not hired to be a court jester to a king youre hired to serve the country": {
+                "test:quote": "youre not hired to be a court jester to a king youre hired to serve the country", 
+                "test:type": "quote"
+            }, 
+            "test:the government would be unable to pay its obligations fully and it would delay making payments for its activities default on its debt obligations or both": {
+                "test:quote": "the government would be unable to pay its obligations fully and it would delay making payments for its activities default on its debt obligations or both", 
+                "test:type": "quote"
+            }, 
+            "test:so maybe he wants someone more dovish": {
+                "test:quote": "so maybe he wants someone more dovish", 
+                "test:type": "quote"
+            }, 
+            "test:i see myself as a bridge to the next generation of leaders a recognition of my continuing responsibility to mentor and advance new members into positions of power and responsibility in the house democratic caucus": {
+                "test:quote": "i see myself as a bridge to the next generation of leaders a recognition of my continuing responsibility to mentor and advance new members into positions of power and responsibility in the house democratic caucus", 
+                "test:type": "quote"
+            }, 
+            "test:trump has a unique management style and if you get how he operates then you can function better than some of the guys who came in and thought im going to get this job and do whatever i want because the world loves me and i was elected to nothing": {
+                "test:quote": "trump has a unique management style and if you get how he operates then you can function better than some of the guys who came in and thought im going to get this job and do whatever i want because the world loves me and i was elected to nothing", 
+                "test:type": "quote"
+            }, 
+            "test:so i think we ought not to use that as a political issue": {
+                "test:quote": "so i think we ought not to use that as a political issue", 
+                "test:type": "quote"
+            }, 
+            "test:i think that the only way well get a budget is the way weve gotten one the last two years if the president stays out of it": {
+                "test:quote": "i think that the only way well get a budget is the way weve gotten one the last two years if the president stays out of it", 
+                "test:type": "quote"
+            }, 
+            "test:i would borrow knowing that if the economy crashed you could make a deal": {
+                "test:quote": "i would borrow knowing that if the economy crashed you could make a deal", 
+                "test:type": "quote"
+            }, 
+            "test:mick did go in with eyes wide open": {
+                "test:quote": "mick did go in with eyes wide open", 
+                "test:type": "quote"
+            }, 
+            "test:i think if you talk to my republican colleagues and they told you what theyre telling us theyd tell you the same thing": {
+                "test:quote": "i think if you talk to my republican colleagues and they told you what theyre telling us theyd tell you the same thing", 
+                "test:type": "quote"
+            }, 
+            "test:if mick is guilty of anything its that hes more of a glass half full kind of guy": {
+                "test:quote": "if mick is guilty of anything its that hes more of a glass half full kind of guy", 
+                "test:type": "quote"
+            }, 
+            "test:contributing catalyst to ending this shutdown for both sides": {
+                "test:quote": "contributing catalyst to ending this shutdown for both sides", 
+                "test:type": "quote"
+            }, 
+            "test:senator shelby is telling everybody in this chamber what they need to know that we need to get out of partisan gamesmanship and get focused on governing the country moving approps bills taking care of the debt ceiling": {
+                "test:quote": "senator shelby is telling everybody in this chamber what they need to know that we need to get out of partisan gamesmanship and get focused on governing the country moving approps bills taking care of the debt ceiling", 
+                "test:type": "quote"
+            }, 
+            "test:when i got here morale wasnt what it needed to be": {
+                "test:quote": "when i got here morale wasnt what it needed to be", 
+                "test:type": "quote"
+            }, 
+            "test:we dont have a country": {
+                "test:quote": "we dont have a country", 
+                "test:type": "quote"
+            }, 
+            "test:this week our democratic majority is advancing a robust urgently needed relief bill for disasterstruck communities": {
+                "test:quote": "this week our democratic majority is advancing a robust urgently needed relief bill for disasterstruck communities", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "156799": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:he gives the president his space and lets him shine and he protects his back"
+            }, 
+            "156875": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:we will call upon bold thinking to address the disparity of income in america which is at the root of the crisis of confidence felt by so many americans"
+            }, 
+            "156857": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/10/politics/house-disaster-aid-vote-legislation-congress/index.html", 
+                "prov:activity": "test:this week our democratic majority is advancing a robust urgently needed relief bill for disasterstruck communities"
+            }, 
+            "156843": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:its beyond even considering that the united states would not honor all of its obligations and pay them when due"
+            }, 
+            "156883": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:i see myself as a bridge to the next generation of leaders a recognition of my continuing responsibility to mentor and advance new members into positions of power and responsibility in the house democratic caucus"
+            }, 
+            "156895": {
+                "prov:entity": "test:https://www.cnn.com/2019/06/19/politics/congress-spending-crisis/index.html", 
+                "prov:activity": "test:i dont know if there is any goodwill but there is mutual selfinterest so i hope they can find it"
+            }, 
+            "156777": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:i dont think im telling any secrets  john hated the job"
+            }, 
+            "156723": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:so maybe he wants someone more dovish"
+            }, 
+            "156631": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:this is the longest i remember ive ever seen something this important not be resolved"
+            }, 
+            "156749": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:if mick is guilty of anything its that hes more of a glass half full kind of guy"
+            }, 
+            "156619": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:its one of those cartoonish anviloverhead moments"
+            }, 
+            "156635": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:but i said this is small — very important but small — compared to what were going to have to face if we dont get some direction"
+            }, 
+            "156651": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:i think that the only way well get a budget is the way weve gotten one the last two years if the president stays out of it"
+            }, 
+            "156731": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:the beautiful thing about infrastructure is it puts people to work immediately puts people to work"
+            }, 
+            "156639": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:i told our caucus yesterday that this will be draconian"
+            }, 
+            "156769": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:trump has a unique management style and if you get how he operates then you can function better than some of the guys who came in and thought im going to get this job and do whatever i want because the world loves me and i was elected to nothing"
+            }, 
+            "156781": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:that job under trump is a son of a b"
+            }, 
+            "156753": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:it doesnt mean he ever obscures facts but he tends to view the world through an optimist point of view"
+            }, 
+            "156659": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:weve got a threelegged stool"
+            }, 
+            "156705": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:if interest rates go up one percent thats devastating"
+            }, 
+            "156803": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:he doesnt like people shadowing him all the time"
+            }, 
+            "156707": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:what happens if that interest rate goes up 2 3 4 points"
+            }, 
+            "156785": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:he believes you dont accomplish a mission unless you have a disciplined force"
+            }, 
+            "156679": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:every time you do you end up in a government shutdown"
+            }, 
+            "156829": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:i can tell you that if you look back at previous debt limit debates that theyve always sort of worked out in the end"
+            }, 
+            "156695": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/25/politics/aviation-shutdown-negotiations/index.html", 
+                "prov:activity": "test:contributing catalyst to ending this shutdown for both sides"
+            }, 
+            "156805": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:i think hes good too"
+            }, 
+            "156675": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:senator shelby is telling everybody in this chamber what they need to know that we need to get out of partisan gamesmanship and get focused on governing the country moving approps bills taking care of the debt ceiling"
+            }, 
+            "156701": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:im the king of debt"
+            }, 
+            "156677": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:both sides seem to think they can leverage these things into something and i dont think you can"
+            }, 
+            "156809": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:hes better than the other two"
+            }, 
+            "156671": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:but and this is a big but we need to avoid a crisis of shutting down the government as happened under the republican leadership in the last congress which bled over to this congress"
+            }, 
+            "156821": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:you can provide options but ultimately hes going to say and do what he wants"
+            }, 
+            "156673": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:as a result i am urging that we do both in a bipartisan constructive way"
+            }, 
+            "156869": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:our nation is at a historic moment"
+            }, 
+            "156719": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:are we looking at a dovish deficit building gop nominee here"
+            }, 
+            "156847": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:it is just something that cant even be considered"
+            }, 
+            "156833": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:we think there is little appetite for a fight over the debt ceiling and we expect congress will raise the debt ceiling in the next several months"
+            }, 
+            "156711": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:i would borrow knowing that if the economy crashed you could make a deal"
+            }, 
+            "156655": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:i think if you talk to my republican colleagues and they told you what theyre telling us theyd tell you the same thing"
+            }, 
+            "156757": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:you have to be able to ensure that the president is in many ways protected from himself"
+            }, 
+            "156727": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:or someone in a large bird costume"
+            }, 
+            "156765": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:youre not hired to be a court jester to a king youre hired to serve the country"
+            }, 
+            "156739": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:lets face it donald trump is extremely comfortable with debt"
+            }, 
+            "156789": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:it took a while but he realized he was dealing with someone who was totally undisciplined"
+            }, 
+            "156761": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:otherwise youre not worth a damn if youre not protecting the county"
+            }, 
+            "156623": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:if we cant do this what the heck can we do on something much bigger"
+            }, 
+            "156865": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:we enter this new congress with a sense of great hope and confidence for the future and deep humility"
+            }, 
+            "156621": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:we all look around knowingly like man were about to get crushed by this but nobodys really sure how to get out from underneath it right now"
+            }, 
+            "156627": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:i hope this is not a preview of coming events"
+            }, 
+            "156773": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:when i got here morale wasnt what it needed to be"
+            }, 
+            "156605": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/12/politics/mnuchin-congress-letter-debt-crisis/index.html", 
+                "prov:activity": "test:based on updated projections there is a scenario in which we run of out cash in early september before congress reconvenes"
+            }, 
+            "156795": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:i think hes the perfect fit for the president"
+            }, 
+            "156793": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:mulvaney has the benefit of hindsight to know that is going to piss off the president and make enemies of the only staffers in the white house who cant get fired"
+            }, 
+            "156709": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:we dont have a country"
+            }, 
+            "156685": {
+                "prov:entity": "test:https://www.cnn.com/2019/07/08/politics/congress-budget-talks/index.html", 
+                "prov:activity": "test:as far away from agreement as theyve been"
+            }, 
+            "156813": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:banking that this a president willing to be bold even if it doesnt work"
+            }, 
+            "156715": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:people i know have a high regard for her"
+            }, 
+            "156873": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:two months ago the american people spoke and demanded a new dawn"
+            }, 
+            "156735": {
+                "prov:entity": "test:https://money.cnn.com/2016/05/05/investing/trump-king-of-debt-fire-janet-yellen/index.html", 
+                "prov:activity": "test:deficits would explode in his administration"
+            }, 
+            "156817": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:mick did go in with eyes wide open"
+            }, 
+            "156669": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:so i think we ought not to use that as a political issue"
+            }, 
+            "156819": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/29/politics/mick-mulvaneys-chief-of-staff-playbook-dismantling-trumps-guardrails/index.html", 
+                "prov:activity": "test:you cant try to limit what the presidents going to do"
+            }, 
+            "156667": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:america is not going to welch on its debts and what it owes"
+            }, 
+            "156841": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:the government would be unable to pay its obligations fully and it would delay making payments for its activities default on its debt obligations or both"
+            }, 
+            "156643": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:they probably havent thought about it much because they think well take care of it"
+            }, 
+            "156837": {
+                "prov:entity": "test:https://www.cnn.com/2019/03/01/economy/federal-debt-ceiling-22-trillion/index.html", 
+                "prov:activity": "test:certain extraordinary measures in order to temporarily prevent the united states from defaulting on its obligations"
+            }, 
+            "156663": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:weve gotta have all those to hold up the stool"
+            }, 
+            "156879": {
+                "prov:entity": "test:https://www.cnn.com/2019/01/03/politics/nancy-pelosi-house-speaker-vote-new-congress/index.html", 
+                "prov:activity": "test:we must also face the existential threat of our time the climate crisis"
+            }, 
+            "156647": {
+                "prov:entity": "test:https://www.cnn.com/2019/05/11/politics/congress-debt-ceiling/index.html", 
+                "prov:activity": "test:here it is june coming up and wow weve got some mountains to climb"
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "root": "http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+    "bundle": {
+        "entity": {
+            "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/": {
+                "test:url": "http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "test:date": "2018-12-12", 
+                "test:title": "Girl Scouts Of America Approved To Sell Marijuana Edible Cookies At Dispensaries", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "174374": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:grab your imagination and get in the spirit"
+            }, 
+            "174376": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:this girl scout cookie season you can have more fun than ever"
+            }, 
+            "174394": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:this is something that will be completely separate and regulated within the dispensaries"
+            }, 
+            "174386": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:with that being said we decided to merge the brand and help people with serious medical issues heal their pains"
+            }, 
+            "174378": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:girl scout cookies have always been a huge seller"
+            }, 
+            "174390": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:you will not see little girls selling these cookies outside of grocery stores"
+            }, 
+            "174382": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:activity": "test:it’s no secret that it’s one of the favorite “munchie” snacks of all time"
+            }
+        }, 
+        "wasAttributedTo": {
+            "174384": {
+                "prov:entity": "test:it’s no secret that it’s one of the favorite “munchie” snacks of all time", 
+                "prov:agent": "test:Maverick"
+            }, 
+            "174392": {
+                "prov:entity": "test:you will not see little girls selling these cookies outside of grocery stores", 
+                "prov:agent": "test:Maverick"
+            }, 
+            "174380": {
+                "prov:entity": "test:girl scout cookies have always been a huge seller", 
+                "prov:agent": "test:Maverick"
+            }, 
+            "174372": {
+                "prov:entity": "test:http://now8news.com/girl-scouts-of-america-approved-to-sell-marijuana-edible-cookies-at-dispensaries/", 
+                "prov:agent": "test:now8news.com"
+            }, 
+            "174388": {
+                "prov:entity": "test:with that being said we decided to merge the brand and help people with serious medical issues heal their pains", 
+                "prov:agent": "test:Maverick"
+            }
+        }, 
+        "agent": {
+            "test:now8news.com": {
+                "test:publisher": "now8news.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Maverick": {
+                "test:name": "Maverick", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:it’s no secret that it’s one of the favorite “munchie” snacks of all time": {
+                "test:quote": "it’s no secret that it’s one of the favorite “munchie” snacks of all time", 
+                "test:type": "quote"
+            }, 
+            "test:this girl scout cookie season you can have more fun than ever": {
+                "test:quote": "this girl scout cookie season you can have more fun than ever", 
+                "test:type": "quote"
+            }, 
+            "test:with that being said we decided to merge the brand and help people with serious medical issues heal their pains": {
+                "test:quote": "with that being said we decided to merge the brand and help people with serious medical issues heal their pains", 
+                "test:type": "quote"
+            }, 
+            "test:this is something that will be completely separate and regulated within the dispensaries": {
+                "test:quote": "this is something that will be completely separate and regulated within the dispensaries", 
+                "test:type": "quote"
+            }, 
+            "test:girl scout cookies have always been a huge seller": {
+                "test:quote": "girl scout cookies have always been a huge seller", 
+                "test:type": "quote"
+            }, 
+            "test:you will not see little girls selling these cookies outside of grocery stores": {
+                "test:quote": "you will not see little girls selling these cookies outside of grocery stores", 
+                "test:type": "quote"
+            }, 
+            "test:grab your imagination and get in the spirit": {
+                "test:quote": "grab your imagination and get in the spirit", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

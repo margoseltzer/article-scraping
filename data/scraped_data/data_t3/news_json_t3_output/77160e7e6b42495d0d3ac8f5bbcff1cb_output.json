@@ -1,0 +1,143 @@
+{
+    "root": "https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "122269": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Politics/911-responders-face-cuts-health-care-jon-stewart/story?id=61305025", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122261": {
+                "prov:usedEntity": "test:https://t.co/hqRtNjfdHS", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122273": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Politics/mcconnell-meet-911-responders-amid-public-tensions-jon/story?id=63916165", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122263": {
+                "prov:usedEntity": "test:https://twitter.com/SenSchumer/status/1149745528047120384?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122271": {
+                "prov:usedEntity": "test:https://abcnews.go.com/alerts/new-york", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122265": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Politics/mcconnell-vows-vote-911-victim-compensation-fund-jon/story?id=63931018", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122267": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Politics/house-judiciary-committee-moves-911-compensation-bill-house/story?id=63658076", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122275": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Politics/angry-jon-stewart-demands-congress-compensate-911-responders/story?id=63632523", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }, 
+            "122259": {
+                "prov:usedEntity": "test:https://twitter.com/senatemajldr?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed"
+            }
+        }, 
+        "wasAttributedTo": {
+            "122249": {
+                "prov:entity": "test:for now were going to put down our swords and pick up our rakes", 
+                "prov:agent": "test:Feal"
+            }, 
+            "122257": {
+                "prov:entity": "test:im going to take him for his word", 
+                "prov:agent": "test:Feal"
+            }, 
+            "122245": {
+                "prov:entity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+                "prov:agent": "test:abcnews.go.com"
+            }, 
+            "122253": {
+                "prov:entity": "test:today mitch mcconnell promised to work for us", 
+                "prov:agent": "test:Feal"
+            }
+        }, 
+        "agent": {
+            "test:Feal": {
+                "test:name": "Feal", 
+                "test:type": "person"
+            }, 
+            "test:abcnews.go.com": {
+                "test:publisher": "abcnews.go.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed": {
+                "test:url": "https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+                "test:date": "2019-07-12", 
+                "test:title": "House passes 9/11 victim compensation funding bill by an overwhelming margin", 
+                "test:type": "article"
+            }, 
+            "test:https://abcnews.go.com/Politics/mcconnell-vows-vote-911-victim-compensation-fund-jon/story?id=63931018": {
+                "test:url": "https://abcnews.go.com/Politics/mcconnell-vows-vote-911-victim-compensation-fund-jon/story?id=63931018", 
+                "test:type": "government"
+            }, 
+            "test:https://twitter.com/senatemajldr?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/senatemajldr?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://abcnews.go.com/Politics/911-responders-face-cuts-health-care-jon-stewart/story?id=61305025": {
+                "test:url": "https://abcnews.go.com/Politics/911-responders-face-cuts-health-care-jon-stewart/story?id=61305025", 
+                "test:type": "government"
+            }, 
+            "test:https://t.co/hqRtNjfdHS": {
+                "test:url": "https://t.co/hqRtNjfdHS", 
+                "test:type": "reference"
+            }, 
+            "test:https://abcnews.go.com/Politics/house-judiciary-committee-moves-911-compensation-bill-house/story?id=63658076": {
+                "test:url": "https://abcnews.go.com/Politics/house-judiciary-committee-moves-911-compensation-bill-house/story?id=63658076", 
+                "test:type": "government"
+            }, 
+            "test:https://twitter.com/SenSchumer/status/1149745528047120384?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/SenSchumer/status/1149745528047120384?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://abcnews.go.com/alerts/new-york": {
+                "test:url": "https://abcnews.go.com/alerts/new-york", 
+                "test:type": "government"
+            }, 
+            "test:https://abcnews.go.com/Politics/mcconnell-meet-911-responders-amid-public-tensions-jon/story?id=63916165": {
+                "test:url": "https://abcnews.go.com/Politics/mcconnell-meet-911-responders-amid-public-tensions-jon/story?id=63916165", 
+                "test:type": "government"
+            }, 
+            "test:https://abcnews.go.com/Politics/angry-jon-stewart-demands-congress-compensate-911-responders/story?id=63632523": {
+                "test:url": "https://abcnews.go.com/Politics/angry-jon-stewart-demands-congress-compensate-911-responders/story?id=63632523", 
+                "test:type": "government"
+            }
+        }, 
+        "activity": {
+            "test:for now were going to put down our swords and pick up our rakes": {
+                "test:quote": "for now were going to put down our swords and pick up our rakes", 
+                "test:type": "quote"
+            }, 
+            "test:im going to take him for his word": {
+                "test:quote": "im going to take him for his word", 
+                "test:type": "quote"
+            }, 
+            "test:today mitch mcconnell promised to work for us": {
+                "test:quote": "today mitch mcconnell promised to work for us", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "122255": {
+                "prov:entity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+                "prov:activity": "test:im going to take him for his word"
+            }, 
+            "122247": {
+                "prov:entity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+                "prov:activity": "test:for now were going to put down our swords and pick up our rakes"
+            }, 
+            "122251": {
+                "prov:entity": "test:https://abcnews.go.com/Politics/house-passes-911-victim-compensation-funding-bill-overwhelming/story?id=64302733&cid=clicksource_4380645_null_headlines_hed", 
+                "prov:activity": "test:today mitch mcconnell promised to work for us"
+            }
+        }
+    }
+}

@@ -1,0 +1,295 @@
+{
+    "root": "https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "135715": {
+                "prov:usedEntity": "test:http://azalz.org/staff/jessica-langbaum-ph-d/", 
+                "prov:generatedEntity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing"
+            }, 
+            "135717": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3726719/", 
+                "prov:generatedEntity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing"
+            }, 
+            "135713": {
+                "prov:usedEntity": "test:https://www.generationprogram.com/#Main", 
+                "prov:generatedEntity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing"
+            }
+        }, 
+        "wasAttributedTo": {
+            "135699": {
+                "prov:entity": "test:but maybe some things are best not shared", 
+                "prov:agent": "test:David"
+            }, 
+            "135691": {
+                "prov:entity": "test:i think if she knew i even had that slight elevated risk it could be very distressful to her", 
+                "prov:agent": "test:David"
+            }, 
+            "135687": {
+                "prov:entity": "test:she lived through that nightmare of her grandmother and her father passing away from alzheimers", 
+                "prov:agent": "test:David"
+            }, 
+            "135663": {
+                "prov:entity": "test:there are family considerations there are emotional considerations and there are insurance implications or considerations that people should think about before learning this information", 
+                "prov:agent": "test:Langbaum"
+            }, 
+            "135671": {
+                "prov:entity": "test:it takes the mystery out of it", 
+                "prov:agent": "test:Langbaum"
+            }, 
+            "135659": {
+                "prov:entity": "test:this is a big life decision for people to learn this information", 
+                "prov:agent": "test:Jessica Langbaum"
+            }, 
+            "135667": {
+                "prov:entity": "test:im very glad to know", 
+                "prov:agent": "test:Langbaum"
+            }, 
+            "135675": {
+                "prov:entity": "test:if the testing comes out to where im running a higher risk i think im going to put a lot more emphasis on enjoying the time that i have", 
+                "prov:agent": "test:David"
+            }, 
+            "135643": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:agent": "test:Jon Hamilton"
+            }, 
+            "135655": {
+                "prov:entity": "test:people are remarkably brave in stepping forward to participate in the study", 
+                "prov:agent": "test:Jessica Langbaum"
+            }, 
+            "135641": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:agent": "test:www.npr.org"
+            }, 
+            "135679": {
+                "prov:entity": "test:my wifes grandmother and father both had alzheimers", 
+                "prov:agent": "test:David"
+            }, 
+            "135683": {
+                "prov:entity": "test:so the chances of her having an apoe e4 gene is very very high", 
+                "prov:agent": "test:David"
+            }, 
+            "135651": {
+                "prov:entity": "test:my mother had alzheimers in the last stage of her life and ive got friends and family that have alzheimers", 
+                "prov:agent": "test:Langbaum"
+            }, 
+            "135695": {
+                "prov:entity": "test:fiftyfive years of marriage you gotta share stuff", 
+                "prov:agent": "test:David"
+            }
+        }, 
+        "agent": {
+            "test:Jessica Langbaum": {
+                "test:name": "Jessica Langbaum", 
+                "test:type": "person"
+            }, 
+            "test:Jon Hamilton": {
+                "test:name": "Jon Hamilton", 
+                "test:type": "person"
+            }, 
+            "test:David": {
+                "test:name": "David", 
+                "test:type": "person"
+            }, 
+            "test:www.npr.org": {
+                "test:publisher": "www.npr.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Langbaum": {
+                "test:name": "Langbaum", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3726719/": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3726719/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing": {
+                "test:url": "https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "test:date": "2019-07-12", 
+                "test:title": "A Genetic Test That Reveals Alzheimer's Risk Can Be Cathartic Or Distressing", 
+                "test:type": "article"
+            }, 
+            "test:https://www.generationprogram.com/#Main": {
+                "test:url": "https://www.generationprogram.com/#Main", 
+                "test:type": "reference"
+            }, 
+            "test:http://azalz.org/staff/jessica-langbaum-ph-d/": {
+                "test:url": "http://azalz.org/staff/jessica-langbaum-ph-d/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:fiftyfive years of marriage you gotta share stuff": {
+                "test:quote": "fiftyfive years of marriage you gotta share stuff", 
+                "test:type": "quote"
+            }, 
+            "test:but you know once youve already hit 60 you go maybe i should know": {
+                "test:quote": "but you know once youve already hit 60 you go maybe i should know", 
+                "test:type": "quote"
+            }, 
+            "test:so i mean in a lot of ways i feel like i won a lottery": {
+                "test:quote": "so i mean in a lot of ways i feel like i won a lottery", 
+                "test:type": "quote"
+            }, 
+            "test:when youre maybe 40 or 50 you dont want to face that fact": {
+                "test:quote": "when youre maybe 40 or 50 you dont want to face that fact", 
+                "test:type": "quote"
+            }, 
+            "test:i was pretty much prepared for the worst": {
+                "test:quote": "i was pretty much prepared for the worst", 
+                "test:type": "quote"
+            }, 
+            "test:people are remarkably brave in stepping forward to participate in the study": {
+                "test:quote": "people are remarkably brave in stepping forward to participate in the study", 
+                "test:type": "quote"
+            }, 
+            "test:but maybe some things are best not shared": {
+                "test:quote": "but maybe some things are best not shared", 
+                "test:type": "quote"
+            }, 
+            "test:this is a big life decision for people to learn this information": {
+                "test:quote": "this is a big life decision for people to learn this information", 
+                "test:type": "quote"
+            }, 
+            "test:i think if she knew i even had that slight elevated risk it could be very distressful to her": {
+                "test:quote": "i think if she knew i even had that slight elevated risk it could be very distressful to her", 
+                "test:type": "quote"
+            }, 
+            "test:im very glad to know": {
+                "test:quote": "im very glad to know", 
+                "test:type": "quote"
+            }, 
+            "test:there are family considerations there are emotional considerations and there are insurance implications or considerations that people should think about before learning this information": {
+                "test:quote": "there are family considerations there are emotional considerations and there are insurance implications or considerations that people should think about before learning this information", 
+                "test:type": "quote"
+            }, 
+            "test:my mother had alzheimers in the last stage of her life and ive got friends and family that have alzheimers": {
+                "test:quote": "my mother had alzheimers in the last stage of her life and ive got friends and family that have alzheimers", 
+                "test:type": "quote"
+            }, 
+            "test:if the testing comes out to where im running a higher risk i think im going to put a lot more emphasis on enjoying the time that i have": {
+                "test:quote": "if the testing comes out to where im running a higher risk i think im going to put a lot more emphasis on enjoying the time that i have", 
+                "test:type": "quote"
+            }, 
+            "test:my wifes grandmother and father both had alzheimers": {
+                "test:quote": "my wifes grandmother and father both had alzheimers", 
+                "test:type": "quote"
+            }, 
+            "test:she lived through that nightmare of her grandmother and her father passing away from alzheimers": {
+                "test:quote": "she lived through that nightmare of her grandmother and her father passing away from alzheimers", 
+                "test:type": "quote"
+            }, 
+            "test:im a little bit apprehensive about it and i hope i dont have it": {
+                "test:quote": "im a little bit apprehensive about it and i hope i dont have it", 
+                "test:type": "quote"
+            }, 
+            "test:no i dont think so": {
+                "test:quote": "no i dont think so", 
+                "test:type": "quote"
+            }, 
+            "test:so the chances of her having an apoe e4 gene is very very high": {
+                "test:quote": "so the chances of her having an apoe e4 gene is very very high", 
+                "test:type": "quote"
+            }, 
+            "test:oh ill move ahead with it": {
+                "test:quote": "oh ill move ahead with it", 
+                "test:type": "quote"
+            }, 
+            "test:it takes the mystery out of it": {
+                "test:quote": "it takes the mystery out of it", 
+                "test:type": "quote"
+            }, 
+            "test:but if i do i want to be able to plan for my future": {
+                "test:quote": "but if i do i want to be able to plan for my future", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "135681": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:so the chances of her having an apoe e4 gene is very very high"
+            }, 
+            "135709": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:so i mean in a lot of ways i feel like i won a lottery"
+            }, 
+            "135707": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:i was pretty much prepared for the worst"
+            }, 
+            "135705": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:no i dont think so"
+            }, 
+            "135711": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:oh ill move ahead with it"
+            }, 
+            "135703": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:but you know once youve already hit 60 you go maybe i should know"
+            }, 
+            "135701": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:when youre maybe 40 or 50 you dont want to face that fact"
+            }, 
+            "135661": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:there are family considerations there are emotional considerations and there are insurance implications or considerations that people should think about before learning this information"
+            }, 
+            "135673": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:if the testing comes out to where im running a higher risk i think im going to put a lot more emphasis on enjoying the time that i have"
+            }, 
+            "135649": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:my mother had alzheimers in the last stage of her life and ive got friends and family that have alzheimers"
+            }, 
+            "135693": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:fiftyfive years of marriage you gotta share stuff"
+            }, 
+            "135665": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:im very glad to know"
+            }, 
+            "135677": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:my wifes grandmother and father both had alzheimers"
+            }, 
+            "135689": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:i think if she knew i even had that slight elevated risk it could be very distressful to her"
+            }, 
+            "135697": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:but maybe some things are best not shared"
+            }, 
+            "135669": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:it takes the mystery out of it"
+            }, 
+            "135685": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:she lived through that nightmare of her grandmother and her father passing away from alzheimers"
+            }, 
+            "135657": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:this is a big life decision for people to learn this information"
+            }, 
+            "135647": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:but if i do i want to be able to plan for my future"
+            }, 
+            "135645": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:im a little bit apprehensive about it and i hope i dont have it"
+            }, 
+            "135653": {
+                "prov:entity": "test:https://www.npr.org/sections/health-shots/2019/07/12/740714662/a-genetic-test-that-reveals-alzheimers-risk-can-be-cathartic-or-distressing", 
+                "prov:activity": "test:people are remarkably brave in stepping forward to participate in the study"
+            }
+        }
+    }
+}

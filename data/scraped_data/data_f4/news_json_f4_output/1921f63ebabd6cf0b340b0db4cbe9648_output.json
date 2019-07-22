@@ -1,0 +1,467 @@
+{
+    "root": "https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "135863": {
+                "prov:usedEntity": "test:https://www.facebook.com/100013086163475/videos/656134728166060/", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651"
+            }, 
+            "135857": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/Mississippi?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135847": {
+                "prov:usedEntity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135855": {
+                "prov:usedEntity": "test:https://t.co/N3EZG7DN5z", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135853": {
+                "prov:usedEntity": "test:https://twitter.com/Jwheels208/status/1133528744373702657?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135851": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/KOA?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135849": {
+                "prov:usedEntity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }, 
+            "135861": {
+                "prov:usedEntity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651"
+            }, 
+            "135859": {
+                "prov:usedEntity": "test:https://t.co/sO44PIOJjX", 
+                "prov:generatedEntity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "135729": {
+                "prov:entity": "test:it was just pointing at us", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135825": {
+                "prov:entity": "test:i get out and start talking to him", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135829": {
+                "prov:entity": "test:the first thing he says is ‘oh you don’t need a reservation for the lake’ then she pulls up flying hops out the car then proceeded to yell at my wife ‘get in the car you need to get back in the car’ just cussing her out and she’s not even sayi", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135725": {
+                "prov:entity": "test:she jumped out of her car and the gun was pointed at me my husband and our dog", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135845": {
+                "prov:entity": "test:the employee involved in the incident has been relieved of her duties at the starkville koa", 
+                "prov:agent": "test:Franklin Richardson"
+            }, 
+            "135808": {
+                "prov:entity": "test:it’s not like we posed a threat to anybody out there walking our dog", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135841": {
+                "prov:entity": "test:kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees", 
+                "prov:agent": "test:Franklin Richardson"
+            }, 
+            "135783": {
+                "prov:entity": "test:i felt it in her eyes", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135804": {
+                "prov:entity": "test:i was confused as to what was going on", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135753": {
+                "prov:entity": "test:kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135737": {
+                "prov:entity": "test:she was just like ‘get get you don’t belong here you don’t belong here you don’t belong here", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135779": {
+                "prov:entity": "test:i felt the heat from it", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135733": {
+                "prov:entity": "test:one finger was on the trigger and one finger was on the lever of the revolver", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135757": {
+                "prov:entity": "test:the employee involved in the incident has been relieved of her duties at the starkville koa", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135759": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "prov:agent": "test:www.huffpost.com"
+            }, 
+            "135775": {
+                "prov:entity": "test:you can feel the intent behind it", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135837": {
+                "prov:entity": "test:it’s kind of crazy to think about", 
+                "prov:agent": "test:Franklin Richardson"
+            }, 
+            "135719": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:agent": "test:bients.com"
+            }, 
+            "135833": {
+                "prov:entity": "test:you go over there and don’t have a gun pointed at you and you come back home and the first thing that happens is you have a gun pointed at you", 
+                "prov:agent": "test:Franklin Richardson"
+            }, 
+            "135791": {
+                "prov:entity": "test:she jumped out and the gun was pointed at me my husband and our dog", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135812": {
+                "prov:entity": "test:there’s nothing harmful about that", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135749": {
+                "prov:entity": "test:that ‘get get’ got to me more than ‘you don’t belong here", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135787": {
+                "prov:entity": "test:i knew exactly what it was", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135741": {
+                "prov:entity": "test:the fact that she used ‘get get’ like we were a dog", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135769": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:agent": "test:www.wcbi.com"
+            }, 
+            "135745": {
+                "prov:entity": "test:you say get get to a stray dog that’s on your porch", 
+                "prov:agent": "test:Jessica Richardson"
+            }, 
+            "135767": {
+                "prov:entity": "test:this lady literally just pulled a gun because we out here and didn’t have reservations for a lake that we didn’t even know we had to have reservation for", 
+                "prov:agent": "test:Jessica"
+            }, 
+            "135761": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "prov:agent": "test:Huffpost Us"
+            }, 
+            "135763": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "prov:agent": "test:Hayley Miller"
+            }
+        }, 
+        "agent": {
+            "test:bients.com": {
+                "test:publisher": "bients.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Huffpost Us": {
+                "test:name": "Huffpost Us", 
+                "test:type": "person"
+            }, 
+            "test:Jessica": {
+                "test:name": "Jessica", 
+                "test:type": "person"
+            }, 
+            "test:Hayley Miller": {
+                "test:name": "Hayley Miller", 
+                "test:type": "person"
+            }, 
+            "test:Jessica Richardson": {
+                "test:name": "Jessica Richardson", 
+                "test:type": "person"
+            }, 
+            "test:Franklin Richardson": {
+                "test:name": "Franklin Richardson", 
+                "test:type": "person"
+            }, 
+            "test:www.huffpost.com": {
+                "test:publisher": "www.huffpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.wcbi.com": {
+                "test:publisher": "www.wcbi.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.facebook.com/100013086163475/videos/656134728166060/": {
+                "test:url": "https://www.facebook.com/100013086163475/videos/656134728166060/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/": {
+                "test:url": "https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "test:date": "2019-05-28", 
+                "test:title": "Couple kicked out of Starkville KOA share their story", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/sO44PIOJjX": {
+                "test:url": "https://t.co/sO44PIOJjX", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/KOA?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/KOA?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/hashtag/Mississippi?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/Mississippi?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/": {
+                "test:url": "https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "test:date": "2019-05-30", 
+                "test:title": "Campground Manager Pulls Gun on Black Veteran and Wife Having Memorial Day Picnic", 
+                "test:type": "article"
+            }, 
+            "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651": {
+                "test:url": "https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "test:date": "2019-05-29", 
+                "test:title": "Mississippi Campground Manager Fired For Pulling Gun On Black Couple Having Picnic", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/Jwheels208/status/1133528744373702657?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/Jwheels208/status/1133528744373702657?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://t.co/N3EZG7DN5z": {
+                "test:url": "https://t.co/N3EZG7DN5z", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:the employee involved in the incident has been relieved of her duties at the starkville koa": {
+                "test:quote": "the employee involved in the incident has been relieved of her duties at the starkville koa", 
+                "test:type": "quote"
+            }, 
+            "test:this lady literally just pulled a gun because we out here and didn’t have reservations for a lake that we didn’t even know we had to have reservation for": {
+                "test:quote": "this lady literally just pulled a gun because we out here and didn’t have reservations for a lake that we didn’t even know we had to have reservation for", 
+                "test:type": "quote"
+            }, 
+            "test:i felt the heat from it": {
+                "test:quote": "i felt the heat from it", 
+                "test:type": "quote"
+            }, 
+            "test:kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees": {
+                "test:quote": "kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees", 
+                "test:type": "quote"
+            }, 
+            "test:i felt it in her eyes": {
+                "test:quote": "i felt it in her eyes", 
+                "test:type": "quote"
+            }, 
+            "test:the fact that she used ‘get get’ like we were a dog": {
+                "test:quote": "the fact that she used ‘get get’ like we were a dog", 
+                "test:type": "quote"
+            }, 
+            "test:the first thing he says is ‘oh you don’t need a reservation for the lake’ then she pulls up flying hops out the car then proceeded to yell at my wife ‘get in the car you need to get back in the car’ just cussing her out and she’s not even sayi": {
+                "test:quote": "the first thing he says is ‘oh you don’t need a reservation for the lake’ then she pulls up flying hops out the car then proceeded to yell at my wife ‘get in the car you need to get back in the car’ just cussing her out and she’s not even saying anything", 
+                "test:type": "quote"
+            }, 
+            "test:she jumped out and the gun was pointed at me my husband and our dog": {
+                "test:quote": "she jumped out and the gun was pointed at me my husband and our dog", 
+                "test:type": "quote"
+            }, 
+            "test:there’s nothing harmful about that": {
+                "test:quote": "there’s nothing harmful about that", 
+                "test:type": "quote"
+            }, 
+            "test:i was confused as to what was going on": {
+                "test:quote": "i was confused as to what was going on", 
+                "test:type": "quote"
+            }, 
+            "test:she jumped out of her car and the gun was pointed at me my husband and our dog": {
+                "test:quote": "she jumped out of her car and the gun was pointed at me my husband and our dog", 
+                "test:type": "quote"
+            }, 
+            "test:she was just like ‘get get you don’t belong here you don’t belong here you don’t belong here": {
+                "test:quote": "she was just like ‘get get you don’t belong here you don’t belong here you don’t belong here", 
+                "test:type": "quote"
+            }, 
+            "test:one finger was on the trigger and one finger was on the lever of the revolver": {
+                "test:quote": "one finger was on the trigger and one finger was on the lever of the revolver", 
+                "test:type": "quote"
+            }, 
+            "test:you say get get to a stray dog that’s on your porch": {
+                "test:quote": "you say get get to a stray dog that’s on your porch", 
+                "test:type": "quote"
+            }, 
+            "test:you go over there and don’t have a gun pointed at you and you come back home and the first thing that happens is you have a gun pointed at you": {
+                "test:quote": "you go over there and don’t have a gun pointed at you and you come back home and the first thing that happens is you have a gun pointed at you", 
+                "test:type": "quote"
+            }, 
+            "test:the lake belongs to the oktibbeha school district by starkville kampgrounds of america koa a camping site": {
+                "test:quote": "the lake belongs to the oktibbeha school district by starkville kampgrounds of america koa a camping site", 
+                "test:type": "quote"
+            }, 
+            "test:i get out and start talking to him": {
+                "test:quote": "i get out and start talking to him", 
+                "test:type": "quote"
+            }, 
+            "test:you can feel the intent behind it": {
+                "test:quote": "you can feel the intent behind it", 
+                "test:type": "quote"
+            }, 
+            "test:that ‘get get’ got to me more than ‘you don’t belong here": {
+                "test:quote": "that ‘get get’ got to me more than ‘you don’t belong here", 
+                "test:type": "quote"
+            }, 
+            "test:it’s kind of crazy to think about": {
+                "test:quote": "it’s kind of crazy to think about", 
+                "test:type": "quote"
+            }, 
+            "test:it was just pointing at us": {
+                "test:quote": "it was just pointing at us", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not like we posed a threat to anybody out there walking our dog": {
+                "test:quote": "it’s not like we posed a threat to anybody out there walking our dog", 
+                "test:type": "quote"
+            }, 
+            "test:oh you don’t need a reservation for the lake": {
+                "test:quote": "oh you don’t need a reservation for the lake", 
+                "test:type": "quote"
+            }, 
+            "test:i knew exactly what it was": {
+                "test:quote": "i knew exactly what it was", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "135823": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:i get out and start talking to him"
+            }, 
+            "135820": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:that ‘get get’ got to me more than ‘you don’t belong here"
+            }, 
+            "135827": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:the first thing he says is ‘oh you don’t need a reservation for the lake’ then she pulls up flying hops out the car then proceeded to yell at my wife ‘get in the car you need to get back in the car’ just cussing her out and she’s not even sayi"
+            }, 
+            "135721": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:the lake belongs to the oktibbeha school district by starkville kampgrounds of america koa a camping site"
+            }, 
+            "135723": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:she jumped out of her car and the gun was pointed at me my husband and our dog"
+            }, 
+            "135727": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:it was just pointing at us"
+            }, 
+            "135785": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:i knew exactly what it was"
+            }, 
+            "135843": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:the employee involved in the incident has been relieved of her duties at the starkville koa"
+            }, 
+            "135781": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:i felt it in her eyes"
+            }, 
+            "135802": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:i was confused as to what was going on"
+            }, 
+            "135806": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:it’s not like we posed a threat to anybody out there walking our dog"
+            }, 
+            "135751": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees"
+            }, 
+            "135735": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:she was just like ‘get get you don’t belong here you don’t belong here you don’t belong here"
+            }, 
+            "135755": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:the employee involved in the incident has been relieved of her duties at the starkville koa"
+            }, 
+            "135731": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:one finger was on the trigger and one finger was on the lever of the revolver"
+            }, 
+            "135773": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:you can feel the intent behind it"
+            }, 
+            "135771": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:oh you don’t need a reservation for the lake"
+            }, 
+            "135789": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:she jumped out and the gun was pointed at me my husband and our dog"
+            }, 
+            "135777": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:i felt the heat from it"
+            }, 
+            "135739": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:the fact that she used ‘get get’ like we were a dog"
+            }, 
+            "135835": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:it’s kind of crazy to think about"
+            }, 
+            "135831": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:you go over there and don’t have a gun pointed at you and you come back home and the first thing that happens is you have a gun pointed at you"
+            }, 
+            "135839": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:kampgrounds of america does not condone the use of a firearm in any manner on our properties or those owned and operated by our franchisees"
+            }, 
+            "135796": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:one finger was on the trigger and one finger was on the lever of the revolver"
+            }, 
+            "135793": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:it was just pointing at us"
+            }, 
+            "135810": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:there’s nothing harmful about that"
+            }, 
+            "135799": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:she was just like ‘get get you don’t belong here you don’t belong here you don’t belong here"
+            }, 
+            "135817": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:you say get get to a stray dog that’s on your porch"
+            }, 
+            "135814": {
+                "prov:entity": "test:https://www.wcbi.com/couple-kicked-out-of-starkville-koa-share-their-story/", 
+                "prov:activity": "test:the fact that she used ‘get get’ like we were a dog"
+            }, 
+            "135743": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:you say get get to a stray dog that’s on your porch"
+            }, 
+            "135747": {
+                "prov:entity": "test:https://bients.com/campground-manager-pulls-gun-on-black-veteran-and-wife-having-memorial-day-picnic/", 
+                "prov:activity": "test:that ‘get get’ got to me more than ‘you don’t belong here"
+            }, 
+            "135765": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/entry/mississippi-black-couple-gun-picnic-campground_n_5cee7ac3e4b0793c23485651", 
+                "prov:activity": "test:this lady literally just pulled a gun because we out here and didn’t have reservations for a lake that we didn’t even know we had to have reservation for"
+            }
+        }
+    }
+}

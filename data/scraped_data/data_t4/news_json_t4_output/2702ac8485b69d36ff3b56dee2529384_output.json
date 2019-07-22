@@ -1,0 +1,55 @@
+{
+    "root": "https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "122481": {
+                "prov:usedEntity": "test:https://www.thomsonreuters.com/en/about-us/trust-principles.html", 
+                "prov:generatedEntity": "test:https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5"
+            }
+        }, 
+        "wasAttributedTo": {
+            "122475": {
+                "prov:entity": "test:https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5", 
+                "prov:agent": "test:www.reuters.com"
+            }, 
+            "122477": {
+                "prov:entity": "test:https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5", 
+                "prov:agent": "test:Nate Raymond"
+            }
+        }, 
+        "agent": {
+            "test:www.reuters.com": {
+                "test:publisher": "www.reuters.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Nate Raymond": {
+                "test:name": "Nate Raymond", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5": {
+                "test:url": "https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5", 
+                "test:date": "2019-07-13", 
+                "test:title": "U.S. appeals court blocks Trump administration birth control exemptions", 
+                "test:type": "article"
+            }, 
+            "test:https://www.thomsonreuters.com/en/about-us/trust-principles.html": {
+                "test:url": "https://www.thomsonreuters.com/en/about-us/trust-principles.html", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:religious organizations should not be forced to violate their mission and deeplyheld beliefs": {
+                "test:quote": "religious organizations should not be forced to violate their mission and deeplyheld beliefs", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "122479": {
+                "prov:entity": "test:https://www.reuters.com/article/us-usa-trump-birthcontrol/u-s-appeals-court-blocks-trump-administration-birth-control-exemptions-idUSKCN1U72M5", 
+                "prov:activity": "test:religious organizations should not be forced to violate their mission and deeplyheld beliefs"
+            }
+        }
+    }
+}

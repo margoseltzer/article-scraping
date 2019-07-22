@@ -1,0 +1,91 @@
+{
+    "root": "https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "160043": {
+                "prov:usedEntity": "test:https://www.thomsonreuters.com/en/about-us/trust-principles.html", 
+                "prov:generatedEntity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV"
+            }
+        }, 
+        "wasAttributedTo": {
+            "160029": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:agent": "test:Gary Robertson"
+            }, 
+            "160033": {
+                "prov:entity": "test:fields you deserve the sentence the jury gave", 
+                "prov:agent": "test:Moore"
+            }, 
+            "160037": {
+                "prov:entity": "test:what you did was an act of terror", 
+                "prov:agent": "test:Moore"
+            }, 
+            "160027": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:agent": "test:www.reuters.com"
+            }
+        }, 
+        "agent": {
+            "test:www.reuters.com": {
+                "test:publisher": "www.reuters.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Moore": {
+                "test:name": "Moore", 
+                "test:type": "person"
+            }, 
+            "test:Gary Robertson": {
+                "test:name": "Gary Robertson", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.thomsonreuters.com/en/about-us/trust-principles.html": {
+                "test:url": "https://www.thomsonreuters.com/en/about-us/trust-principles.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV": {
+                "test:url": "https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "test:date": "2019-07-15", 
+                "test:title": "Neo-Nazi gets second life sentence in murder of protester in Virginia", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:you have the right to protest but i’m late for work": {
+                "test:quote": "you have the right to protest but i’m late for work", 
+                "test:type": "quote"
+            }, 
+            "test:what you did was an act of terror": {
+                "test:quote": "what you did was an act of terror", 
+                "test:type": "quote"
+            }, 
+            "test:but i also hope he never sees the light of day outside of prison": {
+                "test:quote": "but i also hope he never sees the light of day outside of prison", 
+                "test:type": "quote"
+            }, 
+            "test:fields you deserve the sentence the jury gave": {
+                "test:quote": "fields you deserve the sentence the jury gave", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "160031": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:activity": "test:fields you deserve the sentence the jury gave"
+            }, 
+            "160039": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:activity": "test:but i also hope he never sees the light of day outside of prison"
+            }, 
+            "160041": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:activity": "test:you have the right to protest but i’m late for work"
+            }, 
+            "160035": {
+                "prov:entity": "test:https://www.reuters.com/article/us-virginia-protests/neo-nazi-gets-second-life-sentence-in-murder-of-protester-in-virginia-idUSKCN1UA0TV", 
+                "prov:activity": "test:what you did was an act of terror"
+            }
+        }
+    }
+}

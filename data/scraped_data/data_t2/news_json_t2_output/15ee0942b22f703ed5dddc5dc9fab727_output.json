@@ -1,0 +1,913 @@
+{
+    "root": "https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "155898": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/china/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155894": {
+                "prov:usedEntity": "test:https://www.google.com/search?q=huawei+globalnews&rlz=1C1GCEU_enCA820CA823&oq=huawei+globalnews&aqs=chrome..69i57j0j69i60l3j0.1903j0j7&sourceid=chrome&ie=UTF-8", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155896": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/justin-trudeau/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155890": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155892": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155958": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/larry-kudlow/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155932": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4896352/john-mccallum-firing/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155930": {
+                "prov:usedEntity": "test:https://www.scmp.com/business/article/3017933/beijing-should-avoid-punishing-canada-over-huawei-case-cautions-ottawas-ex", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155936": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4893476/mccallum-resigns-ambassador-china-meng-extradition/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155934": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4891212/john-mccallum-meng-wanzhou-huawei-extradition/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155966": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5309282/china-canada-relations-rock-bottom/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/"
+            }, 
+            "155938": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/4877971/john-mccallum-meng-wanzhou-china-huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155918": {
+                "prov:usedEntity": "test:https://twitter.com/RedShannon/status/1149301471172800512?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155956": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5444597/justin-trudeau-xi-jinping-g20/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155950": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/donald-trump/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/"
+            }, 
+            "155952": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/justin-trudeau/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/"
+            }, 
+            "155910": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/john-mccallum/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155912": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155914": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/Meng-Wanzhou/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155916": {
+                "prov:usedEntity": "test:https://t.co/inKrdaGS3a", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155970": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/"
+            }, 
+            "155962": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/meng-wanzhou/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155960": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/donald-trump/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155888": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/"
+            }, 
+            "155954": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5294918/google-suspends-huawei-business-u-s-blacklist/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155944": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155924": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/"
+            }, 
+            "155926": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/"
+            }, 
+            "155920": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/"
+            }, 
+            "155922": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/"
+            }, 
+            "155964": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/"
+            }, 
+            "155928": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/huawei/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/"
+            }, 
+            "155946": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/meng-wanzhou/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155908": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/china/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155942": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/john-mccallum/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155948": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5453130/justin-trudeau-trump-china-detainees/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/"
+            }, 
+            "155940": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/china/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/"
+            }, 
+            "155902": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/canada/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155900": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155906": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/chrystia-freeland/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155904": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/andrew-scheer/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/"
+            }, 
+            "155968": {
+                "prov:usedEntity": "test:https://globalnews.ca/news/5325752/china-detained-canadians-chrystia-freeland-ambassador/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/"
+            }, 
+            "155972": {
+                "prov:usedEntity": "test:https://globalnews.ca/tag/china/", 
+                "prov:generatedEntity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "155740": {
+                "prov:entity": "test:anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals", 
+                "prov:agent": "test:McCallum"
+            }, 
+            "155728": {
+                "prov:entity": "test:it’s a challenge for us … we’re pushing hard to get some answers from the federal government", 
+                "prov:agent": "test:Don Morgan"
+            }, 
+            "155744": {
+                "prov:entity": "test:i hope and i don’t see any reason why things will get worse it would be nice if things will get better between now and canada’s federal election in october", 
+                "prov:agent": "test:McCallum"
+            }, 
+            "155760": {
+                "prov:entity": "test:so far we haven’t seen any tangible change", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155722": {
+                "prov:entity": "test:we will be taking appropriate decisions in due course", 
+                "prov:agent": "test:Goodale"
+            }, 
+            "155764": {
+                "prov:entity": "test:we’re not saying that just because things have relaxed a little we’re fine with being on the blacklist", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155768": {
+                "prov:entity": "test:actually we believe our listing on the blacklist should be lifted completely", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155868": {
+                "prov:entity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155814": {
+                "prov:entity": "test:anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals", 
+                "prov:agent": "test:John McCallum"
+            }, 
+            "155776": {
+                "prov:entity": "test:of course if america doesn’t let us use it then might we in the future develop our own hongmeng as our cellphone operating system", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155810": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:agent": "test:Amanda Connolly"
+            }, 
+            "155850": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:agent": "test:Amanda Connolly"
+            }, 
+            "155874": {
+                "prov:entity": "test:what’s happening now is simply a loosening up for general merchandise", 
+                "prov:agent": "test:Kudlow"
+            }, 
+            "155854": {
+                "prov:entity": "test:we do have confirmation that president trump raised the issue in a clear and substantive way with president xi", 
+                "prov:agent": "test:Trump"
+            }, 
+            "155832": {
+                "prov:entity": "test:it is quite possible the judge will release her", 
+                "prov:agent": "test:John McCallum"
+            }, 
+            "155792": {
+                "prov:entity": "test:a great important partner and ally of the united states", 
+                "prov:agent": "test:Mike Pompeo"
+            }, 
+            "155836": {
+                "prov:entity": "test:as minister freeland has said when it comes to the extradition request for meng wanzhou canada has very carefully and intentionally abided by its extradition treaty commitments in accordance with the rule of law", 
+                "prov:agent": "test:Marie-Pier Basil"
+            }, 
+            "155796": {
+                "prov:entity": "test:the us is and remains our most important partner outside europe", 
+                "prov:agent": "test:Merkel"
+            }, 
+            "155878": {
+                "prov:entity": "test:this is not a general amnesty", 
+                "prov:agent": "test:Kudlow"
+            }, 
+            "155716": {
+                "prov:entity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155756": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:agent": "test:Dake Kang"
+            }, 
+            "155718": {
+                "prov:entity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "prov:agent": "test:David Ljunggren"
+            }, 
+            "155732": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:agent": "test:Politics"
+            }, 
+            "155772": {
+                "prov:entity": "test:the open android operating system and ecosystem is still our first choice", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155730": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155886": {
+                "prov:entity": "test:we hope that the canadian side can have a clear understanding of the consequences of endangering itself for the gains of the us and take immediate actions to correct its mistakes so as to spare itself the suffering from growing damage", 
+                "prov:agent": "test:Geng"
+            }, 
+            "155754": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155734": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:agent": "test:National Online Journalist"
+            }, 
+            "155736": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:agent": "test:Amanda Connolly"
+            }, 
+            "155802": {
+                "prov:entity": "test:we hope that the united states can stop these mistaken actions which are not at all commensurate with their status and position as a big country", 
+                "prov:agent": "test:Geng Shuang"
+            }, 
+            "155882": {
+                "prov:entity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155806": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:agent": "test:Politics"
+            }, 
+            "155804": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155808": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:agent": "test:National Online Journalist"
+            }, 
+            "155828": {
+                "prov:entity": "test:that prime minister justin trudeau appointed john mccallum – someone who has repeatedly advocated against canada’s interests – to one of canada’s most important diplomatic posts demonstrates his incompetence and poor judgment on the world stage", 
+                "prov:agent": "test:John McCallum"
+            }, 
+            "155848": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:agent": "test:National Online Journalist"
+            }, 
+            "155784": {
+                "prov:entity": "test:our companies should not be at a disadvantage to others that are already selling to huawei", 
+                "prov:agent": "test:Strayer"
+            }, 
+            "155820": {
+                "prov:entity": "test:invitation of foreign interference in the canadian election", 
+                "prov:agent": "test:John McCallum"
+            }, 
+            "155786": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155844": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:agent": "test:globalnews.ca"
+            }, 
+            "155780": {
+                "prov:entity": "test:we still haven’t decided yet", 
+                "prov:agent": "test:Liang Hua"
+            }, 
+            "155824": {
+                "prov:entity": "test:instead of scheming with the government of china to win reelection liberals should advocate for the safe return of michael kovrig and michael spavor and the restoration of canadian canola and meat imports to china", 
+                "prov:agent": "test:Scheer"
+            }, 
+            "155858": {
+                "prov:entity": "test:i will absolutely bring that up", 
+                "prov:agent": "test:Trump"
+            }, 
+            "155846": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:agent": "test:Politics"
+            }
+        }, 
+        "agent": {
+            "test:Trump": {
+                "test:name": "Trump", 
+                "test:type": "person"
+            }, 
+            "test:Merkel": {
+                "test:name": "Merkel", 
+                "test:type": "person"
+            }, 
+            "test:John McCallum": {
+                "test:name": "John McCallum", 
+                "test:type": "person"
+            }, 
+            "test:David Ljunggren": {
+                "test:name": "David Ljunggren", 
+                "test:type": "person"
+            }, 
+            "test:Dake Kang": {
+                "test:name": "Dake Kang", 
+                "test:type": "person"
+            }, 
+            "test:Geng Shuang": {
+                "test:name": "Geng Shuang", 
+                "test:type": "person"
+            }, 
+            "test:Don Morgan": {
+                "test:name": "Don Morgan", 
+                "test:type": "person"
+            }, 
+            "test:McCallum": {
+                "test:name": "McCallum", 
+                "test:type": "person"
+            }, 
+            "test:Strayer": {
+                "test:name": "Strayer", 
+                "test:type": "person"
+            }, 
+            "test:Scheer": {
+                "test:name": "Scheer", 
+                "test:type": "person"
+            }, 
+            "test:globalnews.ca": {
+                "test:publisher": "globalnews.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Mike Pompeo": {
+                "test:name": "Mike Pompeo", 
+                "test:type": "person"
+            }, 
+            "test:Amanda Connolly": {
+                "test:name": "Amanda Connolly", 
+                "test:type": "person"
+            }, 
+            "test:Kudlow": {
+                "test:name": "Kudlow", 
+                "test:type": "person"
+            }, 
+            "test:Geng": {
+                "test:name": "Geng", 
+                "test:type": "person"
+            }, 
+            "test:Goodale": {
+                "test:name": "Goodale", 
+                "test:type": "person"
+            }, 
+            "test:Liang Hua": {
+                "test:name": "Liang Hua", 
+                "test:type": "person"
+            }, 
+            "test:Marie-Pier Basil": {
+                "test:name": "Marie-Pier Basil", 
+                "test:type": "person"
+            }, 
+            "test:Politics": {
+                "test:name": "Politics", 
+                "test:type": "person"
+            }, 
+            "test:National Online Journalist": {
+                "test:name": "National Online Journalist", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://globalnews.ca/news/4877971/john-mccallum-meng-wanzhou-china-huawei/": {
+                "test:url": "https://globalnews.ca/news/4877971/john-mccallum-meng-wanzhou-china-huawei/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/": {
+                "test:url": "https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "test:date": "2019-07-03", 
+                "test:title": "Trump raised Canadian detainees with China in ‘clear and substantive way’: source", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5453130/justin-trudeau-trump-china-detainees/": {
+                "test:url": "https://globalnews.ca/news/5453130/justin-trudeau-trump-china-detainees/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/": {
+                "test:url": "https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "test:date": "2019-05-31", 
+                "test:title": "Countries that allow Huawei infrastructure could lose access to U.S. intelligence data: Pompeo", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/john-mccallum/": {
+                "test:url": "https://globalnews.ca/tag/john-mccallum/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/RedShannon/status/1149301471172800512?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/RedShannon/status/1149301471172800512?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5309282/china-canada-relations-rock-bottom/": {
+                "test:url": "https://globalnews.ca/news/5309282/china-canada-relations-rock-bottom/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/justin-trudeau/": {
+                "test:url": "https://globalnews.ca/tag/justin-trudeau/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/Meng-Wanzhou/": {
+                "test:url": "https://globalnews.ca/tag/Meng-Wanzhou/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/": {
+                "test:url": "https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "test:date": "2019-07-12", 
+                "test:title": "‘Unjust and unfair’: Huawei wants to be removed from U.S. security blacklist", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/donald-trump/": {
+                "test:url": "https://globalnews.ca/tag/donald-trump/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4891212/john-mccallum-meng-wanzhou-huawei-extradition/": {
+                "test:url": "https://globalnews.ca/news/4891212/john-mccallum-meng-wanzhou-huawei-extradition/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/larry-kudlow/": {
+                "test:url": "https://globalnews.ca/tag/larry-kudlow/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5444597/justin-trudeau-xi-jinping-g20/": {
+                "test:url": "https://globalnews.ca/news/5444597/justin-trudeau-xi-jinping-g20/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/meng-wanzhou/": {
+                "test:url": "https://globalnews.ca/tag/meng-wanzhou/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/4896352/john-mccallum-firing/": {
+                "test:url": "https://globalnews.ca/news/4896352/john-mccallum-firing/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/": {
+                "test:url": "https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "test:date": "2019-07-11", 
+                "test:title": "Freeland says McCallum ‘does not speak’ for feds after explosive China interview", 
+                "test:type": "article"
+            }, 
+            "test:https://t.co/inKrdaGS3a": {
+                "test:url": "https://t.co/inKrdaGS3a", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5294918/google-suspends-huawei-business-u-s-blacklist/": {
+                "test:url": "https://globalnews.ca/news/5294918/google-suspends-huawei-business-u-s-blacklist/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/chrystia-freeland/": {
+                "test:url": "https://globalnews.ca/tag/chrystia-freeland/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/": {
+                "test:url": "https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "test:date": "2019-07-10", 
+                "test:title": "McCallum reportedly warned China that hurting Canada ‘will help the Conservatives’", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/": {
+                "test:url": "https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "test:date": "2019-06-30", 
+                "test:title": "U.S. ‘loosening’ Huawei ban, but company remains on blacklist: Trump adviser", 
+                "test:type": "article"
+            }, 
+            "test:https://www.google.com/search?q=huawei+globalnews&rlz=1C1GCEU_enCA820CA823&oq=huawei+globalnews&aqs=chrome..69i57j0j69i60l3j0.1903j0j7&sourceid=chrome&ie=UTF-8": {
+                "test:url": "https://www.google.com/search?q=huawei+globalnews&rlz=1C1GCEU_enCA820CA823&oq=huawei+globalnews&aqs=chrome..69i57j0j69i60l3j0.1903j0j7&sourceid=chrome&ie=UTF-8", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/canada/": {
+                "test:url": "https://globalnews.ca/tag/canada/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/tag/huawei/": {
+                "test:url": "https://globalnews.ca/tag/huawei/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.scmp.com/business/article/3017933/beijing-should-avoid-punishing-canada-over-huawei-case-cautions-ottawas-ex": {
+                "test:url": "https://www.scmp.com/business/article/3017933/beijing-should-avoid-punishing-canada-over-huawei-case-cautions-ottawas-ex", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5325752/china-detained-canadians-chrystia-freeland-ambassador/": {
+                "test:url": "https://globalnews.ca/news/5325752/china-detained-canadians-chrystia-freeland-ambassador/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/": {
+                "test:url": "https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/", 
+                "test:date": "2019-05-31", 
+                "test:title": "China warns Canada not to help U.S. in Huawei case or there will be ‘consequences’", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/china/": {
+                "test:url": "https://globalnews.ca/tag/china/", 
+                "test:type": "reference"
+            }, 
+            "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/": {
+                "test:url": "https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "test:date": "2019-07-15", 
+                "test:title": "Canada to hold off on Huawei 5G decision until after the election: sources", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/news/4893476/mccallum-resigns-ambassador-china-meng-extradition/": {
+                "test:url": "https://globalnews.ca/news/4893476/mccallum-resigns-ambassador-china-meng-extradition/", 
+                "test:type": "article"
+            }, 
+            "test:https://globalnews.ca/tag/andrew-scheer/": {
+                "test:url": "https://globalnews.ca/tag/andrew-scheer/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:let me be extremely clear that mr mccallum does not speak in the name of the government of canada": {
+                "test:quote": "let me be extremely clear that mr mccallum does not speak in the name of the government of canada", 
+                "test:type": "quote"
+            }, 
+            "test:i hope and i don’t see any reason why things will get worse it would be nice if things will get better between now and canada’s federal election in october": {
+                "test:quote": "i hope and i don’t see any reason why things will get worse it would be nice if things will get better between now and canada’s federal election in october", 
+                "test:type": "quote"
+            }, 
+            "test:there is a risk we will have to change our behavior in light of the fact that we can’t permit data on private citizens or data on national security to go across networks that we don’t have confidence in": {
+                "test:quote": "there is a risk we will have to change our behavior in light of the fact that we can’t permit data on private citizens or data on national security to go across networks that we don’t have confidence in", 
+                "test:type": "quote"
+            }, 
+            "test:who are they to say there’s no value in canada talking to its allies about issues we have abroad": {
+                "test:quote": "who are they to say there’s no value in canada talking to its allies about issues we have abroad", 
+                "test:type": "quote"
+            }, 
+            "test:the us is and remains our most important partner outside europe": {
+                "test:quote": "the us is and remains our most important partner outside europe", 
+                "test:type": "quote"
+            }, 
+            "test:what’s happening now is simply a loosening up for general merchandise": {
+                "test:quote": "what’s happening now is simply a loosening up for general merchandise", 
+                "test:type": "quote"
+            }, 
+            "test:it’s a challenge for us … we’re pushing hard to get some answers from the federal government": {
+                "test:quote": "it’s a challenge for us … we’re pushing hard to get some answers from the federal government", 
+                "test:type": "quote"
+            }, 
+            "test:we hope that the united states can stop these mistaken actions which are not at all commensurate with their status and position as a big country": {
+                "test:quote": "we hope that the united states can stop these mistaken actions which are not at all commensurate with their status and position as a big country", 
+                "test:type": "quote"
+            }, 
+            "test:to me huawei in the united states would be like a trojan horse ready to steal more information from us": {
+                "test:quote": "to me huawei in the united states would be like a trojan horse ready to steal more information from us", 
+                "test:type": "quote"
+            }, 
+            "test:so far we haven’t seen any tangible change": {
+                "test:quote": "so far we haven’t seen any tangible change", 
+                "test:type": "quote"
+            }, 
+            "test:of course if america doesn’t let us use it then might we in the future develop our own hongmeng as our cellphone operating system": {
+                "test:quote": "of course if america doesn’t let us use it then might we in the future develop our own hongmeng as our cellphone operating system", 
+                "test:type": "quote"
+            }, 
+            "test:a great important partner and ally of the united states": {
+                "test:quote": "a great important partner and ally of the united states", 
+                "test:type": "quote"
+            }, 
+            "test:there has been no political interference in this case and a judicial process is underway": {
+                "test:quote": "there has been no political interference in this case and a judicial process is underway", 
+                "test:type": "quote"
+            }, 
+            "test:i will absolutely bring that up": {
+                "test:quote": "i will absolutely bring that up", 
+                "test:type": "quote"
+            }, 
+            "test:we do have confirmation that president trump raised the issue in a clear and substantive way with president xi": {
+                "test:quote": "we do have confirmation that president trump raised the issue in a clear and substantive way with president xi", 
+                "test:type": "quote"
+            }, 
+            "test:we will be taking appropriate decisions in due course": {
+                "test:quote": "we will be taking appropriate decisions in due course", 
+                "test:type": "quote"
+            }, 
+            "test:our government has been clear about our principles our commitment to the rule of law and our deep concern for our citizens who have been detained": {
+                "test:quote": "our government has been clear about our principles our commitment to the rule of law and our deep concern for our citizens who have been detained", 
+                "test:type": "quote"
+            }, 
+            "test:anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals": {
+                "test:quote": "anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals", 
+                "test:type": "quote"
+            }, 
+            "test:in that context i think that it is inappropriate for any canadian to be advising any foreign government on ways it ought or ought not to behave to secure any particular election outcome in canada": {
+                "test:quote": "in that context i think that it is inappropriate for any canadian to be advising any foreign government on ways it ought or ought not to behave to secure any particular election outcome in canada", 
+                "test:type": "quote"
+            }, 
+            "test:will be for what we call general merchandise not national security sensitive": {
+                "test:quote": "will be for what we call general merchandise not national security sensitive", 
+                "test:type": "quote"
+            }, 
+            "test:in a multilateral system that’s how we do diplomacy": {
+                "test:quote": "in a multilateral system that’s how we do diplomacy", 
+                "test:type": "quote"
+            }, 
+            "test:invitation of foreign interference in the canadian election": {
+                "test:quote": "invitation of foreign interference in the canadian election", 
+                "test:type": "quote"
+            }, 
+            "test:we still haven’t decided yet": {
+                "test:quote": "we still haven’t decided yet", 
+                "test:type": "quote"
+            }, 
+            "test:as minister freeland has said when it comes to the extradition request for meng wanzhou canada has very carefully and intentionally abided by its extradition treaty commitments in accordance with the rule of law": {
+                "test:quote": "as minister freeland has said when it comes to the extradition request for meng wanzhou canada has very carefully and intentionally abided by its extradition treaty commitments in accordance with the rule of law", 
+                "test:type": "quote"
+            }, 
+            "test:that potentially gives them quite a head start … at a certain point the clamor from bell and telus will be louder than it is now": {
+                "test:quote": "that potentially gives them quite a head start … at a certain point the clamor from bell and telus will be louder than it is now", 
+                "test:type": "quote"
+            }, 
+            "test:instead of scheming with the government of china to win reelection liberals should advocate for the safe return of michael kovrig and michael spavor and the restoration of canadian canola and meat imports to china": {
+                "test:quote": "instead of scheming with the government of china to win reelection liberals should advocate for the safe return of michael kovrig and michael spavor and the restoration of canadian canola and meat imports to china", 
+                "test:type": "quote"
+            }, 
+            "test:it is quite possible the judge will release her": {
+                "test:quote": "it is quite possible the judge will release her", 
+                "test:type": "quote"
+            }, 
+            "test:we have many issues to discuss since the world is not at rest": {
+                "test:quote": "we have many issues to discuss since the world is not at rest", 
+                "test:type": "quote"
+            }, 
+            "test:we have countless conversations with our allies and wherever i travel in the world i talk to canada’s allies about this difficult moment we’re having with china": {
+                "test:quote": "we have countless conversations with our allies and wherever i travel in the world i talk to canada’s allies about this difficult moment we’re having with china", 
+                "test:type": "quote"
+            }, 
+            "test:we’re not saying that just because things have relaxed a little we’re fine with being on the blacklist": {
+                "test:quote": "we’re not saying that just because things have relaxed a little we’re fine with being on the blacklist", 
+                "test:type": "quote"
+            }, 
+            "test:we will continue to stand up for them": {
+                "test:quote": "we will continue to stand up for them", 
+                "test:type": "quote"
+            }, 
+            "test:we hope that the canadian side can have a clear understanding of the consequences of endangering itself for the gains of the us and take immediate actions to correct its mistakes so as to spare itself the suffering from growing damage": {
+                "test:quote": "we hope that the canadian side can have a clear understanding of the consequences of endangering itself for the gains of the us and take immediate actions to correct its mistakes so as to spare itself the suffering from growing damage", 
+                "test:type": "quote"
+            }, 
+            "test:the open android operating system and ecosystem is still our first choice": {
+                "test:quote": "the open android operating system and ecosystem is still our first choice", 
+                "test:type": "quote"
+            }, 
+            "test:that prime minister justin trudeau appointed john mccallum – someone who has repeatedly advocated against canada’s interests – to one of canada’s most important diplomatic posts demonstrates his incompetence and poor judgment on the world stage": {
+                "test:quote": "that prime minister justin trudeau appointed john mccallum – someone who has repeatedly advocated against canada’s interests – to one of canada’s most important diplomatic posts demonstrates his incompetence and poor judgment on the world stage", 
+                "test:type": "quote"
+            }, 
+            "test:it is a very important issue and it is something that we as a country have to be prepared to defend ourselves against": {
+                "test:quote": "it is a very important issue and it is something that we as a country have to be prepared to defend ourselves against", 
+                "test:type": "quote"
+            }, 
+            "test:actually we believe our listing on the blacklist should be lifted completely": {
+                "test:quote": "actually we believe our listing on the blacklist should be lifted completely", 
+                "test:type": "quote"
+            }, 
+            "test:anything i can do to help canada i will be doing": {
+                "test:quote": "anything i can do to help canada i will be doing", 
+                "test:type": "quote"
+            }, 
+            "test:our companies should not be at a disadvantage to others that are already selling to huawei": {
+                "test:quote": "our companies should not be at a disadvantage to others that are already selling to huawei", 
+                "test:type": "quote"
+            }, 
+            "test:this is not a general amnesty": {
+                "test:quote": "this is not a general amnesty", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "155766": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:actually we believe our listing on the blacklist should be lifted completely"
+            }, 
+            "155870": {
+                "prov:entity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:activity": "test:will be for what we call general merchandise not national security sensitive"
+            }, 
+            "155742": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:i hope and i don’t see any reason why things will get worse it would be nice if things will get better between now and canada’s federal election in october"
+            }, 
+            "155762": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:we’re not saying that just because things have relaxed a little we’re fine with being on the blacklist"
+            }, 
+            "155746": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:invitation of foreign interference in the canadian election"
+            }, 
+            "155774": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:of course if america doesn’t let us use it then might we in the future develop our own hongmeng as our cellphone operating system"
+            }, 
+            "155748": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:let me be extremely clear that mr mccallum does not speak in the name of the government of canada"
+            }, 
+            "155720": {
+                "prov:entity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "prov:activity": "test:we will be taking appropriate decisions in due course"
+            }, 
+            "155726": {
+                "prov:entity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "prov:activity": "test:it’s a challenge for us … we’re pushing hard to get some answers from the federal government"
+            }, 
+            "155724": {
+                "prov:entity": "test:https://globalnews.ca/news/5496654/canada-huawei-5g-decision/", 
+                "prov:activity": "test:that potentially gives them quite a head start … at a certain point the clamor from bell and telus will be louder than it is now"
+            }, 
+            "155816": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:i hope and i don’t see any reason why things will get worse it would be nice if things will get better between now and canada’s federal election in october"
+            }, 
+            "155812": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals"
+            }, 
+            "155840": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:our government has been clear about our principles our commitment to the rule of law and our deep concern for our citizens who have been detained"
+            }, 
+            "155818": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:invitation of foreign interference in the canadian election"
+            }, 
+            "155876": {
+                "prov:entity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:activity": "test:this is not a general amnesty"
+            }, 
+            "155838": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:there has been no political interference in this case and a judicial process is underway"
+            }, 
+            "155798": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:activity": "test:we have many issues to discuss since the world is not at rest"
+            }, 
+            "155872": {
+                "prov:entity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:activity": "test:what’s happening now is simply a loosening up for general merchandise"
+            }, 
+            "155856": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:i will absolutely bring that up"
+            }, 
+            "155830": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:it is quite possible the judge will release her"
+            }, 
+            "155790": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:activity": "test:a great important partner and ally of the united states"
+            }, 
+            "155834": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:as minister freeland has said when it comes to the extradition request for meng wanzhou canada has very carefully and intentionally abided by its extradition treaty commitments in accordance with the rule of law"
+            }, 
+            "155794": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:activity": "test:the us is and remains our most important partner outside europe"
+            }, 
+            "155778": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:we still haven’t decided yet"
+            }, 
+            "155738": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:anything that is more negative against canada will help the conservatives who are much less friendly to china than the liberals"
+            }, 
+            "155770": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:the open android operating system and ecosystem is still our first choice"
+            }, 
+            "155758": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:so far we haven’t seen any tangible change"
+            }, 
+            "155880": {
+                "prov:entity": "test:https://globalnews.ca/news/5448260/huawei-trump-security-blacklist/", 
+                "prov:activity": "test:to me huawei in the united states would be like a trojan horse ready to steal more information from us"
+            }, 
+            "155752": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:in that context i think that it is inappropriate for any canadian to be advising any foreign government on ways it ought or ought not to behave to secure any particular election outcome in canada"
+            }, 
+            "155750": {
+                "prov:entity": "test:https://globalnews.ca/news/5483606/chrystia-freeland-john-mccallum-china-interference/", 
+                "prov:activity": "test:it is a very important issue and it is something that we as a country have to be prepared to defend ourselves against"
+            }, 
+            "155800": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:activity": "test:we hope that the united states can stop these mistaken actions which are not at all commensurate with their status and position as a big country"
+            }, 
+            "155852": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:we do have confirmation that president trump raised the issue in a clear and substantive way with president xi"
+            }, 
+            "155884": {
+                "prov:entity": "test:https://globalnews.ca/news/5337826/china-canada-huaewi-consequences/", 
+                "prov:activity": "test:we hope that the canadian side can have a clear understanding of the consequences of endangering itself for the gains of the us and take immediate actions to correct its mistakes so as to spare itself the suffering from growing damage"
+            }, 
+            "155864": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:who are they to say there’s no value in canada talking to its allies about issues we have abroad"
+            }, 
+            "155866": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:in a multilateral system that’s how we do diplomacy"
+            }, 
+            "155788": {
+                "prov:entity": "test:https://globalnews.ca/news/5337972/huawei-cut-off-u-s-intelligence-data-pompeo/", 
+                "prov:activity": "test:there is a risk we will have to change our behavior in light of the fact that we can’t permit data on private citizens or data on national security to go across networks that we don’t have confidence in"
+            }, 
+            "155860": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:anything i can do to help canada i will be doing"
+            }, 
+            "155862": {
+                "prov:entity": "test:https://globalnews.ca/news/5457228/donald-trump-detained-canadians-china-meeting/", 
+                "prov:activity": "test:we have countless conversations with our allies and wherever i travel in the world i talk to canada’s allies about this difficult moment we’re having with china"
+            }, 
+            "155822": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:instead of scheming with the government of china to win reelection liberals should advocate for the safe return of michael kovrig and michael spavor and the restoration of canadian canola and meat imports to china"
+            }, 
+            "155842": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:we will continue to stand up for them"
+            }, 
+            "155782": {
+                "prov:entity": "test:https://globalnews.ca/news/5487439/huawei-wants-us-remove-blacklist/", 
+                "prov:activity": "test:our companies should not be at a disadvantage to others that are already selling to huawei"
+            }, 
+            "155826": {
+                "prov:entity": "test:https://globalnews.ca/news/5478727/john-mccallum-china-helping-conservatives/", 
+                "prov:activity": "test:that prime minister justin trudeau appointed john mccallum – someone who has repeatedly advocated against canada’s interests – to one of canada’s most important diplomatic posts demonstrates his incompetence and poor judgment on the world stage"
+            }
+        }
+    }
+}
