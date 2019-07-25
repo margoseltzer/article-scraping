@@ -1,0 +1,246 @@
+[
+    {
+        "url": "https://www.nytimes.com/2019/07/22/us/politics/budget-deal.html",
+        "title": "Federal Budget Would Raise Spending by $320 Billion",
+        "authors": [
+            {
+                "name": "Jim Tankersley",
+                "link": null
+            },
+            {
+                "name": "Alan Rappeport",
+                "link": null
+            },
+            {
+                "name": "Emily Cochrane",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2019-07-22",
+        "text": "But since 2014, a succession of budget deals has waived the Budget Control Act caps, and the new deal not only lifts them again but allows the whole law to expire in 2021.\n\nMeantime, the federal debt has ballooned to $22 trillion. Despite healthy economic growth, the federal deficit for this fiscal year has reached $747 billion with two months to go — a 23 percent increase from the year before.\n\n“It appears that Congress and the president have just given up on their jobs,” said Maya MacGuineas, president of the Committee for a Responsible Federal Budget, which blasted out a statement arguing the tentative deal “may end up being the worst budget agreement in our nation’s history.”\n\n“The economy is great and able to accommodate changes,” she said in an interview. “But we’re about to make things worse due to nothing other than the lack of political will.”\n\nThe rising costs of an aging population, with the baby boom generation drawing Social Security and Medicare benefits, and Washington’s spending habits have led to increases in both federal spending and interest costs on the growing national debt. During the first two years of the Trump administration, the debt increased by more than $2 trillion, in part because of the 10-year, $1.5 trillion tax cut and large spending increases Mr. Trump signed into law.\n\nThe president has repeatedly called for deep spending cuts in the budgets he has submitted to Congress — then signed several laws that have boosted the deficit even further.\n\nAs president, Mr. Trump has overseen both a binge in discretionary spending and a plunge in expected tax revenues as a result of the tax cut legislation that stands as his signature legislative achievement. The federal budget deficit has increased by an average of 15 percent for each fiscal year he has been in office. (Mr. Obama ran large deficits in his first term in the wake of the 2008 financial crisis. But his second term saw deficits fall by an average of 11 percent per fiscal year.)",
+        "quotes": [
+            [
+                "It appears that Congress and the president have just given up on their jobs,",
+                "Maya MacGuineas",
+                true
+            ],
+            [
+                "may end up being the worst budget agreement in our nation’s history.",
+                "Maya MacGuineas",
+                false
+            ],
+            [
+                "The economy is great and able to accommodate changes,",
+                "",
+                true
+            ],
+            [
+                "But we’re about to make things worse due to nothing other than the lack of political will.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2018/07/25/business/trump-corporate-tax-cut-deficit.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "trump",
+            "raise",
+            "fiscal",
+            "tax",
+            "federal",
+            "president",
+            "320",
+            "trillion",
+            "mr",
+            "deficit",
+            "spending",
+            "billion",
+            "budget"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2018/07/25/business/trump-corporate-tax-cut-deficit.html?module=inline",
+        "title": "How the Trump Tax Cut Is Helping to Push the Federal Deficit to $1 Trillion",
+        "authors": [
+            {
+                "name": "Jim Tankersley",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2018-07-25",
+        "text": "And then there is the possibility of more new spending. President Trump’s pledge of up to $12 billion in emergency relief for farmers hurt by the trade war is prompting new demands for relief for manufacturers, fishermen and others being hit by retaliatory tariffs from American trading partners — all of which would require more government spending.\n\nAs the tax bill was debated last year, the Trump administration argued that losses from the cuts would be offset by increased economic growth. Companies would use money that had previously gone to taxes, the argument went, to invest in their businesses and workers, giving the government a smaller slice — but out of a bigger pie.\n\nBut the drop in tax payments has come as the American economy is already the healthiest it has been since the crisis, raising questions about whether the deficit could balloon further if growth begins to slow. The Commerce Department on Friday will announce its first estimate of gross domestic product in the second quarter, and forecasters anticipate it could reach 5 percent, the highest rate since 2014. Analysts, however, expect growth to slow in the second half of the year, as interest rates continue to rise and trade tensions weigh on the economy.\n\nThere was some encouraging news on the front Wednesday: After months of escalation, Europe and the United States agreed to find a way to reduce tariffs and other barriers, although how that could weigh on growth remains to be seen.\n\n“It is unwise to count on sustained revenues from growth that could easily prove to be a temporary sugar-high,” said Maya MacGuineas, president of the nonpartisan Committee for a Responsible Federal Budget in Washington, “particularly when it ignores the very real threat that the economy slows and we enter a downturn in a very vulnerable fiscal position.”\n\nBut administration officials are dismissing such concerns, arguing that they still expect economic activity to remain strong.\n\n“We are very much looking forward to the second quarter G.D.P. numbers, which we anticipate will keep us on track to a four-quarter growth rate over 3 percent for the first time in 13 years,” said Kevin A. Hassett, the chairman of the White House Council of Economic Advisers. “That’s a growth rate nobody thought was possible and we are glad to see the naysayers will be proved wrong.”",
+        "quotes": [
+            [
+                "It is unwise to count on sustained revenues from growth that could easily prove to be a temporary sugar-high,",
+                "Maya MacGuineas",
+                true
+            ],
+            [
+                "particularly when it ignores the very real threat that the economy slows and we enter a downturn in a very vulnerable fiscal position.",
+                "Maya MacGuineas",
+                false
+            ],
+            [
+                "We are very much looking forward to the second quarter G.D.P.",
+                "Kevin A. Hassett",
+                true
+            ],
+            [
+                "numbers, which we anticipate will keep us on track to a four-quarter growth rate over 3 percent for the first time in 13 years,",
+                "Kevin A. Hassett",
+                false
+            ],
+            [
+                "That’s a growth rate nobody thought was possible and we are glad to see the naysayers will be proved wrong.",
+                "Kevin A. Hassett",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2018/07/24/us/politics/farmers-aid-trade-war.html?module=inline",
+                "https://www.nytimes.com/2018/07/25/us/politics/trump-europe-trade.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "rate",
+            "trade",
+            "trump",
+            "tariffs",
+            "relief",
+            "tax",
+            "federal",
+            "growth",
+            "second",
+            "slow",
+            "helping",
+            "trillion",
+            "deficit",
+            "push",
+            "economic",
+            "cut",
+            "weigh"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2018/07/24/us/politics/farmers-aid-trade-war.html?module=inline",
+        "title": "To Ease Pain of Trump’s Trade War: $12 Billion in Aid for Farmers",
+        "authors": [
+            {
+                "name": "Ana Swanson",
+                "link": null
+            },
+            {
+                "name": "Julie Hirschfeld Davis",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2018-07-24",
+        "text": "WASHINGTON — The Trump administration announced on Tuesday that it would provide up to $12 billion in emergency relief for farmers hurt by the president’s trade war, moving to blunt the financial damage to American agriculture and the political fallout for Republicans as the consequences of President Trump’s protectionist policies roll through the economy.\n\nUnveiled two days before the president is scheduled to visit Iowa, a politically important state that is the nation’s top soybean producer, the farm aid appeared calculated to show that Mr. Trump cares about farmers and is working to protect them from the worst consequences of his trade war.\n\nBut the relief money, announced by the Department of Agriculture, was also an indication that Mr. Trump — ignoring the concerns of farmers, their representatives in Congress and even some of his own aides — plans to extend his tit-for-tat tariff wars.\n\n“The actions today are a firm statement that other nations cannot bully our agricultural producers to force the United States to cave in,” Sonny Perdue, the secretary of agriculture, said during a call with reporters to unveil the program.",
+        "quotes": [
+            [
+                "The actions today are a firm statement that other nations cannot bully our agricultural producers to force the United States to cave in,",
+                "Sonny Perdue",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.agri-pulse.com/articles/11221-opinion-trade-war-with-china"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.nytimes.com/subscription?campaignId=48JQY",
+                "https://twitter.com/realDonaldTrump/status/1021719098265362432",
+                "https://www.nytimes.com/section/todayspaper",
+                "https://twitter.com/SenToomey/status/1021866094041149442",
+                "https://www.parsintl.com/publication/the-new-york-times/",
+                "https://twitter.com/RandPaul/status/1021791878663090177"
+            ]
+        },
+        "key_words": [
+            "trade",
+            "trump",
+            "nations",
+            "consequences",
+            "relief",
+            "ease",
+            "aid",
+            "agriculture",
+            "president",
+            "farmers",
+            "pain",
+            "12",
+            "mr",
+            "trumps",
+            "announced",
+            "billion",
+            "war"
+        ]
+    },
+    {
+        "url": "https://www.nytimes.com/2018/07/25/us/politics/trump-europe-trade.html?module=inline",
+        "title": "U.S. and Europe Outline Deal to Ease Trade Feud",
+        "authors": [
+            {
+                "name": "Ana Swanson",
+                "link": null
+            },
+            {
+                "name": "Mark Landler",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2018-07-25",
+        "text": "WASHINGTON — The United States and the European Union stepped back from the brink of a trade war on Wednesday, after President Trump said the Europeans agreed to work toward lower tariffs and other trade barriers, and to buy billions of dollars of American soybeans and natural gas.\n\nThe surprise announcement, made by Mr. Trump and the president of the European Commission, Jean-Claude Juncker, defused, for the moment, a trade battle that began with Mr. Trump’s tariffs on steel and aluminum exports and threatened to escalate to automobiles.\n\n“We’re starting the negotiation right now, but we know very much where it’s going,” Mr. Trump said, standing next to Mr. Juncker at a hastily scheduled appearance in the White House Rose Garden.\n\nMr. Juncker said, “I had the intention to make a deal today, and we have made a deal today.”\n\nThe two sides, he said, had agreed to hold off on further tariffs, and work toward dropping the existing ones on steel and aluminum, while they tried to work out a deal to eliminate tariffs, nontariff barriers and subsidies on industrial goods, excluding autos.",
+        "quotes": [
+            [
+                "We’re starting the negotiation right now, but we know very much where it’s going,",
+                "Trump",
+                true
+            ],
+            [
+                "I had the intention to make a deal today, and we have made a deal today.",
+                "Juncker",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.atlanticcouncil.org/about/experts/list/bart-oosterveld",
+                "https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-proposed-auto-tariffs-would-throw-us-automakers-and"
+            ],
+            "gov_pgs": [
+                "https://www.bea.gov/news/archive?field_related_product_target_id=496&created_1=2&title="
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "trade",
+            "juncker",
+            "trump",
+            "european",
+            "tariffs",
+            "outline",
+            "ease",
+            "president",
+            "deal",
+            "steel",
+            "europe",
+            "mr",
+            "work",
+            "feud"
+        ]
+    }
+]
