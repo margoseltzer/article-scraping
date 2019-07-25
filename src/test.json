@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "url": "https://www.nytimes.com/2019/07/22/us/politics/budget-deal.html",
         "title": "Federal Budget Would Raise Spending by $320 Billion",
         "authors": [
@@ -213,20 +214,49 @@
             [
                 "I had the intention to make a deal today, and we have made a deal today.",
                 "Juncker",
+=======
+        "url": "https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html",
+        "title": "Measles accelerates to second-highest level in US in 25 years and over 100,000 global cases",
+        "authors": [
+            {
+                "name": "Elizabeth Cohen",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2019-04-15",
+        "text": "(CNN) The number of measles cases in the United States made its biggest jump of the year, with 90 new cases reported in just one week, according to numbers released Monday by the US Centers for Disease Control and Prevention.\n\nWith 555 total cases, 2019 now has the second-highest number of measles cases in the United States in 25 years -- and the year isn't even half over.\n\n\"I'm obviously very concerned about the size and also acceleration of the current outbreak,\" said Dr. Nancy Messonier, director of the CDC's National Center for Immunization and Respiratory Diseases. \"This is not going to stop on its own.\"\n\nMeasles isn't just rising in the United States. The World Health Organization reported Monday that there were more than 110,000 measles cases worldwide in the first three months of 2019, an increase of nearly 300% from the same period last year.\n\nThe data is provisional, and the actual number of measles cases is probably higher, as WHO estimates that fewer than 1 in 10 cases globally is reported to the agency.",
+        "quotes": [
+            [
+                "I'm obviously very concerned about the size and also acceleration of the current outbreak,",
+                "Nancy Messonier",
+                true
+            ],
+            [
+                "This is not going to stop on its own.",
+                "Nancy Messonier",
+>>>>>>> 004d232021fbc0ea8aa8d4f6387983da2b5a9614
                 true
             ]
         ],
         "links": {
+<<<<<<< HEAD
             "articles": [
                 "https://www.atlanticcouncil.org/about/experts/list/bart-oosterveld",
                 "https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-proposed-auto-tariffs-would-throw-us-automakers-and"
             ],
             "gov_pgs": [
                 "https://www.bea.gov/news/archive?field_related_product_target_id=496&created_1=2&title="
+=======
+            "articles": [],
+            "gov_pgs": [
+                "https://www.cdc.gov/measles/cases-outbreaks.html"
+>>>>>>> 004d232021fbc0ea8aa8d4f6387983da2b5a9614
             ],
             "unsure": []
         },
         "key_words": [
+<<<<<<< HEAD
             "trade",
             "juncker",
             "trump",
@@ -241,6 +271,24 @@
             "mr",
             "work",
             "feud"
+=======
+            "secondhighest",
+            "united",
+            "global",
+            "number",
+            "yearthe",
+            "states",
+            "worldwide",
+            "100000",
+            "2019",
+            "measles",
+            "isnt",
+            "cases",
+            "25",
+            "accelerates",
+            "reported",
+            "level"
+>>>>>>> 004d232021fbc0ea8aa8d4f6387983da2b5a9614
         ]
     }
 ]
