@@ -34,7 +34,7 @@ def store_labeled_articles(f_list):
         writer.writerows(res)
 
 def get_article_dict():
-    reader = csv.reader(open(dirpath+'labeled_articles.csv', mode='r'))
+    reader = csv.reader(open(dirpath + 'labeled_articles.csv', mode='r'))
     next(reader)
 
     idx_art_dic = {}
@@ -59,14 +59,56 @@ def call_python_version(Version, Module, Function, ArgumentList):
     channel.send(ArgumentList)
     return channel.receive()
 
+def link_articles(ent_adj_dict, agn_adj_dict, qot_adj_dict):
+    res_dic = ent_adj_dict
+    for k_1, v_1 in agn_adj_dict.items():
+        dic = {i: 1 for i in v_1}
+
+        for k_2, v_2 in agn_adj_dict.items():
+            if k_1 == k_2: continue
+
+            for i in v_2:
+                if i in dic:
+                    res_dic[k_1] = res_dic[k_1] + [k_2] if k_1 in res_dic else [k_2]
+    
+    for k_1, v_1 in qot_adj_dict.items():
+        dic = {i: 1 for i in v_1}
+
+        for k_2, v_2 in qot_adj_dict.items():
+            if k_1 == k_2: continue
+
+            for i in v_2:
+                if i in dic:
+                    res_dic[k_1] = res_dic[k_1] + [k_2] if k_1 in res_dic else [k_2]
+    
+    return res_dic
+
+def convert_ids_idx(obj_dict, idx_art_dic, url_idx_dic):
+    
+
+
 # Process all article urls and create a csv file and a dict obj
 # store_labeled_articles(file_list)
 
 idx_art_dic, url_idx_dic = get_article_dict()
 
 # dictionries {article_id: ...}
-obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'src.gcn_db_processor', 'main', [])
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'gcn_db_processor', 'main', [])
+
+id_dict = convert_ids_idx(obj_dict, idx_art_dic, url_idx_dic)
+
+# print(url_idx_dic)
+# print(idx_art_dic)
+# print(obj_dict)
+# print(ent_adj_dict)
+# print(agn_adj_dict)
 
 # Process the bundle into a adjacency matrix
+
+art_adj_dict = link_articles(ent_adj_dict, agn_adj_dict, qot_adj_dict)
+
+# print(url_idx_dic)
+# print(idx_art_dic)
+print(obj_dict)
 
 print('donE')
