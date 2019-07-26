@@ -9,18 +9,13 @@ from scipy.sparse import csr_matrix
 from utils.url_classifier.url_utils import UrlUtils
 
 dirpath = os.path.dirname(os.path.realpath(__file__))
-dirpath = os.path.dirname(dirpath) + '/data/'
-
-# Paths for labeled data files from data dir
-file_list = ['BuzzFeed_fb_urls_parsed.csv', 
-             'data_from_Kaggle.csv',
-             'fakeNewsNet_data/politifact_real.csv', 
-             'fakeNewsNet_data/politifact_fake.csv',]
+dirpath = os.path.dirname(dirpath) + '/data/datasets/'
 
 def store_labeled_articles(f_list):
     res = np.array([['url', 'label']])
     url_util = UrlUtils()
-    with open(dirpath + 'labeled_articles.csv', mode='w') as csv_w:
+    saved_file_name = 'labeled_articles.csv'
+    with open(dirpath + saved_file_name, mode='w') as csv_w:
         writer = csv.writer(csv_w)
         for f_name in f_list:
             print(dirpath + f_name)
@@ -32,23 +27,16 @@ def store_labeled_articles(f_list):
         idx_row = np.array(['idx'] + idxes)
         res = np.c_[res, idx_row]
         writer.writerows(res)
+    return saved_file_name
 
-def get_article_dict():
-    reader = csv.reader(open(dirpath + 'labeled_articles.csv', mode='r'))
+def get_article_dict(file_name):
+    '''
+    return article_url(str) to label(0 or 1) dictionary 
+    '''
+    reader = csv.reader(open(dirpath + file_name, mode='r'))
     next(reader)
-
-    idx_art_dic = {}
-    url_idx_dic = {}
-
-    for row in reader:
-        url    = row[0]
-        label  = row[1]
-        art_id = row[2]
-        
-        idx_art_dic[art_id] = {'url': url, 'label': label}
-        url_idx_dic[url]    = art_id
-
-    return idx_art_dic, url_idx_dic
+    article_label_dic = {r[0]: r[1] for r in reader}
+    return article_label_dic
 
 def call_python_version(Version, Module, Function, ArgumentList):
     gw      = execnet.makegateway("popen//python=python%s" % Version)
@@ -59,56 +47,82 @@ def call_python_version(Version, Module, Function, ArgumentList):
     channel.send(ArgumentList)
     return channel.receive()
 
-def link_articles(ent_adj_dict, agn_adj_dict, qot_adj_dict):
-    res_dic = ent_adj_dict
-    for k_1, v_1 in agn_adj_dict.items():
-        dic = {i: 1 for i in v_1}
+def link_articles(ent_adj_dict, dict_list):
+    ''' 
+    Links articles that are two hops away from each other by quote or agent
+    return new article_id to [article_ids] dictionary
+    '''
+    res_dict = ent_adj_dict
+    for dic in dict_list: 
+        for k_1, v_1 in dic.items():
+            adj_entities = {i: 1 for i in v_1}
 
-        for k_2, v_2 in agn_adj_dict.items():
-            if k_1 == k_2: continue
+            for k_2, v_2 in dic.items():
+                if k_1 == k_2: continue
 
-            for i in v_2:
-                if i in dic:
-                    res_dic[k_1] = res_dic[k_1] + [k_2] if k_1 in res_dic else [k_2]
-    
-    for k_1, v_1 in qot_adj_dict.items():
-        dic = {i: 1 for i in v_1}
+                for i in v_2:
+                    if i in adj_entities:
+                        res_dict[k_1] = res_dict[k_1] + [k_2] if k_1 in res_dict else [k_2]
+    return res_dict
 
-        for k_2, v_2 in qot_adj_dict.items():
-            if k_1 == k_2: continue
+def get_ids_idx_dict(obj_dict):
+    '''
+    return obj_id to idx dictionary
+    '''
+    id_idx_dict = {}
+    idx = 0
+    for k, v in obj_dict.items():
+        id_idx_dict[k] = idx
+        idx += 1
+    return id_idx_dict
 
-            for i in v_2:
-                if i in dic:
-                    res_dic[k_1] = res_dic[k_1] + [k_2] if k_1 in res_dic else [k_2]
-    
-    return res_dic
+def convert_ids_to_idx(id_idx_dict, dicts_to_convert):
+    '''
+    Modify all the dictionaries' keys and values in place from article_id to index  
+    '''
+    def convert_value(v):
+        '''
+        Simply comvert a list of ids into a list of idx
+        '''
+        if type(v) == list: 
+            v = [id_idx_dict[i] for i in v]
+        return v
 
-def convert_ids_idx(obj_dict, idx_art_dic, url_idx_dic):
-    
+    res_dicts = [{}, {}, {}, {}]
+    i = 0
+    for dic in dicts_to_convert:
+        new_dict = res_dicts[i]
+        for k, v in dic.items():
+            new_key = id_idx_dict[k]
+            new_dict[new_key] = convert_value(v)
+        i += 1
+    return res_dicts[0], res_dicts[1], res_dicts[2], res_dicts[3] 
 
+
+# Paths for labeled data files from data dir
+file_list = ['BuzzFeed_fb_urls_parsed.csv', 
+             'data_from_Kaggle.csv',
+             'fakeNewsNet_data/politifact_real.csv', 
+             'fakeNewsNet_data/politifact_fake.csv',]
 
 # Process all article urls and create a csv file and a dict obj
-# store_labeled_articles(file_list)
+saved_file_name = store_labeled_articles(file_list)
 
-idx_art_dic, url_idx_dic = get_article_dict()
+article_label_dic = get_article_dict(saved_file_name)
 
-# dictionries {article_id: ...}
-obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'gcn_db_processor', 'main', [])
+# obj_dict: obj_id to {type, val}
+# ent/agn/qot_adj_dict: id to [ids] 
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'src.gcn_db_processor', 'process_db', [])
 
-id_dict = convert_ids_idx(obj_dict, idx_art_dic, url_idx_dic)
+# Get article_id to idx dict of only article 
+id_idx_dict = get_ids_idx_dict(obj_dict)
 
-# print(url_idx_dic)
-# print(idx_art_dic)
-# print(obj_dict)
-# print(ent_adj_dict)
-# print(agn_adj_dict)
+# Convert all ids in dicts to idx
+dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict]
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(id_idx_dict, dicts_to_convert)
 
-# Process the bundle into a adjacency matrix
-
-art_adj_dict = link_articles(ent_adj_dict, agn_adj_dict, qot_adj_dict)
-
-# print(url_idx_dic)
-# print(idx_art_dic)
-print(obj_dict)
-
-print('donE')
+# Process dict_list so articles connected via one hop are in their adj_lists each other 
+dict_list = [agn_adj_dict, qot_adj_dict]
+art_adj_dict = link_articles(ent_adj_dict, dict_list)
+print(art_adj_dict)
+print('DONE')
