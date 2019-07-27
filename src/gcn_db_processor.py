@@ -31,7 +31,11 @@ def process_db():
 
         for obj in b_objs:
             if not obj.id in obj_dict:
-                valid_props = obj.string_properties()[0][1:]
+                ''' This is not true. There are many rows with same id
+                '''
+                valid_props = get_valid_props(obj.string_properties())
+                print(valid_props) 
+                if valid_props[0] == 'type' : print(valid_props)
                 obj_dict[obj.id] = {}
                 obj_dict[obj.id]['type'] = valid_props[0]
                 obj_dict[obj.id]['val'] = valid_props[1]
@@ -41,7 +45,6 @@ def process_db():
     agn_adj_dict = {}
     qot_adj_dict = {}
     for r in rel_list:
-        print(obj_dict[r.base.id]['type'])
         # type 8 = entity to entity, 'wasDerivedFrom'
         if r.type == 8: 
             ent_adj_dict[r.base.id]  = ent_adj_dict[r.base.id] + [r.other.id] if r.base.id  in ent_adj_dict else [r.other.id]
@@ -68,3 +71,22 @@ def process_db():
 
     return obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict
 
+def get_valid_props(props_lists):
+    ''' Extract only useful and valid props from props_lists
+        return [type, value]
+    '''
+    first_list = props_lists[0]
+    second_list = props_lists[1]
+    if first_list[1] == 'url' : 
+        typ = second_list[2]
+        val = first_list[2]
+    elif first_list[2] == 'article':
+        typ = first_list[2]
+        val = second_list[2]
+    else: 
+        return first_list[1:]
+    return [typ, val]
+    
+
+    
+process_db()

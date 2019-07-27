@@ -124,5 +124,9 @@ obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(id_idx_d
 # Process dict_list so articles connected via one hop are in their adj_lists each other 
 dict_list = [agn_adj_dict, qot_adj_dict]
 art_adj_dict = link_articles(ent_adj_dict, dict_list)
-print(art_adj_dict)
+
+print(art_adj_dict.keys())
+print(len(art_adj_dict.keys()))
+print(obj_dict)
+print(len(obj_dict))
 print('DONE')
