@@ -33,9 +33,12 @@ def process_db():
             if not obj.id in obj_dict:
                 ''' This is not true. There are many rows with same id
                 '''
+                # print(pbj.strinng_properties())
                 valid_props = get_valid_props(obj.string_properties())
-                print(valid_props) 
-                if valid_props[0] == 'type' : print(valid_props)
+                # valid_props = obj.string_properties()
+                #print('valid_props : ', str(valid_props)) 
+                #if valid_props[0] == 'date': 
+                #    print(obj.string_properties())
                 obj_dict[obj.id] = {}
                 obj_dict[obj.id]['type'] = valid_props[0]
                 obj_dict[obj.id]['val'] = valid_props[1]
@@ -75,16 +78,50 @@ def get_valid_props(props_lists):
     ''' Extract only useful and valid props from props_lists
         return [type, value]
     '''
-    first_list = props_lists[0]
-    second_list = props_lists[1]
-    if first_list[1] == 'url' : 
-        typ = second_list[2]
-        val = first_list[2]
-    elif first_list[2] == 'article':
-        typ = first_list[2]
-        val = second_list[2]
-    else: 
-        return first_list[1:]
+
+    props_list = sum(props_lists, [])
+    print(props_list)
+    typ = ''
+    val = ''
+    for i, prop in enumerate(props_list, start=0):
+        if prop == 'type':
+            typ = props_list[i+1]
+            break
+    print(typ == 'person')
+    if typ == 'article' or 'reference' or 'government':
+        for i, prop in enumerate(props_list, start=0):
+            if prop == 'url':
+                val = props_list[i+1]
+                break
+    
+    if typ == 'person':
+        print('PERSON')
+        for i, prop in enumerate(props_list, start=0):
+            print(prop)
+            if prop == 'name':
+                val = props_list[i+1]
+                break
+    
+    else:
+        for i, prop in enumerate(props_list, start=0):
+            if prop == typ:
+                val = props_list[i+1]
+                break
+
+    # first_list = props_lists[0]
+    # second_list = props_lists[1]
+    # if first_list[1] == 'url' : 
+    #     typ = second_list[2]
+    #     val = first_list[2]
+    # elif first_list[2] == 'article':
+    #     typ = first_list[2]
+    #     val = second_list[2]
+    # elif first_list[2] == 'quote':
+    #     typ = second_list[1]
+    #     val = second_list[2]
+    # else: 
+    #     return first_list[1:]
+    print(typ + ' ' + val)
     return [typ, val]
     
 
