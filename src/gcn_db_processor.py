@@ -31,14 +31,7 @@ def process_db():
 
         for obj in b_objs:
             if not obj.id in obj_dict:
-                ''' This is not true. There are many rows with same id
-                '''
-                # print(pbj.strinng_properties())
                 valid_props = get_valid_props(obj.string_properties())
-                # valid_props = obj.string_properties()
-                #print('valid_props : ', str(valid_props)) 
-                #if valid_props[0] == 'date': 
-                #    print(obj.string_properties())
                 obj_dict[obj.id] = {}
                 obj_dict[obj.id]['type'] = valid_props[0]
                 obj_dict[obj.id]['val'] = valid_props[1]
@@ -54,7 +47,7 @@ def process_db():
             ent_adj_dict[r.other.id] = ent_adj_dict[r.other.id] + [r.base.id] if r.other.id in ent_adj_dict else [r.base.id]
 
         # type 11 = entity to agent, or activity to agent 'wasAttributedTo'
-        elif r.type == 11 and obj_dict[r.base.id]['type'] == 'url' :
+        elif r.type == 11 and obj_dict[r.base.id]['type'] == 'article' :
             agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]
         
         # type 9 = entity to quote, 'wasGeneratedBy'
@@ -68,7 +61,7 @@ def process_db():
     agn_adj_dict = {k_id: list(set(v_ids)) for (k_id, v_ids) in agn_adj_dict.items()}
     qot_adj_dict = {k_id: list(set(v_ids)) for (k_id, v_ids) in qot_adj_dict.items()}
     
-    print('DONE')
+    print('Processing db finished')
 
     db_connection.close()
 
@@ -78,50 +71,35 @@ def get_valid_props(props_lists):
     ''' Extract only useful and valid props from props_lists
         return [type, value]
     '''
-
     props_list = sum(props_lists, [])
-    print(props_list)
+    prefix = props_list[0]
     typ = ''
     val = ''
     for i, prop in enumerate(props_list, start=0):
         if prop == 'type':
             typ = props_list[i+1]
             break
-    print(typ == 'person')
-    if typ == 'article' or 'reference' or 'government':
+
+    if typ == 'article' or typ == 'reference' or typ == 'government':
         for i, prop in enumerate(props_list, start=0):
             if prop == 'url':
                 val = props_list[i+1]
                 break
-    
-    if typ == 'person':
-        print('PERSON')
+
+    elif typ == 'person':
         for i, prop in enumerate(props_list, start=0):
-            print(prop)
             if prop == 'name':
                 val = props_list[i+1]
                 break
-    
+
     else:
         for i, prop in enumerate(props_list, start=0):
             if prop == typ:
-                val = props_list[i+1]
-                break
+                tmp_val = props_list[i+1]
+                if tmp_val != prefix:
+                    val = tmp_val
+                    break
 
-    # first_list = props_lists[0]
-    # second_list = props_lists[1]
-    # if first_list[1] == 'url' : 
-    #     typ = second_list[2]
-    #     val = first_list[2]
-    # elif first_list[2] == 'article':
-    #     typ = first_list[2]
-    #     val = second_list[2]
-    # elif first_list[2] == 'quote':
-    #     typ = second_list[1]
-    #     val = second_list[2]
-    # else: 
-    #     return first_list[1:]
-    print(typ + ' ' + val)
     return [typ, val]
     
 

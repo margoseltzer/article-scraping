@@ -12,6 +12,9 @@ dirpath = os.path.dirname(os.path.realpath(__file__))
 dirpath = os.path.dirname(dirpath) + '/data/datasets/'
 
 def store_labeled_articles(f_list):
+    ''' From the file list, extract only url and label
+        return the saved file name
+    '''
     res = np.array([['url', 'label']])
     url_util = UrlUtils()
     saved_file_name = 'labeled_articles.csv'
@@ -30,8 +33,7 @@ def store_labeled_articles(f_list):
     return saved_file_name
 
 def get_article_dict(file_name):
-    '''
-    return article_url(str) to label(0 or 1) dictionary 
+    ''' return article_url(str) to label(0 or 1) dictionary 
     '''
     reader = csv.reader(open(dirpath + file_name, mode='r'))
     next(reader)
@@ -48,12 +50,13 @@ def call_python_version(Version, Module, Function, ArgumentList):
     return channel.receive()
 
 def link_articles(ent_adj_dict, dict_list):
-    ''' 
-    Links articles that are two hops away from each other by quote or agent
-    return new article_id to [article_ids] dictionary
+    ''' Links articles that are two hops away from each other by quote or agent
+        return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
+        track of which agents or quotes are attributed to articles
     '''
     res_dict = ent_adj_dict
-    for dic in dict_list: 
+    feature_dict = {}
+    for typ, dic in dict_list.items(): 
         for k_1, v_1 in dic.items():
             adj_entities = {i: 1 for i in v_1}
 
@@ -63,11 +66,11 @@ def link_articles(ent_adj_dict, dict_list):
                 for i in v_2:
                     if i in adj_entities:
                         res_dict[k_1] = res_dict[k_1] + [k_2] if k_1 in res_dict else [k_2]
-    return res_dict
+                        feature_dict[k_1] = feature_dict[k_1] + [k_2] if k_1 in feature_dict else [k_2]
+    return res_dict, feature_dict
 
 def get_ids_idx_dict(obj_dict):
-    '''
-    return obj_id to idx dictionary
+    ''' return obj_id to idx dictionary
     '''
     id_idx_dict = {}
     idx = 0
@@ -77,12 +80,10 @@ def get_ids_idx_dict(obj_dict):
     return id_idx_dict
 
 def convert_ids_to_idx(id_idx_dict, dicts_to_convert):
-    '''
-    Modify all the dictionaries' keys and values in place from article_id to index  
+    ''' Modify all the dictionaries' keys and values in place from article_id to index  
     '''
     def convert_value(v):
-        '''
-        Simply comvert a list of ids into a list of idx
+        ''' Simply comvert a list of ids into a list of idx
         '''
         if type(v) == list: 
             v = [id_idx_dict[i] for i in v]
@@ -98,6 +99,11 @@ def convert_ids_to_idx(id_idx_dict, dicts_to_convert):
         i += 1
     return res_dicts[0], res_dicts[1], res_dicts[2], res_dicts[3] 
 
+def get_y(obj_dict, article_label_dic):
+    for i, r in obj_dict.items():
+        if r['type'] == 'article':
+            y_i = article_label_dic[r['val']] if r['val'] in article_label_dic else -1
+            r['label'] = y_i
 
 # Paths for labeled data files from data dir
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
@@ -121,12 +127,20 @@ id_idx_dict = get_ids_idx_dict(obj_dict)
 dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict]
 obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(id_idx_dict, dicts_to_convert)
 
-# Process dict_list so articles connected via one hop are in their adj_lists each other 
-dict_list = [agn_adj_dict, qot_adj_dict]
-art_adj_dict = link_articles(ent_adj_dict, dict_list)
+# Process dict_list so articles connected via one hop are in their adj_lists each other
+dict_list = {'agent': agn_adj_dict, 'quote':qot_adj_dict}
+art_adj_dict, feature_dict = link_articles(ent_adj_dict, dict_list)
 
-print(art_adj_dict.keys())
-print(len(art_adj_dict.keys()))
-print(obj_dict)
-print(len(obj_dict))
+# Add label vector on obj_dict  
+get_y(obj_dict, article_label_dic)
+
+# print(feature_dict)
+# print(art_adj_dict.keys())
+# print(len(art_adj_dict.keys()))
+# print(obj_dict)
+# print(len(obj_dict))
+# print(article_label_dic)
 print('DONE')
+
+# TODO scrape more labeled articles
+# TODO need lists of articles, quotes, agents, governmnet and maps of articles and the rest
