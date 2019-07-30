@@ -9,6 +9,7 @@ import nltk
 from bs4 import BeautifulSoup
 from threading import Timer
 from urllib.parse import urlparse
+from boilerpipe.extract import Extractor
 from newspaper import Article
 from utils.stanford_NLP import StanfordNLP
 from utils.url_classifier.url_utils import UrlUtils
@@ -122,7 +123,8 @@ class NewsArticle(object):
 
     def find_quotes(self):
         print('find quotes')
-        self.q
+        print(self.text)
+        #self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         try:
             self.quotes = self.__sNLP.annotate(self.text)
@@ -217,6 +219,9 @@ class NewsArticle(object):
             article = Article(source_url, keep_article_html=True)
             article.build()
             article.nlp()
+            e = Extractor(extractor='DefaultExtractor', html=article.html)
+            article.text = e.getText()
+            article.article_html = e.getHTML()
 
             try:
                 # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
