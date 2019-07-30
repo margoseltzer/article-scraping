@@ -1,0 +1,97 @@
+{
+    "root": "http://www.nbcnews.com/politics/first-read/impeachment-talk-becomes-cynical-game-n168436", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "11982": {
+                "prov:usedEntity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:generatedEntity": "test:http://www.nbcnews.com/politics/first-read/impeachment-talk-becomes-cynical-game-n168436"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11978": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Kim Churches"
+            }, 
+            "11972": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Rochelle Broder-Singer"
+            }, 
+            "11970": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Renee Morad"
+            }, 
+            "11976": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Jennifer Folsom"
+            }, 
+            "11974": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Jean Chatzky"
+            }, 
+            "11964": {
+                "prov:entity": "test:http://www.nbcnews.com/politics/first-read/impeachment-talk-becomes-cynical-game-n168436", 
+                "prov:agent": "test:www.nbcnews.com"
+            }, 
+            "11966": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:www.nbcnews.com"
+            }, 
+            "11980": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Halley Bondy"
+            }, 
+            "11968": {
+                "prov:entity": "test:https://www.nbcnews.com/know-your-value", 
+                "prov:agent": "test:Brittany Loggins"
+            }
+        }, 
+        "agent": {
+            "test:Jean Chatzky": {
+                "test:name": "Jean Chatzky", 
+                "test:type": "person"
+            }, 
+            "test:Renee Morad": {
+                "test:name": "Renee Morad", 
+                "test:type": "person"
+            }, 
+            "test:Halley Bondy": {
+                "test:name": "Halley Bondy", 
+                "test:type": "person"
+            }, 
+            "test:Kim Churches": {
+                "test:name": "Kim Churches", 
+                "test:type": "person"
+            }, 
+            "test:Rochelle Broder-Singer": {
+                "test:name": "Rochelle Broder-Singer", 
+                "test:type": "person"
+            }, 
+            "test:www.nbcnews.com": {
+                "test:publisher": "www.nbcnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Jennifer Folsom": {
+                "test:name": "Jennifer Folsom", 
+                "test:type": "person"
+            }, 
+            "test:Brittany Loggins": {
+                "test:name": "Brittany Loggins", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.nbcnews.com/know-your-value": {
+                "test:url": "https://www.nbcnews.com/know-your-value", 
+                "test:date": "2019-07-05", 
+                "test:title": "Know Your Value: Mika Brzezinski empowering women at work and in life", 
+                "test:type": "article"
+            }, 
+            "test:http://www.nbcnews.com/politics/first-read/impeachment-talk-becomes-cynical-game-n168436": {
+                "test:url": "http://www.nbcnews.com/politics/first-read/impeachment-talk-becomes-cynical-game-n168436", 
+                "test:date": "2014-07-30", 
+                "test:title": "Impeachment Talk Becomes a Cynical Game", 
+                "test:type": "article"
+            }
+        }
+    }
+}

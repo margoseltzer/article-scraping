@@ -44,10 +44,10 @@ def process_db():
         # type 8 = entity to entity, 'wasDerivedFrom'
         if r.type == 8: 
             ent_adj_dict[r.base.id]  = ent_adj_dict[r.base.id] + [r.other.id] if r.base.id  in ent_adj_dict else [r.other.id]
-            ent_adj_dict[r.other.id] = ent_adj_dict[r.other.id] + [r.base.id] if r.other.id in ent_adj_dict else [r.base.id]
+                ent_adj_dict[r.other.id] = ent_adj_dict[r.other.id] + [r.base.id] if r.other.id in ent_adj_dict else [r.base.id]
 
         # type 11 = entity to agent, or activity to agent 'wasAttributedTo'
-        elif r.type == 11 and obj_dict[r.base.id]['type'] == 'article' :
+        elif r.type == 11 and obj_dict[r.base.id]['type'] == 'article':
             agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]
         
         # type 9 = entity to quote, 'wasGeneratedBy'

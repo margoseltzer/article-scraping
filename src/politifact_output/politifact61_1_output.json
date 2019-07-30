@@ -1,0 +1,143 @@
+{
+    "root": "http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "19011": {
+                "prov:usedEntity": "test:https://www.nytimes.com/newsletters", 
+                "prov:generatedEntity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11798": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:agent": "test:Michael Powell"
+            }, 
+            "11824": {
+                "prov:entity": "test:i want people on the bench who have enough empathy enough feeling for what ordinary people are going through", 
+                "prov:agent": "test:Obama"
+            }, 
+            "11820": {
+                "prov:entity": "test:you see the same people standing behind mccain that stood behind president bush", 
+                "prov:agent": "test:Janice Evans"
+            }, 
+            "11796": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "11804": {
+                "prov:entity": "test:if the chairman of the intelligence committee who voted against the war says ‘you should read this this is why i’m voting against the war’ you should probably read it", 
+                "prov:agent": "test:Obama"
+            }, 
+            "11816": {
+                "prov:entity": "test:i’m tired of the same old same old", 
+                "prov:agent": "test:Janice Evans"
+            }, 
+            "11808": {
+                "prov:entity": "test:there were a lot of senators who should have read it", 
+                "prov:agent": "test:Rockefeller"
+            }, 
+            "11812": {
+                "prov:entity": "test:he doesn’t flipflop he doesn’t attack he’s very calming and reassuring", 
+                "prov:agent": "test:Fleer"
+            }
+        }, 
+        "agent": {
+            "test:Rockefeller": {
+                "test:name": "Rockefeller", 
+                "test:type": "person"
+            }, 
+            "test:Janice Evans": {
+                "test:name": "Janice Evans", 
+                "test:type": "person"
+            }, 
+            "test:Fleer": {
+                "test:name": "Fleer", 
+                "test:type": "person"
+            }, 
+            "test:Obama": {
+                "test:name": "Obama", 
+                "test:type": "person"
+            }, 
+            "test:Michael Powell": {
+                "test:name": "Michael Powell", 
+                "test:type": "person"
+            }, 
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics": {
+                "test:url": "http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "test:date": "2008-03-03", 
+                "test:title": "Strong Words in Ohio as Obama and Clinton Press On", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/newsletters": {
+                "test:url": "https://www.nytimes.com/newsletters", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:you see the same people standing behind mccain that stood behind president bush": {
+                "test:quote": "you see the same people standing behind mccain that stood behind president bush", 
+                "test:type": "quote"
+            }, 
+            "test:i want people on the bench who have enough empathy enough feeling for what ordinary people are going through": {
+                "test:quote": "i want people on the bench who have enough empathy enough feeling for what ordinary people are going through", 
+                "test:type": "quote"
+            }, 
+            "test:i’m tired of the same old same old": {
+                "test:quote": "i’m tired of the same old same old", 
+                "test:type": "quote"
+            }, 
+            "test:he doesn’t flipflop he doesn’t attack he’s very calming and reassuring": {
+                "test:quote": "he doesn’t flipflop he doesn’t attack he’s very calming and reassuring", 
+                "test:type": "quote"
+            }, 
+            "test:if the chairman of the intelligence committee who voted against the war says ‘you should read this this is why i’m voting against the war’ you should probably read it": {
+                "test:quote": "if the chairman of the intelligence committee who voted against the war says ‘you should read this this is why i’m voting against the war’ you should probably read it", 
+                "test:type": "quote"
+            }, 
+            "test:you should read this this is why i’m voting against the war": {
+                "test:quote": "you should read this this is why i’m voting against the war", 
+                "test:type": "quote"
+            }, 
+            "test:there were a lot of senators who should have read it": {
+                "test:quote": "there were a lot of senators who should have read it", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "11802": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:if the chairman of the intelligence committee who voted against the war says ‘you should read this this is why i’m voting against the war’ you should probably read it"
+            }, 
+            "11800": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:you should read this this is why i’m voting against the war"
+            }, 
+            "11806": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:there were a lot of senators who should have read it"
+            }, 
+            "11822": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:i want people on the bench who have enough empathy enough feeling for what ordinary people are going through"
+            }, 
+            "11814": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:i’m tired of the same old same old"
+            }, 
+            "11810": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:he doesn’t flipflop he doesn’t attack he’s very calming and reassuring"
+            }, 
+            "11818": {
+                "prov:entity": "test:http://www.nytimes.com/2008/03/03/us/politics/03campaign.html?ref=politics", 
+                "prov:activity": "test:you see the same people standing behind mccain that stood behind president bush"
+            }
+        }
+    }
+}

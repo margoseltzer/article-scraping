@@ -1,0 +1,25 @@
+{
+    "root": "http://www.cq.com/doc/newsmakertranscripts-4942265?3", 
+    "bundle": {
+        "wasAttributedTo": {
+            "16381": {
+                "prov:entity": "test:http://www.cq.com/doc/newsmakertranscripts-4942265?3", 
+                "prov:agent": "test:www.cq.com"
+            }
+        }, 
+        "agent": {
+            "test:www.cq.com": {
+                "test:publisher": "www.cq.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:http://www.cq.com/doc/newsmakertranscripts-4942265?3": {
+                "test:url": "http://www.cq.com/doc/newsmakertranscripts-4942265?3", 
+                "test:date": "", 
+                "test:title": "CQ.com", 
+                "test:type": "article"
+            }
+        }
+    }
+}

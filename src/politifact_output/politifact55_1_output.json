@@ -1,0 +1,453 @@
+{
+    "root": "http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "18844": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=4NC8JmyqSQI", 
+                "prov:generatedEntity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/"
+            }, 
+            "11078": {
+                "prov:usedEntity": "test:https://twitter.com/politico", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434"
+            }, 
+            "11080": {
+                "prov:usedEntity": "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434"
+            }, 
+            "11076": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:generatedEntity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/"
+            }, 
+            "18846": {
+                "prov:usedEntity": "test:https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=113&session=1&vote=00069", 
+                "prov:generatedEntity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11008": {
+                "prov:entity": "test:this was a budget so it doesn’t make rubio wrong but it undermines his larger point", 
+                "prov:agent": "test:Friedman"
+            }, 
+            "11050": {
+                "prov:entity": "test:the freedom caucus is not going to go to iraq", 
+                "prov:agent": "test:Lindsey Graham"
+            }, 
+            "11054": {
+                "prov:entity": "test:somebody else is going to go to iraq and fight isil — not the freedom caucus", 
+                "prov:agent": "test:Lindsey Graham"
+            }, 
+            "11038": {
+                "prov:entity": "test:i think it was a very very important vote to see the contrast of the two different approaches", 
+                "prov:agent": "test:Paul"
+            }, 
+            "11058": {
+                "prov:entity": "test:and when they go i hope they are welltrained and wellequipped", 
+                "prov:agent": "test:Lindsey Graham"
+            }, 
+            "11066": {
+                "prov:entity": "test:and it shows that there is not a great deal of courage out there among people", 
+                "prov:agent": "test:Paul"
+            }, 
+            "10972": {
+                "prov:entity": "test:but the only budget hes ever voted for in his time in the senate is a budget that cut defense spending by more than barack obama proposes we cut it", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "11018": {
+                "prov:entity": "test:i think there are a great deal of problems for people who want to argue that they are fiscal conservatives and yet would simply borrow hundreds of billions of dollars for defense", 
+                "prov:agent": "test:Paul"
+            }, 
+            "10976": {
+                "prov:entity": "test:this budget proposal does not simply reduce military spending but provides directives to realign the military for the 21st century", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "10996": {
+                "prov:entity": "test:as is typical in washingtonspeak a lessthanexpected increase is often cast as a cut", 
+                "prov:agent": "test:Harrison"
+            }, 
+            "11070": {
+                "prov:entity": "test:they want to keep borrowing it", 
+                "prov:agent": "test:Paul"
+            }, 
+            "10992": {
+                "prov:entity": "test:but paul’s defense budget was less than what other republicans were proposing and what the president was proposing so in that sense it was a cut", 
+                "prov:agent": "test:Todd Harrison"
+            }, 
+            "11012": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "11030": {
+                "prov:entity": "test:i think it was irresponsible and dangerous … and an inconsistent theme for anybody who wants to say that they are concerned about the debt", 
+                "prov:agent": "test:Paul"
+            }, 
+            "11022": {
+                "prov:entity": "test:i think it is irresponsible and dangerous to the country to borrow so much money to add into defense", 
+                "prov:agent": "test:Paul"
+            }, 
+            "11026": {
+                "prov:entity": "test:i think it is critical that we allocate the resources that are necessary to provide for our national security functions", 
+                "prov:agent": "test:Ted Cruz"
+            }, 
+            "11034": {
+                "prov:entity": "test:i think it shows a lack of concern about the debt", 
+                "prov:agent": "test:Paul"
+            }, 
+            "11046": {
+                "prov:entity": "test:it is the one thing that only the federal government can do and it is the first thing that it is tasked with doing", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "11000": {
+                "prov:entity": "test:so it sounds like rubio is engaging in the timehonored washington cartel tactic of budget gimmickry and is suggesting that a reduction in the rate of increase is equal to a ‘cut’ when in fact the obama and paul budgets spend more on defense every year", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "11042": {
+                "prov:entity": "test:the national security of our country is the predominant obligation of the federal branch of government", 
+                "prov:agent": "test:Rubio"
+            }, 
+            "11074": {
+                "prov:entity": "test:and that is a great danger for our country", 
+                "prov:agent": "test:Paul"
+            }, 
+            "10964": {
+                "prov:entity": "test:he talks tough on some of these issues", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "10988": {
+                "prov:entity": "test:paul’s defense budget was above the budget caps set in the budget control act so in that respect it was an increase and the president’s budget was an even larger increase", 
+                "prov:agent": "test:Todd Harrison"
+            }, 
+            "10960": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:agent": "test:www.politifact.com"
+            }, 
+            "10984": {
+                "prov:entity": "test:we take the budget document at its word that it cuts defense spending and seeks to reduce the size and scope of the military", 
+                "prov:agent": "test:Joe Pounder"
+            }, 
+            "11004": {
+                "prov:entity": "test:the fact is in supporting the paul budget cruz did not support a cut in defense spending but a more responsible rate of increase", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "10980": {
+                "prov:entity": "test:it seeks to reduce the size and scope of the military complex including its global footprint to one that is more in line with a policy of containment", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "10968": {
+                "prov:entity": "test:for example he was going to ‘carpet bomb’ isis", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "11014": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:agent": "test:Manu Raju"
+            }, 
+            "11062": {
+                "prov:entity": "test:i think if you want to add money to defense the difficult vote is mine", 
+                "prov:agent": "test:Paul"
+            }
+        }, 
+        "agent": {
+            "test:Paul": {
+                "test:name": "Paul", 
+                "test:type": "person"
+            }, 
+            "test:Rand Paul": {
+                "test:name": "Rand Paul", 
+                "test:type": "person"
+            }, 
+            "test:Lindsey Graham": {
+                "test:name": "Lindsey Graham", 
+                "test:type": "person"
+            }, 
+            "test:www.politico.com": {
+                "test:publisher": "www.politico.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Barack Obama": {
+                "test:name": "Barack Obama", 
+                "test:type": "person"
+            }, 
+            "test:Ted Cruz": {
+                "test:name": "Ted Cruz", 
+                "test:type": "person"
+            }, 
+            "test:Harrison": {
+                "test:name": "Harrison", 
+                "test:type": "person"
+            }, 
+            "test:Joe Pounder": {
+                "test:name": "Joe Pounder", 
+                "test:type": "person"
+            }, 
+            "test:www.politifact.com": {
+                "test:publisher": "www.politifact.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Manu Raju": {
+                "test:name": "Manu Raju", 
+                "test:type": "person"
+            }, 
+            "test:Rubio": {
+                "test:name": "Rubio", 
+                "test:type": "person"
+            }, 
+            "test:Friedman": {
+                "test:name": "Friedman", 
+                "test:type": "person"
+            }, 
+            "test:Todd Harrison": {
+                "test:name": "Todd Harrison", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://twitter.com/politico": {
+                "test:url": "https://twitter.com/politico", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434": {
+                "test:url": "https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "test:date": "2015-03-26", 
+                "test:title": "2016 brawl breaks out on Senate floor", 
+                "test:type": "article"
+            }, 
+            "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/": {
+                "test:url": "http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "test:date": "2015-12-22", 
+                "test:title": "Marco Rubio says Ted Cruz voted for defense cuts in Rand Paul's budget proposal", 
+                "test:type": "article"
+            }, 
+            "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook": {
+                "test:url": "https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=113&session=1&vote=00069": {
+                "test:url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=113&session=1&vote=00069", 
+                "test:type": "government"
+            }, 
+            "test:https://www.youtube.com/watch?v=4NC8JmyqSQI": {
+                "test:url": "https://www.youtube.com/watch?v=4NC8JmyqSQI", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:paul’s defense budget was above the budget caps set in the budget control act so in that respect it was an increase and the president’s budget was an even larger increase": {
+                "test:quote": "paul’s defense budget was above the budget caps set in the budget control act so in that respect it was an increase and the president’s budget was an even larger increase", 
+                "test:type": "quote"
+            }, 
+            "test:so it sounds like rubio is engaging in the timehonored washington cartel tactic of budget gimmickry and is suggesting that a reduction in the rate of increase is equal to a ‘cut’ when in fact the obama and paul budgets spend more on defense every year": {
+                "test:quote": "so it sounds like rubio is engaging in the timehonored washington cartel tactic of budget gimmickry and is suggesting that a reduction in the rate of increase is equal to a ‘cut’ when in fact the obama and paul budgets spend more on defense every year", 
+                "test:type": "quote"
+            }, 
+            "test:somebody else is going to go to iraq and fight isil — not the freedom caucus": {
+                "test:quote": "somebody else is going to go to iraq and fight isil — not the freedom caucus", 
+                "test:type": "quote"
+            }, 
+            "test:i think it was a very very important vote to see the contrast of the two different approaches": {
+                "test:quote": "i think it was a very very important vote to see the contrast of the two different approaches", 
+                "test:type": "quote"
+            }, 
+            "test:i think if you want to add money to defense the difficult vote is mine": {
+                "test:quote": "i think if you want to add money to defense the difficult vote is mine", 
+                "test:type": "quote"
+            }, 
+            "test:for example he was going to ‘carpet bomb’ isis": {
+                "test:quote": "for example he was going to ‘carpet bomb’ isis", 
+                "test:type": "quote"
+            }, 
+            "test:and it shows that there is not a great deal of courage out there among people": {
+                "test:quote": "and it shows that there is not a great deal of courage out there among people", 
+                "test:type": "quote"
+            }, 
+            "test:it is the one thing that only the federal government can do and it is the first thing that it is tasked with doing": {
+                "test:quote": "it is the one thing that only the federal government can do and it is the first thing that it is tasked with doing", 
+                "test:type": "quote"
+            }, 
+            "test:the fact is in supporting the paul budget cruz did not support a cut in defense spending but a more responsible rate of increase": {
+                "test:quote": "the fact is in supporting the paul budget cruz did not support a cut in defense spending but a more responsible rate of increase", 
+                "test:type": "quote"
+            }, 
+            "test:the freedom caucus is not going to go to iraq": {
+                "test:quote": "the freedom caucus is not going to go to iraq", 
+                "test:type": "quote"
+            }, 
+            "test:they want to keep borrowing it": {
+                "test:quote": "they want to keep borrowing it", 
+                "test:type": "quote"
+            }, 
+            "test:i think it is irresponsible and dangerous to the country to borrow so much money to add into defense": {
+                "test:quote": "i think it is irresponsible and dangerous to the country to borrow so much money to add into defense", 
+                "test:type": "quote"
+            }, 
+            "test:and when they go i hope they are welltrained and wellequipped": {
+                "test:quote": "and when they go i hope they are welltrained and wellequipped", 
+                "test:type": "quote"
+            }, 
+            "test:i think it was irresponsible and dangerous … and an inconsistent theme for anybody who wants to say that they are concerned about the debt": {
+                "test:quote": "i think it was irresponsible and dangerous … and an inconsistent theme for anybody who wants to say that they are concerned about the debt", 
+                "test:type": "quote"
+            }, 
+            "test:but the only budget hes ever voted for in his time in the senate is a budget that cut defense spending by more than barack obama proposes we cut it": {
+                "test:quote": "but the only budget hes ever voted for in his time in the senate is a budget that cut defense spending by more than barack obama proposes we cut it", 
+                "test:type": "quote"
+            }, 
+            "test:but paul’s defense budget was less than what other republicans were proposing and what the president was proposing so in that sense it was a cut": {
+                "test:quote": "but paul’s defense budget was less than what other republicans were proposing and what the president was proposing so in that sense it was a cut", 
+                "test:type": "quote"
+            }, 
+            "test:i think it shows a lack of concern about the debt": {
+                "test:quote": "i think it shows a lack of concern about the debt", 
+                "test:type": "quote"
+            }, 
+            "test:this was a budget so it doesn’t make rubio wrong but it undermines his larger point": {
+                "test:quote": "this was a budget so it doesn’t make rubio wrong but it undermines his larger point", 
+                "test:type": "quote"
+            }, 
+            "test:i think it is critical that we allocate the resources that are necessary to provide for our national security functions": {
+                "test:quote": "i think it is critical that we allocate the resources that are necessary to provide for our national security functions", 
+                "test:type": "quote"
+            }, 
+            "test:and that is a great danger for our country": {
+                "test:quote": "and that is a great danger for our country", 
+                "test:type": "quote"
+            }, 
+            "test:it seeks to reduce the size and scope of the military complex including its global footprint to one that is more in line with a policy of containment": {
+                "test:quote": "it seeks to reduce the size and scope of the military complex including its global footprint to one that is more in line with a policy of containment", 
+                "test:type": "quote"
+            }, 
+            "test:he talks tough on some of these issues": {
+                "test:quote": "he talks tough on some of these issues", 
+                "test:type": "quote"
+            }, 
+            "test:the national security of our country is the predominant obligation of the federal branch of government": {
+                "test:quote": "the national security of our country is the predominant obligation of the federal branch of government", 
+                "test:type": "quote"
+            }, 
+            "test:this budget proposal does not simply reduce military spending but provides directives to realign the military for the 21st century": {
+                "test:quote": "this budget proposal does not simply reduce military spending but provides directives to realign the military for the 21st century", 
+                "test:type": "quote"
+            }, 
+            "test:i think there are a great deal of problems for people who want to argue that they are fiscal conservatives and yet would simply borrow hundreds of billions of dollars for defense": {
+                "test:quote": "i think there are a great deal of problems for people who want to argue that they are fiscal conservatives and yet would simply borrow hundreds of billions of dollars for defense", 
+                "test:type": "quote"
+            }, 
+            "test:we take the budget document at its word that it cuts defense spending and seeks to reduce the size and scope of the military": {
+                "test:quote": "we take the budget document at its word that it cuts defense spending and seeks to reduce the size and scope of the military", 
+                "test:type": "quote"
+            }, 
+            "test:as is typical in washingtonspeak a lessthanexpected increase is often cast as a cut": {
+                "test:quote": "as is typical in washingtonspeak a lessthanexpected increase is often cast as a cut", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "11024": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think it is critical that we allocate the resources that are necessary to provide for our national security functions"
+            }, 
+            "11064": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:and it shows that there is not a great deal of courage out there among people"
+            }, 
+            "11052": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:somebody else is going to go to iraq and fight isil — not the freedom caucus"
+            }, 
+            "11056": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:and when they go i hope they are welltrained and wellequipped"
+            }, 
+            "10970": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:but the only budget hes ever voted for in his time in the senate is a budget that cut defense spending by more than barack obama proposes we cut it"
+            }, 
+            "11006": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:this was a budget so it doesn’t make rubio wrong but it undermines his larger point"
+            }, 
+            "10974": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:this budget proposal does not simply reduce military spending but provides directives to realign the military for the 21st century"
+            }, 
+            "10998": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:so it sounds like rubio is engaging in the timehonored washington cartel tactic of budget gimmickry and is suggesting that a reduction in the rate of increase is equal to a ‘cut’ when in fact the obama and paul budgets spend more on defense every year"
+            }, 
+            "10978": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:it seeks to reduce the size and scope of the military complex including its global footprint to one that is more in line with a policy of containment"
+            }, 
+            "10994": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:as is typical in washingtonspeak a lessthanexpected increase is often cast as a cut"
+            }, 
+            "10990": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:but paul’s defense budget was less than what other republicans were proposing and what the president was proposing so in that sense it was a cut"
+            }, 
+            "11048": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:the freedom caucus is not going to go to iraq"
+            }, 
+            "11036": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think it was a very very important vote to see the contrast of the two different approaches"
+            }, 
+            "11002": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:the fact is in supporting the paul budget cruz did not support a cut in defense spending but a more responsible rate of increase"
+            }, 
+            "11068": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:they want to keep borrowing it"
+            }, 
+            "11044": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:it is the one thing that only the federal government can do and it is the first thing that it is tasked with doing"
+            }, 
+            "11040": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:the national security of our country is the predominant obligation of the federal branch of government"
+            }, 
+            "11032": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think it shows a lack of concern about the debt"
+            }, 
+            "11020": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think it is irresponsible and dangerous to the country to borrow so much money to add into defense"
+            }, 
+            "10966": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:for example he was going to ‘carpet bomb’ isis"
+            }, 
+            "10962": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:he talks tough on some of these issues"
+            }, 
+            "11060": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think if you want to add money to defense the difficult vote is mine"
+            }, 
+            "10986": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:paul’s defense budget was above the budget caps set in the budget control act so in that respect it was an increase and the president’s budget was an even larger increase"
+            }, 
+            "11028": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think it was irresponsible and dangerous … and an inconsistent theme for anybody who wants to say that they are concerned about the debt"
+            }, 
+            "10982": {
+                "prov:entity": "test:http://www.politifact.com/florida/statements/2015/dec/22/marco-rubio/marco-rubio-says-ted-cruz-voted-defense-cuts-rand-/", 
+                "prov:activity": "test:we take the budget document at its word that it cuts defense spending and seeks to reduce the size and scope of the military"
+            }, 
+            "11072": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:and that is a great danger for our country"
+            }, 
+            "11016": {
+                "prov:entity": "test:https://www.politico.com/story/2015/03/ted-cruz-marco-rubio-rand-paul-senate-pentagon-budget-116434", 
+                "prov:activity": "test:i think there are a great deal of problems for people who want to argue that they are fiscal conservatives and yet would simply borrow hundreds of billions of dollars for defense"
+            }
+        }
+    }
+}

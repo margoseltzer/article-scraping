@@ -1,0 +1,35 @@
+{
+    "root": "http://www.nytimes.com/2008/06/03/us/politics/03text-obama.html?_r=1&oref=slogin", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "18747": {
+                "prov:usedEntity": "test:https://www.nytimes.com/newsletters", 
+                "prov:generatedEntity": "test:http://www.nytimes.com/2008/06/03/us/politics/03text-obama.html?_r=1&oref=slogin"
+            }
+        }, 
+        "wasAttributedTo": {
+            "16379": {
+                "prov:entity": "test:http://www.nytimes.com/2008/06/03/us/politics/03text-obama.html?_r=1&oref=slogin", 
+                "prov:agent": "test:www.nytimes.com"
+            }
+        }, 
+        "agent": {
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.nytimes.com/newsletters": {
+                "test:url": "https://www.nytimes.com/newsletters", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.nytimes.com/2008/06/03/us/politics/03text-obama.html?_r=1&oref=slogin": {
+                "test:url": "http://www.nytimes.com/2008/06/03/us/politics/03text-obama.html?_r=1&oref=slogin", 
+                "test:date": "2008-06-03", 
+                "test:title": "Barack Obama’s Remarks in St. Paul", 
+                "test:type": "article"
+            }
+        }
+    }
+}

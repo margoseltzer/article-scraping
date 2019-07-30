@@ -1,0 +1,43 @@
+{
+    "root": "https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "16345": {
+                "prov:usedEntity": "test:https://web.archive.org/web/20080920060207/http://www.sciam.com/topic.cfm?id=global-warming-and-climate-change", 
+                "prov:generatedEntity": "test:https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan"
+            }, 
+            "16347": {
+                "prov:usedEntity": "test:https://web.archive.org/web/20080711093952/http://www.sciamdigital.com/", 
+                "prov:generatedEntity": "test:https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan"
+            }
+        }, 
+        "wasAttributedTo": {
+            "16343": {
+                "prov:entity": "test:https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan", 
+                "prov:agent": "test:web.archive.org"
+            }
+        }, 
+        "agent": {
+            "test:web.archive.org": {
+                "test:publisher": "web.archive.org", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://web.archive.org/web/20080711093952/http://www.sciamdigital.com/": {
+                "test:url": "https://web.archive.org/web/20080711093952/http://www.sciamdigital.com/", 
+                "test:type": "reference"
+            }, 
+            "test:https://web.archive.org/web/20080920060207/http://www.sciam.com/topic.cfm?id=global-warming-and-climate-change": {
+                "test:url": "https://web.archive.org/web/20080920060207/http://www.sciam.com/topic.cfm?id=global-warming-and-climate-change", 
+                "test:type": "reference"
+            }, 
+            "test:https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan": {
+                "test:url": "https://web.archive.org/web/20080623122709/http://www.sciam.com/article.cfm?id=a-solar-grand-plan", 
+                "test:date": "", 
+                "test:title": "A Solar Grand Plan: Scientific American", 
+                "test:type": "article"
+            }
+        }
+    }
+}

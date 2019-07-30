@@ -1,0 +1,25 @@
+{
+    "root": "https://www.youtube.com/watch?v=AtJWEAj1vZM", 
+    "bundle": {
+        "wasAttributedTo": {
+            "11794": {
+                "prov:entity": "test:https://www.youtube.com/watch?v=AtJWEAj1vZM", 
+                "prov:agent": "test:www.youtube.com"
+            }
+        }, 
+        "agent": {
+            "test:www.youtube.com": {
+                "test:publisher": "www.youtube.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.youtube.com/watch?v=AtJWEAj1vZM": {
+                "test:url": "https://www.youtube.com/watch?v=AtJWEAj1vZM", 
+                "test:date": "2014-08-05", 
+                "test:title": "Rand Paul Campaigns in Iowa for Miller-Meeks", 
+                "test:type": "article"
+            }
+        }
+    }
+}

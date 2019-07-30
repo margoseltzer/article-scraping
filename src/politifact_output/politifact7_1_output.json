@@ -1,0 +1,35 @@
+{
+    "root": "https://www.law.cornell.edu/constitution/amendmentxxv", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "16592": {
+                "prov:usedEntity": "test:https://www.law.cornell.edu/constitution-conan/amendment-25", 
+                "prov:generatedEntity": "test:https://www.law.cornell.edu/constitution/amendmentxxv"
+            }
+        }, 
+        "wasAttributedTo": {
+            "12988": {
+                "prov:entity": "test:https://www.law.cornell.edu/constitution/amendmentxxv", 
+                "prov:agent": "test:www.law.cornell.edu"
+            }
+        }, 
+        "agent": {
+            "test:www.law.cornell.edu": {
+                "test:publisher": "www.law.cornell.edu", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.law.cornell.edu/constitution-conan/amendment-25": {
+                "test:url": "https://www.law.cornell.edu/constitution-conan/amendment-25", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.law.cornell.edu/constitution/amendmentxxv": {
+                "test:url": "https://www.law.cornell.edu/constitution/amendmentxxv", 
+                "test:date": "", 
+                "test:title": "25th Amendment", 
+                "test:type": "article"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "root": "http://www.kff.org/healthreform/upload/8061.pdf", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "16481": {
+                "prov:usedEntity": "test:https://www.kff.org/interactive/proposals-to-replace-the-affordable-care-act/", 
+                "prov:generatedEntity": "test:http://www.kff.org/healthreform/upload/8061.pdf"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11870": {
+                "prov:entity": "test:http://www.kff.org/healthreform/upload/8061.pdf", 
+                "prov:agent": "test:www.kff.org"
+            }
+        }, 
+        "agent": {
+            "test:www.kff.org": {
+                "test:publisher": "www.kff.org", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.kff.org/interactive/proposals-to-replace-the-affordable-care-act/": {
+                "test:url": "https://www.kff.org/interactive/proposals-to-replace-the-affordable-care-act/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.kff.org/healthreform/upload/8061.pdf": {
+                "test:url": "http://www.kff.org/healthreform/upload/8061.pdf", 
+                "test:date": "2013-04-25", 
+                "test:title": "Summary of the Affordable Care Act", 
+                "test:type": "article"
+            }
+        }
+    }
+}

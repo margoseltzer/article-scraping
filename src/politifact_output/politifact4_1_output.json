@@ -1,0 +1,25 @@
+{
+    "root": "https://web.archive.org/web/20110811143753/http://www.dems.gov/press/democratic-leaders-say-house-democrats-are-united-against-gop-default-act", 
+    "bundle": {
+        "wasAttributedTo": {
+            "13156": {
+                "prov:entity": "test:https://web.archive.org/web/20110811143753/http://www.dems.gov/press/democratic-leaders-say-house-democrats-are-united-against-gop-default-act", 
+                "prov:agent": "test:web.archive.org"
+            }
+        }, 
+        "agent": {
+            "test:web.archive.org": {
+                "test:publisher": "web.archive.org", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://web.archive.org/web/20110811143753/http://www.dems.gov/press/democratic-leaders-say-house-democrats-are-united-against-gop-default-act": {
+                "test:url": "https://web.archive.org/web/20110811143753/http://www.dems.gov/press/democratic-leaders-say-house-democrats-are-united-against-gop-default-act", 
+                "test:date": "", 
+                "test:title": "Democratic Leaders Say House Democrats Are United Against GOP Default Act", 
+                "test:type": "article"
+            }
+        }
+    }
+}

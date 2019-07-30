@@ -1,0 +1,25 @@
+{
+    "root": "http://www.cdc.gov/flu/protect/habits.htm?s_cid=swineFlu_outbreak_003", 
+    "bundle": {
+        "wasAttributedTo": {
+            "13158": {
+                "prov:entity": "test:http://www.cdc.gov/flu/protect/habits.htm?s_cid=swineFlu_outbreak_003", 
+                "prov:agent": "test:www.cdc.gov"
+            }
+        }, 
+        "agent": {
+            "test:www.cdc.gov": {
+                "test:publisher": "www.cdc.gov", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:http://www.cdc.gov/flu/protect/habits.htm?s_cid=swineFlu_outbreak_003": {
+                "test:url": "http://www.cdc.gov/flu/protect/habits.htm?s_cid=swineFlu_outbreak_003", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }
+        }
+    }
+}

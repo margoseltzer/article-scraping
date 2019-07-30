@@ -1,0 +1,331 @@
+{
+    "root": "https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "14343": {
+                "prov:usedEntity": "test:https://web.archive.org/web/20080512005444/http://pol.moveon.org/mccaintruth/", 
+                "prov:generatedEntity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "16201": {
+                "prov:entity": "test:buchanan john mccain will make cheney look like gandhi", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "16556": {
+                "prov:entity": "test:yet mccain says the solution to the housing crisis is for people facing foreclosure to get a second job", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "16564": {
+                "prov:entity": "test:7 mccain talks a lot about taking on special interests but his campaign manager and top advisers are actually lobbyists", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14305": {
+                "prov:entity": "test:please help get the word out—forward this email to your personal network", 
+                "prov:agent": "test:John Hagee"
+            }, 
+            "14301": {
+                "prov:entity": "test:the pastor mccain calls his spiritual guide", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14273": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:agent": "test:web.archive.org"
+            }, 
+            "16548": {
+                "prov:entity": "test:4 the childrens defense fund rated mccain as the worst senator in congress for children", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14293": {
+                "prov:entity": "test:he loses his temper and he worries me", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14281": {
+                "prov:entity": "test:he voted against the childrens health care bill last year then defended bushs veto of the bill5 hes one of the richest people in a senate filled with millionaires", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14277": {
+                "prov:entity": "test:he said i do not support roe versus wade", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14297": {
+                "prov:entity": "test:the government watchdog group public citizen says mccain has 59 lobbyists raising money for his campaign more than any of the other presidential candidates8 mccain has sought closer ties to the extreme religious right in recent years", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14285": {
+                "prov:entity": "test:the associated press reports he and his wife own at least eight homes", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "16542": {
+                "prov:entity": "test:2 his reputation is built on his opposition to torture but mccain voted against a bill to ban waterboarding and then applauded president bush for vetoing that ban3\n\nmccain opposes a womans right to choose", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14309": {
+                "prov:entity": "test:and if you want us to keep you posted on moveons work to get the truth out about john mccain sign up here\n\nhttppolmoveonorgmccaintruth\n\nsources\n\n1", 
+                "prov:agent": "test:John Hagee"
+            }, 
+            "14289": {
+                "prov:entity": "test:the thought of his being president sends a cold chill down my spine", 
+                "prov:agent": "test:John McCain"
+            }, 
+            "14313": {
+                "prov:entity": "test:the complicated history of john mccain and mlk day", 
+                "prov:agent": "test:John Hagee"
+            }
+        }, 
+        "agent": {
+            "test:John Hagee": {
+                "test:name": "John Hagee", 
+                "test:type": "person"
+            }, 
+            "test:web.archive.org": {
+                "test:publisher": "web.archive.org", 
+                "test:type": "publisher"
+            }, 
+            "test:John McCain": {
+                "test:name": "John McCain", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://web.archive.org/web/20080512005444/http://pol.moveon.org/mccaintruth/": {
+                "test:url": "https://web.archive.org/web/20080512005444/http://pol.moveon.org/mccaintruth/", 
+                "test:type": "reference"
+            }, 
+            "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html": {
+                "test:url": "https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "test:date": "", 
+                "test:title": "MoveOn.org Political Action: 10 things to know about McCain", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:mccain bush right to veto kids health insurance expansion": {
+                "test:quote": "mccain bush right to veto kids health insurance expansion", 
+                "test:type": "quote"
+            }, 
+            "test:buchanan john mccain will make cheney look like gandhi": {
+                "test:quote": "buchanan john mccain will make cheney look like gandhi", 
+                "test:type": "quote"
+            }, 
+            "test:the complicated history of john mccain and mlk day": {
+                "test:quote": "the complicated history of john mccain and mlk day", 
+                "test:type": "quote"
+            }, 
+            "test:and if you want us to keep you posted on moveons work to get the truth out about john mccain sign up here\n\nhttppolmoveonorgmccaintruth\n\nsources\n\n1": {
+                "test:quote": "and if you want us to keep you posted on moveons work to get the truth out about john mccain sign up here\n\nhttppolmoveonorgmccaintruth\n\nsources\n\n1", 
+                "test:type": "quote"
+            }, 
+            "test:mccain says roe v wade should be overturned": {
+                "test:quote": "mccain says roe v wade should be overturned", 
+                "test:type": "quote"
+            }, 
+            "test:7 mccain talks a lot about taking on special interests but his campaign manager and top advisers are actually lobbyists": {
+                "test:quote": "7 mccain talks a lot about taking on special interests but his campaign manager and top advisers are actually lobbyists", 
+                "test:type": "quote"
+            }, 
+            "test:he voted against the childrens health care bill last year then defended bushs veto of the bill5 hes one of the richest people in a senate filled with millionaires": {
+                "test:quote": "he voted against the childrens health care bill last year then defended bushs veto of the bill5 hes one of the richest people in a senate filled with millionaires", 
+                "test:type": "quote"
+            }, 
+            "test:will mccain specifically repudiate hagees antigay comments": {
+                "test:quote": "will mccain specifically repudiate hagees antigay comments", 
+                "test:type": "quote"
+            }, 
+            "test:4 the childrens defense fund rated mccain as the worst senator in congress for children": {
+                "test:quote": "4 the childrens defense fund rated mccain as the worst senator in congress for children", 
+                "test:type": "quote"
+            }, 
+            "test:mccains spiritual guide destroy islam": {
+                "test:quote": "mccains spiritual guide destroy islam", 
+                "test:type": "quote"
+            }, 
+            "test:john mccain gets a zero rating for his environmental record": {
+                "test:quote": "john mccain gets a zero rating for his environmental record", 
+                "test:type": "quote"
+            }, 
+            "test:mccain says bank bailout should end systemic risk": {
+                "test:quote": "mccain says bank bailout should end systemic risk", 
+                "test:type": "quote"
+            }, 
+            "test:he loses his temper and he worries me": {
+                "test:quote": "he loses his temper and he worries me", 
+                "test:type": "quote"
+            }, 
+            "test:2 his reputation is built on his opposition to torture but mccain voted against a bill to ban waterboarding and then applauded president bush for vetoing that ban3\n\nmccain opposes a womans right to choose": {
+                "test:quote": "2 his reputation is built on his opposition to torture but mccain voted against a bill to ban waterboarding and then applauded president bush for vetoing that ban3\n\nmccain opposes a womans right to choose", 
+                "test:type": "quote"
+            }, 
+            "test:mccain more hawkish than bush on russia china iraq": {
+                "test:quote": "mccain more hawkish than bush on russia china iraq", 
+                "test:type": "quote"
+            }, 
+            "test:the associated press reports he and his wife own at least eight homes": {
+                "test:quote": "the associated press reports he and his wife own at least eight homes", 
+                "test:type": "quote"
+            }, 
+            "test:the government watchdog group public citizen says mccain has 59 lobbyists raising money for his campaign more than any of the other presidential candidates8 mccain has sought closer ties to the extreme religious right in recent years": {
+                "test:quote": "the government watchdog group public citizen says mccain has 59 lobbyists raising money for his campaign more than any of the other presidential candidates8 mccain has sought closer ties to the extreme religious right in recent years", 
+                "test:type": "quote"
+            }, 
+            "test:beer executive could be next first lady": {
+                "test:quote": "beer executive could be next first lady", 
+                "test:type": "quote"
+            }, 
+            "test:please help get the word out—forward this email to your personal network": {
+                "test:quote": "please help get the word out—forward this email to your personal network", 
+                "test:type": "quote"
+            }, 
+            "test:mccain very honored by support of pastor preaching endtime confrontation with iran": {
+                "test:quote": "mccain very honored by support of pastor preaching endtime confrontation with iran", 
+                "test:type": "quote"
+            }, 
+            "test:the pastor mccain calls his spiritual guide": {
+                "test:quote": "the pastor mccain calls his spiritual guide", 
+                "test:type": "quote"
+            }, 
+            "test:black claims mccains campaign is above lobbyist influence i dont know what the criticism is": {
+                "test:quote": "black claims mccains campaign is above lobbyist influence i dont know what the criticism is", 
+                "test:type": "quote"
+            }, 
+            "test:the thought of his being president sends a cold chill down my spine": {
+                "test:quote": "the thought of his being president sends a cold chill down my spine", 
+                "test:type": "quote"
+            }, 
+            "test:he said i do not support roe versus wade": {
+                "test:quote": "he said i do not support roe versus wade", 
+                "test:type": "quote"
+            }, 
+            "test:mccains lobbyist friends rally round their man": {
+                "test:quote": "mccains lobbyist friends rally round their man", 
+                "test:type": "quote"
+            }, 
+            "test:will mccains temper be a liability": {
+                "test:quote": "will mccains temper be a liability", 
+                "test:type": "quote"
+            }, 
+            "test:mccain sides with bush on torture again supports veto of antiwaterboarding bill": {
+                "test:quote": "mccain sides with bush on torture again supports veto of antiwaterboarding bill", 
+                "test:type": "quote"
+            }, 
+            "test:yet mccain says the solution to the housing crisis is for people facing foreclosure to get a second job": {
+                "test:quote": "yet mccain says the solution to the housing crisis is for people facing foreclosure to get a second job", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "14341": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:john mccain gets a zero rating for his environmental record"
+            }, 
+            "14303": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:please help get the word out—forward this email to your personal network"
+            }, 
+            "14327": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain says bank bailout should end systemic risk"
+            }, 
+            "14321": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain says roe v wade should be overturned"
+            }, 
+            "14323": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain bush right to veto kids health insurance expansion"
+            }, 
+            "16540": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:2 his reputation is built on his opposition to torture but mccain voted against a bill to ban waterboarding and then applauded president bush for vetoing that ban3\n\nmccain opposes a womans right to choose"
+            }, 
+            "14329": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:will mccains temper be a liability"
+            }, 
+            "16546": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:4 the childrens defense fund rated mccain as the worst senator in congress for children"
+            }, 
+            "16562": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:7 mccain talks a lot about taking on special interests but his campaign manager and top advisers are actually lobbyists"
+            }, 
+            "14291": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:he loses his temper and he worries me"
+            }, 
+            "14295": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:the government watchdog group public citizen says mccain has 59 lobbyists raising money for his campaign more than any of the other presidential candidates8 mccain has sought closer ties to the extreme religious right in recent years"
+            }, 
+            "14299": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:the pastor mccain calls his spiritual guide"
+            }, 
+            "16554": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:yet mccain says the solution to the housing crisis is for people facing foreclosure to get a second job"
+            }, 
+            "14337": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:will mccain specifically repudiate hagees antigay comments"
+            }, 
+            "14335": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccains spiritual guide destroy islam"
+            }, 
+            "14333": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccains lobbyist friends rally round their man"
+            }, 
+            "14275": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:he said i do not support roe versus wade"
+            }, 
+            "14331": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:black claims mccains campaign is above lobbyist influence i dont know what the criticism is"
+            }, 
+            "14315": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain more hawkish than bush on russia china iraq"
+            }, 
+            "14279": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:he voted against the childrens health care bill last year then defended bushs veto of the bill5 hes one of the richest people in a senate filled with millionaires"
+            }, 
+            "14317": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:buchanan john mccain will make cheney look like gandhi"
+            }, 
+            "14311": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:the complicated history of john mccain and mlk day"
+            }, 
+            "14339": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain very honored by support of pastor preaching endtime confrontation with iran"
+            }, 
+            "14325": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:beer executive could be next first lady"
+            }, 
+            "14283": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:the associated press reports he and his wife own at least eight homes"
+            }, 
+            "14287": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:the thought of his being president sends a cold chill down my spine"
+            }, 
+            "14307": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:and if you want us to keep you posted on moveons work to get the truth out about john mccain sign up here\n\nhttppolmoveonorgmccaintruth\n\nsources\n\n1"
+            }, 
+            "14319": {
+                "prov:entity": "test:https://web.archive.org/web/20080506120114/http://pol.moveon.org:80/mccain10/email.html", 
+                "prov:activity": "test:mccain sides with bush on torture again supports veto of antiwaterboarding bill"
+            }
+        }
+    }
+}

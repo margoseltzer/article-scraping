@@ -1,0 +1,1303 @@
+{
+    "root": "http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "6633": {
+                "prov:usedEntity": "test:http://www.whorunsgov.com/Profiles/Daniel_Pfeiffer", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6591": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "18701": {
+                "prov:usedEntity": "test:http://www.whitehouse.gov/health-care-meeting", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/"
+            }, 
+            "6593": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6595": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6597": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6599": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6629": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/house-dems-expect-a-jobs-bill-in-30-to-40-days/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/"
+            }, 
+            "6601": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/health/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6903": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/"
+            }, 
+            "6603": {
+                "prov:usedEntity": "test:http://blogs.usatoday.com/oped/2010/02/opposing-view-start-from-scratch.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6895": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/poll-americans-back-troop-surge-oppose-withdrawal-date/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/"
+            }, 
+            "6605": {
+                "prov:usedEntity": "test:http://www.gop.gov/solutions/healthcare", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6879": {
+                "prov:usedEntity": "test:http://www.whorunsgov.com/Profiles/Barack_Obama", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6607": {
+                "prov:usedEntity": "test:https://obamawhitehouse.archives.gov/blog/2010/02/22/will-republicans-post-their-health-plan-and-when", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6877": {
+                "prov:usedEntity": "test:http://projects.washingtonpost.com/politicsglossary/party-affiliated/partisan/", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6609": {
+                "prov:usedEntity": "test:http://www.whitehouse.gov/health-care-meeting/proposal", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/"
+            }, 
+            "6625": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obama-approval-rating-falls-to-50-percent/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/"
+            }, 
+            "6623": {
+                "prov:usedEntity": "test:http://www.cookpolitical.com/races/senate/ratings.php", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6621": {
+                "prov:usedEntity": "test:http://whipcongress.com/letter-senate?source=cbs", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "10856": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-at-a-glance/", 
+                "prov:generatedEntity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27"
+            }, 
+            "6571": {
+                "prov:usedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6577": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/health/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6661": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/health/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/"
+            }, 
+            "6575": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6645": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/health/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/"
+            }, 
+            "6579": {
+                "prov:usedEntity": "test:http://www.foxnews.com/politics/2010/02/21/transcript-fox-news-sunday-interview-future-gop/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6641": {
+                "prov:usedEntity": "test:http://projects.washingtonpost.com/politicsglossary/party-affiliated/Republican-Party/", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "10858": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:generatedEntity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27"
+            }, 
+            "6882": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/first-lady-health-care-a-we-thing/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/"
+            }, 
+            "6627": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/dems-make-deal-to-drop-public-option/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/"
+            }, 
+            "6583": {
+                "prov:usedEntity": "test:http://whipcongress.com/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6581": {
+                "prov:usedEntity": "test:http://theplumline.whorunsgov.com/health-care/breaking-reid-signals-support-for-reconciliation-vote-on-public-option/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6587": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/video/watch/?id=6231953n", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6585": {
+                "prov:usedEntity": "test:http://search.cbsnews.com/blogs/2009/10/15/politics/politicalhotsheet/entry5386805.shtml", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6573": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6589": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/health/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-at-a-glance/"
+            }, 
+            "6613": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6647": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/spitzer-gop-wrong-to-fight-health-reform/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/"
+            }, 
+            "6611": {
+                "prov:usedEntity": "test:https://www.politico.com/blogs/ben-smith/2009/08/pushing-gillibrand-from-the-left-on-the-public-option-021021", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6617": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/poll-70-percent-angry-or-dissatisfied-with-washington/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6615": {
+                "prov:usedEntity": "test:https://www.huffpost.com/entry/colorado-senate-race-t_b_458801", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6631": {
+                "prov:usedEntity": "test:http://www.whorunsgov.com/Profiles/Ben_Nelson", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6619": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/harold-ford-defying-establishment-presses-senate-run/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/"
+            }, 
+            "6635": {
+                "prov:usedEntity": "test:http://projects.washingtonpost.com/politicsglossary/legislative/bipartisanship/", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "10889": {
+                "prov:usedEntity": "test:https://www.whitehouse.gov/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/"
+            }, 
+            "6637": {
+                "prov:usedEntity": "test:http://projects.washingtonpost.com/politicsglossary/legislative/filibuster/", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6649": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obama-wants-insurance-rate-hike-regulation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/"
+            }, 
+            "6639": {
+                "prov:usedEntity": "test:http://www.whorunsgov.com/Profiles/John_A._Boehner", 
+                "prov:generatedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on"
+            }, 
+            "6569": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6659": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/"
+            }, 
+            "6565": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6567": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/"
+            }, 
+            "6653": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/"
+            }, 
+            "6884": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/"
+            }, 
+            "6657": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/"
+            }, 
+            "6905": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/"
+            }, 
+            "6663": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/politics/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/"
+            }, 
+            "10862": {
+                "prov:usedEntity": "test:https://www.brendan-nyhan.com/blog/2009/04/the-legislative-history-of-reconciliation-19802008.html", 
+                "prov:generatedEntity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27"
+            }, 
+            "6643": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/obama-wants-insurance-rate-hike-regulation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/"
+            }, 
+            "10860": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:generatedEntity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27"
+            }, 
+            "6655": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7147": {
+                "prov:entity": "test:that is why the public is so angry at this congress and this administration over this issue", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "7216": {
+                "prov:entity": "test:all they have is the ability to capitalize on criticizing what president obama has opened the door to which is that the people in washington now are out of touch and support the government", 
+                "prov:agent": "test:Allen"
+            }, 
+            "7070": {
+                "prov:entity": "test:the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected", 
+                "prov:agent": "test:John Boehner"
+            }, 
+            "10671": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:agent": "test:Brian Montopoli"
+            }, 
+            "10735": {
+                "prov:entity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "7141": {
+                "prov:entity": "test:we know more about this than you do", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "6451": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:agent": "test:Dan Balz"
+            }, 
+            "7138": {
+                "prov:entity": "test:you know they are saying ignore the wishes of the american people", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "6453": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:agent": "test:Michael D. Shear"
+            }, 
+            "6533": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:agent": "test:Brian Montopoli"
+            }, 
+            "7172": {
+                "prov:entity": "test:the american people do not like the senate health care bill", 
+                "prov:agent": "test:Cantor"
+            }, 
+            "7038": {
+                "prov:entity": "test:the answer to that is no", 
+                "prov:agent": "test:Reid"
+            }, 
+            "7118": {
+                "prov:entity": "test:the president expects and believes the american people deserve an upordown vote on health care", 
+                "prov:agent": "test:Pfeiffer"
+            }, 
+            "7135": {
+                "prov:entity": "test:the fundamental point i want to make is the arrogance of all of this", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "7178": {
+                "prov:entity": "test:and our proposal is designed to give ourselves maximum flexibility to ensure that we can get an up or down vote if the opposition decides that they need the extraordinary step of filibustering health reform", 
+                "prov:agent": "test:Cantor"
+            }, 
+            "7096": {
+                "prov:entity": "test:in an incremental and fiscally responsible manner", 
+                "prov:agent": "test:Hatch"
+            }, 
+            "6435": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:agent": "test:Stephanie Condon"
+            }, 
+            "7132": {
+                "prov:entity": "test:so i do believe that there is more fertile soil today than when we first took this up", 
+                "prov:agent": "test:Clyburn"
+            }, 
+            "7093": {
+                "prov:entity": "test:it we really want to create something that will work we need to start from scratch on a new proposal", 
+                "prov:agent": "test:Hatch"
+            }, 
+            "7090": {
+                "prov:entity": "test:what proposal republicans will be bringing to the table", 
+                "prov:agent": "test:Pfeiffer"
+            }, 
+            "7189": {
+                "prov:entity": "test:so why should they make a deal now", 
+                "prov:agent": "test:Allen"
+            }, 
+            "6415": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:agent": "test:Mark Knoller"
+            }, 
+            "7053": {
+                "prov:entity": "test:it seems to me at least that until the democratic leaders take reconciliation off the table itll be very hard for republicans to believe that they intend to engage us in good faith", 
+                "prov:agent": "test:Kyl"
+            }, 
+            "7201": {
+                "prov:entity": "test:that is every indication we have that the democratic strategy for the spring is to amp up the partisanship to make it clear were on the side of the working class", 
+                "prov:agent": "test:Allen"
+            }, 
+            "7213": {
+                "prov:entity": "test:because they dont have answers", 
+                "prov:agent": "test:Allen"
+            }, 
+            "6477": {
+                "prov:entity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:agent": "test:Mark Knoller"
+            }, 
+            "7073": {
+                "prov:entity": "test:the president wants to hear people bring their ideas", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "10748": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "7204": {
+                "prov:entity": "test:were on the side of the middle class families", 
+                "prov:agent": "test:Allen"
+            }, 
+            "10766": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "10669": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "10741": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "10702": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "10700": {
+                "prov:entity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-at-a-glance/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "7058": {
+                "prov:entity": "test:the president expects and believes the american people deserve an up or down vote on health care", 
+                "prov:agent": "test:Pfeiffer"
+            }, 
+            "6447": {
+                "prov:entity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/", 
+                "prov:agent": "test:Stephanie Condon"
+            }, 
+            "7047": {
+                "prov:entity": "test:it appears as if the administration has already made up their mind to go forward with a beefed up senate version and to try to jam it through under a seldomused process that we commonly refer to around here as reconciliation", 
+                "prov:agent": "test:Mitch McConnell"
+            }, 
+            "7041": {
+                "prov:entity": "test:but ive been told that my republican friends are lamenting reconciliation but i would recommend for them to go back and look at history", 
+                "prov:agent": "test:Reid"
+            }, 
+            "7026": {
+                "prov:entity": "test:they should stop crying about reconciliation as if its never been done before", 
+                "prov:agent": "test:Reid"
+            }, 
+            "10785": {
+                "prov:entity": "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "7029": {
+                "prov:entity": "test:realistically they should stop crying about this", 
+                "prov:agent": "test:Reid"
+            }, 
+            "7125": {
+                "prov:entity": "test:the president believes that starting from scratch doesnt make sense", 
+                "prov:agent": "test:Dan Pfeiffer"
+            }, 
+            "7150": {
+                "prov:entity": "test:theyre republicans definitely not going to go for that", 
+                "prov:agent": "test:Ed Rollins"
+            }, 
+            "6449": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:agent": "test:http://www.washingtonpost.com"
+            }, 
+            "7081": {
+                "prov:entity": "test:a collection of piecemeal and sometimes conflicting ideas", 
+                "prov:agent": "test:Dan Pfeiffer"
+            }, 
+            "7175": {
+                "prov:entity": "test:the president expects and believes the american people deserve an up or down vote on health reform", 
+                "prov:agent": "test:Cantor"
+            }, 
+            "7168": {
+                "prov:entity": "test:democrats in washington either arent listening or are completely ignoring what americans across the country have been saying", 
+                "prov:agent": "test:Mitch McConnell"
+            }, 
+            "7084": {
+                "prov:entity": "test:abandon the big government approach the american people have overwhelmingly rejected", 
+                "prov:agent": "test:Obama"
+            }, 
+            "7044": {
+                "prov:entity": "test:its done almost every congress and theyre the ones that used it more than anyone else", 
+                "prov:agent": "test:Reid"
+            }, 
+            "7067": {
+                "prov:entity": "test:our constituents dont want yet another partisan backroom bill", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "6393": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:agent": "test:Stephanie Condon"
+            }, 
+            "7064": {
+                "prov:entity": "test:its disappointing that democrats in washington either arent listening or are completely ignoring what americans across the country have been saying", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "7210": {
+                "prov:entity": "test:theyre on the sides of insurance companies of banks of forprofit student lenders", 
+                "prov:agent": "test:Allen"
+            }, 
+            "7032": {
+                "prov:entity": "test:its been done 21 times before", 
+                "prov:agent": "test:Reid"
+            }, 
+            "7061": {
+                "prov:entity": "test:this is designed to provide us maximum flexibility if the opposition decides to take the extraordinary step of filibustering health reform", 
+                "prov:agent": "test:Pfeiffer"
+            }, 
+            "7165": {
+                "prov:entity": "test:the president needs to say this is what im for and it sounds like hes done that", 
+                "prov:agent": "test:Tom Carper"
+            }, 
+            "7144": {
+                "prov:entity": "test:and were going to jam it down your throats no matter what", 
+                "prov:agent": "test:McConnell"
+            }, 
+            "7195": {
+                "prov:entity": "test:if general powell were 25 years younger half as sane as ross perot and had all of michael bloombergs money he could do it", 
+                "prov:agent": "test:Halperin"
+            }, 
+            "10807": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "10719": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "7186": {
+                "prov:entity": "test:they know that whatever their numbers are now in january after the elections in both the house and the senate theyre gonna be a lot bigger", 
+                "prov:agent": "test:Allen"
+            }, 
+            "7035": {
+                "prov:entity": "test:the question is is reconciliation the only way we can do healthcare reform", 
+                "prov:agent": "test:Reid"
+            }
+        }, 
+        "agent": {
+            "test:Dan Balz": {
+                "test:name": "Dan Balz", 
+                "test:type": "person"
+            }, 
+            "test:Mitch McConnell": {
+                "test:name": "Mitch McConnell", 
+                "test:type": "person"
+            }, 
+            "test:Stephanie Condon": {
+                "test:name": "Stephanie Condon", 
+                "test:type": "person"
+            }, 
+            "test:McConnell": {
+                "test:name": "McConnell", 
+                "test:type": "person"
+            }, 
+            "test:Mark Knoller": {
+                "test:name": "Mark Knoller", 
+                "test:type": "person"
+            }, 
+            "test:Kyl": {
+                "test:name": "Kyl", 
+                "test:type": "person"
+            }, 
+            "test:John Boehner": {
+                "test:name": "John Boehner", 
+                "test:type": "person"
+            }, 
+            "test:Dan Pfeiffer": {
+                "test:name": "Dan Pfeiffer", 
+                "test:type": "person"
+            }, 
+            "test:Tom Carper": {
+                "test:name": "Tom Carper", 
+                "test:type": "person"
+            }, 
+            "test:Cantor": {
+                "test:name": "Cantor", 
+                "test:type": "person"
+            }, 
+            "test:Brian Montopoli": {
+                "test:name": "Brian Montopoli", 
+                "test:type": "person"
+            }, 
+            "test:Pfeiffer": {
+                "test:name": "Pfeiffer", 
+                "test:type": "person"
+            }, 
+            "test:Reid": {
+                "test:name": "Reid", 
+                "test:type": "person"
+            }, 
+            "test:Allen": {
+                "test:name": "Allen", 
+                "test:type": "person"
+            }, 
+            "test:Halperin": {
+                "test:name": "Halperin", 
+                "test:type": "person"
+            }, 
+            "test:www.cbsnews.com": {
+                "test:publisher": "www.cbsnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:http://www.washingtonpost.com": {
+                "test:publisher": "http://www.washingtonpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Ed Rollins": {
+                "test:name": "Ed Rollins", 
+                "test:type": "person"
+            }, 
+            "test:Obama": {
+                "test:name": "Obama", 
+                "test:type": "person"
+            }, 
+            "test:Hatch": {
+                "test:name": "Hatch", 
+                "test:type": "person"
+            }, 
+            "test:Clyburn": {
+                "test:name": "Clyburn", 
+                "test:type": "person"
+            }, 
+            "test:Michael D. Shear": {
+                "test:name": "Michael D. Shear", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://obamawhitehouse.archives.gov/blog/2010/02/22/will-republicans-post-their-health-plan-and-when": {
+                "test:url": "https://obamawhitehouse.archives.gov/blog/2010/02/22/will-republicans-post-their-health-plan-and-when", 
+                "test:type": "government"
+            }, 
+            "test:https://www.whitehouse.gov/": {
+                "test:url": "https://www.whitehouse.gov/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/": {
+                "test:url": "https://www.cbsnews.com/news/poll-outlook-for-economy-bad-but-improving/", 
+                "test:date": "", 
+                "test:title": "Poll: Outlook for Economy Bad but Improving", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/poll-70-percent-angry-or-dissatisfied-with-washington/": {
+                "test:url": "https://www.cbsnews.com/news/poll-70-percent-angry-or-dissatisfied-with-washington/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/spitzer-gop-wrong-to-fight-health-reform/": {
+                "test:url": "https://www.cbsnews.com/news/spitzer-gop-wrong-to-fight-health-reform/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/": {
+                "test:url": "https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "test:date": "", 
+                "test:title": "4 Dem Senators Pressure Reid to Use Reconciliation for Public Option", 
+                "test:type": "article"
+            }, 
+            "test:http://www.whitehouse.gov/health-care-meeting": {
+                "test:url": "http://www.whitehouse.gov/health-care-meeting", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/": {
+                "test:url": "https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "test:date": "", 
+                "test:title": "A War of Words Before the Health Care Summit", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/obama-approval-rating-falls-to-50-percent/": {
+                "test:url": "https://www.cbsnews.com/news/obama-approval-rating-falls-to-50-percent/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.gop.gov/solutions/healthcare": {
+                "test:url": "http://www.gop.gov/solutions/healthcare", 
+                "test:type": "government"
+            }, 
+            "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on": {
+                "test:url": "http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "test:date": "2010-02-22", 
+                "test:title": "Obama offers new health-care plan; GOP slams it as 'government takeover'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/politics/": {
+                "test:url": "https://www.cbsnews.com/politics/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27": {
+                "test:url": "http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "test:date": "2010-02-23", 
+                "test:title": "Harry Reid Says GOP Should \"Stop Crying\" About Reconciliation", 
+                "test:type": "article"
+            }, 
+            "test:http://whipcongress.com/": {
+                "test:url": "http://whipcongress.com/", 
+                "test:type": "reference"
+            }, 
+            "test:http://projects.washingtonpost.com/politicsglossary/legislative/bipartisanship/": {
+                "test:url": "http://projects.washingtonpost.com/politicsglossary/legislative/bipartisanship/", 
+                "test:type": "reference"
+            }, 
+            "test:http://blogs.usatoday.com/oped/2010/02/opposing-view-start-from-scratch.html": {
+                "test:url": "http://blogs.usatoday.com/oped/2010/02/opposing-view-start-from-scratch.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.politico.com/blogs/ben-smith/2009/08/pushing-gillibrand-from-the-left-on-the-public-option-021021": {
+                "test:url": "https://www.politico.com/blogs/ben-smith/2009/08/pushing-gillibrand-from-the-left-on-the-public-option-021021", 
+                "test:type": "article"
+            }, 
+            "test:http://www.foxnews.com/politics/2010/02/21/transcript-fox-news-sunday-interview-future-gop/": {
+                "test:url": "http://www.foxnews.com/politics/2010/02/21/transcript-fox-news-sunday-interview-future-gop/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/": {
+                "test:url": "https://www.cbsnews.com/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.whorunsgov.com/Profiles/Ben_Nelson": {
+                "test:url": "http://www.whorunsgov.com/Profiles/Ben_Nelson", 
+                "test:type": "reference"
+            }, 
+            "test:http://projects.washingtonpost.com/politicsglossary/legislative/filibuster/": {
+                "test:url": "http://projects.washingtonpost.com/politicsglossary/legislative/filibuster/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/poll-americans-back-troop-surge-oppose-withdrawal-date/": {
+                "test:url": "https://www.cbsnews.com/news/poll-americans-back-troop-surge-oppose-withdrawal-date/", 
+                "test:type": "article"
+            }, 
+            "test:http://theplumline.whorunsgov.com/health-care/breaking-reid-signals-support-for-reconciliation-vote-on-public-option/": {
+                "test:url": "http://theplumline.whorunsgov.com/health-care/breaking-reid-signals-support-for-reconciliation-vote-on-public-option/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/dems-make-deal-to-drop-public-option/": {
+                "test:url": "https://www.cbsnews.com/news/dems-make-deal-to-drop-public-option/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.whorunsgov.com/Profiles/John_A._Boehner": {
+                "test:url": "http://www.whorunsgov.com/Profiles/John_A._Boehner", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.huffpost.com/entry/colorado-senate-race-t_b_458801": {
+                "test:url": "https://www.huffpost.com/entry/colorado-senate-race-t_b_458801", 
+                "test:type": "article"
+            }, 
+            "test:http://www.cookpolitical.com/races/senate/ratings.php": {
+                "test:url": "http://www.cookpolitical.com/races/senate/ratings.php", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/obamas-health-care-plan-at-a-glance/": {
+                "test:url": "https://www.cbsnews.com/news/obamas-health-care-plan-at-a-glance/", 
+                "test:date": "", 
+                "test:title": "Obama's Health Care Plan at a Glance", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/house-dems-expect-a-jobs-bill-in-30-to-40-days/": {
+                "test:url": "https://www.cbsnews.com/news/house-dems-expect-a-jobs-bill-in-30-to-40-days/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/": {
+                "test:url": "https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "test:date": "", 
+                "test:title": "Will Obama Health Care Plan Pass Via Reconciliation?", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/obama-wants-insurance-rate-hike-regulation/": {
+                "test:url": "https://www.cbsnews.com/news/obama-wants-insurance-rate-hike-regulation/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/first-lady-health-care-a-we-thing/": {
+                "test:url": "https://www.cbsnews.com/news/first-lady-health-care-a-we-thing/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/": {
+                "test:url": "https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "test:date": "", 
+                "test:title": "No Public Option in Obama Health Care Plan", 
+                "test:type": "article"
+            }, 
+            "test:http://www.whitehouse.gov/health-care-meeting/proposal": {
+                "test:url": "http://www.whitehouse.gov/health-care-meeting/proposal", 
+                "test:type": "government"
+            }, 
+            "test:http://search.cbsnews.com/blogs/2009/10/15/politics/politicalhotsheet/entry5386805.shtml": {
+                "test:url": "http://search.cbsnews.com/blogs/2009/10/15/politics/politicalhotsheet/entry5386805.shtml", 
+                "test:type": "reference"
+            }, 
+            "test:http://projects.washingtonpost.com/politicsglossary/party-affiliated/partisan/": {
+                "test:url": "http://projects.washingtonpost.com/politicsglossary/party-affiliated/partisan/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/": {
+                "test:url": "https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "test:date": "", 
+                "test:title": "Obama's Health Care Plan Unveiled", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/harold-ford-defying-establishment-presses-senate-run/": {
+                "test:url": "https://www.cbsnews.com/news/harold-ford-defying-establishment-presses-senate-run/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/": {
+                "test:url": "https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "test:date": "", 
+                "test:title": "Dems Warily Adopt Obama's Health Care Plan", 
+                "test:type": "article"
+            }, 
+            "test:https://www.brendan-nyhan.com/blog/2009/04/the-legislative-history-of-reconciliation-19802008.html": {
+                "test:url": "https://www.brendan-nyhan.com/blog/2009/04/the-legislative-history-of-reconciliation-19802008.html", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.whorunsgov.com/Profiles/Daniel_Pfeiffer": {
+                "test:url": "http://www.whorunsgov.com/Profiles/Daniel_Pfeiffer", 
+                "test:type": "reference"
+            }, 
+            "test:http://projects.washingtonpost.com/politicsglossary/party-affiliated/Republican-Party/": {
+                "test:url": "http://projects.washingtonpost.com/politicsglossary/party-affiliated/Republican-Party/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/": {
+                "test:url": "https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "test:date": "", 
+                "test:title": "GOP Has \"No Incentive\" to Work With Democrats", 
+                "test:type": "article"
+            }, 
+            "test:http://whipcongress.com/letter-senate?source=cbs": {
+                "test:url": "http://whipcongress.com/letter-senate?source=cbs", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.whorunsgov.com/Profiles/Barack_Obama": {
+                "test:url": "http://www.whorunsgov.com/Profiles/Barack_Obama", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/health/": {
+                "test:url": "https://www.cbsnews.com/health/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/video/watch/?id=6231953n": {
+                "test:url": "https://www.cbsnews.com/video/watch/?id=6231953n", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:and were going to jam it down your throats no matter what": {
+                "test:quote": "and were going to jam it down your throats no matter what", 
+                "test:type": "quote"
+            }, 
+            "test:our constituents dont want yet another partisan backroom bill": {
+                "test:quote": "our constituents dont want yet another partisan backroom bill", 
+                "test:type": "quote"
+            }, 
+            "test:its disappointing that democrats in washington either arent listening or are completely ignoring what americans across the country have been saying": {
+                "test:quote": "its disappointing that democrats in washington either arent listening or are completely ignoring what americans across the country have been saying", 
+                "test:type": "quote"
+            }, 
+            "test:its done almost every congress and theyre the ones that used it more than anyone else": {
+                "test:quote": "its done almost every congress and theyre the ones that used it more than anyone else", 
+                "test:type": "quote"
+            }, 
+            "test:this is the opening bid for the health meeting": {
+                "test:quote": "this is the opening bid for the health meeting", 
+                "test:type": "quote"
+            }, 
+            "test:its the populist reform that the house will need in order to pass both bills together and the key change democratic and independent voters will need in order to believe in health care reform again and show up in 2010": {
+                "test:quote": "its the populist reform that the house will need in order to pass both bills together and the key change democratic and independent voters will need in order to believe in health care reform again and show up in 2010", 
+                "test:type": "quote"
+            }, 
+            "test:realistically they should stop crying about this": {
+                "test:quote": "realistically they should stop crying about this", 
+                "test:type": "quote"
+            }, 
+            "test:this is the last time out": {
+                "test:quote": "this is the last time out", 
+                "test:type": "quote"
+            }, 
+            "test:although we strongly support the important reforms made by the senatepassed health reform package including a strong public option would improve both its substance and the publics perception of it": {
+                "test:quote": "although we strongly support the important reforms made by the senatepassed health reform package including a strong public option would improve both its substance and the publics perception of it", 
+                "test:type": "quote"
+            }, 
+            "test:all they have is the ability to capitalize on criticizing what president obama has opened the door to which is that the people in washington now are out of touch and support the government": {
+                "test:quote": "all they have is the ability to capitalize on criticizing what president obama has opened the door to which is that the people in washington now are out of touch and support the government", 
+                "test:type": "quote"
+            }, 
+            "test:this new democratsonly backroom deal doubles down on the same failed approach that will drive up premiums destroy jobs raise taxes and slash medicare benefits": {
+                "test:quote": "this new democratsonly backroom deal doubles down on the same failed approach that will drive up premiums destroy jobs raise taxes and slash medicare benefits", 
+                "test:type": "quote"
+            }, 
+            "test:because they dont have answers": {
+                "test:quote": "because they dont have answers", 
+                "test:type": "quote"
+            }, 
+            "test:we know more about this than you do": {
+                "test:quote": "we know more about this than you do", 
+                "test:type": "quote"
+            }, 
+            "test:it makes some strong steps to improving the final product": {
+                "test:quote": "it makes some strong steps to improving the final product", 
+                "test:type": "quote"
+            }, 
+            "test:they should stop crying about reconciliation as if its never been done before": {
+                "test:quote": "they should stop crying about reconciliation as if its never been done before", 
+                "test:type": "quote"
+            }, 
+            "test:the president expects and believes the american people deserve an up or down vote on health care": {
+                "test:quote": "the president expects and believes the american people deserve an up or down vote on health care", 
+                "test:type": "quote"
+            }, 
+            "test:it appears as if the administration has already made up their mind to go forward with a beefed up senate version and to try to jam it through under a seldomused process that we commonly refer to around here as reconciliation": {
+                "test:quote": "it appears as if the administration has already made up their mind to go forward with a beefed up senate version and to try to jam it through under a seldomused process that we commonly refer to around here as reconciliation", 
+                "test:type": "quote"
+            }, 
+            "test:that is why the public is so angry at this congress and this administration over this issue": {
+                "test:quote": "that is why the public is so angry at this congress and this administration over this issue", 
+                "test:type": "quote"
+            }, 
+            "test:theyre on the sides of insurance companies of banks of forprofit student lenders": {
+                "test:quote": "theyre on the sides of insurance companies of banks of forprofit student lenders", 
+                "test:type": "quote"
+            }, 
+            "test:it seems to me at least that until the democratic leaders take reconciliation off the table itll be very hard for republicans to believe that they intend to engage us in good faith": {
+                "test:quote": "it seems to me at least that until the democratic leaders take reconciliation off the table itll be very hard for republicans to believe that they intend to engage us in good faith", 
+                "test:type": "quote"
+            }, 
+            "test:every day it becomes increasingly clear that the best way to fix the original senate bill is to pass the highly popular public option through reconciliation": {
+                "test:quote": "every day it becomes increasingly clear that the best way to fix the original senate bill is to pass the highly popular public option through reconciliation", 
+                "test:type": "quote"
+            }, 
+            "test:so i do believe that there is more fertile soil today than when we first took this up": {
+                "test:quote": "so i do believe that there is more fertile soil today than when we first took this up", 
+                "test:type": "quote"
+            }, 
+            "test:its been done 21 times before": {
+                "test:quote": "its been done 21 times before", 
+                "test:type": "quote"
+            }, 
+            "test:the president expects and believes the american people deserve an upordown vote on health care": {
+                "test:quote": "the president expects and believes the american people deserve an upordown vote on health care", 
+                "test:type": "quote"
+            }, 
+            "test:better solutions a compilation of gop alternatives": {
+                "test:quote": "better solutions a compilation of gop alternatives", 
+                "test:type": "quote"
+            }, 
+            "test:thursdays a peferct venue to be a party of yes": {
+                "test:quote": "thursdays a peferct venue to be a party of yes", 
+                "test:type": "quote"
+            }, 
+            "test:the american people do not like the senate health care bill": {
+                "test:quote": "the american people do not like the senate health care bill", 
+                "test:type": "quote"
+            }, 
+            "test:were on the side of the middle class families": {
+                "test:quote": "were on the side of the middle class families", 
+                "test:type": "quote"
+            }, 
+            "test:it we really want to create something that will work we need to start from scratch on a new proposal": {
+                "test:quote": "it we really want to create something that will work we need to start from scratch on a new proposal", 
+                "test:type": "quote"
+            }, 
+            "test:we took our best shot at bridging the differences": {
+                "test:quote": "we took our best shot at bridging the differences", 
+                "test:type": "quote"
+            }, 
+            "test:and our proposal is designed to give ourselves maximum flexibility to ensure that we can get an up or down vote if the opposition decides that they need the extraordinary step of filibustering health reform": {
+                "test:quote": "and our proposal is designed to give ourselves maximum flexibility to ensure that we can get an up or down vote if the opposition decides that they need the extraordinary step of filibustering health reform", 
+                "test:type": "quote"
+            }, 
+            "test:this is designed to provide us maximum flexibility if the opposition decides to take the extraordinary step of filibustering health reform": {
+                "test:quote": "this is designed to provide us maximum flexibility if the opposition decides to take the extraordinary step of filibustering health reform", 
+                "test:type": "quote"
+            }, 
+            "test:if general powell were 25 years younger half as sane as ross perot and had all of michael bloombergs money he could do it": {
+                "test:quote": "if general powell were 25 years younger half as sane as ross perot and had all of michael bloombergs money he could do it", 
+                "test:type": "quote"
+            }, 
+            "test:abandon the big government approach the american people have overwhelmingly rejected": {
+                "test:quote": "abandon the big government approach the american people have overwhelmingly rejected", 
+                "test:type": "quote"
+            }, 
+            "test:put simply including a strong public option is one of the best most fiscally responsible ways to reform our health insurance system": {
+                "test:quote": "put simply including a strong public option is one of the best most fiscally responsible ways to reform our health insurance system", 
+                "test:type": "quote"
+            }, 
+            "test:actually ive gotten many of your ideas": {
+                "test:quote": "actually ive gotten many of your ideas", 
+                "test:type": "quote"
+            }, 
+            "test:the president needs to say this is what im for and it sounds like hes done that": {
+                "test:quote": "the president needs to say this is what im for and it sounds like hes done that", 
+                "test:type": "quote"
+            }, 
+            "test:ive taken a look at them even before i was handed this": {
+                "test:quote": "ive taken a look at them even before i was handed this", 
+                "test:type": "quote"
+            }, 
+            "test:our constituents dont want yet another partisan backroom bill that slashes medicare for our seniors raises a halftrillion dollars in new taxes fines them if they dont buy the right insurance and further expands the role of government": {
+                "test:quote": "our constituents dont want yet another partisan backroom bill that slashes medicare for our seniors raises a halftrillion dollars in new taxes fines them if they dont buy the right insurance and further expands the role of government", 
+                "test:type": "quote"
+            }, 
+            "test:theyre republicans definitely not going to go for that": {
+                "test:quote": "theyre republicans definitely not going to go for that", 
+                "test:type": "quote"
+            }, 
+            "test:democrats in washington either arent listening or are completely ignoring what americans across the country have been saying": {
+                "test:quote": "democrats in washington either arent listening or are completely ignoring what americans across the country have been saying", 
+                "test:type": "quote"
+            }, 
+            "test:the president is coming to the meeting with an open mind": {
+                "test:quote": "the president is coming to the meeting with an open mind", 
+                "test:type": "quote"
+            }, 
+            "test:the president expects and believes the american people deserve an up or down vote on health reform": {
+                "test:quote": "the president expects and believes the american people deserve an up or down vote on health reform", 
+                "test:type": "quote"
+            }, 
+            "test:the fundamental point i want to make is the arrogance of all of this": {
+                "test:quote": "the fundamental point i want to make is the arrogance of all of this", 
+                "test:type": "quote"
+            }, 
+            "test:so why should they make a deal now": {
+                "test:quote": "so why should they make a deal now", 
+                "test:type": "quote"
+            }, 
+            "test:but ive been told that my republican friends are lamenting reconciliation but i would recommend for them to go back and look at history": {
+                "test:quote": "but ive been told that my republican friends are lamenting reconciliation but i would recommend for them to go back and look at history", 
+                "test:type": "quote"
+            }, 
+            "test:the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected": {
+                "test:quote": "the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected", 
+                "test:type": "quote"
+            }, 
+            "test:the question is is reconciliation the only way we can do healthcare reform": {
+                "test:quote": "the question is is reconciliation the only way we can do healthcare reform", 
+                "test:type": "quote"
+            }, 
+            "test:the president believes that starting from scratch doesnt make sense": {
+                "test:quote": "the president believes that starting from scratch doesnt make sense", 
+                "test:type": "quote"
+            }, 
+            "test:you know they are saying ignore the wishes of the american people": {
+                "test:quote": "you know they are saying ignore the wishes of the american people", 
+                "test:type": "quote"
+            }, 
+            "test:in an incremental and fiscally responsible manner": {
+                "test:quote": "in an incremental and fiscally responsible manner", 
+                "test:type": "quote"
+            }, 
+            "test:this weeks summit clearly has all the makings of a democratic infomercial for continuing on a partisan course": {
+                "test:quote": "this weeks summit clearly has all the makings of a democratic infomercial for continuing on a partisan course", 
+                "test:type": "quote"
+            }, 
+            "test:a collection of piecemeal and sometimes conflicting ideas": {
+                "test:quote": "a collection of piecemeal and sometimes conflicting ideas", 
+                "test:type": "quote"
+            }, 
+            "test:that is every indication we have that the democratic strategy for the spring is to amp up the partisanship to make it clear were on the side of the working class": {
+                "test:quote": "that is every indication we have that the democratic strategy for the spring is to amp up the partisanship to make it clear were on the side of the working class", 
+                "test:type": "quote"
+            }, 
+            "test:the president wants to hear people bring their ideas": {
+                "test:quote": "the president wants to hear people bring their ideas", 
+                "test:type": "quote"
+            }, 
+            "test:what proposal republicans will be bringing to the table": {
+                "test:quote": "what proposal republicans will be bringing to the table", 
+                "test:type": "quote"
+            }, 
+            "test:push back greatly that their the party is the party of no": {
+                "test:quote": "push back greatly that their the party is the party of no", 
+                "test:type": "quote"
+            }, 
+            "test:the answer to that is no": {
+                "test:quote": "the answer to that is no", 
+                "test:type": "quote"
+            }, 
+            "test:they know that whatever their numbers are now in january after the elections in both the house and the senate theyre gonna be a lot bigger": {
+                "test:quote": "they know that whatever their numbers are now in january after the elections in both the house and the senate theyre gonna be a lot bigger", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "6495": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:we know more about this than you do"
+            }, 
+            "10679": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:its been done 21 times before"
+            }, 
+            "6463": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:this is the opening bid for the health meeting"
+            }, 
+            "6491": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:the fundamental point i want to make is the arrogance of all of this"
+            }, 
+            "6493": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:you know they are saying ignore the wishes of the american people"
+            }, 
+            "10673": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:they should stop crying about reconciliation as if its never been done before"
+            }, 
+            "6441": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:activity": "test:every day it becomes increasingly clear that the best way to fix the original senate bill is to pass the highly popular public option through reconciliation"
+            }, 
+            "6499": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:that is why the public is so angry at this congress and this administration over this issue"
+            }, 
+            "10676": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:realistically they should stop crying about this"
+            }, 
+            "6429": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:it we really want to create something that will work we need to start from scratch on a new proposal"
+            }, 
+            "6459": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:this weeks summit clearly has all the makings of a democratic infomercial for continuing on a partisan course"
+            }, 
+            "6485": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected"
+            }, 
+            "6535": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:they know that whatever their numbers are now in january after the elections in both the house and the senate theyre gonna be a lot bigger"
+            }, 
+            "6455": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected"
+            }, 
+            "6457": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:this new democratsonly backroom deal doubles down on the same failed approach that will drive up premiums destroy jobs raise taxes and slash medicare benefits"
+            }, 
+            "10691": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:its done almost every congress and theyre the ones that used it more than anyone else"
+            }, 
+            "6467": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:it makes some strong steps to improving the final product"
+            }, 
+            "10694": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:it appears as if the administration has already made up their mind to go forward with a beefed up senate version and to try to jam it through under a seldomused process that we commonly refer to around here as reconciliation"
+            }, 
+            "10697": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:it seems to me at least that until the democratic leaders take reconciliation off the table itll be very hard for republicans to believe that they intend to engage us in good faith"
+            }, 
+            "6437": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:activity": "test:put simply including a strong public option is one of the best most fiscally responsible ways to reform our health insurance system"
+            }, 
+            "6519": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:democrats in washington either arent listening or are completely ignoring what americans across the country have been saying"
+            }, 
+            "6479": {
+                "prov:entity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:activity": "test:the president believes that starting from scratch doesnt make sense"
+            }, 
+            "6469": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:the president is coming to the meeting with an open mind"
+            }, 
+            "6419": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:abandon the big government approach the american people have overwhelmingly rejected"
+            }, 
+            "6551": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:theyre on the sides of insurance companies of banks of forprofit student lenders"
+            }, 
+            "6431": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:in an incremental and fiscally responsible manner"
+            }, 
+            "6553": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:because they dont have answers"
+            }, 
+            "6473": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:this is designed to provide us maximum flexibility if the opposition decides to take the extraordinary step of filibustering health reform"
+            }, 
+            "6511": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:this is the last time out"
+            }, 
+            "6417": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:a collection of piecemeal and sometimes conflicting ideas"
+            }, 
+            "6523": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:the american people do not like the senate health care bill"
+            }, 
+            "6439": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:activity": "test:although we strongly support the important reforms made by the senatepassed health reform package including a strong public option would improve both its substance and the publics perception of it"
+            }, 
+            "6517": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:the president needs to say this is what im for and it sounds like hes done that"
+            }, 
+            "6501": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:theyre republicans definitely not going to go for that"
+            }, 
+            "10685": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:the answer to that is no"
+            }, 
+            "6497": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:and were going to jam it down your throats no matter what"
+            }, 
+            "6425": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:better solutions a compilation of gop alternatives"
+            }, 
+            "6465": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:we took our best shot at bridging the differences"
+            }, 
+            "6521": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:our constituents dont want yet another partisan backroom bill that slashes medicare for our seniors raises a halftrillion dollars in new taxes fines them if they dont buy the right insurance and further expands the role of government"
+            }, 
+            "6555": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:all they have is the ability to capitalize on criticizing what president obama has opened the door to which is that the people in washington now are out of touch and support the government"
+            }, 
+            "10688": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:but ive been told that my republican friends are lamenting reconciliation but i would recommend for them to go back and look at history"
+            }, 
+            "6401": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:our constituents dont want yet another partisan backroom bill"
+            }, 
+            "6525": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:the president expects and believes the american people deserve an up or down vote on health reform"
+            }, 
+            "6443": {
+                "prov:entity": "test:https://www.cbsnews.com/news/4-dem-senators-pressure-reid-to-use-reconciliation-for-public-option/", 
+                "prov:activity": "test:its the populist reform that the house will need in order to pass both bills together and the key change democratic and independent voters will need in order to believe in health care reform again and show up in 2010"
+            }, 
+            "6527": {
+                "prov:entity": "test:https://www.cbsnews.com/news/dems-warily-adopt-obamas-health-care-plan/", 
+                "prov:activity": "test:and our proposal is designed to give ourselves maximum flexibility to ensure that we can get an up or down vote if the opposition decides that they need the extraordinary step of filibustering health reform"
+            }, 
+            "6427": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:what proposal republicans will be bringing to the table"
+            }, 
+            "10682": {
+                "prov:entity": "test:http://www.cbsnews.com/blogs/2010/02/23/politics/politicalhotsheet/entry6235624.shtml%27", 
+                "prov:activity": "test:the question is is reconciliation the only way we can do healthcare reform"
+            }, 
+            "6481": {
+                "prov:entity": "test:https://www.cbsnews.com/news/obamas-health-care-plan-unveiled/", 
+                "prov:activity": "test:this new democratsonly backroom deal doubles down on the same failed approach that will drive up premiums destroy jobs raise taxes and slash medicare benefits"
+            }, 
+            "6537": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:so why should they make a deal now"
+            }, 
+            "6487": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:this new democratsonly backroom deal doubles down on the same failed approach that will drive up premiums destroy jobs raise taxes and slash medicare benefits"
+            }, 
+            "6421": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:actually ive gotten many of your ideas"
+            }, 
+            "6547": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:were on the side of the middle class families"
+            }, 
+            "6403": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:the president has crippled the credibility of this weeks summit by proposing the same massive government takeover of health care based on a partisan bill the american people have already rejected"
+            }, 
+            "6545": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:that is every indication we have that the democratic strategy for the spring is to amp up the partisanship to make it clear were on the side of the working class"
+            }, 
+            "6399": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:its disappointing that democrats in washington either arent listening or are completely ignoring what americans across the country have been saying"
+            }, 
+            "6407": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:push back greatly that their the party is the party of no"
+            }, 
+            "6541": {
+                "prov:entity": "test:https://www.cbsnews.com/news/gop-has-no-incentive-to-work-with-democrats/", 
+                "prov:activity": "test:if general powell were 25 years younger half as sane as ross perot and had all of michael bloombergs money he could do it"
+            }, 
+            "6423": {
+                "prov:entity": "test:https://www.cbsnews.com/news/a-war-of-words-before-the-health-care-summit/", 
+                "prov:activity": "test:ive taken a look at them even before i was handed this"
+            }, 
+            "6489": {
+                "prov:entity": "test:https://www.cbsnews.com/news/no-public-option-in-obama-health-care-plan/", 
+                "prov:activity": "test:so i do believe that there is more fertile soil today than when we first took this up"
+            }, 
+            "6409": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:thursdays a peferct venue to be a party of yes"
+            }, 
+            "6397": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:this is designed to provide us maximum flexibility if the opposition decides to take the extraordinary step of filibustering health reform"
+            }, 
+            "6395": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:the president expects and believes the american people deserve an up or down vote on health care"
+            }, 
+            "6405": {
+                "prov:entity": "test:https://www.cbsnews.com/news/will-obama-health-care-plan-pass-via-reconciliation/", 
+                "prov:activity": "test:the president wants to hear people bring their ideas"
+            }, 
+            "6471": {
+                "prov:entity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2010/02/22/AR2010022201731.html?noredirect=on", 
+                "prov:activity": "test:the president expects and believes the american people deserve an upordown vote on health care"
+            }
+        }
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "root": "http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "18888": {
+                "prov:usedEntity": "test:https://www.scientificamerican.com/article/tennessee-coal-ash-spill/", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "11774": {
+                "prov:usedEntity": "test:http://clinton2.nara.gov/WH/EOP/First_Lady/html/columns/HRC0610.html", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "11768": {
+                "prov:usedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints", 
+                "prov:generatedEntity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc"
+            }, 
+            "11762": {
+                "prov:usedEntity": "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=U&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=1135&_debug=0&lcdfmt=custom", 
+                "prov:generatedEntity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/"
+            }, 
+            "11760": {
+                "prov:usedEntity": "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=S&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=448&_debug=0&lcdfmt=custom&", 
+                "prov:generatedEntity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/"
+            }, 
+            "18915": {
+                "prov:usedEntity": "test:http://www.houstontx.gov/health/UT-executive.html", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18912": {
+                "prov:usedEntity": "test:https://www.msnbc.com/", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18910": {
+                "prov:usedEntity": "test:http://www.cleanhouston.org/air/features/danger.htm", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18892": {
+                "prov:usedEntity": "test:https://thinkprogress.org/how-houstons-biggest-polluters-are-buying-texas-elections-at-the-expense-of-its-residents-758ce6e07874/", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18890": {
+                "prov:usedEntity": "test:https://www.vox.com/2016/1/19/10790534/lead-soil", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18896": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/local/social-issues/how-companies-make-millions-off-lead-poisoned-poor-blacks/2015/08/25/7460c1de-0d8c-11e5-9726-49d6fa26a8c6_story.html?noredirect=on", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18894": {
+                "prov:usedEntity": "test:https://www.buzzfeednews.com/article/tamerragriffin/michigan-government-emails-flint-water-crisis", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18898": {
+                "prov:usedEntity": "test:http://www.msnbc.com/msnbc/flint-water-crisis-timeline", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "11764": {
+                "prov:usedEntity": "test:https://webappa.cdc.gov/sasweb/ncipc/leadcaus10_us.html", 
+                "prov:generatedEntity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/"
+            }, 
+            "11766": {
+                "prov:usedEntity": "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=H&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=2416&_debug=0&lcdfmt=custom", 
+                "prov:generatedEntity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/"
+            }, 
+            "11758": {
+                "prov:usedEntity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:generatedEntity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/"
+            }, 
+            "18908": {
+                "prov:usedEntity": "test:http://www.msnbc.com/flint-michigan-water-crisis", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18905": {
+                "prov:usedEntity": "test:https://www.abc12.com/home/headlines/Undocumented-immigrants-late-to-know-about-lead-in-water-scared-to-get-help-365982871.html?device=phone&c=y", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "11770": {
+                "prov:usedEntity": "test:https://silentspring.org/project/household-exposure-study-california", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "11772": {
+                "prov:usedEntity": "test:https://www.ehn.org/", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18900": {
+                "prov:usedEntity": "test:http://www.msnbc.com/life-flint-logistical-financial-and-health-nightmare", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }, 
+            "18902": {
+                "prov:usedEntity": "test:http://www.washingtonpost.com/wp-dyn/content/article/2009/01/26/AR2009012602402.html?noredirect=on", 
+                "prov:generatedEntity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11740": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:agent": "test:medium.com"
+            }, 
+            "11742": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:agent": "test:Hillary Clinton"
+            }, 
+            "11754": {
+                "prov:entity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints", 
+                "prov:agent": "test:www.msnbc.com"
+            }, 
+            "11738": {
+                "prov:entity": "test:gun violence is by far the leading cause of death for young africanamerican men outstripping the next nine causes of death combined", 
+                "prov:agent": "test:Clinton"
+            }, 
+            "11732": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/", 
+                "prov:agent": "test:www.politifact.com"
+            }
+        }, 
+        "agent": {
+            "test:Clinton": {
+                "test:name": "Clinton", 
+                "test:type": "person"
+            }, 
+            "test:www.politifact.com": {
+                "test:publisher": "www.politifact.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Hillary Clinton": {
+                "test:name": "Hillary Clinton", 
+                "test:type": "person"
+            }, 
+            "test:medium.com": {
+                "test:publisher": "medium.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.msnbc.com": {
+                "test:publisher": "www.msnbc.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.buzzfeednews.com/article/tamerragriffin/michigan-government-emails-flint-water-crisis": {
+                "test:url": "https://www.buzzfeednews.com/article/tamerragriffin/michigan-government-emails-flint-water-crisis", 
+                "test:type": "article"
+            }, 
+            "test:http://www.washingtonpost.com/wp-dyn/content/article/2009/01/26/AR2009012602402.html?noredirect=on": {
+                "test:url": "http://www.washingtonpost.com/wp-dyn/content/article/2009/01/26/AR2009012602402.html?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=S&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=448&_debug=0&lcdfmt=custom&": {
+                "test:url": "https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=S&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=448&_debug=0&lcdfmt=custom&ethnicty=0&ranking=10&deathtle=Death", 
+                "test:type": "government"
+            }, 
+            "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=U&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=1135&_debug=0&lcdfmt=custom": {
+                "test:url": "https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=U&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=1135&_debug=0&lcdfmt=custom&ethnicty=0&ranking=10&deathtle=Death", 
+                "test:type": "government"
+            }, 
+            "test:https://www.abc12.com/home/headlines/Undocumented-immigrants-late-to-know-about-lead-in-water-scared-to-get-help-365982871.html?device=phone&c=y": {
+                "test:url": "https://www.abc12.com/home/headlines/Undocumented-immigrants-late-to-know-about-lead-in-water-scared-to-get-help-365982871.html?device=phone&c=y", 
+                "test:type": "article"
+            }, 
+            "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/": {
+                "test:url": "http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/", 
+                "test:date": "2016-03-15", 
+                "test:title": "Hillary Clinton says guns exceed next nine categories as leading cause of death for young black men", 
+                "test:type": "article"
+            }, 
+            "test:https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=H&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=2416&_debug=0&lcdfmt=custom": {
+                "test:url": "https://webappa.cdc.gov/cgi-bin/broker.exe?_service=v8prod&_server=aspv-wisq-1.cdc.gov&_port=5098&_sessionid=/fQ6J9UPO52&_program=wisqars.dd_details10.sas&_service=&type=H&prtfmt=STANDARD&age1=15&age2=24&agegp=15-24&deaths=2416&_debug=0&lcdfmt=custom&ethnicty=0&ranking=10&deathtle=Death", 
+                "test:type": "government"
+            }, 
+            "test:https://www.scientificamerican.com/article/tennessee-coal-ash-spill/": {
+                "test:url": "https://www.scientificamerican.com/article/tennessee-coal-ash-spill/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.msnbc.com/flint-michigan-water-crisis": {
+                "test:url": "http://www.msnbc.com/flint-michigan-water-crisis", 
+                "test:type": "reference"
+            }, 
+            "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc": {
+                "test:url": "https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "test:date": "2016-05-10", 
+                "test:title": "Breaking down barriers for African Americans", 
+                "test:type": "article"
+            }, 
+            "test:https://thinkprogress.org/how-houstons-biggest-polluters-are-buying-texas-elections-at-the-expense-of-its-residents-758ce6e07874/": {
+                "test:url": "https://thinkprogress.org/how-houstons-biggest-polluters-are-buying-texas-elections-at-the-expense-of-its-residents-758ce6e07874/", 
+                "test:type": "article"
+            }, 
+            "test:http://clinton2.nara.gov/WH/EOP/First_Lady/html/columns/HRC0610.html": {
+                "test:url": "http://clinton2.nara.gov/WH/EOP/First_Lady/html/columns/HRC0610.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.vox.com/2016/1/19/10790534/lead-soil": {
+                "test:url": "https://www.vox.com/2016/1/19/10790534/lead-soil", 
+                "test:type": "article"
+            }, 
+            "test:http://www.cleanhouston.org/air/features/danger.htm": {
+                "test:url": "http://www.cleanhouston.org/air/features/danger.htm", 
+                "test:type": "reference"
+            }, 
+            "test:https://silentspring.org/project/household-exposure-study-california": {
+                "test:url": "https://silentspring.org/project/household-exposure-study-california", 
+                "test:type": "article"
+            }, 
+            "test:http://www.msnbc.com/life-flint-logistical-financial-and-health-nightmare": {
+                "test:url": "http://www.msnbc.com/life-flint-logistical-financial-and-health-nightmare", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/local/social-issues/how-companies-make-millions-off-lead-poisoned-poor-blacks/2015/08/25/7460c1de-0d8c-11e5-9726-49d6fa26a8c6_story.html?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/local/social-issues/how-companies-make-millions-off-lead-poisoned-poor-blacks/2015/08/25/7460c1de-0d8c-11e5-9726-49d6fa26a8c6_story.html?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://webappa.cdc.gov/sasweb/ncipc/leadcaus10_us.html": {
+                "test:url": "https://webappa.cdc.gov/sasweb/ncipc/leadcaus10_us.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.msnbc.com/": {
+                "test:url": "https://www.msnbc.com/", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.houstontx.gov/health/UT-executive.html": {
+                "test:url": "http://www.houstontx.gov/health/UT-executive.html", 
+                "test:type": "government"
+            }, 
+            "test:http://www.msnbc.com/msnbc/flint-water-crisis-timeline": {
+                "test:url": "http://www.msnbc.com/msnbc/flint-water-crisis-timeline", 
+                "test:type": "article"
+            }, 
+            "test:http://www.msnbc.com/msnbc/there-are-too-many-flints": {
+                "test:url": "http://www.msnbc.com/msnbc/there-are-too-many-flints", 
+                "test:date": "2016-01-30", 
+                "test:title": "There are too many Flints", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ehn.org/": {
+                "test:url": "https://www.ehn.org/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:there’s nothing wrong with the water": {
+                "test:quote": "there’s nothing wrong with the water", 
+                "test:type": "quote"
+            }, 
+            "test:gun violence is by far the leading cause of death for young african american men outstripping the next nine causes of death combined": {
+                "test:quote": "gun violence is by far the leading cause of death for young african american men outstripping the next nine causes of death combined", 
+                "test:type": "quote"
+            }, 
+            "test:i feel funny when i drink it or take a bath": {
+                "test:quote": "i feel funny when i drink it or take a bath", 
+                "test:type": "quote"
+            }, 
+            "test:well she’s saying this because she’s in an election": {
+                "test:quote": "well she’s saying this because she’s in an election", 
+                "test:type": "quote"
+            }, 
+            "test:environmental justice can’t just be a slogan — it has to be a central goal": {
+                "test:quote": "environmental justice can’t just be a slogan — it has to be a central goal", 
+                "test:type": "quote"
+            }, 
+            "test:gun violence is by far the leading cause of death for young africanamerican men outstripping the next nine causes of death combined": {
+                "test:quote": "gun violence is by far the leading cause of death for young africanamerican men outstripping the next nine causes of death combined", 
+                "test:type": "quote"
+            }, 
+            "test:there’s something wrong with this water": {
+                "test:quote": "there’s something wrong with this water", 
+                "test:type": "quote"
+            }, 
+            "test:i want to give it so those little kids can have water": {
+                "test:quote": "i want to give it so those little kids can have water", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "11756": {
+                "prov:entity": "test:http://www.msnbc.com/msnbc/there-are-too-many-flints", 
+                "prov:activity": "test:environmental justice can’t just be a slogan — it has to be a central goal"
+            }, 
+            "11744": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:activity": "test:there’s something wrong with this water"
+            }, 
+            "11752": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:activity": "test:i want to give it so those little kids can have water"
+            }, 
+            "11746": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:activity": "test:i feel funny when i drink it or take a bath"
+            }, 
+            "11750": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:activity": "test:well she’s saying this because she’s in an election"
+            }, 
+            "11748": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/breaking-down-barriers-for-african-americans-d444f1c568b6#.8wtydemwc", 
+                "prov:activity": "test:there’s nothing wrong with the water"
+            }, 
+            "11734": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/", 
+                "prov:activity": "test:gun violence is by far the leading cause of death for young african american men outstripping the next nine causes of death combined"
+            }, 
+            "11736": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/mar/15/hillary-clinton/hillary-clinton-says-guns-exceed-next-nine-categor/", 
+                "prov:activity": "test:gun violence is by far the leading cause of death for young africanamerican men outstripping the next nine causes of death combined"
+            }
+        }
+    }
+}

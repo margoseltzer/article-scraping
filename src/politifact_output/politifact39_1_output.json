@@ -1,0 +1,43 @@
+{
+    "root": "https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "16532": {
+                "prov:usedEntity": "test:https://www.uscis.gov/es", 
+                "prov:generatedEntity": "test:https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62"
+            }
+        }, 
+        "wasAttributedTo": {
+            "12986": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62", 
+                "prov:agent": "test:Hillary Clinton"
+            }, 
+            "12984": {
+                "prov:entity": "test:https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62", 
+                "prov:agent": "test:medium.com"
+            }
+        }, 
+        "agent": {
+            "test:Hillary Clinton": {
+                "test:name": "Hillary Clinton", 
+                "test:type": "person"
+            }, 
+            "test:medium.com": {
+                "test:publisher": "medium.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.uscis.gov/es": {
+                "test:url": "https://www.uscis.gov/es", 
+                "test:type": "government"
+            }, 
+            "test:https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62": {
+                "test:url": "https://medium.com/hillary-for-america/to-young-people-who-are-undocumented-this-is-your-country-too-e0184e858b40#.2uv6onq62", 
+                "test:date": "2016-08-15", 
+                "test:title": "To young people who are undocumented: This is your country, too.", 
+                "test:type": "article"
+            }
+        }
+    }
+}

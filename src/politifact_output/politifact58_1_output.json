@@ -1,0 +1,25 @@
+{
+    "root": "http://www.boston.com/news/politics/articles/2011/11/17/before_leaving_governors_office_in_2006_mitt_romneys_staff_eliminated_e_mail_records/?page=2", 
+    "bundle": {
+        "wasAttributedTo": {
+            "13002": {
+                "prov:entity": "test:http://www.boston.com/news/politics/articles/2011/11/17/before_leaving_governors_office_in_2006_mitt_romneys_staff_eliminated_e_mail_records/?page=2", 
+                "prov:agent": "test:www.boston.com"
+            }
+        }, 
+        "agent": {
+            "test:www.boston.com": {
+                "test:publisher": "www.boston.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:http://www.boston.com/news/politics/articles/2011/11/17/before_leaving_governors_office_in_2006_mitt_romneys_staff_eliminated_e_mail_records/?page=2": {
+                "test:url": "http://www.boston.com/news/politics/articles/2011/11/17/before_leaving_governors_office_in_2006_mitt_romneys_staff_eliminated_e_mail_records/?page=2", 
+                "test:date": "2011-11-17", 
+                "test:title": "Before leaving governor’s office in 2006, Mitt Romney’s staff eliminated e-mail records", 
+                "test:type": "article"
+            }
+        }
+    }
+}

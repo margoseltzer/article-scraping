@@ -4,9 +4,17 @@ import numpy as np
 import pandas as pd
 import csv
 import sys
+import copy
 import execnet
+import itertools
 from scipy.sparse import csr_matrix
 from utils.url_classifier.url_utils import UrlUtils
+
+# import time
+# start = time.time()
+
+# end = time.time()
+# print(end - start)
 
 dirpath = os.path.dirname(os.path.realpath(__file__))
 dirpath = os.path.dirname(dirpath) + '/data/datasets/'
@@ -49,44 +57,74 @@ def call_python_version(Version, Module, Function, ArgumentList):
     channel.send(ArgumentList)
     return channel.receive()
 
-def link_articles(ent_adj_dict, dict_list):
+def separate_arts(ent_adj_dict):
+        ''' return dict that only includes aid : [aids] and dict that only includes aid: [fids]
+        '''
+        art_adj_dict = {}
+        art_fts_dict = {}
+        for k, v in ent_adj_dict.items():
+            tmp_as = [] 
+            tmp_fs = []
+            for e in v:
+                if e[0] == 'a': tmp_as.append(e)
+                else          : tmp_fs.append(e)
+            art_adj_dict[k] = tmp_as
+            art_fts_dict[k] = tmp_fs
+
+        return art_adj_dict, art_fts_dict  
+
+def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
     ''' Links articles that are two hops away from each other by quote or agent
         return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
         track of which agents or quotes are attributed to articles
     '''
-    res_dict = ent_adj_dict
-    feature_dict = {}
     for typ, dic in dict_list.items(): 
+        # Process on adj_dict
         for k_1, v_1 in dic.items():
-            adj_entities = {i: 1 for i in v_1}
+            adj_entities = v_1
 
             for k_2, v_2 in dic.items():
                 if k_1 == k_2: continue
 
                 for i in v_2:
-                    if i in adj_entities:
-                        res_dict[k_1] = res_dict[k_1] + [k_2] if k_1 in res_dict else [k_2]
-                        feature_dict[k_1] = feature_dict[k_1] + [k_2] if k_1 in feature_dict else [k_2]
-    return res_dict, feature_dict
+                    if i in adj_entities and obj_dict[i]['type'] != 'publisher':
+                        if obj_dict[i]['type'] == 'government':
+                            print(obj_dict[i]['type'])
+                        adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
+        
+        # Process on fts_dict    
+        if typ == 'non-art': continue
+        for k_1, v_1 in dic.items():
+            for f in v_1:
+                fts_dict[k_1] = fts_dict[k_1] + [f] if k_1 in fts_dict else [f]
 
-def get_ids_idx_dict(obj_dict):
-    ''' return obj_id to idx dictionary
+    return adj_dict, fts_dict
+
+def get_ids_idx_dicts(obj_dict):
+    ''' return art_id to idx dict and non_art_id to idx dict
     '''
-    id_idx_dict = {}
-    idx = 0
+    art_id_idx_dict = {}
+    fts_id_idx_dict = {}
+    
+    art_idx = 0
+    fts_idx = 0
     for k, v in obj_dict.items():
-        id_idx_dict[k] = idx
-        idx += 1
-    return id_idx_dict
+        if v['type'] == 'article':
+            art_id_idx_dict[k] = 'a' +  str(art_idx)
+            art_idx += 1
+        else:
+            fts_id_idx_dict[k] = 'f' + str(fts_idx)
+            fts_idx += 1
+    return art_id_idx_dict, fts_id_idx_dict
 
-def convert_ids_to_idx(id_idx_dict, dicts_to_convert):
+def convert_ids_to_idx(art_id_idx_dict, fts_id_idx_dict, dicts_to_convert):
     ''' Modify all the dictionaries' keys and values in place from article_id to index  
     '''
     def convert_value(v):
         ''' Simply comvert a list of ids into a list of idx
         '''
         if type(v) == list: 
-            v = [id_idx_dict[i] for i in v]
+            v = [fts_id_idx_dict[i] if i in fts_id_idx_dict else art_id_idx_dict[i] for i in v]
         return v
 
     res_dicts = [{}, {}, {}, {}]
@@ -94,7 +132,7 @@ def convert_ids_to_idx(id_idx_dict, dicts_to_convert):
     for dic in dicts_to_convert:
         new_dict = res_dicts[i]
         for k, v in dic.items():
-            new_key = id_idx_dict[k]
+            new_key = art_id_idx_dict[k] if k in art_id_idx_dict else fts_id_idx_dict[k]
             new_dict[new_key] = convert_value(v)
         i += 1
     return res_dicts[0], res_dicts[1], res_dicts[2], res_dicts[3] 
@@ -104,6 +142,7 @@ def get_y(obj_dict, article_label_dic):
         if r['type'] == 'article':
             y_i = article_label_dic[r['val']] if r['val'] in article_label_dic else -1
             r['label'] = y_i
+
 
 # Paths for labeled data files from data dir
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
@@ -119,17 +158,52 @@ article_label_dic = get_article_dict(saved_file_name)
 # obj_dict: obj_id to {type, val}
 # ent/agn/qot_adj_dict: id to [ids] 
 obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'src.gcn_db_processor', 'process_db', [])
+print(len( set(list(ent_adj_dict.keys()) + list(agn_adj_dict.keys()) + list(qot_adj_dict.keys())) ))
 
 # Get article_id to idx dict of only article 
-id_idx_dict = get_ids_idx_dict(obj_dict)
+art_id_idx_dict, fts_id_idx_dict = get_ids_idx_dicts(obj_dict)
+print(len(list(art_id_idx_dict.keys())))
+# print(fts_id_idx_dict)
 
 # Convert all ids in dicts to idx
 dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict]
-obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(id_idx_dict, dicts_to_convert)
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(art_id_idx_dict, fts_id_idx_dict, dicts_to_convert)
+
+# Separate ent_adj into two pre reuslt dictionaries
+tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
 
 # Process dict_list so articles connected via one hop are in their adj_lists each other
-dict_list = {'agent': agn_adj_dict, 'quote':qot_adj_dict}
-art_adj_dict, feature_dict = link_articles(ent_adj_dict, dict_list)
+dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote':qot_adj_dict}
+
+aid_adj_dict, aid_fid_dict = link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
+# print(aid_adj_dict)
+# print(aid_fid_dict)
+print('adj  n :', len(aid_adj_dict.keys()))
+print(len(aid_fid_dict.keys()))
+a = list(set(list(itertools.chain.from_iterable(aid_adj_dict.values()))))
+b = list(set(list(itertools.chain.from_iterable(aid_fid_dict.values()))))
+print('     a :', len(a))
+print('     b :', len(b))
+
+l = 0
+for lst in aid_adj_dict.values():
+    if len(lst) == 0: l += 1
+print(l)
+
+print('     n :', str(l+len(a)))
+
+c = 0
+d = []
+for k in obj_dict.keys():
+    if k[0] == 'a': 
+        c += 1
+        d.append(k)
+print('real n :', c)
+
+print('real n :', len(set(d + list(aid_fid_dict.keys()))))
+
+
+
 
 # Add label vector on obj_dict  
 get_y(obj_dict, article_label_dic)

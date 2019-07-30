@@ -1,0 +1,221 @@
+{
+    "root": "https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+    "bundle": {
+        "entity": {
+            "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83": {
+                "test:url": "https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "test:date": "", 
+                "test:title": "Transcript of AP interview with Trump", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "11920": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:he called it a terrorist attack"
+            }, 
+            "11912": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:well the one thing good is now i’ll get good press"
+            }, 
+            "11906": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:i’ve never seen anything like this before as long as i’ve been in the military"
+            }, 
+            "11908": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:you know this is more than just like 79 sic missiles"
+            }, 
+            "11910": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:this is death that’s involved"
+            }, 
+            "11916": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:only because of you am i making this massive investment"
+            }, 
+            "11918": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:well look at all this information here this is pretty good stuff"
+            }, 
+            "11902": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:i’ve never seen anything like this"
+            }, 
+            "11882": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:come on you have to pay up you have to pay up"
+            }, 
+            "11900": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:begin the process of selecting a replacement"
+            }, 
+            "11880": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:oh well he’s not treating them nicely"
+            }, 
+            "11876": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:i really would appreciate it if you would look into this and let her out"
+            }, 
+            "11886": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:i’ve never seen anything like this in my life"
+            }, 
+            "11884": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:i’m sorry we’re going to have to bid this out to another company namely boeing"
+            }, 
+            "11894": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:and also you’re a currency manipulator"
+            }, 
+            "11898": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:since you got to office they have not manipulated their currency"
+            }, 
+            "11878": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:shake her hand shake her hand"
+            }, 
+            "11890": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:by the way i’d like you to solve the north korean problem"
+            }, 
+            "11896": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:he didn’t call them a currency manipulator"
+            }, 
+            "11892": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:by the way would you help us with north korea"
+            }, 
+            "11914": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:activity": "test:and the reason it’s obsolete is because of the fact they don’t focus on terrorism"
+            }
+        }, 
+        "wasAttributedTo": {
+            "11872": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:agent": "test:apnews.com"
+            }, 
+            "11888": {
+                "prov:entity": "test:i’ve never seen anything like this in my life", 
+                "prov:agent": "test:Mattis"
+            }, 
+            "11904": {
+                "prov:entity": "test:i’ve never seen anything like this", 
+                "prov:agent": "test:Jim-RRB- Mattis"
+            }, 
+            "11874": {
+                "prov:entity": "test:https://apnews.com/c810d7de280a47e88848b0ac74690c83", 
+                "prov:agent": "test:The Associated Press"
+            }
+        }, 
+        "agent": {
+            "test:The Associated Press": {
+                "test:name": "The Associated Press", 
+                "test:type": "person"
+            }, 
+            "test:apnews.com": {
+                "test:publisher": "apnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Jim-RRB- Mattis": {
+                "test:name": "Jim-RRB- Mattis", 
+                "test:type": "person"
+            }, 
+            "test:Mattis": {
+                "test:name": "Mattis", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:and also you’re a currency manipulator": {
+                "test:quote": "and also you’re a currency manipulator", 
+                "test:type": "quote"
+            }, 
+            "test:he didn’t call them a currency manipulator": {
+                "test:quote": "he didn’t call them a currency manipulator", 
+                "test:type": "quote"
+            }, 
+            "test:i’ve never seen anything like this in my life": {
+                "test:quote": "i’ve never seen anything like this in my life", 
+                "test:type": "quote"
+            }, 
+            "test:by the way i’d like you to solve the north korean problem": {
+                "test:quote": "by the way i’d like you to solve the north korean problem", 
+                "test:type": "quote"
+            }, 
+            "test:shake her hand shake her hand": {
+                "test:quote": "shake her hand shake her hand", 
+                "test:type": "quote"
+            }, 
+            "test:only because of you am i making this massive investment": {
+                "test:quote": "only because of you am i making this massive investment", 
+                "test:type": "quote"
+            }, 
+            "test:he called it a terrorist attack": {
+                "test:quote": "he called it a terrorist attack", 
+                "test:type": "quote"
+            }, 
+            "test:this is death that’s involved": {
+                "test:quote": "this is death that’s involved", 
+                "test:type": "quote"
+            }, 
+            "test:oh well he’s not treating them nicely": {
+                "test:quote": "oh well he’s not treating them nicely", 
+                "test:type": "quote"
+            }, 
+            "test:and the reason it’s obsolete is because of the fact they don’t focus on terrorism": {
+                "test:quote": "and the reason it’s obsolete is because of the fact they don’t focus on terrorism", 
+                "test:type": "quote"
+            }, 
+            "test:i’ve never seen anything like this": {
+                "test:quote": "i’ve never seen anything like this", 
+                "test:type": "quote"
+            }, 
+            "test:well look at all this information here this is pretty good stuff": {
+                "test:quote": "well look at all this information here this is pretty good stuff", 
+                "test:type": "quote"
+            }, 
+            "test:by the way would you help us with north korea": {
+                "test:quote": "by the way would you help us with north korea", 
+                "test:type": "quote"
+            }, 
+            "test:well the one thing good is now i’ll get good press": {
+                "test:quote": "well the one thing good is now i’ll get good press", 
+                "test:type": "quote"
+            }, 
+            "test:i’ve never seen anything like this before as long as i’ve been in the military": {
+                "test:quote": "i’ve never seen anything like this before as long as i’ve been in the military", 
+                "test:type": "quote"
+            }, 
+            "test:you know this is more than just like 79 sic missiles": {
+                "test:quote": "you know this is more than just like 79 sic missiles", 
+                "test:type": "quote"
+            }, 
+            "test:since you got to office they have not manipulated their currency": {
+                "test:quote": "since you got to office they have not manipulated their currency", 
+                "test:type": "quote"
+            }, 
+            "test:i really would appreciate it if you would look into this and let her out": {
+                "test:quote": "i really would appreciate it if you would look into this and let her out", 
+                "test:type": "quote"
+            }, 
+            "test:come on you have to pay up you have to pay up": {
+                "test:quote": "come on you have to pay up you have to pay up", 
+                "test:type": "quote"
+            }, 
+            "test:begin the process of selecting a replacement": {
+                "test:quote": "begin the process of selecting a replacement", 
+                "test:type": "quote"
+            }, 
+            "test:i’m sorry we’re going to have to bid this out to another company namely boeing": {
+                "test:quote": "i’m sorry we’re going to have to bid this out to another company namely boeing", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

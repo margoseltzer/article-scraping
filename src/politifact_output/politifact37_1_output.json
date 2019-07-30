@@ -1,0 +1,161 @@
+{
+    "root": "http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+    "bundle": {
+        "wasAttributedTo": {
+            "12954": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Heather Caygle"
+            }, 
+            "12956": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Darren Samuelsohn"
+            }, 
+            "16500": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Marianne Levine"
+            }, 
+            "12950": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Alex Thompson"
+            }, 
+            "16509": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Holly Otterbein"
+            }, 
+            "12952": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:James Arkin"
+            }, 
+            "16507": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Natasha Bertrand"
+            }, 
+            "16511": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Anita Kumar"
+            }, 
+            "16513": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Eliana Johnson"
+            }, 
+            "12958": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Quint Forgey"
+            }, 
+            "16502": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Sabrina Rodriguez"
+            }, 
+            "12960": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Burgess Everett"
+            }, 
+            "12948": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Cristiano Lima"
+            }, 
+            "12942": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Maggie Severns"
+            }, 
+            "16515": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Ian Kullgren"
+            }, 
+            "12940": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "12946": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Laura Barrón-López"
+            }, 
+            "12944": {
+                "prov:entity": "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "prov:agent": "test:Ted Hesson"
+            }
+        }, 
+        "agent": {
+            "test:Alex Thompson": {
+                "test:name": "Alex Thompson", 
+                "test:type": "person"
+            }, 
+            "test:Heather Caygle": {
+                "test:name": "Heather Caygle", 
+                "test:type": "person"
+            }, 
+            "test:www.politico.com": {
+                "test:publisher": "www.politico.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Natasha Bertrand": {
+                "test:name": "Natasha Bertrand", 
+                "test:type": "person"
+            }, 
+            "test:Ted Hesson": {
+                "test:name": "Ted Hesson", 
+                "test:type": "person"
+            }, 
+            "test:Darren Samuelsohn": {
+                "test:name": "Darren Samuelsohn", 
+                "test:type": "person"
+            }, 
+            "test:Marianne Levine": {
+                "test:name": "Marianne Levine", 
+                "test:type": "person"
+            }, 
+            "test:Holly Otterbein": {
+                "test:name": "Holly Otterbein", 
+                "test:type": "person"
+            }, 
+            "test:Eliana Johnson": {
+                "test:name": "Eliana Johnson", 
+                "test:type": "person"
+            }, 
+            "test:Quint Forgey": {
+                "test:name": "Quint Forgey", 
+                "test:type": "person"
+            }, 
+            "test:Ian Kullgren": {
+                "test:name": "Ian Kullgren", 
+                "test:type": "person"
+            }, 
+            "test:Maggie Severns": {
+                "test:name": "Maggie Severns", 
+                "test:type": "person"
+            }, 
+            "test:Sabrina Rodriguez": {
+                "test:name": "Sabrina Rodriguez", 
+                "test:type": "person"
+            }, 
+            "test:Laura Barrón-López": {
+                "test:name": "Laura Barrón-López", 
+                "test:type": "person"
+            }, 
+            "test:Burgess Everett": {
+                "test:name": "Burgess Everett", 
+                "test:type": "person"
+            }, 
+            "test:Cristiano Lima": {
+                "test:name": "Cristiano Lima", 
+                "test:type": "person"
+            }, 
+            "test:Anita Kumar": {
+                "test:name": "Anita Kumar", 
+                "test:type": "person"
+            }, 
+            "test:James Arkin": {
+                "test:name": "James Arkin", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html": {
+                "test:url": "http://www.politico.com/arena/perm/John_Lewis_C42BBD6A-7821-4081-9870-082C08FF364E.html", 
+                "test:date": "", 
+                "test:title": "Politics, Policy, Political News", 
+                "test:type": "article"
+            }
+        }
+    }
+}

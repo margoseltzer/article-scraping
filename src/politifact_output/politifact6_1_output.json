@@ -1,0 +1,325 @@
+{
+    "root": "http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+    "bundle": {
+        "entity": {
+            "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/": {
+                "test:url": "http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "test:date": "2016-01-21", 
+                "test:title": "Donald Trump exaggerates when he says China has 'total control' over North Korea", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "14383": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:north korea would face daunting economic problems if china were to fully exercise its leverage for example by cutting off oil supplies or threatening to do so"
+            }, 
+            "14387": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:china is reluctant to exercise its leverage fearing possible effects of an economic breakdown on its border and an outflow of refugees"
+            }, 
+            "16430": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:total control just about of north korea"
+            }, 
+            "14363": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:it’s similar to dealing with a rebellious adolescent"
+            }, 
+            "14367": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:do the parents have total control"
+            }, 
+            "16456": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:it is not clear that the leadership cares"
+            }, 
+            "14411": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:as a result relations between china and north korea are strained"
+            }, 
+            "14415": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:chinese president xi has not met with north korea’s kim jongun while meeting six times with the south korean leader"
+            }, 
+            "14419": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:it is virtually certain that the chinese were given no advance warning of the test and chinese anger was quite evident in the public statements the government made after the test"
+            }, 
+            "14395": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:north korea is a country that prides itself on answering to no one and following no ones lead"
+            }, 
+            "14391": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:mr trump is correct that the chinese have leverage but it is leverage they would have to use with the north korean regime resisting them with everything they had"
+            }, 
+            "14399": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:this has been a consistent element of north korean behavior for decades and is of course the reason why the regime is such a danger for the united states for south korea the east asia region and the international community at large"
+            }, 
+            "14351": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:china they dont like to tell us but they have total control  just about of north korea"
+            }, 
+            "14355": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:they can solve the problem of north korea if they wanted to but they taunt us"
+            }, 
+            "16468": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:suggests a fundamental lack of understanding of both china and north korea both today and over the decades"
+            }, 
+            "14359": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:china does not ‘control’ north korea in any real sense of the word but it has influence over north korea  perhaps not as much as we think but more than beijing is willing to acknowledge"
+            }, 
+            "14379": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:china has much at stake in its strategic and economic relationship with north korea"
+            }, 
+            "14371": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:perhaps – they provide food and shelter"
+            }, 
+            "14375": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:but the cost to the parents of using such leverage can be prohibitive – driving a child out of the house and away from the family"
+            }, 
+            "14423": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:in the view of virtually every north korea and china expert i know the nuclear test was a slap in chinas face in addition to being a major challenge and threat to the international community"
+            }, 
+            "14407": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:china publicly and privately exhorted north korea not to test nukes and missiles over the past few months to no avail"
+            }, 
+            "14403": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:activity": "test:for decades the population has lived in extreme poverty while the elite has fared very well"
+            }
+        }, 
+        "wasAttributedTo": {
+            "14389": {
+                "prov:entity": "test:china is reluctant to exercise its leverage fearing possible effects of an economic breakdown on its border and an outflow of refugees", 
+                "prov:agent": "test:Haggard"
+            }, 
+            "16470": {
+                "prov:entity": "test:suggests a fundamental lack of understanding of both china and north korea both today and over the decades", 
+                "prov:agent": "test:Revere"
+            }, 
+            "14381": {
+                "prov:entity": "test:china has much at stake in its strategic and economic relationship with north korea", 
+                "prov:agent": "test:Ross"
+            }, 
+            "14349": {
+                "prov:entity": "test:http://www.politifact.com/truth-o-meter/statements/2016/jan/21/donald-trump/donald-trump-exaggerates-when-he-says-china-has-to/", 
+                "prov:agent": "test:www.politifact.com"
+            }, 
+            "14369": {
+                "prov:entity": "test:do the parents have total control", 
+                "prov:agent": "test:Ross"
+            }, 
+            "16458": {
+                "prov:entity": "test:it is not clear that the leadership cares", 
+                "prov:agent": "test:Ross of Boston College"
+            }, 
+            "14361": {
+                "prov:entity": "test:china does not ‘control’ north korea in any real sense of the word but it has influence over north korea  perhaps not as much as we think but more than beijing is willing to acknowledge", 
+                "prov:agent": "test:Evans J.R. Revere"
+            }, 
+            "16432": {
+                "prov:entity": "test:total control just about of north korea", 
+                "prov:agent": "test:Trump"
+            }, 
+            "14413": {
+                "prov:entity": "test:as a result relations between china and north korea are strained", 
+                "prov:agent": "test:Scott A. Snyder"
+            }, 
+            "14417": {
+                "prov:entity": "test:chinese president xi has not met with north korea’s kim jongun while meeting six times with the south korean leader", 
+                "prov:agent": "test:Scott A. Snyder"
+            }, 
+            "14365": {
+                "prov:entity": "test:it’s similar to dealing with a rebellious adolescent", 
+                "prov:agent": "test:Ross"
+            }, 
+            "14397": {
+                "prov:entity": "test:north korea is a country that prides itself on answering to no one and following no ones lead", 
+                "prov:agent": "test:Revere"
+            }, 
+            "14393": {
+                "prov:entity": "test:mr trump is correct that the chinese have leverage but it is leverage they would have to use with the north korean regime resisting them with everything they had", 
+                "prov:agent": "test:Joseph de Thomas"
+            }, 
+            "14353": {
+                "prov:entity": "test:china they dont like to tell us but they have total control  just about of north korea", 
+                "prov:agent": "test:Trump"
+            }, 
+            "14357": {
+                "prov:entity": "test:they can solve the problem of north korea if they wanted to but they taunt us", 
+                "prov:agent": "test:Trump"
+            }, 
+            "14385": {
+                "prov:entity": "test:north korea would face daunting economic problems if china were to fully exercise its leverage for example by cutting off oil supplies or threatening to do so", 
+                "prov:agent": "test:Haggard"
+            }, 
+            "14373": {
+                "prov:entity": "test:perhaps – they provide food and shelter", 
+                "prov:agent": "test:Ross"
+            }, 
+            "14377": {
+                "prov:entity": "test:but the cost to the parents of using such leverage can be prohibitive – driving a child out of the house and away from the family", 
+                "prov:agent": "test:Ross"
+            }, 
+            "14425": {
+                "prov:entity": "test:in the view of virtually every north korea and china expert i know the nuclear test was a slap in chinas face in addition to being a major challenge and threat to the international community", 
+                "prov:agent": "test:Revere"
+            }, 
+            "14409": {
+                "prov:entity": "test:china publicly and privately exhorted north korea not to test nukes and missiles over the past few months to no avail", 
+                "prov:agent": "test:Scott A. Snyder"
+            }, 
+            "14421": {
+                "prov:entity": "test:it is virtually certain that the chinese were given no advance warning of the test and chinese anger was quite evident in the public statements the government made after the test", 
+                "prov:agent": "test:Revere"
+            }, 
+            "14405": {
+                "prov:entity": "test:for decades the population has lived in extreme poverty while the elite has fared very well", 
+                "prov:agent": "test:Ross of Boston College"
+            }, 
+            "14401": {
+                "prov:entity": "test:this has been a consistent element of north korean behavior for decades and is of course the reason why the regime is such a danger for the united states for south korea the east asia region and the international community at large", 
+                "prov:agent": "test:Revere"
+            }
+        }, 
+        "agent": {
+            "test:Evans J.R. Revere": {
+                "test:name": "Evans J.R. Revere", 
+                "test:type": "person"
+            }, 
+            "test:Ross of Boston College": {
+                "test:name": "Ross of Boston College", 
+                "test:type": "person"
+            }, 
+            "test:Haggard": {
+                "test:name": "Haggard", 
+                "test:type": "person"
+            }, 
+            "test:Joseph de Thomas": {
+                "test:name": "Joseph de Thomas", 
+                "test:type": "person"
+            }, 
+            "test:Ross": {
+                "test:name": "Ross", 
+                "test:type": "person"
+            }, 
+            "test:www.politifact.com": {
+                "test:publisher": "www.politifact.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Scott A. Snyder": {
+                "test:name": "Scott A. Snyder", 
+                "test:type": "person"
+            }, 
+            "test:Trump": {
+                "test:name": "Trump", 
+                "test:type": "person"
+            }, 
+            "test:Revere": {
+                "test:name": "Revere", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:north korea is a country that prides itself on answering to no one and following no ones lead": {
+                "test:quote": "north korea is a country that prides itself on answering to no one and following no ones lead", 
+                "test:type": "quote"
+            }, 
+            "test:it is not clear that the leadership cares": {
+                "test:quote": "it is not clear that the leadership cares", 
+                "test:type": "quote"
+            }, 
+            "test:for decades the population has lived in extreme poverty while the elite has fared very well": {
+                "test:quote": "for decades the population has lived in extreme poverty while the elite has fared very well", 
+                "test:type": "quote"
+            }, 
+            "test:suggests a fundamental lack of understanding of both china and north korea both today and over the decades": {
+                "test:quote": "suggests a fundamental lack of understanding of both china and north korea both today and over the decades", 
+                "test:type": "quote"
+            }, 
+            "test:mr trump is correct that the chinese have leverage but it is leverage they would have to use with the north korean regime resisting them with everything they had": {
+                "test:quote": "mr trump is correct that the chinese have leverage but it is leverage they would have to use with the north korean regime resisting them with everything they had", 
+                "test:type": "quote"
+            }, 
+            "test:this has been a consistent element of north korean behavior for decades and is of course the reason why the regime is such a danger for the united states for south korea the east asia region and the international community at large": {
+                "test:quote": "this has been a consistent element of north korean behavior for decades and is of course the reason why the regime is such a danger for the united states for south korea the east asia region and the international community at large", 
+                "test:type": "quote"
+            }, 
+            "test:total control just about of north korea": {
+                "test:quote": "total control just about of north korea", 
+                "test:type": "quote"
+            }, 
+            "test:but the cost to the parents of using such leverage can be prohibitive – driving a child out of the house and away from the family": {
+                "test:quote": "but the cost to the parents of using such leverage can be prohibitive – driving a child out of the house and away from the family", 
+                "test:type": "quote"
+            }, 
+            "test:it is virtually certain that the chinese were given no advance warning of the test and chinese anger was quite evident in the public statements the government made after the test": {
+                "test:quote": "it is virtually certain that the chinese were given no advance warning of the test and chinese anger was quite evident in the public statements the government made after the test", 
+                "test:type": "quote"
+            }, 
+            "test:they can solve the problem of north korea if they wanted to but they taunt us": {
+                "test:quote": "they can solve the problem of north korea if they wanted to but they taunt us", 
+                "test:type": "quote"
+            }, 
+            "test:china is reluctant to exercise its leverage fearing possible effects of an economic breakdown on its border and an outflow of refugees": {
+                "test:quote": "china is reluctant to exercise its leverage fearing possible effects of an economic breakdown on its border and an outflow of refugees", 
+                "test:type": "quote"
+            }, 
+            "test:china has much at stake in its strategic and economic relationship with north korea": {
+                "test:quote": "china has much at stake in its strategic and economic relationship with north korea", 
+                "test:type": "quote"
+            }, 
+            "test:in the view of virtually every north korea and china expert i know the nuclear test was a slap in chinas face in addition to being a major challenge and threat to the international community": {
+                "test:quote": "in the view of virtually every north korea and china expert i know the nuclear test was a slap in chinas face in addition to being a major challenge and threat to the international community", 
+                "test:type": "quote"
+            }, 
+            "test:north korea would face daunting economic problems if china were to fully exercise its leverage for example by cutting off oil supplies or threatening to do so": {
+                "test:quote": "north korea would face daunting economic problems if china were to fully exercise its leverage for example by cutting off oil supplies or threatening to do so", 
+                "test:type": "quote"
+            }, 
+            "test:perhaps – they provide food and shelter": {
+                "test:quote": "perhaps – they provide food and shelter", 
+                "test:type": "quote"
+            }, 
+            "test:chinese president xi has not met with north korea’s kim jongun while meeting six times with the south korean leader": {
+                "test:quote": "chinese president xi has not met with north korea’s kim jongun while meeting six times with the south korean leader", 
+                "test:type": "quote"
+            }, 
+            "test:china publicly and privately exhorted north korea not to test nukes and missiles over the past few months to no avail": {
+                "test:quote": "china publicly and privately exhorted north korea not to test nukes and missiles over the past few months to no avail", 
+                "test:type": "quote"
+            }, 
+            "test:do the parents have total control": {
+                "test:quote": "do the parents have total control", 
+                "test:type": "quote"
+            }, 
+            "test:as a result relations between china and north korea are strained": {
+                "test:quote": "as a result relations between china and north korea are strained", 
+                "test:type": "quote"
+            }, 
+            "test:china they dont like to tell us but they have total control  just about of north korea": {
+                "test:quote": "china they dont like to tell us but they have total control  just about of north korea", 
+                "test:type": "quote"
+            }, 
+            "test:china does not ‘control’ north korea in any real sense of the word but it has influence over north korea  perhaps not as much as we think but more than beijing is willing to acknowledge": {
+                "test:quote": "china does not ‘control’ north korea in any real sense of the word but it has influence over north korea  perhaps not as much as we think but more than beijing is willing to acknowledge", 
+                "test:type": "quote"
+            }, 
+            "test:it’s similar to dealing with a rebellious adolescent": {
+                "test:quote": "it’s similar to dealing with a rebellious adolescent", 
+                "test:type": "quote"
+            }
+        }
+    }
+}
