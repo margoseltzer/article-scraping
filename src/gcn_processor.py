@@ -71,7 +71,7 @@ def separate_arts(ent_adj_dict):
             art_adj_dict[k] = tmp_as
             art_fts_dict[k] = tmp_fs
 
-        return art_adj_dict, art_fts_dict  
+        return art_adj_dict, art_fts_dict
 
 def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
     ''' Links articles that are two hops away from each other by quote or agent
@@ -88,11 +88,11 @@ def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
 
                 for i in v_2:
                     if i in adj_entities and obj_dict[i]['type'] != 'publisher':
-                        if obj_dict[i]['type'] == 'government':
-                            print(obj_dict[i]['type'])
                         adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
-        
-        # Process on fts_dict    
+                    else:
+                        adj_dict[k_1] = adj_dict[k_1] if k_1 in adj_dict else []
+
+        # Process on fts_dict
         if typ == 'non-art': continue
         for k_1, v_1 in dic.items():
             for f in v_1:
@@ -158,11 +158,11 @@ article_label_dic = get_article_dict(saved_file_name)
 # obj_dict: obj_id to {type, val}
 # ent/agn/qot_adj_dict: id to [ids] 
 obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = call_python_version('2.7', 'src.gcn_db_processor', 'process_db', [])
-print(len( set(list(ent_adj_dict.keys()) + list(agn_adj_dict.keys()) + list(qot_adj_dict.keys())) ))
+# print(len( set(list(ent_adj_dict.keys()) + list(agn_adj_dict.keys()) + list(qot_adj_dict.keys())) ))
 
 # Get article_id to idx dict of only article 
 art_id_idx_dict, fts_id_idx_dict = get_ids_idx_dicts(obj_dict)
-print(len(list(art_id_idx_dict.keys())))
+# print(len(list(art_id_idx_dict.keys())))
 # print(fts_id_idx_dict)
 
 # Convert all ids in dicts to idx
@@ -171,50 +171,42 @@ obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict = convert_ids_to_idx(art_id_i
 
 # Separate ent_adj into two pre reuslt dictionaries
 tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
+# print(len(tmp_aid_adj_dict))
+# print(len(tmp_aid_fid_dict))
 
 # Process dict_list so articles connected via one hop are in their adj_lists each other
 dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote':qot_adj_dict}
 
 aid_adj_dict, aid_fid_dict = link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
-# print(aid_adj_dict)
-# print(aid_fid_dict)
-print('adj  n :', len(aid_adj_dict.keys()))
-print(len(aid_fid_dict.keys()))
-a = list(set(list(itertools.chain.from_iterable(aid_adj_dict.values()))))
-b = list(set(list(itertools.chain.from_iterable(aid_fid_dict.values()))))
-print('     a :', len(a))
-print('     b :', len(b))
+# print(set(aid_adj_dict.keys()))
+# print(set(aid_fid_dict.keys()))
+print('  adj  n :', len(aid_adj_dict.keys()))
+print('  fts  n :', len(aid_fid_dict.keys()))
+a = set(list(itertools.chain.from_iterable(aid_adj_dict.values())))
+b = set(list(itertools.chain.from_iterable(aid_fid_dict.values())))
+print('       a :', len(a))
+print('       b :', len(b))
 
 l = 0
 for lst in aid_adj_dict.values():
     if len(lst) == 0: l += 1
-print(l)
+print('empty ns :', l)
 
-print('     n :', str(l+len(a)))
+print('       n :', str(l+len(a)))
 
 c = 0
 d = []
-for k in obj_dict.keys():
+for k, v in obj_dict.items():
     if k[0] == 'a': 
         c += 1
         d.append(k)
-print('real n :', c)
+    # if v['type'] == 'government':
+    #     print(v)
+print('  real n :', c)
 
-print('real n :', len(set(d + list(aid_fid_dict.keys()))))
-
-
-
+print('  real n :', len(set(d + list(aid_fid_dict.keys()))))
 
 # Add label vector on obj_dict  
 get_y(obj_dict, article_label_dic)
 
-# print(feature_dict)
-# print(art_adj_dict.keys())
-# print(len(art_adj_dict.keys()))
-# print(obj_dict)
-# print(len(obj_dict))
-# print(article_label_dic)
 print('DONE')
-
-# TODO scrape more labeled articles
-# TODO need lists of articles, quotes, agents, governmnet and maps of articles and the rest

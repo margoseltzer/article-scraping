@@ -44,8 +44,10 @@ def process_db():
         # type 8 = entity to entity, 'wasDerivedFrom'
         if r.type == 8: 
             ent_adj_dict[r.base.id]  = ent_adj_dict[r.base.id] + [r.other.id] if r.base.id  in ent_adj_dict else [r.other.id]
+            if obj_dict[r.other.id]['type'] == 'article':
                 ent_adj_dict[r.other.id] = ent_adj_dict[r.other.id] + [r.base.id] if r.other.id in ent_adj_dict else [r.base.id]
-
+            # if obj_dict[r.other.id]['type'] == 'government':
+            #     print(obj_dict[r.other.id])
         # type 11 = entity to agent, or activity to agent 'wasAttributedTo'
         elif r.type == 11 and obj_dict[r.base.id]['type'] == 'article':
             agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]

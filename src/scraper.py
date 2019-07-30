@@ -388,16 +388,16 @@ def handle_url_list_file(file_name, depth):
             idx = 1
             url_utils = UrlUtils()
             for row in csv_reader:
-                if idx <= 10: 
-                    print(idx)
-                    idx += 1
-                    continue
+                # if idx <= 10: 
+                #     print(idx)
+                #     idx += 1
+                #     continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
                 print('url in the dataset ', url)
                 print('index is ', idx)
-                label = row['truth']
+                label = row['label']
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
