@@ -16,8 +16,6 @@ import string
 
 def process_db():
     db_connection = CPL.cpl_connection()
-    # bundles = 145
-    # total nodes = 2620
     roots = db_connection.get_all_objects('test')
     bundles = [r.object for r in roots]
     obj_props = []
@@ -48,16 +46,20 @@ def process_db():
                 ent_adj_dict[r.other.id] = ent_adj_dict[r.other.id] + [r.base.id] if r.other.id in ent_adj_dict else [r.base.id]
             # if obj_dict[r.other.id]['type'] == 'government':
             #     print(obj_dict[r.other.id])
-        # type 11 = entity to agent, or activity to agent 'wasAttributedTo'
-        elif r.type == 11 and obj_dict[r.base.id]['type'] == 'article':
-            agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]
         
+        # type 11 = entity to agent, or activity to agent 'wasAttributedTo'. 
+        elif r.type == 11:
+            if obj_dict[r.base.id]['type'] == 'article':
+                agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]
+            
+            # r.base.id is quote id connected to person who is only connected to quotes
+            else:  
+                obj_dict[r.other.id]['to'] = obj_dict[r.other.id]['to'] + [r.base.id] if 'to' in obj_dict[r.other.id] else [r.base.id]
+
         # type 9 = entity to quote, 'wasGeneratedBy'
         elif r.type == 9:
             qot_adj_dict[r.base.id] = qot_adj_dict[r.base.id] + [r.other.id] if r.base.id in qot_adj_dict else [r.other.id]
-            
-    # Check if all object is 
-  
+
     # Remove all duplicates
     ent_adj_dict = {k_id: list(set(v_ids)) for (k_id, v_ids) in ent_adj_dict.items()}
     agn_adj_dict = {k_id: list(set(v_ids)) for (k_id, v_ids) in agn_adj_dict.items()}
