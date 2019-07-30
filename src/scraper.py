@@ -123,8 +123,7 @@ class NewsArticle(object):
 
     def find_quotes(self):
         print('find quotes')
-        print(self.text)
-        #self.q
+        # self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         try:
             self.quotes = self.__sNLP.annotate(self.text)

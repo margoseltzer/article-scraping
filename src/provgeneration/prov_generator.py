@@ -22,23 +22,23 @@ def add_article(article, bundle):
     # add article object
     short_aricle_url = article_url[:250] if len(article_url) > 250 else article_url
     try:
-        article_object = db_connection.lookup_by_property(originator, 'url', article_url)[0]
+        article_object = db_connection.lookup_by_string_property(originator, 'url', article_url)[0]
     except Exception as e:
         print(str(e.message))
         article_object = db_connection.create_object(originator, short_aricle_url, ENTITY)
-    article_object.add_property(originator, 'type', 'article')
-    article_object.add_property(originator, 'url', article_url)
-    article_object.add_property(originator, 'title', article_title)
+    article_object.add_string_property(originator, 'type', 'article')
+    article_object.add_string_property(originator, 'url', article_url)
+    article_object.add_string_property(originator, 'title', article_title)
 
     # add date, text to article_object property
-    article_object.add_property(originator, 'date', article_publish_date)
+    article_object.add_string_property(originator, 'date', article_publish_date)
 
     try:
-        publisher_object = db_connection.lookup_by_property(originator, 'publisher', article_publisher)[0]
+        publisher_object = db_connection.lookup_by_string_property(originator, 'publisher', article_publisher)[0]
     except Exception as e:
         publisher_object = db_connection.create_object(originator, article_publisher, AGENT)
-        publisher_object.add_property(originator, 'publisher', article_publisher)
-        publisher_object.add_property(originator, 'type', 'publisher')
+        publisher_object.add_string_property(originator, 'publisher', article_publisher)
+        publisher_object.add_string_property(originator, 'type', 'publisher')
     
     # add relation between publisher and article
     try:
@@ -54,11 +54,11 @@ def add_article(article, bundle):
     for author in article_authors:
         author_name = author['name'].encode('utf-8')
         try:
-           author_object = db_connection.lookup_by_property(originator, 'name', author_name)[0]
+           author_object = db_connection.lookup_by_string_property(originator, 'name', author_name)[0]
         except Exception as e:
             author_object = db_connection.create_object(originator, author_name, AGENT)
-            author_object.add_property(originator, 'name', author_name)
-            author_object.add_property(originator, 'type', 'person')
+            author_object.add_string_property(originator, 'name', author_name)
+            author_object.add_string_property(originator, 'type', 'person')
     
         # add relation between author and article
         try:
@@ -93,11 +93,11 @@ def add_article(article, bundle):
         if quote_object and quote[1]:
             speaker_string = quote[1].encode('utf-8')
             try:
-                speaker_object = db_connection.lookup_by_property(originator, 'name', speaker_string)[0]
+                speaker_object = db_connection.lookup_by_string_property(originator, 'name', speaker_string)[0]
             except Exception as e:
                 speaker_object = db_connection.create_object(originator, speaker_string, AGENT)
-                speaker_object.add_property(originator, 'name', speaker_string)
-                speaker_object.add_property(originator, 'type', 'person')
+                speaker_object.add_string_property(originator, 'name', speaker_string)
+                speaker_object.add_string_property(originator, 'type', 'person')
 
             try:
                 quote_speaker_relation = db_connection.lookup_relation(quote_object.id, speaker_object.id, WASATTRIBUTEDTO)
@@ -116,11 +116,11 @@ def convert_quote_str(quote_str):
 
 def add_quote(article_id, quote_str, bundle):
     try:
-        quote_object = db_connection.lookup_by_property(originator, 'quote', quote_str)[0]
+        quote_object = db_connection.lookup_by_string_property(originator, 'quote', quote_str)[0]
     except Exception as e:
         quote_object = db_connection.create_object(originator, quote_str[0:255], CPL.ACTIVITY)
-        quote_object.add_property(originator, 'quote', quote_str)
-        quote_object.add_property(originator, 'type', 'quote')
+        quote_object.add_string_property(originator, 'quote', quote_str)
+        quote_object.add_string_property(originator, 'type', 'quote')
     add_quote_relation(article_id, quote_object, bundle)
     return quote_object
 
@@ -140,11 +140,11 @@ def add_reference_relation(article, articles_object_map, bundle):
             reference_object = articles_object_map[url]  
         except Exception as e:
             try:
-                reference_object = db_connection.lookup_by_property(originator, 'url', url_str)[0]
+                reference_object = db_connection.lookup_by_string_property(originator, 'url', url_str)[0]
             except Exception as e:
                 reference_object = db_connection.create_object(originator, short_url_str, ENTITY)
-            reference_object.add_property(originator, 'url', url_str)
-            reference_object.add_property(originator, 'type', url_type)
+            reference_object.add_string_property(originator, 'url', url_str)
+            reference_object.add_string_property(originator, 'type', url_type)
         try:
             reference_relation = db_connection.lookup_relation(article_object_id, reference_object.id, WASDERIVEDFROM)
         except Exception as e:
