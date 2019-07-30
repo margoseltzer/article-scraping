@@ -1,0 +1,595 @@
+{
+    "root": "https://newspunch.com/italy-health-board-vaccines/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "3452": {
+                "prov:usedEntity": "test:https://newspunch.com/sweden-mandatory-vaccinations/", 
+                "prov:generatedEntity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/"
+            }, 
+            "3466": {
+                "prov:usedEntity": "test:https://www.facebook.com/mauriziolupi.it/videos/10155541295653694/", 
+                "prov:generatedEntity": "test:https://newspunch.com/italian-mandatory-vaccinations/"
+            }, 
+            "3450": {
+                "prov:usedEntity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:generatedEntity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/"
+            }, 
+            "3464": {
+                "prov:usedEntity": "test:https://vimeo.com/221496001", 
+                "prov:generatedEntity": "test:https://newspunch.com/italian-mandatory-vaccinations/"
+            }, 
+            "3456": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts"
+            }, 
+            "3448": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:generatedEntity": "test:https://newspunch.com/italy-health-board-vaccines/"
+            }, 
+            "3454": {
+                "prov:usedEntity": "test:https://vimeo.com/224014038", 
+                "prov:generatedEntity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/"
+            }, 
+            "3460": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/five-star-movement", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts"
+            }, 
+            "3458": {
+                "prov:usedEntity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts"
+            }, 
+            "3446": {
+                "prov:usedEntity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:generatedEntity": "test:https://newspunch.com/italy-health-board-vaccines/"
+            }, 
+            "3468": {
+                "prov:usedEntity": "test:https://www.theguardian.com/world/2018/may/24/italy-government-collision-course-eu-m5s-liga", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league"
+            }, 
+            "3472": {
+                "prov:usedEntity": "test:https://www.theguardian.com/football/roma", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal"
+            }, 
+            "3470": {
+                "prov:usedEntity": "test:https://www.theguardian.com/football/serieafootball", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal"
+            }, 
+            "3474": {
+                "prov:usedEntity": "test:https://twitter.com/intent/tweet?text=Francesco%20Totti%20at%2040%3A%20the%20eternal%20man&url=https%3A%2F%2Fwww.theguardian.com%2Ffootball%2Fthese-football-times%2F2016%2Fsep%2F27%2Ffrancesco-totti-40-roma-italy-eternal%3FCMP%3Dshare_btn_tw%26page%3", 
+                "prov:generatedEntity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal"
+            }, 
+            "3462": {
+                "prov:usedEntity": "test:https://newspunch.com/sweden-mandatory-vaccinations/", 
+                "prov:generatedEntity": "test:https://newspunch.com/italian-mandatory-vaccinations/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3444": {
+                "prov:entity": "test:https://www.theguardian.com/world/five-star-movement", 
+                "prov:agent": "test:John Harris"
+            }, 
+            "3420": {
+                "prov:entity": "test:when you are a kid in rome there are only two possible choices you are either red or blue", 
+                "prov:agent": "test:Giuseppe Signori"
+            }, 
+            "3346": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "3406": {
+                "prov:entity": "test:i think that this is the basic problem", 
+                "prov:agent": "test:Bonino"
+            }, 
+            "3440": {
+                "prov:entity": "test:https://www.theguardian.com/world/five-star-movement", 
+                "prov:agent": "test:Roberto Saviano"
+            }, 
+            "3416": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:agent": "test:Omar Saleem"
+            }, 
+            "3322": {
+                "prov:entity": "test:we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities", 
+                "prov:agent": "test:Grillo"
+            }, 
+            "3378": {
+                "prov:entity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "3324": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "3436": {
+                "prov:entity": "test:this club this city has been my life", 
+                "prov:agent": "test:Giuseppe Signori"
+            }, 
+            "3326": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "3424": {
+                "prov:entity": "test:but in our family there was only one possible choice", 
+                "prov:agent": "test:Giuseppe Signori"
+            }, 
+            "3386": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "3348": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:agent": "test:Angela Giuffrida"
+            }, 
+            "3442": {
+                "prov:entity": "test:https://www.theguardian.com/world/five-star-movement", 
+                "prov:agent": "test:Francesco Grillo"
+            }, 
+            "3432": {
+                "prov:entity": "test:rome is the sea the mountains the monuments", 
+                "prov:agent": "test:Giuseppe Signori"
+            }, 
+            "3360": {
+                "prov:entity": "test:we are also worried about who will make up the next council and especially if the nominations are politically motivated", 
+                "prov:agent": "test:Roberta Siliquini"
+            }, 
+            "3388": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:agent": "test:Angela Giuffrida"
+            }, 
+            "3438": {
+                "prov:entity": "test:https://www.theguardian.com/world/five-star-movement", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "3318": {
+                "prov:entity": "test:https://newspunch.com/italy-health-board-vaccines/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "3356": {
+                "prov:entity": "test:we are worried about why they have decided to remove people who were selected due to their experience and competencies at the highest level", 
+                "prov:agent": "test:Roberta Siliquini"
+            }, 
+            "3336": {
+                "prov:entity": "test:soon we will have to fight on many fronts", 
+                "prov:agent": "test:Pepe"
+            }, 
+            "3352": {
+                "prov:entity": "test:we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities", 
+                "prov:agent": "test:Roberta Siliquini"
+            }, 
+            "3316": {
+                "prov:entity": "test:https://newspunch.com/italy-health-board-vaccines/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "3390": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:agent": "test:Stephanie Kirchgaessner"
+            }, 
+            "3428": {
+                "prov:entity": "test:rome is my family my friends the people that i love", 
+                "prov:agent": "test:Giuseppe Signori"
+            }, 
+            "3394": {
+                "prov:entity": "test:there is an institutional grammar that has to be rewritten", 
+                "prov:agent": "test:Giovanni Orsina"
+            }, 
+            "3332": {
+                "prov:entity": "test:what we are fighting for now is not just for vaccines what is at stake is the freedom of the people because people are put aside from the interests of multinational corporations such as the pharmaceuticals like in this case or oil or banks", 
+                "prov:agent": "test:Pepe"
+            }, 
+            "3376": {
+                "prov:entity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "3374": {
+                "prov:entity": "test:but she never asked us anything during these six months which was probably a strong signal", 
+                "prov:agent": "test:Siliquini"
+            }, 
+            "3414": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:agent": "test:www.theguardian.com"
+            }, 
+            "3370": {
+                "prov:entity": "test:we’re the organisation that helps them from a scientific and technical point of view to make decisions on policy", 
+                "prov:agent": "test:Siliquini"
+            }, 
+            "3402": {
+                "prov:entity": "test:they consider the institutions to be their property", 
+                "prov:agent": "test:Bonino"
+            }, 
+            "3398": {
+                "prov:entity": "test:this conflict is something we might have expected because president mattarella – installed by the former prime minister matteo renzi – belongs to the old majority and the populists are impatient when it comes to checks and balances dictated by the ita", 
+                "prov:agent": "test:Giovanni Orsina"
+            }, 
+            "3412": {
+                "prov:entity": "test:it has been a useful way for five star to attack any established expertise", 
+                "prov:agent": "test:Iacoboni"
+            }
+        }, 
+        "agent": {
+            "test:Angela Giuffrida": {
+                "test:name": "Angela Giuffrida", 
+                "test:type": "person"
+            }, 
+            "test:Francesco Grillo": {
+                "test:name": "Francesco Grillo", 
+                "test:type": "person"
+            }, 
+            "test:Baxter Dmitry": {
+                "test:name": "Baxter Dmitry", 
+                "test:type": "person"
+            }, 
+            "test:Giuseppe Signori": {
+                "test:name": "Giuseppe Signori", 
+                "test:type": "person"
+            }, 
+            "test:newspunch.com": {
+                "test:publisher": "newspunch.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Bonino": {
+                "test:name": "Bonino", 
+                "test:type": "person"
+            }, 
+            "test:www.theguardian.com": {
+                "test:publisher": "www.theguardian.com", 
+                "test:type": "publisher"
+            }, 
+            "test:John Harris": {
+                "test:name": "John Harris", 
+                "test:type": "person"
+            }, 
+            "test:Stephanie Kirchgaessner": {
+                "test:name": "Stephanie Kirchgaessner", 
+                "test:type": "person"
+            }, 
+            "test:Siliquini": {
+                "test:name": "Siliquini", 
+                "test:type": "person"
+            }, 
+            "test:Roberta Siliquini": {
+                "test:name": "Roberta Siliquini", 
+                "test:type": "person"
+            }, 
+            "test:Iacoboni": {
+                "test:name": "Iacoboni", 
+                "test:type": "person"
+            }, 
+            "test:Grillo": {
+                "test:name": "Grillo", 
+                "test:type": "person"
+            }, 
+            "test:Roberto Saviano": {
+                "test:name": "Roberto Saviano", 
+                "test:type": "person"
+            }, 
+            "test:Giovanni Orsina": {
+                "test:name": "Giovanni Orsina", 
+                "test:type": "person"
+            }, 
+            "test:Omar Saleem": {
+                "test:name": "Omar Saleem", 
+                "test:type": "person"
+            }, 
+            "test:Pepe": {
+                "test:name": "Pepe", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://newspunch.com/italy-health-board-vaccines/": {
+                "test:url": "https://newspunch.com/italy-health-board-vaccines/", 
+                "test:date": "2018-12-05", 
+                "test:title": "Italy Fires Pro-Vaccine Health Board; Paves Way To Ban ‘Dangerous Vaccines’", 
+                "test:type": "article"
+            }, 
+            "test:https://vimeo.com/224014038": {
+                "test:url": "https://vimeo.com/224014038", 
+                "test:type": "reference"
+            }, 
+            "test:https://vimeo.com/221496001": {
+                "test:url": "https://vimeo.com/221496001", 
+                "test:type": "reference"
+            }, 
+            "test:https://newspunch.com/italian-mandatory-vaccinations/": {
+                "test:url": "https://newspunch.com/italian-mandatory-vaccinations/", 
+                "test:date": "2017-06-17", 
+                "test:title": "Italian Government To Remove Unvaccinated Children From Parents", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/five-star-movement": {
+                "test:url": "https://www.theguardian.com/world/five-star-movement", 
+                "test:date": "", 
+                "test:title": "Five Star Movement", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal": {
+                "test:url": "https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "test:date": "2016-09-27", 
+                "test:title": "Francesco Totti at 40: the eternal man", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/sweden-mandatory-vaccinations/": {
+                "test:url": "https://newspunch.com/sweden-mandatory-vaccinations/", 
+                "test:type": "reference"
+            }, 
+            "test:https://newspunch.com/millions-italians-mandatory-vaccination/": {
+                "test:url": "https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "test:date": "2017-07-06", 
+                "test:title": "Millions Of Italians Rise Up Against New Mandatory Vaccination Law", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league": {
+                "test:url": "https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "test:date": "2018-05-26", 
+                "test:title": "'Miracle' cures and europhobia – the strange origins of Italy's new rulers", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts": {
+                "test:url": "https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "test:date": "2018-12-04", 
+                "test:title": "Sacking of Italy's health experts raises political interference concerns", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/football/serieafootball": {
+                "test:url": "https://www.theguardian.com/football/serieafootball", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/world/2018/may/24/italy-government-collision-course-eu-m5s-liga": {
+                "test:url": "https://www.theguardian.com/world/2018/may/24/italy-government-collision-course-eu-m5s-liga", 
+                "test:type": "article"
+            }, 
+            "test:https://www.theguardian.com/football/roma": {
+                "test:url": "https://www.theguardian.com/football/roma", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.facebook.com/mauriziolupi.it/videos/10155541295653694/": {
+                "test:url": "https://www.facebook.com/mauriziolupi.it/videos/10155541295653694/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/intent/tweet?text=Francesco%20Totti%20at%2040%3A%20the%20eternal%20man&url=https%3A%2F%2Fwww.theguardian.com%2Ffootball%2Fthese-football-times%2F2016%2Fsep%2F27%2Ffrancesco-totti-40-roma-italy-eternal%3FCMP%3Dshare_btn_tw%26page%3": {
+                "test:url": "https://twitter.com/intent/tweet?text=Francesco%20Totti%20at%2040%3A%20the%20eternal%20man&url=https%3A%2F%2Fwww.theguardian.com%2Ffootball%2Fthese-football-times%2F2016%2Fsep%2F27%2Ffrancesco-totti-40-roma-italy-eternal%3FCMP%3Dshare_btn_tw%26page%3Dwith%3Aimg-2%23img-2", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:we are worried about why they have decided to remove people who were selected due to their experience and competencies at the highest level": {
+                "test:quote": "we are worried about why they have decided to remove people who were selected due to their experience and competencies at the highest level", 
+                "test:type": "quote"
+            }, 
+            "test:but the crucially important thing is that the new people are competent – it would be like sending francesco totti away from the football team and replacing him with someone meagre": {
+                "test:quote": "but the crucially important thing is that the new people are competent – it would be like sending francesco totti away from the football team and replacing him with someone meagre", 
+                "test:type": "quote"
+            }, 
+            "test:it has been a useful way for five star to attack any established expertise": {
+                "test:quote": "it has been a useful way for five star to attack any established expertise", 
+                "test:type": "quote"
+            }, 
+            "test:we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities": {
+                "test:quote": "we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities", 
+                "test:type": "quote"
+            }, 
+            "test:lorenzin cancel your law we are not your herd": {
+                "test:quote": "lorenzin cancel your law we are not your herd", 
+                "test:type": "quote"
+            }, 
+            "test:soon we will have to fight on many fronts": {
+                "test:quote": "soon we will have to fight on many fronts", 
+                "test:type": "quote"
+            }, 
+            "test:there is an institutional grammar that has to be rewritten": {
+                "test:quote": "there is an institutional grammar that has to be rewritten", 
+                "test:type": "quote"
+            }, 
+            "test:if you send totti away you replace him with cristiano ronaldo": {
+                "test:quote": "if you send totti away you replace him with cristiano ronaldo", 
+                "test:type": "quote"
+            }, 
+            "test:rome is the sea the mountains the monuments": {
+                "test:quote": "rome is the sea the mountains the monuments", 
+                "test:type": "quote"
+            }, 
+            "test:rome is my family my friends the people that i love": {
+                "test:quote": "rome is my family my friends the people that i love", 
+                "test:type": "quote"
+            }, 
+            "test:i am addressing the medical professionals too who seem to be ignoring that today we are the pioneers of this battle that will concern them eventually": {
+                "test:quote": "i am addressing the medical professionals too who seem to be ignoring that today we are the pioneers of this battle that will concern them eventually", 
+                "test:type": "quote"
+            }, 
+            "test:this club this city has been my life": {
+                "test:quote": "this club this city has been my life", 
+                "test:type": "quote"
+            }, 
+            "test:the antiscientific mood is very big": {
+                "test:quote": "the antiscientific mood is very big", 
+                "test:type": "quote"
+            }, 
+            "test:a mandate is unconstitutional and this decreelaw is unconstitutional because there is no emergency it is unconstitutional because it prohibits access to education it is unconstitutional because it violates the body integrity ratified by the european conve": {
+                "test:quote": "a mandate is unconstitutional and this decreelaw is unconstitutional because there is no emergency it is unconstitutional because it prohibits access to education it is unconstitutional because it violates the body integrity ratified by the european convention of human rights so we will appeal to the european court of justice", 
+                "test:type": "quote"
+            }, 
+            "test:they consider the institutions to be their property": {
+                "test:quote": "they consider the institutions to be their property", 
+                "test:type": "quote"
+            }, 
+            "test:we’re the organisation that helps them from a scientific and technical point of view to make decisions on policy": {
+                "test:quote": "we’re the organisation that helps them from a scientific and technical point of view to make decisions on policy", 
+                "test:type": "quote"
+            }, 
+            "test:i think that this is the basic problem": {
+                "test:quote": "i think that this is the basic problem", 
+                "test:type": "quote"
+            }, 
+            "test:because they too will lose their freedom of thought because they too will not be able to choose what therapies to recommend or advise against": {
+                "test:quote": "because they too will lose their freedom of thought because they too will not be able to choose what therapies to recommend or advise against", 
+                "test:type": "quote"
+            }, 
+            "test:i am a parent who has tried to follow the path of the law and i have found myself in front of shameful situations when the state courts consider vaccine injured kids as allow me to say the town’s idiots the losers": {
+                "test:quote": "i am a parent who has tried to follow the path of the law and i have found myself in front of shameful situations when the state courts consider vaccine injured kids as allow me to say the town’s idiots the losers", 
+                "test:type": "quote"
+            }, 
+            "test:but in our family there was only one possible choice": {
+                "test:quote": "but in our family there was only one possible choice", 
+                "test:type": "quote"
+            }, 
+            "test:they call themselves ‘the government of change’ and so want new people": {
+                "test:quote": "they call themselves ‘the government of change’ and so want new people", 
+                "test:type": "quote"
+            }, 
+            "test:in 2014 in washington during the visit of lorenzin italian health minister italy was chosen to be the world leader of vaccine strategy": {
+                "test:quote": "in 2014 in washington during the visit of lorenzin italian health minister italy was chosen to be the world leader of vaccine strategy", 
+                "test:type": "quote"
+            }, 
+            "test:every one of us is a unique individual with his unique genetic heritage so the same drug cannot be mandated to all": {
+                "test:quote": "every one of us is a unique individual with his unique genetic heritage so the same drug cannot be mandated to all", 
+                "test:type": "quote"
+            }, 
+            "test:when you are a kid in rome there are only two possible choices you are either red or blue": {
+                "test:quote": "when you are a kid in rome there are only two possible choices you are either red or blue", 
+                "test:type": "quote"
+            }, 
+            "test:but she never asked us anything during these six months which was probably a strong signal": {
+                "test:quote": "but she never asked us anything during these six months which was probably a strong signal", 
+                "test:type": "quote"
+            }, 
+            "test:this conflict is something we might have expected because president mattarella – installed by the former prime minister matteo renzi – belongs to the old majority and the populists are impatient when it comes to checks and balances dictated by the ita": {
+                "test:quote": "this conflict is something we might have expected because president mattarella – installed by the former prime minister matteo renzi – belongs to the old majority and the populists are impatient when it comes to checks and balances dictated by the italian constitution", 
+                "test:type": "quote"
+            }, 
+            "test:what we are fighting for now is not just for vaccines what is at stake is the freedom of the people because people are put aside from the interests of multinational corporations such as the pharmaceuticals like in this case or oil or banks": {
+                "test:quote": "what we are fighting for now is not just for vaccines what is at stake is the freedom of the people because people are put aside from the interests of multinational corporations such as the pharmaceuticals like in this case or oil or banks", 
+                "test:type": "quote"
+            }, 
+            "test:i am here as a parent as a parent of a child who unfortunately has been damaged by a hexavalent vaccine": {
+                "test:quote": "i am here as a parent as a parent of a child who unfortunately has been damaged by a hexavalent vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:we are also worried about who will make up the next council and especially if the nominations are politically motivated": {
+                "test:quote": "we are also worried about who will make up the next council and especially if the nominations are politically motivated", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3426": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:activity": "test:rome is my family my friends the people that i love"
+            }, 
+            "3320": {
+                "prov:entity": "test:https://newspunch.com/italy-health-board-vaccines/", 
+                "prov:activity": "test:we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities"
+            }, 
+            "3344": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:a mandate is unconstitutional and this decreelaw is unconstitutional because there is no emergency it is unconstitutional because it prohibits access to education it is unconstitutional because it violates the body integrity ratified by the european conve"
+            }, 
+            "3410": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:it has been a useful way for five star to attack any established expertise"
+            }, 
+            "3408": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:the antiscientific mood is very big"
+            }, 
+            "3328": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:in 2014 in washington during the visit of lorenzin italian health minister italy was chosen to be the world leader of vaccine strategy"
+            }, 
+            "3418": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:activity": "test:when you are a kid in rome there are only two possible choices you are either red or blue"
+            }, 
+            "3384": {
+                "prov:entity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:activity": "test:i am a parent who has tried to follow the path of the law and i have found myself in front of shameful situations when the state courts consider vaccine injured kids as allow me to say the town’s idiots the losers"
+            }, 
+            "3368": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:we’re the organisation that helps them from a scientific and technical point of view to make decisions on policy"
+            }, 
+            "3380": {
+                "prov:entity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:activity": "test:lorenzin cancel your law we are not your herd"
+            }, 
+            "3342": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:every one of us is a unique individual with his unique genetic heritage so the same drug cannot be mandated to all"
+            }, 
+            "3340": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:because they too will lose their freedom of thought because they too will not be able to choose what therapies to recommend or advise against"
+            }, 
+            "3434": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:activity": "test:this club this city has been my life"
+            }, 
+            "3362": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:they call themselves ‘the government of change’ and so want new people"
+            }, 
+            "3354": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:we are worried about why they have decided to remove people who were selected due to their experience and competencies at the highest level"
+            }, 
+            "3330": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:what we are fighting for now is not just for vaccines what is at stake is the freedom of the people because people are put aside from the interests of multinational corporations such as the pharmaceuticals like in this case or oil or banks"
+            }, 
+            "3350": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:we are the governmentofchange and as i have already done with the appointments of the various organs and committees of the ministry i have chosen to open the door to other deserving personalities"
+            }, 
+            "3334": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:soon we will have to fight on many fronts"
+            }, 
+            "3382": {
+                "prov:entity": "test:https://newspunch.com/italian-mandatory-vaccinations/", 
+                "prov:activity": "test:i am here as a parent as a parent of a child who unfortunately has been damaged by a hexavalent vaccine"
+            }, 
+            "3338": {
+                "prov:entity": "test:https://newspunch.com/millions-italians-mandatory-vaccination/", 
+                "prov:activity": "test:i am addressing the medical professionals too who seem to be ignoring that today we are the pioneers of this battle that will concern them eventually"
+            }, 
+            "3358": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:we are also worried about who will make up the next council and especially if the nominations are politically motivated"
+            }, 
+            "3430": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:activity": "test:rome is the sea the mountains the monuments"
+            }, 
+            "3392": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:there is an institutional grammar that has to be rewritten"
+            }, 
+            "3400": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:they consider the institutions to be their property"
+            }, 
+            "3396": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:this conflict is something we might have expected because president mattarella – installed by the former prime minister matteo renzi – belongs to the old majority and the populists are impatient when it comes to checks and balances dictated by the ita"
+            }, 
+            "3422": {
+                "prov:entity": "test:https://www.theguardian.com/football/these-football-times/2016/sep/27/francesco-totti-40-roma-italy-eternal", 
+                "prov:activity": "test:but in our family there was only one possible choice"
+            }, 
+            "3372": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:but she never asked us anything during these six months which was probably a strong signal"
+            }, 
+            "3364": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:but the crucially important thing is that the new people are competent – it would be like sending francesco totti away from the football team and replacing him with someone meagre"
+            }, 
+            "3366": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/dec/04/politically-motivated-italys-m5s-sacks-peak-board-of-health-experts", 
+                "prov:activity": "test:if you send totti away you replace him with cristiano ronaldo"
+            }, 
+            "3404": {
+                "prov:entity": "test:https://www.theguardian.com/world/2018/may/26/charlatan-miracle-cure-italy-populist-new-government-five-star-movement-league", 
+                "prov:activity": "test:i think that this is the basic problem"
+            }
+        }
+    }
+}

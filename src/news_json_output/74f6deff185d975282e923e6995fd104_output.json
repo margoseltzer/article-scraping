@@ -1,0 +1,35 @@
+{
+    "root": "https://www.mtlblog.com/news/canada/qc/montreal/officials-warn-of-measles-contamination-risk-at-montreal-restaurant", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "6000": {
+                "prov:usedEntity": "test:https://santemontreal.qc.ca/en/public/support-and-services/info-sante-and-info-social-8-1-1/", 
+                "prov:generatedEntity": "test:https://www.mtlblog.com/news/canada/qc/montreal/officials-warn-of-measles-contamination-risk-at-montreal-restaurant"
+            }
+        }, 
+        "wasAttributedTo": {
+            "5998": {
+                "prov:entity": "test:https://www.mtlblog.com/news/canada/qc/montreal/officials-warn-of-measles-contamination-risk-at-montreal-restaurant", 
+                "prov:agent": "test:www.mtlblog.com"
+            }
+        }, 
+        "agent": {
+            "test:www.mtlblog.com": {
+                "test:publisher": "www.mtlblog.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.mtlblog.com/news/canada/qc/montreal/officials-warn-of-measles-contamination-risk-at-montreal-restaurant": {
+                "test:url": "https://www.mtlblog.com/news/canada/qc/montreal/officials-warn-of-measles-contamination-risk-at-montreal-restaurant", 
+                "test:date": "", 
+                "test:title": "Officials Warn Of Measles Contamination Risk At Montreal Restaurant", 
+                "test:type": "article"
+            }, 
+            "test:https://santemontreal.qc.ca/en/public/support-and-services/info-sante-and-info-social-8-1-1/": {
+                "test:url": "https://santemontreal.qc.ca/en/public/support-and-services/info-sante-and-info-social-8-1-1/", 
+                "test:type": "reference"
+            }
+        }
+    }
+}

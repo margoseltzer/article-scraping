@@ -1,0 +1,949 @@
+{
+    "root": "http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "4027": {
+                "prov:usedEntity": "test:https://time.com//time.com/newsletter/the-brief/", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4025": {
+                "prov:usedEntity": "test:http://www.huffingtonpost.com/2015/01/31/measles-outbreak_n_6583384.html", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4023": {
+                "prov:usedEntity": "test:https://time.com/3688914/disneyland-measles-outbreak-overseas/", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4021": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?_r=1", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4029": {
+                "prov:usedEntity": "test:https://time.com//cloud.newsletters.time.com/newsletters/?newsletter_name=the_brief&source=shortcode", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4009": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/29/why-this-mom-is-so-angry-at-the-anti-vaxxers/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on"
+            }, 
+            "4001": {
+                "prov:usedEntity": "test:https://www.cnn.com/videos/tv/2015/01/30/erin-panel-anti-vaccination-debate.cnn", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "4003": {
+                "prov:usedEntity": "test:https://time.com//cloud.newsletters.time.com/newsletters/?newsletter_name=the_brief&source=shortcode", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "4005": {
+                "prov:usedEntity": "test:http://www.azcentral.com/story/news/12-news/2015/01/23/12news-doctor-dont-vaccinate/22200535/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "4007": {
+                "prov:usedEntity": "test:https://www.azleg.gov/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3971": {
+                "prov:usedEntity": "test:http://www.newshounds.us/fox_s_dr_marc_siegel_slobbers_over_dick_cheney_12182013", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315"
+            }, 
+            "3973": {
+                "prov:usedEntity": "test:https://www.mediamatters.org/video/2015/02/02/hannity-im-not-trusting-president-obama-to-tell/202389", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315"
+            }, 
+            "3969": {
+                "prov:usedEntity": "test:https://time.com/3693977/2016-presidential-race-measles-chris-christie-rand-paul-hillary-clinton/", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315"
+            }, 
+            "3975": {
+                "prov:usedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:generatedEntity": "test:https://time.com/3691969/chris-christie-measles/"
+            }, 
+            "3999": {
+                "prov:usedEntity": "test:https://time.com//time.com/newsletter/the-brief/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3997": {
+                "prov:usedEntity": "test:http://healthland.time.com/2010/05/24/doctor-behind-vaccine-autism-link-loses-license/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3995": {
+                "prov:usedEntity": "test:https://www.nationalreview.com/corner/william-f-buckley-jr-1925-2008-kathryn-jean-lopez/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3993": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?tid=hp_mm&hpid=z3&noredirect=on", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3991": {
+                "prov:usedEntity": "test:https://time.com/46914/vaccine-opponents-wrong/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3977": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:generatedEntity": "test:https://time.com/3691969/chris-christie-measles/"
+            }, 
+            "4031": {
+                "prov:usedEntity": "test:http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "3979": {
+                "prov:usedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/", 
+                "prov:generatedEntity": "test:https://time.com/3691969/chris-christie-measles/"
+            }, 
+            "4019": {
+                "prov:usedEntity": "test:https://time.com/3664553/disneyland-measles-antivaxxers/", 
+                "prov:generatedEntity": "test:https://time.com/3691079/measles-vaccinations-white-house/"
+            }, 
+            "4013": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on"
+            }, 
+            "4011": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/post-nation/wp/2015/01/31/amid-growing-vaccination-debate-measles-continues-to-spread-and-is-now-in-new-york-state/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on"
+            }, 
+            "4017": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/23/the-disneyland-measles-outbreak-and-the-disgraced-doctor-who-whipped-up-fear-about-vaccinations/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on"
+            }, 
+            "4015": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/02/02/get-your-kids-vaccinated-obama-tells-parents-doubting-indisputable-science/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on"
+            }, 
+            "3967": {
+                "prov:usedEntity": "test:https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315"
+            }, 
+            "3965": {
+                "prov:usedEntity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315"
+            }, 
+            "3989": {
+                "prov:usedEntity": "test:http://healthimpactnews.com/2015/arizona-cardiologist-responds-to-critics-regarding-measles-and-vaccines/", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3985": {
+                "prov:usedEntity": "test:https://emergency.cdc.gov/han/han00376.asp", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/"
+            }, 
+            "3987": {
+                "prov:usedEntity": "test:https://io9.gizmodo.com/what-if-natural-products-came-with-a-list-of-ingredient-1503320184", 
+                "prov:generatedEntity": "test:https://time.com/3689645/wolfson-antivaccine-measles/"
+            }, 
+            "3981": {
+                "prov:usedEntity": "test:https://time.com//time.com/newsletter/the-brief/", 
+                "prov:generatedEntity": "test:https://time.com/3691969/chris-christie-measles/"
+            }, 
+            "3983": {
+                "prov:usedEntity": "test:https://time.com//cloud.newsletters.time.com/newsletters/?newsletter_name=the_brief&source=shortcode", 
+                "prov:generatedEntity": "test:https://time.com/3691969/chris-christie-measles/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3758": {
+                "prov:entity": "test:but i believe parents should have a choice", 
+                "prov:agent": "test:Sean Hannity"
+            }, 
+            "3825": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:agent": "test:Jeffrey Kluger"
+            }, 
+            "3770": {
+                "prov:entity": "test:i’m not trusting president obama to tell me whether to vaccinate my kids by the way", 
+                "prov:agent": "test:Sean Hannity"
+            }, 
+            "3823": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:agent": "test:time.com"
+            }, 
+            "3821": {
+                "prov:entity": "test:https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/", 
+                "prov:agent": "test:Cnn Staff"
+            }, 
+            "3774": {
+                "prov:entity": "test:big big numbers", 
+                "prov:agent": "test:Siegel"
+            }, 
+            "3750": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:agent": "test:www.newshounds.us"
+            }, 
+            "3861": {
+                "prov:entity": "test:at its worst chicken pox killed 100 people per year", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3778": {
+                "prov:entity": "test:alright we gotta roll", 
+                "prov:agent": "test:Sean Hannity"
+            }, 
+            "3801": {
+                "prov:entity": "test:i said different disease types can be more lethal so that the concern would be measuring whatever the perceived danger is by vaccine and we’ve had plenty of that over a period of time versus what the risk to public health is and you have to have that ba", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3754": {
+                "prov:entity": "test:now i got my kids vaccinated", 
+                "prov:agent": "test:Sean Hannity"
+            }, 
+            "3829": {
+                "prov:entity": "test:we should be getting measles mumps rubella chicken pox these are the rights of our children to get it", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3921": {
+                "prov:entity": "test:i understand that there are families that in some cases are concerned about the effect of vaccinations", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3881": {
+                "prov:entity": "test:where are all those 80 year olds crippled by polio", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3885": {
+                "prov:entity": "test:i can’t seem to find many", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3869": {
+                "prov:entity": "test:these products kill more people than mumps", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "2204": {
+                "prov:entity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3797": {
+                "prov:entity": "test:i didn’t say that", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3925": {
+                "prov:entity": "test:the science is you know pretty indisputable", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3953": {
+                "prov:entity": "test:we were comparing notes pretty feverishly back in 2011", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3793": {
+                "prov:entity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3945": {
+                "prov:entity": "test:you need an effective negotiator at the top and as i’ve said before i think the president has shown over and over again that he’s not the most effective negotiator whether you’re talking about the iranian nuclear talks or whether you’re talking ab", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3857": {
+                "prov:entity": "test:sugar cereals donuts cookies and cupcakes lead to millions of deaths per year", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3853": {
+                "prov:entity": "test:be angry at food companies", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3941": {
+                "prov:entity": "test:not every vaccine is created equal and not every disease type is as great a public health threat as others", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3893": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:agent": "test:February"
+            }, 
+            "3891": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:agent": "test:https://www.washingtonpost.com"
+            }, 
+            "3873": {
+                "prov:entity": "test:let’s face it you don’t really give a crap what your children eat", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3895": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:agent": "test:White House Bureau Chief"
+            }, 
+            "3917": {
+                "prov:entity": "test:you should get your kids vaccinated", 
+                "prov:agent": "test:Savannah Guthrie"
+            }, 
+            "3813": {
+                "prov:entity": "test:we’ve looked at this again and again", 
+                "prov:agent": "test:Obama"
+            }, 
+            "3762": {
+                "prov:entity": "test:there is no question kids should be vaccinated", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3837": {
+                "prov:entity": "test:be mad at yourself because you’re frankly a bad mother", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3913": {
+                "prov:entity": "test:get your kids vaccinated", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3817": {
+                "prov:entity": "test:there is every reason to get vaccinated but there aren’t reasons to not", 
+                "prov:agent": "test:Obama"
+            }, 
+            "3766": {
+                "prov:entity": "test:there is every reason to get vaccinated", 
+                "prov:agent": "test:Obama"
+            }, 
+            "3833": {
+                "prov:entity": "test:don’t be mad at me for speaking the truth about vaccines", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3949": {
+                "prov:entity": "test:the president has not proven himself to be the most adept negotiator in my opinion on behalf of american interests", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3957": {
+                "prov:entity": "test:so i hope that part of what we’ll do today is compare notes on progress as well and i think that the prime minister has led some really great progress economically here especially when you compare it to the rest of europe", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3937": {
+                "prov:entity": "test:there has to be a balance and it depends on what the vaccine is what the disease type is and all the rest", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3819": {
+                "prov:entity": "test:https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/", 
+                "prov:agent": "test:www.cnn.com"
+            }, 
+            "3889": {
+                "prov:entity": "test:what we’re really talking about is just a fever and a rash", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3933": {
+                "prov:entity": "test:there is every reason to get vaccinated but there aren’t reasons to not", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3877": {
+                "prov:entity": "test:you don’t care about chemicals in their life", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3929": {
+                "prov:entity": "test:we’ve looked at this again and again", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3865": {
+                "prov:entity": "test:if those chicken pox people didn’t eat cereal and donuts they may still be alive", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3786": {
+                "prov:entity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated", 
+                "prov:agent": "test:Christie"
+            }, 
+            "3959": {
+                "prov:entity": "test:https://time.com/3691079/measles-vaccinations-white-house/", 
+                "prov:agent": "test:time.com"
+            }, 
+            "3782": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:agent": "test:Justin Worland"
+            }, 
+            "3780": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:agent": "test:time.com"
+            }, 
+            "2042": {
+                "prov:entity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2086": {
+                "prov:entity": "test:the science is you know pretty indisputable", 
+                "prov:agent": "test:Obama"
+            }, 
+            "3897": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:agent": "test:Philip Rucker"
+            }, 
+            "3841": {
+                "prov:entity": "test:you didn’t ask once about those vaccines", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3845": {
+                "prov:entity": "test:you didn’t ask about the chemicals in them", 
+                "prov:agent": "test:Wolfson"
+            }, 
+            "3961": {
+                "prov:entity": "test:https://time.com/3691079/measles-vaccinations-white-house/", 
+                "prov:agent": "test:Mandy Oaklander"
+            }, 
+            "3849": {
+                "prov:entity": "test:fiery vaccine debate", 
+                "prov:agent": "test:Wolfson"
+            }
+        }, 
+        "agent": {
+            "test:time.com": {
+                "test:publisher": "time.com", 
+                "test:type": "publisher"
+            }, 
+            "test:https://www.washingtonpost.com": {
+                "test:publisher": "https://www.washingtonpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Jeffrey Kluger": {
+                "test:name": "Jeffrey Kluger", 
+                "test:type": "person"
+            }, 
+            "test:Christie": {
+                "test:name": "Christie", 
+                "test:type": "person"
+            }, 
+            "test:Obama": {
+                "test:name": "Obama", 
+                "test:type": "person"
+            }, 
+            "test:Savannah Guthrie": {
+                "test:name": "Savannah Guthrie", 
+                "test:type": "person"
+            }, 
+            "test:Philip Rucker": {
+                "test:name": "Philip Rucker", 
+                "test:type": "person"
+            }, 
+            "test:www.cnn.com": {
+                "test:publisher": "www.cnn.com", 
+                "test:type": "publisher"
+            }, 
+            "test:February": {
+                "test:name": "February", 
+                "test:type": "person"
+            }, 
+            "test:Mandy Oaklander": {
+                "test:name": "Mandy Oaklander", 
+                "test:type": "person"
+            }, 
+            "test:Justin Worland": {
+                "test:name": "Justin Worland", 
+                "test:type": "person"
+            }, 
+            "test:Cnn Staff": {
+                "test:name": "Cnn Staff", 
+                "test:type": "person"
+            }, 
+            "test:Wolfson": {
+                "test:name": "Wolfson", 
+                "test:type": "person"
+            }, 
+            "test:White House Bureau Chief": {
+                "test:name": "White House Bureau Chief", 
+                "test:type": "person"
+            }, 
+            "test:Siegel": {
+                "test:name": "Siegel", 
+                "test:type": "person"
+            }, 
+            "test:www.newshounds.us": {
+                "test:publisher": "www.newshounds.us", 
+                "test:type": "publisher"
+            }, 
+            "test:Sean Hannity": {
+                "test:name": "Sean Hannity", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "test:date": "2015-02-02", 
+                "test:title": "Christie clarifies comments on measles vaccine after call for ‘balance’ causes stir", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?tid=hp_mm&hpid=z3&noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?tid=hp_mm&hpid=z3&noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com/3691079/measles-vaccinations-white-house/": {
+                "test:url": "https://time.com/3691079/measles-vaccinations-white-house/", 
+                "test:date": "", 
+                "test:title": "White House Urges Measles Vaccinations", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com//time.com/newsletter/the-brief/": {
+                "test:url": "https://time.com//time.com/newsletter/the-brief/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/02/02/get-your-kids-vaccinated-obama-tells-parents-doubting-indisputable-science/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/morning-mix/wp/2015/02/02/get-your-kids-vaccinated-obama-tells-parents-doubting-indisputable-science/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.azleg.gov/": {
+                "test:url": "https://www.azleg.gov/", 
+                "test:type": "government"
+            }, 
+            "test:https://io9.gizmodo.com/what-if-natural-products-came-with-a-list-of-ingredient-1503320184": {
+                "test:url": "https://io9.gizmodo.com/what-if-natural-products-came-with-a-list-of-ingredient-1503320184", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/": {
+                "test:url": "https://www.cnn.com/2015/02/02/health/cdc-january-measles-report-disney/", 
+                "test:date": "2015-02-02", 
+                "test:title": "CDC: 102 measles case in January", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/news/post-nation/wp/2015/01/31/amid-growing-vaccination-debate-measles-continues-to-spread-and-is-now-in-new-york-state/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/post-nation/wp/2015/01/31/amid-growing-vaccination-debate-measles-continues-to-spread-and-is-now-in-new-york-state/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/29/why-this-mom-is-so-angry-at-the-anti-vaxxers/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/morning-mix/wp/2015/01/29/why-this-mom-is-so-angry-at-the-anti-vaxxers/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com/46914/vaccine-opponents-wrong/": {
+                "test:url": "https://time.com/46914/vaccine-opponents-wrong/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.huffingtonpost.com/2015/01/31/measles-outbreak_n_6583384.html": {
+                "test:url": "http://www.huffingtonpost.com/2015/01/31/measles-outbreak_n_6583384.html", 
+                "test:type": "article"
+            }, 
+            "test:http://healthland.time.com/2010/05/24/doctor-behind-vaccine-autism-link-loses-license/": {
+                "test:url": "http://healthland.time.com/2010/05/24/doctor-behind-vaccine-autism-link-loses-license/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.newshounds.us/fox_s_dr_marc_siegel_slobbers_over_dick_cheney_12182013": {
+                "test:url": "http://www.newshounds.us/fox_s_dr_marc_siegel_slobbers_over_dick_cheney_12182013", 
+                "test:type": "reference"
+            }, 
+            "test:https://time.com/3693977/2016-presidential-race-measles-chris-christie-rand-paul-hillary-clinton/": {
+                "test:url": "https://time.com/3693977/2016-presidential-race-measles-chris-christie-rand-paul-hillary-clinton/", 
+                "test:type": "article"
+            }, 
+            "test:http://healthimpactnews.com/2015/arizona-cardiologist-responds-to-critics-regarding-measles-and-vaccines/": {
+                "test:url": "http://healthimpactnews.com/2015/arizona-cardiologist-responds-to-critics-regarding-measles-and-vaccines/", 
+                "test:type": "article"
+            }, 
+            "test:http://www.azcentral.com/story/news/12-news/2015/01/23/12news-doctor-dont-vaccinate/22200535/": {
+                "test:url": "http://www.azcentral.com/story/news/12-news/2015/01/23/12news-doctor-dont-vaccinate/22200535/", 
+                "test:type": "reference"
+            }, 
+            "test:https://emergency.cdc.gov/han/han00376.asp": {
+                "test:url": "https://emergency.cdc.gov/han/han00376.asp", 
+                "test:type": "government"
+            }, 
+            "test:https://www.nationalreview.com/corner/william-f-buckley-jr-1925-2008-kathryn-jean-lopez/": {
+                "test:url": "https://www.nationalreview.com/corner/william-f-buckley-jr-1925-2008-kathryn-jean-lopez/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/23/the-disneyland-measles-outbreak-and-the-disgraced-doctor-who-whipped-up-fear-about-vaccinations/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/morning-mix/wp/2015/01/23/the-disneyland-measles-outbreak-and-the-disgraced-doctor-who-whipped-up-fear-about-vaccinations/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cnn.com/videos/tv/2015/01/30/erin-panel-anti-vaccination-debate.cnn": {
+                "test:url": "https://www.cnn.com/videos/tv/2015/01/30/erin-panel-anti-vaccination-debate.cnn", 
+                "test:type": "reference"
+            }, 
+            "test:https://time.com/3689645/wolfson-antivaccine-measles/": {
+                "test:url": "https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "test:date": "", 
+                "test:title": "Meet the Latest Driver of the Anti-Vaccine Clown Car (Who Thinks You're a 'Bad Mother')", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?_r=1": {
+                "test:url": "https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?_r=1", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com/3688914/disneyland-measles-outbreak-overseas/": {
+                "test:url": "https://time.com/3688914/disneyland-measles-outbreak-overseas/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.mediamatters.org/video/2015/02/02/hannity-im-not-trusting-president-obama-to-tell/202389": {
+                "test:url": "https://www.mediamatters.org/video/2015/02/02/hannity-im-not-trusting-president-obama-to-tell/202389", 
+                "test:type": "reference"
+            }, 
+            "test:https://time.com/3664553/disneyland-measles-antivaxxers/": {
+                "test:url": "https://time.com/3664553/disneyland-measles-antivaxxers/", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com//cloud.newsletters.time.com/newsletters/?newsletter_name=the_brief&source=shortcode": {
+                "test:url": "https://time.com//cloud.newsletters.time.com/newsletters/?newsletter_name=the_brief&source=shortcode", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315": {
+                "test:url": "http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "test:date": "", 
+                "test:title": "Hannity Uses Measles Vaccine Debate To Swipe At Obama", 
+                "test:type": "article"
+            }, 
+            "test:https://time.com/3691969/chris-christie-measles/": {
+                "test:url": "https://time.com/3691969/chris-christie-measles/", 
+                "test:date": "", 
+                "test:title": "Christie Walks Back Measles Vaccine Comments", 
+                "test:type": "article"
+            }, 
+            "test:http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx": {
+                "test:url": "http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx", 
+                "test:type": "government"
+            }, 
+            "test:https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/morning-mix/wp/2015/01/30/amid-measles-outbreak-anti-vaccine-doctor-revels-in-his-notoriety/?noredirect=on", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate": {
+                "test:quote": "at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate", 
+                "test:type": "quote"
+            }, 
+            "test:you didn’t ask once about those vaccines": {
+                "test:quote": "you didn’t ask once about those vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:there is no question kids should be vaccinated": {
+                "test:quote": "there is no question kids should be vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:you should get your kids vaccinated": {
+                "test:quote": "you should get your kids vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:we should be getting measles mumps rubella chicken pox these are the rights of our children to get it": {
+                "test:quote": "we should be getting measles mumps rubella chicken pox these are the rights of our children to get it", 
+                "test:type": "quote"
+            }, 
+            "test:now i got my kids vaccinated": {
+                "test:quote": "now i got my kids vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:alright we gotta roll": {
+                "test:quote": "alright we gotta roll", 
+                "test:type": "quote"
+            }, 
+            "test:i’m not trusting president obama to tell me whether to vaccinate my kids by the way": {
+                "test:quote": "i’m not trusting president obama to tell me whether to vaccinate my kids by the way", 
+                "test:type": "quote"
+            }, 
+            "test:i can’t seem to find many": {
+                "test:quote": "i can’t seem to find many", 
+                "test:type": "quote"
+            }, 
+            "test:not every vaccine is created equal and not every disease type is as great a public health threat as others": {
+                "test:quote": "not every vaccine is created equal and not every disease type is as great a public health threat as others", 
+                "test:type": "quote"
+            }, 
+            "test:what we’re really talking about is just a fever and a rash": {
+                "test:quote": "what we’re really talking about is just a fever and a rash", 
+                "test:type": "quote"
+            }, 
+            "test:i said different disease types can be more lethal so that the concern would be measuring whatever the perceived danger is by vaccine and we’ve had plenty of that over a period of time versus what the risk to public health is and you have to have that ba": {
+                "test:quote": "i said different disease types can be more lethal so that the concern would be measuring whatever the perceived danger is by vaccine and we’ve had plenty of that over a period of time versus what the risk to public health is and you have to have that balance and that’s exactly what i mean by what i said", 
+                "test:type": "quote"
+            }, 
+            "test:there has to be a balance and it depends on what the vaccine is what the disease type is and all the rest": {
+                "test:quote": "there has to be a balance and it depends on what the vaccine is what the disease type is and all the rest", 
+                "test:type": "quote"
+            }, 
+            "test:these products kill more people than mumps": {
+                "test:quote": "these products kill more people than mumps", 
+                "test:type": "quote"
+            }, 
+            "test:be angry at food companies": {
+                "test:quote": "be angry at food companies", 
+                "test:type": "quote"
+            }, 
+            "test:get your kids vaccinated": {
+                "test:quote": "get your kids vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:you don’t care about chemicals in their life": {
+                "test:quote": "you don’t care about chemicals in their life", 
+                "test:type": "quote"
+            }, 
+            "test:we were comparing notes pretty feverishly back in 2011": {
+                "test:quote": "we were comparing notes pretty feverishly back in 2011", 
+                "test:type": "quote"
+            }, 
+            "test:there is every reason to get vaccinated": {
+                "test:quote": "there is every reason to get vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:people should evaluate this for themselves with a bias toward good science and toward the advice of our public health professionals": {
+                "test:quote": "people should evaluate this for themselves with a bias toward good science and toward the advice of our public health professionals", 
+                "test:type": "quote"
+            }, 
+            "test:the science is you know pretty indisputable": {
+                "test:quote": "the science is you know pretty indisputable", 
+                "test:type": "quote"
+            }, 
+            "test:you need an effective negotiator at the top and as i’ve said before i think the president has shown over and over again that he’s not the most effective negotiator whether you’re talking about the iranian nuclear talks or whether you’re talking ab": {
+                "test:quote": "you need an effective negotiator at the top and as i’ve said before i think the president has shown over and over again that he’s not the most effective negotiator whether you’re talking about the iranian nuclear talks or whether you’re talking about his recent foray into cuba", 
+                "test:type": "quote"
+            }, 
+            "test:if those chicken pox people didn’t eat cereal and donuts they may still be alive": {
+                "test:quote": "if those chicken pox people didn’t eat cereal and donuts they may still be alive", 
+                "test:type": "quote"
+            }, 
+            "test:i didn’t say that": {
+                "test:quote": "i didn’t say that", 
+                "test:type": "quote"
+            }, 
+            "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated": {
+                "test:quote": "the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:you didn’t ask about the chemicals in them": {
+                "test:quote": "you didn’t ask about the chemicals in them", 
+                "test:type": "quote"
+            }, 
+            "test:big big numbers": {
+                "test:quote": "big big numbers", 
+                "test:type": "quote"
+            }, 
+            "test:but i believe parents should have a choice": {
+                "test:quote": "but i believe parents should have a choice", 
+                "test:type": "quote"
+            }, 
+            "test:let’s face it you don’t really give a crap what your children eat": {
+                "test:quote": "let’s face it you don’t really give a crap what your children eat", 
+                "test:type": "quote"
+            }, 
+            "test:fiery vaccine debate": {
+                "test:quote": "fiery vaccine debate", 
+                "test:type": "quote"
+            }, 
+            "test:be mad at yourself because you’re frankly a bad mother": {
+                "test:quote": "be mad at yourself because you’re frankly a bad mother", 
+                "test:type": "quote"
+            }, 
+            "test:there is every reason to get vaccinated but there aren’t reasons to not": {
+                "test:quote": "there is every reason to get vaccinated but there aren’t reasons to not", 
+                "test:type": "quote"
+            }, 
+            "test:at its worst chicken pox killed 100 people per year": {
+                "test:quote": "at its worst chicken pox killed 100 people per year", 
+                "test:type": "quote"
+            }, 
+            "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health": {
+                "test:quote": "mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health", 
+                "test:type": "quote"
+            }, 
+            "test:i understand that there are families that in some cases are concerned about the effect of vaccinations": {
+                "test:quote": "i understand that there are families that in some cases are concerned about the effect of vaccinations", 
+                "test:type": "quote"
+            }, 
+            "test:don’t be mad at me for speaking the truth about vaccines": {
+                "test:quote": "don’t be mad at me for speaking the truth about vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide": {
+                "test:quote": "i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide", 
+                "test:type": "quote"
+            }, 
+            "test:sugar cereals donuts cookies and cupcakes lead to millions of deaths per year": {
+                "test:quote": "sugar cereals donuts cookies and cupcakes lead to millions of deaths per year", 
+                "test:type": "quote"
+            }, 
+            "test:we’ve looked at this again and again": {
+                "test:quote": "we’ve looked at this again and again", 
+                "test:type": "quote"
+            }, 
+            "test:the president has not proven himself to be the most adept negotiator in my opinion on behalf of american interests": {
+                "test:quote": "the president has not proven himself to be the most adept negotiator in my opinion on behalf of american interests", 
+                "test:type": "quote"
+            }, 
+            "test:so i hope that part of what we’ll do today is compare notes on progress as well and i think that the prime minister has led some really great progress economically here especially when you compare it to the rest of europe": {
+                "test:quote": "so i hope that part of what we’ll do today is compare notes on progress as well and i think that the prime minister has led some really great progress economically here especially when you compare it to the rest of europe", 
+                "test:type": "quote"
+            }, 
+            "test:where are all those 80 year olds crippled by polio": {
+                "test:quote": "where are all those 80 year olds crippled by polio", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3827": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:we should be getting measles mumps rubella chicken pox these are the rights of our children to get it"
+            }, 
+            "3772": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:big big numbers"
+            }, 
+            "3906": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health"
+            }, 
+            "3776": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:alright we gotta roll"
+            }, 
+            "3879": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:where are all those 80 year olds crippled by polio"
+            }, 
+            "3805": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "3752": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:now i got my kids vaccinated"
+            }, 
+            "3867": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:these products kill more people than mumps"
+            }, 
+            "3909": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide"
+            }, 
+            "3756": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:but i believe parents should have a choice"
+            }, 
+            "3939": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:not every vaccine is created equal and not every disease type is as great a public health threat as others"
+            }, 
+            "3927": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:we’ve looked at this again and again"
+            }, 
+            "3808": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:the science is you know pretty indisputable"
+            }, 
+            "3799": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:i said different disease types can be more lethal so that the concern would be measuring whatever the perceived danger is by vaccine and we’ve had plenty of that over a period of time versus what the risk to public health is and you have to have that ba"
+            }, 
+            "3795": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:i didn’t say that"
+            }, 
+            "3903": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "3791": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide"
+            }, 
+            "3863": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:if those chicken pox people didn’t eat cereal and donuts they may still be alive"
+            }, 
+            "3855": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:sugar cereals donuts cookies and cupcakes lead to millions of deaths per year"
+            }, 
+            "3851": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:be angry at food companies"
+            }, 
+            "3899": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "3935": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:there has to be a balance and it depends on what the vaccine is what the disease type is and all the rest"
+            }, 
+            "3859": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:at its worst chicken pox killed 100 people per year"
+            }, 
+            "3760": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:there is no question kids should be vaccinated"
+            }, 
+            "3835": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:be mad at yourself because you’re frankly a bad mother"
+            }, 
+            "3915": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:you should get your kids vaccinated"
+            }, 
+            "3811": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:we’ve looked at this again and again"
+            }, 
+            "3764": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:there is every reason to get vaccinated"
+            }, 
+            "3831": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:don’t be mad at me for speaking the truth about vaccines"
+            }, 
+            "3911": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:get your kids vaccinated"
+            }, 
+            "3815": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:there is every reason to get vaccinated but there aren’t reasons to not"
+            }, 
+            "3768": {
+                "prov:entity": "test:http://www.newshounds.us/hannity_uses_measles_vaccine_debate_to_swipe_at_obama_020315", 
+                "prov:activity": "test:i’m not trusting president obama to tell me whether to vaccinate my kids by the way"
+            }, 
+            "3871": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:let’s face it you don’t really give a crap what your children eat"
+            }, 
+            "3923": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:the science is you know pretty indisputable"
+            }, 
+            "3931": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:there is every reason to get vaccinated but there aren’t reasons to not"
+            }, 
+            "3839": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:you didn’t ask once about those vaccines"
+            }, 
+            "3919": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:i understand that there are families that in some cases are concerned about the effect of vaccinations"
+            }, 
+            "3875": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:you don’t care about chemicals in their life"
+            }, 
+            "3955": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:so i hope that part of what we’ll do today is compare notes on progress as well and i think that the prime minister has led some really great progress economically here especially when you compare it to the rest of europe"
+            }, 
+            "3947": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:the president has not proven himself to be the most adept negotiator in my opinion on behalf of american interests"
+            }, 
+            "3887": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:what we’re really talking about is just a fever and a rash"
+            }, 
+            "3883": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:i can’t seem to find many"
+            }, 
+            "3784": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "3951": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:we were comparing notes pretty feverishly back in 2011"
+            }, 
+            "3788": {
+                "prov:entity": "test:https://time.com/3691969/chris-christie-measles/", 
+                "prov:activity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health"
+            }, 
+            "3843": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:you didn’t ask about the chemicals in them"
+            }, 
+            "3943": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?tid=HP_politics?tid=HP_politics&noredirect=on", 
+                "prov:activity": "test:you need an effective negotiator at the top and as i’ve said before i think the president has shown over and over again that he’s not the most effective negotiator whether you’re talking about the iranian nuclear talks or whether you’re talking ab"
+            }, 
+            "3963": {
+                "prov:entity": "test:https://time.com/3691079/measles-vaccinations-white-house/", 
+                "prov:activity": "test:people should evaluate this for themselves with a bias toward good science and toward the advice of our public health professionals"
+            }, 
+            "3847": {
+                "prov:entity": "test:https://time.com/3689645/wolfson-antivaccine-measles/", 
+                "prov:activity": "test:fiery vaccine debate"
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "root": "https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/", 
+    "bundle": {
+        "entity": {
+            "test:https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/": {
+                "test:url": "https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/", 
+                "test:date": "2014-05-08", 
+                "test:title": "Russian Scientists Discover Cure to Homosexuality", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "1864": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/", 
+                "prov:activity": "test:xenoestrogen are a type of estrogen mimickers found in synthetic or natural chemical compounds"
+            }
+        }, 
+        "wasAttributedTo": {
+            "1860": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/", 
+                "prov:agent": "test:worldnewsdailyreport.com"
+            }, 
+            "1862": {
+                "prov:entity": "test:https://worldnewsdailyreport.com/russian-scientists-discover-cure-to-homosexuality/", 
+                "prov:agent": "test:Bob Flanagan"
+            }, 
+            "1866": {
+                "prov:entity": "test:xenoestrogen are a type of estrogen mimickers found in synthetic or natural chemical compounds", 
+                "prov:agent": "test:Yuri Krutchev"
+            }
+        }, 
+        "agent": {
+            "test:Bob Flanagan": {
+                "test:name": "Bob Flanagan", 
+                "test:type": "person"
+            }, 
+            "test:worldnewsdailyreport.com": {
+                "test:publisher": "worldnewsdailyreport.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Yuri Krutchev": {
+                "test:name": "Yuri Krutchev", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:xenoestrogen are a type of estrogen mimickers found in synthetic or natural chemical compounds": {
+                "test:quote": "xenoestrogen are a type of estrogen mimickers found in synthetic or natural chemical compounds", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

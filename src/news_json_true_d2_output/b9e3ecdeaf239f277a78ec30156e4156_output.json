@@ -1,0 +1,961 @@
+{
+    "root": "https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "7743": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687"
+            }, 
+            "7755": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-marissa-gootjes-immunity-school-1.5154558", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481"
+            }, 
+            "7751": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007"
+            }, 
+            "7753": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007"
+            }, 
+            "7729": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159"
+            }, 
+            "7739": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801"
+            }, 
+            "7741": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687"
+            }, 
+            "7747": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687"
+            }, 
+            "7745": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687"
+            }, 
+            "7733": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801"
+            }, 
+            "7731": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154"
+            }, 
+            "7749": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687"
+            }, 
+            "7737": {
+                "prov:usedEntity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801"
+            }, 
+            "7725": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159"
+            }, 
+            "7735": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801"
+            }, 
+            "7727": {
+                "prov:usedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:generatedEntity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7719": {
+                "prov:entity": "test:thats going to be the choice that parents have to make is if they want to participate in the public school system", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7669": {
+                "prov:entity": "test:people say is measles just a rash", 
+                "prov:agent": "test:John Dornan"
+            }, 
+            "7625": {
+                "prov:entity": "test:but for those eight cases weve had to contact nearly 2000 people that may have come into contact with that", 
+                "prov:agent": "test:Barker"
+            }, 
+            "7611": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7651": {
+                "prov:entity": "test:so that means three in 100 people", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7655": {
+                "prov:entity": "test:when almost everyone is vaccinated the rare cases that do occur tend to be in these people", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7677": {
+                "prov:entity": "test:so in a word stay home", 
+                "prov:agent": "test:Dornan"
+            }, 
+            "7659": {
+                "prov:entity": "test:vaccination is still our best possible protection against measles", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7635": {
+                "prov:entity": "test:the safety of the students and the adults in that building is our priority and well continue to work through those", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7673": {
+                "prov:entity": "test:often it is but it can be a very significant concern for infants and for adults", 
+                "prov:agent": "test:John Dornan"
+            }, 
+            "7571": {
+                "prov:entity": "test:if these symptoms are present it is important that you contact your healthcare provider public health or 811 prior to presenting to a clinic physicians office or emergency room so that necessary measures can be put into place to prevent the spread to othe", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7573": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7639": {
+                "prov:entity": "test:these kids are going to congregate somewhere else whether its in a mall or in somebodys basement … so from our perspective trying to minimize alternative venues where these kids might congregate would mean keeping them at school and continuously monitor", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7629": {
+                "prov:entity": "test:as this is an evolving situation our focus over the last week has been on assisting public health in containing the spread of this virus", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7597": {
+                "prov:entity": "test:during the outbreak the people who are most at risk are the people who came into direct contact with somebody with measles and so thats why we reserved the doses of the vaccine for those individuals", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7615": {
+                "prov:entity": "test:in an outbreak setting as you can see you begin to catch people that participated in sports … went to a restaurant went to a sleepover — it just grows exponentially", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7593": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:agent": "test:Cbc News"
+            }, 
+            "7497": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7591": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7495": {
+                "prov:entity": "test:at this time there are no indications to order more vaccine", 
+                "prov:agent": "test:Macfarlane"
+            }, 
+            "7515": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7697": {
+                "prov:entity": "test:i dont think thats good enough", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7539": {
+                "prov:entity": "test:however a small number of individuals could become infected if they have been exposed to an active case", 
+                "prov:agent": "test:Muecke"
+            }, 
+            "7511": {
+                "prov:entity": "test:we havent reached that point", 
+                "prov:agent": "test:Zoë Watson"
+            }, 
+            "7693": {
+                "prov:entity": "test:they will be excluded from school if they are unwilling to follow the rules around health and safety", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7553": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7551": {
+                "prov:entity": "test:should public health deem it necessary for any student to remain at home we will ensure that supports are made available", 
+                "prov:agent": "test:Rosemary Southard"
+            }, 
+            "7531": {
+                "prov:entity": "test:we need to protect our vaccine doses for those that we know came into contact with a case", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7519": {
+                "prov:entity": "test:those close to you including family members are not considered to have had a potential exposure unless otherwise notified", 
+                "prov:agent": "test:Muecke"
+            }, 
+            "7527": {
+                "prov:entity": "test:this includes members of district staff partners and special guests who were at the school for an activity yesterday", 
+                "prov:agent": "test:Watson"
+            }, 
+            "7679": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7713": {
+                "prov:entity": "test:it doesnt make much sense when we spend time talking about moveover laws on highways and bike laws and helmet laws and stuff like that if were going to ignore the transmission of infectious potentially fatal diseases in our schools", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7485": {
+                "prov:entity": "test:as a result the previous prioritization of vaccination has been relaxed to allow for broader usage for the general public", 
+                "prov:agent": "test:Cristin Muecke"
+            }, 
+            "7481": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7647": {
+                "prov:entity": "test:our greatest concern would be that a student could start to present these symptoms while travelling away from home and their regular health care provider and in extended close proximity to their classmates", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7489": {
+                "prov:entity": "test:but i can tell you we are looking at least 32 days following the rash onset date of the last outbreakassociated case", 
+                "prov:agent": "test:Bruce Macfarlane"
+            }, 
+            "7643": {
+                "prov:entity": "test:we have not taken this decision lightly and realize how disappointing this will be to our students", 
+                "prov:agent": "test:Doherty"
+            }, 
+            "7567": {
+                "prov:entity": "test:measles is a highly contagious respiratory disease and is vaccinepreventable", 
+                "prov:agent": "test:Jennifer Russell"
+            }, 
+            "7705": {
+                "prov:entity": "test:and we also have an option in new brunswick that if people dont want to be part of a public system theyre free to home school their kids", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7563": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "prov:agent": "test:Cbc News"
+            }, 
+            "7609": {
+                "prov:entity": "test:thats why that extra dose we offer in an outbreak setting is so critical because youre covering off that three per cent of the individuals who had the misfortune of being one of those people who the vaccine wasnt 100 per cent effective", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7561": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7605": {
+                "prov:entity": "test:on average in some places saint john for sure five to eight to 10 calls an hour just asking if you have the vaccine", 
+                "prov:agent": "test:Blanchard"
+            }, 
+            "7701": {
+                "prov:entity": "test:i am unaware of any faith tradition that tells people that you know thy children must be infected with easily preventable diseases", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7665": {
+                "prov:entity": "test:this is very unusual for us to tell people to do that but when you walk into a busy emergency room or a busy family doctors office you risk exposing other people there that might not have adequate immunization", 
+                "prov:agent": "test:Dornan"
+            }, 
+            "7601": {
+                "prov:entity": "test:our members are getting calls from people all over the place", 
+                "prov:agent": "test:Blanchard"
+            }, 
+            "7709": {
+                "prov:entity": "test:if we had that herd immunity this outbreak wouldnt have happened", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7687": {
+                "prov:entity": "test:and a child coming to school whos able to transmit easily infectious fatal diseases is doing just that — theyre bringing something dangerous into the school environment", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7505": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:agent": "test:www.cbc.ca"
+            }, 
+            "7683": {
+                "prov:entity": "test:we wouldnt let a child come to school with a gun", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7501": {
+                "prov:entity": "test:make sure that if youre going to go to a clinic or hospital call ahead so they can put precautions in place to protect other patients", 
+                "prov:agent": "test:Russell"
+            }, 
+            "7621": {
+                "prov:entity": "test:i think sometimes people say eight cases of measles you know whats the big deal", 
+                "prov:agent": "test:Barker"
+            }, 
+            "7723": {
+                "prov:entity": "test:there are rules around public health there to protect everyone in our society and those rules will be enforced", 
+                "prov:agent": "test:Cardy"
+            }, 
+            "7547": {
+                "prov:entity": "test:i am certain some of you will have questions regarding the clinic and what a case of measles means for our students as we close out the school year", 
+                "prov:agent": "test:Rosemary Southard"
+            }
+        }, 
+        "agent": {
+            "test:Cardy": {
+                "test:name": "Cardy", 
+                "test:type": "person"
+            }, 
+            "test:Barker": {
+                "test:name": "Barker", 
+                "test:type": "person"
+            }, 
+            "test:Muecke": {
+                "test:name": "Muecke", 
+                "test:type": "person"
+            }, 
+            "test:Zoë Watson": {
+                "test:name": "Zoë Watson", 
+                "test:type": "person"
+            }, 
+            "test:Cbc News": {
+                "test:name": "Cbc News", 
+                "test:type": "person"
+            }, 
+            "test:Blanchard": {
+                "test:name": "Blanchard", 
+                "test:type": "person"
+            }, 
+            "test:Jennifer Russell": {
+                "test:name": "Jennifer Russell", 
+                "test:type": "person"
+            }, 
+            "test:Macfarlane": {
+                "test:name": "Macfarlane", 
+                "test:type": "person"
+            }, 
+            "test:Russell": {
+                "test:name": "Russell", 
+                "test:type": "person"
+            }, 
+            "test:John Dornan": {
+                "test:name": "John Dornan", 
+                "test:type": "person"
+            }, 
+            "test:www.cbc.ca": {
+                "test:publisher": "www.cbc.ca", 
+                "test:type": "publisher"
+            }, 
+            "test:Watson": {
+                "test:name": "Watson", 
+                "test:type": "person"
+            }, 
+            "test:Rosemary Southard": {
+                "test:name": "Rosemary Southard", 
+                "test:type": "person"
+            }, 
+            "test:Doherty": {
+                "test:name": "Doherty", 
+                "test:type": "person"
+            }, 
+            "test:Bruce Macfarlane": {
+                "test:name": "Bruce Macfarlane", 
+                "test:type": "person"
+            }, 
+            "test:Dornan": {
+                "test:name": "Dornan", 
+                "test:type": "person"
+            }, 
+            "test:Cristin Muecke": {
+                "test:name": "Cristin Muecke", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178": {
+                "test:url": "http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-marissa-gootjes-immunity-school-1.5154558": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-marissa-gootjes-immunity-school-1.5154558", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509": {
+                "test:url": "https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "test:date": "", 
+                "test:title": "", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:and a child coming to school whos able to transmit easily infectious fatal diseases is doing just that — theyre bringing something dangerous into the school environment": {
+                "test:quote": "and a child coming to school whos able to transmit easily infectious fatal diseases is doing just that — theyre bringing something dangerous into the school environment", 
+                "test:type": "quote"
+            }, 
+            "test:make sure that if youre going to go to a clinic or hospital call ahead so they can put precautions in place to protect other patients": {
+                "test:quote": "make sure that if youre going to go to a clinic or hospital call ahead so they can put precautions in place to protect other patients", 
+                "test:type": "quote"
+            }, 
+            "test:so people can get in there get fixed up and we can hopefully down the road erase that worry from their mind": {
+                "test:quote": "so people can get in there get fixed up and we can hopefully down the road erase that worry from their mind", 
+                "test:type": "quote"
+            }, 
+            "test:moving forward not all individuals and settings will be at equal risk": {
+                "test:quote": "moving forward not all individuals and settings will be at equal risk", 
+                "test:type": "quote"
+            }, 
+            "test:this includes members of district staff partners and special guests who were at the school for an activity yesterday": {
+                "test:quote": "this includes members of district staff partners and special guests who were at the school for an activity yesterday", 
+                "test:type": "quote"
+            }, 
+            "test:this is very unusual for us to tell people to do that but when you walk into a busy emergency room or a busy family doctors office you risk exposing other people there that might not have adequate immunization": {
+                "test:quote": "this is very unusual for us to tell people to do that but when you walk into a busy emergency room or a busy family doctors office you risk exposing other people there that might not have adequate immunization", 
+                "test:type": "quote"
+            }, 
+            "test:we havent reached that point": {
+                "test:quote": "we havent reached that point", 
+                "test:type": "quote"
+            }, 
+            "test:so that means three in 100 people": {
+                "test:quote": "so that means three in 100 people", 
+                "test:type": "quote"
+            }, 
+            "test:but for those eight cases weve had to contact nearly 2000 people that may have come into contact with that": {
+                "test:quote": "but for those eight cases weve had to contact nearly 2000 people that may have come into contact with that", 
+                "test:type": "quote"
+            }, 
+            "test:when almost everyone is vaccinated the rare cases that do occur tend to be in these people": {
+                "test:quote": "when almost everyone is vaccinated the rare cases that do occur tend to be in these people", 
+                "test:type": "quote"
+            }, 
+            "test:vaccination is still our best possible protection against measles": {
+                "test:quote": "vaccination is still our best possible protection against measles", 
+                "test:type": "quote"
+            }, 
+            "test:we wouldnt let a child come to school with a gun": {
+                "test:quote": "we wouldnt let a child come to school with a gun", 
+                "test:type": "quote"
+            }, 
+            "test:the safety of the students and the adults in that building is our priority and well continue to work through those": {
+                "test:quote": "the safety of the students and the adults in that building is our priority and well continue to work through those", 
+                "test:type": "quote"
+            }, 
+            "test:it is important to note that if nobody in the school had been vaccinated then 90 per cent would have become ill": {
+                "test:quote": "it is important to note that if nobody in the school had been vaccinated then 90 per cent would have become ill", 
+                "test:type": "quote"
+            }, 
+            "test:our greatest concern would be that a student could start to present these symptoms while travelling away from home and their regular health care provider and in extended close proximity to their classmates": {
+                "test:quote": "our greatest concern would be that a student could start to present these symptoms while travelling away from home and their regular health care provider and in extended close proximity to their classmates", 
+                "test:type": "quote"
+            }, 
+            "test:they will be excluded from school if they are unwilling to follow the rules around health and safety": {
+                "test:quote": "they will be excluded from school if they are unwilling to follow the rules around health and safety", 
+                "test:type": "quote"
+            }, 
+            "test:these kids are going to congregate somewhere else whether its in a mall or in somebodys basement … so from our perspective trying to minimize alternative venues where these kids might congregate would mean keeping them at school and continuously monitor": {
+                "test:quote": "these kids are going to congregate somewhere else whether its in a mall or in somebodys basement … so from our perspective trying to minimize alternative venues where these kids might congregate would mean keeping them at school and continuously monitoring and offering vaccination", 
+                "test:type": "quote"
+            }, 
+            "test:the student in question was not a member of the residence community is currently receiving treatment and is doing well": {
+                "test:quote": "the student in question was not a member of the residence community is currently receiving treatment and is doing well", 
+                "test:type": "quote"
+            }, 
+            "test:some people got lackadaisical about it": {
+                "test:quote": "some people got lackadaisical about it", 
+                "test:type": "quote"
+            }, 
+            "test:and we also have an option in new brunswick that if people dont want to be part of a public system theyre free to home school their kids": {
+                "test:quote": "and we also have an option in new brunswick that if people dont want to be part of a public system theyre free to home school their kids", 
+                "test:type": "quote"
+            }, 
+            "test:those close to you including family members are not considered to have had a potential exposure unless otherwise notified": {
+                "test:quote": "those close to you including family members are not considered to have had a potential exposure unless otherwise notified", 
+                "test:type": "quote"
+            }, 
+            "test:often it is but it can be a very significant concern for infants and for adults": {
+                "test:quote": "often it is but it can be a very significant concern for infants and for adults", 
+                "test:type": "quote"
+            }, 
+            "test:if things escalate to where we need more human resources we do have a contingency plan to pull extra resources": {
+                "test:quote": "if things escalate to where we need more human resources we do have a contingency plan to pull extra resources", 
+                "test:type": "quote"
+            }, 
+            "test:measles is a highly contagious respiratory disease and is vaccinepreventable": {
+                "test:quote": "measles is a highly contagious respiratory disease and is vaccinepreventable", 
+                "test:type": "quote"
+            }, 
+            "test:certainly my expectation is that starting in september every child going into a new brunswick school be there with their vaccine cards to prove that they are not a risk to themselves or others in the school system": {
+                "test:quote": "certainly my expectation is that starting in september every child going into a new brunswick school be there with their vaccine cards to prove that they are not a risk to themselves or others in the school system", 
+                "test:type": "quote"
+            }, 
+            "test:i dont think thats good enough": {
+                "test:quote": "i dont think thats good enough", 
+                "test:type": "quote"
+            }, 
+            "test:if these symptoms are present it is important that you contact your healthcare provider public health or 811 prior to presenting to a clinic physicians office or emergency room so that necessary measures can be put into place to prevent the spread to othe": {
+                "test:quote": "if these symptoms are present it is important that you contact your healthcare provider public health or 811 prior to presenting to a clinic physicians office or emergency room so that necessary measures can be put into place to prevent the spread to others", 
+                "test:type": "quote"
+            }, 
+            "test:our members are getting calls from people all over the place": {
+                "test:quote": "our members are getting calls from people all over the place", 
+                "test:type": "quote"
+            }, 
+            "test:in an outbreak setting as you can see you begin to catch people that participated in sports … went to a restaurant went to a sleepover — it just grows exponentially": {
+                "test:quote": "in an outbreak setting as you can see you begin to catch people that participated in sports … went to a restaurant went to a sleepover — it just grows exponentially", 
+                "test:type": "quote"
+            }, 
+            "test:it doesnt make much sense when we spend time talking about moveover laws on highways and bike laws and helmet laws and stuff like that if were going to ignore the transmission of infectious potentially fatal diseases in our schools": {
+                "test:quote": "it doesnt make much sense when we spend time talking about moveover laws on highways and bike laws and helmet laws and stuff like that if were going to ignore the transmission of infectious potentially fatal diseases in our schools", 
+                "test:type": "quote"
+            }, 
+            "test:there are rules around public health there to protect everyone in our society and those rules will be enforced": {
+                "test:quote": "there are rules around public health there to protect everyone in our society and those rules will be enforced", 
+                "test:type": "quote"
+            }, 
+            "test:if youre going to be in a public school system weve got to take public health into account": {
+                "test:quote": "if youre going to be in a public school system weve got to take public health into account", 
+                "test:type": "quote"
+            }, 
+            "test:but i can tell you we are looking at least 32 days following the rash onset date of the last outbreakassociated case": {
+                "test:quote": "but i can tell you we are looking at least 32 days following the rash onset date of the last outbreakassociated case", 
+                "test:type": "quote"
+            }, 
+            "test:we would ask that the unb community refer to the information": {
+                "test:quote": "we would ask that the unb community refer to the information", 
+                "test:type": "quote"
+            }, 
+            "test:if you are experiencing symptoms stay at home and selfisolate": {
+                "test:quote": "if you are experiencing symptoms stay at home and selfisolate", 
+                "test:type": "quote"
+            }, 
+            "test:once public health knows of somebody whos been exposed they do a risk assessment to figure out what the next steps would be": {
+                "test:quote": "once public health knows of somebody whos been exposed they do a risk assessment to figure out what the next steps would be", 
+                "test:type": "quote"
+            }, 
+            "test:i am unaware of any faith tradition that tells people that you know thy children must be infected with easily preventable diseases": {
+                "test:quote": "i am unaware of any faith tradition that tells people that you know thy children must be infected with easily preventable diseases", 
+                "test:type": "quote"
+            }, 
+            "test:do not go to the er community health clinic or doctors office call telecare 811": {
+                "test:quote": "do not go to the er community health clinic or doctors office call telecare 811", 
+                "test:type": "quote"
+            }, 
+            "test:alternate arrangements may certainly have to be made in the coming days as a result of the measles outbreak and those situations will be addressed as they arise": {
+                "test:quote": "alternate arrangements may certainly have to be made in the coming days as a result of the measles outbreak and those situations will be addressed as they arise", 
+                "test:type": "quote"
+            }, 
+            "test:at this time there are no indications to order more vaccine": {
+                "test:quote": "at this time there are no indications to order more vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:people say is measles just a rash": {
+                "test:quote": "people say is measles just a rash", 
+                "test:type": "quote"
+            }, 
+            "test:if we had that herd immunity this outbreak wouldnt have happened": {
+                "test:quote": "if we had that herd immunity this outbreak wouldnt have happened", 
+                "test:type": "quote"
+            }, 
+            "test:please do not distribute further beyond the school community": {
+                "test:quote": "please do not distribute further beyond the school community", 
+                "test:type": "quote"
+            }, 
+            "test:however a small number of individuals could become infected if they have been exposed to an active case": {
+                "test:quote": "however a small number of individuals could become infected if they have been exposed to an active case", 
+                "test:type": "quote"
+            }, 
+            "test:according to public health officials the risk of contracting measles in this situation is low but if you are experiencing symptoms … we encourage you to contact public health": {
+                "test:quote": "according to public health officials the risk of contracting measles in this situation is low but if you are experiencing symptoms … we encourage you to contact public health", 
+                "test:type": "quote"
+            }, 
+            "test:and people can get into the regular habit now of — im not going to question the vaccine": {
+                "test:quote": "and people can get into the regular habit now of — im not going to question the vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:so in a word stay home": {
+                "test:quote": "so in a word stay home", 
+                "test:type": "quote"
+            }, 
+            "test:we have not taken this decision lightly and realize how disappointing this will be to our students": {
+                "test:quote": "we have not taken this decision lightly and realize how disappointing this will be to our students", 
+                "test:type": "quote"
+            }, 
+            "test:and so it would be naive of us not to say that we will have more cases": {
+                "test:quote": "and so it would be naive of us not to say that we will have more cases", 
+                "test:type": "quote"
+            }, 
+            "test:i am certain some of you will have questions regarding the clinic and what a case of measles means for our students as we close out the school year": {
+                "test:quote": "i am certain some of you will have questions regarding the clinic and what a case of measles means for our students as we close out the school year", 
+                "test:type": "quote"
+            }, 
+            "test:during the outbreak the people who are most at risk are the people who came into direct contact with somebody with measles and so thats why we reserved the doses of the vaccine for those individuals": {
+                "test:quote": "during the outbreak the people who are most at risk are the people who came into direct contact with somebody with measles and so thats why we reserved the doses of the vaccine for those individuals", 
+                "test:type": "quote"
+            }, 
+            "test:thats going to be the choice that parents have to make is if they want to participate in the public school system": {
+                "test:quote": "thats going to be the choice that parents have to make is if they want to participate in the public school system", 
+                "test:type": "quote"
+            }, 
+            "test:should public health deem it necessary for any student to remain at home we will ensure that supports are made available": {
+                "test:quote": "should public health deem it necessary for any student to remain at home we will ensure that supports are made available", 
+                "test:type": "quote"
+            }, 
+            "test:as this is an evolving situation our focus over the last week has been on assisting public health in containing the spread of this virus": {
+                "test:quote": "as this is an evolving situation our focus over the last week has been on assisting public health in containing the spread of this virus", 
+                "test:type": "quote"
+            }, 
+            "test:were going to get it were going to protect the public protect the kids especially": {
+                "test:quote": "were going to get it were going to protect the public protect the kids especially", 
+                "test:type": "quote"
+            }, 
+            "test:we need to protect our vaccine doses for those that we know came into contact with a case": {
+                "test:quote": "we need to protect our vaccine doses for those that we know came into contact with a case", 
+                "test:type": "quote"
+            }, 
+            "test:our ideal goal would be to have 100 per cent vaccinated and certainly as we get through this situation i expect between health and education there will be more conversation": {
+                "test:quote": "our ideal goal would be to have 100 per cent vaccinated and certainly as we get through this situation i expect between health and education there will be more conversation", 
+                "test:type": "quote"
+            }, 
+            "test:i think sometimes people say eight cases of measles you know whats the big deal": {
+                "test:quote": "i think sometimes people say eight cases of measles you know whats the big deal", 
+                "test:type": "quote"
+            }, 
+            "test:so now youre bringing that to the forefront of their minds": {
+                "test:quote": "so now youre bringing that to the forefront of their minds", 
+                "test:type": "quote"
+            }, 
+            "test:as a result the previous prioritization of vaccination has been relaxed to allow for broader usage for the general public": {
+                "test:quote": "as a result the previous prioritization of vaccination has been relaxed to allow for broader usage for the general public", 
+                "test:type": "quote"
+            }, 
+            "test:for safety and security reasons this clinic is not open to the public": {
+                "test:quote": "for safety and security reasons this clinic is not open to the public", 
+                "test:type": "quote"
+            }, 
+            "test:in a school of 600 students this could potentially mean that about 18 students could be vulnerable": {
+                "test:quote": "in a school of 600 students this could potentially mean that about 18 students could be vulnerable", 
+                "test:type": "quote"
+            }, 
+            "test:thats why that extra dose we offer in an outbreak setting is so critical because youre covering off that three per cent of the individuals who had the misfortune of being one of those people who the vaccine wasnt 100 per cent effective": {
+                "test:quote": "thats why that extra dose we offer in an outbreak setting is so critical because youre covering off that three per cent of the individuals who had the misfortune of being one of those people who the vaccine wasnt 100 per cent effective", 
+                "test:type": "quote"
+            }, 
+            "test:on average in some places saint john for sure five to eight to 10 calls an hour just asking if you have the vaccine": {
+                "test:quote": "on average in some places saint john for sure five to eight to 10 calls an hour just asking if you have the vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:if the results are negative or borderline or if the required information for the student is absent public health may exclude them from the school for 21 days to contain the outbreak": {
+                "test:quote": "if the results are negative or borderline or if the required information for the student is absent public health may exclude them from the school for 21 days to contain the outbreak", 
+                "test:type": "quote"
+            }, 
+            "test:but i will tell you there are ongoing conversations between the department of education and department of health about that policy": {
+                "test:quote": "but i will tell you there are ongoing conversations between the department of education and department of health about that policy", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "7617": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:and so it would be naive of us not to say that we will have more cases"
+            }, 
+            "7623": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:but for those eight cases weve had to contact nearly 2000 people that may have come into contact with that"
+            }, 
+            "7717": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:thats going to be the choice that parents have to make is if they want to participate in the public school system"
+            }, 
+            "7583": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:and people can get into the regular habit now of — im not going to question the vaccine"
+            }, 
+            "7653": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:when almost everyone is vaccinated the rare cases that do occur tend to be in these people"
+            }, 
+            "7645": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:our greatest concern would be that a student could start to present these symptoms while travelling away from home and their regular health care provider and in extended close proximity to their classmates"
+            }, 
+            "7657": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:vaccination is still our best possible protection against measles"
+            }, 
+            "7633": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:the safety of the students and the adults in that building is our priority and well continue to work through those"
+            }, 
+            "7569": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "prov:activity": "test:if these symptoms are present it is important that you contact your healthcare provider public health or 811 prior to presenting to a clinic physicians office or emergency room so that necessary measures can be put into place to prevent the spread to othe"
+            }, 
+            "7641": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:we have not taken this decision lightly and realize how disappointing this will be to our students"
+            }, 
+            "7663": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:this is very unusual for us to tell people to do that but when you walk into a busy emergency room or a busy family doctors office you risk exposing other people there that might not have adequate immunization"
+            }, 
+            "7671": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:often it is but it can be a very significant concern for infants and for adults"
+            }, 
+            "7711": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:it doesnt make much sense when we spend time talking about moveover laws on highways and bike laws and helmet laws and stuff like that if were going to ignore the transmission of infectious potentially fatal diseases in our schools"
+            }, 
+            "7499": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:activity": "test:make sure that if youre going to go to a clinic or hospital call ahead so they can put precautions in place to protect other patients"
+            }, 
+            "7575": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:if things escalate to where we need more human resources we do have a contingency plan to pull extra resources"
+            }, 
+            "7619": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:i think sometimes people say eight cases of measles you know whats the big deal"
+            }, 
+            "7577": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:some people got lackadaisical about it"
+            }, 
+            "7523": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:please do not distribute further beyond the school community"
+            }, 
+            "7579": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:so now youre bringing that to the forefront of their minds"
+            }, 
+            "7493": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "prov:activity": "test:at this time there are no indications to order more vaccine"
+            }, 
+            "7595": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:activity": "test:during the outbreak the people who are most at risk are the people who came into direct contact with somebody with measles and so thats why we reserved the doses of the vaccine for those individuals"
+            }, 
+            "7491": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "prov:activity": "test:moving forward not all individuals and settings will be at equal risk"
+            }, 
+            "7637": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:these kids are going to congregate somewhere else whether its in a mall or in somebodys basement … so from our perspective trying to minimize alternative venues where these kids might congregate would mean keeping them at school and continuously monitor"
+            }, 
+            "7613": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:in an outbreak setting as you can see you begin to catch people that participated in sports … went to a restaurant went to a sleepover — it just grows exponentially"
+            }, 
+            "7517": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:those close to you including family members are not considered to have had a potential exposure unless otherwise notified"
+            }, 
+            "7695": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:i dont think thats good enough"
+            }, 
+            "7559": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:activity": "test:according to public health officials the risk of contracting measles in this situation is low but if you are experiencing symptoms … we encourage you to contact public health"
+            }, 
+            "7507": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:activity": "test:our ideal goal would be to have 100 per cent vaccinated and certainly as we get through this situation i expect between health and education there will be more conversation"
+            }, 
+            "7513": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:activity": "test:but i will tell you there are ongoing conversations between the department of education and department of health about that policy"
+            }, 
+            "7691": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:they will be excluded from school if they are unwilling to follow the rules around health and safety"
+            }, 
+            "7535": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:do not go to the er community health clinic or doctors office call telecare 811"
+            }, 
+            "7537": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:however a small number of individuals could become infected if they have been exposed to an active case"
+            }, 
+            "7557": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:activity": "test:we would ask that the unb community refer to the information"
+            }, 
+            "7699": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:i am unaware of any faith tradition that tells people that you know thy children must be infected with easily preventable diseases"
+            }, 
+            "7555": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-unb-fredericton-student-1.4063848", 
+                "prov:activity": "test:the student in question was not a member of the residence community is currently receiving treatment and is doing well"
+            }, 
+            "7503": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-confirmed-hospital-1.5113154", 
+                "prov:activity": "test:once public health knows of somebody whos been exposed they do a risk assessment to figure out what the next steps would be"
+            }, 
+            "7487": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "prov:activity": "test:but i can tell you we are looking at least 32 days following the rash onset date of the last outbreakassociated case"
+            }, 
+            "7565": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-second-case-confirmed-new-brunswick-quispamsis-1.5134509", 
+                "prov:activity": "test:measles is a highly contagious respiratory disease and is vaccinepreventable"
+            }, 
+            "7631": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:alternate arrangements may certainly have to be made in the coming days as a result of the measles outbreak and those situations will be addressed as they arise"
+            }, 
+            "7483": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-vaccine-access-public-health-1.5191159", 
+                "prov:activity": "test:as a result the previous prioritization of vaccination has been relaxed to allow for broader usage for the general public"
+            }, 
+            "7721": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:there are rules around public health there to protect everyone in our society and those rules will be enforced"
+            }, 
+            "7661": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:it is important to note that if nobody in the school had been vaccinated then 90 per cent would have become ill"
+            }, 
+            "7715": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:if youre going to be in a public school system weve got to take public health into account"
+            }, 
+            "7649": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:so that means three in 100 people"
+            }, 
+            "7667": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:people say is measles just a rash"
+            }, 
+            "7703": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:and we also have an option in new brunswick that if people dont want to be part of a public system theyre free to home school their kids"
+            }, 
+            "7707": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:if we had that herd immunity this outbreak wouldnt have happened"
+            }, 
+            "7529": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:we need to protect our vaccine doses for those that we know came into contact with a case"
+            }, 
+            "7599": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:activity": "test:our members are getting calls from people all over the place"
+            }, 
+            "7607": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:activity": "test:thats why that extra dose we offer in an outbreak setting is so critical because youre covering off that three per cent of the individuals who had the misfortune of being one of those people who the vaccine wasnt 100 per cent effective"
+            }, 
+            "7585": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:were going to get it were going to protect the public protect the kids especially"
+            }, 
+            "7603": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-mmrv-vaccine-rationing-new-brunswick-1.5156850", 
+                "prov:activity": "test:on average in some places saint john for sure five to eight to 10 calls an hour just asking if you have the vaccine"
+            }, 
+            "7581": {
+                "prov:entity": "test:http://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-new-brunswick-public-health-1.5135178", 
+                "prov:activity": "test:so people can get in there get fixed up and we can hopefully down the road erase that worry from their mind"
+            }, 
+            "7509": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-new-brunswick-1.5136801", 
+                "prov:activity": "test:we havent reached that point"
+            }, 
+            "7549": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:should public health deem it necessary for any student to remain at home we will ensure that supports are made available"
+            }, 
+            "7685": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:and a child coming to school whos able to transmit easily infectious fatal diseases is doing just that — theyre bringing something dangerous into the school environment"
+            }, 
+            "7521": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:for safety and security reasons this clinic is not open to the public"
+            }, 
+            "7675": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:so in a word stay home"
+            }, 
+            "7533": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:if you are experiencing symptoms stay at home and selfisolate"
+            }, 
+            "7681": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:we wouldnt let a child come to school with a gun"
+            }, 
+            "7525": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:this includes members of district staff partners and special guests who were at the school for an activity yesterday"
+            }, 
+            "7627": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-saint-john-kennebecasis-school-1.5151007", 
+                "prov:activity": "test:as this is an evolving situation our focus over the last week has been on assisting public health in containing the spread of this virus"
+            }, 
+            "7541": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:in a school of 600 students this could potentially mean that about 18 students could be vulnerable"
+            }, 
+            "7543": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:if the results are negative or borderline or if the required information for the student is absent public health may exclude them from the school for 21 days to contain the outbreak"
+            }, 
+            "7545": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/measles-outbreak-saint-john-hampton-high-school-1.5158687", 
+                "prov:activity": "test:i am certain some of you will have questions regarding the clinic and what a case of measles means for our students as we close out the school year"
+            }, 
+            "7689": {
+                "prov:entity": "test:https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-student-immunization-mandatory-education-minister-cardy-1.5155481", 
+                "prov:activity": "test:certainly my expectation is that starting in september every child going into a new brunswick school be there with their vaccine cards to prove that they are not a risk to themselves or others in the school system"
+            }
+        }
+    }
+}

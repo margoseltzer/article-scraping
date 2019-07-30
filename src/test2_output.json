@@ -1,0 +1,361 @@
+{
+    "root": "https://www.bbc.com/news/uk-48898231", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "165": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/uk-48898231"
+            }, 
+            "167": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/uk-48898231"
+            }, 
+            "169": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/uk-48898231"
+            }, 
+            "171": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1133759237136494592?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534"
+            }
+        }, 
+        "wasAttributedTo": {
+            "163": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:agent": "test:Isabel Oakeshott For The Mail On Sunday"
+            }, 
+            "127": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:agent": "test:https://www.bbc.co.uk"
+            }, 
+            "89": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:agent": "test:https://www.bbc.com"
+            }, 
+            "161": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:agent": "test:https://www.dailymail.co.uk"
+            }, 
+            "105": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:agent": "test:https://www.bbc.co.uk"
+            }
+        }, 
+        "agent": {
+            "test:https://www.bbc.com": {
+                "test:publisher": "https://www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:https://www.dailymail.co.uk": {
+                "test:publisher": "https://www.dailymail.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Isabel Oakeshott For The Mail On Sunday": {
+                "test:name": "Isabel Oakeshott For The Mail On Sunday", 
+                "test:type": "person"
+            }, 
+            "test:https://www.bbc.co.uk": {
+                "test:publisher": "https://www.bbc.co.uk", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.bbc.com/news/uk-48898231": {
+                "test:url": "https://www.bbc.com/news/uk-48898231", 
+                "test:date": "", 
+                "test:title": "Trump administration is 'inept and insecure', says UK ambassador", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/world-us-canada-48714414": {
+                "test:url": "https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "test:date": "", 
+                "test:title": "US-Iran: Trump says military was 'cocked and loaded' to retaliate", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/1133759237136494592?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/1133759237136494592?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.co.uk/news/world-us-canada-48450534": {
+                "test:url": "https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "test:date": "", 
+                "test:title": "Robert Mueller: Charging Trump was not an option", 
+                "test:type": "article"
+            }, 
+            "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html": {
+                "test:url": "https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "test:date": "2019-07-06", 
+                "test:title": "Britain's man in the the US says Trump is 'inept': Cables from ambassador say he is 'dysfunctional'", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:we could have shot down that one too but we did not": {
+                "test:quote": "we could have shot down that one too but we did not", 
+                "test:type": "quote"
+            }, 
+            "test:we need to start impeachment proceedings": {
+                "test:quote": "we need to start impeachment proceedings", 
+                "test:type": "quote"
+            }, 
+            "test:the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power": {
+                "test:quote": "the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power", 
+                "test:type": "quote"
+            }, 
+            "test:planes were in the air and ships were in position but no missiles had been fired when word came to stand down": {
+                "test:quote": "planes were in the air and ships were in position but no missiles had been fired when word came to stand down", 
+                "test:type": "quote"
+            }, 
+            "test:conclusions or hypotheticals about the president": {
+                "test:quote": "conclusions or hypotheticals about the president", 
+                "test:type": "quote"
+            }, 
+            "test:clearly did not commit a crime we would have said so": {
+                "test:quote": "clearly did not commit a crime we would have said so", 
+                "test:type": "quote"
+            }, 
+            "test:the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing": {
+                "test:quote": "the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing", 
+                "test:type": "quote"
+            }, 
+            "test:you need to make your points simple even blunt": {
+                "test:quote": "you need to make your points simple even blunt", 
+                "test:type": "quote"
+            }, 
+            "test:it is time to move on": {
+                "test:quote": "it is time to move on", 
+                "test:type": "quote"
+            }, 
+            "test:i am in no hurry": {
+                "test:quote": "i am in no hurry", 
+                "test:type": "quote"
+            }, 
+            "test:insufficient evidence to charge a broader conspiracy": {
+                "test:quote": "insufficient evidence to charge a broader conspiracy", 
+                "test:type": "quote"
+            }, 
+            "test:after two years the special counsel is moving on with his life and everyone else should do the same": {
+                "test:quote": "after two years the special counsel is moving on with his life and everyone else should do the same", 
+                "test:type": "quote"
+            }, 
+            "test:10 minutes before the strike i stopped it not proportionate to shooting down an unmanned drone": {
+                "test:quote": "10 minutes before the strike i stopped it not proportionate to shooting down an unmanned drone", 
+                "test:type": "quote"
+            }, 
+            "test:i didnt think it was proportionate": {
+                "test:quote": "i didnt think it was proportionate", 
+                "test:type": "quote"
+            }, 
+            "test:any attack against iran will have regional and international consequences": {
+                "test:quote": "any attack against iran will have regional and international consequences", 
+                "test:type": "quote"
+            }, 
+            "test:the case is closed": {
+                "test:quote": "the case is closed", 
+                "test:type": "quote"
+            }, 
+            "test:unlikely that us policy on iran is going to become more coherent any time soon": {
+                "test:quote": "unlikely that us policy on iran is going to become more coherent any time soon", 
+                "test:type": "quote"
+            }, 
+            "test:congress has a legal and moral obligation to begin impeachment proceedings immediately": {
+                "test:quote": "congress has a legal and moral obligation to begin impeachment proceedings immediately", 
+                "test:type": "quote"
+            }, 
+            "test:it is up to congress to hold this president accountable": {
+                "test:quote": "it is up to congress to hold this president accountable", 
+                "test:type": "quote"
+            }, 
+            "test:thank you": {
+                "test:quote": "thank you", 
+                "test:type": "quote"
+            }, 
+            "test:relitigating and reinvestigating the special counsels findings will only further divide our country": {
+                "test:quote": "relitigating and reinvestigating the special counsels findings will only further divide our country", 
+                "test:type": "quote"
+            }, 
+            "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept": {
+                "test:quote": "we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept", 
+                "test:type": "quote"
+            }, 
+            "test:when you violate iranian territorial space then we defend": {
+                "test:quote": "when you violate iranian territorial space then we defend", 
+                "test:type": "quote"
+            }, 
+            "test:i didnt like it": {
+                "test:quote": "i didnt like it", 
+                "test:type": "quote"
+            }, 
+            "test:this is still the land of america first": {
+                "test:quote": "this is still the land of america first", 
+                "test:type": "quote"
+            }, 
+            "test:iran can never have nuclear weapons": {
+                "test:quote": "iran can never have nuclear weapons", 
+                "test:type": "quote"
+            }, 
+            "test:our military is rebuilt new and ready to go by far the best in the world": {
+                "test:quote": "our military is rebuilt new and ready to go by far the best in the world", 
+                "test:type": "quote"
+            }, 
+            "test:the report is my testimony": {
+                "test:quote": "the report is my testimony", 
+                "test:type": "quote"
+            }, 
+            "test:the worst cannot be ruled out": {
+                "test:quote": "the worst cannot be ruled out", 
+                "test:type": "quote"
+            }, 
+            "test:but we pay them to be candid": {
+                "test:quote": "but we pay them to be candid", 
+                "test:type": "quote"
+            }, 
+            "test:the ball is in our court congress": {
+                "test:quote": "the ball is in our court congress", 
+                "test:type": "quote"
+            }, 
+            "test:it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so": {
+                "test:quote": "it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so", 
+                "test:type": "quote"
+            }, 
+            "test:their views are not necessarily the views of ministers or indeed the government": {
+                "test:quote": "their views are not necessarily the views of ministers or indeed the government", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "151": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so"
+            }, 
+            "153": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:relitigating and reinvestigating the special counsels findings will only further divide our country"
+            }, 
+            "155": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it is time to move on"
+            }, 
+            "113": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:i didnt like it"
+            }, 
+            "157": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the ball is in our court congress"
+            }, 
+            "159": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:after two years the special counsel is moving on with his life and everyone else should do the same"
+            }, 
+            "133": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:clearly did not commit a crime we would have said so"
+            }, 
+            "131": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:thank you"
+            }, 
+            "137": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the report is my testimony"
+            }, 
+            "135": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing"
+            }, 
+            "103": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:but we pay them to be candid"
+            }, 
+            "139": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:insufficient evidence to charge a broader conspiracy"
+            }, 
+            "119": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:planes were in the air and ships were in position but no missiles had been fired when word came to stand down"
+            }, 
+            "147": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:congress has a legal and moral obligation to begin impeachment proceedings immediately"
+            }, 
+            "145": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:we need to start impeachment proceedings"
+            }, 
+            "143": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it is up to congress to hold this president accountable"
+            }, 
+            "141": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:conclusions or hypotheticals about the president"
+            }, 
+            "149": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power"
+            }, 
+            "99": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:the worst cannot be ruled out"
+            }, 
+            "121": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:any attack against iran will have regional and international consequences"
+            }, 
+            "123": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:when you violate iranian territorial space then we defend"
+            }, 
+            "125": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:we could have shot down that one too but we did not"
+            }, 
+            "91": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept"
+            }, 
+            "129": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the case is closed"
+            }, 
+            "93": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:this is still the land of america first"
+            }, 
+            "101": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:their views are not necessarily the views of ministers or indeed the government"
+            }, 
+            "95": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:you need to make your points simple even blunt"
+            }, 
+            "107": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:10 minutes before the strike i stopped it not proportionate to shooting down an unmanned drone"
+            }, 
+            "97": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48898231", 
+                "prov:activity": "test:unlikely that us policy on iran is going to become more coherent any time soon"
+            }, 
+            "115": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:i didnt think it was proportionate"
+            }, 
+            "117": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:iran can never have nuclear weapons"
+            }, 
+            "109": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:i am in no hurry"
+            }, 
+            "111": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48714414", 
+                "prov:activity": "test:our military is rebuilt new and ready to go by far the best in the world"
+            }
+        }
+    }
+}

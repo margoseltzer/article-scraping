@@ -1,0 +1,55 @@
+{
+    "root": "https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "4677": {
+                "prov:usedEntity": "test:https://childrenshealthdefense.org/news/fully-vaccinated-vs-unvaccinated/", 
+                "prov:generatedEntity": "test:https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "4673": {
+                "prov:entity": "test:https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/", 
+                "prov:agent": "test:Robert F. Kennedy, Jr."
+            }, 
+            "4671": {
+                "prov:entity": "test:https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/", 
+                "prov:agent": "test:www.infowars.com"
+            }
+        }, 
+        "agent": {
+            "test:www.infowars.com": {
+                "test:publisher": "www.infowars.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Robert F. Kennedy, Jr.": {
+                "test:name": "Robert F. Kennedy, Jr.", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://childrenshealthdefense.org/news/fully-vaccinated-vs-unvaccinated/": {
+                "test:url": "https://childrenshealthdefense.org/news/fully-vaccinated-vs-unvaccinated/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/": {
+                "test:url": "https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/", 
+                "test:date": "2019-07-01", 
+                "test:title": "Health Officials Plotted to Create Phony Studies to Exonerate Vaccines – Report", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:i have great shame now when i meet the parent of a child with autism because i have been part of the problem": {
+                "test:quote": "i have great shame now when i meet the parent of a child with autism because i have been part of the problem", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "4675": {
+                "prov:entity": "test:https://www.infowars.com/health-officials-plotted-to-create-phony-studies-to-exonerate-vaccines-report/", 
+                "prov:activity": "test:i have great shame now when i meet the parent of a child with autism because i have been part of the problem"
+            }
+        }
+    }
+}

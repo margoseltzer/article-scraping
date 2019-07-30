@@ -1,0 +1,91 @@
+{
+    "root": "https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "6108": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/cancer+therapy/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6106": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/children/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6104": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/child/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6110": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/vaccine-preventable+diseases/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6102": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/childhood+vaccines/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6112": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/vaccine/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }, 
+            "6100": {
+                "prov:usedEntity": "test:https://medicalxpress.com/tags/fatal+diseases/", 
+                "prov:generatedEntity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "6098": {
+                "prov:entity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html", 
+                "prov:agent": "test:Mayo Clinic News Network"
+            }, 
+            "6096": {
+                "prov:entity": "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html", 
+                "prov:agent": "test:https://medicalxpress.com"
+            }
+        }, 
+        "agent": {
+            "test:https://medicalxpress.com": {
+                "test:publisher": "https://medicalxpress.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Mayo Clinic News Network": {
+                "test:name": "Mayo Clinic News Network", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html": {
+                "test:url": "https://medicalxpress.com/news/2019-07-childhood-vaccines-tough-straight.html", 
+                "test:date": "", 
+                "test:title": "Childhood vaccines: Tough questions, straight answers", 
+                "test:type": "article"
+            }, 
+            "test:https://medicalxpress.com/tags/childhood+vaccines/": {
+                "test:url": "https://medicalxpress.com/tags/childhood+vaccines/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/vaccine-preventable+diseases/": {
+                "test:url": "https://medicalxpress.com/tags/vaccine-preventable+diseases/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/child/": {
+                "test:url": "https://medicalxpress.com/tags/child/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/children/": {
+                "test:url": "https://medicalxpress.com/tags/children/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/vaccine/": {
+                "test:url": "https://medicalxpress.com/tags/vaccine/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/fatal+diseases/": {
+                "test:url": "https://medicalxpress.com/tags/fatal+diseases/", 
+                "test:type": "reference"
+            }, 
+            "test:https://medicalxpress.com/tags/cancer+therapy/": {
+                "test:url": "https://medicalxpress.com/tags/cancer+therapy/", 
+                "test:type": "reference"
+            }
+        }
+    }
+}

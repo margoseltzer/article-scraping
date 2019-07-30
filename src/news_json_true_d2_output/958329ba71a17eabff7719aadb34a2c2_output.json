@@ -1,0 +1,155 @@
+{
+    "root": "https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "6138": {
+                "prov:usedEntity": "test:https://abcnews.go.com/Health/number-measles-cases-1000-us-time-eradication/story?id=63606750", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6136": {
+                "prov:usedEntity": "test:https://wellcome.ac.uk/reports/wellcome-global-monitor/2018/appendix-country-level-data", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6142": {
+                "prov:usedEntity": "test:https://abcnews.go.com/alerts/france", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6140": {
+                "prov:usedEntity": "test:https://abcnews.go.com/alerts/obamacare", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6146": {
+                "prov:usedEntity": "test:https://www.cdc.gov/globalhealth/measles/globalmeaslesoutbreaks.htm", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6144": {
+                "prov:usedEntity": "test:https://abcnews.go.com/alerts/measles", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }, 
+            "6148": {
+                "prov:usedEntity": "test:https://abcnews.go.com/US/low-vaccination-rates-big-factor-ongoing-measles-outbreak/story?id=60620765", 
+                "prov:generatedEntity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219"
+            }
+        }, 
+        "wasAttributedTo": {
+            "6118": {
+                "prov:entity": "test:over the last century vaccines have made many devastating infectious diseases a distant memory", 
+                "prov:agent": "test:Charlie Weller"
+            }, 
+            "6114": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:agent": "test:abcnews.go.com"
+            }, 
+            "6130": {
+                "prov:entity": "test:there are pockets across the world where trust in vaccines is of concern therefore we cannot be complacent", 
+                "prov:agent": "test:Weller"
+            }, 
+            "6134": {
+                "prov:entity": "test:to ensure society gets the full benefit of vaccines we need to close the gap between scientific consensus and public attitudes towards vaccines", 
+                "prov:agent": "test:Weller"
+            }, 
+            "6126": {
+                "prov:entity": "test:it is reassuring to hear from this survey that worldwide almost all parents are vaccinating their children", 
+                "prov:agent": "test:Weller"
+            }, 
+            "6122": {
+                "prov:entity": "test:vaccines save up to 3 million lives every year  and research has consistently shown that they are both safe and effective", 
+                "prov:agent": "test:Charlie Weller"
+            }
+        }, 
+        "agent": {
+            "test:Weller": {
+                "test:name": "Weller", 
+                "test:type": "person"
+            }, 
+            "test:Charlie Weller": {
+                "test:name": "Charlie Weller", 
+                "test:type": "person"
+            }, 
+            "test:abcnews.go.com": {
+                "test:publisher": "abcnews.go.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219": {
+                "test:url": "https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "test:date": "2019-06-19", 
+                "test:title": "Confidence in vaccines low in some major European countries amid global measles outbreaks", 
+                "test:type": "article"
+            }, 
+            "test:https://abcnews.go.com/alerts/obamacare": {
+                "test:url": "https://abcnews.go.com/alerts/obamacare", 
+                "test:type": "government"
+            }, 
+            "test:https://abcnews.go.com/Health/number-measles-cases-1000-us-time-eradication/story?id=63606750": {
+                "test:url": "https://abcnews.go.com/Health/number-measles-cases-1000-us-time-eradication/story?id=63606750", 
+                "test:type": "government"
+            }, 
+            "test:https://abcnews.go.com/alerts/measles": {
+                "test:url": "https://abcnews.go.com/alerts/measles", 
+                "test:type": "government"
+            }, 
+            "test:https://wellcome.ac.uk/reports/wellcome-global-monitor/2018/appendix-country-level-data": {
+                "test:url": "https://wellcome.ac.uk/reports/wellcome-global-monitor/2018/appendix-country-level-data", 
+                "test:type": "reference"
+            }, 
+            "test:https://abcnews.go.com/alerts/france": {
+                "test:url": "https://abcnews.go.com/alerts/france", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cdc.gov/globalhealth/measles/globalmeaslesoutbreaks.htm": {
+                "test:url": "https://www.cdc.gov/globalhealth/measles/globalmeaslesoutbreaks.htm", 
+                "test:type": "government"
+            }, 
+            "test:https://abcnews.go.com/US/low-vaccination-rates-big-factor-ongoing-measles-outbreak/story?id=60620765": {
+                "test:url": "https://abcnews.go.com/US/low-vaccination-rates-big-factor-ongoing-measles-outbreak/story?id=60620765", 
+                "test:type": "government"
+            }
+        }, 
+        "activity": {
+            "test:there are pockets across the world where trust in vaccines is of concern therefore we cannot be complacent": {
+                "test:quote": "there are pockets across the world where trust in vaccines is of concern therefore we cannot be complacent", 
+                "test:type": "quote"
+            }, 
+            "test:it is reassuring to hear from this survey that worldwide almost all parents are vaccinating their children": {
+                "test:quote": "it is reassuring to hear from this survey that worldwide almost all parents are vaccinating their children", 
+                "test:type": "quote"
+            }, 
+            "test:over the last century vaccines have made many devastating infectious diseases a distant memory": {
+                "test:quote": "over the last century vaccines have made many devastating infectious diseases a distant memory", 
+                "test:type": "quote"
+            }, 
+            "test:vaccines save up to 3 million lives every year  and research has consistently shown that they are both safe and effective": {
+                "test:quote": "vaccines save up to 3 million lives every year  and research has consistently shown that they are both safe and effective", 
+                "test:type": "quote"
+            }, 
+            "test:to ensure society gets the full benefit of vaccines we need to close the gap between scientific consensus and public attitudes towards vaccines": {
+                "test:quote": "to ensure society gets the full benefit of vaccines we need to close the gap between scientific consensus and public attitudes towards vaccines", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "6132": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:activity": "test:to ensure society gets the full benefit of vaccines we need to close the gap between scientific consensus and public attitudes towards vaccines"
+            }, 
+            "6124": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:activity": "test:it is reassuring to hear from this survey that worldwide almost all parents are vaccinating their children"
+            }, 
+            "6116": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:activity": "test:over the last century vaccines have made many devastating infectious diseases a distant memory"
+            }, 
+            "6120": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:activity": "test:vaccines save up to 3 million lives every year  and research has consistently shown that they are both safe and effective"
+            }, 
+            "6128": {
+                "prov:entity": "test:https://abcnews.go.com/Health/confidence-vaccines-low-major-european-countries-amid-global/story?id=63807219", 
+                "prov:activity": "test:there are pockets across the world where trust in vaccines is of concern therefore we cannot be complacent"
+            }
+        }
+    }
+}

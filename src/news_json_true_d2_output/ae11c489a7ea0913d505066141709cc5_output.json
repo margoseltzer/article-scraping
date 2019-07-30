@@ -1,0 +1,177 @@
+{
+    "root": "http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "7463": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "prov:generatedEntity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination"
+            }, 
+            "7457": {
+                "prov:usedEntity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:generatedEntity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination"
+            }, 
+            "7461": {
+                "prov:usedEntity": "test:https://www1.nyc.gov/site/doh/health/health-topics/measles.page", 
+                "prov:generatedEntity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination"
+            }, 
+            "7459": {
+                "prov:usedEntity": "test:https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiz348/5529477?redirectedFrom=fulltext", 
+                "prov:generatedEntity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7441": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Mir. Muhammad Hassan Bullo"
+            }, 
+            "7443": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Pakistan Medical Research Council"
+            }, 
+            "7455": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Najma Javed"
+            }, 
+            "7445": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Muhammad Arif Nadeem Saqib"
+            }, 
+            "7453": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Central Research Centre"
+            }, 
+            "7447": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Islamabad"
+            }, 
+            "7451": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Phrc"
+            }, 
+            "7449": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:National Institute Of Health"
+            }, 
+            "7427": {
+                "prov:entity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+                "prov:agent": "test:www.cidrap.umn.edu"
+            }, 
+            "7435": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:https://bmcinfectdis.biomedcentral.com"
+            }, 
+            "7437": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Rana Jawad Asghar"
+            }, 
+            "7439": {
+                "prov:entity": "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "prov:agent": "test:Federal General Hospital"
+            }
+        }, 
+        "agent": {
+            "test:National Institute Of Health": {
+                "test:name": "National Institute Of Health", 
+                "test:type": "person"
+            }, 
+            "test:Mir. Muhammad Hassan Bullo": {
+                "test:name": "Mir. Muhammad Hassan Bullo", 
+                "test:type": "person"
+            }, 
+            "test:Muhammad Arif Nadeem Saqib": {
+                "test:name": "Muhammad Arif Nadeem Saqib", 
+                "test:type": "person"
+            }, 
+            "test:Phrc": {
+                "test:name": "Phrc", 
+                "test:type": "person"
+            }, 
+            "test:Rana Jawad Asghar": {
+                "test:name": "Rana Jawad Asghar", 
+                "test:type": "person"
+            }, 
+            "test:Pakistan Medical Research Council": {
+                "test:name": "Pakistan Medical Research Council", 
+                "test:type": "person"
+            }, 
+            "test:www.cidrap.umn.edu": {
+                "test:publisher": "www.cidrap.umn.edu", 
+                "test:type": "publisher"
+            }, 
+            "test:https://bmcinfectdis.biomedcentral.com": {
+                "test:publisher": "https://bmcinfectdis.biomedcentral.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Islamabad": {
+                "test:name": "Islamabad", 
+                "test:type": "person"
+            }, 
+            "test:Federal General Hospital": {
+                "test:name": "Federal General Hospital", 
+                "test:type": "person"
+            }, 
+            "test:Central Research Centre": {
+                "test:name": "Central Research Centre", 
+                "test:type": "person"
+            }, 
+            "test:Najma Javed": {
+                "test:name": "Najma Javed", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0": {
+                "test:url": "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4167-0", 
+                "test:date": "2019-12-10", 
+                "test:title": "Seroprevalence of Transplacentally acquired Measles antibodies in unvaccinated infants at nine months of age and its relation to the feeding practices", 
+                "test:type": "article"
+            }, 
+            "test:https://www1.nyc.gov/site/doh/health/health-topics/measles.page": {
+                "test:url": "https://www1.nyc.gov/site/doh/health/health-topics/measles.page", 
+                "test:type": "government"
+            }, 
+            "test:https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiz348/5529477?redirectedFrom=fulltext": {
+                "test:url": "https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiz348/5529477?redirectedFrom=fulltext", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cdc.gov/measles/cases-outbreaks.html": {
+                "test:url": "https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "test:type": "government"
+            }, 
+            "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination": {
+                "test:url": "http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+                "test:date": "", 
+                "test:title": "US measles cases reach 1,109 as studies point to early vaccination", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:based on the results of this study we urge further consideration to the possibility of earlier measles vaccination administration such as at 6 months to attempt to save more infants from this fatal infection": {
+                "test:quote": "based on the results of this study we urge further consideration to the possibility of earlier measles vaccination administration such as at 6 months to attempt to save more infants from this fatal infection", 
+                "test:type": "quote"
+            }, 
+            "test:breast feeding provides early protection against measles however these acquired levels drop down to low levels immediately after birth and then after 06 months": {
+                "test:quote": "breast feeding provides early protection against measles however these acquired levels drop down to low levels immediately after birth and then after 06 months", 
+                "test:type": "quote"
+            }, 
+            "test:these outbreaks are linked to travelers who brought measles back from other countries such as israel ukraine and the philippines where large measles outbreaks are occurring": {
+                "test:quote": "these outbreaks are linked to travelers who brought measles back from other countries such as israel ukraine and the philippines where large measles outbreaks are occurring", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "7431": {
+                "prov:entity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+                "prov:activity": "test:breast feeding provides early protection against measles however these acquired levels drop down to low levels immediately after birth and then after 06 months"
+            }, 
+            "7429": {
+                "prov:entity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+                "prov:activity": "test:these outbreaks are linked to travelers who brought measles back from other countries such as israel ukraine and the philippines where large measles outbreaks are occurring"
+            }, 
+            "7433": {
+                "prov:entity": "test:http://www.cidrap.umn.edu/news-perspective/2019/07/us-measles-cases-reach-1109-studies-point-early-vaccination", 
+                "prov:activity": "test:based on the results of this study we urge further consideration to the possibility of earlier measles vaccination administration such as at 6 months to attempt to save more infants from this fatal infection"
+            }
+        }
+    }
+}

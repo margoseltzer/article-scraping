@@ -1,0 +1,73 @@
+{
+    "root": "https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+    "bundle": {
+        "entity": {
+            "test:https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/": {
+                "test:url": "https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+                "test:date": "2019-06-25", 
+                "test:title": "CDC Manipulated Vaccine Science for Decades – Report", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3304": {
+                "prov:entity": "test:https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+                "prov:activity": "test:i do not wish to be the advocate of the antivaccine lobby and sound like being convinced that thimerosal is or was harmful but at least i feel we should use sound scientific argumentation and not let our standards be dictated by our desire to disprove an "
+            }, 
+            "3312": {
+                "prov:entity": "test:https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+                "prov:activity": "test:i would be curious to know whether dr verstraeten by then at gsk …was required to go through the same process…to continue accessing the vsd"
+            }, 
+            "3308": {
+                "prov:entity": "test:https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+                "prov:activity": "test:the treatment that these wellpublished researchers have received from the cdc…has been abysmal and embarrassing"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3306": {
+                "prov:entity": "test:i do not wish to be the advocate of the antivaccine lobby and sound like being convinced that thimerosal is or was harmful but at least i feel we should use sound scientific argumentation and not let our standards be dictated by our desire to disprove an ", 
+                "prov:agent": "test:Verstraeten"
+            }, 
+            "3310": {
+                "prov:entity": "test:the treatment that these wellpublished researchers have received from the cdc…has been abysmal and embarrassing", 
+                "prov:agent": "test:Gerberding"
+            }, 
+            "3302": {
+                "prov:entity": "test:https://www.infowars.com/cdc-manipulated-vaccine-science-for-decades-report/", 
+                "prov:agent": "test:www.infowars.com"
+            }, 
+            "3314": {
+                "prov:entity": "test:i would be curious to know whether dr verstraeten by then at gsk …was required to go through the same process…to continue accessing the vsd", 
+                "prov:agent": "test:Gerberding"
+            }
+        }, 
+        "agent": {
+            "test:Gerberding": {
+                "test:name": "Gerberding", 
+                "test:type": "person"
+            }, 
+            "test:Verstraeten": {
+                "test:name": "Verstraeten", 
+                "test:type": "person"
+            }, 
+            "test:www.infowars.com": {
+                "test:publisher": "www.infowars.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "activity": {
+            "test:the treatment that these wellpublished researchers have received from the cdc…has been abysmal and embarrassing": {
+                "test:quote": "the treatment that these wellpublished researchers have received from the cdc…has been abysmal and embarrassing", 
+                "test:type": "quote"
+            }, 
+            "test:i would be curious to know whether dr verstraeten by then at gsk …was required to go through the same process…to continue accessing the vsd": {
+                "test:quote": "i would be curious to know whether dr verstraeten by then at gsk …was required to go through the same process…to continue accessing the vsd", 
+                "test:type": "quote"
+            }, 
+            "test:i do not wish to be the advocate of the antivaccine lobby and sound like being convinced that thimerosal is or was harmful but at least i feel we should use sound scientific argumentation and not let our standards be dictated by our desire to disprove an ": {
+                "test:quote": "i do not wish to be the advocate of the antivaccine lobby and sound like being convinced that thimerosal is or was harmful but at least i feel we should use sound scientific argumentation and not let our standards be dictated by our desire to disprove an unpleasant theory", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "root": "https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases", 
+    "bundle": {
+        "entity": {
+            "test:https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases": {
+                "test:url": "https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases", 
+                "test:date": "2019-07-08", 
+                "test:title": "UK offers HPV vaccines to boys, aims to stop 100,000 cancer cases", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "5162": {
+                "prov:entity": "test:https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases", 
+                "prov:activity": "test:the hpv vaccine has enjoyed 10 years of success in protecting girls from acquiring cervical cancer as women"
+            }, 
+            "5164": {
+                "prov:entity": "test:https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases", 
+                "prov:activity": "test:it appears clear … that vaccinated boys will themselves benefit from not getting cancer of the penis anus and a diminished risk of head and neck cancer"
+            }
+        }, 
+        "wasAttributedTo": {
+            "5160": {
+                "prov:entity": "test:https://nationalpost.com/pmn/health-pmn/uk-offers-hpv-vaccines-to-boys-aims-to-stop-100000-cancer-cases", 
+                "prov:agent": "test:https://nationalpost.com"
+            }
+        }, 
+        "agent": {
+            "test:https://nationalpost.com": {
+                "test:publisher": "https://nationalpost.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "activity": {
+            "test:it appears clear … that vaccinated boys will themselves benefit from not getting cancer of the penis anus and a diminished risk of head and neck cancer": {
+                "test:quote": "it appears clear … that vaccinated boys will themselves benefit from not getting cancer of the penis anus and a diminished risk of head and neck cancer", 
+                "test:type": "quote"
+            }, 
+            "test:the hpv vaccine has enjoyed 10 years of success in protecting girls from acquiring cervical cancer as women": {
+                "test:quote": "the hpv vaccine has enjoyed 10 years of success in protecting girls from acquiring cervical cancer as women", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

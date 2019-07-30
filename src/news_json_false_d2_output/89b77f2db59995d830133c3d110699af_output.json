@@ -1,0 +1,331 @@
+{
+    "root": "https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "3298": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/1390036", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3300": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/17817390", 
+                "prov:generatedEntity": "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/"
+            }, 
+            "3288": {
+                "prov:usedEntity": "test:http://docteur.nicoledelepine.fr/paradoxical-effect-of-anti-hpv-vaccine-gardasil-on-cervical-cancer-rate/", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3294": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/26751186", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3286": {
+                "prov:usedEntity": "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3296": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810870/", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3284": {
+                "prov:usedEntity": "test:https://www.ebiomedicine.com/article/S2352-3964(17)30046-4/fulltext", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3290": {
+                "prov:usedEntity": "test:https://www.drugs.com/history/gardasil-9.html", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3282": {
+                "prov:usedEntity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3292": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/26160812", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }, 
+            "3280": {
+                "prov:usedEntity": "test:https://www.jeffereyjaxen.com/blog/vaccine-censorship-backfiringwhat-to-expect-next", 
+                "prov:generatedEntity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3232": {
+                "prov:entity": "test:presumably the regulators believe that the vaccine is so safe that they don’t need to worry beyond 14 days", 
+                "prov:agent": "test:Merck"
+            }, 
+            "3248": {
+                "prov:entity": "test:vaccines are a cornerstone of mercks commitment to health and wellness", 
+                "prov:agent": "test:Richard T. Clark"
+            }, 
+            "3236": {
+                "prov:entity": "test:during gardasil’s clinical trials an extraordinary 495 of the subjects receiving gardasil reported serious medical conditions within seven months of the start of the clinical trials", 
+                "prov:agent": "test:Jr."
+            }, 
+            "3228": {
+                "prov:entity": "test:it’s not going to pick up serious longterm issues which is a pity", 
+                "prov:agent": "test:Merck"
+            }, 
+            "3242": {
+                "prov:entity": "test:https://www.jeffereyjaxen.com/blog/vaccine-censorship-backfiringwhat-to-expect-next", 
+                "prov:agent": "test:www.jeffereyjaxen.com"
+            }, 
+            "3252": {
+                "prov:entity": "test:we are delighted to welcome an expert of dr gerberdings caliber to merck", 
+                "prov:agent": "test:Richard T. Clark"
+            }, 
+            "3240": {
+                "prov:entity": "test:because merck did not use a true placebo in its clinical trials its researchers were able to dismiss these injuries as sad coincidences", 
+                "prov:agent": "test:Jr."
+            }, 
+            "3256": {
+                "prov:entity": "test:as a preeminent authority in public health infectious diseases and vaccines dr gerberding is the ideal choice to lead mercks engagement with organizations around the world that share our commitment to the use of vaccines to prevent disease and save lives", 
+                "prov:agent": "test:Richard T. Clark"
+            }, 
+            "3222": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:agent": "test:www.infowars.com"
+            }, 
+            "3276": {
+                "prov:entity": "test:http://docteur.nicoledelepine.fr/paradoxical-effect-of-anti-hpv-vaccine-gardasil-on-cervical-cancer-rate/", 
+                "prov:agent": "test:docteur.nicoledelepine.fr"
+            }, 
+            "3260": {
+                "prov:entity": "test:ive had the privilege in my previous work in academia and in the federal government to be a passionate advocate for public health priorities such as vaccines which are an imperative component of global health development", 
+                "prov:agent": "test:Gerberding"
+            }, 
+            "3274": {
+                "prov:entity": "test:some of these viruses are latent and persist for a while so it is very important to assure that these things are safe before they are given to people", 
+                "prov:agent": "test:Patriarca"
+            }, 
+            "3264": {
+                "prov:entity": "test:i am very excited to be joining merck where i can help to expand access to vaccines around the world", 
+                "prov:agent": "test:Gerberding"
+            }, 
+            "3270": {
+                "prov:entity": "test:one of the important things is that the technology used to make these vaccines actually exceeds the science and technology to understand how these vaccines work and to predict how they will work", 
+                "prov:agent": "test:Lyn Redwood"
+            }, 
+            "3266": {
+                "prov:entity": "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/", 
+                "prov:agent": "test:childrenshealthdefense.org"
+            }, 
+            "3244": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:agent": "test:www.fiercebiotech.com"
+            }, 
+            "3278": {
+                "prov:entity": "test:http://docteur.nicoledelepine.fr/paradoxical-effect-of-anti-hpv-vaccine-gardasil-on-cervical-cancer-rate/", 
+                "prov:agent": "test:Nicole Delépine"
+            }
+        }, 
+        "agent": {
+            "test:Gerberding": {
+                "test:name": "Gerberding", 
+                "test:type": "person"
+            }, 
+            "test:www.fiercebiotech.com": {
+                "test:publisher": "www.fiercebiotech.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Lyn Redwood": {
+                "test:name": "Lyn Redwood", 
+                "test:type": "person"
+            }, 
+            "test:Merck": {
+                "test:name": "Merck", 
+                "test:type": "person"
+            }, 
+            "test:Patriarca": {
+                "test:name": "Patriarca", 
+                "test:type": "person"
+            }, 
+            "test:Jr.": {
+                "test:name": "Jr.", 
+                "test:type": "person"
+            }, 
+            "test:www.jeffereyjaxen.com": {
+                "test:publisher": "www.jeffereyjaxen.com", 
+                "test:type": "publisher"
+            }, 
+            "test:docteur.nicoledelepine.fr": {
+                "test:publisher": "docteur.nicoledelepine.fr", 
+                "test:type": "publisher"
+            }, 
+            "test:Richard T. Clark": {
+                "test:name": "Richard T. Clark", 
+                "test:type": "person"
+            }, 
+            "test:childrenshealthdefense.org": {
+                "test:publisher": "childrenshealthdefense.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Nicole Delépine": {
+                "test:name": "Nicole Delépine", 
+                "test:type": "person"
+            }, 
+            "test:www.infowars.com": {
+                "test:publisher": "www.infowars.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.ebiomedicine.com/article/S2352-3964(17)30046-4/fulltext": {
+                "test:url": "https://www.ebiomedicine.com/article/S2352-3964(17)30046-4/fulltext", 
+                "test:type": "article"
+            }, 
+            "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/": {
+                "test:url": "https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "test:date": "2019-06-11", 
+                "test:title": "Public Health Agencies Working to Keep Vaccine Dangers Secret – Report", 
+                "test:type": "article"
+            }, 
+            "test:http://docteur.nicoledelepine.fr/paradoxical-effect-of-anti-hpv-vaccine-gardasil-on-cervical-cancer-rate/": {
+                "test:url": "http://docteur.nicoledelepine.fr/paradoxical-effect-of-anti-hpv-vaccine-gardasil-on-cervical-cancer-rate/", 
+                "test:date": "2019-01-31", 
+                "test:title": "PARADOXICAL EFFECT OF ANTI-HPV VACCINE GARDASIL ON CERVICAL CANCER RATE – Docteur Nicole Delépine", 
+                "test:type": "article"
+            }, 
+            "test:https://www.drugs.com/history/gardasil-9.html": {
+                "test:url": "https://www.drugs.com/history/gardasil-9.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/26751186": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/26751186", 
+                "test:type": "government"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/26160812": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/26160812", 
+                "test:type": "government"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/1390036": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/1390036", 
+                "test:type": "government"
+            }, 
+            "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/": {
+                "test:url": "https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/", 
+                "test:date": "2018-04-09", 
+                "test:title": "FDA Acknowledged That Vaccine Technology Outpacing Ability to Predict Adverse Events", 
+                "test:type": "article"
+            }, 
+            "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines": {
+                "test:url": "https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "test:date": "", 
+                "test:title": "Dr. Julie Gerberding Named President of Merck Vaccines", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810870/": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810870/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/17817390": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/17817390", 
+                "test:type": "government"
+            }, 
+            "test:https://www.jeffereyjaxen.com/blog/vaccine-censorship-backfiringwhat-to-expect-next": {
+                "test:url": "https://www.jeffereyjaxen.com/blog/vaccine-censorship-backfiringwhat-to-expect-next", 
+                "test:date": "", 
+                "test:title": "Jefferey Jaxen is an independent, open source investigative journalist and researcher", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:during gardasil’s clinical trials an extraordinary 495 of the subjects receiving gardasil reported serious medical conditions within seven months of the start of the clinical trials": {
+                "test:quote": "during gardasil’s clinical trials an extraordinary 495 of the subjects receiving gardasil reported serious medical conditions within seven months of the start of the clinical trials", 
+                "test:type": "quote"
+            }, 
+            "test:some of these viruses are latent and persist for a while so it is very important to assure that these things are safe before they are given to people": {
+                "test:quote": "some of these viruses are latent and persist for a while so it is very important to assure that these things are safe before they are given to people", 
+                "test:type": "quote"
+            }, 
+            "test:we are delighted to welcome an expert of dr gerberdings caliber to merck": {
+                "test:quote": "we are delighted to welcome an expert of dr gerberdings caliber to merck", 
+                "test:type": "quote"
+            }, 
+            "test:because merck did not use a true placebo in its clinical trials its researchers were able to dismiss these injuries as sad coincidences": {
+                "test:quote": "because merck did not use a true placebo in its clinical trials its researchers were able to dismiss these injuries as sad coincidences", 
+                "test:type": "quote"
+            }, 
+            "test:this is not the kind of side effects we see with this vaccine": {
+                "test:quote": "this is not the kind of side effects we see with this vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:presumably the regulators believe that the vaccine is so safe that they don’t need to worry beyond 14 days": {
+                "test:quote": "presumably the regulators believe that the vaccine is so safe that they don’t need to worry beyond 14 days", 
+                "test:type": "quote"
+            }, 
+            "test:one of the important things is that the technology used to make these vaccines actually exceeds the science and technology to understand how these vaccines work and to predict how they will work": {
+                "test:quote": "one of the important things is that the technology used to make these vaccines actually exceeds the science and technology to understand how these vaccines work and to predict how they will work", 
+                "test:type": "quote"
+            }, 
+            "test:vaccines are a cornerstone of mercks commitment to health and wellness": {
+                "test:quote": "vaccines are a cornerstone of mercks commitment to health and wellness", 
+                "test:type": "quote"
+            }, 
+            "test:as a preeminent authority in public health infectious diseases and vaccines dr gerberding is the ideal choice to lead mercks engagement with organizations around the world that share our commitment to the use of vaccines to prevent disease and save lives": {
+                "test:quote": "as a preeminent authority in public health infectious diseases and vaccines dr gerberding is the ideal choice to lead mercks engagement with organizations around the world that share our commitment to the use of vaccines to prevent disease and save lives", 
+                "test:type": "quote"
+            }, 
+            "test:ive had the privilege in my previous work in academia and in the federal government to be a passionate advocate for public health priorities such as vaccines which are an imperative component of global health development": {
+                "test:quote": "ive had the privilege in my previous work in academia and in the federal government to be a passionate advocate for public health priorities such as vaccines which are an imperative component of global health development", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not going to pick up serious longterm issues which is a pity": {
+                "test:quote": "it’s not going to pick up serious longterm issues which is a pity", 
+                "test:type": "quote"
+            }, 
+            "test:i am very excited to be joining merck where i can help to expand access to vaccines around the world": {
+                "test:quote": "i am very excited to be joining merck where i can help to expand access to vaccines around the world", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3258": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:activity": "test:ive had the privilege in my previous work in academia and in the federal government to be a passionate advocate for public health priorities such as vaccines which are an imperative component of global health development"
+            }, 
+            "3230": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:activity": "test:presumably the regulators believe that the vaccine is so safe that they don’t need to worry beyond 14 days"
+            }, 
+            "3234": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:activity": "test:during gardasil’s clinical trials an extraordinary 495 of the subjects receiving gardasil reported serious medical conditions within seven months of the start of the clinical trials"
+            }, 
+            "3250": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:activity": "test:we are delighted to welcome an expert of dr gerberdings caliber to merck"
+            }, 
+            "3224": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:activity": "test:this is not the kind of side effects we see with this vaccine"
+            }, 
+            "3238": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:activity": "test:because merck did not use a true placebo in its clinical trials its researchers were able to dismiss these injuries as sad coincidences"
+            }, 
+            "3226": {
+                "prov:entity": "test:https://www.infowars.com/public-health-agencies-working-to-keep-vaccine-dangers-secret-report/", 
+                "prov:activity": "test:it’s not going to pick up serious longterm issues which is a pity"
+            }, 
+            "3254": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:activity": "test:as a preeminent authority in public health infectious diseases and vaccines dr gerberding is the ideal choice to lead mercks engagement with organizations around the world that share our commitment to the use of vaccines to prevent disease and save lives"
+            }, 
+            "3246": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:activity": "test:vaccines are a cornerstone of mercks commitment to health and wellness"
+            }, 
+            "3262": {
+                "prov:entity": "test:https://www.fiercebiotech.com/biotech/dr-julie-gerberding-named-president-of-merck-vaccines", 
+                "prov:activity": "test:i am very excited to be joining merck where i can help to expand access to vaccines around the world"
+            }, 
+            "3272": {
+                "prov:entity": "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/", 
+                "prov:activity": "test:some of these viruses are latent and persist for a while so it is very important to assure that these things are safe before they are given to people"
+            }, 
+            "3268": {
+                "prov:entity": "test:https://childrenshealthdefense.org/news/fda-acknowledged-that-vaccine-technology-outpacing-ability-to-predict-adverse-events/", 
+                "prov:activity": "test:one of the important things is that the technology used to make these vaccines actually exceeds the science and technology to understand how these vaccines work and to predict how they will work"
+            }
+        }
+    }
+}

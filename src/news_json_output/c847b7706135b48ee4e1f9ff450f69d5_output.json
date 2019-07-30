@@ -1,0 +1,25 @@
+{
+    "root": "http://now8news.com/breaking-w-h-o-confirms-over-10000-people-accidentally-vaccinated-with-ebola-virus/", 
+    "bundle": {
+        "wasAttributedTo": {
+            "3482": {
+                "prov:entity": "test:http://now8news.com/breaking-w-h-o-confirms-over-10000-people-accidentally-vaccinated-with-ebola-virus/", 
+                "prov:agent": "test:now8news.com"
+            }
+        }, 
+        "agent": {
+            "test:now8news.com": {
+                "test:publisher": "now8news.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:http://now8news.com/breaking-w-h-o-confirms-over-10000-people-accidentally-vaccinated-with-ebola-virus/": {
+                "test:url": "http://now8news.com/breaking-w-h-o-confirms-over-10000-people-accidentally-vaccinated-with-ebola-virus/", 
+                "test:date": "2016-01-05", 
+                "test:title": "BREAKING: W.H.O. Confirms Over 10,000 People Accidentally Vaccinated With Ebola Virus", 
+                "test:type": "article"
+            }
+        }
+    }
+}
