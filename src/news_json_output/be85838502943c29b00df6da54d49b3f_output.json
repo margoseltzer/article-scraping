@@ -1,0 +1,55 @@
+{
+    "root": "https://www.bbc.com/news/health-46972429", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "7763": {
+                "prov:usedEntity": "test:https://www.rsph.org.uk/our-work/policy/vaccinations/moving-the-needle-promoting-vaccination-uptake-across-the-life-course.html", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/health-46972429"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7757": {
+                "prov:entity": "test:https://www.bbc.com/news/health-46972429", 
+                "prov:agent": "test:https://www.bbc.com"
+            }, 
+            "7761": {
+                "prov:entity": "test:the spread of misinformation  if it impacts uptake of vaccines  could severely damage the publics health", 
+                "prov:agent": "test:Shirley Cramer"
+            }
+        }, 
+        "agent": {
+            "test:https://www.bbc.com": {
+                "test:publisher": "https://www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Shirley Cramer": {
+                "test:name": "Shirley Cramer", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.bbc.com/news/health-46972429": {
+                "test:url": "https://www.bbc.com/news/health-46972429", 
+                "test:date": "", 
+                "test:title": "Parents' vaccine side effects fear 'fuelled by social media'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.rsph.org.uk/our-work/policy/vaccinations/moving-the-needle-promoting-vaccination-uptake-across-the-life-course.html": {
+                "test:url": "https://www.rsph.org.uk/our-work/policy/vaccinations/moving-the-needle-promoting-vaccination-uptake-across-the-life-course.html", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:the spread of misinformation  if it impacts uptake of vaccines  could severely damage the publics health": {
+                "test:quote": "the spread of misinformation  if it impacts uptake of vaccines  could severely damage the publics health", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "7759": {
+                "prov:entity": "test:https://www.bbc.com/news/health-46972429", 
+                "prov:activity": "test:the spread of misinformation  if it impacts uptake of vaccines  could severely damage the publics health"
+            }
+        }
+    }
+}

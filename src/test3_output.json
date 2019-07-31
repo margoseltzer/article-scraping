@@ -1,0 +1,695 @@
+{
+    "root": "https://www.bbc.com/news/uk-48921243", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "308": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/uk-48921243"
+            }, 
+            "318": {
+                "prov:usedEntity": "test:https://www.bbc.com/news/world-us-canada-48452924", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534"
+            }, 
+            "312": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/uk-48915698"
+            }, 
+            "310": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/uk-48915698"
+            }, 
+            "316": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/1148298496140820480", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/uk-48915698"
+            }, 
+            "306": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:generatedEntity": "test:https://www.bbc.com/news/uk-48921243"
+            }, 
+            "314": {
+                "prov:usedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/uk-48915698"
+            }, 
+            "320": {
+                "prov:usedEntity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:generatedEntity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294"
+            }
+        }, 
+        "wasAttributedTo": {
+            "215": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:agent": "test:https://www.bbc.com"
+            }, 
+            "334": {
+                "prov:entity": "test:the wacky ambassador that the uk foisted upon the united states is not someone we are thrilled with a very stupid guy", 
+                "prov:agent": "test:Trump"
+            }, 
+            "337": {
+                "prov:entity": "test:he should speak to his country and prime minister may about their failed brexit negotiation and not be upset with my criticism of how badly it was handled", 
+                "prov:agent": "test:Trump"
+            }, 
+            "387": {
+                "prov:entity": "test:the case is closed", 
+                "prov:agent": "test:Trump"
+            }, 
+            "393": {
+                "prov:entity": "test:clearly did not commit a crime we would have said so", 
+                "prov:agent": "test:Robert Mueller"
+            }, 
+            "390": {
+                "prov:entity": "test:thank you", 
+                "prov:agent": "test:Trump"
+            }, 
+            "396": {
+                "prov:entity": "test:the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing", 
+                "prov:agent": "test:Mueller"
+            }, 
+            "399": {
+                "prov:entity": "test:the report is my testimony", 
+                "prov:agent": "test:Mueller"
+            }, 
+            "405": {
+                "prov:entity": "test:conclusions or hypotheticals about the president", 
+                "prov:agent": "test:Robert Mueller"
+            }, 
+            "428": {
+                "prov:entity": "test:after two years the special counsel is moving on with his life and everyone else should do the same", 
+                "prov:agent": "test:Sarah Sanders"
+            }, 
+            "346": {
+                "prov:entity": "test:i dont know the ambassador but have been told he is a pompous fool", 
+                "prov:agent": "test:Trump"
+            }, 
+            "340": {
+                "prov:entity": "test:i told theresamay how to do that deal but she went her own foolish waywas unable to get it done", 
+                "prov:agent": "test:Trump"
+            }, 
+            "402": {
+                "prov:entity": "test:insufficient evidence to charge a broader conspiracy", 
+                "prov:agent": "test:Mueller"
+            }, 
+            "325": {
+                "prov:entity": "test:who seems to love stirring up controversy", 
+                "prov:agent": "test:Laura Kuenssberg"
+            }, 
+            "421": {
+                "prov:entity": "test:relitigating and reinvestigating the special counsels findings will only further divide our country", 
+                "prov:agent": "test:Doug Collins"
+            }, 
+            "367": {
+                "prov:entity": "test:hung out to dry even though his only crime was to tell the truth", 
+                "prov:agent": "test:Emily Thornberry"
+            }, 
+            "329": {
+                "prov:entity": "test:to deal with any accredited individuals until we get any further guidance from the white house or the president", 
+                "prov:agent": "test:Kim"
+            }, 
+            "349": {
+                "prov:entity": "test:tell him the usa now has the best economy  military anywhere in the world by farand they are both only getting bigger better and strongerthank you mr", 
+                "prov:agent": "test:Trump"
+            }, 
+            "408": {
+                "prov:entity": "test:it is up to congress to hold this president accountable", 
+                "prov:agent": "test:Kamala Harris"
+            }, 
+            "440": {
+                "prov:entity": "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept", 
+                "prov:agent": "test:Kim"
+            }, 
+            "411": {
+                "prov:entity": "test:we need to start impeachment proceedings", 
+                "prov:agent": "test:Kamala Harris"
+            }, 
+            "343": {
+                "prov:entity": "test:a disaster", 
+                "prov:agent": "test:Trump"
+            }, 
+            "445": {
+                "prov:entity": "test:this is still the land of america first", 
+                "prov:agent": "test:Trump"
+            }, 
+            "381": {
+                "prov:entity": "test:i dont think im the right man for the job", 
+                "prov:agent": "test:Farage"
+            }, 
+            "243": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:agent": "test:https://www.bbc.co.uk"
+            }, 
+            "127": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:agent": "test:https://www.bbc.co.uk"
+            }, 
+            "161": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:agent": "test:https://www.dailymail.co.uk"
+            }, 
+            "163": {
+                "prov:entity": "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "prov:agent": "test:Isabel Oakeshott For The Mail On Sunday"
+            }, 
+            "432": {
+                "prov:entity": "test:we will no longer deal with him", 
+                "prov:agent": "test:Kim Darroch"
+            }, 
+            "424": {
+                "prov:entity": "test:it is time to move on", 
+                "prov:agent": "test:Doug Collins"
+            }, 
+            "414": {
+                "prov:entity": "test:congress has a legal and moral obligation to begin impeachment proceedings immediately", 
+                "prov:agent": "test:Cory Booker"
+            }, 
+            "356": {
+                "prov:entity": "test:the ambassador has not served the uk well", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "417": {
+                "prov:entity": "test:the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power", 
+                "prov:agent": "test:Cory Booker"
+            }, 
+            "352": {
+                "prov:entity": "test:president", 
+                "prov:agent": "test:Trump"
+            }, 
+            "370": {
+                "prov:entity": "test:he told the truth about donald trump and that was because it was his job", 
+                "prov:agent": "test:Emily Thornberry"
+            }, 
+            "373": {
+                "prov:entity": "test:were not big fans of that man and he has not served the uk well", 
+                "prov:agent": "test:Trump"
+            }, 
+            "437": {
+                "prov:entity": "test:not liked or well thought of within the us", 
+                "prov:agent": "test:Kim"
+            }, 
+            "292": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:agent": "test:https://www.bbc.co.uk"
+            }, 
+            "359": {
+                "prov:entity": "test:will no longer deal with him", 
+                "prov:agent": "test:Donald Trump"
+            }, 
+            "376": {
+                "prov:entity": "test:so i can understand it and i can say things about him but i wont bother", 
+                "prov:agent": "test:Trump"
+            }
+        }, 
+        "agent": {
+            "test:Mueller": {
+                "test:name": "Mueller", 
+                "test:type": "person"
+            }, 
+            "test:Farage": {
+                "test:name": "Farage", 
+                "test:type": "person"
+            }, 
+            "test:Kim Darroch": {
+                "test:name": "Kim Darroch", 
+                "test:type": "person"
+            }, 
+            "test:Kim": {
+                "test:name": "Kim", 
+                "test:type": "person"
+            }, 
+            "test:Trump": {
+                "test:name": "Trump", 
+                "test:type": "person"
+            }, 
+            "test:Laura Kuenssberg": {
+                "test:name": "Laura Kuenssberg", 
+                "test:type": "person"
+            }, 
+            "test:Sarah Sanders": {
+                "test:name": "Sarah Sanders", 
+                "test:type": "person"
+            }, 
+            "test:https://www.bbc.com": {
+                "test:publisher": "https://www.bbc.com", 
+                "test:type": "publisher"
+            }, 
+            "test:https://www.dailymail.co.uk": {
+                "test:publisher": "https://www.dailymail.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Kamala Harris": {
+                "test:name": "Kamala Harris", 
+                "test:type": "person"
+            }, 
+            "test:Emily Thornberry": {
+                "test:name": "Emily Thornberry", 
+                "test:type": "person"
+            }, 
+            "test:Robert Mueller": {
+                "test:name": "Robert Mueller", 
+                "test:type": "person"
+            }, 
+            "test:Isabel Oakeshott For The Mail On Sunday": {
+                "test:name": "Isabel Oakeshott For The Mail On Sunday", 
+                "test:type": "person"
+            }, 
+            "test:Doug Collins": {
+                "test:name": "Doug Collins", 
+                "test:type": "person"
+            }, 
+            "test:Cory Booker": {
+                "test:name": "Cory Booker", 
+                "test:type": "person"
+            }, 
+            "test:https://www.bbc.co.uk": {
+                "test:publisher": "https://www.bbc.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Donald Trump": {
+                "test:name": "Donald Trump", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://twitter.com/realDonaldTrump/status/1148298496140820480": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/1148298496140820480", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bbc.com/news/world-us-canada-48452924": {
+                "test:url": "https://www.bbc.com/news/world-us-canada-48452924", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/world-us-canada-48914294": {
+                "test:url": "https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "test:date": "", 
+                "test:title": "Trump: 'We won't deal with UK ambassador' after leaked emails", 
+                "test:type": "article"
+            }, 
+            "test:https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html": {
+                "test:url": "https://www.dailymail.co.uk/news/article-7220335/Britains-man-says-Trump-inept-Cables-ambassador-say-dysfunctional.html", 
+                "test:date": "2019-07-06", 
+                "test:title": "Britain's man in the the US says Trump is 'inept': Cables from ambassador say he is 'dysfunctional'", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.com/news/uk-48921243": {
+                "test:url": "https://www.bbc.com/news/uk-48921243", 
+                "test:date": "", 
+                "test:title": "Trump 'disrespectful' to PM and UK, says Jeremy Hunt", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/uk-48915698": {
+                "test:url": "https://www.bbc.co.uk/news/uk-48915698", 
+                "test:date": "", 
+                "test:title": "Trump diplomat row: Police urged to open investigation", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bbc.co.uk/news/world-us-canada-48450534": {
+                "test:url": "https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "test:date": "", 
+                "test:title": "Robert Mueller: Charging Trump was not an option", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:the ambassador has not served the uk well": {
+                "test:quote": "the ambassador has not served the uk well", 
+                "test:type": "quote"
+            }, 
+            "test:conclusions or hypotheticals about the president": {
+                "test:quote": "conclusions or hypotheticals about the president", 
+                "test:type": "quote"
+            }, 
+            "test:tell him the usa now has the best economy  military anywhere in the world by farand they are both only getting bigger better and strongerthank you mr": {
+                "test:quote": "tell him the usa now has the best economy  military anywhere in the world by farand they are both only getting bigger better and strongerthank you mr", 
+                "test:type": "quote"
+            }, 
+            "test:so i can understand it and i can say things about him but i wont bother": {
+                "test:quote": "so i can understand it and i can say things about him but i wont bother", 
+                "test:type": "quote"
+            }, 
+            "test:we need to start impeachment proceedings": {
+                "test:quote": "we need to start impeachment proceedings", 
+                "test:type": "quote"
+            }, 
+            "test:the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power": {
+                "test:quote": "the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power", 
+                "test:type": "quote"
+            }, 
+            "test:he told the truth about donald trump and that was because it was his job": {
+                "test:quote": "he told the truth about donald trump and that was because it was his job", 
+                "test:type": "quote"
+            }, 
+            "test:i told theresamay how to do that deal but she went her own foolish waywas unable to get it done": {
+                "test:quote": "i told theresamay how to do that deal but she went her own foolish waywas unable to get it done", 
+                "test:type": "quote"
+            }, 
+            "test:does not agree with the assessment": {
+                "test:quote": "does not agree with the assessment", 
+                "test:type": "quote"
+            }, 
+            "test:clearly did not commit a crime we would have said so": {
+                "test:quote": "clearly did not commit a crime we would have said so", 
+                "test:type": "quote"
+            }, 
+            "test:the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing": {
+                "test:quote": "the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing", 
+                "test:type": "quote"
+            }, 
+            "test:were not big fans of that man and he has not served the uk well": {
+                "test:quote": "were not big fans of that man and he has not served the uk well", 
+                "test:type": "quote"
+            }, 
+            "test:hung out to dry even though his only crime was to tell the truth": {
+                "test:quote": "hung out to dry even though his only crime was to tell the truth", 
+                "test:type": "quote"
+            }, 
+            "test:he isnt attending that meeting but he is supporting liam fox in other ways on his trip": {
+                "test:quote": "he isnt attending that meeting but he is supporting liam fox in other ways on his trip", 
+                "test:type": "quote"
+            }, 
+            "test:it is time to move on": {
+                "test:quote": "it is time to move on", 
+                "test:type": "quote"
+            }, 
+            "test:insufficient evidence to charge a broader conspiracy": {
+                "test:quote": "insufficient evidence to charge a broader conspiracy", 
+                "test:type": "quote"
+            }, 
+            "test:after two years the special counsel is moving on with his life and everyone else should do the same": {
+                "test:quote": "after two years the special counsel is moving on with his life and everyone else should do the same", 
+                "test:type": "quote"
+            }, 
+            "test:i dont know the ambassador but have been told he is a pompous fool": {
+                "test:quote": "i dont know the ambassador but have been told he is a pompous fool", 
+                "test:type": "quote"
+            }, 
+            "test:the wacky ambassador that the uk foisted upon the united states is not someone we are thrilled with a very stupid guy": {
+                "test:quote": "the wacky ambassador that the uk foisted upon the united states is not someone we are thrilled with a very stupid guy", 
+                "test:type": "quote"
+            }, 
+            "test:the case is closed": {
+                "test:quote": "the case is closed", 
+                "test:type": "quote"
+            }, 
+            "test:thank you": {
+                "test:quote": "thank you", 
+                "test:type": "quote"
+            }, 
+            "test:congress has a legal and moral obligation to begin impeachment proceedings immediately": {
+                "test:quote": "congress has a legal and moral obligation to begin impeachment proceedings immediately", 
+                "test:type": "quote"
+            }, 
+            "test:it is up to congress to hold this president accountable": {
+                "test:quote": "it is up to congress to hold this president accountable", 
+                "test:type": "quote"
+            }, 
+            "test:we have an incredibly special and strategic relationship with the united kingdom that has gone on for quite a long time  its bigger than any individual or government": {
+                "test:quote": "we have an incredibly special and strategic relationship with the united kingdom that has gone on for quite a long time  its bigger than any individual or government", 
+                "test:type": "quote"
+            }, 
+            "test:friends speak frankly so i will these comments are disrespectful and wrong to our prime minister and my country": {
+                "test:quote": "friends speak frankly so i will these comments are disrespectful and wrong to our prime minister and my country", 
+                "test:type": "quote"
+            }, 
+            "test:relitigating and reinvestigating the special counsels findings will only further divide our country": {
+                "test:quote": "relitigating and reinvestigating the special counsels findings will only further divide our country", 
+                "test:type": "quote"
+            }, 
+            "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept": {
+                "test:quote": "we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept", 
+                "test:type": "quote"
+            }, 
+            "test:to deal with any accredited individuals until we get any further guidance from the white house or the president": {
+                "test:quote": "to deal with any accredited individuals until we get any further guidance from the white house or the president", 
+                "test:type": "quote"
+            }, 
+            "test:its jeremy hunt normally seen as the more cautious of the two whos speaking much more plainly and directly to donald trump on the matter while boris johnson has said only that hes not embarrassed about being close to the white house": {
+                "test:quote": "its jeremy hunt normally seen as the more cautious of the two whos speaking much more plainly and directly to donald trump on the matter while boris johnson has said only that hes not embarrassed about being close to the white house", 
+                "test:type": "quote"
+            }, 
+            "test:i dont think im the right man for the job": {
+                "test:quote": "i dont think im the right man for the job", 
+                "test:type": "quote"
+            }, 
+            "test:not liked or well thought of within the us": {
+                "test:quote": "not liked or well thought of within the us", 
+                "test:type": "quote"
+            }, 
+            "test:i hope if we can identify the individual either the full force of internal discipline  or if necessary the law  will be brought to bear because this sort of behaviour has no place in public life": {
+                "test:quote": "i hope if we can identify the individual either the full force of internal discipline  or if necessary the law  will be brought to bear because this sort of behaviour has no place in public life", 
+                "test:type": "quote"
+            }, 
+            "test:this is still the land of america first": {
+                "test:quote": "this is still the land of america first", 
+                "test:type": "quote"
+            }, 
+            "test:we will no longer deal with him": {
+                "test:quote": "we will no longer deal with him", 
+                "test:type": "quote"
+            }, 
+            "test:the job of ambassadors to provide honest and unvarnished opinions": {
+                "test:quote": "the job of ambassadors to provide honest and unvarnished opinions", 
+                "test:type": "quote"
+            }, 
+            "test:he should speak to his country and prime minister may about their failed brexit negotiation and not be upset with my criticism of how badly it was handled": {
+                "test:quote": "he should speak to his country and prime minister may about their failed brexit negotiation and not be upset with my criticism of how badly it was handled", 
+                "test:type": "quote"
+            }, 
+            "test:president": {
+                "test:quote": "president", 
+                "test:type": "quote"
+            }, 
+            "test:the worst cannot be ruled out": {
+                "test:quote": "the worst cannot be ruled out", 
+                "test:type": "quote"
+            }, 
+            "test:will no longer deal with him": {
+                "test:quote": "will no longer deal with him", 
+                "test:type": "quote"
+            }, 
+            "test:the ball is in our court congress": {
+                "test:quote": "the ball is in our court congress", 
+                "test:type": "quote"
+            }, 
+            "test:the report is my testimony": {
+                "test:quote": "the report is my testimony", 
+                "test:type": "quote"
+            }, 
+            "test:the most important focus is to establish who is responsible for this despicable leak": {
+                "test:quote": "the most important focus is to establish who is responsible for this despicable leak", 
+                "test:type": "quote"
+            }, 
+            "test:it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so": {
+                "test:quote": "it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so", 
+                "test:type": "quote"
+            }, 
+            "test:who seems to love stirring up controversy": {
+                "test:quote": "who seems to love stirring up controversy", 
+                "test:type": "quote"
+            }, 
+            "test:a disaster": {
+                "test:quote": "a disaster", 
+                "test:type": "quote"
+            }, 
+            "test:the leak is absolutely unacceptable and as you would expect contact has been made with the trump administration setting out our view that we believe that it is unacceptable": {
+                "test:quote": "the leak is absolutely unacceptable and as you would expect contact has been made with the trump administration setting out our view that we believe that it is unacceptable", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "151": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it falls to congress to respond to the crimes lies and other wrongdoings of president trump  and we will do so"
+            }, 
+            "217": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:friends speak frankly so i will these comments are disrespectful and wrong to our prime minister and my country"
+            }, 
+            "153": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:relitigating and reinvestigating the special counsels findings will only further divide our country"
+            }, 
+            "155": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it is time to move on"
+            }, 
+            "265": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:so i can understand it and i can say things about him but i wont bother"
+            }, 
+            "157": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the ball is in our court congress"
+            }, 
+            "159": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:after two years the special counsel is moving on with his life and everyone else should do the same"
+            }, 
+            "219": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:who seems to love stirring up controversy"
+            }, 
+            "133": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:clearly did not commit a crime we would have said so"
+            }, 
+            "271": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:i dont think im the right man for the job"
+            }, 
+            "131": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:thank you"
+            }, 
+            "259": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:hung out to dry even though his only crime was to tell the truth"
+            }, 
+            "137": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the report is my testimony"
+            }, 
+            "239": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:tell him the usa now has the best economy  military anywhere in the world by farand they are both only getting bigger better and strongerthank you mr"
+            }, 
+            "135": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the constitution requires a process other than the criminal justice system to formally accuse a sitting president of wrongdoing"
+            }, 
+            "253": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:the leak is absolutely unacceptable and as you would expect contact has been made with the trump administration setting out our view that we believe that it is unacceptable"
+            }, 
+            "235": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:a disaster"
+            }, 
+            "139": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:insufficient evidence to charge a broader conspiracy"
+            }, 
+            "237": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:i dont know the ambassador but have been told he is a pompous fool"
+            }, 
+            "231": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:he should speak to his country and prime minister may about their failed brexit negotiation and not be upset with my criticism of how badly it was handled"
+            }, 
+            "233": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:i told theresamay how to do that deal but she went her own foolish waywas unable to get it done"
+            }, 
+            "251": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:does not agree with the assessment"
+            }, 
+            "249": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:the job of ambassadors to provide honest and unvarnished opinions"
+            }, 
+            "257": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:i hope if we can identify the individual either the full force of internal discipline  or if necessary the law  will be brought to bear because this sort of behaviour has no place in public life"
+            }, 
+            "255": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:the most important focus is to establish who is responsible for this despicable leak"
+            }, 
+            "147": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:congress has a legal and moral obligation to begin impeachment proceedings immediately"
+            }, 
+            "145": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:we need to start impeachment proceedings"
+            }, 
+            "269": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:the worst cannot be ruled out"
+            }, 
+            "143": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:it is up to congress to hold this president accountable"
+            }, 
+            "141": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:conclusions or hypotheticals about the president"
+            }, 
+            "300": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept"
+            }, 
+            "302": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:the ambassador has not served the uk well"
+            }, 
+            "304": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:this is still the land of america first"
+            }, 
+            "149": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the congress holds sacred its constitutional responsibility to investigate and hold the president accountable for his abuse of power"
+            }, 
+            "245": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:the ambassador has not served the uk well"
+            }, 
+            "247": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:will no longer deal with him"
+            }, 
+            "241": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:president"
+            }, 
+            "229": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:the wacky ambassador that the uk foisted upon the united states is not someone we are thrilled with a very stupid guy"
+            }, 
+            "227": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:he isnt attending that meeting but he is supporting liam fox in other ways on his trip"
+            }, 
+            "129": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48450534", 
+                "prov:activity": "test:the case is closed"
+            }, 
+            "225": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:we have an incredibly special and strategic relationship with the united kingdom that has gone on for quite a long time  its bigger than any individual or government"
+            }, 
+            "223": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:to deal with any accredited individuals until we get any further guidance from the white house or the president"
+            }, 
+            "221": {
+                "prov:entity": "test:https://www.bbc.com/news/uk-48921243", 
+                "prov:activity": "test:its jeremy hunt normally seen as the more cautious of the two whos speaking much more plainly and directly to donald trump on the matter while boris johnson has said only that hes not embarrassed about being close to the white house"
+            }, 
+            "263": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:were not big fans of that man and he has not served the uk well"
+            }, 
+            "261": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:he told the truth about donald trump and that was because it was his job"
+            }, 
+            "298": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:not liked or well thought of within the us"
+            }, 
+            "296": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:were not big fans of that man and he has not served the uk well"
+            }, 
+            "267": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/uk-48915698", 
+                "prov:activity": "test:we dont really believe this administration is going to become substantially more normal less dysfunctional less unpredictable less factionriven less diplomatically clumsy and inept"
+            }, 
+            "294": {
+                "prov:entity": "test:https://www.bbc.co.uk/news/world-us-canada-48914294", 
+                "prov:activity": "test:we will no longer deal with him"
+            }
+        }
+    }
+}

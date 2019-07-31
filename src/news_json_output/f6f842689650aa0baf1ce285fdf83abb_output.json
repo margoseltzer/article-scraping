@@ -1,0 +1,127 @@
+{
+    "root": "https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "4703": {
+                "prov:usedEntity": "test:https://worldnewsdailyreport.com/", 
+                "prov:generatedEntity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "4697": {
+                "prov:entity": "test:vaccine technology is fairly recent in history so we hypothesize how they work but as in this instance why do some women fall pregnant from vaccines", 
+                "prov:agent": "test:Alexa Goldberg"
+            }, 
+            "4679": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:agent": "test:https://www.huzlers.com"
+            }
+        }, 
+        "agent": {
+            "test:https://www.huzlers.com": {
+                "test:publisher": "https://www.huzlers.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Alexa Goldberg": {
+                "test:name": "Alexa Goldberg", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://worldnewsdailyreport.com/": {
+                "test:url": "https://worldnewsdailyreport.com/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/": {
+                "test:url": "https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "test:date": "2015-10-05", 
+                "test:title": "14-Year Old Virgin Teen In Texas Falls Pregnant After Flu Shot", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:there is clearly a necessity to study this growing trend and further research is needed": {
+                "test:quote": "there is clearly a necessity to study this growing trend and further research is needed", 
+                "test:type": "quote"
+            }, 
+            "test:if god made this birth possible then who are we to judge the how or the why": {
+                "test:quote": "if god made this birth possible then who are we to judge the how or the why", 
+                "test:type": "quote"
+            }, 
+            "test:we are devout christians": {
+                "test:quote": "we are devout christians", 
+                "test:type": "quote"
+            }, 
+            "test:the scientific community must stop avoiding this highly controversial subject": {
+                "test:quote": "the scientific community must stop avoiding this highly controversial subject", 
+                "test:type": "quote"
+            }, 
+            "test:if joseph and mary had not given birth to our lord and savior jesus christ where would humanity be today": {
+                "test:quote": "if joseph and mary had not given birth to our lord and savior jesus christ where would humanity be today", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not the first time a young woman falls pregnant without the consent of her parents but the girl seemed sincere when she said she had never had sexual relations with a boy and she urged me to check her hymen which i eventually did and to my utter su": {
+                "test:quote": "it’s not the first time a young woman falls pregnant without the consent of her parents but the girl seemed sincere when she said she had never had sexual relations with a boy and she urged me to check her hymen which i eventually did and to my utter surprise the hymen was fully intact", 
+                "test:type": "quote"
+            }, 
+            "test:she was in excellent health beforehand": {
+                "test:quote": "she was in excellent health beforehand", 
+                "test:type": "quote"
+            }, 
+            "test:it took a good few weeks before she felt better but the nausea continued": {
+                "test:quote": "it took a good few weeks before she felt better but the nausea continued", 
+                "test:type": "quote"
+            }, 
+            "test:vaccine technology is fairly recent in history so we hypothesize how they work but as in this instance why do some women fall pregnant from vaccines": {
+                "test:quote": "vaccine technology is fairly recent in history so we hypothesize how they work but as in this instance why do some women fall pregnant from vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:she had all the typical symptoms of a pregnant woman": {
+                "test:quote": "she had all the typical symptoms of a pregnant woman", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "4691": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:if god made this birth possible then who are we to judge the how or the why"
+            }, 
+            "4687": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:it’s not the first time a young woman falls pregnant without the consent of her parents but the girl seemed sincere when she said she had never had sexual relations with a boy and she urged me to check her hymen which i eventually did and to my utter su"
+            }, 
+            "4693": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:if joseph and mary had not given birth to our lord and savior jesus christ where would humanity be today"
+            }, 
+            "4685": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:she had all the typical symptoms of a pregnant woman"
+            }, 
+            "4695": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:vaccine technology is fairly recent in history so we hypothesize how they work but as in this instance why do some women fall pregnant from vaccines"
+            }, 
+            "4683": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:it took a good few weeks before she felt better but the nausea continued"
+            }, 
+            "4701": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:the scientific community must stop avoiding this highly controversial subject"
+            }, 
+            "4681": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:she was in excellent health beforehand"
+            }, 
+            "4699": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:there is clearly a necessity to study this growing trend and further research is needed"
+            }, 
+            "4689": {
+                "prov:entity": "test:https://www.huzlers.com/14-year-old-virgin-teen-in-texas-falls-pregnant-after-flu-shot/", 
+                "prov:activity": "test:we are devout christians"
+            }
+        }
+    }
+}

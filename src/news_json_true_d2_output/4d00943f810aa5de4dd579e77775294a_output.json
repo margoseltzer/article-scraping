@@ -1,0 +1,49 @@
+{
+    "root": "https://bigthink.com/politics-current-affairs/vaccines-autism", 
+    "bundle": {
+        "wasAttributedTo": {
+            "5168": {
+                "prov:entity": "test:https://bigthink.com/politics-current-affairs/vaccines-autism", 
+                "prov:agent": "test:Frank Jacobs"
+            }, 
+            "5172": {
+                "prov:entity": "test:https://bigthink.com/politics-current-affairs/vaccines-autism", 
+                "prov:agent": "test:Paul Ratner"
+            }, 
+            "5170": {
+                "prov:entity": "test:https://bigthink.com/politics-current-affairs/vaccines-autism", 
+                "prov:agent": "test:Steve Portugal"
+            }, 
+            "5166": {
+                "prov:entity": "test:https://bigthink.com/politics-current-affairs/vaccines-autism", 
+                "prov:agent": "test:https://bigthink.com"
+            }
+        }, 
+        "agent": {
+            "test:Paul Ratner": {
+                "test:name": "Paul Ratner", 
+                "test:type": "person"
+            }, 
+            "test:Frank Jacobs": {
+                "test:name": "Frank Jacobs", 
+                "test:type": "person"
+            }, 
+            "test:Steve Portugal": {
+                "test:name": "Steve Portugal", 
+                "test:type": "person"
+            }, 
+            "test:https://bigthink.com": {
+                "test:publisher": "https://bigthink.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://bigthink.com/politics-current-affairs/vaccines-autism": {
+                "test:url": "https://bigthink.com/politics-current-affairs/vaccines-autism", 
+                "test:date": "2019-03-07", 
+                "test:title": "Vaccines in no way cause autism, massive new study finds", 
+                "test:type": "article"
+            }
+        }
+    }
+}

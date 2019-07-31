@@ -1,0 +1,75 @@
+{
+    "root": "https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "5996": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "prov:generatedEntity": "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "5994": {
+                "prov:entity": "test:this is not going to stop on its own", 
+                "prov:agent": "test:Nancy Messonier"
+            }, 
+            "5986": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+                "prov:agent": "test:Elizabeth Cohen"
+            }, 
+            "5990": {
+                "prov:entity": "test:im obviously very concerned about the size and also acceleration of the current outbreak", 
+                "prov:agent": "test:Nancy Messonier"
+            }, 
+            "5984": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+                "prov:agent": "test:https://www.cnn.com"
+            }
+        }, 
+        "agent": {
+            "test:Nancy Messonier": {
+                "test:name": "Nancy Messonier", 
+                "test:type": "person"
+            }, 
+            "test:https://www.cnn.com": {
+                "test:publisher": "https://www.cnn.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Elizabeth Cohen": {
+                "test:name": "Elizabeth Cohen", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html": {
+                "test:url": "https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+                "test:date": "2019-04-15", 
+                "test:title": "Measles accelerates to second-highest level in US in 25 years and over 100,000 global cases", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/measles/cases-outbreaks.html": {
+                "test:url": "https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "test:type": "government"
+            }
+        }, 
+        "activity": {
+            "test:im obviously very concerned about the size and also acceleration of the current outbreak": {
+                "test:quote": "im obviously very concerned about the size and also acceleration of the current outbreak", 
+                "test:type": "quote"
+            }, 
+            "test:this is not going to stop on its own": {
+                "test:quote": "this is not going to stop on its own", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "5988": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+                "prov:activity": "test:im obviously very concerned about the size and also acceleration of the current outbreak"
+            }, 
+            "5992": {
+                "prov:entity": "test:https://www.cnn.com/2019/04/15/health/measles-2019-us-global-cdc-who-bn/index.html", 
+                "prov:activity": "test:this is not going to stop on its own"
+            }
+        }
+    }
+}

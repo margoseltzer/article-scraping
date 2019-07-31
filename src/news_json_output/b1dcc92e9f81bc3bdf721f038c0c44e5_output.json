@@ -1,0 +1,53 @@
+{
+    "root": "https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+    "bundle": {
+        "entity": {
+            "test:https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736": {
+                "test:url": "https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+                "test:date": "", 
+                "test:title": "Measles Outbreak Plagues Europe’s Young Adults", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "7479": {
+                "prov:entity": "test:https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+                "prov:activity": "test:i don’t get sick more than anyone else and i don’t see the point in doing it"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7473": {
+                "prov:entity": "test:https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+                "prov:agent": "test:https://www.wsj.com"
+            }, 
+            "7475": {
+                "prov:entity": "test:https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+                "prov:agent": "test:Brittany Bernstein"
+            }, 
+            "7477": {
+                "prov:entity": "test:https://www.wsj.com/articles/measles-outbreak-plagues-europes-young-adults-11562254736", 
+                "prov:agent": "test:Pietro Lombardi"
+            }
+        }, 
+        "agent": {
+            "test:https://www.wsj.com": {
+                "test:publisher": "https://www.wsj.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Pietro Lombardi": {
+                "test:name": "Pietro Lombardi", 
+                "test:type": "person"
+            }, 
+            "test:Brittany Bernstein": {
+                "test:name": "Brittany Bernstein", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:i don’t get sick more than anyone else and i don’t see the point in doing it": {
+                "test:quote": "i don’t get sick more than anyone else and i don’t see the point in doing it", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+[
+    {
+        "url": "https://www.chicagotribune.com/suburbs/naperville-sun/ct-nvs-vaccine-push-st-0317-story.html",
+        "title": "Are vaccinations about parent choice or public safety? Illinois among top 5 states for measles as debate heats up",
+        "authors": [
+            {
+                "name": "Suzanne Baker",
+                "link": null
+            }
+        ],
+        "publisher": "https://www.chicagotribune.com",
+        "publish_date": "",
+        "text": "“Germs can travel quickly through a community and make a lot of people sick,” according to the federal website, www.vaccines.gov. “If enough people get sick, it can lead to an outbreak. But when enough people are vaccinated against a certain disease, the germs can’t travel as easily from person to person — and the entire community is less likely to get the disease.”",
+        "quotes": [
+            [
+                "Germs can travel quickly through a community and make a lot of people sick,",
+                "",
+                true
+            ],
+            [
+                "If enough people get sick, it can lead to an outbreak.",
+                "",
+                true
+            ],
+            [
+                "But when enough people are vaccinated against a certain disease, the germs can’t travel as easily from person to person — and the entire community is less likely to get the disease.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [
+                "https://www.vaccines.gov/"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "illinois",
+            "public",
+            "measles",
+            "germs",
+            "wwwvaccinesgov",
+            "states",
+            "person",
+            "website",
+            "heats",
+            "debate",
+            "travel",
+            "community",
+            "vaccinated",
+            "quickly",
+            "parent",
+            "safety",
+            "disease",
+            "vaccinations",
+            "choice",
+            "sick"
+        ]
+    }
+]

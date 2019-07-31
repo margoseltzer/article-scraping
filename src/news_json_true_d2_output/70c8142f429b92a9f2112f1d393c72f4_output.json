@@ -1,0 +1,241 @@
+{
+    "root": "https://www.medicalnewstoday.com/articles/324619.php", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "5982": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/11850369", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5980": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/15877763", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5968": {
+                "prov:usedEntity": "test:https://www.medicalnewstoday.com/articles/37135.php", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5978": {
+                "prov:usedEntity": "test:https://www.bmj.com/content/342/bmj.c7452/", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5972": {
+                "prov:usedEntity": "test:https://annals.org/aim/fullarticle/2727208/further-evidence-mmr-vaccine-safety-scientific-communications-considerations", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5970": {
+                "prov:usedEntity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5964": {
+                "prov:usedEntity": "test:https://www.thelancet.com/journals/lancet/article/PIIS0140673697110960/fulltext", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5976": {
+                "prov:usedEntity": "test:https://www.bmj.com/content/342/bmj.c5347", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5966": {
+                "prov:usedEntity": "test:https://www.medicalnewstoday.com/articles/323758.php", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }, 
+            "5974": {
+                "prov:usedEntity": "test:https://www.nejm.org/action/cookieAbsent", 
+                "prov:generatedEntity": "test:https://www.medicalnewstoday.com/articles/324619.php"
+            }
+        }, 
+        "wasAttributedTo": {
+            "5946": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Aarhus University Hospital"
+            }, 
+            "5950": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Christian Dehlendorff"
+            }, 
+            "5944": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Aarhus"
+            }, 
+            "5952": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:C.D."
+            }, 
+            "5942": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:https://annals.org"
+            }, 
+            "5954": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:C.S."
+            }, 
+            "5956": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Denmark"
+            }, 
+            "5958": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Copenhagen"
+            }, 
+            "5948": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Michael Borre"
+            }, 
+            "5932": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:agent": "test:Tim Newman"
+            }, 
+            "5930": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:agent": "test:https://www.medicalnewstoday.com"
+            }, 
+            "5960": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Danish Cancer Society Research Center"
+            }, 
+            "5962": {
+                "prov:entity": "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "prov:agent": "test:Charlotte Skriver"
+            }
+        }, 
+        "agent": {
+            "test:https://www.medicalnewstoday.com": {
+                "test:publisher": "https://www.medicalnewstoday.com", 
+                "test:type": "publisher"
+            }, 
+            "test:C.S.": {
+                "test:name": "C.S.", 
+                "test:type": "person"
+            }, 
+            "test:Charlotte Skriver": {
+                "test:name": "Charlotte Skriver", 
+                "test:type": "person"
+            }, 
+            "test:Copenhagen": {
+                "test:name": "Copenhagen", 
+                "test:type": "person"
+            }, 
+            "test:https://annals.org": {
+                "test:publisher": "https://annals.org", 
+                "test:type": "publisher"
+            }, 
+            "test:Aarhus University Hospital": {
+                "test:name": "Aarhus University Hospital", 
+                "test:type": "person"
+            }, 
+            "test:Michael Borre": {
+                "test:name": "Michael Borre", 
+                "test:type": "person"
+            }, 
+            "test:Aarhus": {
+                "test:name": "Aarhus", 
+                "test:type": "person"
+            }, 
+            "test:C.D.": {
+                "test:name": "C.D.", 
+                "test:type": "person"
+            }, 
+            "test:Denmark": {
+                "test:name": "Denmark", 
+                "test:type": "person"
+            }, 
+            "test:Christian Dehlendorff": {
+                "test:name": "Christian Dehlendorff", 
+                "test:type": "person"
+            }, 
+            "test:Danish Cancer Society Research Center": {
+                "test:name": "Danish Cancer Society Research Center", 
+                "test:type": "person"
+            }, 
+            "test:Tim Newman": {
+                "test:name": "Tim Newman", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide": {
+                "test:url": "https://annals.org/aim/article-abstract/2727206/use-low-dose-aspirin-mortality-after-prostate-cancer-diagnosis-nationwide", 
+                "test:date": "2019-04-02", 
+                "test:title": "Low-Dose Aspirin Use and Prostate Cancer Mortality", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/15877763": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/15877763", 
+                "test:type": "government"
+            }, 
+            "test:https://www.thelancet.com/journals/lancet/article/PIIS0140673697110960/fulltext": {
+                "test:url": "https://www.thelancet.com/journals/lancet/article/PIIS0140673697110960/fulltext", 
+                "test:type": "article"
+            }, 
+            "test:https://www.bmj.com/content/342/bmj.c5347": {
+                "test:url": "https://www.bmj.com/content/342/bmj.c5347", 
+                "test:type": "reference"
+            }, 
+            "test:https://annals.org/aim/fullarticle/2727208/further-evidence-mmr-vaccine-safety-scientific-communications-considerations": {
+                "test:url": "https://annals.org/aim/fullarticle/2727208/further-evidence-mmr-vaccine-safety-scientific-communications-considerations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.medicalnewstoday.com/articles/37135.php": {
+                "test:url": "https://www.medicalnewstoday.com/articles/37135.php", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/11850369": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/11850369", 
+                "test:type": "government"
+            }, 
+            "test:https://www.medicalnewstoday.com/articles/323758.php": {
+                "test:url": "https://www.medicalnewstoday.com/articles/323758.php", 
+                "test:type": "article"
+            }, 
+            "test:https://www.medicalnewstoday.com/articles/324619.php": {
+                "test:url": "https://www.medicalnewstoday.com/articles/324619.php", 
+                "test:date": "2019-03-07", 
+                "test:title": "MMR vaccine does not cause autism, even in those most at risk", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nejm.org/action/cookieAbsent": {
+                "test:url": "https://www.nejm.org/action/cookieAbsent", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.bmj.com/content/342/bmj.c7452/": {
+                "test:url": "https://www.bmj.com/content/342/bmj.c7452/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:it has been said that we now live in a factresistant world where data have limited persuasive value": {
+                "test:quote": "it has been said that we now live in a factresistant world where data have limited persuasive value", 
+                "test:type": "quote"
+            }, 
+            "test:our study does not support that mmr vaccination increases the risk for autism triggers autism in susceptible children or is associated with clustering of autism cases after vaccination": {
+                "test:quote": "our study does not support that mmr vaccination increases the risk for autism triggers autism in susceptible children or is associated with clustering of autism cases after vaccination", 
+                "test:type": "quote"
+            }, 
+            "test:even in the face of substantial and increasing evidence against an mmrautism association the discussion around the potential link has contributed to vaccine hesitancy": {
+                "test:quote": "even in the face of substantial and increasing evidence against an mmrautism association the discussion around the potential link has contributed to vaccine hesitancy", 
+                "test:type": "quote"
+            }, 
+            "test:measles outbreaks are not uncommon in europe and in the united states and vaccine hesitancy or avoidance has been identified as a major cause": {
+                "test:quote": "measles outbreaks are not uncommon in europe and in the united states and vaccine hesitancy or avoidance has been identified as a major cause", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "5936": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:activity": "test:our study does not support that mmr vaccination increases the risk for autism triggers autism in susceptible children or is associated with clustering of autism cases after vaccination"
+            }, 
+            "5934": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:activity": "test:measles outbreaks are not uncommon in europe and in the united states and vaccine hesitancy or avoidance has been identified as a major cause"
+            }, 
+            "5940": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:activity": "test:it has been said that we now live in a factresistant world where data have limited persuasive value"
+            }, 
+            "5938": {
+                "prov:entity": "test:https://www.medicalnewstoday.com/articles/324619.php", 
+                "prov:activity": "test:even in the face of substantial and increasing evidence against an mmrautism association the discussion around the potential link has contributed to vaccine hesitancy"
+            }
+        }
+    }
+}

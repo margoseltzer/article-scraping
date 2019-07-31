@@ -1,0 +1,1033 @@
+{
+    "root": "https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "5011": {
+                "prov:usedEntity": "test:https://www.livemint.com/opinion/online-views/opinion-will-mohammed-bin-salman-come-up-with-a-strong-response-on-pulwama-1550588408778.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html"
+            }, 
+            "5013": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/eAFn6GFI164a4J9PJTXGwM/US-reimposes-all-Iran-sanctions-lifted-under-2015-nuclear-de.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html"
+            }, 
+            "5015": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/pulwama-terror-attack-pakistan-isolated-narendra-modi-vows-fitting-strike-back-1550248297313.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html"
+            }, 
+            "5017": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/china-urges-restraint-by-india-pakistan-on-pulwama-terror-attack-1550580430680.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html"
+            }, 
+            "4981": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html"
+            }, 
+            "4983": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html"
+            }, 
+            "4959": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html"
+            }, 
+            "4985": {
+                "prov:usedEntity": "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html"
+            }, 
+            "4987": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html"
+            }, 
+            "4989": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/afAd4twYcILFx9O05CizQK/Test-all-polio-vaccines-for-type-2-strain-DCGI.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html"
+            }, 
+            "4965": {
+                "prov:usedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4963": {
+                "prov:usedEntity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html"
+            }, 
+            "4961": {
+                "prov:usedEntity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html"
+            }, 
+            "4979": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html"
+            }, 
+            "5003": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html"
+            }, 
+            "5001": {
+                "prov:usedEntity": "test:https://www.livemint.com/politics/policy/govt-aiming-to-ensure-middle-class-income-rises-says-president-1548960932420.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html"
+            }, 
+            "5007": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/not-opposed-to-masood-azhar-s-banning-by-un-saudi-fm-1550674000410.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html"
+            }, 
+            "4969": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "5005": {
+                "prov:usedEntity": "test:https://www.livemint.com/politics/news/saudi-crown-prince-says-terrorism-a-common-concern-with-india-1550653990104.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html"
+            }, 
+            "5009": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/pulwama-attack-imran-khan-vows-retaliation-if-india-attacks-pakistan-1550578922944.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html"
+            }, 
+            "4973": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4967": {
+                "prov:usedEntity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4957": {
+                "prov:usedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html"
+            }, 
+            "4997": {
+                "prov:usedEntity": "test:https://www.livemint.com/Companies/ZuOPIlUHduNP0SXa5KXF5I/Indonesia-firm-gets-cleanchit-in-polio-vaccine-contamination.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html"
+            }, 
+            "4995": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html"
+            }, 
+            "4993": {
+                "prov:usedEntity": "test:https://www.livemint.com/Politics/xRdS6e8YawB8eQFIu3SerK/How-India-fought-the-wild-polio-virus.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html"
+            }, 
+            "4991": {
+                "prov:usedEntity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html"
+            }, 
+            "4975": {
+                "prov:usedEntity": "test:https://www.livemint.com/Companies/ZuOPIlUHduNP0SXa5KXF5I/Indonesia-firm-gets-cleanchit-in-polio-vaccine-contamination.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4977": {
+                "prov:usedEntity": "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4971": {
+                "prov:usedEntity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html"
+            }, 
+            "4999": {
+                "prov:usedEntity": "test:https://www.livemint.com/Science/faL7OFjDPSMNMugAa1C4rI/Can-India-eliminate-TB-by-2025.html", 
+                "prov:generatedEntity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "4897": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4895": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4761": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4763": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4767": {
+                "prov:entity": "test:the contamination endangers the health of those who have not been vaccinated for the polio2 virus strain according to public health expert sylvia karpagam", 
+                "prov:agent": "test:Karpagam"
+            }, 
+            "4923": {
+                "prov:entity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html", 
+                "prov:agent": "test:Neetu Chandra Sharma"
+            }, 
+            "4921": {
+                "prov:entity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4803": {
+                "prov:entity": "test:at our request saudi arabia has decided to increase the quota for haj pilgrims from india to 2 lakh", 
+                "prov:agent": "test:Tirumurti"
+            }, 
+            "4927": {
+                "prov:entity": "test:to provide additional protection to our children government has also introduced the injectable inactivated polio vaccine into its routine immunization program", 
+                "prov:agent": "test:Nadda"
+            }, 
+            "4807": {
+                "prov:entity": "test:this gesture is deeply appreciated", 
+                "prov:agent": "test:Tirumurti"
+            }, 
+            "4827": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4741": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4825": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4949": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4823": {
+                "prov:entity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4821": {
+                "prov:entity": "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4869": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4867": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4799": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4771": {
+                "prov:entity": "test:the bigger problem is that the virus can mutate and no one knows into what form mild or virulent", 
+                "prov:agent": "test:Karpagam"
+            }, 
+            "4931": {
+                "prov:entity": "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html", 
+                "prov:agent": "test:Teena Thacker"
+            }, 
+            "4811": {
+                "prov:entity": "test:this is the third hike in consecutive years", 
+                "prov:agent": "test:Naqvi"
+            }, 
+            "4933": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4815": {
+                "prov:entity": "test:when the modi government came to power in 2014 indias haj quota was 136000 which has now been increased to 2 lakh", 
+                "prov:agent": "test:Naqvi"
+            }, 
+            "4939": {
+                "prov:entity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4819": {
+                "prov:entity": "test:this will be the highest number of pilgrims going for haj from india since independence", 
+                "prov:agent": "test:Naqvi"
+            }, 
+            "4739": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }, 
+            "4953": {
+                "prov:entity": "test:the only positive part of this is to strengthen the relationship with saudi arabia to make up the oil deficit with iran", 
+                "prov:agent": "test:Prem Shankar Jha"
+            }, 
+            "4929": {
+                "prov:entity": "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html", 
+                "prov:agent": "test:https://www.livemint.com"
+            }
+        }, 
+        "agent": {
+            "test:Karpagam": {
+                "test:name": "Karpagam", 
+                "test:type": "person"
+            }, 
+            "test:Nadda": {
+                "test:name": "Nadda", 
+                "test:type": "person"
+            }, 
+            "test:Prem Shankar Jha": {
+                "test:name": "Prem Shankar Jha", 
+                "test:type": "person"
+            }, 
+            "test:Teena Thacker": {
+                "test:name": "Teena Thacker", 
+                "test:type": "person"
+            }, 
+            "test:https://www.livemint.com": {
+                "test:publisher": "https://www.livemint.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Neetu Chandra Sharma": {
+                "test:name": "Neetu Chandra Sharma", 
+                "test:type": "person"
+            }, 
+            "test:Tirumurti": {
+                "test:name": "Tirumurti", 
+                "test:type": "person"
+            }, 
+            "test:Naqvi": {
+                "test:name": "Naqvi", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html": {
+                "test:url": "https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html", 
+                "test:date": "2019-02-19", 
+                "test:title": "Saudi Crown Prince Mohammed bin Salman arrives in India amid row with Pakistan", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/pulwama-terror-attack-pakistan-isolated-narendra-modi-vows-fitting-strike-back-1550248297313.html": {
+                "test:url": "https://www.livemint.com/news/india/pulwama-terror-attack-pakistan-isolated-narendra-modi-vows-fitting-strike-back-1550248297313.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/pulwama-attack-imran-khan-vows-retaliation-if-india-attacks-pakistan-1550578922944.html": {
+                "test:url": "https://www.livemint.com/news/india/pulwama-attack-imran-khan-vows-retaliation-if-india-attacks-pakistan-1550578922944.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html": {
+                "test:url": "https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html", 
+                "test:date": "2019-03-09", 
+                "test:title": "Government launches pulse polio program 2019", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html": {
+                "test:url": "https://www.livemint.com/Politics/uzHStkd3o3zfIhYQKZhz0I/Fears-of-mystery-polio-strain-now-haunt-India.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/opinion/online-views/opinion-will-mohammed-bin-salman-come-up-with-a-strong-response-on-pulwama-1550588408778.html": {
+                "test:url": "https://www.livemint.com/opinion/online-views/opinion-will-mohammed-bin-salman-come-up-with-a-strong-response-on-pulwama-1550588408778.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html": {
+                "test:url": "https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "test:date": "2019-05-21", 
+                "test:title": "Bio-Med directors in the dock over supply of tainted drugs", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html": {
+                "test:url": "https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "test:date": "2019-02-20", 
+                "test:title": "Saudi Arabia increases India's Haj quota to 2 lakh after Modi-Salman talks", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Science/faL7OFjDPSMNMugAa1C4rI/Can-India-eliminate-TB-by-2025.html": {
+                "test:url": "https://www.livemint.com/Science/faL7OFjDPSMNMugAa1C4rI/Can-India-eliminate-TB-by-2025.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/eAFn6GFI164a4J9PJTXGwM/US-reimposes-all-Iran-sanctions-lifted-under-2015-nuclear-de.html": {
+                "test:url": "https://www.livemint.com/Politics/eAFn6GFI164a4J9PJTXGwM/US-reimposes-all-Iran-sanctions-lifted-under-2015-nuclear-de.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html": {
+                "test:url": "https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "test:date": "2019-07-08", 
+                "test:title": "Mandatory meningitis vaccines fail quality tests, casting cloud over Haj", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/politics/policy/govt-aiming-to-ensure-middle-class-income-rises-says-president-1548960932420.html": {
+                "test:url": "https://www.livemint.com/politics/policy/govt-aiming-to-ensure-middle-class-income-rises-says-president-1548960932420.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html": {
+                "test:url": "https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html", 
+                "test:date": "2019-02-20", 
+                "test:title": "Saudi Arabia sees $100 billion investment opportunity in India: Crown Prince", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/politics/news/saudi-crown-prince-says-terrorism-a-common-concern-with-india-1550653990104.html": {
+                "test:url": "https://www.livemint.com/politics/news/saudi-crown-prince-says-terrorism-a-common-concern-with-india-1550653990104.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/china-urges-restraint-by-india-pakistan-on-pulwama-terror-attack-1550580430680.html": {
+                "test:url": "https://www.livemint.com/news/india/china-urges-restraint-by-india-pakistan-on-pulwama-terror-attack-1550580430680.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/afAd4twYcILFx9O05CizQK/Test-all-polio-vaccines-for-type-2-strain-DCGI.html": {
+                "test:url": "https://www.livemint.com/Politics/afAd4twYcILFx9O05CizQK/Test-all-polio-vaccines-for-type-2-strain-DCGI.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html": {
+                "test:url": "https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "test:date": "2019-03-19", 
+                "test:title": "Govt lab retest confirms polio strain’s presence in Bio-Med samples", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Companies/ZuOPIlUHduNP0SXa5KXF5I/Indonesia-firm-gets-cleanchit-in-polio-vaccine-contamination.html": {
+                "test:url": "https://www.livemint.com/Companies/ZuOPIlUHduNP0SXa5KXF5I/Indonesia-firm-gets-cleanchit-in-polio-vaccine-contamination.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html": {
+                "test:url": "https://www.livemint.com/Companies/pK3XbQBIo135WGJEpXuzxJ/Polio-vaccine-contamination-Govt-may-oppose-BioMed-MDs-ba.html", 
+                "test:date": "2018-11-05", 
+                "test:title": "Polio vaccine contamination: Govt may oppose Bio-Med MD’s bail", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/xRdS6e8YawB8eQFIu3SerK/How-India-fought-the-wild-polio-virus.html": {
+                "test:url": "https://www.livemint.com/Politics/xRdS6e8YawB8eQFIu3SerK/How-India-fought-the-wild-polio-virus.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html": {
+                "test:url": "https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "test:date": "2019-01-14", 
+                "test:title": "Court asks govt to retest samples of Ghaziabad-based firm’s polio vaccine", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html": {
+                "test:url": "https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "test:date": "2018-09-30", 
+                "test:title": "Drug regulator forms team to probe polio vaccine lapse case", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html": {
+                "test:url": "https://www.livemint.com/Science/qhfqLdtZ7hjnUc9w1c6m8O/Polio-vaccine-contamination-India-to-send-team-to-Indonesia.html", 
+                "test:date": "2018-10-16", 
+                "test:title": "Polio vaccine contamination: India to send team to Indonesia on 22 October", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html": {
+                "test:url": "https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "test:date": "2018-01-16", 
+                "test:title": "Government ends Haj subsidy", 
+                "test:type": "article"
+            }, 
+            "test:https://www.livemint.com/news/india/not-opposed-to-masood-azhar-s-banning-by-un-saudi-fm-1550674000410.html": {
+                "test:url": "https://www.livemint.com/news/india/not-opposed-to-masood-azhar-s-banning-by-un-saudi-fm-1550674000410.html", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:new vaccines no longer offer protection against the variant": {
+                "test:quote": "new vaccines no longer offer protection against the variant", 
+                "test:type": "quote"
+            }, 
+            "test:the government’s polio eradication programme has been under stress since september": {
+                "test:quote": "the government’s polio eradication programme has been under stress since september", 
+                "test:type": "quote"
+            }, 
+            "test:however they did not find anything amiss there": {
+                "test:quote": "however they did not find anything amiss there", 
+                "test:type": "quote"
+            }, 
+            "test:we understand that there are opportunities for more than usd 100 billion investment in indiawe want to strengthen investment and economic ties to ensure useful returns for both countries": {
+                "test:quote": "we understand that there are opportunities for more than usd 100 billion investment in indiawe want to strengthen investment and economic ties to ensure useful returns for both countries", 
+                "test:type": "quote"
+            }, 
+            "test:as part of intensive surveillance sewage samples are collected from 45 sites across eight states and tested for poliovirus in five accredited polio laboratories in the country": {
+                "test:quote": "as part of intensive surveillance sewage samples are collected from 45 sites across eight states and tested for poliovirus in five accredited polio laboratories in the country", 
+                "test:type": "quote"
+            }, 
+            "test:test results of retain samples do not indicate presence of type 2 polio virus": {
+                "test:quote": "test results of retain samples do not indicate presence of type 2 polio virus", 
+                "test:type": "quote"
+            }, 
+            "test:the md was charged under sections 37 a c section 17 a section 27 a under the drugs and cosmetics dcact": {
+                "test:quote": "the md was charged under sections 37 a c section 17 a section 27 a under the drugs and cosmetics dcact", 
+                "test:type": "quote"
+            }, 
+            "test:around 50000 vials—one vial has 20 doses—of contaminated vaccine were believed to have been used in uttar pradesh and telangana": {
+                "test:quote": "around 50000 vials—one vial has 20 doses—of contaminated vaccine were believed to have been used in uttar pradesh and telangana", 
+                "test:type": "quote"
+            }, 
+            "test:the other directors who are family members of the managing director are absconding ever since": {
+                "test:quote": "the other directors who are family members of the managing director are absconding ever since", 
+                "test:type": "quote"
+            }, 
+            "test:the directorate general of health services dghs called an urgent meeting on 5 july to discuss the issue": {
+                "test:quote": "the directorate general of health services dghs called an urgent meeting on 5 july to discuss the issue", 
+                "test:type": "quote"
+            }, 
+            "test:in september an analysis of some sewage and stool samples showed traces of polio2 strain a variant believed to have been long eradicated": {
+                "test:quote": "in september an analysis of some sewage and stool samples showed traces of polio2 strain a variant believed to have been long eradicated", 
+                "test:type": "quote"
+            }, 
+            "test:there are some minor good manufacturing practices gmp related issues which will be communicated to the firm but as far as polio contamination is concerned the team did not find any evidence of contamination at the indonesia site": {
+                "test:quote": "there are some minor good manufacturing practices gmp related issues which will be communicated to the firm but as far as polio contamination is concerned the team did not find any evidence of contamination at the indonesia site", 
+                "test:type": "quote"
+            }, 
+            "test:when the modi government came to power in 2014 indias haj quota was 136000 which has now been increased to 2 lakh": {
+                "test:quote": "when the modi government came to power in 2014 indias haj quota was 136000 which has now been increased to 2 lakh", 
+                "test:type": "quote"
+            }, 
+            "test:that brought the spotlight back on biomed which supplied the oral vaccine for the government’s immunization programme": {
+                "test:quote": "that brought the spotlight back on biomed which supplied the oral vaccine for the government’s immunization programme", 
+                "test:type": "quote"
+            }, 
+            "test:the company was thereafter barred from manufacturing and supplying vaccines": {
+                "test:quote": "the company was thereafter barred from manufacturing and supplying vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:at our request saudi arabia has decided to increase the quota for haj pilgrims from india to 2 lakh": {
+                "test:quote": "at our request saudi arabia has decided to increase the quota for haj pilgrims from india to 2 lakh", 
+                "test:type": "quote"
+            }, 
+            "test:the health ministry is already in talks with the two firms which import these vaccines": {
+                "test:quote": "the health ministry is already in talks with the two firms which import these vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:around 50000 vials—one vial has 20 doses—of contaminated vaccines were believed to have been used in uttar pradesh and telangana": {
+                "test:quote": "around 50000 vials—one vial has 20 doses—of contaminated vaccines were believed to have been used in uttar pradesh and telangana", 
+                "test:type": "quote"
+            }, 
+            "test:this is the third hike in consecutive years": {
+                "test:quote": "this is the third hike in consecutive years", 
+                "test:type": "quote"
+            }, 
+            "test:polio drops which carry weakened polio viruses are given to children below five years under a government programme": {
+                "test:quote": "polio drops which carry weakened polio viruses are given to children below five years under a government programme", 
+                "test:type": "quote"
+            }, 
+            "test:confident that the polio2 strain had been wiped out vaccine makers were asked to destroy their stocks of type 2 virus strain by april 2016 an order biomed has allegedly violated": {
+                "test:quote": "confident that the polio2 strain had been wiped out vaccine makers were asked to destroy their stocks of type 2 virus strain by april 2016 an order biomed has allegedly violated", 
+                "test:type": "quote"
+            }, 
+            "test:the contamination endangers the health of those who have not been vaccinated for the polio2 virus strain according to public health expert sylvia karpagam": {
+                "test:quote": "the contamination endangers the health of those who have not been vaccinated for the polio2 virus strain according to public health expert sylvia karpagam", 
+                "test:type": "quote"
+            }, 
+            "test:an email sent to biomed on monday remained unanswered till press time": {
+                "test:quote": "an email sent to biomed on monday remained unanswered till press time", 
+                "test:type": "quote"
+            }, 
+            "test:haj will begin on 9 august": {
+                "test:quote": "haj will begin on 9 august", 
+                "test:type": "quote"
+            }, 
+            "test:polio drops which carry weakened polio viruses are given to children below five years under a governmentrun programme": {
+                "test:quote": "polio drops which carry weakened polio viruses are given to children below five years under a governmentrun programme", 
+                "test:type": "quote"
+            }, 
+            "test:earlier this year naqvi had said that the centre would abolish the subsidy for haj pilgrims in accordance with a supreme court order": {
+                "test:quote": "earlier this year naqvi had said that the centre would abolish the subsidy for haj pilgrims in accordance with a supreme court order", 
+                "test:type": "quote"
+            }, 
+            "test:the type 2 strain is thought to have been eradicated from india so long ago that the current polio vaccine no longer protects against it": {
+                "test:quote": "the type 2 strain is thought to have been eradicated from india so long ago that the current polio vaccine no longer protects against it", 
+                "test:type": "quote"
+            }, 
+            "test:this is when the who found type2 polio vaccine virus in some sewage and stool samples during their routine surveillance": {
+                "test:quote": "this is when the who found type2 polio vaccine virus in some sewage and stool samples during their routine surveillance", 
+                "test:type": "quote"
+            }, 
+            "test:this gesture is deeply appreciated": {
+                "test:quote": "this gesture is deeply appreciated", 
+                "test:type": "quote"
+            }, 
+            "test:every year nearly 75000 stool samples are collected and tested in polio laboratories in india": {
+                "test:quote": "every year nearly 75000 stool samples are collected and tested in polio laboratories in india", 
+                "test:type": "quote"
+            }, 
+            "test:the managing director of biomed was arrested on friday after the central drug regulator filed a fir in the case": {
+                "test:quote": "the managing director of biomed was arrested on friday after the central drug regulator filed a fir in the case", 
+                "test:type": "quote"
+            }, 
+            "test:the only positive part of this is to strengthen the relationship with saudi arabia to make up the oil deficit with iran": {
+                "test:quote": "the only positive part of this is to strengthen the relationship with saudi arabia to make up the oil deficit with iran", 
+                "test:type": "quote"
+            }, 
+            "test:naqvi told reporters and cited a host of measures for the welfare of minorities": {
+                "test:quote": "naqvi told reporters and cited a host of measures for the welfare of minorities", 
+                "test:type": "quote"
+            }, 
+            "test:the samples were sent for further testing and confirmed contamination with type2 virus": {
+                "test:quote": "the samples were sent for further testing and confirmed contamination with type2 virus", 
+                "test:type": "quote"
+            }, 
+            "test:a constitutional bench of the supreme court had during the congress regime in 2012 directed that the haj subsidy be done away with": {
+                "test:quote": "a constitutional bench of the supreme court had during the congress regime in 2012 directed that the haj subsidy be done away with", 
+                "test:type": "quote"
+            }, 
+            "test:the contaminated vaccine was found to be manufactured by biomed": {
+                "test:quote": "the contaminated vaccine was found to be manufactured by biomed", 
+                "test:type": "quote"
+            }, 
+            "test:we want to increase cooperation with india as it will give a new direction to our relationship": {
+                "test:quote": "we want to increase cooperation with india as it will give a new direction to our relationship", 
+                "test:type": "quote"
+            }, 
+            "test:besides recent inspections of the biomed facility found various violations of good manufacturing practices gmp prompting authorities to file a complaint": {
+                "test:quote": "besides recent inspections of the biomed facility found various violations of good manufacturing practices gmp prompting authorities to file a complaint", 
+                "test:type": "quote"
+            }, 
+            "test:biomed was found to be supplying polio vaccines for the staterun immunization programme": {
+                "test:quote": "biomed was found to be supplying polio vaccines for the staterun immunization programme", 
+                "test:type": "quote"
+            }, 
+            "test:the company was supplying polio vaccines only for the governmentrun immunization programme and about 50000 vials one vial has 20 doses of contaminated vaccine may have possibly been used in uttar pradesh maharashtra and telangana another official said": {
+                "test:quote": "the company was supplying polio vaccines only for the governmentrun immunization programme and about 50000 vials one vial has 20 doses of contaminated vaccine may have possibly been used in uttar pradesh maharashtra and telangana another official said", 
+                "test:type": "quote"
+            }, 
+            "test:the company’s managing director who was arrested in september after the test results came out was released on bail after 14 days in judicial custody": {
+                "test:quote": "the company’s managing director who was arrested in september after the test results came out was released on bail after 14 days in judicial custody", 
+                "test:type": "quote"
+            }, 
+            "test:ltd the company that supplies the bulk vaccine called key starting material": {
+                "test:quote": "ltd the company that supplies the bulk vaccine called key starting material", 
+                "test:type": "quote"
+            }, 
+            "test:the company was then barred from manufacturing and supplying vaccines": {
+                "test:quote": "the company was then barred from manufacturing and supplying vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:a detailed questionnaire sent to the health ministry on 4 july did not elicit any response till press time": {
+                "test:quote": "a detailed questionnaire sent to the health ministry on 4 july did not elicit any response till press time", 
+                "test:type": "quote"
+            }, 
+            "test:the unused vials have been stocked in the warehouses and 13 batches of samples have so far been tested at cdl": {
+                "test:quote": "the unused vials have been stocked in the warehouses and 13 batches of samples have so far been tested at cdl", 
+                "test:type": "quote"
+            }, 
+            "test:the bigger problem is that the virus can mutate and no one knows into what form mild or virulent": {
+                "test:quote": "the bigger problem is that the virus can mutate and no one knows into what form mild or virulent", 
+                "test:type": "quote"
+            }, 
+            "test:on 27 september the drug controller general of india asked biomed to explain how the eradicated polio2 strain found its way into vaccine vials": {
+                "test:quote": "on 27 september the drug controller general of india asked biomed to explain how the eradicated polio2 strain found its way into vaccine vials", 
+                "test:type": "quote"
+            }, 
+            "test:biomed challenged the results of the initial tests by the central drugs laboratory cdl in kasauli": {
+                "test:quote": "biomed challenged the results of the initial tests by the central drugs laboratory cdl in kasauli", 
+                "test:type": "quote"
+            }, 
+            "test:this will be the highest number of pilgrims going for haj from india since independence": {
+                "test:quote": "this will be the highest number of pilgrims going for haj from india since independence", 
+                "test:type": "quote"
+            }, 
+            "test:the report of retesting the samples was submitted by cdl to the ghaziabad district court on 15 march": {
+                "test:quote": "the report of retesting the samples was submitted by cdl to the ghaziabad district court on 15 march", 
+                "test:type": "quote"
+            }, 
+            "test:an email sent to biomed remained unanswered till publishing of this story": {
+                "test:quote": "an email sent to biomed remained unanswered till publishing of this story", 
+                "test:type": "quote"
+            }, 
+            "test:there are five major manufacturers of the bivalent vaccine in india—biomed bharat biotech international panacea biotec and bibcol and mumbaibased haffkine bio pharmaceutical corp ltd": {
+                "test:quote": "there are five major manufacturers of the bivalent vaccine in india—biomed bharat biotech international panacea biotec and bibcol and mumbaibased haffkine bio pharmaceutical corp ltd", 
+                "test:type": "quote"
+            }, 
+            "test:it has been learnt from the initial results at cdl that the samples of quadrivalent meningococcal meningitis vaccine from biomed are not giving satisfactory outcome although the final report is awaited": {
+                "test:quote": "it has been learnt from the initial results at cdl that the samples of quadrivalent meningococcal meningitis vaccine from biomed are not giving satisfactory outcome although the final report is awaited", 
+                "test:type": "quote"
+            }, 
+            "test:hence in the new policy as per the recommendations of a committee we have decided to do away with the haj subsidy gradually": {
+                "test:quote": "hence in the new policy as per the recommendations of a committee we have decided to do away with the haj subsidy gradually", 
+                "test:type": "quote"
+            }, 
+            "test:reports about the contamination set alarm bells in september when traces of polio type 2 virus were found in sewage and stool samples during routine surveillance": {
+                "test:quote": "reports about the contamination set alarm bells in september when traces of polio type 2 virus were found in sewage and stool samples during routine surveillance", 
+                "test:type": "quote"
+            }, 
+            "test:adults and children over the age of 2 arriving in saudi arabia for haj are required to produce a certificate of vaccination against meningitis issued no more than three years and no less than 10 days before their arrival along with certificates for other ": {
+                "test:quote": "adults and children over the age of 2 arriving in saudi arabia for haj are required to produce a certificate of vaccination against meningitis issued no more than three years and no less than 10 days before their arrival along with certificates for other vaccines for polio seasonal influenza measles and rubella", 
+                "test:type": "quote"
+            }, 
+            "test:results have shown that there have not been any discrepancies in the manufacture of these bulks": {
+                "test:quote": "results have shown that there have not been any discrepancies in the manufacture of these bulks", 
+                "test:type": "quote"
+            }, 
+            "test:the contamination came to light about 15 days when the world health organization found signs of the virus in stool samples from surveillance reports from uttar pradesh": {
+                "test:quote": "the contamination came to light about 15 days when the world health organization found signs of the virus in stool samples from surveillance reports from uttar pradesh", 
+                "test:type": "quote"
+            }, 
+            "test:however when the samples were tested again contamination was reconfirmed": {
+                "test:quote": "however when the samples were tested again contamination was reconfirmed", 
+                "test:type": "quote"
+            }, 
+            "test:vaccine makers were also asked to destroy their stocks of type 2 virus strain by april 2016 an order that biomed has allegedly violated": {
+                "test:quote": "vaccine makers were also asked to destroy their stocks of type 2 virus strain by april 2016 an order that biomed has allegedly violated", 
+                "test:type": "quote"
+            }, 
+            "test:as vaccination of hajis is a timebound matter of international health closely monitored by ministry of health and family welfare ministry of external affairs and ministry of minority affairs any delay in vaccine procurement at this juncture is likely to h": {
+                "test:quote": "as vaccination of hajis is a timebound matter of international health closely monitored by ministry of health and family welfare ministry of external affairs and ministry of minority affairs any delay in vaccine procurement at this juncture is likely to have a negative impact on the entire indian haj pilgrimage", 
+                "test:type": "quote"
+            }, 
+            "test:the samples will be sent for retesting to the kasauli laboratory": {
+                "test:quote": "the samples will be sent for retesting to the kasauli laboratory", 
+                "test:type": "quote"
+            }, 
+            "test:an email sent to biomed managing director sarayu garg went unanswered till press time": {
+                "test:quote": "an email sent to biomed managing director sarayu garg went unanswered till press time", 
+                "test:type": "quote"
+            }, 
+            "test:they supply ksm to many other countries and the team has not found any contamination at their end": {
+                "test:quote": "they supply ksm to many other countries and the team has not found any contamination at their end", 
+                "test:type": "quote"
+            }, 
+            "test:to be released on bail his lawyer referred to a decision by allahabad high court as per which drug inspectors do not have a power to file a police complaint": {
+                "test:quote": "to be released on bail his lawyer referred to a decision by allahabad high court as per which drug inspectors do not have a power to file a police complaint", 
+                "test:type": "quote"
+            }, 
+            "test:that brought the spotlight back on biomed": {
+                "test:quote": "that brought the spotlight back on biomed", 
+                "test:type": "quote"
+            }, 
+            "test:an email sent to biomed and text messages sent to managing director sarayu garg went unanswered till press time": {
+                "test:quote": "an email sent to biomed and text messages sent to managing director sarayu garg went unanswered till press time", 
+                "test:type": "quote"
+            }, 
+            "test:this is in addition to stool samples collected from individuals reporting sudden onset of paralysis or other polio like symptoms": {
+                "test:quote": "this is in addition to stool samples collected from individuals reporting sudden onset of paralysis or other polio like symptoms", 
+                "test:type": "quote"
+            }, 
+            "test:drug inspectors working to unearth the mystery behind the contamination of polio vaccines had in october also travelled to indonesia’s pt bio farma pvt": {
+                "test:quote": "drug inspectors working to unearth the mystery behind the contamination of polio vaccines had in october also travelled to indonesia’s pt bio farma pvt", 
+                "test:type": "quote"
+            }, 
+            "test:while biomed sells meningitis vaccine at ₹250 a dose to the government importing the vaccines may cost the government ₹1500 ₹2000 a dose": {
+                "test:quote": "while biomed sells meningitis vaccine at ₹250 a dose to the government importing the vaccines may cost the government ₹1500 ₹2000 a dose", 
+                "test:type": "quote"
+            }, 
+            "test:the company is doing everything to get the matter delayed": {
+                "test:quote": "the company is doing everything to get the matter delayed", 
+                "test:type": "quote"
+            }, 
+            "test:to provide additional protection to our children government has also introduced the injectable inactivated polio vaccine into its routine immunization program": {
+                "test:quote": "to provide additional protection to our children government has also introduced the injectable inactivated polio vaccine into its routine immunization program", 
+                "test:type": "quote"
+            }, 
+            "test:we have now asked the law ministry for their opinion so that we can file a special leave petition in the sc stating to quash the order of allahabad high court and ghaziabad’s district court order of granting bail so that further action on the firm and i": {
+                "test:quote": "we have now asked the law ministry for their opinion so that we can file a special leave petition in the sc stating to quash the order of allahabad high court and ghaziabad’s district court order of granting bail so that further action on the firm and its officials can be taken", 
+                "test:type": "quote"
+            }, 
+            "test:directions have been given for the withdrawal of the vaccine manufactured by biomed and recalled batches have been sent for testing to the central drug laboratory cdl kasauli": {
+                "test:quote": "directions have been given for the withdrawal of the vaccine manufactured by biomed and recalled batches have been sent for testing to the central drug laboratory cdl kasauli", 
+                "test:type": "quote"
+            }, 
+            "test:as per the act it is a nonbailable offence": {
+                "test:quote": "as per the act it is a nonbailable offence", 
+                "test:type": "quote"
+            }, 
+            "test:the complaint has been filed under section 27 of the drugs and cosmetics act which provides imprisonment of 35 years for noncompliance": {
+                "test:quote": "the complaint has been filed under section 27 of the drugs and cosmetics act which provides imprisonment of 35 years for noncompliance", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "4899": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the company was supplying polio vaccines only for the governmentrun immunization programme and about 50000 vials one vial has 20 doses of contaminated vaccine may have possibly been used in uttar pradesh maharashtra and telangana another official said"
+            }, 
+            "4915": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:this is when the who found type2 polio vaccine virus in some sewage and stool samples during their routine surveillance"
+            }, 
+            "4889": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:as per the act it is a nonbailable offence"
+            }, 
+            "4893": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:we have now asked the law ministry for their opinion so that we can file a special leave petition in the sc stating to quash the order of allahabad high court and ghaziabad’s district court order of granting bail so that further action on the firm and i"
+            }, 
+            "4879": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:results have shown that there have not been any discrepancies in the manufacture of these bulks"
+            }, 
+            "4891": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:to be released on bail his lawyer referred to a decision by allahabad high court as per which drug inspectors do not have a power to file a police complaint"
+            }, 
+            "4861": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:that brought the spotlight back on biomed"
+            }, 
+            "4905": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the contamination came to light about 15 days when the world health organization found signs of the virus in stool samples from surveillance reports from uttar pradesh"
+            }, 
+            "4769": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:the bigger problem is that the virus can mutate and no one knows into what form mild or virulent"
+            }, 
+            "4943": {
+                "prov:entity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:activity": "test:earlier this year naqvi had said that the centre would abolish the subsidy for haj pilgrims in accordance with a supreme court order"
+            }, 
+            "4765": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:the contamination endangers the health of those who have not been vaccinated for the polio2 virus strain according to public health expert sylvia karpagam"
+            }, 
+            "4907": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the samples were sent for further testing and confirmed contamination with type2 virus"
+            }, 
+            "4789": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:vaccine makers were also asked to destroy their stocks of type 2 virus strain by april 2016 an order that biomed has allegedly violated"
+            }, 
+            "4787": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:the type 2 strain is thought to have been eradicated from india so long ago that the current polio vaccine no longer protects against it"
+            }, 
+            "4785": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:polio drops which carry weakened polio viruses are given to children below five years under a government programme"
+            }, 
+            "4911": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:this is in addition to stool samples collected from individuals reporting sudden onset of paralysis or other polio like symptoms"
+            }, 
+            "4783": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:the company was thereafter barred from manufacturing and supplying vaccines"
+            }, 
+            "4781": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:around 50000 vials—one vial has 20 doses—of contaminated vaccine were believed to have been used in uttar pradesh and telangana"
+            }, 
+            "4909": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:as part of intensive surveillance sewage samples are collected from 45 sites across eight states and tested for poliovirus in five accredited polio laboratories in the country"
+            }, 
+            "4801": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:activity": "test:at our request saudi arabia has decided to increase the quota for haj pilgrims from india to 2 lakh"
+            }, 
+            "4749": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:adults and children over the age of 2 arriving in saudi arabia for haj are required to produce a certificate of vaccination against meningitis issued no more than three years and no less than 10 days before their arrival along with certificates for other "
+            }, 
+            "4941": {
+                "prov:entity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:activity": "test:naqvi told reporters and cited a host of measures for the welfare of minorities"
+            }, 
+            "4805": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:activity": "test:this gesture is deeply appreciated"
+            }, 
+            "4925": {
+                "prov:entity": "test:https://www.livemint.com/news/india/government-launches-pulse-polio-program-2019-1552146654684.html", 
+                "prov:activity": "test:to provide additional protection to our children government has also introduced the injectable inactivated polio vaccine into its routine immunization program"
+            }, 
+            "4829": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:the complaint has been filed under section 27 of the drugs and cosmetics act which provides imprisonment of 35 years for noncompliance"
+            }, 
+            "4743": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:the directorate general of health services dghs called an urgent meeting on 5 july to discuss the issue"
+            }, 
+            "4809": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:activity": "test:this is the third hike in consecutive years"
+            }, 
+            "4903": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the unused vials have been stocked in the warehouses and 13 batches of samples have so far been tested at cdl"
+            }, 
+            "4747": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:an email sent to biomed managing director sarayu garg went unanswered till press time"
+            }, 
+            "4745": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:it has been learnt from the initial results at cdl that the samples of quadrivalent meningococcal meningitis vaccine from biomed are not giving satisfactory outcome although the final report is awaited"
+            }, 
+            "4849": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:an email sent to biomed and text messages sent to managing director sarayu garg went unanswered till press time"
+            }, 
+            "4845": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:the report of retesting the samples was submitted by cdl to the ghaziabad district court on 15 march"
+            }, 
+            "4779": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:on 27 september the drug controller general of india asked biomed to explain how the eradicated polio2 strain found its way into vaccine vials"
+            }, 
+            "4841": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:biomed challenged the results of the initial tests by the central drugs laboratory cdl in kasauli"
+            }, 
+            "4843": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:however when the samples were tested again contamination was reconfirmed"
+            }, 
+            "4839": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:the company was then barred from manufacturing and supplying vaccines"
+            }, 
+            "4937": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html", 
+                "prov:activity": "test:we want to increase cooperation with india as it will give a new direction to our relationship"
+            }, 
+            "4913": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:every year nearly 75000 stool samples are collected and tested in polio laboratories in india"
+            }, 
+            "4881": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:test results of retain samples do not indicate presence of type 2 polio virus"
+            }, 
+            "4883": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:an email sent to biomed on monday remained unanswered till press time"
+            }, 
+            "4885": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:the company’s managing director who was arrested in september after the test results came out was released on bail after 14 days in judicial custody"
+            }, 
+            "4887": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:the md was charged under sections 37 a c section 17 a section 27 a under the drugs and cosmetics dcact"
+            }, 
+            "4951": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-crown-prince-mohammed-bin-salman-arrives-in-india-amid-row-with-pakistan-1550593082348.html", 
+                "prov:activity": "test:the only positive part of this is to strengthen the relationship with saudi arabia to make up the oil deficit with iran"
+            }, 
+            "4777": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:biomed was found to be supplying polio vaccines for the staterun immunization programme"
+            }, 
+            "4775": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:reports about the contamination set alarm bells in september when traces of polio type 2 virus were found in sewage and stool samples during routine surveillance"
+            }, 
+            "4947": {
+                "prov:entity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:activity": "test:hence in the new policy as per the recommendations of a committee we have decided to do away with the haj subsidy gradually"
+            }, 
+            "4773": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:an email sent to biomed remained unanswered till publishing of this story"
+            }, 
+            "4863": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:the government’s polio eradication programme has been under stress since september"
+            }, 
+            "4795": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:however they did not find anything amiss there"
+            }, 
+            "4797": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:that brought the spotlight back on biomed which supplied the oral vaccine for the government’s immunization programme"
+            }, 
+            "4945": {
+                "prov:entity": "test:https://www.livemint.com/Politics/u3KC2eKjfnZUcjOdwjQfSO/Government-ends-Haj-subsidy.html", 
+                "prov:activity": "test:a constitutional bench of the supreme court had during the congress regime in 2012 directed that the haj subsidy be done away with"
+            }, 
+            "4791": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:drug inspectors working to unearth the mystery behind the contamination of polio vaccines had in october also travelled to indonesia’s pt bio farma pvt"
+            }, 
+            "4871": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:the company is doing everything to get the matter delayed"
+            }, 
+            "4793": {
+                "prov:entity": "test:https://www.livemint.com/industry/manufacturing/govt-lab-retest-confirms-polio-strain-s-presence-in-bio-med-samples-1552936863920.html", 
+                "prov:activity": "test:ltd the company that supplies the bulk vaccine called key starting material"
+            }, 
+            "4813": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:activity": "test:when the modi government came to power in 2014 indias haj quota was 136000 which has now been increased to 2 lakh"
+            }, 
+            "4759": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:the health ministry is already in talks with the two firms which import these vaccines"
+            }, 
+            "4877": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:there are some minor good manufacturing practices gmp related issues which will be communicated to the firm but as far as polio contamination is concerned the team did not find any evidence of contamination at the indonesia site"
+            }, 
+            "4847": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:besides recent inspections of the biomed facility found various violations of good manufacturing practices gmp prompting authorities to file a complaint"
+            }, 
+            "4817": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-increases-india-s-haj-quota-to-2-lakh-after-modi-salman-talks-1550679102373.html", 
+                "prov:activity": "test:this will be the highest number of pilgrims going for haj from india since independence"
+            }, 
+            "4875": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:they supply ksm to many other countries and the team has not found any contamination at their end"
+            }, 
+            "4873": {
+                "prov:entity": "test:https://www.livemint.com/Science/oAmG6ERHKkqj85iTNiR8MP/Court-asks-govt-to-retest-samples-of-Ghaziabadbased-firms.html", 
+                "prov:activity": "test:the samples will be sent for retesting to the kasauli laboratory"
+            }, 
+            "4919": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the other directors who are family members of the managing director are absconding ever since"
+            }, 
+            "4831": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:in september an analysis of some sewage and stool samples showed traces of polio2 strain a variant believed to have been long eradicated"
+            }, 
+            "4751": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:haj will begin on 9 august"
+            }, 
+            "4833": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:new vaccines no longer offer protection against the variant"
+            }, 
+            "4753": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:as vaccination of hajis is a timebound matter of international health closely monitored by ministry of health and family welfare ministry of external affairs and ministry of minority affairs any delay in vaccine procurement at this juncture is likely to h"
+            }, 
+            "4835": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:the contaminated vaccine was found to be manufactured by biomed"
+            }, 
+            "4755": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:a detailed questionnaire sent to the health ministry on 4 july did not elicit any response till press time"
+            }, 
+            "4837": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:around 50000 vials—one vial has 20 doses—of contaminated vaccines were believed to have been used in uttar pradesh and telangana"
+            }, 
+            "4757": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/mandatory-meningitis-vaccines-fail-quality-tests-casting-cloud-over-haj-1562602862299.html", 
+                "prov:activity": "test:while biomed sells meningitis vaccine at ₹250 a dose to the government importing the vaccines may cost the government ₹1500 ₹2000 a dose"
+            }, 
+            "4901": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:directions have been given for the withdrawal of the vaccine manufactured by biomed and recalled batches have been sent for testing to the central drug laboratory cdl kasauli"
+            }, 
+            "4859": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:however they did not find anything amiss there"
+            }, 
+            "4917": {
+                "prov:entity": "test:https://www.livemint.com/Politics/CyBnZJJYUsRnBwa5X3fMEP/Drug-regulator-forms-team-to-probe-polio-vaccine-lapse-case.html", 
+                "prov:activity": "test:the managing director of biomed was arrested on friday after the central drug regulator filed a fir in the case"
+            }, 
+            "4857": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:ltd the company that supplies the bulk vaccine called key starting material"
+            }, 
+            "4855": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:drug inspectors working to unearth the mystery behind the contamination of polio vaccines had in october also travelled to indonesia’s pt bio farma pvt"
+            }, 
+            "4865": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:there are five major manufacturers of the bivalent vaccine in india—biomed bharat biotech international panacea biotec and bibcol and mumbaibased haffkine bio pharmaceutical corp ltd"
+            }, 
+            "4853": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:confident that the polio2 strain had been wiped out vaccine makers were asked to destroy their stocks of type 2 virus strain by april 2016 an order biomed has allegedly violated"
+            }, 
+            "4935": {
+                "prov:entity": "test:https://www.livemint.com/news/india/saudi-arabia-sees-100-billion-investment-opportunity-in-india-crown-prince-1550677352488.html", 
+                "prov:activity": "test:we understand that there are opportunities for more than usd 100 billion investment in indiawe want to strengthen investment and economic ties to ensure useful returns for both countries"
+            }, 
+            "4851": {
+                "prov:entity": "test:https://www.livemint.com/politics/policy/bio-med-directors-in-the-dock-over-supply-of-tainted-drugs-1558457254175.html", 
+                "prov:activity": "test:polio drops which carry weakened polio viruses are given to children below five years under a governmentrun programme"
+            }
+        }
+    }
+}

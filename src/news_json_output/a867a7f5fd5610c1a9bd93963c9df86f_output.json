@@ -1,0 +1,469 @@
+{
+    "root": "https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+    "bundle": {
+        "entity": {
+            "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html": {
+                "test:url": "https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "test:date": "2019-07-08", 
+                "test:title": "How France is persuading its citizens to get vaccinated", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "7281": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:measles is like a canary in the mine"
+            }, 
+            "7285": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:it’s a tragedy for europe that a child or an adult has died because of a preventable disease"
+            }, 
+            "7289": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:we owe it to them to protect them"
+            }, 
+            "7345": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:vaccines are intrusive so it’s normal for them to ask questions"
+            }, 
+            "7339": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:it is very important that communication around vaccination continues and is always present visavis fake news"
+            }, 
+            "7341": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:all my patients have concerns about vaccines"
+            }, 
+            "7383": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:the most devastating consequence of vaccine hesitancy or inadequate vaccine uptake would be a resurgence of fatal or lifechanging vaccinepreventable diseases which are currently well controlled or are targeted for elimination"
+            }, 
+            "7381": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:if you are getting close to the exposure it’s too late"
+            }, 
+            "7349": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:very very few are not vaccinated"
+            }, 
+            "7369": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:i’m lucky because i don’t work so i don’t have to put them in the creche so i have the choice over vaccines"
+            }, 
+            "7301": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:it’s all about money for the pharmaceutical companies"
+            }, 
+            "7307": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:maybe the basic idea of a vaccine is very good"
+            }, 
+            "7323": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:there’s a lot of pretty negative discouraging and sometimes quite frightening material about immunisation on websites"
+            }, 
+            "7361": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:taking away freedom of choice can easily appear authoritarian"
+            }, 
+            "7309": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:but suspending it also raised suspicions"
+            }, 
+            "7365": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:when you talk to people who work in private schools many tell you a lot of children are not vaccinated and the school directors don’t check"
+            }, 
+            "7385": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:vaccines are one of the best public health interventions that we have and they work"
+            }, 
+            "7397": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:but i think it’s never going to fully go away"
+            }, 
+            "7293": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:next year it could be diphtheria or a variety of things"
+            }, 
+            "7393": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:france can bring down the level of scepticism with some extraordinary efforts"
+            }, 
+            "7297": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:the good news is that a lot of people who are sceptical who don’t think vaccines are safe still vaccinate their children"
+            }, 
+            "7379": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:you can wait but not too much because the main purpose of the vaccination is to protect the child before they are exposed to the risk"
+            }, 
+            "7353": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:there was a confusion between mandatory and recommended vaccines"
+            }, 
+            "7327": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:the fervent or militant resistors are very loud on social media and other forums"
+            }, 
+            "7357": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:people understood that if it was recommended it wasn’t so important"
+            }, 
+            "7305": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:i think the immune system builds itself and if it’s broken somewhere it becomes complicated"
+            }, 
+            "7321": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:in addition vaccinating children against six serious diseases at once is a risky medical procedure that can trigger an uncontrolled immune response anaphylactic shock and increase the risk of autoimmune disease in the long term"
+            }, 
+            "7375": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:people must think about side effects of ibuprofen or antibiotics"
+            }, 
+            "7335": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:it is a lot of work"
+            }, 
+            "7331": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:people pick that up and then they have lots of questions"
+            }, 
+            "7373": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:i say to them there is no product which has zero risk"
+            }, 
+            "7317": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:the hiv epidemic and the blood transfusion scandal changed everything"
+            }, 
+            "7279": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:how was it when you were vaccinated what happened how did you feel"
+            }, 
+            "7377": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:and i ask them ‘how was it when you were vaccinated what happened how did you feel"
+            }, 
+            "7313": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:the public was angry at the who for what they thought was overinflation of the risk angry at the government for having bought so much vaccine"
+            }, 
+            "7389": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:activity": "test:we just have to make sure people understand that"
+            }
+        }, 
+        "wasAttributedTo": {
+            "7283": {
+                "prov:entity": "test:measles is like a canary in the mine", 
+                "prov:agent": "test:Heidi Larson"
+            }, 
+            "7287": {
+                "prov:entity": "test:it’s a tragedy for europe that a child or an adult has died because of a preventable disease", 
+                "prov:agent": "test:Patrick O'Connor"
+            }, 
+            "7347": {
+                "prov:entity": "test:vaccines are intrusive so it’s normal for them to ask questions", 
+                "prov:agent": "test:Dufour"
+            }, 
+            "7343": {
+                "prov:entity": "test:all my patients have concerns about vaccines", 
+                "prov:agent": "test:Veronique Dufour"
+            }, 
+            "7387": {
+                "prov:entity": "test:vaccines are one of the best public health interventions that we have and they work", 
+                "prov:agent": "test:O'Connor"
+            }, 
+            "7325": {
+                "prov:entity": "test:there’s a lot of pretty negative discouraging and sometimes quite frightening material about immunisation on websites", 
+                "prov:agent": "test:Larson"
+            }, 
+            "7363": {
+                "prov:entity": "test:taking away freedom of choice can easily appear authoritarian", 
+                "prov:agent": "test:Ward"
+            }, 
+            "7329": {
+                "prov:entity": "test:the fervent or militant resistors are very loud on social media and other forums", 
+                "prov:agent": "test:O'Connor"
+            }, 
+            "7367": {
+                "prov:entity": "test:when you talk to people who work in private schools many tell you a lot of children are not vaccinated and the school directors don’t check", 
+                "prov:agent": "test:Ward"
+            }, 
+            "7395": {
+                "prov:entity": "test:france can bring down the level of scepticism with some extraordinary efforts", 
+                "prov:agent": "test:Larson"
+            }, 
+            "7291": {
+                "prov:entity": "test:we owe it to them to protect them", 
+                "prov:agent": "test:Patrick O'Connor"
+            }, 
+            "7391": {
+                "prov:entity": "test:we just have to make sure people understand that", 
+                "prov:agent": "test:O'Connor"
+            }, 
+            "7295": {
+                "prov:entity": "test:next year it could be diphtheria or a variety of things", 
+                "prov:agent": "test:O'Connor"
+            }, 
+            "7303": {
+                "prov:entity": "test:it’s all about money for the pharmaceutical companies", 
+                "prov:agent": "test:Priscille"
+            }, 
+            "7299": {
+                "prov:entity": "test:the good news is that a lot of people who are sceptical who don’t think vaccines are safe still vaccinate their children", 
+                "prov:agent": "test:Hania Farhan"
+            }, 
+            "7399": {
+                "prov:entity": "test:but i think it’s never going to fully go away", 
+                "prov:agent": "test:Larson"
+            }, 
+            "7351": {
+                "prov:entity": "test:very very few are not vaccinated", 
+                "prov:agent": "test:Dufour"
+            }, 
+            "7355": {
+                "prov:entity": "test:there was a confusion between mandatory and recommended vaccines", 
+                "prov:agent": "test:Magid Herida"
+            }, 
+            "7359": {
+                "prov:entity": "test:people understood that if it was recommended it wasn’t so important", 
+                "prov:agent": "test:Magid Herida"
+            }, 
+            "7333": {
+                "prov:entity": "test:people pick that up and then they have lots of questions", 
+                "prov:agent": "test:O'Connor"
+            }, 
+            "7337": {
+                "prov:entity": "test:it is a lot of work", 
+                "prov:agent": "test:Sylvie Quelet"
+            }, 
+            "7319": {
+                "prov:entity": "test:the hiv epidemic and the blood transfusion scandal changed everything", 
+                "prov:agent": "test:Ward"
+            }, 
+            "7277": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:agent": "test:Alex Whiting"
+            }, 
+            "7275": {
+                "prov:entity": "test:https://www.independent.co.uk/news/health/france-measles-vaccine-antivaxx-vaccine-government-world-health-organisation-a8958611.html", 
+                "prov:agent": "test:www.independent.co.uk"
+            }, 
+            "7315": {
+                "prov:entity": "test:the public was angry at the who for what they thought was overinflation of the risk angry at the government for having bought so much vaccine", 
+                "prov:agent": "test:Larson"
+            }, 
+            "7371": {
+                "prov:entity": "test:i’m lucky because i don’t work so i don’t have to put them in the creche so i have the choice over vaccines", 
+                "prov:agent": "test:Priscille"
+            }, 
+            "7311": {
+                "prov:entity": "test:but suspending it also raised suspicions", 
+                "prov:agent": "test:Larson"
+            }
+        }, 
+        "agent": {
+            "test:Sylvie Quelet": {
+                "test:name": "Sylvie Quelet", 
+                "test:type": "person"
+            }, 
+            "test:Alex Whiting": {
+                "test:name": "Alex Whiting", 
+                "test:type": "person"
+            }, 
+            "test:Magid Herida": {
+                "test:name": "Magid Herida", 
+                "test:type": "person"
+            }, 
+            "test:Patrick O'Connor": {
+                "test:name": "Patrick O'Connor", 
+                "test:type": "person"
+            }, 
+            "test:Larson": {
+                "test:name": "Larson", 
+                "test:type": "person"
+            }, 
+            "test:Priscille": {
+                "test:name": "Priscille", 
+                "test:type": "person"
+            }, 
+            "test:www.independent.co.uk": {
+                "test:publisher": "www.independent.co.uk", 
+                "test:type": "publisher"
+            }, 
+            "test:Dufour": {
+                "test:name": "Dufour", 
+                "test:type": "person"
+            }, 
+            "test:O'Connor": {
+                "test:name": "O'Connor", 
+                "test:type": "person"
+            }, 
+            "test:Heidi Larson": {
+                "test:name": "Heidi Larson", 
+                "test:type": "person"
+            }, 
+            "test:Hania Farhan": {
+                "test:name": "Hania Farhan", 
+                "test:type": "person"
+            }, 
+            "test:Ward": {
+                "test:name": "Ward", 
+                "test:type": "person"
+            }, 
+            "test:Veronique Dufour": {
+                "test:name": "Veronique Dufour", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:i’m lucky because i don’t work so i don’t have to put them in the creche so i have the choice over vaccines": {
+                "test:quote": "i’m lucky because i don’t work so i don’t have to put them in the creche so i have the choice over vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:taking away freedom of choice can easily appear authoritarian": {
+                "test:quote": "taking away freedom of choice can easily appear authoritarian", 
+                "test:type": "quote"
+            }, 
+            "test:it’s a tragedy for europe that a child or an adult has died because of a preventable disease": {
+                "test:quote": "it’s a tragedy for europe that a child or an adult has died because of a preventable disease", 
+                "test:type": "quote"
+            }, 
+            "test:it is a lot of work": {
+                "test:quote": "it is a lot of work", 
+                "test:type": "quote"
+            }, 
+            "test:i say to them there is no product which has zero risk": {
+                "test:quote": "i say to them there is no product which has zero risk", 
+                "test:type": "quote"
+            }, 
+            "test:when you talk to people who work in private schools many tell you a lot of children are not vaccinated and the school directors don’t check": {
+                "test:quote": "when you talk to people who work in private schools many tell you a lot of children are not vaccinated and the school directors don’t check", 
+                "test:type": "quote"
+            }, 
+            "test:the good news is that a lot of people who are sceptical who don’t think vaccines are safe still vaccinate their children": {
+                "test:quote": "the good news is that a lot of people who are sceptical who don’t think vaccines are safe still vaccinate their children", 
+                "test:type": "quote"
+            }, 
+            "test:people pick that up and then they have lots of questions": {
+                "test:quote": "people pick that up and then they have lots of questions", 
+                "test:type": "quote"
+            }, 
+            "test:but suspending it also raised suspicions": {
+                "test:quote": "but suspending it also raised suspicions", 
+                "test:type": "quote"
+            }, 
+            "test:next year it could be diphtheria or a variety of things": {
+                "test:quote": "next year it could be diphtheria or a variety of things", 
+                "test:type": "quote"
+            }, 
+            "test:maybe the basic idea of a vaccine is very good": {
+                "test:quote": "maybe the basic idea of a vaccine is very good", 
+                "test:type": "quote"
+            }, 
+            "test:people must think about side effects of ibuprofen or antibiotics": {
+                "test:quote": "people must think about side effects of ibuprofen or antibiotics", 
+                "test:type": "quote"
+            }, 
+            "test:but i think it’s never going to fully go away": {
+                "test:quote": "but i think it’s never going to fully go away", 
+                "test:type": "quote"
+            }, 
+            "test:the hiv epidemic and the blood transfusion scandal changed everything": {
+                "test:quote": "the hiv epidemic and the blood transfusion scandal changed everything", 
+                "test:type": "quote"
+            }, 
+            "test:there’s a lot of pretty negative discouraging and sometimes quite frightening material about immunisation on websites": {
+                "test:quote": "there’s a lot of pretty negative discouraging and sometimes quite frightening material about immunisation on websites", 
+                "test:type": "quote"
+            }, 
+            "test:we owe it to them to protect them": {
+                "test:quote": "we owe it to them to protect them", 
+                "test:type": "quote"
+            }, 
+            "test:it’s all about money for the pharmaceutical companies": {
+                "test:quote": "it’s all about money for the pharmaceutical companies", 
+                "test:type": "quote"
+            }, 
+            "test:how was it when you were vaccinated what happened how did you feel": {
+                "test:quote": "how was it when you were vaccinated what happened how did you feel", 
+                "test:type": "quote"
+            }, 
+            "test:you can wait but not too much because the main purpose of the vaccination is to protect the child before they are exposed to the risk": {
+                "test:quote": "you can wait but not too much because the main purpose of the vaccination is to protect the child before they are exposed to the risk", 
+                "test:type": "quote"
+            }, 
+            "test:in addition vaccinating children against six serious diseases at once is a risky medical procedure that can trigger an uncontrolled immune response anaphylactic shock and increase the risk of autoimmune disease in the long term": {
+                "test:quote": "in addition vaccinating children against six serious diseases at once is a risky medical procedure that can trigger an uncontrolled immune response anaphylactic shock and increase the risk of autoimmune disease in the long term", 
+                "test:type": "quote"
+            }, 
+            "test:the most devastating consequence of vaccine hesitancy or inadequate vaccine uptake would be a resurgence of fatal or lifechanging vaccinepreventable diseases which are currently well controlled or are targeted for elimination": {
+                "test:quote": "the most devastating consequence of vaccine hesitancy or inadequate vaccine uptake would be a resurgence of fatal or lifechanging vaccinepreventable diseases which are currently well controlled or are targeted for elimination", 
+                "test:type": "quote"
+            }, 
+            "test:if you are getting close to the exposure it’s too late": {
+                "test:quote": "if you are getting close to the exposure it’s too late", 
+                "test:type": "quote"
+            }, 
+            "test:vaccines are intrusive so it’s normal for them to ask questions": {
+                "test:quote": "vaccines are intrusive so it’s normal for them to ask questions", 
+                "test:type": "quote"
+            }, 
+            "test:the public was angry at the who for what they thought was overinflation of the risk angry at the government for having bought so much vaccine": {
+                "test:quote": "the public was angry at the who for what they thought was overinflation of the risk angry at the government for having bought so much vaccine", 
+                "test:type": "quote"
+            }, 
+            "test:there was a confusion between mandatory and recommended vaccines": {
+                "test:quote": "there was a confusion between mandatory and recommended vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:the fervent or militant resistors are very loud on social media and other forums": {
+                "test:quote": "the fervent or militant resistors are very loud on social media and other forums", 
+                "test:type": "quote"
+            }, 
+            "test:very very few are not vaccinated": {
+                "test:quote": "very very few are not vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:and i ask them ‘how was it when you were vaccinated what happened how did you feel": {
+                "test:quote": "and i ask them ‘how was it when you were vaccinated what happened how did you feel", 
+                "test:type": "quote"
+            }, 
+            "test:people understood that if it was recommended it wasn’t so important": {
+                "test:quote": "people understood that if it was recommended it wasn’t so important", 
+                "test:type": "quote"
+            }, 
+            "test:measles is like a canary in the mine": {
+                "test:quote": "measles is like a canary in the mine", 
+                "test:type": "quote"
+            }, 
+            "test:we just have to make sure people understand that": {
+                "test:quote": "we just have to make sure people understand that", 
+                "test:type": "quote"
+            }, 
+            "test:i think the immune system builds itself and if it’s broken somewhere it becomes complicated": {
+                "test:quote": "i think the immune system builds itself and if it’s broken somewhere it becomes complicated", 
+                "test:type": "quote"
+            }, 
+            "test:france can bring down the level of scepticism with some extraordinary efforts": {
+                "test:quote": "france can bring down the level of scepticism with some extraordinary efforts", 
+                "test:type": "quote"
+            }, 
+            "test:all my patients have concerns about vaccines": {
+                "test:quote": "all my patients have concerns about vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:vaccines are one of the best public health interventions that we have and they work": {
+                "test:quote": "vaccines are one of the best public health interventions that we have and they work", 
+                "test:type": "quote"
+            }, 
+            "test:it is very important that communication around vaccination continues and is always present visavis fake news": {
+                "test:quote": "it is very important that communication around vaccination continues and is always present visavis fake news", 
+                "test:type": "quote"
+            }
+        }
+    }
+}
