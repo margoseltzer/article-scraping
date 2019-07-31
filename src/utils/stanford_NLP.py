@@ -19,7 +19,7 @@ class StanfordNLP(object):
             'annotators': 'tokenize,ssplit,pos,lemma,ner,depparse,parse,coref,quote',
             'ner.applyFineGrained': 'False',
             'ner.applyNumericClassifiers': 'False',
-            'ssplit.newlineIsSentenceBreak': 'two',
+            'ssplit.newlineIsSentenceBreak': 'always',
             'pipelineLanguage': 'en',
             'outputFormat': 'json',
             'timeout': 150000
