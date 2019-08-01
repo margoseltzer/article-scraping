@@ -38,6 +38,7 @@ def process_db():
     ent_adj_dict = {}
     agn_adj_dict = {}
     qot_adj_dict = {}
+    qot_per_dict = {}
     for r in rel_list:
         # type 8 = entity to entity, 'wasDerivedFrom'
         if r.type == 8: 
@@ -53,8 +54,9 @@ def process_db():
                 agn_adj_dict[r.base.id] = agn_adj_dict[r.base.id] + [r.other.id] if r.base.id in agn_adj_dict else [r.other.id]
             
             # r.base.id is quote id connected to person who is only connected to quotes
-            else:  
-                obj_dict[r.other.id]['to'] = obj_dict[r.other.id]['to'] + [r.base.id] if 'to' in obj_dict[r.other.id] else [r.base.id]
+            # There are quotes that are spoken with multiple speakers
+            else:
+                qot_per_dict[r.base.id] = qot_per_dict[r.base.id] + [r.other.id] if r.base.id in qot_per_dict else [r.other.id]
 
         # type 9 = entity to quote, 'wasGeneratedBy'
         elif r.type == 9:
@@ -69,7 +71,7 @@ def process_db():
 
     db_connection.close()
 
-    return obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict
+    return obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict
 
 def get_valid_props(props_lists):
     ''' Extract only useful and valid props from props_lists
