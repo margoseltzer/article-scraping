@@ -89,8 +89,8 @@ def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
             adj_entities = v_1
             
             for k_2, v_2 in dic.items():
-                if k_1 == k_2: continue
-
+                if k_1 == k_2:
+                    adj_dict[k_1] = adj_dict[k_1] + [k_1] if k_1 in adj_dict else [k_1]
                 for i in v_2:
                     if i in adj_entities and obj_dict[i]['type'] != 'publisher':
                         adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
@@ -190,7 +190,8 @@ def convert_dict_to_mat(adj_dict, fts_dict, n, d):
         for f_id in fts_row:
             fids.append(f_id)
             fts_mat[i][f_id] = 1
-
+    print(adj_mat)
+    print(np.sum(adj_mat, axis=1))
     return adj_mat, fts_mat
     
 def get_data_for_gcn(adj_dict, fts_mat, y, n, d):

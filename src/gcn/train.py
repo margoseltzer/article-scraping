@@ -29,6 +29,7 @@ def train(x, y, tx, ty, allx, ally, graph):
     adj, features, y_train, y_val, y_test, train_mask, val_mask, test_mask = load_data(x, y, tx, ty, allx, ally, graph, FLAGS.dataset)
 
     # Some preprocessing
+    # print(features)
     features = preprocess_features(features)
     if FLAGS.model == 'gcn':
         support = [preprocess_adj(adj)]

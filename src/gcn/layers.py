@@ -29,6 +29,10 @@ def sparse_dropout(x, keep_prob, noise_shape):
 
 def dot(x, y, sparse=False):
     """Wrapper for tf.matmul (sparse vs dense)."""
+    print(x)
+    print(x.shape)
+    print(y)
+    print(y.shape)
     if sparse:
         res = tf.sparse_tensor_dense_matmul(x, y)
     else:

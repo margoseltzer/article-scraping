@@ -100,7 +100,7 @@ def load_data(x, y, tx, ty, allx, ally, graph, dataset_str):
 
     idx_test = test_idx_range.tolist()
     idx_train = range(len(y))
-    idx_val = range(len(y), len(y)+500)
+    idx_val = range(len(y), len(y)+100)
 
     train_mask = sample_mask(idx_train, labels.shape[0])
     val_mask = sample_mask(idx_val, labels.shape[0])
@@ -138,6 +138,9 @@ def sparse_to_tuple(sparse_mx):
 def preprocess_features(features):
     """Row-normalize feature matrix and convert to tuple representation"""
     rowsum = np.array(features.sum(1))
+    # print('row sum')
+    # print(rowsum)
+    # print(type(rowsum))
     r_inv = np.power(rowsum, -1).flatten()
     r_inv[np.isinf(r_inv)] = 0.
     r_mat_inv = sp.diags(r_inv)
