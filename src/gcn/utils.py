@@ -141,6 +141,7 @@ def preprocess_features(features):
     # print('row sum')
     # print(rowsum)
     # print(type(rowsum))
+    # rowsum = np.where(rowsum != 0, rowsum, -1)
     r_inv = np.power(rowsum, -1).flatten()
     r_inv[np.isinf(r_inv)] = 0.
     r_mat_inv = sp.diags(r_inv)

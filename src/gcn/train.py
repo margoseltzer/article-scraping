@@ -6,7 +6,9 @@ import tensorflow as tf
 
 from gcn.utils import *
 from gcn.models import GCN, MLP
+
 def train(x, y, tx, ty, allx, ally, graph):
+
     # Set random seed
     seed = 123
     np.random.seed(seed)
@@ -70,27 +72,27 @@ def train(x, y, tx, ty, allx, ally, graph):
         outs_val = sess.run([model.loss, model.accuracy], feed_dict=feed_dict_val)
         return outs_val[0], outs_val[1], (time.time() - t_test)
 
-
+    print(00000000)
     # Init variables
     sess.run(tf.global_variables_initializer())
-
+    print(11111111)
     cost_val = []
 
     # Train model
     for epoch in range(FLAGS.epochs):
-
+        print(2222222222)
         t = time.time()
         # Construct feed dictionary
         feed_dict = construct_feed_dict(features, support, y_train, train_mask, placeholders)
         feed_dict.update({placeholders['dropout']: FLAGS.dropout})
-
+        print(333333333)
         # Training step
         outs = sess.run([model.opt_op, model.loss, model.accuracy], feed_dict=feed_dict)
-
+        print(444444444)
         # Validation
         cost, acc, duration = evaluate(features, support, y_val, val_mask, placeholders)
         cost_val.append(cost)
-
+        print(5555555555)
         # Print results
         print("Epoch:", '%04d' % (epoch + 1), "train_loss=", "{:.5f}".format(outs[1]),
             "train_acc=", "{:.5f}".format(outs[2]), "val_loss=", "{:.5f}".format(cost),
@@ -99,10 +101,11 @@ def train(x, y, tx, ty, allx, ally, graph):
         if epoch > FLAGS.early_stopping and cost_val[-1] > np.mean(cost_val[-(FLAGS.early_stopping+1):-1]):
             print("Early stopping...")
             break
-
+        print(6666666666)
     print("Optimization Finished!")
 
     # Testing
     test_cost, test_acc, test_duration = evaluate(features, support, y_test, test_mask, placeholders)
+    print(77777777777)
     print("Test set results:", "cost=", "{:.5f}".format(test_cost),
         "accuracy=", "{:.5f}".format(test_acc), "time=", "{:.5f}".format(test_duration))
