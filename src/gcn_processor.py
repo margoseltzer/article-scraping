@@ -180,7 +180,7 @@ def get_n_d(aid_adj_dict, aid_fid_dict):
 
 def convert_dict_to_mat(adj_dict, fts_dict, n, d):
     adj_mat = np.zeros((n, n))
-    fts_mat = np.zeros((n, d))
+    fts_mat = np.zeros((n, d+1))
     fids = []
     for i in range(n):
         adj_row = adj_dict[i]
@@ -190,21 +190,23 @@ def convert_dict_to_mat(adj_dict, fts_dict, n, d):
         for f_id in fts_row:
             fids.append(f_id)
             fts_mat[i][f_id] = 1
+    fts_mat[:, d] = 1
     print(adj_mat)
     print(np.sum(adj_mat, axis=1))
     return adj_mat, fts_mat
     
 def get_data_for_gcn(adj_dict, fts_mat, y, n, d):
     graph = defaultdict(int, adj_dict)
-    ally = np.zeros((n, 3))
+    ally = np.zeros((n, 2))
     for i, yi in enumerate(y, start=0):
-        if   yi == -1: ally[i][2] = 1
-        elif yi ==  0: ally[i][1] = 1
+        #if   yi == -1: ally[i][2] = 1
+        #el
+        if yi ==  0: ally[i][1] = 1
         elif yi ==  1: ally[i][0] = 1
 
     allx = csr_matrix(np.array(fts_mat))
     
-    return allx[:20], ally[:20], allx[:150], ally[:150], allx, ally, graph
+    return allx[:20], ally[:20], allx[:120], ally[:120], allx[120:], ally[120:], graph
     # return x, y, tx, ty, allx, ally, graph
 
 

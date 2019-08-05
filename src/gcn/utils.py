@@ -77,7 +77,7 @@ def load_data(x, y, tx, ty, allx, ally, graph, dataset_str):
     # test_idx_reorder = parse_index_file("data/ind.{}.test.index".format(dataset_str))
     # test_idx_range = np.sort(test_idx_reorder)
     
-    test_idx_reorder = random.sample(range(0, 150), 150)
+    test_idx_reorder = random.sample(range(0, 100), 100)
     test_idx_range = np.sort(test_idx_reorder)
 
     if dataset_str == 'citeseer':
@@ -100,7 +100,7 @@ def load_data(x, y, tx, ty, allx, ally, graph, dataset_str):
 
     idx_test = test_idx_range.tolist()
     idx_train = range(len(y))
-    idx_val = range(len(y), len(y)+100)
+    idx_val = range(len(y), len(y)+50)
 
     train_mask = sample_mask(idx_train, labels.shape[0])
     val_mask = sample_mask(idx_val, labels.shape[0])
