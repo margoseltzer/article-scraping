@@ -1,0 +1,1577 @@
+{
+    "root": "http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "2298": {
+                "prov:usedEntity": "test:https://www.thedailybeast.com/anti-vaxxers-brought-measles-to-the-happiest-place-on-earth", 
+                "prov:generatedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page"
+            }, 
+            "2292": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline"
+            }, 
+            "2290": {
+                "prov:usedEntity": "test:http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline"
+            }, 
+            "2296": {
+                "prov:usedEntity": "test:https://www.thedailybeast.com/christies-convenient-abortion-flip", 
+                "prov:generatedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page"
+            }, 
+            "2294": {
+                "prov:usedEntity": "test:https://www.huffpost.com/subscribe?ncid=huffpost_hpabmember_v3asdajsqwi", 
+                "prov:generatedEntity": "test:https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146"
+            }, 
+            "2308": {
+                "prov:usedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2320": {
+                "prov:usedEntity": "test:http://www.lifehealthchoices.com/103009-get-out-the-vote-chris-christie-supports-parental-choice", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2300": {
+                "prov:usedEntity": "test:https://www.thedailybeast.com/fda-moves-to-crack-down-on-quack-autism-cures", 
+                "prov:generatedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page"
+            }, 
+            "2302": {
+                "prov:usedEntity": "test:http://www.imus.com/guestbook/2009/10/29/chris-christie-gains-favor-with-imus-by-bulking-up-on-the-la.html", 
+                "prov:generatedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page"
+            }, 
+            "2304": {
+                "prov:usedEntity": "test:http://voices.washingtonpost.com/fact-checker/2008/04/dr_obama_and_dr_mccain.html", 
+                "prov:generatedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page"
+            }, 
+            "2306": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2268": {
+                "prov:usedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html"
+            }, 
+            "2248": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850"
+            }, 
+            "2262": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0"
+            }, 
+            "2260": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0"
+            }, 
+            "2266": {
+                "prov:usedEntity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html"
+            }, 
+            "2264": {
+                "prov:usedEntity": "test:https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html"
+            }, 
+            "2288": {
+                "prov:usedEntity": "test:https://www.nytimes.com//www.nytimes.com/2015/02/02/us/a-discredited-vaccine-studys-continuing-impact-on-public-health.html", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline"
+            }, 
+            "2280": {
+                "prov:usedEntity": "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845"
+            }, 
+            "2282": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=CGvBB_nqZWI", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845"
+            }, 
+            "2284": {
+                "prov:usedEntity": "test:https://www.cdc.gov/vaccinesafety/concerns/autism/", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845"
+            }, 
+            "2286": {
+                "prov:usedEntity": "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823"
+            }, 
+            "2244": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515"
+            }, 
+            "2246": {
+                "prov:usedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515"
+            }, 
+            "2274": {
+                "prov:usedEntity": "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825"
+            }, 
+            "2276": {
+                "prov:usedEntity": "test:https://twitter.com/Goldman44/status/562253734370373633", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825"
+            }, 
+            "2270": {
+                "prov:usedEntity": "test:http://www.lifehealthchoices.com/103009-get-out-the-vote-chris-christie-supports-parental-choice", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html"
+            }, 
+            "2318": {
+                "prov:usedEntity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2272": {
+                "prov:usedEntity": "test:http://nymag.com/intelligencer/2015/01/anti-vaccinators-react-to-measles-outbreak.html?gtm=bottom", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html"
+            }, 
+            "2316": {
+                "prov:usedEntity": "test:https://thehill.com/policy/healthcare/231394-cdc-director-warns-of-measles-outbreak", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2314": {
+                "prov:usedEntity": "test:https://www.huffingtonpost.ca/2015/02/01/barack-obama-kids-vaccinated-measles_n_6591452.html", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2312": {
+                "prov:usedEntity": "test:https://www.nj.com/politics/2015/01/christies_london_trip_more_about_2016_presidential.html", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2278": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/politics/how-rand-paul-tried-to-lead-an-eye-doctors-rebellion/2015/02/01/010994da-9cd6-11e4-a7ee-526210d665b4_story.html?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845"
+            }, 
+            "2310": {
+                "prov:usedEntity": "test:https://www.nbcnews.com/storyline/ebola-virus-outbreak/nj-gov-chris-christie-ebola-quarantine-nurse-go-ahead-sue-n235436", 
+                "prov:generatedEntity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html"
+            }, 
+            "2242": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:generatedEntity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515"
+            }, 
+            "2258": {
+                "prov:usedEntity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0"
+            }, 
+            "2256": {
+                "prov:usedEntity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:generatedEntity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0"
+            }, 
+            "2254": {
+                "prov:usedEntity": "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850"
+            }, 
+            "2252": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850"
+            }, 
+            "2250": {
+                "prov:usedEntity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:generatedEntity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850"
+            }
+        }, 
+        "wasAttributedTo": {
+            "2130": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "2196": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:agent": "test:www.huffingtonpost.com"
+            }, 
+            "2194": {
+                "prov:entity": "test:the science right now is inconclusive but we have to research it", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "2190": {
+                "prov:entity": "test:some people are suspicious that its connected to the vaccines", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "1876": {
+                "prov:entity": "test:let’s protect all our kids", 
+                "prov:agent": "test:Hillary Clinton"
+            }, 
+            "2094": {
+                "prov:entity": "test:there is every reason to get vaccinated but there aren’t reasons to not", 
+                "prov:agent": "test:Savannah Guthrie"
+            }, 
+            "2148": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline", 
+                "prov:agent": "test:Julie Turkewitz"
+            }, 
+            "1872": {
+                "prov:entity": "test:the science is clear the earth is round the sky is blue and vaccineswork", 
+                "prov:agent": "test:Hillary Clinton"
+            }, 
+            "2090": {
+                "prov:entity": "test:we’ve looked at this again and again", 
+                "prov:agent": "test:Savannah Guthrie"
+            }, 
+            "1908": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:agent": "test:Natalie Villacorta"
+            }, 
+            "1868": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:agent": "test:www.newshounds.us"
+            }, 
+            "1906": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "1896": {
+                "prov:entity": "test:if these candidates come out and say you should have the choice and it shouldn’t be mandatory then they’re effectively saying that nonvaccinated children should be allowed to go to school with vaccinated children and that’s aok with them", 
+                "prov:agent": "test:Kelly"
+            }, 
+            "2100": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "1904": {
+                "prov:entity": "test:i don’t think that it’s reasonable for example for the new york times to say that conservatives largely speaking don’t buy that", 
+                "prov:agent": "test:Hume"
+            }, 
+            "1900": {
+                "prov:entity": "test:there are serious public health reasons why certain vaccinations should be mandatory", 
+                "prov:agent": "test:Hume"
+            }, 
+            "2142": {
+                "prov:entity": "test:i also strongly believe other parents have the right to choose not to get their children vaccinated due to religion or health reasons", 
+                "prov:agent": "test:Tiffany Magee"
+            }, 
+            "1986": {
+                "prov:entity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "prov:agent": "test:Jeremy W. Peters"
+            }, 
+            "2172": {
+                "prov:entity": "test:so that’s the balance that the government has to decide… not every vaccine is created equal and not every disease type is as great a publichealth threat as others", 
+                "prov:agent": "test:Chris Christie"
+            }, 
+            "1984": {
+                "prov:entity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "prov:agent": "test:Richard Pérez-Peña"
+            }, 
+            "2128": {
+                "prov:entity": "test:you’ve taken the interview and you’ve made it into something where you got no useful information because you were argumentative", 
+                "prov:agent": "test:Paul"
+            }, 
+            "1982": {
+                "prov:entity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "2212": {
+                "prov:entity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate", 
+                "prov:agent": "test:Roberts"
+            }, 
+            "1980": {
+                "prov:entity": "test:i’m hoping that this episode once again demonstrates how we must be vigilant at all times", 
+                "prov:agent": "test:Jarris"
+            }, 
+            "2138": {
+                "prov:entity": "test:it becomes a game of whackamole as soon as you get rid of one issue there’s another", 
+                "prov:agent": "test:Matt Zahn"
+            }, 
+            "2058": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "1966": {
+                "prov:entity": "test:then it’s there for everyone to see — everyone who has reading rights", 
+                "prov:agent": "test:Carolyn Duff"
+            }, 
+            "2124": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline", 
+                "prov:agent": "test:Alan Rappeport"
+            }, 
+            "2224": {
+                "prov:entity": "test:i stand with them now and will stand with them as their governor in their fight for greater parental involvement in vaccination decisions that affect their children", 
+                "prov:agent": "test:Roberts"
+            }, 
+            "1962": {
+                "prov:entity": "test:i definitely think we’ll continue to see states reversing the trend and making it a little more stricter as far as allowing philosophical exemptions or even rescinding some of that legislation", 
+                "prov:agent": "test:Brooks"
+            }, 
+            "2098": {
+                "prov:entity": "test:the fact is that a major success of our civilization has the ability to prevent diseases that in the past have devastated folks", 
+                "prov:agent": "test:Obama"
+            }, 
+            "2154": {
+                "prov:entity": "test:were going to try to get our lives back on track", 
+                "prov:agent": "test:Wilbur"
+            }, 
+            "2230": {
+                "prov:entity": "test:i understand that there are families that in some cases are concerned about the effect of vaccinations", 
+                "prov:agent": "test:Obama"
+            }, 
+            "2156": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:agent": "test:www.thedailybeast.com"
+            }, 
+            "2034": {
+                "prov:entity": "test:we have to protect our most vulnerable populations", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2150": {
+                "prov:entity": "test:https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146", 
+                "prov:agent": "test:www.huffpost.com"
+            }, 
+            "1892": {
+                "prov:entity": "test:joy behar is sick and tired of the neanderthal behavior by conservatives …like this very wellknown conservative man who’s been one of the most outspoken on the issue of vaccines", 
+                "prov:agent": "test:Kelly"
+            }, 
+            "2186": {
+                "prov:entity": "test:weve seen just a skyrocketing autism rate", 
+                "prov:agent": "test:Barack Obama"
+            }, 
+            "2030": {
+                "prov:entity": "test:and i believe it was 1989 to 91 there was a resurgence", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2014": {
+                "prov:entity": "test:i have worked in a measles outbreak in northern nigeria before", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2070": {
+                "prov:entity": "test:you end up having interviews like this where the interview is so slanted and full of distortions that you don’t get useful information", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "2158": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:agent": "test:Olivia Nuzzi"
+            }, 
+            "2010": {
+                "prov:entity": "test:we know that vaccines are safe and we know that vaccines save lives", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2018": {
+                "prov:entity": "test:we were seeing about 2000 children a week with measles", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2200": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:agent": "test:Paige Lavender"
+            }, 
+            "2168": {
+                "prov:entity": "test:i also understand that parents need to have some measure of choice in things as well", 
+                "prov:agent": "test:Chris Christie"
+            }, 
+            "2120": {
+                "prov:entity": "test:it’s important that responsible leaders speak with one voice", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2198": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:agent": "test:The Huffington Post"
+            }, 
+            "2144": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "2134": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:agent": "test:Jack Healy"
+            }, 
+            "2164": {
+                "prov:entity": "test:it’s more important what you think as a parent than what you think as a public official", 
+                "prov:agent": "test:Chris Christie"
+            }, 
+            "2122": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline", 
+                "prov:agent": "test:www.nytimes.com"
+            }, 
+            "2132": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:agent": "test:Michael Paulson"
+            }, 
+            "1888": {
+                "prov:entity": "test:the bottom line megyn is it’s very far from a oneparty problem", 
+                "prov:agent": "test:Gallagher"
+            }, 
+            "1910": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:agent": "test:Nirvi Shah"
+            }, 
+            "1884": {
+                "prov:entity": "test:the numbers show that this socalled conservative problem as having a liberal outbreak", 
+                "prov:agent": "test:Gallagher"
+            }, 
+            "2074": {
+                "prov:entity": "test:i think this is what is bad about tv sometimes", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "1880": {
+                "prov:entity": "test:but is this really a republican issue", 
+                "prov:agent": "test:Kelly"
+            }, 
+            "2046": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:agent": "test:Jonathan Topaz"
+            }, 
+            "1990": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:agent": "test:www.huffingtonpost.com"
+            }, 
+            "2044": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "1992": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:agent": "test:The Huffington Post"
+            }, 
+            "2042": {
+                "prov:entity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate", 
+                "prov:agent": "test:Christie"
+            }, 
+            "1994": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:agent": "test:Amanda Terkel"
+            }, 
+            "2204": {
+                "prov:entity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2082": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:agent": "test:Trevor Eischen"
+            }, 
+            "1976": {
+                "prov:entity": "test:it’s more than just a little rash that kids get", 
+                "prov:agent": "test:Jarris"
+            }, 
+            "2080": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:agent": "test:www.politico.com"
+            }, 
+            "2086": {
+                "prov:entity": "test:the science is you know pretty indisputable", 
+                "prov:agent": "test:Obama"
+            }, 
+            "1972": {
+                "prov:entity": "test:the effort is cumulative of course but i think this will be one more effort at strengthening those laws", 
+                "prov:agent": "test:Paul Jarris"
+            }, 
+            "2220": {
+                "prov:entity": "test:many of these families have expressed their concern over new jersey’s highestinthenation vaccine mandates", 
+                "prov:agent": "test:Roberts"
+            }, 
+            "2002": {
+                "prov:entity": "test:christie making some very illinformed statements", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2146": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline", 
+                "prov:agent": "test:Damien Cave"
+            }, 
+            "2026": {
+                "prov:entity": "test:after the vaccine was implemented in 1963 there was a large reduction in cases about 98 percent", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2108": {
+                "prov:entity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide", 
+                "prov:agent": "test:Chris Christie"
+            }, 
+            "2006": {
+                "prov:entity": "test:we heard it a lot during the ebola discussion and now it seems to have happened again", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2078": {
+                "prov:entity": "test:frankly i think if we do this again you need to start out with a little more objectivity going into the interview", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "2022": {
+                "prov:entity": "test:i know that these families of these 100 people who have the disease now could tell you a little bit about what the disease looks like and how much misery it causes", 
+                "prov:agent": "test:Christie"
+            }, 
+            "1998": {
+                "prov:entity": "test:i think this is a good example of gov", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2060": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:agent": "test:Adam B. Lerner"
+            }, 
+            "2102": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:agent": "test:Topics.Nytimes.Com Top Reference Timestopics People B Michael_Barbaro Index.Html"
+            }, 
+            "2038": {
+                "prov:entity": "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated", 
+                "prov:agent": "test:Christie"
+            }, 
+            "2216": {
+                "prov:entity": "test:i have met with families affected by autism from across the state and have been struck by their incredible grace and courage christie wrote", 
+                "prov:agent": "test:Roberts"
+            }, 
+            "2066": {
+                "prov:entity": "test:yet 2016 republican hopefuls christie and paul said parents should have latitude — with paul telling talk radio host laura ingraham on monday that “for the most part vaccines should be voluntary” the eye doctor then went on cnbc and said he had “h", 
+                "prov:agent": "test:Rand Paul"
+            }, 
+            "2104": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:agent": "test:Michael Barbaro"
+            }
+        }, 
+        "agent": {
+            "test:Julie Turkewitz": {
+                "test:name": "Julie Turkewitz", 
+                "test:type": "person"
+            }, 
+            "test:Matt Zahn": {
+                "test:name": "Matt Zahn", 
+                "test:type": "person"
+            }, 
+            "test:Natalie Villacorta": {
+                "test:name": "Natalie Villacorta", 
+                "test:type": "person"
+            }, 
+            "test:Topics.Nytimes.Com Top Reference Timestopics People B Michael_Barbaro Index.Html": {
+                "test:name": "Topics.Nytimes.Com Top Reference Timestopics People B Michael_Barbaro Index.Html", 
+                "test:type": "person"
+            }, 
+            "test:Christie": {
+                "test:name": "Christie", 
+                "test:type": "person"
+            }, 
+            "test:The Huffington Post": {
+                "test:name": "The Huffington Post", 
+                "test:type": "person"
+            }, 
+            "test:Hillary Clinton": {
+                "test:name": "Hillary Clinton", 
+                "test:type": "person"
+            }, 
+            "test:Amanda Terkel": {
+                "test:name": "Amanda Terkel", 
+                "test:type": "person"
+            }, 
+            "test:Hume": {
+                "test:name": "Hume", 
+                "test:type": "person"
+            }, 
+            "test:Jonathan Topaz": {
+                "test:name": "Jonathan Topaz", 
+                "test:type": "person"
+            }, 
+            "test:Roberts": {
+                "test:name": "Roberts", 
+                "test:type": "person"
+            }, 
+            "test:Tiffany Magee": {
+                "test:name": "Tiffany Magee", 
+                "test:type": "person"
+            }, 
+            "test:www.nytimes.com": {
+                "test:publisher": "www.nytimes.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Brooks": {
+                "test:name": "Brooks", 
+                "test:type": "person"
+            }, 
+            "test:Alan Rappeport": {
+                "test:name": "Alan Rappeport", 
+                "test:type": "person"
+            }, 
+            "test:Michael Barbaro": {
+                "test:name": "Michael Barbaro", 
+                "test:type": "person"
+            }, 
+            "test:Paul": {
+                "test:name": "Paul", 
+                "test:type": "person"
+            }, 
+            "test:Savannah Guthrie": {
+                "test:name": "Savannah Guthrie", 
+                "test:type": "person"
+            }, 
+            "test:Kelly": {
+                "test:name": "Kelly", 
+                "test:type": "person"
+            }, 
+            "test:Damien Cave": {
+                "test:name": "Damien Cave", 
+                "test:type": "person"
+            }, 
+            "test:Trevor Eischen": {
+                "test:name": "Trevor Eischen", 
+                "test:type": "person"
+            }, 
+            "test:Wilbur": {
+                "test:name": "Wilbur", 
+                "test:type": "person"
+            }, 
+            "test:www.huffpost.com": {
+                "test:publisher": "www.huffpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.newshounds.us": {
+                "test:publisher": "www.newshounds.us", 
+                "test:type": "publisher"
+            }, 
+            "test:Paige Lavender": {
+                "test:name": "Paige Lavender", 
+                "test:type": "person"
+            }, 
+            "test:www.politico.com": {
+                "test:publisher": "www.politico.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Barack Obama": {
+                "test:name": "Barack Obama", 
+                "test:type": "person"
+            }, 
+            "test:Chris Christie": {
+                "test:name": "Chris Christie", 
+                "test:type": "person"
+            }, 
+            "test:Nirvi Shah": {
+                "test:name": "Nirvi Shah", 
+                "test:type": "person"
+            }, 
+            "test:Olivia Nuzzi": {
+                "test:name": "Olivia Nuzzi", 
+                "test:type": "person"
+            }, 
+            "test:Obama": {
+                "test:name": "Obama", 
+                "test:type": "person"
+            }, 
+            "test:Adam B. Lerner": {
+                "test:name": "Adam B. Lerner", 
+                "test:type": "person"
+            }, 
+            "test:Paul Jarris": {
+                "test:name": "Paul Jarris", 
+                "test:type": "person"
+            }, 
+            "test:Carolyn Duff": {
+                "test:name": "Carolyn Duff", 
+                "test:type": "person"
+            }, 
+            "test:www.thedailybeast.com": {
+                "test:publisher": "www.thedailybeast.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Rand Paul": {
+                "test:name": "Rand Paul", 
+                "test:type": "person"
+            }, 
+            "test:Jarris": {
+                "test:name": "Jarris", 
+                "test:type": "person"
+            }, 
+            "test:Jeremy W. Peters": {
+                "test:name": "Jeremy W. Peters", 
+                "test:type": "person"
+            }, 
+            "test:www.huffingtonpost.com": {
+                "test:publisher": "www.huffingtonpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Gallagher": {
+                "test:name": "Gallagher", 
+                "test:type": "person"
+            }, 
+            "test:Jack Healy": {
+                "test:name": "Jack Healy", 
+                "test:type": "person"
+            }, 
+            "test:Michael Paulson": {
+                "test:name": "Michael Paulson", 
+                "test:type": "person"
+            }, 
+            "test:Richard Pérez-Peña": {
+                "test:name": "Richard Pérez-Peña", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:http://nymag.com/intelligencer/2015/01/anti-vaccinators-react-to-measles-outbreak.html?gtm=bottom": {
+                "test:url": "http://nymag.com/intelligencer/2015/01/anti-vaccinators-react-to-measles-outbreak.html?gtm=bottom", 
+                "test:type": "reference"
+            }, 
+            "test:https://mailchi.mp/a7c062a845f4/subscribetoplaybook": {
+                "test:url": "https://mailchi.mp/a7c062a845f4/subscribetoplaybook", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823": {
+                "test:url": "https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "test:date": "2015-02-01", 
+                "test:title": "Obama urges vaccinations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.thedailybeast.com/anti-vaxxers-brought-measles-to-the-happiest-place-on-earth": {
+                "test:url": "https://www.thedailybeast.com/anti-vaxxers-brought-measles-to-the-happiest-place-on-earth", 
+                "test:type": "article"
+            }, 
+            "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825": {
+                "test:url": "https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "test:date": "2015-02-02", 
+                "test:title": "Christie causes stir with vaccination comments", 
+                "test:type": "article"
+            }, 
+            "test:https://www.huffingtonpost.ca/2015/02/01/barack-obama-kids-vaccinated-measles_n_6591452.html": {
+                "test:url": "https://www.huffingtonpost.ca/2015/02/01/barack-obama-kids-vaccinated-measles_n_6591452.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/vaccinesafety/concerns/autism/": {
+                "test:url": "https://www.cdc.gov/vaccinesafety/concerns/autism/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146": {
+                "test:url": "https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146", 
+                "test:date": "2014-11-08", 
+                "test:title": "Kaci Hickox, Nurse Who Fought Ebola Quarantine, To Leave Maine: Report", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline": {
+                "test:url": "https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline", 
+                "test:date": "2015-02-02", 
+                "test:title": "Paul Calls Vaccination a Matter of Freedom", 
+                "test:type": "article"
+            }, 
+            "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845": {
+                "test:url": "https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "test:date": "2015-02-02", 
+                "test:title": "Rand Paul doubles down on vaccine stance", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nj.com/politics/2015/01/christies_london_trip_more_about_2016_presidential.html": {
+                "test:url": "https://www.nj.com/politics/2015/01/christies_london_trip_more_about_2016_presidential.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline": {
+                "test:url": "https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "test:date": "2015-02-02", 
+                "test:title": "Christie Says Parents Should Have ‘Choice’ on Vaccinations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.youtube.com/watch?v=CGvBB_nqZWI": {
+                "test:url": "https://www.youtube.com/watch?v=CGvBB_nqZWI", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2015/01/31/us/as-measles-spreads-in-us-so-does-anxiety.html?module=inline", 
+                "test:date": "2015-01-31", 
+                "test:title": "As Measles Cases Spread in U.S., So Does Anxiety", 
+                "test:type": "article"
+            }, 
+            "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html": {
+                "test:url": "https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "test:date": "2015-02-03", 
+                "test:title": "Nurse Chris Christie Quarantined For Ebola Goes After Governor On Vaccines", 
+                "test:type": "article"
+            }, 
+            "test:https://www.thedailybeast.com/christies-convenient-abortion-flip": {
+                "test:url": "https://www.thedailybeast.com/christies-convenient-abortion-flip", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/measles/cases-outbreaks.html": {
+                "test:url": "https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.washingtonpost.com/politics/how-rand-paul-tried-to-lead-an-eye-doctors-rebellion/2015/02/01/010994da-9cd6-11e4-a7ee-526210d665b4_story.html?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/politics/how-rand-paul-tried-to-lead-an-eye-doctors-rebellion/2015/02/01/010994da-9cd6-11e4-a7ee-526210d665b4_story.html?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline": {
+                "test:url": "https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "test:date": "2015-01-31", 
+                "test:title": "Vaccine Critics Turn Defensive Over Measles", 
+                "test:type": "article"
+            }, 
+            "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515": {
+                "test:url": "http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "test:date": "", 
+                "test:title": "Fox News Vaccination Rehab For 2016 Republicans", 
+                "test:type": "article"
+            }, 
+            "test:https://www.thedailybeast.com/fda-moves-to-crack-down-on-quack-autism-cures": {
+                "test:url": "https://www.thedailybeast.com/fda-moves-to-crack-down-on-quack-autism-cures", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/": {
+                "test:url": "https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com//www.nytimes.com/2015/02/02/us/a-discredited-vaccine-studys-continuing-impact-on-public-health.html": {
+                "test:url": "https://www.nytimes.com//www.nytimes.com/2015/02/02/us/a-discredited-vaccine-studys-continuing-impact-on-public-health.html", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.lifehealthchoices.com/103009-get-out-the-vote-chris-christie-supports-parental-choice": {
+                "test:url": "http://www.lifehealthchoices.com/103009-get-out-the-vote-chris-christie-supports-parental-choice", 
+                "test:type": "reference"
+            }, 
+            "test:http://www.imus.com/guestbook/2009/10/29/chris-christie-gains-favor-with-imus-by-bulking-up-on-the-la.html": {
+                "test:url": "http://www.imus.com/guestbook/2009/10/29/chris-christie-gains-favor-with-imus-by-bulking-up-on-the-la.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/post-politics/wp/2015/02/02/christie-breaks-with-obama-over-measles-vaccine-calls-for-balance/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html": {
+                "test:url": "https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "test:date": "2015-02-02", 
+                "test:title": "Chris Christie: Parents Should Have 'Some Measure Of Choice' On Vaccinating Their Children", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0": {
+                "test:url": "https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "test:date": "2015-02-03", 
+                "test:title": "Measles Outbreak Proves Delicate Issue to G.O.P. Field", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/Goldman44/status/562253734370373633": {
+                "test:url": "https://twitter.com/Goldman44/status/562253734370373633", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850": {
+                "test:url": "https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "test:date": "2015-02-02", 
+                "test:title": "Vaccination foes on the defensive", 
+                "test:type": "article"
+            }, 
+            "test:https://www.nbcnews.com/storyline/ebola-virus-outbreak/nj-gov-chris-christie-ebola-quarantine-nurse-go-ahead-sue-n235436": {
+                "test:url": "https://www.nbcnews.com/storyline/ebola-virus-outbreak/nj-gov-chris-christie-ebola-quarantine-nurse-go-ahead-sue-n235436", 
+                "test:type": "article"
+            }, 
+            "test:https://www.huffpost.com/subscribe?ncid=huffpost_hpabmember_v3asdajsqwi": {
+                "test:url": "https://www.huffpost.com/subscribe?ncid=huffpost_hpabmember_v3asdajsqwi", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page": {
+                "test:url": "https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "test:date": "2015-02-02", 
+                "test:title": "Christie in 2009: ‘I Stand With’ Autism-Fearing Anti-Vaxx Parents", 
+                "test:type": "article"
+            }, 
+            "test:http://voices.washingtonpost.com/fact-checker/2008/04/dr_obama_and_dr_mccain.html": {
+                "test:url": "http://voices.washingtonpost.com/fact-checker/2008/04/dr_obama_and_dr_mccain.html", 
+                "test:type": "reference"
+            }, 
+            "test:https://thehill.com/policy/healthcare/231394-cdc-director-warns-of-measles-outbreak": {
+                "test:url": "https://thehill.com/policy/healthcare/231394-cdc-director-warns-of-measles-outbreak", 
+                "test:type": "article"
+            }, 
+            "test:http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx": {
+                "test:url": "http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx", 
+                "test:type": "government"
+            }
+        }, 
+        "activity": {
+            "test:the science right now is inconclusive but we have to research it": {
+                "test:quote": "the science right now is inconclusive but we have to research it", 
+                "test:type": "quote"
+            }, 
+            "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate": {
+                "test:quote": "at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate", 
+                "test:type": "quote"
+            }, 
+            "test:those conscientious objections cover more than half the population of us schoolage children according to the national vaccine information center": {
+                "test:quote": "those conscientious objections cover more than half the population of us schoolage children according to the national vaccine information center", 
+                "test:type": "quote"
+            }, 
+            "test:this is an issue that affects a minority population” of parents said dawn richardson director of advocacy at the national vaccine information center which pushes for more parental choice": {
+                "test:quote": "this is an issue that affects a minority population” of parents said dawn richardson director of advocacy at the national vaccine information center which pushes for more parental choice", 
+                "test:type": "quote"
+            }, 
+            "test:i also strongly believe other parents have the right to choose not to get their children vaccinated due to religion or health reasons": {
+                "test:quote": "i also strongly believe other parents have the right to choose not to get their children vaccinated due to religion or health reasons", 
+                "test:type": "quote"
+            }, 
+            "test:but a spokesman still sought to clarify his point afterward “the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated”\n\ncalifornia and 18 other states allow": {
+                "test:quote": "but a spokesman still sought to clarify his point afterward “the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated”\n\ncalifornia and 18 other states allow parents to cite philosophical or personal beliefs in addition to religious or medical exemptions as their reason for not having a child immunized", 
+                "test:type": "quote"
+            }, 
+            "test:i have met with families affected by autism from across the state and have been struck by their incredible grace and courage christie wrote": {
+                "test:quote": "i have met with families affected by autism from across the state and have been struck by their incredible grace and courage christie wrote", 
+                "test:type": "quote"
+            }, 
+            "test:even so he added “there is no reason to believe it will be different”\n\nyet state lawmakers elsewhere are still proposing to make a child’s optout easier — with the same muted expectations": {
+                "test:quote": "even so he added “there is no reason to believe it will be different”\n\nyet state lawmakers elsewhere are still proposing to make a child’s optout easier — with the same muted expectations", 
+                "test:type": "quote"
+            }, 
+            "test:we were seeing about 2000 children a week with measles": {
+                "test:quote": "we were seeing about 2000 children a week with measles", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t understand the point of why that would be controversial": {
+                "test:quote": "i don’t understand the point of why that would be controversial", 
+                "test:type": "quote"
+            }, 
+            "test:i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve": {
+                "test:quote": "i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve", 
+                "test:type": "quote"
+            }, 
+            "test:that count now crisscrosses the country from up and down the west coast to as far away as new york and pennsylvania": {
+                "test:quote": "that count now crisscrosses the country from up and down the west coast to as far away as new york and pennsylvania", 
+                "test:type": "quote"
+            }, 
+            "test:joy behar is sick and tired of the neanderthal behavior by conservatives …like this very wellknown conservative man who’s been one of the most outspoken on the issue of vaccines": {
+                "test:quote": "joy behar is sick and tired of the neanderthal behavior by conservatives …like this very wellknown conservative man who’s been one of the most outspoken on the issue of vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:we know that vaccines are safe and we know that vaccines save lives": {
+                "test:quote": "we know that vaccines are safe and we know that vaccines save lives", 
+                "test:type": "quote"
+            }, 
+            "test:weve seen just a skyrocketing autism rate": {
+                "test:quote": "weve seen just a skyrocketing autism rate", 
+                "test:type": "quote"
+            }, 
+            "test:the science is you know pretty indisputable": {
+                "test:quote": "the science is you know pretty indisputable", 
+                "test:type": "quote"
+            }, 
+            "test:christie was mild by contrast saying the government must “balance” public health and parental choice": {
+                "test:quote": "christie was mild by contrast saying the government must “balance” public health and parental choice", 
+                "test:type": "quote"
+            }, 
+            "test:you’ve taken the interview and you’ve made it into something where you got no useful information because you were argumentative": {
+                "test:quote": "you’ve taken the interview and you’ve made it into something where you got no useful information because you were argumentative", 
+                "test:type": "quote"
+            }, 
+            "test:i know that these families of these 100 people who have the disease now could tell you a little bit about what the disease looks like and how much misery it causes": {
+                "test:quote": "i know that these families of these 100 people who have the disease now could tell you a little bit about what the disease looks like and how much misery it causes", 
+                "test:type": "quote"
+            }, 
+            "test:i’m hoping that this episode once again demonstrates how we must be vigilant at all times": {
+                "test:quote": "i’m hoping that this episode once again demonstrates how we must be vigilant at all times", 
+                "test:type": "quote"
+            }, 
+            "test:despite given all the publicity and highprofile celebrityheightened exposure the “antivax” movement has generated its cause hasn’t translated recently into any legislative victories": {
+                "test:quote": "despite given all the publicity and highprofile celebrityheightened exposure the “antivax” movement has generated its cause hasn’t translated recently into any legislative victories", 
+                "test:type": "quote"
+            }, 
+            "test:it becomes a game of whackamole as soon as you get rid of one issue there’s another": {
+                "test:quote": "it becomes a game of whackamole as soon as you get rid of one issue there’s another", 
+                "test:type": "quote"
+            }, 
+            "test:i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve” said physician georges benjamin who leads the ame": {
+                "test:quote": "i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve” said physician georges benjamin who leads the american public health association", 
+                "test:type": "quote"
+            }, 
+            "test:let’s protect all our kids": {
+                "test:quote": "let’s protect all our kids", 
+                "test:type": "quote"
+            }, 
+            "test:the bottom line megyn is it’s very far from a oneparty problem": {
+                "test:quote": "the bottom line megyn is it’s very far from a oneparty problem", 
+                "test:type": "quote"
+            }, 
+            "test:and i believe it was 1989 to 91 there was a resurgence": {
+                "test:quote": "and i believe it was 1989 to 91 there was a resurgence", 
+                "test:type": "quote"
+            }, 
+            "test:i have worked in a measles outbreak in northern nigeria before": {
+                "test:quote": "i have worked in a measles outbreak in northern nigeria before", 
+                "test:type": "quote"
+            }, 
+            "test:like any minority issue it’s a challenge to be heard”\n\nas of friday the centers for disease control and prevention tallied 102 measles cases in 14 states most of them linked to the initial exposure at disneyland": {
+                "test:quote": "like any minority issue it’s a challenge to be heard”\n\nas of friday the centers for disease control and prevention tallied 102 measles cases in 14 states most of them linked to the initial exposure at disneyland", 
+                "test:type": "quote"
+            }, 
+            "test:like any minority issue it’s a challenge to be heard": {
+                "test:quote": "like any minority issue it’s a challenge to be heard", 
+                "test:type": "quote"
+            }, 
+            "test:the numbers show that this socalled conservative problem as having a liberal outbreak": {
+                "test:quote": "the numbers show that this socalled conservative problem as having a liberal outbreak", 
+                "test:type": "quote"
+            }, 
+            "test:i think this is a good example of gov": {
+                "test:quote": "i think this is a good example of gov", 
+                "test:type": "quote"
+            }, 
+            "test:after the vaccine was implemented in 1963 there was a large reduction in cases about 98 percent": {
+                "test:quote": "after the vaccine was implemented in 1963 there was a large reduction in cases about 98 percent", 
+                "test:type": "quote"
+            }, 
+            "test:we’ve looked at this again and again": {
+                "test:quote": "we’ve looked at this again and again", 
+                "test:type": "quote"
+            }, 
+            "test:we heard it a lot during the ebola discussion and now it seems to have happened again": {
+                "test:quote": "we heard it a lot during the ebola discussion and now it seems to have happened again", 
+                "test:type": "quote"
+            }, 
+            "test:christie said after nurse kaci hickox threatened to sue the governor for keeping her in isolation": {
+                "test:quote": "christie said after nurse kaci hickox threatened to sue the governor for keeping her in isolation", 
+                "test:type": "quote"
+            }, 
+            "test:richardson said there’s a misperception about many parents who choose to opt out of vaccines": {
+                "test:quote": "richardson said there’s a misperception about many parents who choose to opt out of vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:i definitely think we’ll continue to see states reversing the trend and making it a little more stricter as far as allowing philosophical exemptions or even rescinding some of that legislation": {
+                "test:quote": "i definitely think we’ll continue to see states reversing the trend and making it a little more stricter as far as allowing philosophical exemptions or even rescinding some of that legislation", 
+                "test:type": "quote"
+            }, 
+            "test:yet 2016 republican hopefuls christie and paul said parents should have latitude — with paul telling talk radio host laura ingraham on monday that “for the most part vaccines should be voluntary” the eye doctor then went on cnbc and said he had “h": {
+                "test:quote": "yet 2016 republican hopefuls christie and paul said parents should have latitude — with paul telling talk radio host laura ingraham on monday that “for the most part vaccines should be voluntary” the eye doctor then went on cnbc and said he had “heard of many tragic cases of walking talking normal children who wound up with profound mental disorders after vaccines” he didn’t mention that the study typically cited as evidence of a link was long ago debunked labeled as fraudulent research by the british medical journal that had published it", 
+                "test:type": "quote"
+            }, 
+            "test:christie spokesman kevin roberts clarified the governors comments monday in an email featuring a transcript of christies remarks": {
+                "test:quote": "christie spokesman kevin roberts clarified the governors comments monday in an email featuring a transcript of christies remarks", 
+                "test:type": "quote"
+            }, 
+            "test:i have met with families affected by autism from across the state and have been struck by their incredible grace and courage": {
+                "test:quote": "i have met with families affected by autism from across the state and have been struck by their incredible grace and courage", 
+                "test:type": "quote"
+            }, 
+            "test:then it’s there for everyone to see — everyone who has reading rights": {
+                "test:quote": "then it’s there for everyone to see — everyone who has reading rights", 
+                "test:type": "quote"
+            }, 
+            "test:the effort is cumulative of course but i think this will be one more effort at strengthening those laws": {
+                "test:quote": "the effort is cumulative of course but i think this will be one more effort at strengthening those laws", 
+                "test:type": "quote"
+            }, 
+            "test:we have to protect our most vulnerable populations": {
+                "test:quote": "we have to protect our most vulnerable populations", 
+                "test:type": "quote"
+            }, 
+            "test:its good for them and the challenge you have is if you have a certain group of kids who dont get vaccinated and if it grows large enough that a percentage of the population doesnt get vaccinated and theyre the folks who cant get vaccinated small infants f": {
+                "test:quote": "its good for them and the challenge you have is if you have a certain group of kids who dont get vaccinated and if it grows large enough that a percentage of the population doesnt get vaccinated and theyre the folks who cant get vaccinated small infants for example  they suddenly become much more vulnerable", 
+                "test:type": "quote"
+            }, 
+            "test:there is every reason to get vaccinated but there aren’t reasons to not": {
+                "test:quote": "there is every reason to get vaccinated but there aren’t reasons to not", 
+                "test:type": "quote"
+            }, 
+            "test:when measles was more common in the us hundreds of children died from this virus every year": {
+                "test:quote": "when measles was more common in the us hundreds of children died from this virus every year", 
+                "test:type": "quote"
+            }, 
+            "test:some people are suspicious that its connected to the vaccines": {
+                "test:quote": "some people are suspicious that its connected to the vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:so that’s the balance that the government has to decide": {
+                "test:quote": "so that’s the balance that the government has to decide", 
+                "test:type": "quote"
+            }, 
+            "test:so that’s the balance that the government has to decide… not every vaccine is created equal and not every disease type is as great a publichealth threat as others": {
+                "test:quote": "so that’s the balance that the government has to decide… not every vaccine is created equal and not every disease type is as great a publichealth threat as others", 
+                "test:type": "quote"
+            }, 
+            "test:i also understand that parents need to have some measure of choice in things as well": {
+                "test:quote": "i also understand that parents need to have some measure of choice in things as well", 
+                "test:type": "quote"
+            }, 
+            "test:if these candidates come out and say you should have the choice and it shouldn’t be mandatory then they’re effectively saying that nonvaccinated children should be allowed to go to school with vaccinated children and that’s aok with them": {
+                "test:quote": "if these candidates come out and say you should have the choice and it shouldn’t be mandatory then they’re effectively saying that nonvaccinated children should be allowed to go to school with vaccinated children and that’s aok with them", 
+                "test:type": "quote"
+            }, 
+            "test:certainly the outbreak is prompting us to think about are there additional steps we need to take as well": {
+                "test:quote": "certainly the outbreak is prompting us to think about are there additional steps we need to take as well", 
+                "test:type": "quote"
+            }, 
+            "test:and it’s highly likely the numbers will continue to grow": {
+                "test:quote": "and it’s highly likely the numbers will continue to grow", 
+                "test:type": "quote"
+            }, 
+            "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated": {
+                "test:quote": "to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:all it takes is being off schedule for one vaccine and you need an exemption": {
+                "test:quote": "all it takes is being off schedule for one vaccine and you need an exemption", 
+                "test:type": "quote"
+            }, 
+            "test:it’s important that responsible leaders speak with one voice": {
+                "test:quote": "it’s important that responsible leaders speak with one voice", 
+                "test:type": "quote"
+            }, 
+            "test:some parents want to wait until children are older before being immunized against some infectious diseases she continued while others may want an exemption for one specific shot but not the whole roster of schoolenrollment requirements": {
+                "test:quote": "some parents want to wait until children are older before being immunized against some infectious diseases she continued while others may want an exemption for one specific shot but not the whole roster of schoolenrollment requirements", 
+                "test:type": "quote"
+            }, 
+            "test:i don’t think that it’s reasonable for example for the new york times to say that conservatives largely speaking don’t buy that": {
+                "test:quote": "i don’t think that it’s reasonable for example for the new york times to say that conservatives largely speaking don’t buy that", 
+                "test:type": "quote"
+            }, 
+            "test:it’s more important what you think as a parent than what you think as a public official": {
+                "test:quote": "it’s more important what you think as a parent than what you think as a public official", 
+                "test:type": "quote"
+            }, 
+            "test:i think this is what is bad about tv sometimes": {
+                "test:quote": "i think this is what is bad about tv sometimes", 
+                "test:type": "quote"
+            }, 
+            "test:you end up having interviews like this where the interview is so slanted and full of distortions that you don’t get useful information": {
+                "test:quote": "you end up having interviews like this where the interview is so slanted and full of distortions that you don’t get useful information", 
+                "test:type": "quote"
+            }, 
+            "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated": {
+                "test:quote": "the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health": {
+                "test:quote": "mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health", 
+                "test:type": "quote"
+            }, 
+            "test:it’s more than just a little rash that kids get": {
+                "test:quote": "it’s more than just a little rash that kids get", 
+                "test:type": "quote"
+            }, 
+            "test:i understand that there are families that in some cases are concerned about the effect of vaccinations": {
+                "test:quote": "i understand that there are families that in some cases are concerned about the effect of vaccinations", 
+                "test:type": "quote"
+            }, 
+            "test:there are serious public health reasons why certain vaccinations should be mandatory": {
+                "test:quote": "there are serious public health reasons why certain vaccinations should be mandatory", 
+                "test:type": "quote"
+            }, 
+            "test:the fact is that a major success of our civilization has the ability to prevent diseases that in the past have devastated folks": {
+                "test:quote": "the fact is that a major success of our civilization has the ability to prevent diseases that in the past have devastated folks", 
+                "test:type": "quote"
+            }, 
+            "test:all it takes is being off schedule for one vaccine and you need an exemption” she said": {
+                "test:quote": "all it takes is being off schedule for one vaccine and you need an exemption” she said", 
+                "test:type": "quote"
+            }, 
+            "test:many of these families have expressed their concern over new jersey’s highestinthenation vaccine mandates": {
+                "test:quote": "many of these families have expressed their concern over new jersey’s highestinthenation vaccine mandates", 
+                "test:type": "quote"
+            }, 
+            "test:but is this really a republican issue": {
+                "test:quote": "but is this really a republican issue", 
+                "test:type": "quote"
+            }, 
+            "test:were going to try to get our lives back on track": {
+                "test:quote": "were going to try to get our lives back on track", 
+                "test:type": "quote"
+            }, 
+            "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide": {
+                "test:quote": "i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide", 
+                "test:type": "quote"
+            }, 
+            "test:christie making some very illinformed statements": {
+                "test:quote": "christie making some very illinformed statements", 
+                "test:type": "quote"
+            }, 
+            "test:you should get your kids vaccinated": {
+                "test:quote": "you should get your kids vaccinated", 
+                "test:type": "quote"
+            }, 
+            "test:the science is clear the earth is round the sky is blue and vaccineswork": {
+                "test:quote": "the science is clear the earth is round the sky is blue and vaccineswork", 
+                "test:type": "quote"
+            }, 
+            "test:when measles was more common in the us hundreds of children died from this virus every year”\n\nobama is backing the health experts calling the science on the safety of vaccinations “pretty indisputable”\n\n”there is every reason to get vaccinated but": {
+                "test:quote": "when measles was more common in the us hundreds of children died from this virus every year”\n\nobama is backing the health experts calling the science on the safety of vaccinations “pretty indisputable”\n\n”there is every reason to get vaccinated but there aren’t reasons to not” obama told savannah guthrie on the “today” show", 
+                "test:type": "quote"
+            }, 
+            "test:i stand with them now and will stand with them as their governor in their fight for greater parental involvement in vaccination decisions that affect their children": {
+                "test:quote": "i stand with them now and will stand with them as their governor in their fight for greater parental involvement in vaccination decisions that affect their children", 
+                "test:type": "quote"
+            }, 
+            "test:this virus is incredibly contagious” sandra hassink president of the american academy of pediatrics noted in a statement that emphasized the serious even lifethreatening complications that can result from infection": {
+                "test:quote": "this virus is incredibly contagious” sandra hassink president of the american academy of pediatrics noted in a statement that emphasized the serious even lifethreatening complications that can result from infection", 
+                "test:type": "quote"
+            }, 
+            "test:frankly i think if we do this again you need to start out with a little more objectivity going into the interview": {
+                "test:quote": "frankly i think if we do this again you need to start out with a little more objectivity going into the interview", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "2222": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:i stand with them now and will stand with them as their governor in their fight for greater parental involvement in vaccination decisions that affect their children"
+            }, 
+            "2096": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:activity": "test:the fact is that a major success of our civilization has the ability to prevent diseases that in the past have devastated folks"
+            }, 
+            "2092": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:activity": "test:there is every reason to get vaccinated but there aren’t reasons to not"
+            }, 
+            "1948": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:christie was mild by contrast saying the government must “balance” public health and parental choice"
+            }, 
+            "1918": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "1942": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:this virus is incredibly contagious” sandra hassink president of the american academy of pediatrics noted in a statement that emphasized the serious even lifethreatening complications that can result from infection"
+            }, 
+            "1940": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:and it’s highly likely the numbers will continue to grow"
+            }, 
+            "1946": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:yet 2016 republican hopefuls christie and paul said parents should have latitude — with paul telling talk radio host laura ingraham on monday that “for the most part vaccines should be voluntary” the eye doctor then went on cnbc and said he had “h"
+            }, 
+            "1944": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:when measles was more common in the us hundreds of children died from this virus every year”\n\nobama is backing the health experts calling the science on the safety of vaccinations “pretty indisputable”\n\n”there is every reason to get vaccinated but"
+            }, 
+            "2152": {
+                "prov:entity": "test:https://www.huffpost.com/entry/kacii-hickox-leaving-maine_n_6127146", 
+                "prov:activity": "test:were going to try to get our lives back on track"
+            }, 
+            "2016": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:we were seeing about 2000 children a week with measles"
+            }, 
+            "2240": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:its good for them and the challenge you have is if you have a certain group of kids who dont get vaccinated and if it grows large enough that a percentage of the population doesnt get vaccinated and theyre the folks who cant get vaccinated small infants f"
+            }, 
+            "2012": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:i have worked in a measles outbreak in northern nigeria before"
+            }, 
+            "1954": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:richardson said there’s a misperception about many parents who choose to opt out of vaccines"
+            }, 
+            "1956": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:all it takes is being off schedule for one vaccine and you need an exemption” she said"
+            }, 
+            "1950": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:but a spokesman still sought to clarify his point afterward “the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated”\n\ncalifornia and 18 other states allow"
+            }, 
+            "1952": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:those conscientious objections cover more than half the population of us schoolage children according to the national vaccine information center"
+            }, 
+            "1958": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:some parents want to wait until children are older before being immunized against some infectious diseases she continued while others may want an exemption for one specific shot but not the whole roster of schoolenrollment requirements"
+            }, 
+            "2214": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:i have met with families affected by autism from across the state and have been struck by their incredible grace and courage christie wrote"
+            }, 
+            "1874": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:let’s protect all our kids"
+            }, 
+            "2068": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:activity": "test:you end up having interviews like this where the interview is so slanted and full of distortions that you don’t get useful information"
+            }, 
+            "2140": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:activity": "test:i also strongly believe other parents have the right to choose not to get their children vaccinated due to religion or health reasons"
+            }, 
+            "2062": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:activity": "test:i don’t understand the point of why that would be controversial"
+            }, 
+            "2064": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:activity": "test:yet 2016 republican hopefuls christie and paul said parents should have latitude — with paul telling talk radio host laura ingraham on monday that “for the most part vaccines should be voluntary” the eye doctor then went on cnbc and said he had “h"
+            }, 
+            "2218": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:many of these families have expressed their concern over new jersey’s highestinthenation vaccine mandates"
+            }, 
+            "1920": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:all it takes is being off schedule for one vaccine and you need an exemption"
+            }, 
+            "1922": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:the science is clear the earth is round the sky is blue and vaccineswork"
+            }, 
+            "1925": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:let’s protect all our kids"
+            }, 
+            "1928": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve” said physician georges benjamin who leads the ame"
+            }, 
+            "2170": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:so that’s the balance that the government has to decide… not every vaccine is created equal and not every disease type is as great a publichealth threat as others"
+            }, 
+            "2176": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:many of these families have expressed their concern over new jersey’s highestinthenation vaccine mandates"
+            }, 
+            "2174": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:i have met with families affected by autism from across the state and have been struck by their incredible grace and courage"
+            }, 
+            "2072": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:activity": "test:i think this is what is bad about tv sometimes"
+            }, 
+            "2178": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:i stand with them now and will stand with them as their governor in their fight for greater parental involvement in vaccination decisions that affect their children"
+            }, 
+            "2076": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/rand-paul-vaccines-114845", 
+                "prov:activity": "test:frankly i think if we do this again you need to start out with a little more objectivity going into the interview"
+            }, 
+            "1932": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:despite given all the publicity and highprofile celebrityheightened exposure the “antivax” movement has generated its cause hasn’t translated recently into any legislative victories"
+            }, 
+            "1930": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:even so he added “there is no reason to believe it will be different”\n\nyet state lawmakers elsewhere are still proposing to make a child’s optout easier — with the same muted expectations"
+            }, 
+            "1936": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:like any minority issue it’s a challenge to be heard”\n\nas of friday the centers for disease control and prevention tallied 102 measles cases in 14 states most of them linked to the initial exposure at disneyland"
+            }, 
+            "1934": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:this is an issue that affects a minority population” of parents said dawn richardson director of advocacy at the national vaccine information center which pushes for more parental choice"
+            }, 
+            "1938": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:that count now crisscrosses the country from up and down the west coast to as far away as new york and pennsylvania"
+            }, 
+            "2040": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "2188": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:some people are suspicious that its connected to the vaccines"
+            }, 
+            "2048": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:activity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health"
+            }, 
+            "2166": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well"
+            }, 
+            "2160": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide"
+            }, 
+            "2162": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:it’s more important what you think as a parent than what you think as a public official"
+            }, 
+            "2192": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:the science right now is inconclusive but we have to research it"
+            }, 
+            "1870": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:the science is clear the earth is round the sky is blue and vaccineswork"
+            }, 
+            "1902": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:i don’t think that it’s reasonable for example for the new york times to say that conservatives largely speaking don’t buy that"
+            }, 
+            "1878": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:but is this really a republican issue"
+            }, 
+            "2050": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide"
+            }, 
+            "2202": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:mary pat and i have had our children vaccinated and we think that it’s an important part of being sure we protect their health and the public health"
+            }, 
+            "2052": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:activity": "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "2055": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/chris-christie-vaccinations-114825", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "2206": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:christie spokesman kevin roberts clarified the governors comments monday in an email featuring a transcript of christies remarks"
+            }, 
+            "2208": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "1988": {
+                "prov:entity": "test:https://www.nytimes.com/2015/02/03/us/politics/measles-proves-delicate-issue-to-gop-field.html?_r=0", 
+                "prov:activity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "2118": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:it’s important that responsible leaders speak with one voice"
+            }, 
+            "2110": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "2112": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:it’s more important what you think as a parent than what you think as a public official"
+            }, 
+            "2114": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well"
+            }, 
+            "2116": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:so that’s the balance that the government has to decide"
+            }, 
+            "2182": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "2180": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "2184": {
+                "prov:entity": "test:https://www.thedailybeast.com/christie-in-2009-i-stand-with-autism-fearing-anti-vaxx-parents?via=twitter_page", 
+                "prov:activity": "test:weve seen just a skyrocketing autism rate"
+            }, 
+            "1912": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:i think we’re all hoping that this … will encourage people particularly policymakers to strengthen their vaccine laws and not weaken them and look very carefully at any exemptions they go to approve"
+            }, 
+            "1914": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:like any minority issue it’s a challenge to be heard"
+            }, 
+            "1916": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:when measles was more common in the us hundreds of children died from this virus every year"
+            }, 
+            "2210": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:at the same time different states require different degrees of vaccination which is why he was calling for balance in which ones government should mandate"
+            }, 
+            "1996": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:i think this is a good example of gov"
+            }, 
+            "1978": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:i’m hoping that this episode once again demonstrates how we must be vigilant at all times"
+            }, 
+            "2024": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:after the vaccine was implemented in 1963 there was a large reduction in cases about 98 percent"
+            }, 
+            "2020": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:i know that these families of these 100 people who have the disease now could tell you a little bit about what the disease looks like and how much misery it causes"
+            }, 
+            "2028": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:and i believe it was 1989 to 91 there was a resurgence"
+            }, 
+            "2106": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/christie-says-parents-should-have-choice-on-vaccinations/?module=inline", 
+                "prov:activity": "test:i also understand that parents need to have some measure of choice in things as well so that’s the balance that the government has to decide"
+            }, 
+            "2232": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:the science is you know pretty indisputable"
+            }, 
+            "1898": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:there are serious public health reasons why certain vaccinations should be mandatory"
+            }, 
+            "1894": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:if these candidates come out and say you should have the choice and it shouldn’t be mandatory then they’re effectively saying that nonvaccinated children should be allowed to go to school with vaccinated children and that’s aok with them"
+            }, 
+            "2236": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:there is every reason to get vaccinated but there aren’t reasons to not"
+            }, 
+            "1890": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:joy behar is sick and tired of the neanderthal behavior by conservatives …like this very wellknown conservative man who’s been one of the most outspoken on the issue of vaccines"
+            }, 
+            "2136": {
+                "prov:entity": "test:https://www.nytimes.com/2015/01/31/us/vaccine-critics-turn-defensive-over-measles.html?module=inline", 
+                "prov:activity": "test:it becomes a game of whackamole as soon as you get rid of one issue there’s another"
+            }, 
+            "1968": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:certainly the outbreak is prompting us to think about are there additional steps we need to take as well"
+            }, 
+            "2228": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:i understand that there are families that in some cases are concerned about the effect of vaccinations"
+            }, 
+            "1964": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:then it’s there for everyone to see — everyone who has reading rights"
+            }, 
+            "1960": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:i definitely think we’ll continue to see states reversing the trend and making it a little more stricter as far as allowing philosophical exemptions or even rescinding some of that legislation"
+            }, 
+            "2036": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:to be clear the governor believes vaccines are an important public health protection and with a disease like measles there is no question kids should be vaccinated"
+            }, 
+            "2032": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:we have to protect our most vulnerable populations"
+            }, 
+            "1886": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:the bottom line megyn is it’s very far from a oneparty problem"
+            }, 
+            "1882": {
+                "prov:entity": "test:http://www.newshounds.us/fox_news_vaccination_rehab_for_2016_republicans_020515", 
+                "prov:activity": "test:the numbers show that this socalled conservative problem as having a liberal outbreak"
+            }, 
+            "2238": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:you should get your kids vaccinated"
+            }, 
+            "2088": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:activity": "test:we’ve looked at this again and again"
+            }, 
+            "2126": {
+                "prov:entity": "test:https://www.nytimes.com/politics/first-draft/2015/02/02/paul-calls-vaccination-a-matter-of-freedom/?module=inline", 
+                "prov:activity": "test:you’ve taken the interview and you’ve made it into something where you got no useful information because you were argumentative"
+            }, 
+            "1974": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:it’s more than just a little rash that kids get"
+            }, 
+            "2234": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:we’ve looked at this again and again"
+            }, 
+            "2084": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/barack-obama-vaccinations-114823", 
+                "prov:activity": "test:the science is you know pretty indisputable"
+            }, 
+            "1970": {
+                "prov:entity": "test:https://www.politico.com/story/2015/02/measles-epidemic-politicians-114850", 
+                "prov:activity": "test:the effort is cumulative of course but i think this will be one more effort at strengthening those laws"
+            }, 
+            "2226": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/02/chris-christie-vaccinations_n_6593806.html", 
+                "prov:activity": "test:christie said after nurse kaci hickox threatened to sue the governor for keeping her in isolation"
+            }, 
+            "2000": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:christie making some very illinformed statements"
+            }, 
+            "2004": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:we heard it a lot during the ebola discussion and now it seems to have happened again"
+            }, 
+            "2008": {
+                "prov:entity": "test:https://www.huffingtonpost.ca/2015/02/03/nurse-chris-christie-quar_n_6604504.html", 
+                "prov:activity": "test:we know that vaccines are safe and we know that vaccines save lives"
+            }
+        }
+    }
+}

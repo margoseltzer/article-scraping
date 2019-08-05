@@ -1,0 +1,41 @@
+{
+    "root": "https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616", 
+    "bundle": {
+        "wasAttributedTo": {
+            "5924": {
+                "prov:entity": "test:https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616", 
+                "prov:agent": "test:https://www.wsj.com"
+            }, 
+            "5926": {
+                "prov:entity": "test:https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616", 
+                "prov:agent": "test:Melanie.West Wsj.Com"
+            }, 
+            "5928": {
+                "prov:entity": "test:https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616", 
+                "prov:agent": "test:Melanie Grayce West"
+            }
+        }, 
+        "agent": {
+            "test:Melanie Grayce West": {
+                "test:name": "Melanie Grayce West", 
+                "test:type": "person"
+            }, 
+            "test:Melanie.West Wsj.Com": {
+                "test:name": "Melanie.West Wsj.Com", 
+                "test:type": "person"
+            }, 
+            "test:https://www.wsj.com": {
+                "test:publisher": "https://www.wsj.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616": {
+                "test:url": "https://www.wsj.com/articles/bill-ending-religious-exemptions-on-vaccines-stalls-in-albany-11559774616", 
+                "test:date": "", 
+                "test:title": "Bill Ending Religious Exemptions on Vaccines Stalls in Albany", 
+                "test:type": "article"
+            }
+        }
+    }
+}

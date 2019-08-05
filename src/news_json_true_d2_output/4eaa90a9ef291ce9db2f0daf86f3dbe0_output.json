@@ -1,0 +1,2205 @@
+{
+    "root": "https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "5863": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5880": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/los-angeles-colleges-measles-quarantine-today-2019-04-26/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5733": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5769": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5741": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/"
+            }, 
+            "5886": {
+                "prov:usedEntity": "test:https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a5.htm", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5743": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/"
+            }, 
+            "5775": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5745": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5747": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5882": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-2019-exceed-2018-numbers-anti-vaccination/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5749": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5765": {
+                "prov:usedEntity": "test:http://rocklandgov.com/departments/health/measles-information/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5763": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/video/n-y-health-officials-blame-misinformation-campaign-for-measles-outbreak/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5761": {
+                "prov:usedEntity": "test:https://twitter.com/hashtag/BREAKING?src=hash&ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5821": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-new-york-mother-defends-not-vaccinating/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/"
+            }, 
+            "5823": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/if-my-measles-shot-was-years-ago-am-i-still-protected-5-questions-answered/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/"
+            }, 
+            "5729": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5825": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/new-york-rockland-county-measles-outbreak-officials-announce-new-ban-2019-04-16/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/"
+            }, 
+            "5827": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/rockland-county-measles-outbreak-judge-lifts-ban-on-unvaccinated-children-today-2019-04-05/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/"
+            }, 
+            "5855": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5767": {
+                "prov:usedEntity": "test:https://www1.nyc.gov/site/doh/health/health-topics/measles.page", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5723": {
+                "prov:usedEntity": "test:https://www.who.int/csr/don/06-may-2019-measles-euro/en/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5721": {
+                "prov:usedEntity": "test:https://www.who.int/choice/demography/euro_region/en/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5779": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/most-popular-facebook-social-media-health-posts-may-be-least-accurate/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5727": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5725": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/symptoms/signs-symptoms.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5847": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-new-york-city-orders-measles-vaccination-exclude-unvaccinated-students-in-brooklyn/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5785": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/facebook-announces-plans-to-block-anti-vaccination-content/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5809": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5787": {
+                "prov:usedEntity": "test:https://www.nytimes.com/2019/05/12/science/5g-phone-safety-health-russia.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5843": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5781": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/russian-indictment-2016-elections-rod-rosenstein-announcement-today-2018-02-16/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5841": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-2019-northwest-measles-outbreak-prompts-look-at-vaccine-exemptions-2019-02-01/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5773": {
+                "prov:usedEntity": "test:https://nyassembly.gov/Press/files/20190613.php", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5803": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/about/history.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/"
+            }, 
+            "5869": {
+                "prov:usedEntity": "test:https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB276", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5801": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/"
+            }, 
+            "5807": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-2019-northwest-measles-outbreak-prompts-look-at-vaccine-exemptions-2019-02-01/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5789": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5805": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/california-governor-signs-strict-new-vaccination-law/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5851": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/"
+            }, 
+            "5876": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/california-governor-signs-strict-new-vaccination-law/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5783": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5753": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5865": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5751": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5731": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5755": {
+                "prov:usedEntity": "test:https://twitter.com/NYSenate/status/1139294246257745925", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5811": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/moms-angry-as-hell-facebook-post-about-measles-goes-viral/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5771": {
+                "prov:usedEntity": "test:https://www.governor.ny.gov/news/governor-cuomo-signs-legislation-removing-non-medical-exemptions-school-vaccination", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5829": {
+                "prov:usedEntity": "test:https://newyork.cbslocal.com/2019/04/10/measles-outbreak-westchester-county/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/"
+            }, 
+            "5759": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/video/tracking-down-the-people-behind-misinformation-on-measles-vaccines/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5739": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5867": {
+                "prov:usedEntity": "test:https://twitter.com/DrPanMD/status/1139218128750014470", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5777": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/5g-explained-how-it-works-who-it-will-impact-and-when-well-have-it/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5871": {
+                "prov:usedEntity": "test:https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5735": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5833": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-new-york-city-orders-measles-vaccination-exclude-unvaccinated-students-in-brooklyn/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/"
+            }, 
+            "5719": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5831": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/"
+            }, 
+            "5717": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5861": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/researchers-find-effective-way-to-sway-vaccine-skeptics/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5715": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5713": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/"
+            }, 
+            "5737": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/"
+            }, 
+            "5884": {
+                "prov:usedEntity": "test:https://www.instagram.com/p/BxxxAXgg2eR/?igshid=6jz96u1du9tj", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5839": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-vaccine-adults-who-were-vaccinated-in-the-1960s-may-need-a-measles-booster/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5797": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137759/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5819": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/new-york-rockland-county-measles-outbreak-officials-announce-new-ban-2019-04-16/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/"
+            }, 
+            "5795": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/election-2016/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5857": {
+                "prov:usedEntity": "test:https://www.intouchweekly.com/posts/jessica-biel-justin-timberlake-baby-vaccination-77276/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5793": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/inside-the-troll-factory-at-the-center-of-russias-election-meddling-campaign/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5849": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-2nd-state-of-emergency-rockland-county-new-york-today-2019-04-25/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5791": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/amazon-removes-books-promoting-autism-cures-and-vaccine-misinformation/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/"
+            }, 
+            "5845": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/if-my-measles-shot-was-years-ago-am-i-still-protected-5-questions-answered/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/"
+            }, 
+            "5853": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/new-york-rockland-county-measles-outbreak-officials-announce-new-ban-2019-04-16/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/"
+            }, 
+            "5757": {
+                "prov:usedEntity": "test:https://twitter.com/bradhoylman/status/1139294252486332416?ref_src=twsrc%5Etfw", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/"
+            }, 
+            "5878": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/moviegoers-in-california-nj-potentially-exposed-to-measles-at-avengers-endgame-screenings/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/"
+            }, 
+            "5813": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5859": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/"
+            }, 
+            "5815": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/washington-measles-outbreak-hundreds-rally-to-presesrve-not-to-vaccinate-children-2019-02-08/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/"
+            }, 
+            "5799": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/study-linking-autism-to-vaccine-retracted/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/"
+            }, 
+            "5817": {
+                "prov:usedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-flight-attendant-in-coma-after-contracting-measles/", 
+                "prov:generatedEntity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "5176": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+                "prov:agent": "test:April Siese"
+            }, 
+            "5174": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5476": {
+                "prov:entity": "test:i found the vast majority of people that are hesitant that are nervous about it really are just hesitant theyre concerned about stuff that theyve read", 
+                "prov:agent": "test:Amundson"
+            }, 
+            "5472": {
+                "prov:entity": "test:ive had patients that have done not a single vaccine for five years and then turned around and chosen to do them", 
+                "prov:agent": "test:Amundson"
+            }, 
+            "5508": {
+                "prov:entity": "test:measles is not a harmless childhood illness but a dangerous highly contagious disease", 
+                "prov:agent": "test:Alex Azar"
+            }, 
+            "5504": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:agent": "test:Ashley Welch"
+            }, 
+            "5502": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:agent": "test:Ashley Welch Covers Health"
+            }, 
+            "5500": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:agent": "test:Wellness For Cbsnews.Com"
+            }, 
+            "5274": {
+                "prov:entity": "test:new york state has recorded more than 800 cases of measles since september stemming from orthodox jewish communities in brooklyn and rockland county", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5584": {
+                "prov:entity": "test:what weve done in these months was to offer information in other ways hangers on the doors pamphlets in the synagogues pamphlets at the house", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5270": {
+                "prov:entity": "test:senator brad hoylman bradhoylman june 13 2019\n\nthe states that have reported cases to the cdc are arizona california colorado connecticut florida georgia idaho illinois indiana iowa kentucky maine maryland massachusetts michigan missouri new mexico nevada", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5626": {
+                "prov:entity": "test:i am not against vaccinations — i support children getting vaccinations and i also support families having the right to make educated medical decisions for their children alongside their physicians", 
+                "prov:agent": "test:Biel"
+            }, 
+            "5278": {
+                "prov:entity": "test:new yorkers have infected people in four other states", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5622": {
+                "prov:entity": "test:please say thank you to the courageous jessicabiel for a busy and productive day at the california state house", 
+                "prov:agent": "test:Ethel Kennedy"
+            }, 
+            "5588": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5388": {
+                "prov:entity": "test:his autism wasnt my fault", 
+                "prov:agent": "test:Blume"
+            }, 
+            "5464": {
+                "prov:entity": "test:a huge part of the conversation is building trust", 
+                "prov:agent": "test:Amundson"
+            }, 
+            "5468": {
+                "prov:entity": "test:we know that approach doesnt work", 
+                "prov:agent": "test:Amundson"
+            }, 
+            "5516": {
+                "prov:entity": "test:that has subsequently been totally discredited", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5308": {
+                "prov:entity": "test:we are victims of our success people dont remember how bad measles was how frightening it could be", 
+                "prov:agent": "test:Nat Litman"
+            }, 
+            "5266": {
+                "prov:entity": "test:here in new york we protect vulnerable kids and our community—and we reject misinformation and junk science", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5618": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:agent": "test:Caitlin O'Kane"
+            }, 
+            "5262": {
+                "prov:entity": "test:breaking the new york state senate just passed my bill to end nonmedical exemptions to vaccination", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5300": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:agent": "test:Wellness For Cbsnews.Com"
+            }, 
+            "5598": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5302": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:agent": "test:Jessica Firger Covers Health"
+            }, 
+            "5304": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:agent": "test:Jessica Firger"
+            }, 
+            "5614": {
+                "prov:entity": "test:i would say we are being donated to by we are being donated to by lawyers by doctors by scientists by entertainers that all believe that this needs to be discussed", 
+                "prov:agent": "test:Robert F. Kennedy Jr."
+            }, 
+            "5610": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/", 
+                "prov:agent": "test:Jonathan Lapook"
+            }, 
+            "5392": {
+                "prov:entity": "test:theres all kinds of crazy stuff on the internet", 
+                "prov:agent": "test:Blume"
+            }, 
+            "5396": {
+                "prov:entity": "test:the majority of people are like me – theyre not supercrazy theyre just trying to find the real answers to stuff", 
+                "prov:agent": "test:Blume"
+            }, 
+            "5616": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5420": {
+                "prov:entity": "test:it looks for patterns … if you see this pattern at three months youre likely to see autism at three years", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5498": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5496": {
+                "prov:entity": "test:each comes from a place of love", 
+                "prov:agent": "test:Arabella Blume"
+            }, 
+            "5608": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5492": {
+                "prov:entity": "test:and now with her i look down and i have the same thought only opposite where its like i love her so much i cant take her outta the house until i vaccinate her", 
+                "prov:agent": "test:Arabella Blume"
+            }, 
+            "5250": {
+                "prov:entity": "test:this administration has taken aggressive action to contain the measles outbreak but given its scale additional steps are needed to end this public health crisis", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5254": {
+                "prov:entity": "test:the legislation comes as the country faces one of the worse measles outbreaks in a generation", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5312": {
+                "prov:entity": "test:people say why should i bother its not around", 
+                "prov:agent": "test:Nat Litman"
+            }, 
+            "5258": {
+                "prov:entity": "test:according to the centers for disease control and prevention the number of new measles cases this year has exceeded 1000 in 28 states — the greatest number of cases reported in the us since 1992 and since measles was declared eliminated in 2000", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5316": {
+                "prov:entity": "test:but its not further than a plane ride away", 
+                "prov:agent": "test:Nat Litman"
+            }, 
+            "5562": {
+                "prov:entity": "test:there is a role that vaccines are playing in creating the ground work for these childrens immune systems to start to show signs of impairment and destruction", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5432": {
+                "prov:entity": "test:one thing im concerned about is that even though the science is overwhelming that vaccines dont cause autism there are still people who think vaccines cause autism", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5570": {
+                "prov:entity": "test:some of the religious information they provide is embarrassing", 
+                "prov:agent": "test:Glatt"
+            }, 
+            "5320": {
+                "prov:entity": "test:i had a fairly mild case of measles", 
+                "prov:agent": "test:Litman"
+            }, 
+            "5488": {
+                "prov:entity": "test:the funny thing is that with alex i can remember looking down and thinking i love him too much i cant vaccinate him i cant hurt him that way", 
+                "prov:agent": "test:Arabella Blume"
+            }, 
+            "5484": {
+                "prov:entity": "test:its fear and love – its fear of doing the wrong thing and loving your kid so much that youll go against an entire scientific community telling you youre wrong just to try and protect them", 
+                "prov:agent": "test:Arabella Blume"
+            }, 
+            "5480": {
+                "prov:entity": "test:they just want to do the right thing for their kids", 
+                "prov:agent": "test:Amundson"
+            }, 
+            "5404": {
+                "prov:entity": "test:second it derailed the course of science by investing all this money to prove that vaccines didnt cause autism rather than try to understand what does cause autism", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5400": {
+                "prov:entity": "test:first it led many parents to stop vaccinating their kids for no reason", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5246": {
+                "prov:entity": "test:the science is crystal clear vaccines are safe effective and the best way to keep our children safe", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5240": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5408": {
+                "prov:entity": "test:i think one thing that is concerning to parents and to scientists is we dont know what causes autism", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5542": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5530": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5546": {
+                "prov:entity": "test:i think this has been a long time in coming", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5330": {
+                "prov:entity": "test:if you talk to younger doctors they will tell you theyve never seen a case of x y or z things that were actually run of the mill generations ago", 
+                "prov:agent": "test:George Wohlreich"
+            }, 
+            "5334": {
+                "prov:entity": "test:if you dont see something you assume its gone", 
+                "prov:agent": "test:George Wohlreich"
+            }, 
+            "5338": {
+                "prov:entity": "test:there was also the kind of personal liberty reasoning that we hear today", 
+                "prov:agent": "test:Youngdahl"
+            }, 
+            "5238": {
+                "prov:entity": "test:but we still get sick so its one of those things where i kind of say my prayers and hope for the best", 
+                "prov:agent": "test:Attridge"
+            }, 
+            "5436": {
+                "prov:entity": "test:the vast majority of people who are not vaccinating are not the staunch antivaccine movers who will never vaccinate their children no matter what", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5230": {
+                "prov:entity": "test:if you can carry a little bottle of purell or some sort of a hand sanitizer with you", 
+                "prov:agent": "test:Baban"
+            }, 
+            "5705": {
+                "prov:entity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5540": {
+                "prov:entity": "test:its not so easy to discern what is real and what is not", 
+                "prov:agent": "test:Jonathan Fielding"
+            }, 
+            "5234": {
+                "prov:entity": "test:keep your hands washed if you are going to be touching areas like the kiosk to get your ticket", 
+                "prov:agent": "test:Baban"
+            }, 
+            "5554": {
+                "prov:entity": "test:it holds a lot of unscientific and erroneous information", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5550": {
+                "prov:entity": "test:the truth is there are a lot of unreported cases out there", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5638": {
+                "prov:entity": "test:will the 1 please stop trying to spread preventable diseases to the 99", 
+                "prov:agent": "test:Pan"
+            }, 
+            "5558": {
+                "prov:entity": "test:welcome to the truth about vaccines", 
+                "prov:agent": "test:Ruppert"
+            }, 
+            "5182": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5346": {
+                "prov:entity": "test:theres also a degree of ridertype of mentality", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5428": {
+                "prov:entity": "test:do you think the logic and the science at this point with the antivaccine movement spreading is that gonna do it", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5184": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:agent": "test:Jason Silverstein"
+            }, 
+            "5578": {
+                "prov:entity": "test:i literally pray that im not proven right because theres deaths and people then switch their opinion", 
+                "prov:agent": "test:Glatt"
+            }, 
+            "5226": {
+                "prov:entity": "test:these are hightransit areas we get a very high volume of people coming through from all over the world it is a perfect place to have great swapping of bacteria and viruses", 
+                "prov:agent": "test:Baban"
+            }, 
+            "5711": {
+                "prov:entity": "test:why isnt the medical board dealing with these bad actors", 
+                "prov:agent": "test:Jeff Stone"
+            }, 
+            "5342": {
+                "prov:entity": "test:thats sort of like saying im going to use my seat belt every other block", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5574": {
+                "prov:entity": "test:i hope the answer to that is no but part of me says yes", 
+                "prov:agent": "test:Glatt"
+            }, 
+            "5298": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5296": {
+                "prov:entity": "test:these outbreaks are due to the antivaccine movement", 
+                "prov:agent": "test:Anthony Fauci"
+            }, 
+            "5292": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/", 
+                "prov:agent": "test:Caitlin O'Kane"
+            }, 
+            "5290": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5520": {
+                "prov:entity": "test:the lead author lost his license", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5214": {
+                "prov:entity": "test:im in the business of making sure our campers are safe", 
+                "prov:agent": "test:Todd Rothman"
+            }, 
+            "5524": {
+                "prov:entity": "test:vaccine preventable diseases belong in the history books not in our emergency rooms", 
+                "prov:agent": "test:Azar"
+            }, 
+            "5210": {
+                "prov:entity": "test:they were disappointed they were upset and they engaged me in a bit of discussion about the merits of vaccines which i am not in the business of", 
+                "prov:agent": "test:Todd Rothman"
+            }, 
+            "5528": {
+                "prov:entity": "test:the suffering we are seeing today is completely avoidable", 
+                "prov:agent": "test:Azar"
+            }, 
+            "5242": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:agent": "test:Sophie Lewis"
+            }, 
+            "5218": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5458": {
+                "prov:entity": "test:so how do you get parents to move forward", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5354": {
+                "prov:entity": "test:from what we know it was really really filthy dirty and dangerous", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5198": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:agent": "test:Jonathan Lapook"
+            }, 
+            "5350": {
+                "prov:entity": "test:if somebody is really taking care of whats going on i dont have to worry about it and ill have the benefits of herd immunity", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5452": {
+                "prov:entity": "test:i really love helping inform families and helping them make that informed choice", 
+                "prov:agent": "test:Joel Amundson"
+            }, 
+            "5196": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5358": {
+                "prov:entity": "test:but when sanitation people came in that changed", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5288": {
+                "prov:entity": "test:while i understand and respect freedom of religion our first job is to protect the public health and by signing this measure into law we will help prevent further transmissions and stop this outbreak right in its tracks", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5282": {
+                "prov:entity": "test:today new york is sending a strong message to people across our state that vaccines are safe and effective", 
+                "prov:agent": "test:Cuomo"
+            }, 
+            "5416": {
+                "prov:entity": "test:were looking at the continuous eeg – that is the electrical signal that these billions of neurons generate that we pick up at the scalp surface", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5202": {
+                "prov:entity": "test:everyone on our grounds all of our campers and all of our staff will have either proof of immunity or mmr vaccination", 
+                "prov:agent": "test:Todd Rothman"
+            }, 
+            "5536": {
+                "prov:entity": "test:and if you want to believe your kid doesnt need that many shots theres plenty of places to find people who agree with you", 
+                "prov:agent": "test:Jonathan Fielding"
+            }, 
+            "5206": {
+                "prov:entity": "test:she had been with us for a few years", 
+                "prov:agent": "test:Todd Rothman"
+            }, 
+            "5362": {
+                "prov:entity": "test:vaccination is like having a great sanitation department", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5448": {
+                "prov:entity": "test:so i want to make sure that when parents are examining the facts that they understand exactly whats scientific and whats not and to really be able to separate the truth from the fiction", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5366": {
+                "prov:entity": "test:youre not aware of what its doing until you dont have it", 
+                "prov:agent": "test:Wohlreich"
+            }, 
+            "5412": {
+                "prov:entity": "test:and because of that big uncertainty and because one in 59 children have autism we try to latch onto some explanation", 
+                "prov:agent": "test:Charles Nelson"
+            }, 
+            "5634": {
+                "prov:entity": "test:promoting misinformation that discourages vaccination defines being an antivaxxer", 
+                "prov:agent": "test:Pan"
+            }, 
+            "5368": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:agent": "test:www.cbsnews.com"
+            }, 
+            "5440": {
+                "prov:entity": "test:we are really concerned about reaching the parents in the middle those who feel fearful and confused by the information flying around on all sides", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5630": {
+                "prov:entity": "test:my dearest friends have a child with a medical condition that warrants an exemption from vaccinations and should this bill pass it would greatly affect their familys ability to care for their child in this state", 
+                "prov:agent": "test:Biel"
+            }, 
+            "5444": {
+                "prov:entity": "test:we know every parent wants to make the best health decisions for their children", 
+                "prov:agent": "test:LaPook"
+            }, 
+            "5566": {
+                "prov:entity": "test:they change their reasoning as soon as its disproven and they pick another", 
+                "prov:agent": "test:Glatt"
+            }
+        }, 
+        "agent": {
+            "test:Jessica Firger": {
+                "test:name": "Jessica Firger", 
+                "test:type": "person"
+            }, 
+            "test:Glatt": {
+                "test:name": "Glatt", 
+                "test:type": "person"
+            }, 
+            "test:April Siese": {
+                "test:name": "April Siese", 
+                "test:type": "person"
+            }, 
+            "test:Azar": {
+                "test:name": "Azar", 
+                "test:type": "person"
+            }, 
+            "test:Jeff Stone": {
+                "test:name": "Jeff Stone", 
+                "test:type": "person"
+            }, 
+            "test:Cuomo": {
+                "test:name": "Cuomo", 
+                "test:type": "person"
+            }, 
+            "test:LaPook": {
+                "test:name": "LaPook", 
+                "test:type": "person"
+            }, 
+            "test:Pan": {
+                "test:name": "Pan", 
+                "test:type": "person"
+            }, 
+            "test:Ashley Welch": {
+                "test:name": "Ashley Welch", 
+                "test:type": "person"
+            }, 
+            "test:Youngdahl": {
+                "test:name": "Youngdahl", 
+                "test:type": "person"
+            }, 
+            "test:Wohlreich": {
+                "test:name": "Wohlreich", 
+                "test:type": "person"
+            }, 
+            "test:Anthony Fauci": {
+                "test:name": "Anthony Fauci", 
+                "test:type": "person"
+            }, 
+            "test:Ruppert": {
+                "test:name": "Ruppert", 
+                "test:type": "person"
+            }, 
+            "test:Caitlin O'Kane": {
+                "test:name": "Caitlin O'Kane", 
+                "test:type": "person"
+            }, 
+            "test:Alex Azar": {
+                "test:name": "Alex Azar", 
+                "test:type": "person"
+            }, 
+            "test:Todd Rothman": {
+                "test:name": "Todd Rothman", 
+                "test:type": "person"
+            }, 
+            "test:Ethel Kennedy": {
+                "test:name": "Ethel Kennedy", 
+                "test:type": "person"
+            }, 
+            "test:Jason Silverstein": {
+                "test:name": "Jason Silverstein", 
+                "test:type": "person"
+            }, 
+            "test:Wellness For Cbsnews.Com": {
+                "test:name": "Wellness For Cbsnews.Com", 
+                "test:type": "person"
+            }, 
+            "test:Arabella Blume": {
+                "test:name": "Arabella Blume", 
+                "test:type": "person"
+            }, 
+            "test:George Wohlreich": {
+                "test:name": "George Wohlreich", 
+                "test:type": "person"
+            }, 
+            "test:Jessica Firger Covers Health": {
+                "test:name": "Jessica Firger Covers Health", 
+                "test:type": "person"
+            }, 
+            "test:www.cbsnews.com": {
+                "test:publisher": "www.cbsnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Blume": {
+                "test:name": "Blume", 
+                "test:type": "person"
+            }, 
+            "test:Litman": {
+                "test:name": "Litman", 
+                "test:type": "person"
+            }, 
+            "test:Joel Amundson": {
+                "test:name": "Joel Amundson", 
+                "test:type": "person"
+            }, 
+            "test:Nat Litman": {
+                "test:name": "Nat Litman", 
+                "test:type": "person"
+            }, 
+            "test:Sophie Lewis": {
+                "test:name": "Sophie Lewis", 
+                "test:type": "person"
+            }, 
+            "test:Attridge": {
+                "test:name": "Attridge", 
+                "test:type": "person"
+            }, 
+            "test:Charles Nelson": {
+                "test:name": "Charles Nelson", 
+                "test:type": "person"
+            }, 
+            "test:Ashley Welch Covers Health": {
+                "test:name": "Ashley Welch Covers Health", 
+                "test:type": "person"
+            }, 
+            "test:Jonathan Fielding": {
+                "test:name": "Jonathan Fielding", 
+                "test:type": "person"
+            }, 
+            "test:Jonathan Lapook": {
+                "test:name": "Jonathan Lapook", 
+                "test:type": "person"
+            }, 
+            "test:Biel": {
+                "test:name": "Biel", 
+                "test:type": "person"
+            }, 
+            "test:Baban": {
+                "test:name": "Baban", 
+                "test:type": "person"
+            }, 
+            "test:Amundson": {
+                "test:name": "Amundson", 
+                "test:type": "person"
+            }, 
+            "test:Robert F. Kennedy Jr.": {
+                "test:name": "Robert F. Kennedy Jr.", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "test:date": "", 
+                "test:title": "Measles outbreak: What you need to know before flying", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-new-york-city-orders-measles-vaccination-exclude-unvaccinated-students-in-brooklyn/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-new-york-city-orders-measles-vaccination-exclude-unvaccinated-students-in-brooklyn/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/facebook-announces-plans-to-block-anti-vaccination-content/": {
+                "test:url": "https://www.cbsnews.com/news/facebook-announces-plans-to-block-anti-vaccination-content/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137759/": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137759/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.instagram.com/p/BxxxAXgg2eR/?igshid=6jz96u1du9tj": {
+                "test:url": "https://www.instagram.com/p/BxxxAXgg2eR/?igshid=6jz96u1du9tj", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.nytimes.com/2019/05/12/science/5g-phone-safety-health-russia.html": {
+                "test:url": "https://www.nytimes.com/2019/05/12/science/5g-phone-safety-health-russia.html", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "test:date": "2019-04-24", 
+                "test:title": "U.S. measles outbreak hits highest mark in 25 years", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-anti-vaccination-movement-dr-anthony-fauci/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a5.htm": {
+                "test:url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a5.htm", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/moms-angry-as-hell-facebook-post-about-measles-goes-viral/": {
+                "test:url": "https://www.cbsnews.com/news/moms-angry-as-hell-facebook-post-about-measles-goes-viral/", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/DrPanMD/status/1139218128750014470": {
+                "test:url": "https://twitter.com/DrPanMD/status/1139218128750014470", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-2019-exceed-2018-numbers-anti-vaccination/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-2019-exceed-2018-numbers-anti-vaccination/", 
+                "test:type": "article"
+            }, 
+            "test:https://newyork.cbslocal.com/2019/04/10/measles-outbreak-westchester-county/": {
+                "test:url": "https://newyork.cbslocal.com/2019/04/10/measles-outbreak-westchester-county/", 
+                "test:type": "article"
+            }, 
+            "test:https://www1.nyc.gov/site/doh/health/health-topics/measles.page": {
+                "test:url": "https://www1.nyc.gov/site/doh/health/health-topics/measles.page", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "test:date": "", 
+                "test:title": "\"Not a harmless childhood illness\": Measles cases top 700 as outbreaks continue to spread", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/hashtag/BREAKING?src=hash&ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/hashtag/BREAKING?src=hash&ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-vaccine-adults-who-were-vaccinated-in-the-1960s-may-need-a-measles-booster/": {
+                "test:url": "https://www.cbsnews.com/news/measles-vaccine-adults-who-were-vaccinated-in-the-1960s-may-need-a-measles-booster/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "test:date": "2019-06-13", 
+                "test:title": "Summer camps face a new risk amid a measles outbreak", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/5g-explained-how-it-works-who-it-will-impact-and-when-well-have-it/": {
+                "test:url": "https://www.cbsnews.com/news/5g-explained-how-it-works-who-it-will-impact-and-when-well-have-it/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.who.int/choice/demography/euro_region/en/": {
+                "test:url": "https://www.who.int/choice/demography/euro_region/en/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/moviegoers-in-california-nj-potentially-exposed-to-measles-at-avengers-endgame-screenings/": {
+                "test:url": "https://www.cbsnews.com/news/moviegoers-in-california-nj-potentially-exposed-to-measles-at-avengers-endgame-screenings/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/study-linking-autism-to-vaccine-retracted/": {
+                "test:url": "https://www.cbsnews.com/news/study-linking-autism-to-vaccine-retracted/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-flight-attendant-in-coma-after-contracting-measles/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-flight-attendant-in-coma-after-contracting-measles/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/measles/cases-outbreaks.html": {
+                "test:url": "https://www.cdc.gov/measles/cases-outbreaks.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/": {
+                "test:url": "https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/", 
+                "test:date": "2019-05-22", 
+                "test:title": "California lawmakers advance bill that would limit vaccine exemptions", 
+                "test:type": "article"
+            }, 
+            "test:https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB276": {
+                "test:url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB276", 
+                "test:type": "government"
+            }, 
+            "test:https://twitter.com/NYSenate/status/1139294246257745925": {
+                "test:url": "https://twitter.com/NYSenate/status/1139294246257745925", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-2019-northwest-measles-outbreak-prompts-look-at-vaccine-exemptions-2019-02-01/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-2019-northwest-measles-outbreak-prompts-look-at-vaccine-exemptions-2019-02-01/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/measles/about/history.html": {
+                "test:url": "https://www.cdc.gov/measles/about/history.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "test:date": "", 
+                "test:title": "In measles outbreak, we are \"victims of our success\"", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/election-2016/": {
+                "test:url": "https://www.cbsnews.com/election-2016/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/rockland-county-measles-outbreak-judge-lifts-ban-on-unvaccinated-children-today-2019-04-05/": {
+                "test:url": "https://www.cbsnews.com/news/rockland-county-measles-outbreak-judge-lifts-ban-on-unvaccinated-children-today-2019-04-05/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/": {
+                "test:url": "https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/", 
+                "test:date": "", 
+                "test:title": "Russian trolls fueled anti-vaccination debate in U.S. by spreading misinformation on Twitter, study finds", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/inside-the-troll-factory-at-the-center-of-russias-election-meddling-campaign/": {
+                "test:url": "https://www.cbsnews.com/news/inside-the-troll-factory-at-the-center-of-russias-election-meddling-campaign/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/los-angeles-colleges-measles-quarantine-today-2019-04-26/": {
+                "test:url": "https://www.cbsnews.com/news/los-angeles-colleges-measles-quarantine-today-2019-04-26/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/most-popular-facebook-social-media-health-posts-may-be-least-accurate/": {
+                "test:url": "https://www.cbsnews.com/news/most-popular-facebook-social-media-health-posts-may-be-least-accurate/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "test:date": "", 
+                "test:title": "U.S. measles count continues to climb, driven by New York outbreaks", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/video/n-y-health-officials-blame-misinformation-campaign-for-measles-outbreak/": {
+                "test:url": "https://www.cbsnews.com/video/n-y-health-officials-blame-misinformation-campaign-for-measles-outbreak/", 
+                "test:type": "reference"
+            }, 
+            "test:https://twitter.com/bradhoylman/status/1139294252486332416?ref_src=twsrc%5Etfw": {
+                "test:url": "https://twitter.com/bradhoylman/status/1139294252486332416?ref_src=twsrc%5Etfw", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/if-my-measles-shot-was-years-ago-am-i-still-protected-5-questions-answered/": {
+                "test:url": "https://www.cbsnews.com/news/if-my-measles-shot-was-years-ago-am-i-still-protected-5-questions-answered/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+                "test:date": "", 
+                "test:title": "American Academy of Pediatrics report urges travelers get MMR vaccine in wake of \"record-breaking\" European measles outbreak", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/": {
+                "test:url": "https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "test:date": "", 
+                "test:title": "Teaching anti-vax parents to trust science and the MMR vaccine", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/": {
+                "test:url": "https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/", 
+                "test:date": "", 
+                "test:title": "New York measles outbreak spreads to more counties", 
+                "test:type": "article"
+            }, 
+            "test:https://www.intouchweekly.com/posts/jessica-biel-justin-timberlake-baby-vaccination-77276/": {
+                "test:url": "https://www.intouchweekly.com/posts/jessica-biel-justin-timberlake-baby-vaccination-77276/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cdc.gov/measles/symptoms/signs-symptoms.html": {
+                "test:url": "https://www.cdc.gov/measles/symptoms/signs-symptoms.html", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/washington-measles-outbreak-hundreds-rally-to-presesrve-not-to-vaccinate-children-2019-02-08/": {
+                "test:url": "https://www.cbsnews.com/news/washington-measles-outbreak-hundreds-rally-to-presesrve-not-to-vaccinate-children-2019-02-08/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-new-york-mother-defends-not-vaccinating/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-new-york-mother-defends-not-vaccinating/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/video/tracking-down-the-people-behind-misinformation-on-measles-vaccines/": {
+                "test:url": "https://www.cbsnews.com/video/tracking-down-the-people-behind-misinformation-on-measles-vaccines/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/": {
+                "test:url": "https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "test:date": "", 
+                "test:title": "Jessica Biel joins vaccine skeptic Robert F. Kennedy to oppose bill – but says she's not against vaccinations", 
+                "test:type": "article"
+            }, 
+            "test:https://www.governor.ny.gov/news/governor-cuomo-signs-legislation-removing-non-medical-exemptions-school-vaccination": {
+                "test:url": "https://www.governor.ny.gov/news/governor-cuomo-signs-legislation-removing-non-medical-exemptions-school-vaccination", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/": {
+                "test:url": "https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "test:date": "", 
+                "test:title": "New York is ending religious exemptions for vaccines amid measles outbreak", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-2nd-state-of-emergency-rockland-county-new-york-today-2019-04-25/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-2nd-state-of-emergency-rockland-county-new-york-today-2019-04-25/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/researchers-find-effective-way-to-sway-vaccine-skeptics/": {
+                "test:url": "https://www.cbsnews.com/news/researchers-find-effective-way-to-sway-vaccine-skeptics/", 
+                "test:type": "article"
+            }, 
+            "test:https://nyassembly.gov/Press/files/20190613.php": {
+                "test:url": "https://nyassembly.gov/Press/files/20190613.php", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/": {
+                "test:url": "https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "test:date": "", 
+                "test:title": "Measles cases in the U.S. break more than 25-year record, CDC says", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/new-york-rockland-county-measles-outbreak-officials-announce-new-ban-2019-04-16/": {
+                "test:url": "https://www.cbsnews.com/news/new-york-rockland-county-measles-outbreak-officials-announce-new-ban-2019-04-16/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/": {
+                "test:url": "https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "test:date": "", 
+                "test:title": "Tracking down the people behind a pamphlet that's fueling New York's measles outbreak", 
+                "test:type": "article"
+            }, 
+            "test:http://rocklandgov.com/departments/health/measles-information/": {
+                "test:url": "http://rocklandgov.com/departments/health/measles-information/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.cbsnews.com/news/california-governor-signs-strict-new-vaccination-law/": {
+                "test:url": "https://www.cbsnews.com/news/california-governor-signs-strict-new-vaccination-law/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/russian-indictment-2016-elections-rod-rosenstein-announcement-today-2018-02-16/": {
+                "test:url": "https://www.cbsnews.com/news/russian-indictment-2016-elections-rod-rosenstein-announcement-today-2018-02-16/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.who.int/csr/don/06-may-2019-measles-euro/en/": {
+                "test:url": "https://www.who.int/csr/don/06-may-2019-measles-euro/en/", 
+                "test:type": "government"
+            }, 
+            "test:https://www.cbsnews.com/news/amazon-removes-books-promoting-autism-cures-and-vaccine-misinformation/": {
+                "test:url": "https://www.cbsnews.com/news/amazon-removes-books-promoting-autism-cures-and-vaccine-misinformation/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/": {
+                "test:url": "https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/", 
+                "test:date": "2019-05-14", 
+                "test:title": "Protesters rally as New York lawmakers consider ending religious exemptions for vaccines", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:one thing im concerned about is that even though the science is overwhelming that vaccines dont cause autism there are still people who think vaccines cause autism": {
+                "test:quote": "one thing im concerned about is that even though the science is overwhelming that vaccines dont cause autism there are still people who think vaccines cause autism", 
+                "test:type": "quote"
+            }, 
+            "test:second it derailed the course of science by investing all this money to prove that vaccines didnt cause autism rather than try to understand what does cause autism": {
+                "test:quote": "second it derailed the course of science by investing all this money to prove that vaccines didnt cause autism rather than try to understand what does cause autism", 
+                "test:type": "quote"
+            }, 
+            "test:starting in 1963 we started vaccinating": {
+                "test:quote": "starting in 1963 we started vaccinating", 
+                "test:type": "quote"
+            }, 
+            "test:this is about keeping our community safe": {
+                "test:quote": "this is about keeping our community safe", 
+                "test:type": "quote"
+            }, 
+            "test:if these outbreaks continue through summer and fall the united states may lose its measles elimination status": {
+                "test:quote": "if these outbreaks continue through summer and fall the united states may lose its measles elimination status", 
+                "test:type": "quote"
+            }, 
+            "test:i think one thing that is concerning to parents and to scientists is we dont know what causes autism": {
+                "test:quote": "i think one thing that is concerning to parents and to scientists is we dont know what causes autism", 
+                "test:type": "quote"
+            }, 
+            "test:im in the business of making sure our campers are safe": {
+                "test:quote": "im in the business of making sure our campers are safe", 
+                "test:type": "quote"
+            }, 
+            "test:people say why should i bother its not around": {
+                "test:quote": "people say why should i bother its not around", 
+                "test:type": "quote"
+            }, 
+            "test:breaking the new york state senate just passed my bill to end nonmedical exemptions to vaccination": {
+                "test:quote": "breaking the new york state senate just passed my bill to end nonmedical exemptions to vaccination", 
+                "test:type": "quote"
+            }, 
+            "test:without focusing on the fear tactics but really just understanding the different risks and benefits involved": {
+                "test:quote": "without focusing on the fear tactics but really just understanding the different risks and benefits involved", 
+                "test:type": "quote"
+            }, 
+            "test:that has subsequently been totally discredited": {
+                "test:quote": "that has subsequently been totally discredited", 
+                "test:type": "quote"
+            }, 
+            "test:again i want to reassure parents that vaccines are safe they do not cause autism": {
+                "test:quote": "again i want to reassure parents that vaccines are safe they do not cause autism", 
+                "test:type": "quote"
+            }, 
+            "test:but we still get sick so its one of those things where i kind of say my prayers and hope for the best": {
+                "test:quote": "but we still get sick so its one of those things where i kind of say my prayers and hope for the best", 
+                "test:type": "quote"
+            }, 
+            "test:please say thank you to the courageous jessicabiel for a busy and productive day at the california state house": {
+                "test:quote": "please say thank you to the courageous jessicabiel for a busy and productive day at the california state house", 
+                "test:type": "quote"
+            }, 
+            "test:were looking at the continuous eeg – that is the electrical signal that these billions of neurons generate that we pick up at the scalp surface": {
+                "test:quote": "were looking at the continuous eeg – that is the electrical signal that these billions of neurons generate that we pick up at the scalp surface", 
+                "test:type": "quote"
+            }, 
+            "test:so i want to make sure that when parents are examining the facts that they understand exactly whats scientific and whats not and to really be able to separate the truth from the fiction": {
+                "test:quote": "so i want to make sure that when parents are examining the facts that they understand exactly whats scientific and whats not and to really be able to separate the truth from the fiction", 
+                "test:type": "quote"
+            }, 
+            "test:i found the vast majority of people that are hesitant that are nervous about it really are just hesitant theyre concerned about stuff that theyve read": {
+                "test:quote": "i found the vast majority of people that are hesitant that are nervous about it really are just hesitant theyre concerned about stuff that theyve read", 
+                "test:type": "quote"
+            }, 
+            "test:we are victims of our success people dont remember how bad measles was how frightening it could be": {
+                "test:quote": "we are victims of our success people dont remember how bad measles was how frightening it could be", 
+                "test:type": "quote"
+            }, 
+            "test:failure to comply will result in 2000 per violation per day": {
+                "test:quote": "failure to comply will result in 2000 per violation per day", 
+                "test:type": "quote"
+            }, 
+            "test:you know how could you do this to him": {
+                "test:quote": "you know how could you do this to him", 
+                "test:type": "quote"
+            }, 
+            "test:it looks for patterns … if you see this pattern at three months youre likely to see autism at three years": {
+                "test:quote": "it looks for patterns … if you see this pattern at three months youre likely to see autism at three years", 
+                "test:type": "quote"
+            }, 
+            "test:theres all kinds of crazy stuff on the internet": {
+                "test:quote": "theres all kinds of crazy stuff on the internet", 
+                "test:type": "quote"
+            }, 
+            "test:i felt like i destroyed him": {
+                "test:quote": "i felt like i destroyed him", 
+                "test:type": "quote"
+            }, 
+            "test:these are hightransit areas we get a very high volume of people coming through from all over the world it is a perfect place to have great swapping of bacteria and viruses": {
+                "test:quote": "these are hightransit areas we get a very high volume of people coming through from all over the world it is a perfect place to have great swapping of bacteria and viruses", 
+                "test:type": "quote"
+            }, 
+            "test:were putting science ahead of misinformation about vaccines and standing up for the rights of immunocompromised children and adults pregnant women and infants who cant be vaccinated through no fault of their own": {
+                "test:quote": "were putting science ahead of misinformation about vaccines and standing up for the rights of immunocompromised children and adults pregnant women and infants who cant be vaccinated through no fault of their own", 
+                "test:type": "quote"
+            }, 
+            "test:if you dont see something you assume its gone": {
+                "test:quote": "if you dont see something you assume its gone", 
+                "test:type": "quote"
+            }, 
+            "test:they just want to do the right thing for their kids": {
+                "test:quote": "they just want to do the right thing for their kids", 
+                "test:type": "quote"
+            }, 
+            "test:new york state has recorded more than 800 cases of measles since september stemming from orthodox jewish communities in brooklyn and rockland county": {
+                "test:quote": "new york state has recorded more than 800 cases of measles since september stemming from orthodox jewish communities in brooklyn and rockland county", 
+                "test:type": "quote"
+            }, 
+            "test:and now with her i look down and i have the same thought only opposite where its like i love her so much i cant take her outta the house until i vaccinate her": {
+                "test:quote": "and now with her i look down and i have the same thought only opposite where its like i love her so much i cant take her outta the house until i vaccinate her", 
+                "test:type": "quote"
+            }, 
+            "test:there was also the kind of personal liberty reasoning that we hear today": {
+                "test:quote": "there was also the kind of personal liberty reasoning that we hear today", 
+                "test:type": "quote"
+            }, 
+            "test:welcome to the truth about vaccines": {
+                "test:quote": "welcome to the truth about vaccines", 
+                "test:type": "quote"
+            }, 
+            "test:the lead author lost his license": {
+                "test:quote": "the lead author lost his license", 
+                "test:type": "quote"
+            }, 
+            "test:there is a role that vaccines are playing in creating the ground work for these childrens immune systems to start to show signs of impairment and destruction": {
+                "test:quote": "there is a role that vaccines are playing in creating the ground work for these childrens immune systems to start to show signs of impairment and destruction", 
+                "test:type": "quote"
+            }, 
+            "test:and then i was crying because i was wrong about that": {
+                "test:quote": "and then i was crying because i was wrong about that", 
+                "test:type": "quote"
+            }, 
+            "test:this vaccine will cause swelling of the brain": {
+                "test:quote": "this vaccine will cause swelling of the brain", 
+                "test:type": "quote"
+            }, 
+            "test:according to the centers for disease control and prevention the number of new measles cases this year has exceeded 1000 in 28 states — the greatest number of cases reported in the us since 1992 and since measles was declared eliminated in 2000": {
+                "test:quote": "according to the centers for disease control and prevention the number of new measles cases this year has exceeded 1000 in 28 states — the greatest number of cases reported in the us since 1992 and since measles was declared eliminated in 2000", 
+                "test:type": "quote"
+            }, 
+            "test:youre not aware of what its doing until you dont have it": {
+                "test:quote": "youre not aware of what its doing until you dont have it", 
+                "test:type": "quote"
+            }, 
+            "test:will the 1 please stop trying to spread preventable diseases to the 99": {
+                "test:quote": "will the 1 please stop trying to spread preventable diseases to the 99", 
+                "test:type": "quote"
+            }, 
+            "test:our work is suggesting that were seeing signs of autism at least in the brain as early as three to six months of age long before the mmr vaccine has been given": {
+                "test:quote": "our work is suggesting that were seeing signs of autism at least in the brain as early as three to six months of age long before the mmr vaccine has been given", 
+                "test:type": "quote"
+            }, 
+            "test:you wont even know and can infect other people": {
+                "test:quote": "you wont even know and can infect other people", 
+                "test:type": "quote"
+            }, 
+            "test:thats sort of like saying im going to use my seat belt every other block": {
+                "test:quote": "thats sort of like saying im going to use my seat belt every other block", 
+                "test:type": "quote"
+            }, 
+            "test:if somebody is really taking care of whats going on i dont have to worry about it and ill have the benefits of herd immunity": {
+                "test:quote": "if somebody is really taking care of whats going on i dont have to worry about it and ill have the benefits of herd immunity", 
+                "test:type": "quote"
+            }, 
+            "test:the legislation comes as the country faces one of the worse measles outbreaks in a generation": {
+                "test:quote": "the legislation comes as the country faces one of the worse measles outbreaks in a generation", 
+                "test:type": "quote"
+            }, 
+            "test:the science is crystal clear vaccines are safe effective and the best way to keep our children safe": {
+                "test:quote": "the science is crystal clear vaccines are safe effective and the best way to keep our children safe", 
+                "test:type": "quote"
+            }, 
+            "test:here in new york we protect vulnerable kids and our community—and we reject misinformation and junk science": {
+                "test:quote": "here in new york we protect vulnerable kids and our community—and we reject misinformation and junk science", 
+                "test:type": "quote"
+            }, 
+            "test:and i was looking at alex going how could i do this to him": {
+                "test:quote": "and i was looking at alex going how could i do this to him", 
+                "test:type": "quote"
+            }, 
+            "test:if you can carry a little bottle of purell or some sort of a hand sanitizer with you": {
+                "test:quote": "if you can carry a little bottle of purell or some sort of a hand sanitizer with you", 
+                "test:type": "quote"
+            }, 
+            "test:in that era children in the us didnt get through childhood without having measles": {
+                "test:quote": "in that era children in the us didnt get through childhood without having measles", 
+                "test:type": "quote"
+            }, 
+            "test:the first five years of the vaccine — some batches of it were not very good": {
+                "test:quote": "the first five years of the vaccine — some batches of it were not very good", 
+                "test:type": "quote"
+            }, 
+            "test:theres also a degree of ridertype of mentality": {
+                "test:quote": "theres also a degree of ridertype of mentality", 
+                "test:type": "quote"
+            }, 
+            "test:i literally pray that im not proven right because theres deaths and people then switch their opinion": {
+                "test:quote": "i literally pray that im not proven right because theres deaths and people then switch their opinion", 
+                "test:type": "quote"
+            }, 
+            "test:the cdc says protection across the country is pretty strong": {
+                "test:quote": "the cdc says protection across the country is pretty strong", 
+                "test:type": "quote"
+            }, 
+            "test:so how do you get parents to move forward": {
+                "test:quote": "so how do you get parents to move forward", 
+                "test:type": "quote"
+            }, 
+            "test:it holds a lot of unscientific and erroneous information": {
+                "test:quote": "it holds a lot of unscientific and erroneous information", 
+                "test:type": "quote"
+            }, 
+            "test:the majority of people are like me – theyre not supercrazy theyre just trying to find the real answers to stuff": {
+                "test:quote": "the majority of people are like me – theyre not supercrazy theyre just trying to find the real answers to stuff", 
+                "test:type": "quote"
+            }, 
+            "test:these outbreaks are due to the antivaccine movement": {
+                "test:quote": "these outbreaks are due to the antivaccine movement", 
+                "test:type": "quote"
+            }, 
+            "test:a huge part of the conversation is building trust": {
+                "test:quote": "a huge part of the conversation is building trust", 
+                "test:type": "quote"
+            }, 
+            "test:keep your hands washed if you are going to be touching areas like the kiosk to get your ticket": {
+                "test:quote": "keep your hands washed if you are going to be touching areas like the kiosk to get your ticket", 
+                "test:type": "quote"
+            }, 
+            "test:from what we know it was really really filthy dirty and dangerous": {
+                "test:quote": "from what we know it was really really filthy dirty and dangerous", 
+                "test:type": "quote"
+            }, 
+            "test:only those individuals who might have been at the airport at the time and dont have immunization against measles": {
+                "test:quote": "only those individuals who might have been at the airport at the time and dont have immunization against measles", 
+                "test:type": "quote"
+            }, 
+            "test:what weve done in these months was to offer information in other ways hangers on the doors pamphlets in the synagogues pamphlets at the house": {
+                "test:quote": "what weve done in these months was to offer information in other ways hangers on the doors pamphlets in the synagogues pamphlets at the house", 
+                "test:type": "quote"
+            }, 
+            "test:in twelve hours she was dead": {
+                "test:quote": "in twelve hours she was dead", 
+                "test:type": "quote"
+            }, 
+            "test:i had a fairly mild case of measles": {
+                "test:quote": "i had a fairly mild case of measles", 
+                "test:type": "quote"
+            }, 
+            "test:ive had patients that have done not a single vaccine for five years and then turned around and chosen to do them": {
+                "test:quote": "ive had patients that have done not a single vaccine for five years and then turned around and chosen to do them", 
+                "test:type": "quote"
+            }, 
+            "test:the funny thing is that with alex i can remember looking down and thinking i love him too much i cant vaccinate him i cant hurt him that way": {
+                "test:quote": "the funny thing is that with alex i can remember looking down and thinking i love him too much i cant vaccinate him i cant hurt him that way", 
+                "test:type": "quote"
+            }, 
+            "test:some of the religious information they provide is embarrassing": {
+                "test:quote": "some of the religious information they provide is embarrassing", 
+                "test:type": "quote"
+            }, 
+            "test:measles is not a harmless childhood illness but a dangerous highly contagious disease": {
+                "test:quote": "measles is not a harmless childhood illness but a dangerous highly contagious disease", 
+                "test:type": "quote"
+            }, 
+            "test:the greater danger is the disease that vaccination prevents": {
+                "test:quote": "the greater danger is the disease that vaccination prevents", 
+                "test:type": "quote"
+            }, 
+            "test:new yorkers have infected people in four other states": {
+                "test:quote": "new yorkers have infected people in four other states", 
+                "test:type": "quote"
+            }, 
+            "test:vaccine preventable diseases belong in the history books not in our emergency rooms": {
+                "test:quote": "vaccine preventable diseases belong in the history books not in our emergency rooms", 
+                "test:type": "quote"
+            }, 
+            "test:i dont think we have provided the pressure that we should have probably all along": {
+                "test:quote": "i dont think we have provided the pressure that we should have probably all along", 
+                "test:type": "quote"
+            }, 
+            "test:do you think the logic and the science at this point with the antivaccine movement spreading is that gonna do it": {
+                "test:quote": "do you think the logic and the science at this point with the antivaccine movement spreading is that gonna do it", 
+                "test:type": "quote"
+            }, 
+            "test:they were disappointed they were upset and they engaged me in a bit of discussion about the merits of vaccines which i am not in the business of": {
+                "test:quote": "they were disappointed they were upset and they engaged me in a bit of discussion about the merits of vaccines which i am not in the business of", 
+                "test:type": "quote"
+            }, 
+            "test:but when sanitation people came in that changed": {
+                "test:quote": "but when sanitation people came in that changed", 
+                "test:type": "quote"
+            }, 
+            "test:my take is that youve got kind of on one side people really scaring you of what might happen if you do something and on the other side people scaring you of what might happen if you dont do something": {
+                "test:quote": "my take is that youve got kind of on one side people really scaring you of what might happen if you do something and on the other side people scaring you of what might happen if you dont do something", 
+                "test:type": "quote"
+            }, 
+            "test:in an hour she was unconscious": {
+                "test:quote": "in an hour she was unconscious", 
+                "test:type": "quote"
+            }, 
+            "test:she had been with us for a few years": {
+                "test:quote": "she had been with us for a few years", 
+                "test:type": "quote"
+            }, 
+            "test:this administration has taken aggressive action to contain the measles outbreak but given its scale additional steps are needed to end this public health crisis": {
+                "test:quote": "this administration has taken aggressive action to contain the measles outbreak but given its scale additional steps are needed to end this public health crisis", 
+                "test:type": "quote"
+            }, 
+            "test:families should discuss with healthcare providers the risk of international travel with infants under 6 months of age": {
+                "test:quote": "families should discuss with healthcare providers the risk of international travel with infants under 6 months of age", 
+                "test:type": "quote"
+            }, 
+            "test:the truth is there are a lot of unreported cases out there": {
+                "test:quote": "the truth is there are a lot of unreported cases out there", 
+                "test:type": "quote"
+            }, 
+            "test:his autism wasnt my fault": {
+                "test:quote": "his autism wasnt my fault", 
+                "test:type": "quote"
+            }, 
+            "test:and if you want to believe your kid doesnt need that many shots theres plenty of places to find people who agree with you": {
+                "test:quote": "and if you want to believe your kid doesnt need that many shots theres plenty of places to find people who agree with you", 
+                "test:type": "quote"
+            }, 
+            "test:we know that approach doesnt work": {
+                "test:quote": "we know that approach doesnt work", 
+                "test:type": "quote"
+            }, 
+            "test:my dearest friends have a child with a medical condition that warrants an exemption from vaccinations and should this bill pass it would greatly affect their familys ability to care for their child in this state": {
+                "test:quote": "my dearest friends have a child with a medical condition that warrants an exemption from vaccinations and should this bill pass it would greatly affect their familys ability to care for their child in this state", 
+                "test:type": "quote"
+            }, 
+            "test:today new york is sending a strong message to people across our state that vaccines are safe and effective": {
+                "test:quote": "today new york is sending a strong message to people across our state that vaccines are safe and effective", 
+                "test:type": "quote"
+            }, 
+            "test:we know every parent wants to make the best health decisions for their children": {
+                "test:quote": "we know every parent wants to make the best health decisions for their children", 
+                "test:type": "quote"
+            }, 
+            "test:its fear and love – its fear of doing the wrong thing and loving your kid so much that youll go against an entire scientific community telling you youre wrong just to try and protect them": {
+                "test:quote": "its fear and love – its fear of doing the wrong thing and loving your kid so much that youll go against an entire scientific community telling you youre wrong just to try and protect them", 
+                "test:type": "quote"
+            }, 
+            "test:each comes from a place of love": {
+                "test:quote": "each comes from a place of love", 
+                "test:type": "quote"
+            }, 
+            "test:and then i was at another crossroads where i was like but this was all my fault for so long": {
+                "test:quote": "and then i was at another crossroads where i was like but this was all my fault for so long", 
+                "test:type": "quote"
+            }, 
+            "test:while i understand and respect freedom of religion our first job is to protect the public health and by signing this measure into law we will help prevent further transmissions and stop this outbreak right in its tracks": {
+                "test:quote": "while i understand and respect freedom of religion our first job is to protect the public health and by signing this measure into law we will help prevent further transmissions and stop this outbreak right in its tracks", 
+                "test:type": "quote"
+            }, 
+            "test:i hope the answer to that is no but part of me says yes": {
+                "test:quote": "i hope the answer to that is no but part of me says yes", 
+                "test:type": "quote"
+            }, 
+            "test:for a long time i thought that was my fault": {
+                "test:quote": "for a long time i thought that was my fault", 
+                "test:type": "quote"
+            }, 
+            "test:general public is not at risk": {
+                "test:quote": "general public is not at risk", 
+                "test:type": "quote"
+            }, 
+            "test:but its not further than a plane ride away": {
+                "test:quote": "but its not further than a plane ride away", 
+                "test:type": "quote"
+            }, 
+            "test:i really love helping inform families and helping them make that informed choice": {
+                "test:quote": "i really love helping inform families and helping them make that informed choice", 
+                "test:type": "quote"
+            }, 
+            "test:the suffering we are seeing today is completely avoidable": {
+                "test:quote": "the suffering we are seeing today is completely avoidable", 
+                "test:type": "quote"
+            }, 
+            "test:its not so easy to discern what is real and what is not": {
+                "test:quote": "its not so easy to discern what is real and what is not", 
+                "test:type": "quote"
+            }, 
+            "test:why isnt the medical board dealing with these bad actors": {
+                "test:quote": "why isnt the medical board dealing with these bad actors", 
+                "test:type": "quote"
+            }, 
+            "test:if you talk to younger doctors they will tell you theyve never seen a case of x y or z things that were actually run of the mill generations ago": {
+                "test:quote": "if you talk to younger doctors they will tell you theyve never seen a case of x y or z things that were actually run of the mill generations ago", 
+                "test:type": "quote"
+            }, 
+            "test:first it led many parents to stop vaccinating their kids for no reason": {
+                "test:quote": "first it led many parents to stop vaccinating their kids for no reason", 
+                "test:type": "quote"
+            }, 
+            "test:so clearly it cant be related to a vaccine cause the vaccines havent been given yet": {
+                "test:quote": "so clearly it cant be related to a vaccine cause the vaccines havent been given yet", 
+                "test:type": "quote"
+            }, 
+            "test:they change their reasoning as soon as its disproven and they pick another": {
+                "test:quote": "they change their reasoning as soon as its disproven and they pick another", 
+                "test:type": "quote"
+            }, 
+            "test:the problem is youre infectious even before you have obvious symptoms like the rash": {
+                "test:quote": "the problem is youre infectious even before you have obvious symptoms like the rash", 
+                "test:type": "quote"
+            }, 
+            "test:i think this has been a long time in coming": {
+                "test:quote": "i think this has been a long time in coming", 
+                "test:type": "quote"
+            }, 
+            "test:and i started looking through them": {
+                "test:quote": "and i started looking through them", 
+                "test:type": "quote"
+            }, 
+            "test:everyone on our grounds all of our campers and all of our staff will have either proof of immunity or mmr vaccination": {
+                "test:quote": "everyone on our grounds all of our campers and all of our staff will have either proof of immunity or mmr vaccination", 
+                "test:type": "quote"
+            }, 
+            "test:we are really concerned about reaching the parents in the middle those who feel fearful and confused by the information flying around on all sides": {
+                "test:quote": "we are really concerned about reaching the parents in the middle those who feel fearful and confused by the information flying around on all sides", 
+                "test:type": "quote"
+            }, 
+            "test:promoting misinformation that discourages vaccination defines being an antivaxxer": {
+                "test:quote": "promoting misinformation that discourages vaccination defines being an antivaxxer", 
+                "test:type": "quote"
+            }, 
+            "test:i am not against vaccinations — i support children getting vaccinations and i also support families having the right to make educated medical decisions for their children alongside their physicians": {
+                "test:quote": "i am not against vaccinations — i support children getting vaccinations and i also support families having the right to make educated medical decisions for their children alongside their physicians", 
+                "test:type": "quote"
+            }, 
+            "test:the vast majority of people who are not vaccinating are not the staunch antivaccine movers who will never vaccinate their children no matter what": {
+                "test:quote": "the vast majority of people who are not vaccinating are not the staunch antivaccine movers who will never vaccinate their children no matter what", 
+                "test:type": "quote"
+            }, 
+            "test:im very upset that people have their own opinion and not immunizing the children and putting risk on other children who can get sick": {
+                "test:quote": "im very upset that people have their own opinion and not immunizing the children and putting risk on other children who can get sick", 
+                "test:type": "quote"
+            }, 
+            "test:none of us really know which batch we got": {
+                "test:quote": "none of us really know which batch we got", 
+                "test:type": "quote"
+            }, 
+            "test:vaccination is like having a great sanitation department": {
+                "test:quote": "vaccination is like having a great sanitation department", 
+                "test:type": "quote"
+            }, 
+            "test:i would say we are being donated to by we are being donated to by lawyers by doctors by scientists by entertainers that all believe that this needs to be discussed": {
+                "test:quote": "i would say we are being donated to by we are being donated to by lawyers by doctors by scientists by entertainers that all believe that this needs to be discussed", 
+                "test:type": "quote"
+            }, 
+            "test:and because of that big uncertainty and because one in 59 children have autism we try to latch onto some explanation": {
+                "test:quote": "and because of that big uncertainty and because one in 59 children have autism we try to latch onto some explanation", 
+                "test:type": "quote"
+            }, 
+            "test:senator brad hoylman bradhoylman june 13 2019\n\nthe states that have reported cases to the cdc are arizona california colorado connecticut florida georgia idaho illinois indiana iowa kentucky maine maryland massachusetts michigan missouri new mexico nevada": {
+                "test:quote": "senator brad hoylman bradhoylman june 13 2019\n\nthe states that have reported cases to the cdc are arizona california colorado connecticut florida georgia idaho illinois indiana iowa kentucky maine maryland massachusetts michigan missouri new mexico nevada new hampshire new jersey new york oklahoma oregon pennsylvania texas tennessee virginia and washington", 
+                "test:type": "quote"
+            }, 
+            "test:i felt like everyone was looking at me going what did you do": {
+                "test:quote": "i felt like everyone was looking at me going what did you do", 
+                "test:type": "quote"
+            }, 
+            "test:its one of those things in nursing school that when we went through the childhood diseases unit we learned about it but we kind of glossed over it because it was something that really wasnt seen": {
+                "test:quote": "its one of those things in nursing school that when we went through the childhood diseases unit we learned about it but we kind of glossed over it because it was something that really wasnt seen", 
+                "test:type": "quote"
+            }, 
+            "test:the advisory committee on immunization practices recommends that travelers between 6 and 11 months of age receive an early additional dose if traveling to measles endemic countries": {
+                "test:quote": "the advisory committee on immunization practices recommends that travelers between 6 and 11 months of age receive an early additional dose if traveling to measles endemic countries", 
+                "test:type": "quote"
+            }, 
+            "test:that loss would be a huge blow for the nation and erase the hard work done by all levels of public health": {
+                "test:quote": "that loss would be a huge blow for the nation and erase the hard work done by all levels of public health", 
+                "test:type": "quote"
+            }, 
+            "test:measles is preventable and the way to end this outbreak is to ensure that all children and adults who can get vaccinated do get vaccinated": {
+                "test:quote": "measles is preventable and the way to end this outbreak is to ensure that all children and adults who can get vaccinated do get vaccinated", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "5560": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:there is a role that vaccines are playing in creating the ground work for these childrens immune systems to start to show signs of impairment and destruction"
+            }, 
+            "5178": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+                "prov:activity": "test:the advisory committee on immunization practices recommends that travelers between 6 and 11 months of age receive an early additional dose if traveling to measles endemic countries"
+            }, 
+            "5474": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:i found the vast majority of people that are hesitant that are nervous about it really are just hesitant theyre concerned about stuff that theyve read"
+            }, 
+            "5470": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:ive had patients that have done not a single vaccine for five years and then turned around and chosen to do them"
+            }, 
+            "5510": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:the problem is youre infectious even before you have obvious symptoms like the rash"
+            }, 
+            "5506": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:measles is not a harmless childhood illness but a dangerous highly contagious disease"
+            }, 
+            "5478": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:they just want to do the right thing for their kids"
+            }, 
+            "5586": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:i dont think we have provided the pressure that we should have probably all along"
+            }, 
+            "5276": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:new yorkers have infected people in four other states"
+            }, 
+            "5582": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:what weve done in these months was to offer information in other ways hangers on the doors pamphlets in the synagogues pamphlets at the house"
+            }, 
+            "5378": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and i was looking at alex going how could i do this to him"
+            }, 
+            "5272": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:new york state has recorded more than 800 cases of measles since september stemming from orthodox jewish communities in brooklyn and rockland county"
+            }, 
+            "5628": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:activity": "test:my dearest friends have a child with a medical condition that warrants an exemption from vaccinations and should this bill pass it would greatly affect their familys ability to care for their child in this state"
+            }, 
+            "5374": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:i felt like everyone was looking at me going what did you do"
+            }, 
+            "5376": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:you know how could you do this to him"
+            }, 
+            "5370": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:i felt like i destroyed him"
+            }, 
+            "5372": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:for a long time i thought that was my fault"
+            }, 
+            "5380": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and i started looking through them"
+            }, 
+            "5382": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and then i was at another crossroads where i was like but this was all my fault for so long"
+            }, 
+            "5384": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and then i was crying because i was wrong about that"
+            }, 
+            "5386": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:his autism wasnt my fault"
+            }, 
+            "5460": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:without focusing on the fear tactics but really just understanding the different risks and benefits involved"
+            }, 
+            "5462": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:a huge part of the conversation is building trust"
+            }, 
+            "5466": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:we know that approach doesnt work"
+            }, 
+            "5186": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:activity": "test:if these outbreaks continue through summer and fall the united states may lose its measles elimination status"
+            }, 
+            "5512": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:you wont even know and can infect other people"
+            }, 
+            "5514": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:that has subsequently been totally discredited"
+            }, 
+            "5590": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-measles-outbreak-spreads-to-unvaccinated-children-in-more-counties/", 
+                "prov:activity": "test:im very upset that people have their own opinion and not immunizing the children and putting risk on other children who can get sick"
+            }, 
+            "5264": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:here in new york we protect vulnerable kids and our community—and we reject misinformation and junk science"
+            }, 
+            "5260": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:breaking the new york state senate just passed my bill to end nonmedical exemptions to vaccination"
+            }, 
+            "5612": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vaccine-protesters-rally-as-new-york-lawmakers-consider-ending-religious-exemptions-2019-05-14/", 
+                "prov:activity": "test:i would say we are being donated to by we are being donated to by lawyers by doctors by scientists by entertainers that all believe that this needs to be discussed"
+            }, 
+            "5306": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:we are victims of our success people dont remember how bad measles was how frightening it could be"
+            }, 
+            "5268": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:senator brad hoylman bradhoylman june 13 2019\n\nthe states that have reported cases to the cdc are arizona california colorado connecticut florida georgia idaho illinois indiana iowa kentucky maine maryland massachusetts michigan missouri new mexico nevada"
+            }, 
+            "5222": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:only those individuals who might have been at the airport at the time and dont have immunization against measles"
+            }, 
+            "5390": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:theres all kinds of crazy stuff on the internet"
+            }, 
+            "5394": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:the majority of people are like me – theyre not supercrazy theyre just trying to find the real answers to stuff"
+            }, 
+            "5398": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:first it led many parents to stop vaccinating their kids for no reason"
+            }, 
+            "5604": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:activity": "test:the first five years of the vaccine — some batches of it were not very good"
+            }, 
+            "5606": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:activity": "test:none of us really know which batch we got"
+            }, 
+            "5600": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:activity": "test:the cdc says protection across the country is pretty strong"
+            }, 
+            "5602": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-measles-cases-rise-due-to-new-york-outbreaks/", 
+                "prov:activity": "test:starting in 1963 we started vaccinating"
+            }, 
+            "5494": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:each comes from a place of love"
+            }, 
+            "5224": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:these are hightransit areas we get a very high volume of people coming through from all over the world it is a perfect place to have great swapping of bacteria and viruses"
+            }, 
+            "5490": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and now with her i look down and i have the same thought only opposite where its like i love her so much i cant take her outta the house until i vaccinate her"
+            }, 
+            "5252": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:the legislation comes as the country faces one of the worse measles outbreaks in a generation"
+            }, 
+            "5318": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:i had a fairly mild case of measles"
+            }, 
+            "5256": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:according to the centers for disease control and prevention the number of new measles cases this year has exceeded 1000 in 28 states — the greatest number of cases reported in the us since 1992 and since measles was declared eliminated in 2000"
+            }, 
+            "5564": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:they change their reasoning as soon as its disproven and they pick another"
+            }, 
+            "5310": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:people say why should i bother its not around"
+            }, 
+            "5418": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:it looks for patterns … if you see this pattern at three months youre likely to see autism at three years"
+            }, 
+            "5314": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:but its not further than a plane ride away"
+            }, 
+            "5548": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:the truth is there are a lot of unreported cases out there"
+            }, 
+            "5326": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:in twelve hours she was dead"
+            }, 
+            "5324": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:in an hour she was unconscious"
+            }, 
+            "5322": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:in that era children in the us didnt get through childhood without having measles"
+            }, 
+            "5486": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:the funny thing is that with alex i can remember looking down and thinking i love him too much i cant vaccinate him i cant hurt him that way"
+            }, 
+            "5482": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:its fear and love – its fear of doing the wrong thing and loving your kid so much that youll go against an entire scientific community telling you youre wrong just to try and protect them"
+            }, 
+            "5328": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:if you talk to younger doctors they will tell you theyve never seen a case of x y or z things that were actually run of the mill generations ago"
+            }, 
+            "5406": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:i think one thing that is concerning to parents and to scientists is we dont know what causes autism"
+            }, 
+            "5402": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:second it derailed the course of science by investing all this money to prove that vaccines didnt cause autism rather than try to understand what does cause autism"
+            }, 
+            "5532": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:activity": "test:failure to comply will result in 2000 per violation per day"
+            }, 
+            "5244": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:the science is crystal clear vaccines are safe effective and the best way to keep our children safe"
+            }, 
+            "5572": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:i hope the answer to that is no but part of me says yes"
+            }, 
+            "5438": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:we are really concerned about reaching the parents in the middle those who feel fearful and confused by the information flying around on all sides"
+            }, 
+            "5624": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:activity": "test:i am not against vaccinations — i support children getting vaccinations and i also support families having the right to make educated medical decisions for their children alongside their physicians"
+            }, 
+            "5580": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:this vaccine will cause swelling of the brain"
+            }, 
+            "5332": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:if you dont see something you assume its gone"
+            }, 
+            "5544": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:i think this has been a long time in coming"
+            }, 
+            "5336": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:there was also the kind of personal liberty reasoning that we hear today"
+            }, 
+            "5220": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:general public is not at risk"
+            }, 
+            "5430": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:one thing im concerned about is that even though the science is overwhelming that vaccines dont cause autism there are still people who think vaccines cause autism"
+            }, 
+            "5709": {
+                "prov:entity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/", 
+                "prov:activity": "test:why isnt the medical board dealing with these bad actors"
+            }, 
+            "5434": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:the vast majority of people who are not vaccinating are not the staunch antivaccine movers who will never vaccinate their children no matter what"
+            }, 
+            "5232": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:keep your hands washed if you are going to be touching areas like the kiosk to get your ticket"
+            }, 
+            "5707": {
+                "prov:entity": "test:https://www.cbsnews.com/news/california-bill-that-limits-vaccine-exemptions-heads-to-assembly-passed-senate-today-2019-05-22/", 
+                "prov:activity": "test:this is about keeping our community safe"
+            }, 
+            "5236": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:but we still get sick so its one of those things where i kind of say my prayers and hope for the best"
+            }, 
+            "5556": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:welcome to the truth about vaccines"
+            }, 
+            "5552": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:it holds a lot of unscientific and erroneous information"
+            }, 
+            "5248": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:this administration has taken aggressive action to contain the measles outbreak but given its scale additional steps are needed to end this public health crisis"
+            }, 
+            "5344": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:theres also a degree of ridertype of mentality"
+            }, 
+            "5180": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-report-urges-travelers-get-mmr-vaccine-in-wake-of-record-breaking-european-outbreak/", 
+                "prov:activity": "test:families should discuss with healthcare providers the risk of international travel with infants under 6 months of age"
+            }, 
+            "5228": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cdc-urges-travelers-to-get-vaccinated-before-flying/", 
+                "prov:activity": "test:if you can carry a little bottle of purell or some sort of a hand sanitizer with you"
+            }, 
+            "5340": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:thats sort of like saying im going to use my seat belt every other block"
+            }, 
+            "5424": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:so clearly it cant be related to a vaccine cause the vaccines havent been given yet"
+            }, 
+            "5188": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:activity": "test:that loss would be a huge blow for the nation and erase the hard work done by all levels of public health"
+            }, 
+            "5426": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:do you think the logic and the science at this point with the antivaccine movement spreading is that gonna do it"
+            }, 
+            "5348": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:if somebody is really taking care of whats going on i dont have to worry about it and ill have the benefits of herd immunity"
+            }, 
+            "5422": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:our work is suggesting that were seeing signs of autism at least in the brain as early as three to six months of age long before the mmr vaccine has been given"
+            }, 
+            "5208": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:activity": "test:they were disappointed they were upset and they engaged me in a bit of discussion about the merits of vaccines which i am not in the business of"
+            }, 
+            "5576": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:i literally pray that im not proven right because theres deaths and people then switch their opinion"
+            }, 
+            "5294": {
+                "prov:entity": "test:https://www.cbsnews.com/news/anti-vax-movement-russian-trolls-fueled-anti-vaccination-debate-in-us-by-spreading-misinformation-twitter-study/", 
+                "prov:activity": "test:these outbreaks are due to the antivaccine movement"
+            }, 
+            "5216": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:activity": "test:its one of those things in nursing school that when we went through the childhood diseases unit we learned about it but we kind of glossed over it because it was something that really wasnt seen"
+            }, 
+            "5522": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:vaccine preventable diseases belong in the history books not in our emergency rooms"
+            }, 
+            "5212": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:activity": "test:im in the business of making sure our campers are safe"
+            }, 
+            "5526": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:the suffering we are seeing today is completely avoidable"
+            }, 
+            "5620": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:activity": "test:please say thank you to the courageous jessicabiel for a busy and productive day at the california state house"
+            }, 
+            "5356": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:but when sanitation people came in that changed"
+            }, 
+            "5352": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:from what we know it was really really filthy dirty and dangerous"
+            }, 
+            "5450": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:i really love helping inform families and helping them make that informed choice"
+            }, 
+            "5194": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:activity": "test:the greater danger is the disease that vaccination prevents"
+            }, 
+            "5454": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:my take is that youve got kind of on one side people really scaring you of what might happen if you do something and on the other side people scaring you of what might happen if you dont do something"
+            }, 
+            "5190": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:activity": "test:measles is preventable and the way to end this outbreak is to ensure that all children and adults who can get vaccinated do get vaccinated"
+            }, 
+            "5456": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:so how do you get parents to move forward"
+            }, 
+            "5192": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-cases-in-us-highest-break-25-year-record-cdc-says/", 
+                "prov:activity": "test:again i want to reassure parents that vaccines are safe they do not cause autism"
+            }, 
+            "5414": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:were looking at the continuous eeg – that is the electrical signal that these billions of neurons generate that we pick up at the scalp surface"
+            }, 
+            "5280": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:today new york is sending a strong message to people across our state that vaccines are safe and effective"
+            }, 
+            "5284": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:were putting science ahead of misinformation about vaccines and standing up for the rights of immunocompromised children and adults pregnant women and infants who cant be vaccinated through no fault of their own"
+            }, 
+            "5286": {
+                "prov:entity": "test:https://www.cbsnews.com/news/new-york-is-ending-religious-exemptions-for-vaccines-amid-measles-outbreak/", 
+                "prov:activity": "test:while i understand and respect freedom of religion our first job is to protect the public health and by signing this measure into law we will help prevent further transmissions and stop this outbreak right in its tracks"
+            }, 
+            "5200": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:activity": "test:everyone on our grounds all of our campers and all of our staff will have either proof of immunity or mmr vaccination"
+            }, 
+            "5204": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-summer-deerkill-day-camp-face-a-new-risk-2019-06-13/", 
+                "prov:activity": "test:she had been with us for a few years"
+            }, 
+            "5534": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:activity": "test:and if you want to believe your kid doesnt need that many shots theres plenty of places to find people who agree with you"
+            }, 
+            "5410": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:and because of that big uncertainty and because one in 59 children have autism we try to latch onto some explanation"
+            }, 
+            "5538": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-us-cases-hit-highest-mark-25-years-today-2019-04-24/", 
+                "prov:activity": "test:its not so easy to discern what is real and what is not"
+            }, 
+            "5360": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:vaccination is like having a great sanitation department"
+            }, 
+            "5364": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-vaccine-we-are-victims-of-our-success/", 
+                "prov:activity": "test:youre not aware of what its doing until you dont have it"
+            }, 
+            "5518": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-cases-top-700-as-outbreaks-continue-to-spread/", 
+                "prov:activity": "test:the lead author lost his license"
+            }, 
+            "5442": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:we know every parent wants to make the best health decisions for their children"
+            }, 
+            "5636": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:activity": "test:will the 1 please stop trying to spread preventable diseases to the 99"
+            }, 
+            "5446": {
+                "prov:entity": "test:https://www.cbsnews.com/news/mmr-vaccine-teaching-anti-vax-parents-to-trust-science/", 
+                "prov:activity": "test:so i want to make sure that when parents are examining the facts that they understand exactly whats scientific and whats not and to really be able to separate the truth from the fiction"
+            }, 
+            "5632": {
+                "prov:entity": "test:https://www.cbsnews.com/news/jessica-biel-joins-anti-vaccine-activist-robert-f-kennedy-in-lobbying-against-controversial-bill/", 
+                "prov:activity": "test:promoting misinformation that discourages vaccination defines being an antivaxxer"
+            }, 
+            "5568": {
+                "prov:entity": "test:https://www.cbsnews.com/news/measles-outbreak-tracking-down-the-people-behind-anti-vaccine-pamphlet/", 
+                "prov:activity": "test:some of the religious information they provide is embarrassing"
+            }
+        }
+    }
+}

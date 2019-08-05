@@ -1,0 +1,51 @@
+{
+    "root": "https://beforeitsnews.com/v3/alternative/2019/3686286.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "3210": {
+                "prov:usedEntity": "test:http://www.suppressedhealthsecrets.com", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3686286.html"
+            }, 
+            "3208": {
+                "prov:usedEntity": "test:https://st2.ning.com/topology/rest/1.0/file/get/2767135117?profile=original", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3686286.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3206": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3686286.html", 
+                "prov:agent": "test:Glenn Canady"
+            }, 
+            "3204": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3686286.html", 
+                "prov:agent": "test:beforeitsnews.com"
+            }
+        }, 
+        "agent": {
+            "test:beforeitsnews.com": {
+                "test:publisher": "beforeitsnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Glenn Canady": {
+                "test:name": "Glenn Canady", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:http://www.suppressedhealthsecrets.com": {
+                "test:url": "http://www.suppressedhealthsecrets.com", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/alternative/2019/3686286.html": {
+                "test:url": "https://beforeitsnews.com/v3/alternative/2019/3686286.html", 
+                "test:date": "", 
+                "test:title": "Pro Vaccine Reporter Changes Tune When Cameras Go Off! Boom!", 
+                "test:type": "article"
+            }, 
+            "test:https://st2.ning.com/topology/rest/1.0/file/get/2767135117?profile=original": {
+                "test:url": "https://st2.ning.com/topology/rest/1.0/file/get/2767135117?profile=original", 
+                "test:type": "reference"
+            }
+        }
+    }
+}

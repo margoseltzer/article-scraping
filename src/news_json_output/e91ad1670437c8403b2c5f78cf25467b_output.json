@@ -1,0 +1,1013 @@
+{
+    "root": "https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "4393": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/449525268529815552", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/"
+            }, 
+            "4413": {
+                "prov:usedEntity": "test:https://newspunch.com/cdc-flu-shot-deadly-outbreak/", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4401": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=8BobKXkrt8M", 
+                "prov:generatedEntity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/"
+            }, 
+            "4431": {
+                "prov:usedEntity": "test:http://dadaviz.com/i/3194", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on"
+            }, 
+            "4411": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4421": {
+                "prov:usedEntity": "test:https://www.westernjournal.com/republican-lawmakers-urge-hhs-bury-obamacares-hidden-abortion-surcharge/", 
+                "prov:generatedEntity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/"
+            }, 
+            "4403": {
+                "prov:usedEntity": "test:https://www.facebook.com/huachumawasi/", 
+                "prov:generatedEntity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/"
+            }, 
+            "4389": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?time_continue=132&amp;v=dY7byG1YGwg", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4419": {
+                "prov:usedEntity": "test:https://www.westernjournal.com/ocasio-cortez-mocked-twitter-seeking-travel-suggestions-days-rest/", 
+                "prov:generatedEntity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/"
+            }, 
+            "4383": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=8BobKXkrt8M", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4415": {
+                "prov:usedEntity": "test:https://www.hhs.gov/about/news/2018/01/18/hhs-ocr-announces-new-conscience-and-religious-freedom-division.html", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4387": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=MjCs_gvImyw", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4385": {
+                "prov:usedEntity": "test:https://www.youtube.com/watch?v=jjxwVuozMnU", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4427": {
+                "prov:usedEntity": "test:https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2013/11/11/persuading-the-prescribers-pharmaceutical-industry-marketing-and-its-influence-on-physicians-and-patients", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on"
+            }, 
+            "4379": {
+                "prov:usedEntity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4423": {
+                "prov:usedEntity": "test:https://dailycaller.com/2018/01/18/doj-scotus-pregnancy-centers-abortion/", 
+                "prov:generatedEntity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/"
+            }, 
+            "4377": {
+                "prov:usedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }, 
+            "4425": {
+                "prov:usedEntity": "test:https://www.bbc.com/news/business-28212223", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on"
+            }, 
+            "4399": {
+                "prov:usedEntity": "test:https://www.ncbi.nlm.nih.gov/pubmed/14754936", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/"
+            }, 
+            "4429": {
+                "prov:usedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/09/john-oliver-attacked-big-pharma-last-night-heres-one-important-thing-he-left-out/?noredirect=on", 
+                "prov:generatedEntity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on"
+            }, 
+            "4409": {
+                "prov:usedEntity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4391": {
+                "prov:usedEntity": "test:https://jonrappoport.wordpress.com/2015/07/31/bombshell-cdc-destroyed-vaccine-documents-congressman-reveals/", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/"
+            }, 
+            "4407": {
+                "prov:usedEntity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4395": {
+                "prov:usedEntity": "test:https://www.c-span.org/video/?c4546421/rep-bill-posey-calling-investigation-cdcs-mmr-reasearch-fraud", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/"
+            }, 
+            "4397": {
+                "prov:usedEntity": "test:https://twitter.com/realDonaldTrump/status/507158574670573568", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/"
+            }, 
+            "4417": {
+                "prov:usedEntity": "test:https://www.westernjournal.com/about/ethics-editorial-standards/", 
+                "prov:generatedEntity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/"
+            }, 
+            "4405": {
+                "prov:usedEntity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:generatedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/"
+            }, 
+            "4381": {
+                "prov:usedEntity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:generatedEntity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/"
+            }
+        }, 
+        "wasAttributedTo": {
+            "4260": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:Timothy Meads"
+            }, 
+            "4365": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:February"
+            }, 
+            "4262": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:Matt Vespa"
+            }, 
+            "4296": {
+                "prov:entity": "test:i still have nightmares about that day", 
+                "prov:agent": "test:DeCarlo"
+            }, 
+            "4264": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:Guy Benson"
+            }, 
+            "4266": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:Lauretta"
+            }, 
+            "4311": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:A Libertarian Publication In Washington"
+            }, 
+            "4181": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:agent": "test:wakeup-world.com"
+            }, 
+            "4183": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:agent": "test:Wake Up World"
+            }, 
+            "4367": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:Ana Swanson"
+            }, 
+            "4327": {
+                "prov:entity": "test:nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children", 
+                "prov:agent": "test:Terms of Use You"
+            }, 
+            "4313": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:Reporting Experience. He Graduated With A Degree In Commuication Studies Grove City College"
+            }, 
+            "4229": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:agent": "test:bolenreport.com"
+            }, 
+            "4349": {
+                "prov:entity": "test:we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and others", 
+                "prov:agent": "test:Melling"
+            }, 
+            "4335": {
+                "prov:entity": "test:what a difference one year makes", 
+                "prov:agent": "test:Terms of Use You"
+            }, 
+            "4203": {
+                "prov:entity": "test:law protecting religious freedom and conscience rights are just empty words on paper if they aren’t enforced", 
+                "prov:agent": "test:Roger Severino"
+            }, 
+            "4345": {
+                "prov:entity": "test:they are prioritizing providers’ beliefs over patients’ health and lives", 
+                "prov:agent": "test:Louise Melling"
+            }, 
+            "4227": {
+                "prov:entity": "test:when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose", 
+                "prov:agent": "test:Eric Hargan"
+            }, 
+            "4207": {
+                "prov:entity": "test:no one should be forced to choose between helping sick people and living by one’s deepest moral or religious convictions and the new division will help guarantee that victims of unlawful discrimination find justice", 
+                "prov:agent": "test:Roger Severino"
+            }, 
+            "4223": {
+                "prov:entity": "test:for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system", 
+                "prov:agent": "test:Eric Hargan"
+            }, 
+            "4282": {
+                "prov:entity": "test:what a difference one year makes", 
+                "prov:agent": "test:McCarthy"
+            }, 
+            "4357": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:www.washingtonpost.com"
+            }, 
+            "4149": {
+                "prov:entity": "test:there’s a rumor that he is going to do something in that area", 
+                "prov:agent": "test:Gates"
+            }, 
+            "4363": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:Ana Swanson Covered The Economy"
+            }, 
+            "4161": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "4274": {
+                "prov:entity": "test:nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children", 
+                "prov:agent": "test:McCarthy"
+            }, 
+            "4141": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "4143": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:agent": "test:Sean Adl-Tabatabai"
+            }, 
+            "4319": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:Joe Setyon"
+            }, 
+            "4309": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:www.westernjournal.com"
+            }, 
+            "4215": {
+                "prov:entity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform", 
+                "prov:agent": "test:Roger Severino"
+            }, 
+            "4258": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:Katie Pavlich"
+            }, 
+            "4270": {
+                "prov:entity": "test:we face today a time of rising religious persecution", 
+                "prov:agent": "test:McCarthy"
+            }, 
+            "4211": {
+                "prov:entity": "test:for too long governments big and small have treated conscience claims with hostility instead of protection but change is coming and it begins here and now", 
+                "prov:agent": "test:Roger Severino"
+            }, 
+            "4315": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:D.C."
+            }, 
+            "4199": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:agent": "test:Baxter Dmitry"
+            }, 
+            "4197": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "4278": {
+                "prov:entity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform", 
+                "prov:agent": "test:McCarthy"
+            }, 
+            "4219": {
+                "prov:entity": "test:what a difference one year makes", 
+                "prov:agent": "test:Roger Severino"
+            }, 
+            "4254": {
+                "prov:entity": "test:members of congress explain need for new hhs conscience and religious freedom division", 
+                "prov:agent": "test:Lauretta Brown"
+            }, 
+            "4256": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:agent": "test:townhall.com"
+            }, 
+            "4359": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:The Federal Reserve For The Washington Post. She Left The Post In August"
+            }, 
+            "4286": {
+                "prov:entity": "test:i want to say how good it is thanking ocr rather than suing them", 
+                "prov:agent": "test:Everett Piper"
+            }, 
+            "4331": {
+                "prov:entity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform", 
+                "prov:agent": "test:Terms of Use You"
+            }, 
+            "4353": {
+                "prov:entity": "test:conscience protections for health professionals and religious institutions particularly in the abortion context are longstanding and deeply rooted", 
+                "prov:agent": "test:Richard Garnett"
+            }, 
+            "4153": {
+                "prov:entity": "test:but maybe i and others will convince him that that’s not worthwhile", 
+                "prov:agent": "test:Gates"
+            }, 
+            "4317": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:agent": "test:Reporting. He Previously Worked In Washington"
+            }, 
+            "4159": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:agent": "test:newspunch.com"
+            }, 
+            "4169": {
+                "prov:entity": "test:i’ve gotten to be pretty familiar with the subject", 
+                "prov:agent": "test:Trump"
+            }, 
+            "4292": {
+                "prov:entity": "test:i’ll never forget that day as i watched in horror as the doctor dismembered and removed the baby’s bloody limbs and i had to account for all the pieces", 
+                "prov:agent": "test:DeCarlo"
+            }, 
+            "4361": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:agent": "test:Trade"
+            }
+        }, 
+        "agent": {
+            "test:bolenreport.com": {
+                "test:publisher": "bolenreport.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Joe Setyon": {
+                "test:name": "Joe Setyon", 
+                "test:type": "person"
+            }, 
+            "test:www.westernjournal.com": {
+                "test:publisher": "www.westernjournal.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Timothy Meads": {
+                "test:name": "Timothy Meads", 
+                "test:type": "person"
+            }, 
+            "test:Guy Benson": {
+                "test:name": "Guy Benson", 
+                "test:type": "person"
+            }, 
+            "test:Katie Pavlich": {
+                "test:name": "Katie Pavlich", 
+                "test:type": "person"
+            }, 
+            "test:Gates": {
+                "test:name": "Gates", 
+                "test:type": "person"
+            }, 
+            "test:The Federal Reserve For The Washington Post. She Left The Post In August": {
+                "test:name": "The Federal Reserve For The Washington Post. She Left The Post In August", 
+                "test:type": "person"
+            }, 
+            "test:townhall.com": {
+                "test:publisher": "townhall.com", 
+                "test:type": "publisher"
+            }, 
+            "test:www.washingtonpost.com": {
+                "test:publisher": "www.washingtonpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Baxter Dmitry": {
+                "test:name": "Baxter Dmitry", 
+                "test:type": "person"
+            }, 
+            "test:Eric Hargan": {
+                "test:name": "Eric Hargan", 
+                "test:type": "person"
+            }, 
+            "test:wakeup-world.com": {
+                "test:publisher": "wakeup-world.com", 
+                "test:type": "publisher"
+            }, 
+            "test:D.C.": {
+                "test:name": "D.C.", 
+                "test:type": "person"
+            }, 
+            "test:Roger Severino": {
+                "test:name": "Roger Severino", 
+                "test:type": "person"
+            }, 
+            "test:Melling": {
+                "test:name": "Melling", 
+                "test:type": "person"
+            }, 
+            "test:Louise Melling": {
+                "test:name": "Louise Melling", 
+                "test:type": "person"
+            }, 
+            "test:Ana Swanson Covered The Economy": {
+                "test:name": "Ana Swanson Covered The Economy", 
+                "test:type": "person"
+            }, 
+            "test:Trade": {
+                "test:name": "Trade", 
+                "test:type": "person"
+            }, 
+            "test:Trump": {
+                "test:name": "Trump", 
+                "test:type": "person"
+            }, 
+            "test:Richard Garnett": {
+                "test:name": "Richard Garnett", 
+                "test:type": "person"
+            }, 
+            "test:Lauretta": {
+                "test:name": "Lauretta", 
+                "test:type": "person"
+            }, 
+            "test:Reporting. He Previously Worked In Washington": {
+                "test:name": "Reporting. He Previously Worked In Washington", 
+                "test:type": "person"
+            }, 
+            "test:Terms of Use You": {
+                "test:name": "Terms of Use You", 
+                "test:type": "person"
+            }, 
+            "test:February": {
+                "test:name": "February", 
+                "test:type": "person"
+            }, 
+            "test:Wake Up World": {
+                "test:name": "Wake Up World", 
+                "test:type": "person"
+            }, 
+            "test:Everett Piper": {
+                "test:name": "Everett Piper", 
+                "test:type": "person"
+            }, 
+            "test:DeCarlo": {
+                "test:name": "DeCarlo", 
+                "test:type": "person"
+            }, 
+            "test:Sean Adl-Tabatabai": {
+                "test:name": "Sean Adl-Tabatabai", 
+                "test:type": "person"
+            }, 
+            "test:McCarthy": {
+                "test:name": "McCarthy", 
+                "test:type": "person"
+            }, 
+            "test:newspunch.com": {
+                "test:publisher": "newspunch.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Reporting Experience. He Graduated With A Degree In Commuication Studies Grove City College": {
+                "test:name": "Reporting Experience. He Graduated With A Degree In Commuication Studies Grove City College", 
+                "test:type": "person"
+            }, 
+            "test:Ana Swanson": {
+                "test:name": "Ana Swanson", 
+                "test:type": "person"
+            }, 
+            "test:Lauretta Brown": {
+                "test:name": "Lauretta Brown", 
+                "test:type": "person"
+            }, 
+            "test:A Libertarian Publication In Washington": {
+                "test:name": "A Libertarian Publication In Washington", 
+                "test:type": "person"
+            }, 
+            "test:Matt Vespa": {
+                "test:name": "Matt Vespa", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://www.bbc.com/news/business-28212223": {
+                "test:url": "https://www.bbc.com/news/business-28212223", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/cdc-flu-shot-deadly-outbreak/": {
+                "test:url": "https://newspunch.com/cdc-flu-shot-deadly-outbreak/", 
+                "test:type": "reference"
+            }, 
+            "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/": {
+                "test:url": "https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "test:date": "2018-01-20", 
+                "test:title": "President Trump Drops NUCLEAR BOMB on Vaccine Mandates…", 
+                "test:type": "article"
+            }, 
+            "test:https://www.westernjournal.com/ocasio-cortez-mocked-twitter-seeking-travel-suggestions-days-rest/": {
+                "test:url": "https://www.westernjournal.com/ocasio-cortez-mocked-twitter-seeking-travel-suggestions-days-rest/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.westernjournal.com/republican-lawmakers-urge-hhs-bury-obamacares-hidden-abortion-surcharge/": {
+                "test:url": "https://www.westernjournal.com/republican-lawmakers-urge-hhs-bury-obamacares-hidden-abortion-surcharge/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.youtube.com/watch?v=MjCs_gvImyw": {
+                "test:url": "https://www.youtube.com/watch?v=MjCs_gvImyw", 
+                "test:type": "reference"
+            }, 
+            "test:https://jonrappoport.wordpress.com/2015/07/31/bombshell-cdc-destroyed-vaccine-documents-congressman-reveals/": {
+                "test:url": "https://jonrappoport.wordpress.com/2015/07/31/bombshell-cdc-destroyed-vaccine-documents-congressman-reveals/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.ncbi.nlm.nih.gov/pubmed/14754936": {
+                "test:url": "https://www.ncbi.nlm.nih.gov/pubmed/14754936", 
+                "test:type": "government"
+            }, 
+            "test:https://www.youtube.com/watch?time_continue=132&amp;v=dY7byG1YGwg": {
+                "test:url": "https://www.youtube.com/watch?time_continue=132&amp;v=dY7byG1YGwg", 
+                "test:type": "reference"
+            }, 
+            "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/": {
+                "test:url": "https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "test:date": "2018-06-04", 
+                "test:title": "Why Parents and Scientists – Not Bill Gates – Must Have the Final Say on Vaccine Safety", 
+                "test:type": "article"
+            }, 
+            "test:https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2013/11/11/persuading-the-prescribers-pharmaceutical-industry-marketing-and-its-influence-on-physicians-and-patients": {
+                "test:url": "https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2013/11/11/persuading-the-prescribers-pharmaceutical-industry-marketing-and-its-influence-on-physicians-and-patients", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/trump-ban-mandatory-vaccinations/": {
+                "test:url": "https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "test:date": "2018-01-22", 
+                "test:title": "Trump Lays Groundwork To Ban Mandatory Vaccinations Across U.S.", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/": {
+                "test:url": "https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "test:date": "2016-11-13", 
+                "test:title": "Trump: Vaccines Cause Autism And Will Be Investigated", 
+                "test:type": "article"
+            }, 
+            "test:https://www.westernjournal.com/about/ethics-editorial-standards/": {
+                "test:url": "https://www.westernjournal.com/about/ethics-editorial-standards/", 
+                "test:type": "article"
+            }, 
+            "test:https://www.youtube.com/watch?v=jjxwVuozMnU": {
+                "test:url": "https://www.youtube.com/watch?v=jjxwVuozMnU", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.youtube.com/watch?v=8BobKXkrt8M": {
+                "test:url": "https://www.youtube.com/watch?v=8BobKXkrt8M", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.hhs.gov/about/news/2018/01/18/hhs-ocr-announces-new-conscience-and-religious-freedom-division.html": {
+                "test:url": "https://www.hhs.gov/about/news/2018/01/18/hhs-ocr-announces-new-conscience-and-religious-freedom-division.html", 
+                "test:type": "government"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/507158574670573568": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/507158574670573568", 
+                "test:type": "reference"
+            }, 
+            "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320": {
+                "test:url": "https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "test:date": "2018-01-18", 
+                "test:title": "Members of Congress Explain Need for New HHS Conscience and Religious Freedom Division", 
+                "test:type": "article"
+            }, 
+            "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/": {
+                "test:url": "https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "test:date": "2018-06-23", 
+                "test:title": "Bill Gates: I Stopped Trump From Investigating Vaccines", 
+                "test:type": "article"
+            }, 
+            "test:https://dailycaller.com/2018/01/18/doj-scotus-pregnancy-centers-abortion/": {
+                "test:url": "https://dailycaller.com/2018/01/18/doj-scotus-pregnancy-centers-abortion/", 
+                "test:type": "reference"
+            }, 
+            "test:http://dadaviz.com/i/3194": {
+                "test:url": "http://dadaviz.com/i/3194", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.c-span.org/video/?c4546421/rep-bill-posey-calling-investigation-cdcs-mmr-reasearch-fraud": {
+                "test:url": "https://www.c-span.org/video/?c4546421/rep-bill-posey-calling-investigation-cdcs-mmr-reasearch-fraud", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "test:date": "2015-02-11", 
+                "test:title": "Big pharmaceutical companies are spending far more on marketing than research", 
+                "test:type": "article"
+            }, 
+            "test:https://twitter.com/realDonaldTrump/status/449525268529815552": {
+                "test:url": "https://twitter.com/realDonaldTrump/status/449525268529815552", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/09/john-oliver-attacked-big-pharma-last-night-heres-one-important-thing-he-left-out/?noredirect=on": {
+                "test:url": "https://www.washingtonpost.com/news/wonk/wp/2015/02/09/john-oliver-attacked-big-pharma-last-night-heres-one-important-thing-he-left-out/?noredirect=on", 
+                "test:type": "article"
+            }, 
+            "test:https://www.facebook.com/huachumawasi/": {
+                "test:url": "https://www.facebook.com/huachumawasi/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/": {
+                "test:url": "https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "test:date": "2018-01-19", 
+                "test:title": "Trump’s HHS Targets Obama’s Legacy with New Religious Freedom Division", 
+                "test:type": "article"
+            }
+        }, 
+        "activity": {
+            "test:ask your doctor today if hes taking pharmaceutical company money": {
+                "test:quote": "ask your doctor today if hes taking pharmaceutical company money", 
+                "test:type": "quote"
+            }, 
+            "test:then ask yourself if youre satisfied with that answer": {
+                "test:quote": "then ask yourself if youre satisfied with that answer", 
+                "test:type": "quote"
+            }, 
+            "test:they’re american citizens the same as people who do not choose to practice religious faith": {
+                "test:quote": "they’re american citizens the same as people who do not choose to practice religious faith", 
+                "test:type": "quote"
+            }, 
+            "test:we face today a time of rising religious persecution": {
+                "test:quote": "we face today a time of rising religious persecution", 
+                "test:type": "quote"
+            }, 
+            "test:law protecting religious freedom and conscience rights are just empty words on paper if they aren’t enforced": {
+                "test:quote": "law protecting religious freedom and conscience rights are just empty words on paper if they aren’t enforced", 
+                "test:type": "quote"
+            }, 
+            "test:now if we do a really great job on new vaccines healthcare and reproductive health services we can lower the world population by 1015": {
+                "test:quote": "now if we do a really great job on new vaccines healthcare and reproductive health services we can lower the world population by 1015", 
+                "test:type": "quote"
+            }, 
+            "test:it’s way way up over the past 10 years": {
+                "test:quote": "it’s way way up over the past 10 years", 
+                "test:type": "quote"
+            }, 
+            "test:we’ve had so many instances people that work for me": {
+                "test:quote": "we’ve had so many instances people that work for me", 
+                "test:type": "quote"
+            }, 
+            "test:no one should be forced to choose between helping sick people and living by one’s deepest moral or religious convictions and the new division will help guarantee that victims of unlawful discrimination find justice": {
+                "test:quote": "no one should be forced to choose between helping sick people and living by one’s deepest moral or religious convictions and the new division will help guarantee that victims of unlawful discrimination find justice", 
+                "test:type": "quote"
+            }, 
+            "test:members of congress explain need for new hhs conscience and religious freedom division": {
+                "test:quote": "members of congress explain need for new hhs conscience and religious freedom division", 
+                "test:type": "quote"
+            }, 
+            "test:to me there should be nothing particularly surprising or troubling about an administration this one or any other deciding that the civil rights division should allocate resources to make those protections meaningful": {
+                "test:quote": "to me there should be nothing particularly surprising or troubling about an administration this one or any other deciding that the civil rights division should allocate resources to make those protections meaningful", 
+                "test:type": "quote"
+            }, 
+            "test:in the past this office sent the message now is not the time for freedom it is time for you to conform": {
+                "test:quote": "in the past this office sent the message now is not the time for freedom it is time for you to conform", 
+                "test:type": "quote"
+            }, 
+            "test:i’ve gotten to be pretty familiar with the subject": {
+                "test:quote": "i’ve gotten to be pretty familiar with the subject", 
+                "test:type": "quote"
+            }, 
+            "test:the remaining four coauthors all met and brought a big garbage can into the meeting room and reviewed and went through all the hard copy documents that we had thought we should discard and put them in a huge garbage can": {
+                "test:quote": "the remaining four coauthors all met and brought a big garbage can into the meeting room and reviewed and went through all the hard copy documents that we had thought we should discard and put them in a huge garbage can", 
+                "test:type": "quote"
+            }, 
+            "test:what a difference one year makes": {
+                "test:quote": "what a difference one year makes", 
+                "test:type": "quote"
+            }, 
+            "test:there’s a rumor that he is going to do something in that area": {
+                "test:quote": "there’s a rumor that he is going to do something in that area", 
+                "test:type": "quote"
+            }, 
+            "test:just the other day two years old two and a half years old a child a beautiful child went to have the vaccine and came back and a week later got a tremendous fever got very very sick now is autistic": {
+                "test:quote": "just the other day two years old two and a half years old a child a beautiful child went to have the vaccine and came back and a week later got a tremendous fever got very very sick now is autistic", 
+                "test:type": "quote"
+            }, 
+            "test:this administration isn’t increasing freedom — they’re paving the way for discrimination": {
+                "test:quote": "this administration isn’t increasing freedom — they’re paving the way for discrimination", 
+                "test:type": "quote"
+            }, 
+            "test:we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and otherslouise melling deputy legal director of the a": {
+                "test:quote": "we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and otherslouise melling deputy legal director of the aclu claimed", 
+                "test:type": "quote"
+            }, 
+            "test:world population today has 68 billion people that’s headed up to about 9 billion": {
+                "test:quote": "world population today has 68 billion people that’s headed up to about 9 billion", 
+                "test:type": "quote"
+            }, 
+            "test:conscience protections for health professionals and religious institutions particularly in the abortion context are longstanding and deeply rooted": {
+                "test:quote": "conscience protections for health professionals and religious institutions particularly in the abortion context are longstanding and deeply rooted", 
+                "test:type": "quote"
+            }, 
+            "test:they are prioritizing providers’ beliefs over patients’ health and lives": {
+                "test:quote": "they are prioritizing providers’ beliefs over patients’ health and lives", 
+                "test:type": "quote"
+            }, 
+            "test:and you know when you take a little baby that weighs like 12 pounds into a doctor’s office and they pump them with many many simultaneous vaccinations — i’m all for vaccinations but i think when you add all of these vaccinations together and then tw": {
+                "test:quote": "and you know when you take a little baby that weighs like 12 pounds into a doctor’s office and they pump them with many many simultaneous vaccinations — i’m all for vaccinations but i think when you add all of these vaccinations together and then two months later the baby is so different then lots of different things have happened", 
+                "test:type": "quote"
+            }, 
+            "test:we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and others": {
+                "test:quote": "we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and others", 
+                "test:type": "quote"
+            }, 
+            "test:when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose": {
+                "test:quote": "when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose", 
+                "test:type": "quote"
+            }, 
+            "test:i’ll never forget that day as i watched in horror as the doctor dismembered and removed the baby’s bloody limbs and i had to account for all the pieces": {
+                "test:quote": "i’ll never forget that day as i watched in horror as the doctor dismembered and removed the baby’s bloody limbs and i had to account for all the pieces", 
+                "test:type": "quote"
+            }, 
+            "test:then ask your doctor what the money is for": {
+                "test:quote": "then ask your doctor what the money is for", 
+                "test:type": "quote"
+            }, 
+            "test:i want to say how good it is thanking ocr rather than suing them": {
+                "test:quote": "i want to say how good it is thanking ocr rather than suing them", 
+                "test:type": "quote"
+            }, 
+            "test:in both of those two meetings with donald trump he asked me if vaccines weren’t a bad thing because he was considering a commission to look into illeffects of vaccines… and i said “no… that would be a bad thing don’t do that": {
+                "test:quote": "in both of those two meetings with donald trump he asked me if vaccines weren’t a bad thing because he was considering a commission to look into illeffects of vaccines… and i said “no… that would be a bad thing don’t do that", 
+                "test:type": "quote"
+            }, 
+            "test:but maybe i and others will convince him that that’s not worthwhile": {
+                "test:quote": "but maybe i and others will convince him that that’s not worthwhile", 
+                "test:type": "quote"
+            }, 
+            "test:it’s way up over the past two years": {
+                "test:quote": "it’s way up over the past two years", 
+                "test:type": "quote"
+            }, 
+            "test:ask your doctor if hes taken any money from the companies who make the drugs he just prescribed for you": {
+                "test:quote": "ask your doctor if hes taken any money from the companies who make the drugs he just prescribed for you", 
+                "test:type": "quote"
+            }, 
+            "test:i still have nightmares about that day": {
+                "test:quote": "i still have nightmares about that day", 
+                "test:type": "quote"
+            }, 
+            "test:it’s not violent it’s not done in the name of god but it is a new orthodoxy and it is an intolerant dissent": {
+                "test:quote": "it’s not violent it’s not done in the name of god but it is a new orthodoxy and it is an intolerant dissent", 
+                "test:type": "quote"
+            }, 
+            "test:for too long too many of these health care practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our health care system": {
+                "test:quote": "for too long too many of these health care practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our health care system", 
+                "test:type": "quote"
+            }, 
+            "test:for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system": {
+                "test:quote": "for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system", 
+                "test:type": "quote"
+            }, 
+            "test:for too long governments big and small have treated conscience claims with hostility instead of protection but change is coming and it begins here and now": {
+                "test:quote": "for too long governments big and small have treated conscience claims with hostility instead of protection but change is coming and it begins here and now", 
+                "test:type": "quote"
+            }, 
+            "test:the new division will ensure that we do not repeat the mistakes of the past": {
+                "test:quote": "the new division will ensure that we do not repeat the mistakes of the past", 
+                "test:type": "quote"
+            }, 
+            "test:nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children": {
+                "test:quote": "nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children", 
+                "test:type": "quote"
+            }, 
+            "test:i really — i’ve known cases": {
+                "test:quote": "i really — i’ve known cases", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "4303": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and otherslouise melling deputy legal director of the a"
+            }, 
+            "4329": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform"
+            }, 
+            "4300": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system"
+            }, 
+            "4307": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:this administration isn’t increasing freedom — they’re paving the way for discrimination"
+            }, 
+            "4305": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:they are prioritizing providers’ beliefs over patients’ health and lives"
+            }, 
+            "4249": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose"
+            }, 
+            "4246": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system"
+            }, 
+            "4323": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:it’s not violent it’s not done in the name of god but it is a new orthodoxy and it is an intolerant dissent"
+            }, 
+            "4185": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:activity": "test:in both of those two meetings with donald trump he asked me if vaccines weren’t a bad thing because he was considering a commission to look into illeffects of vaccines… and i said “no… that would be a bad thing don’t do that"
+            }, 
+            "4243": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:what a difference one year makes"
+            }, 
+            "4187": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:activity": "test:there’s a rumor that he is going to do something in that area"
+            }, 
+            "4290": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:i’ll never forget that day as i watched in horror as the doctor dismembered and removed the baby’s bloody limbs and i had to account for all the pieces"
+            }, 
+            "4209": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:for too long governments big and small have treated conscience claims with hostility instead of protection but change is coming and it begins here and now"
+            }, 
+            "4373": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:activity": "test:ask your doctor if hes taken any money from the companies who make the drugs he just prescribed for you"
+            }, 
+            "4347": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:we may not know exactly what this new division will look like in practice but we do know that this means they prioritize religious liberty over the health and civil rights of women transgender people and others"
+            }, 
+            "4225": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose"
+            }, 
+            "4201": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:law protecting religious freedom and conscience rights are just empty words on paper if they aren’t enforced"
+            }, 
+            "4343": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:they are prioritizing providers’ beliefs over patients’ health and lives"
+            }, 
+            "4221": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:for too long too many of these healthcare practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our healthcare system"
+            }, 
+            "4341": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:when faithful americans are bullied out of the public square and out of public service when bigotry is allowed to flourish we all lose"
+            }, 
+            "4205": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:no one should be forced to choose between helping sick people and living by one’s deepest moral or religious convictions and the new division will help guarantee that victims of unlawful discrimination find justice"
+            }, 
+            "4167": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:i’ve gotten to be pretty familiar with the subject"
+            }, 
+            "4165": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:just the other day two years old two and a half years old a child a beautiful child went to have the vaccine and came back and a week later got a tremendous fever got very very sick now is autistic"
+            }, 
+            "4371": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:activity": "test:then ask your doctor what the money is for"
+            }, 
+            "4163": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:we’ve had so many instances people that work for me"
+            }, 
+            "4284": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:i want to say how good it is thanking ocr rather than suing them"
+            }, 
+            "4280": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:what a difference one year makes"
+            }, 
+            "4145": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:activity": "test:in both of those two meetings with donald trump he asked me if vaccines weren’t a bad thing because he was considering a commission to look into illeffects of vaccines… and i said “no… that would be a bad thing don’t do that"
+            }, 
+            "4147": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:activity": "test:there’s a rumor that he is going to do something in that area"
+            }, 
+            "4298": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:the new division will ensure that we do not repeat the mistakes of the past"
+            }, 
+            "4268": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:we face today a time of rising religious persecution"
+            }, 
+            "4337": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:the new division will ensure that we do not repeat the mistakes of the past"
+            }, 
+            "4321": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:we face today a time of rising religious persecution"
+            }, 
+            "4375": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:activity": "test:then ask yourself if youre satisfied with that answer"
+            }, 
+            "4272": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children"
+            }, 
+            "4217": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:what a difference one year makes"
+            }, 
+            "4252": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:members of congress explain need for new hhs conscience and religious freedom division"
+            }, 
+            "4276": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform"
+            }, 
+            "4213": {
+                "prov:entity": "test:https://newspunch.com/trump-ban-mandatory-vaccinations/", 
+                "prov:activity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform"
+            }, 
+            "4339": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:for too long too many of these health care practitioners have been bullied and discriminated against because of their religious beliefs and moral convictions leaving many of them to wonder whether they have a future in our health care system"
+            }, 
+            "4325": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:nuns have been forced to put aside their lives of service of the elderly and sit and have to go to court humbly requesting that they not be required to pay for practices that end the lives of children"
+            }, 
+            "4195": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:activity": "test:now if we do a really great job on new vaccines healthcare and reproductive health services we can lower the world population by 1015"
+            }, 
+            "4193": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:activity": "test:world population today has 68 billion people that’s headed up to about 9 billion"
+            }, 
+            "4190": {
+                "prov:entity": "test:https://wakeup-world.com/2018/06/04/why-parents-and-scientists-not-bill-gates-must-have-the-final-say-on-vaccine-safety/", 
+                "prov:activity": "test:but maybe i and others will convince him that that’s not worthwhile"
+            }, 
+            "4333": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:what a difference one year makes"
+            }, 
+            "4177": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:i really — i’ve known cases"
+            }, 
+            "4240": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:in the past this office sent the message now is not the time for freedom it is time for you to conform"
+            }, 
+            "4237": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:for too long governments big and small have treated conscience claims with hostility instead of protection but change is coming and it begins here and now"
+            }, 
+            "4355": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:to me there should be nothing particularly surprising or troubling about an administration this one or any other deciding that the civil rights division should allocate resources to make those protections meaningful"
+            }, 
+            "4234": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:no one should be forced to choose between helping sick people and living by one’s deepest moral or religious convictions and the new division will help guarantee that victims of unlawful discrimination find justice"
+            }, 
+            "4351": {
+                "prov:entity": "test:https://www.westernjournal.com/trumps-hhs-targets-obamas-legacy-with-new-religious-freedom-division/", 
+                "prov:activity": "test:conscience protections for health professionals and religious institutions particularly in the abortion context are longstanding and deeply rooted"
+            }, 
+            "4231": {
+                "prov:entity": "test:https://bolenreport.com/president-trump-drops-nuclear-bomb-vaccine-mandates/", 
+                "prov:activity": "test:law protecting religious freedom and conscience rights are just empty words on paper if they aren’t enforced"
+            }, 
+            "4171": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:it’s way way up over the past 10 years"
+            }, 
+            "4175": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:and you know when you take a little baby that weighs like 12 pounds into a doctor’s office and they pump them with many many simultaneous vaccinations — i’m all for vaccinations but i think when you add all of these vaccinations together and then tw"
+            }, 
+            "4151": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:activity": "test:but maybe i and others will convince him that that’s not worthwhile"
+            }, 
+            "4157": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:activity": "test:now if we do a really great job on new vaccines healthcare and reproductive health services we can lower the world population by 1015"
+            }, 
+            "4155": {
+                "prov:entity": "test:https://newspunch.com/bill-gates-stopped-trump-investigating-vaccines/", 
+                "prov:activity": "test:world population today has 68 billion people that’s headed up to about 9 billion"
+            }, 
+            "4294": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:i still have nightmares about that day"
+            }, 
+            "4369": {
+                "prov:entity": "test:https://www.washingtonpost.com/news/wonk/wp/2015/02/11/big-pharmaceutical-companies-are-spending-far-more-on-marketing-than-research/?noredirect=on", 
+                "prov:activity": "test:ask your doctor today if hes taking pharmaceutical company money"
+            }, 
+            "4173": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:it’s way up over the past two years"
+            }, 
+            "4179": {
+                "prov:entity": "test:https://newspunch.com/trump-vaccines-cause-autism-investigated/", 
+                "prov:activity": "test:the remaining four coauthors all met and brought a big garbage can into the meeting room and reviewed and went through all the hard copy documents that we had thought we should discard and put them in a huge garbage can"
+            }, 
+            "4288": {
+                "prov:entity": "test:https://townhall.com/tipsheet/laurettabrown/2018/01/18/members-of-congress-explain-need-for-new-hhs-conscience-and-religious-freedom-division-n2436320", 
+                "prov:activity": "test:they’re american citizens the same as people who do not choose to practice religious faith"
+            }
+        }
+    }
+}

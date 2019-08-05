@@ -3,26 +3,21 @@ import subprocess, shlex
 import json
 import nltk
 import re
-nltk.download('punkt')
 
 """
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
 
 """Path to StanfordCoreNLP Library"""
-stanfordLibrary = "../../stanford-corenlp-full-2018-10-05"
+stanfordLibrary = "../stanford-corenlp-full-2018-10-05"
 
 class StanfordNLP(object):
-    def __init__(self):
-        self.nlp = StanfordCoreNLP(stanfordLibrary, memory='6g', quiet=True)  # , quiet=False, logging_level=logging.DEBUG)
+    def __init__(self, host='http://localhost', port=9000):
+        self.nlp = StanfordCoreNLP('http://localhost:9000' timeout=80000)  # , quiet=False, logging_level=logging.DEBUG)
         self.props = {
             'annotators': 'tokenize,ssplit,pos,lemma,ner,depparse,parse,coref,quote',
-            'ner.applyFineGrained': 'False',
-            'ner.applyNumericClassifiers': 'False',
-            'ssplit.newlineIsSentenceBreak': 'always',
             'pipelineLanguage': 'en',
-            'outputFormat': 'json',
-            'timeout': 150000
+            'outputFormat': 'json'
         }
 
     def annotate(self, sentence):
@@ -49,12 +44,12 @@ class StanfordNLP(object):
         sentences = nltk.tokenize.sent_tokenize(entry[0])
         toReturn = []
         for sentence in sentences:
-            sentence = re.sub(r"^\W+|[^\w.!,?]+$", "", sentence)            
+            re.sub(r"^\W+|[^\w.!,?]+$", "", sentence)
             isFullSentence = False
             if sentence.endswith(('?','!','.',',')) and sentence[0].isupper():
                 isFullSentence = True
             wordCount = len(tokenizer.tokenize(sentence))
-            if wordCount > 5: 
+            if isFullSentence or wordCount > 5: 
                 toReturn.append([sentence, entry[1], isFullSentence])
         
         return toReturn
@@ -71,5 +66,13 @@ class StanfordNLP(object):
             }
         return tokens
     
-    def close(self):
-        self.nlp.close()
+    @staticmethod
+    def startNLPServer():
+        args = shlex.split("java -Xmx10g -cp " + stanfordLibrary + "/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 75000 -quiet True")
+        subprocess.Popen(args)
+
+    @staticmethod
+    def closeNLPServer():
+        # subprocess.run(["wget", '\"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\"', '-O', '-'], stdout=subprocess.PIPE)
+        args = shlex.split("wget \"localhost:9000/shutdown?key=`cat /tmp/corenlp.shutdown`\" -O -")
+        subprocess.Popen(args)

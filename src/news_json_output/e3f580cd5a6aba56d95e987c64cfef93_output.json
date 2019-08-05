@@ -1,0 +1,197 @@
+{
+    "root": "https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "4139": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Ask-Eight-Questions.aspx", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4129": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4131": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Vaccine-Memorial.aspx", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4133": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Forms/Cry-For-Vaccine-Freedom-Wall.aspx", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4127": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://articles.mercola.com/sites/articles/archive/2019/07/02/new-york-repeals-religious-vaccine-exemption.aspx", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4135": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://nvicadvocacy.org/", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }, 
+            "4137": {
+                "prov:usedEntity": "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/forms/vaccine-failure-wall.aspx", 
+                "prov:generatedEntity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "4097": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:agent": "test:Waking Times"
+            }, 
+            "4095": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:agent": "test:beforeitsnews.com"
+            }, 
+            "4125": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/r2/?url=https://articles.mercola.com/sites/articles/archive/2019/07/02/new-york-repeals-religious-vaccine-exemption.aspx", 
+                "prov:agent": "test:beforeitsnews.com"
+            }, 
+            "4101": {
+                "prov:entity": "test:this new law which was rammed through the new york legislature in one day without public participation in the democratic process violates the human right to hold religious and spiritual beliefs that honor and protect bodily integrity", 
+                "prov:agent": "test:Barbara Loe Fisher"
+            }, 
+            "4107": {
+                "prov:entity": "test:it was a very dark day in new york for families with vaccine injured children", 
+                "prov:agent": "test:Dawn Richardson"
+            }, 
+            "4111": {
+                "prov:entity": "test:they had to witness industry backed misinformation being manipulated for the purpose of denying parents the right to obtain an exemption for sincere religious beliefs for children dependent on critical special education and therapies received at school", 
+                "prov:agent": "test:Dawn Richardson"
+            }, 
+            "4119": {
+                "prov:entity": "test:new york has joined mississippi west virginia maine and california as states that do not respect freedom of thought conscience and religious beliefs which are foundational liberties considered to be among the most important human rights", 
+                "prov:agent": "test:Barbara Loe Fisher"
+            }
+        }, 
+        "agent": {
+            "test:Dawn Richardson": {
+                "test:name": "Dawn Richardson", 
+                "test:type": "person"
+            }, 
+            "test:Barbara Loe Fisher": {
+                "test:name": "Barbara Loe Fisher", 
+                "test:type": "person"
+            }, 
+            "test:Waking Times": {
+                "test:name": "Waking Times", 
+                "test:type": "person"
+            }, 
+            "test:beforeitsnews.com": {
+                "test:publisher": "beforeitsnews.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Ask-Eight-Questions.aspx": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Ask-Eight-Questions.aspx", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/forms/vaccine-failure-wall.aspx": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/forms/vaccine-failure-wall.aspx", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html": {
+                "test:url": "https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "test:date": "", 
+                "test:title": "NY bill removes vaccine exemptions without public hearing", 
+                "test:type": "article"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Vaccine-Memorial.aspx": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Vaccine-Memorial.aspx", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://articles.mercola.com/sites/articles/archive/2019/07/02/new-york-repeals-religious-vaccine-exemption.aspx": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://articles.mercola.com/sites/articles/archive/2019/07/02/new-york-repeals-religious-vaccine-exemption.aspx", 
+                "test:date": "2019-07-02", 
+                "test:title": "", 
+                "test:type": "article"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Forms/Cry-For-Vaccine-Freedom-Wall.aspx": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/Forms/Cry-For-Vaccine-Freedom-Wall.aspx", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://www.nvic.org/", 
+                "test:type": "reference"
+            }, 
+            "test:https://beforeitsnews.com/v3/r2/?url=https://nvicadvocacy.org/": {
+                "test:url": "https://beforeitsnews.com/v3/r2/?url=https://nvicadvocacy.org/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:new york has joined mississippi west virginia maine and california as states that do not respect freedom of thought conscience and religious beliefs which are foundational liberties considered to be among the most important human rights": {
+                "test:quote": "new york has joined mississippi west virginia maine and california as states that do not respect freedom of thought conscience and religious beliefs which are foundational liberties considered to be among the most important human rights", 
+                "test:type": "quote"
+            }, 
+            "test:at the end of the day removing longstanding religious belief exemptions will not prevent measles from circulating in new york or any other state": {
+                "test:quote": "at the end of the day removing longstanding religious belief exemptions will not prevent measles from circulating in new york or any other state", 
+                "test:type": "quote"
+            }, 
+            "test:when a government has to resort to forcing parents to choose between violating their religious beliefs and conscience or giving their children a school education that government has chosen to rule by fear and coercion and will lose the respect and trust o": {
+                "test:quote": "when a government has to resort to forcing parents to choose between violating their religious beliefs and conscience or giving their children a school education that government has chosen to rule by fear and coercion and will lose the respect and trust of the people", 
+                "test:type": "quote"
+            }, 
+            "test:today more americans understand that “no exceptions” public health laws which force use of a liability free pharmaceutical product in the name of the greater good is a prescription for tyranny": {
+                "test:quote": "today more americans understand that “no exceptions” public health laws which force use of a liability free pharmaceutical product in the name of the greater good is a prescription for tyranny", 
+                "test:type": "quote"
+            }, 
+            "test:this action by the government of new york will only reinvigorate the vaccine safety and informed consent movement founded in 1982 by parents of dpt vaccine injured children": {
+                "test:quote": "this action by the government of new york will only reinvigorate the vaccine safety and informed consent movement founded in 1982 by parents of dpt vaccine injured children", 
+                "test:type": "quote"
+            }, 
+            "test:this new law which was rammed through the new york legislature in one day without public participation in the democratic process violates the human right to hold religious and spiritual beliefs that honor and protect bodily integrity": {
+                "test:quote": "this new law which was rammed through the new york legislature in one day without public participation in the democratic process violates the human right to hold religious and spiritual beliefs that honor and protect bodily integrity", 
+                "test:type": "quote"
+            }, 
+            "test:it was a very dark day in new york for families with vaccine injured children": {
+                "test:quote": "it was a very dark day in new york for families with vaccine injured children", 
+                "test:type": "quote"
+            }, 
+            "test:they had to witness industry backed misinformation being manipulated for the purpose of denying parents the right to obtain an exemption for sincere religious beliefs for children dependent on critical special education and therapies received at school": {
+                "test:quote": "they had to witness industry backed misinformation being manipulated for the purpose of denying parents the right to obtain an exemption for sincere religious beliefs for children dependent on critical special education and therapies received at school", 
+                "test:type": "quote"
+            }, 
+            "test:the democratic process is designed to be inclusive and move slowly and deliberately over the course of an entire legislative session but in new york this year the democratic process was subverted betraying those affected the most by this one day political": {
+                "test:quote": "the democratic process is designed to be inclusive and move slowly and deliberately over the course of an entire legislative session but in new york this year the democratic process was subverted betraying those affected the most by this one day political stunt", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "4123": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:today more americans understand that “no exceptions” public health laws which force use of a liability free pharmaceutical product in the name of the greater good is a prescription for tyranny"
+            }, 
+            "4099": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:this new law which was rammed through the new york legislature in one day without public participation in the democratic process violates the human right to hold religious and spiritual beliefs that honor and protect bodily integrity"
+            }, 
+            "4117": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:new york has joined mississippi west virginia maine and california as states that do not respect freedom of thought conscience and religious beliefs which are foundational liberties considered to be among the most important human rights"
+            }, 
+            "4103": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:when a government has to resort to forcing parents to choose between violating their religious beliefs and conscience or giving their children a school education that government has chosen to rule by fear and coercion and will lose the respect and trust o"
+            }, 
+            "4115": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:at the end of the day removing longstanding religious belief exemptions will not prevent measles from circulating in new york or any other state"
+            }, 
+            "4105": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:it was a very dark day in new york for families with vaccine injured children"
+            }, 
+            "4113": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:the democratic process is designed to be inclusive and move slowly and deliberately over the course of an entire legislative session but in new york this year the democratic process was subverted betraying those affected the most by this one day political"
+            }, 
+            "4109": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:they had to witness industry backed misinformation being manipulated for the purpose of denying parents the right to obtain an exemption for sincere religious beliefs for children dependent on critical special education and therapies received at school"
+            }, 
+            "4121": {
+                "prov:entity": "test:https://beforeitsnews.com/v3/alternative/2019/3691388.html", 
+                "prov:activity": "test:this action by the government of new york will only reinvigorate the vaccine safety and informed consent movement founded in 1982 by parents of dpt vaccine injured children"
+            }
+        }
+    }
+}

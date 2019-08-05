@@ -1,0 +1,107 @@
+{
+    "root": "https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+    "bundle": {
+        "wasDerivedFrom": {
+            "3746": {
+                "prov:usedEntity": "test:https://www.naturalnews.com", 
+                "prov:generatedEntity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html"
+            }, 
+            "3744": {
+                "prov:usedEntity": "test:https://vaccinedamage.news/", 
+                "prov:generatedEntity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html"
+            }, 
+            "3748": {
+                "prov:usedEntity": "test:https://www.drugwatch.com/news/", 
+                "prov:generatedEntity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3742": {
+                "prov:entity": "test:merck knew or should have known that its product caused viral infection and was therefore not safe", 
+                "prov:agent": "test:Bell"
+            }, 
+            "3728": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:agent": "test:www.naturalnews.com"
+            }, 
+            "3738": {
+                "prov:entity": "test:i think on some level it’s by design", 
+                "prov:agent": "test:Bell"
+            }, 
+            "3734": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:agent": "test:Vicki Batts"
+            }, 
+            "3732": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:agent": "test:Tuesday"
+            }, 
+            "3730": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:agent": "test:August"
+            }
+        }, 
+        "agent": {
+            "test:August": {
+                "test:name": "August", 
+                "test:type": "person"
+            }, 
+            "test:Bell": {
+                "test:name": "Bell", 
+                "test:type": "person"
+            }, 
+            "test:Vicki Batts": {
+                "test:name": "Vicki Batts", 
+                "test:type": "person"
+            }, 
+            "test:www.naturalnews.com": {
+                "test:publisher": "www.naturalnews.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Tuesday": {
+                "test:name": "Tuesday", 
+                "test:type": "person"
+            }
+        }, 
+        "entity": {
+            "test:https://vaccinedamage.news/": {
+                "test:url": "https://vaccinedamage.news/", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html": {
+                "test:url": "https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "test:date": "2018-08-28", 
+                "test:title": "Shingles vaccine responsible for causing huge number of shingles cases, vaccine injuries", 
+                "test:type": "article"
+            }, 
+            "test:https://www.naturalnews.com": {
+                "test:url": "https://www.naturalnews.com", 
+                "test:type": "reference"
+            }, 
+            "test:https://www.drugwatch.com/news/": {
+                "test:url": "https://www.drugwatch.com/news/", 
+                "test:type": "reference"
+            }
+        }, 
+        "activity": {
+            "test:i think on some level it’s by design": {
+                "test:quote": "i think on some level it’s by design", 
+                "test:type": "quote"
+            }, 
+            "test:merck knew or should have known that its product caused viral infection and was therefore not safe": {
+                "test:quote": "merck knew or should have known that its product caused viral infection and was therefore not safe", 
+                "test:type": "quote"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3736": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:activity": "test:i think on some level it’s by design"
+            }, 
+            "3740": {
+                "prov:entity": "test:https://www.naturalnews.com/2018-08-28-shingles-vaccine-responsible-for-more-shingles-vaccine-injury.html", 
+                "prov:activity": "test:merck knew or should have known that its product caused viral infection and was therefore not safe"
+            }
+        }
+    }
+}

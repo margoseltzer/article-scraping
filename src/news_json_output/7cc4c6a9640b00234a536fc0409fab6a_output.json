@@ -1,0 +1,57 @@
+{
+    "root": "https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html", 
+    "bundle": {
+        "entity": {
+            "test:https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html": {
+                "test:url": "https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html", 
+                "test:date": "2019-06-06", 
+                "test:title": "Why Is The Measles Narrative Changing?", 
+                "test:type": "article"
+            }
+        }, 
+        "wasGeneratedBy": {
+            "3214": {
+                "prov:entity": "test:https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html", 
+                "prov:activity": "test:before widespread use of the measles vaccine an estimated 3 to 4 million people got measles each year in the united states along with an estimated 400 to 500 deaths and 48000 hospitalizations"
+            }, 
+            "3218": {
+                "prov:entity": "test:https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html", 
+                "prov:activity": "test:the national childhood vaccine injury act ncvia of 1986 42 usc"
+            }
+        }, 
+        "wasAttributedTo": {
+            "3216": {
+                "prov:entity": "test:before widespread use of the measles vaccine an estimated 3 to 4 million people got measles each year in the united states along with an estimated 400 to 500 deaths and 48000 hospitalizations", 
+                "prov:agent": "test:Moms"
+            }, 
+            "3220": {
+                "prov:entity": "test:the national childhood vaccine injury act ncvia of 1986 42 usc", 
+                "prov:agent": "test:Moms"
+            }, 
+            "3212": {
+                "prov:entity": "test:https://www.activistpost.com/2019/06/why-is-the-measles-narrative-changing.html", 
+                "prov:agent": "test:www.activistpost.com"
+            }
+        }, 
+        "agent": {
+            "test:www.activistpost.com": {
+                "test:publisher": "www.activistpost.com", 
+                "test:type": "publisher"
+            }, 
+            "test:Moms": {
+                "test:name": "Moms", 
+                "test:type": "person"
+            }
+        }, 
+        "activity": {
+            "test:the national childhood vaccine injury act ncvia of 1986 42 usc": {
+                "test:quote": "the national childhood vaccine injury act ncvia of 1986 42 usc", 
+                "test:type": "quote"
+            }, 
+            "test:before widespread use of the measles vaccine an estimated 3 to 4 million people got measles each year in the united states along with an estimated 400 to 500 deaths and 48000 hospitalizations": {
+                "test:quote": "before widespread use of the measles vaccine an estimated 3 to 4 million people got measles each year in the united states along with an estimated 400 to 500 deaths and 48000 hospitalizations", 
+                "test:type": "quote"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "root": "https://www.bbc.com/news/av/world-asia-48644136/measles-vaccine-fears-cost-me-my-children", 
+    "bundle": {
+        "wasAttributedTo": {
+            "8085": {
+                "prov:entity": "test:https://www.bbc.com/news/av/world-asia-48644136/measles-vaccine-fears-cost-me-my-children", 
+                "prov:agent": "test:www.bbc.com"
+            }
+        }, 
+        "agent": {
+            "test:www.bbc.com": {
+                "test:publisher": "www.bbc.com", 
+                "test:type": "publisher"
+            }
+        }, 
+        "entity": {
+            "test:https://www.bbc.com/news/av/world-asia-48644136/measles-vaccine-fears-cost-me-my-children": {
+                "test:url": "https://www.bbc.com/news/av/world-asia-48644136/measles-vaccine-fears-cost-me-my-children", 
+                "test:date": "", 
+                "test:title": "Measles vaccine fears cost me my children", 
+                "test:type": "article"
+            }
+        }
+    }
+}
