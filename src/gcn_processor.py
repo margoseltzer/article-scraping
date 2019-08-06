@@ -157,10 +157,11 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
         typ = obj_dict[k]['type']
         if typ == 'article':
             url = obj_dict[k]['val']
-            y_i = article_label_dic[url] if url in article_label_dic else -1
-            y.append(int(y_i))
-        else: 
-            print(typ)
+            if url in article_label_dic:
+                y_i = article_label_dic[url] 
+                y.append(int(y_i))
+            else: 
+                print(url)
     return y
 
 def remove_prefix(adj_mat, fts_mat):
@@ -206,18 +207,35 @@ def get_data_for_gcn(adj_dict, fts_mat, y, n, d):
 
     allx = csr_matrix(np.array(fts_mat))
     
-    return allx[:20], ally[:20], allx[:120], ally[:120], allx[120:], ally[120:], graph
+    for n in ally:
+        print(n)
+    print(ally[80:100])
+    return allx[80:100], ally[80:100], allx[:80], ally[:80], allx[80:], ally[80:], graph
     # return x, y, tx, ty, allx, ally, graph
 
+def save_articles(obj_dict, aid_fid_dict, article_label_dic):
+    with open(dirpath + 'articles.csv', mode='w') as f:
+        headers = ['url', 'label'] 
+        writer = csv.DictWriter(f, fieldnames=headers)
+        for art, _ in aid_fid_dict.items():
+            print(obj_dict[art])
+            url = obj_dict[art]['val']
+            y_i = article_label_dic[url] 
+            # if url in article_label_dic else -1
+            writer.writerow({
+                'url': url,
+                'label': y_i
+            }) 
+    # print('1'+1)
 
 # Paths for labeled data files from data dir
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
              'data_from_Kaggle.csv',
              'fakeNewsNet_data/politifact_real.csv', 
              'fakeNewsNet_data/politifact_fake.csv',]
-
+file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-saved_file_name = store_labeled_articles(file_list)
+saved_file_name = store_labeled_articles(file_list2)
 
 article_label_dic = get_article_dict(saved_file_name)
 
@@ -244,15 +262,28 @@ aid_adj_dict, aid_fid_dict = link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, o
 # ex) if art1--q1--p1--q2--art2, then p1 is the feature of art1 and art2 but art1 and art2 are not connected
 aid_fid_dict = handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
 
+# save_articles(obj_dict, aid_fid_dict, article_label_dic)
+
 # Add label vector on obj_dict  
 y = get_y(aid_adj_dict, article_label_dic, obj_dict)
-
+# print('1'+1)
 n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 
 adj_dict, fts_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
 adj_mat, fts_mat   = convert_dict_to_mat(adj_dict, fts_dict, n, d)
 
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, fts_mat, y, n, d)
+# print("1"+1)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -322,7 +353,6 @@ print('     trash :', len(set(i)))
 print('         n :', len(set(f)))
 
 
-
 e = []
 f = []
 g = []
@@ -369,5 +399,15 @@ print('         n :', len(set(f)))
 print('     y len :', len(y))
 
 print('DONE')
+
+
+
+
+
+
+
+
+
+
 
 train.train(x, y, tx, ty, allx, ally, graph)

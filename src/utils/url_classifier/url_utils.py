@@ -77,7 +77,7 @@ class UrlUtils(object):
         return res
 
     def is_valid_url(self, url):
-        print('is_valid_url')
+        # print('is_valid_url')
         # for sitiuation get('href') return None
         if not url:
             return False
