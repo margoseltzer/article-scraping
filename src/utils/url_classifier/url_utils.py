@@ -68,6 +68,7 @@ class UrlUtils(object):
         pass
     
     def is_news_article(self, url):
+        print('is_news_article')
         if '/article/' in url or '/articles/' in url:
             return True
         res = self._is_article(url) and self._is_news(url)
@@ -76,6 +77,7 @@ class UrlUtils(object):
         return res
 
     def is_valid_url(self, url):
+        print('is_valid_url')
         # for sitiuation get('href') return None
         if not url:
             return False
@@ -92,13 +94,14 @@ class UrlUtils(object):
             return False   
 
     def return_actual_url(self, url):
+        print('return_actual_url')
         ''' This method replace a shorten or rediecting url to actual url'''
         ''' TODO the training set is made of urls tht might redirect, including this method seems not to work so might need another training set '''
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3723.0 Safari/537.36'}
         try:
             url_real = url
             req = Request(url=url, headers=headers)
-            page_real = urlopen(req)
+            page_real = urlopen(req, timeout=1)
 
             if hasattr(page_real, 'getcode'):
                 if page_real.getcode() is 200:
@@ -114,10 +117,12 @@ class UrlUtils(object):
         return not UrlUtils.UNSURE_LIST.search(url)
 
     def is_gov_page(self, url):
+        print('is_gov_page')
         domName = urlparse(url).netloc
         return not not UrlUtils.GOV_LIST.search(domName)
     
     def is_reference(self, url):
+        print('is_reference')
         return not not UrlUtils.UNSURE_LIST.search(url) or not UrlUtils.BLACK_LIST.search(url)
     
     def add_domain(self, a_tag, domain):

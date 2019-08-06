@@ -43,9 +43,14 @@ class Article_Classifier(object):
             if not self.news3k:
                 news3k  = Article(self.url)
                 self.news3k = news3k
+            print('run_libs1')
             self.news3k.build()
+            print('run_libs2')
             self.news3k.download()
+            print('run_libs3')
             self.news3k.parse()
+            print('run_libs4')
+            return
         except Exception as e:
             print('Err occured from news3k : ', e)
             raise e
@@ -58,14 +63,14 @@ class Article_Classifier(object):
 
     def extract_features(self):
         self._run_libraries()
-
+        print('extract_features1')
         if self.news3k:
             meta           = self.news3k.meta_data if self.news3k.meta_data else {}
             meta_kwords    =  self.news3k.meta_keywords
             sub_domain     = self.url[self.url[8:].index('/') + 8 :] 
             sub_domain_arr = self.url.split('/') if sub_domain[len(sub_domain)-1] != '/' else self.url.split('/')[:-1]
             meta_tag_arr   = BeautifulSoup(self.news3k.html, features='lxml').find_all('meta')
-            
+            print('extract_features2')
             res = [ self.newspl.authors[0]        if self.newspl and len(self.newspl.authors)           else self.news3k.authors      or  None,
                     self.newspl.date_publish      if self.newspl and self.newspl.date_publish           else self.news3k.publish_date or  None,
                     meta['og']['price']['amount'] if 'og'      in meta and 'price'   in meta['og']      else None,
@@ -79,7 +84,7 @@ class Article_Classifier(object):
                     sub_domain_arr                                                                               ,
                     meta_tag_arr                                                                                 ,
                     self.news3k.text ]
-
+            print('extract_features3')
         else:
             res = None
         
@@ -136,9 +141,11 @@ class Article_Classifier(object):
         return False
     
     def predict(self):
+        print('predict1')
         self.extract_features()
+        print('predict2')
         self.convert_into_bin()
-
+        print('predict3')
         self.bin_f[9]  = (self.bin_f[9]  - self.stats['mu_9'])  / self.stats['sd_9']
         self.bin_f[10] = (self.bin_f[10] - self.stats['mu_10']) / self.stats['sd_10']
         self.bin_f[11] = (self.bin_f[11] - self.stats['mu_11']) / self.stats['sd_11']
@@ -153,7 +160,7 @@ class Article_Classifier(object):
         # dataset musht have features from column 1 to the one before the last column and the last column is y
         # TODO training set is based on not actual urls meaning some urls are redirecting url
         data = genfromtxt(dirpath + '/train_xy.csv', delimiter=',')
-
+        print('training 1')
         n, d = data.shape
 
         x_train = data[:, 1:d-5]
@@ -184,7 +191,7 @@ class Article_Classifier(object):
         self.stats['sd_12'] = sd_12
 
         np.savetxt(dirpath + '/recent_train_x.csv', x_train, delimiter=",")
-        
+        print('training 2')
         clf = svm.SVC(gamma='scale', kernel='rbf', degree=7)
         clf.fit(x_train, y_train.ravel()) 
         return clf

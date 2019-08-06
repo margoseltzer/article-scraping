@@ -179,10 +179,10 @@ class NewsArticle(object):
             for url in urls_no_dup:
                 print(url)
                 url = url_utils.return_actual_url(url)
-                if not url_utils.is_valid_url(url) : continue
-                elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
-                elif url_utils.is_news_article(url): links['articles'].append(url)
-                elif url_utils.is_reference(url)   : links['unsure'].append(url)
+                # if not url_utils.is_valid_url(url) : continue
+                # elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
+                # elif url_utils.is_news_article(url): links['articles'].append(url)
+                # elif url_utils.is_reference(url)   : links['unsure'].append(url)
                 if not url_utils.is_valid_url(url) : 
                     print('NOT VALID ', url)
                     continue
@@ -389,13 +389,13 @@ def handle_url_list_file(file_name, depth):
             csv_reader = csv.DictReader(f)
             line_count = 0
             fail_list = []
-            idx = 1
+            idx = 0
             url_utils = UrlUtils()
             for row in csv_reader:
-                # if idx <= 10: 
-                #     print(idx)
-                #     idx += 1
-                #     continue
+                if idx <= 47: 
+                    print(idx)
+                    idx += 1
+                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
@@ -405,7 +405,7 @@ def handle_url_list_file(file_name, depth):
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
-                rsp = handle_one_url(url, depth, 'politifact'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(url, depth, 'article'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
