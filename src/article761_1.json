@@ -1,0 +1,83 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/clinton-trump-birther-racist-228735?cmpid=sf",
+        "title": "Clinton on Trump's birther claim: A 'racist lie'",
+        "authors": [
+            {
+                "name": "Shane Goldmacher",
+                "link": null
+            },
+            {
+                "name": "Nahal Toosi",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Clinton on Trump's birther claim: A 'racist lie'\nDonald Trump defended his long-running questioning of President Barack Obama's birthplace during Monday's presidential debate, while Hillary Clinton called it a \"racist lie\" that \"can't be dismissed that easily.\"\nDuring a segment on racial healing, Trump repeatedly praised himself for pushing the president to produce his long-form birth certificate in 2011. The document proved Obama was born in Hawaii.\nStory Continued Below\n\"I think I did a great job and a great service not only for the country but even for the president in getting him to produce his birth certificate,\" Trump said. As moderator Lester Holt tried to ask Trump what he would say to Americans worried about the racial dimensions of birtherism, Trump cut off the question and said: \"I say nothing, because I was able to get him to produce it.\"\nThe Republican nominee also insisted that it was Clinton associates who first tried to peddle false rumors that Obama was born in Kenya. He further pointed to Clinton's tough Democratic primary clash with Obama in the 2008 presidential race in claiming that she had treated the president with disrespect.\nClinton used the exchange to raise reports of how, back in the 1970s, some of Trump's properties were sued for racial discrimination because they would not rent apartments to African Americans.\n\"He has a long record of engaging in racist behavior. And the birther lie was a very hurtful one,\" Clinton said. \"Barack Obama is a man of great dignity. And I could tell how much it bothered him and annoyed him is that this was being touted and used against him.\"\nTrump retorted by saying his company had settled \"the suit with zero -- no admission of guilt.\" He also insisted that he's formed strong relationships with African Americans \"over the last little while.\"\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "can't be dismissed that easily.",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "I think I did a great job and a great service not only for the country but even for the president in getting him to produce his birth certificate,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "I say nothing, because I was able to get him to produce it.",
+                "",
+                true
+            ],
+            [
+                "He has a long record of engaging in racist behavior.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And the birther lie was a very hurtful one,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "Barack Obama is a man of great dignity.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And I could tell how much it bothered him and annoyed him is that this was being touted and used against him.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "the suit with zero -- no admission of guilt.",
+                "Donald Trump",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/09/trump-clinton-first-debate-fights-228710"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "president",
+            "claim",
+            "obama",
+            "produce",
+            "racial",
+            "clinton",
+            "trumps",
+            "racist",
+            "trump",
+            "great",
+            "lie",
+            "birther",
+            "used"
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/20/politics/dhs-report-citizenship-deportations/index.html",
+        "title": "Number of those wrongly given citizenship higher than initially reported",
+        "authors": [
+            {
+                "name": "Anchor",
+                "link": null
+            },
+            {
+                "name": "Jake Tapper",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-20",
+        "text": "Number of those wrongly given citizenship higher than initially reported\nBy Jake Tapper , Anchor and Chief Washington Correspondent\nUpdated 6:56 PM ET, Tue September 20, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nMore than 1,800 individuals who were naturalized should have been deported from the country\nDHS said it would review all 1,811 individuals \"out of an abundance of caution\"\nWashington (CNN)\nThe number of individuals who were supposed to have been deported but were instead granted citizenship is far higher than was initially reported by media covering the Department of Homeland Security Inspector General's office report on the matter.\nOn Monday, the Inspector General reported that 858 individuals from \"special interest countries\" -- meaning countries that are considered to be \"of concern to the national security\" of the US -- were supposed to have been deported but were instead granted US citizenship.\nBut the truth is the report is even worse than reported, with more than 1,800 individuals naturalized who should have been deported from the country.\nA reason for the underplaying of the number may have been the report's focus, which was whether the US Citizenship and Immigration Services was using digital fingerprints effectively. The Inspector General determined that the agency granted citizenship to 858 individuals who had been ordered deported or removed under another identity but \"their digital fingerprint records were not available\" during the naturalization process.\nBut a footnote on page one of the report also states that there were, as of November 2015, an additional 953 individuals about whom the Inspector General couldn't determine if there was a problem with the fingerprint records specifically, but also should have been deported. This other group consisted of members of a slightly broader classification, from countries of concern as well as from neighboring countries where there is a history of fraud.\nRead More\nThat amounts to a total of 1,811 individuals granted citizenship who should not have been.\nThe Department of Homeland Security responded to the report, saying it would review all 1,811 individuals \"out of an abundance of caution.\"\nMonday's report drew condemnation from many Republicans in Congress, including Sen. Ben Sasse, R-Nebraska, who said \"a bureaucracy that blunders so badly is one that doesn't take our national security seriously.\"\nThe White House said Tuesday it's \"clear\" some systems need improving following a glitch with DHS' fingerprint system that led to hundreds of people inadvertently being granted citizenship.\n\"It's clear there needs to be an improvement in terms of digitizing some of the fingerprint records,\" said White House spokesman Josh Earnest. \"Additional progress would have been made if additional resources had been appropriated by Congress.\"\nHe said the Obama administration \"certainly takes seriously the consideration that is made in terms of protecting our national security in terms of our immigration system.\"\nCNN's Kevin Liptak contributed to this report.\n",
+        "quotes": [
+            [
+                "out of an abundance of caution",
+                "",
+                false
+            ],
+            [
+                "of concern to the national security",
+                "",
+                false
+            ],
+            [
+                "their digital fingerprint records were not available",
+                "",
+                false
+            ],
+            [
+                "out of an abundance of caution.",
+                "",
+                false
+            ],
+            [
+                "a bureaucracy that blunders so badly is one that doesn't take our national security seriously.",
+                "Ben Sasse",
+                false
+            ],
+            [
+                "It's clear there needs to be an improvement in terms of digitizing some of the fingerprint records,",
+                "Josh Earnest",
+                true
+            ],
+            [
+                "Additional progress would have been made if additional resources had been appropriated by Congress.",
+                "Josh Earnest",
+                true
+            ],
+            [
+                "certainly takes seriously the consideration that is made in terms of protecting our national security in terms of our immigration system.",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "number",
+            "granted",
+            "deported",
+            "initially",
+            "higher",
+            "individuals",
+            "reported",
+            "supposed",
+            "wrongly",
+            "citizenship",
+            "report",
+            "countries",
+            "given",
+            "inspector",
+            "general"
+        ]
+    }
+]

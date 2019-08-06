@@ -1,0 +1,85 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/21/politics/chris-coons-new-day-interview-donald-trump-ukraine/index.html",
+        "title": "Ukrainian President says he wasn't snubbed by Trump; cites scheduling conflict",
+        "authors": [
+            {
+                "name": "Elise Labott",
+                "link": null
+            },
+            {
+                "name": "David Wright",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-21",
+        "text": "Ukrainian President says he wasn't snubbed by Trump; cites scheduling conflict\nUpdated 8:59 PM ET, Wed September 21, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nChris Coons said Donald Trump rejected a requested meeting with the President of Ukraine\nCoons linked Trump's decision to questions about the GOP nominee's relationship with Russia\n(CNN)\nUkrainian President Petro Poroshenko says he and Donald Trump missed a chance to meet this week due to scheduling problems -- a different version of events than put forward by a Democratic senator.\nSen. Chris Coons of Delaware said Wednesday that Poroshenko sought a meeting with the GOP nominee during the United Nations General Assembly in New York but was ignored.\n\"Earlier this summer, I led a bipartisan delegation to Eastern Europe. We visited Ukraine in particular, and I know President Poroshenko of Ukraine was seeking a meeting with Donald Trump while he was in New York meeting with the president of Egypt, and was rejected,\" the Delaware Democrat told CNN \"New Day\" host Chris Cuomo.\nBut Poroshenko says that's not how it happened.\n\"We don't have any refusal,\" the Ukrainian president said in an interview on CNN's \"Fareed Zakaria GPS,\" chalking it up to a scheduling conflict during a crammed few days of meeting with 22 heads of state.\nRead More\nPoroshenko said he didn't take the lack of a meeting with Trump as a snub, citing bipartisan support in for his country in Congress.\nEarlier Wednesday a Ukrainian official confirmed to CNN that Poroshenko's office requested a meeting with both Trump and Democratic presidential nominee Hillary Clinton but only received a response from Clinton, who agreed to the meeting.\nA message left with Trump's campaign Wednesday was not immediately returned.\nTrump did meet Monday with Egyptian President Abdel Fattah el-Sisi, during which the two discussed \"the strategic bilateral relationship between the US and Egypt,\" according to a Trump campaign statement after the meeting.\nClinton's meeting with Poroshenko took place just a few minutes before Trump met with el Sisi a short distance away. Before that meeting the Democratic nominee said she was looking forward to talking about the challenges Ukraine faces, primarily \"the very real problems and threats from Russian aggression.\" Clinton added that she was \"anxious to know how we can be supportive of those efforts.\"\nCoons -- a vocal supporter of Clinton for president -- was quick to link Trump's decision not to meet with Poroshenko to positive comments Trump has made about Russian President Vladimir Putin and his country, a primary geopolitical antagonist to Ukraine.\n\"Donald Trump's statements about Ukraine and Putin suggest a dangerous lack of familiarity with Putin's actual record of invading a neighboring country and a dangerous lack of respect for or familiarity with our NATO treaty alliances,\" he said.\nCoons continued, \"In meetings I had with heads of state in recent days here in New York City, they all expressed real concern or questions about Donald Trump's readiness or fitness to serve as president.\"\nTrump's rhetoric on Ukraine and Russia throughout the US presidential election has prompted criticism and scrutiny, even from members of his own party .\n",
+        "quotes": [
+            [
+                "Earlier this summer, I led a bipartisan delegation to Eastern Europe.",
+                "",
+                true
+            ],
+            [
+                "We visited Ukraine in particular, and I know President Poroshenko of Ukraine was seeking a meeting with Donald Trump while he was in New York meeting with the president of Egypt, and was rejected,",
+                "",
+                true
+            ],
+            [
+                "We don't have any refusal,",
+                "",
+                true
+            ],
+            [
+                "the strategic bilateral relationship between the US and Egypt,",
+                "Donald Trump",
+                false
+            ],
+            [
+                "the very real problems and threats from Russian aggression.",
+                "Clinton",
+                false
+            ],
+            [
+                "anxious to know how we can be supportive of those efforts.",
+                "Clinton",
+                false
+            ],
+            [
+                "Donald Trump's statements about Ukraine and Putin suggest a dangerous lack of familiarity with Putin's actual record of invading a neighboring country and a dangerous lack of respect for or familiarity with our NATO treaty alliances,",
+                "Putin",
+                true
+            ],
+            [
+                "In meetings I had with heads of state in recent days here in New York City, they all expressed real concern or questions about Donald Trump's readiness or fitness to serve as president.",
+                "Chris Coons",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.cnn.com/2015/10/22/politics/donald-trump-lindsey-graham-new-low/",
+                "https://www.cnn.com/2016/09/19/politics/trump-clinton-egypt-fattah-el-sisi/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "president",
+            "cites",
+            "ukrainian",
+            "wasnt",
+            "poroshenko",
+            "meeting",
+            "trump",
+            "donald",
+            "scheduling",
+            "chris",
+            "snubbed",
+            "ukraine",
+            "conflict",
+            "york"
+        ]
+    }
+]

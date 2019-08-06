@@ -1,0 +1,77 @@
+[
+    {
+        "url": "https://money.cnn.com/2016/09/27/media/trump-holt-presidential-debate/index.html",
+        "title": "Donald Trump: 'Lester Holt did a great job'",
+        "authors": [
+            {
+                "name": "Dylan Byers",
+                "link": null
+            }
+        ],
+        "publisher": "money.cnn.com",
+        "publish_date": "2016-09-27",
+        "text": "by Dylan Byers   @CNNMoney September 27, 2016: 1:48 AM ET\nTrump says Lester Holt did 'a great job'\nDonald Trump praised Lester Holt's performance as moderator of Monday night's presidential debate, contradicting claims by his supporters that Holt had been unfair.\n\"I thought Lester did a great job. Honestly, I thought Lester did a great job,\" Trump told CNNMoney shortly after the debate was over.\nWhen asked if the questions had been fair, Trump replied: \"Yeah, I thought it was very fair.\"\nTrump's positive assessment of the moderator was matched by his own campaign manager, who said Holt \"did a great job as a moderator under tough circumstances,\" as well as many media critics and observers on social media.\nBut even as the candidate said that, an opposite consensus was building among his supporters, surrogates and members of the conservative media.\n\"Lester Holt clearly heard the cries of his colleagues in the liberal media to be tough on Trump and ease up on Hillary loud and clear,\" Brent Bozell, the president of the right-wing watchdog Media Research Center, said in a statement. \"Lester Holt failed in his role as a moderator. Period.\"\nDrudge Report, the influential conservative aggregator, led its site with stories from Heat Street and Washington Examiner that claimed Holt had been \"the third debater,\" and that his fact-checking was \"opinion journalism.\"\nFor most of the debate, however, Holt held back, allowing the two candidates to debate -- a move that was in line with the expectations of the Commission on Presidential Debates.\n\"Points to Lester Holt for standing aside and letting Trump and Clinton go at it,\" Adam Nagourney, the New York Times' Los Angeles bureau chief, wrote on Twitter.\nOthers questioned his absence: \"Apparently Lester Holt went to the bathroom, way down the hall, and only one urinal is available and there is a line,\" National Review columnists Jim Geraghty tweeted.\nAs the debate wore on, however, Holt stepped up to fact-check Trump on claims about his refusal to release his tax returns, his claim that he opposed the Iraq War and his history of questioning President Barack Obama's citizenship.\nCNNMoney (New York) First published September 27, 2016: 12:59 AM ET\nNewsletter\n© 2019 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.\nCNN Sans™ & © 2016 Cable News Network.\n",
+        "quotes": [
+            [
+                "I thought Lester did a great job.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Honestly, I thought Lester did a great job,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Yeah, I thought it was very fair.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "did a great job as a moderator under tough circumstances,",
+                "Lester Holt",
+                false
+            ],
+            [
+                "Lester Holt clearly heard the cries of his colleagues in the liberal media to be tough on Trump and ease up on Hillary loud and clear,",
+                "Brent Bozell",
+                true
+            ],
+            [
+                "Lester Holt failed in his role as a moderator.",
+                "Brent Bozell",
+                true
+            ],
+            [
+                "Points to Lester Holt for standing aside and letting Trump and Clinton go at it,",
+                "Adam Nagourney",
+                true
+            ],
+            [
+                "Apparently Lester Holt went to the bathroom, way down the hall, and only one urinal is available and there is a line,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/intent/user?screen_name=CNNMoney"
+            ]
+        },
+        "key_words": [
+            "job",
+            "thought",
+            "trump",
+            "debate",
+            "great",
+            "donald",
+            "moderator",
+            "clinton",
+            "lester",
+            "media",
+            "holt"
+        ]
+    }
+]

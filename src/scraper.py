@@ -392,7 +392,7 @@ def handle_url_list_file(file_name, depth):
             idx = 0
             url_utils = UrlUtils()
             for row in csv_reader:
-                if idx <= 47: 
+                if idx <= 144: 
                     print(idx)
                     idx += 1
                     continue

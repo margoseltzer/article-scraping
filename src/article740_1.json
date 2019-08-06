@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/chelsea-clinton-donald-trump-228821?cmpid=sf",
+        "title": "Chelsea Clinton: Father’s infidelity talk just 'a distraction’",
+        "authors": [
+            {
+                "name": "Matthew Nussbaum",
+                "link": null
+            },
+            {
+                "name": "Cristiano Lima",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "Chelsea Clinton: Father’s infidelity talk just 'a distraction’\nChelsea Clinton is in no rush to thank Donald Trump for not mentioning Bill Clinton’s infidelity during Monday night’s presidential debate.\nThe daughter of Democratic nominee Hillary Clinton pushed back against Trump’s claim that he was proud to not have resurfaced the former president’s past out of “respect” for her in an interview with Cosmopolitan on Tuesday, saying the Republican candidate is only seeking to sidestep real issues.\nStory Continued Below\n“It’s a distraction from his inability to talk about what’s actually at stake in this election and to offer concrete, comprehensive proposals about the economy, or our public school system, or debt-free college, or keeping our country safe and Americans safe here at home and around the world,” she said.\nChelsea, a friend of Trump’s daughter Ivanka, went on to attack Trump for his repeated attacks against women and minority groups, saying those are “far more troubling than whatever his most recent screed against my mom or my family [is].”\nBy MATTHEW NUSSBAUM\n“What I find most troubling by far,\" she said, “are Trump’s continued, relentless attacks on whole swaths of our country and even our global community: women, Muslims, Americans with disabilities, [and] a Gold Star family.”\nTrump told reporters following Monday’s debate he was pleased about not attacking the Clinton’s marital affairs, citing Chelsea as the primary reason.\n“I’m very happy that I was able to hold back on the indiscretions with respect to Bill Clinton,” he said. “Because I have a lot of respect for Chelsea Clinton and I just didn’t want to say what I was going to say.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "It’s a distraction from his inability to talk about what’s actually at stake in this election and to offer concrete, comprehensive proposals about the economy, or our public school system, or debt-free college, or keeping our country safe and Americans safe here at home and around the world,",
+                "Chelsea Clinton",
+                true
+            ],
+            [
+                "far more troubling than whatever his most recent screed against my mom or my family [is].",
+                "",
+                false
+            ],
+            [
+                "are Trump’s continued, relentless attacks on whole swaths of our country and even our global community: women, Muslims, Americans with disabilities, [and] a Gold Star family.",
+                "Chelsea Clinton",
+                false
+            ],
+            [
+                "I’m very happy that I was able to hold back on the indiscretions with respect to Bill Clinton,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Because I have a lot of respect for Chelsea Clinton and I just didn’t want to say what I was going to say.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.cosmopolitan.com/politics/a3880605/chelsea-clinton-reaction-first-presidential-debate/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "talk",
+            "country",
+            "clinton",
+            "trumps",
+            "trump",
+            "troubling",
+            "women",
+            "fathers",
+            "chelsea",
+            "infidelity",
+            "attacks",
+            "respect",
+            "distraction"
+        ]
+    }
+]

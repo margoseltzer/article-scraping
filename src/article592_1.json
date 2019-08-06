@@ -1,0 +1,116 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/27/politics/dnc-cyberattack-400-pound-hackers/index.html",
+        "title": "Is Trump right? Could a 400-pound couch potato have hacked the DNC?",
+        "authors": [
+            {
+                "name": "Tal Kopan",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-27",
+        "text": "Is Trump right? Could a 400-pound couch potato have hacked the DNC?\nUpdated 9:26 PM ET, Tue September 27, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nTrump has been accused of being too friendly toward Moscow and President Vladimir Putin\nThe short answer is no: An individual could not have pulled off this hack\nWashington (CNN)\nRussia might be behind the hack of the Democratic National Committee, according to US officials and lawmakers -- but not Donald Trump.\nThe Republican presidential nominee came up with many alternative possibilities at the first general election debate on Monday night.\n\"It could be Russia, but it could also be China. It could also be lots of other people,\" he said during the first presidential debate. \"It also could be somebody sitting on their bed that weighs 400 pounds.\"\nHe also devoted a portion of his answer about cyberattacks to the precociousness of his 10-year-old son.\n\"So we have to get very, very tough on cyber and cyber warfare. It is a huge problem. I have a son. He's 10 years old. He has computers. He is so good with these computers, it's unbelievable. The security aspect of cyber is very, very tough. And maybe it's hardly doable,\" he said.\nRead More\nRep. Adam Schiff, the top Democrat on the House Intelligence Committee, said maybe Trump is confused about where the hacker's \"bed\" lies.\n\"My guess is if this guy weighs 400 pounds he's sitting somewhere in Russia right now,\" Schiff told CNN's Wolf Blitzer on \"The Situation Room\" Tuesday. \"I just find this, like his statements about ISIS that played into Russian propaganda, really deplorable.\"\nAnd cyber experts say the remarks seem unaware of the seriousness of the threat.\n\"I was pretty surprised during the debate -- there is no ambiguity here,\" former Obama administration cybersecurity official Chris Finan said.\n\"Everybody knows who did it. So to suggest it was an individual -- and the other thing is -- these intrusion sets are fairly sophisticated,\" said Finan, now CEO at Manifold Technology. \"To say it was an individual or lone actor or small group, that to me shows a lack of appreciation about the threat and how sophisticated and pernicious it is.\"\nSo how on-target was Trump with his cybersecurity comments? Here are some expert perspectives.\nCould a 400-pound hacker have pulled the DNC breach off?\nThe short answer is no, said Dmitri Alperovitch, co-founder of CrowdStrike, the cybersecurity firm that investigated and responded to the hack of the DNC.\nIt's nearly impossible to know any hacker's weight. But one thing that is clear to experts like Alperovitch is that government-backed hackers are well-staffed and well-resourced, using very particular software, break-in tactics and cover-up techniques that act as a signature of each group.\nIn the case of the DNC, CrowdStrike discovered two groups inside the system, working unbeknownst to the other, which are well-known as Russian-linked hacking operations and have breached dozens or even hundreds of high-value targets like government agencies, high-level officials' offices and think tanks.\nAlperovitch said it was \"pretty unlikely\" an individual could have mimicked all the various ways that these groups are distinct, from the software to the \"tradecraft.\" Let alone the other targets bearing the same signatures.\nThere has been some official talk of Russian involvement, hasn't there?\nUS officials have only pointed at Russia anonymously, not wanting to ruffle the delicate Moscow-Washington relationship at this point.o\nBut US officials from President Barack Obama on down have warned about Russia efforts to interfere in the election through hacking.\nDirector of National Intelligence James Clapper has been one of the more forward-leaning.\n\"They see a US conspiracy behind every bush,\" Clapper said a few weeks ago when asked if the Russians wanted to disrupt the presidential vote. \"They believe that we are trying to influence political developments in Russia, and so their natural response is to retaliate.\"\nCould an individual hacker still do damage?\nMost definitely. Beyond Russia and other nation-state attackers and financially motivated criminal operators, often organized in mafia-like gangs, there are also lone-wolf hackers. Experts divide them into categories like \"hacktivists\" and \"script kiddies,\" opportunistic hackers motivated by notoriety or fame.\nExamples include Guccifer, a now-convicted Romanian hacker who recently pleaded guilty to hacking the accounts of the family of President George W. Bush and former Secretary of State Colin Powell.\n(A character claiming credit for the DNC hack surfaced online going by \"Guccifer 2.0,\" but Alperovitch said that was just an attempt to divert suspicion from the Russians as the Guccifer redux\" has been proven to not natively speak Romanian.\")\nIn another case, two North Carolina men were arrested for allegedly breaking into the email accounts of CIA Director John Brennan and National Intelligence Director James Clapper.\nHow do individuals go about their hacking?\nWhile carrying out an attack the level of the DNC hack requires skill and manpower that individuals don't possess, attacks like breaking a few email accounts is within the realm of a single hacker.\nOften the perpetrators use what's known as social engineering -- gathering clues about a person from their public life online and then using it to guess passwords or security questions to get into accounts and release the contents online.\nBut that's still probably beyond the abilities of most 10-year-olds.\n",
+        "quotes": [
+            [
+                "It could be Russia, but it could also be China.",
+                "",
+                true
+            ],
+            [
+                "It could also be lots of other people,",
+                "",
+                true
+            ],
+            [
+                "It also could be somebody sitting on their bed that weighs 400 pounds.",
+                "",
+                true
+            ],
+            [
+                "So we have to get very, very tough on cyber and cyber warfare.",
+                "",
+                true
+            ],
+            [
+                "He is so good with these computers, it's unbelievable.",
+                "",
+                true
+            ],
+            [
+                "The security aspect of cyber is very, very tough.",
+                "",
+                true
+            ],
+            [
+                "And maybe it's hardly doable,",
+                "",
+                true
+            ],
+            [
+                "My guess is if this guy weighs 400 pounds he's sitting somewhere in Russia right now,",
+                "Schiff",
+                true
+            ],
+            [
+                "I just find this, like his statements about ISIS that played into Russian propaganda, really deplorable.",
+                "Schiff",
+                true
+            ],
+            [
+                "I was pretty surprised during the debate -- there is no ambiguity here,",
+                "Chris Finan",
+                true
+            ],
+            [
+                "So to suggest it was an individual -- and the other thing is -- these intrusion sets are fairly sophisticated,",
+                "Finan",
+                true
+            ],
+            [
+                "To say it was an individual or lone actor or small group, that to me shows a lack of appreciation about the threat and how sophisticated and pernicious it is.",
+                "Finan",
+                true
+            ],
+            [
+                "They see a US conspiracy behind every bush,",
+                "Clapper",
+                true
+            ],
+            [
+                "They believe that we are trying to influence political developments in Russia, and so their natural response is to retaliate.",
+                "Clapper",
+                true
+            ],
+            [
+                "has been proven to not natively speak Romanian.",
+                "Alperovitch",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "couch",
+            "russia",
+            "weighs",
+            "warfare",
+            "trump",
+            "tough",
+            "potato",
+            "debate",
+            "dnc",
+            "400pound",
+            "cyber",
+            "hacked",
+            "computers",
+            "right",
+            "vladimir",
+            "presidential",
+            "answer"
+        ]
+    }
+]

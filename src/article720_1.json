@@ -1,0 +1,66 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/bernie-sanders-campaign-for-clinton-228701?cmpid=sf",
+        "title": "Sanders planning a ‘very, very vigorous’ Clinton stump schedule",
+        "authors": [
+            {
+                "name": "Madeline Conway",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "By MADELINE CONWAY\nVermont Sen. Bernie Sanders is planning a “very, very vigorous” travel schedule to campaign on behalf of Hillary Clinton in the weeks leading up to the November election, he said Monday.\nSanders, in an interview before Monday night’s first general election debate, told MSNBC’s Brian Williams and Rachel Maddow that he plans to “go all over this country” to advocate for Clinton, the Democratic nominee and his former opponent in the party’s often-contentious primary elections.\nStory Continued Below\n“We’re working on a schedule right now, which is going to be a very, very vigorous schedule,” Sanders said. “We’re going to go all over this country. We’re going to go wherever Secretary Clinton’s people think that I am needed, and I am going to work as hard as I can to make sure that Donald Trump does not become the next president.”\nThe two are already scheduled to appear together on Wednesday at the University of New Hampshire Field House to discuss college affordability.\nClinton has struggled to capture the enthusiasm of some of Sanders’ former supporters, especially the young voters who flocked to his campaign’s promise of “political revolution” and focus on campaign finance reform.\nWhen Williams asked Sanders how “hard” he was willing to work to campaign for Clinton and her running mate, Virginia Sen. Tim Kaine, Sanders reiterated his common refrain that “the election of Donald Trump as president would be a disaster for this country.”\n“I am going to do everything that I can to see that that does not happen,” Sanders said. “When I campaign, I campaign very, very hard.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "We’re working on a schedule right now, which is going to be a very, very vigorous schedule,",
+                "Sanders",
+                true
+            ],
+            [
+                "We’re going to go all over this country.",
+                "Sanders",
+                true
+            ],
+            [
+                "We’re going to go wherever Secretary Clinton’s people think that I am needed, and I am going to work as hard as I can to make sure that Donald Trump does not become the next president.",
+                "Sanders",
+                true
+            ],
+            [
+                "the election of Donald Trump as president would be a disaster for this country.",
+                "Williams",
+                false
+            ],
+            [
+                "I am going to do everything that I can to see that that does not happen,",
+                "Sanders",
+                true
+            ],
+            [
+                "When I campaign, I campaign very, very hard.",
+                "Sanders",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "campaign",
+            "going",
+            "sanders",
+            "hard",
+            "clinton",
+            "planning",
+            "election",
+            "schedule",
+            "work",
+            "stump",
+            "williams",
+            "vigorous"
+        ]
+    }
+]

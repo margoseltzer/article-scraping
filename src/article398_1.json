@@ -1,0 +1,49 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/20/politics/john-boehner-squire-patton-boggs/index.html",
+        "title": "Boehner joins DC lobbying firm",
+        "authors": [
+            {
+                "name": "Tom Kludt",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-20",
+        "text": "By Tom Kludt, CNN\nUpdated 2:42 PM ET, Tue September 20, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nStory highlights\nThe former House speaker will serve as a \"strategic adviser\" at Squire Patton Boggs\nThe firm said Tuesday that Boehner \"will not lobby\"\n(CNN)\nFormer House Speaker John Boehner announced Tuesday he is joining a major lobbying shop as an adviser.\nThe former House speaker will serve as a \"strategic adviser\" at Squire Patton Boggs, an international law firm with clients that include Fortune 100 companies and national governments. The firm has ties to Boehner's native Ohio, with its headquarters in Cleveland.\n\"I left the private sector and got into public service decades ago because I wanted to help remove government barriers to economic growth and job creation, and that's still the mission that drives me,\" Boehner said in a statement.\nIn a press release on Tuesday, the firm said that Boehner \"will not lobby\" but will instead \"serve as a strategic adviser to clients in the US and abroad, and will focus on global business development.\"\nIt's the second new gig in as many weeks for Boehner, who abruptly resigned from Congress a year ago this month. A heavy smoker, Boehner joined the tobacco company Reynolds American last week as a director.\n",
+        "quotes": [
+            [
+                "I left the private sector and got into public service decades ago because I wanted to help remove government barriers to economic growth and job creation, and that's still the mission that drives me,",
+                "Boehner",
+                true
+            ],
+            [
+                "serve as a strategic adviser to clients in the US and abroad, and will focus on global business development.",
+                "Boehner",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://money.cnn.com/2016/09/15/investing/john-boehner-smoking-joins-tobacco-company/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "clients",
+            "joins",
+            "firm",
+            "serve",
+            "dc",
+            "adviser",
+            "house",
+            "lobbying",
+            "boehner",
+            "speaker",
+            "strategic",
+            "patton",
+            "squire"
+        ]
+    }
+]

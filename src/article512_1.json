@@ -1,0 +1,82 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/23/politics/charlotte-mayor-jennifer-roberts-donald-trump-presumptuous/index.html",
+        "title": "Charlotte Mayor Jennifer Roberts: Donald Trump drug comments 'presumptuous'",
+        "authors": [
+            {
+                "name": "Eugene Scott",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-23",
+        "text": "Updated 11:32 AM ET, Fri September 23, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\n\"We have a much better understanding than Mr. Trump,\" she said\nTrump: Drugs are a very, very big factor in what you're watching\nWashington (CNN)\nCharlotte Mayor Jennifer Roberts said Republican nominee Donald Trump's assumption that drugs are a factor in her city's protests is \"presumptuous.\"\n\"It's presumptuous for him to make conclusions like that without having thorough conversations with some of the folks who are here on the ground and are really aware of what's going on and what the reasoning is,\" she told CNN's Carol Costello on \"Newsroom.\"\nMultiple police officers and citizens have been injured this week during protests after the fatal shooting of Keith Lamont Scott by a police officer. Charlotte police say Scott was armed at the time he was fatally shot, but his family said he was reading a book in his vehicle when police officers approached and shot him.\nTrump tied the eruption of violent protests to narcotics, telling a Pittsburgh crowd Wednesday that \"drugs are a very, very big factor in what you're watching on television at night.\"\nThe GOP nominee offered no evidence to back up that claim but Steven Cheung, a Trump campaign spokesman, later said it was \"obvious\" that Trump was \"referring to the recent increase in drug related deaths and subsequent news reports, thus making it a hot button issue.\"\nRead More\nBut Roberts said she and Charlotte council members have been in conversations all week with protestors about their motivations.\n\"We have a much better understanding than Mr. Trump,\" she told Costello.\nRoberts said frustration with racial inequality throughout Charlotte and the country as a whole over issues such as education, economic development and social justice are the impetus behind the protests.\n\"We have a history of racial disparity and we are working very hard in our city to bridge that gap,\" she said. \"We're working very hard to make sure opportunity is spread equally around our city.\"\n",
+        "quotes": [
+            [
+                "We have a much better understanding than Mr. Trump,",
+                "",
+                true
+            ],
+            [
+                "It's presumptuous for him to make conclusions like that without having thorough conversations with some of the folks who are here on the ground and are really aware of what's going on and what the reasoning is,",
+                "Roberts",
+                true
+            ],
+            [
+                "drugs are a very, very big factor in what you're watching on television at night.",
+                "Trump",
+                false
+            ],
+            [
+                "referring to the recent increase in drug related deaths and subsequent news reports, thus making it a hot button issue.",
+                "Trump",
+                false
+            ],
+            [
+                "We have a much better understanding than Mr. Trump,",
+                "",
+                true
+            ],
+            [
+                "We have a history of racial disparity and we are working very hard in our city to bridge that gap,",
+                "",
+                true
+            ],
+            [
+                "We're working very hard to make sure opportunity is spread equally around our city.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.cnn.com/2016/09/22/us/charlotte-protests/index.html",
+                "https://www.cnn.com/2016/09/22/us/keith-lamont-scott/",
+                "http://www.cnn.com/2016/09/22/politics/donald-trump-crime-agenda-charlotte/index.html",
+                "http://www.cnn.com/2016/09/21/us/charlotte-police-shooting/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "drugs",
+            "big",
+            "roberts",
+            "comments",
+            "charlotte",
+            "factor",
+            "protests",
+            "trump",
+            "drug",
+            "nominee",
+            "donald",
+            "watchingwashington",
+            "mayor",
+            "whats",
+            "youre",
+            "watching",
+            "presumptuous",
+            "jennifer"
+        ]
+    }
+]

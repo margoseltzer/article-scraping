@@ -1,0 +1,85 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/alicia-machado-melania-trump-english-228804?cmpid=sf",
+        "title": "Former Miss Universe sizes up Melania Trump: 'I think I speak more English'",
+        "authors": [
+            {
+                "name": "Louis Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "Both women are former models, but Alicia Machado attacked Melania Trump for failing to do more to help those around her as the wife of a prominent political figure.  | Getty\nFormer Miss Universe sizes up Melania Trump: 'I think I speak more English'\nStory Continued Below\n“I think I speak more English than her,” Machado said. “I don’t see anything about this girl. She’s a doll. She’s a decoration. That is how I see her.”\nDonald Trump was harshly critical of Machado during her tenure as Miss Universe, calling her Miss Piggy and Miss Housekeeping, the latter a reference to her Hispanic heritage. Machado told Cosmopolitan that those remarks triggered a relapse of her bulimia that took several years to escape.\nMachado, who was also crowned Miss Venezuela, became an American citizen in August, something she told Cosmopolitan she did specifically to vote against Trump.\nTuesday morning, Trump admitted that Democratic nominee Hillary Clinton had gotten under his skin a little bit by bringing up Machado at the debate. He said the pageant winner “gained a massive amount of weight, and it was a real problem.”\n“That person was a Miss Universe person, and she was the worst we ever had. The worst, the absolute worst. She was impossible, and she was a Miss Universe contestant and ultimately a winner who they had a tremendously difficult time with as Miss Universe,” Trump said on Fox News’ “Fox & Friends.” “She was the winner, and, you know, she gained a massive amount of weight, and it was a real problem. We had a real problem. Not only that, her attitude, and we had a real problem with her, so Hillary went back into the years and she found this girl. This was many years ago, and found the girl and talked about her like she was Mother Teresa, and it wasn’t quite that way, but that’s OK. Hillary has to do what she has to do.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "I think I speak more English than her,",
+                "Alicia Machado",
+                true
+            ],
+            [
+                "I don’t see anything about this girl.",
+                "Alicia Machado",
+                true
+            ],
+            [
+                "That is how I see her.",
+                "Alicia Machado",
+                true
+            ],
+            [
+                "gained a massive amount of weight, and it was a real problem.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "That person was a Miss Universe person, and she was the worst we ever had.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "She was impossible, and she was a Miss Universe contestant and ultimately a winner who they had a tremendously difficult time with as Miss Universe,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "She was the winner, and, you know, she gained a massive amount of weight, and it was a real problem.",
+                "",
+                true
+            ],
+            [
+                "Not only that, her attitude, and we had a real problem with her, so Hillary went back into the years and she found this girl.",
+                "",
+                true
+            ],
+            [
+                "This was many years ago, and found the girl and talked about her like she was Mother Teresa, and it wasn’t quite that way, but that’s OK. Hillary has to do what she has to do.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.cosmopolitan.com/politics/a3887093/alicia-machado-miss-universe-donald-trump/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "miss",
+            "speak",
+            "universe",
+            "english",
+            "winner",
+            "trump",
+            "worst",
+            "wife",
+            "women",
+            "think",
+            "real",
+            "sizes",
+            "machado",
+            "melania"
+        ]
+    }
+]

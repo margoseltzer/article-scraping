@@ -1,0 +1,66 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/26/politics/9-11-veto-override-senate-saudi-arabia/index.html",
+        "title": "Senate to vote Wednesday to override 9/11 lawsuit bill veto",
+        "authors": [
+            {
+                "name": "Ted Barrett",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-26",
+        "text": "Senate to vote Wednesday to override 9/11 lawsuit bill veto\nBy Ted Barrett, CNN\nUpdated 10:08 AM ET, Tue September 27, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nWashington (CNN)\nThe Senate will vote Wednesday to override President Barack Obama's veto of a bill to give victims and families of the 9/11 terrorist attacks the legal right to sue Saudi Arabia for any purported role in the plot, Senate Majority Leader Mitch McConnell said Monday.\nThe measure will need a two-thirds vote of the chamber to succeed -- which is expected -- before going to the House for a similar override vote later this week.\nIt would be the first time in Obama's nearly eight years in office that one of his vetoes will be overturned.\nThe President opposes the bill because he says it could open the door to lawsuits against the US for actions taken by military service members, diplomats and others.\nObama expressed sympathy for the 9/11 families in his veto message Friday, but said he vetoed the bill because the law would hurt the effectiveness of the administration's action against terrorism by taking questions of foreign states' involvement in terrorism \"out of the hands of national security and foreign policy professionals and placing them in the hands of private litigants and courts.\"\nRead More\nIn recent days, several senators who allowed the bill to pass without objection expressed misgivings for their decisions and said they wanted to find a way to address the White House's concerns about sovereign immunity.\n\"I have tremendous empathy for the victims,\" said Sen. Bob Corker, R-Tennessee, the chairman of the Foreign Relations Committee said two weeks ago. \"At the same time I have concerns about the precedent this bill will set and what it may mean to American service men and women and others. Let's face it -- our alleged drone attacks have killed civilians in Pakistan. Our alleged drone attacks have killed civilians in Afghanistan. And I think once you start opening the door for these types of activities it can be very problematic.\"\nDespite those second thoughts, there was never much traction among lawmakers to prevent the override.\nHeavy lobbying by the Saudi government, which opposed the bill, was met by a more powerful force -- the emotional appeal of the 9/11 families who fanned out on Capitol Hill in recent weeks to prevent the bill from stalling.\nOnce both chambers override the veto, the bill becomes law regardless of Obama's opposition.\nCNN's Kevin Liptak contributed to this report.\n",
+        "quotes": [
+            [
+                "out of the hands of national security and foreign policy professionals and placing them in the hands of private litigants and courts.",
+                "Obama",
+                false
+            ],
+            [
+                "I have tremendous empathy for the victims,",
+                "Bob Corker",
+                true
+            ],
+            [
+                "At the same time I have concerns about the precedent this bill will set and what it may mean to American service men and women and others.",
+                "Bob Corker",
+                true
+            ],
+            [
+                "Let's face it -- our alleged drone attacks have killed civilians in Pakistan.",
+                "Bob Corker",
+                true
+            ],
+            [
+                "Our alleged drone attacks have killed civilians in Afghanistan.",
+                "Bob Corker",
+                true
+            ],
+            [
+                "And I think once you start opening the door for these types of activities it can be very problematic.",
+                "Bob Corker",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "president",
+            "terrorism",
+            "911",
+            "senate",
+            "hands",
+            "obamas",
+            "vetoed",
+            "lawsuit",
+            "override",
+            "veto",
+            "bill",
+            "vote"
+        ]
+    }
+]

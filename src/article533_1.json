@@ -1,0 +1,116 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/23/politics/ohio-pennsylvania-election-2016-hack/index.html",
+        "title": "Hacking the election? Feds step in as states fret cyber threats",
+        "authors": [
+            {
+                "name": "Tom Lobianco",
+                "link": null
+            },
+            {
+                "name": "Marshall Cohen",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-23",
+        "text": "Hacking the election? Feds step in as states fret cyber threats\nBy Marshall Cohen and Tom LoBianco , CNN\nUpdated 12:00 PM ET, Fri September 23, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nOhio, Pennsylvania working with the Department of Homeland Security to prevent cyberattacks of election systems\nLawmakers on Thursday accused Russian intelligence agencies of attempting to influence the US election\nWashington (CNN)\nA series of high-profile breaches and warnings from national intelligence leaders has elections directors in critical battleground states seeking federal help against possible cyberattacks.\nOfficials in Pennsylvania and Ohio tell CNN they are working closely with the Department of Homeland Security to protect their elections systems from cyberattacks and breaches.\nOhio is going one step further.\n\"We even asked the National Guard to attempt to penetrate our databases,\" said Joshua Eck, a spokesman for Ohio Secretary of State Jon Husted. \"We've had a number of really positive tests. It has gone well and we've been able to find vulnerabilities and fix them.\"\nA pair of cyberattacks on Illinois' and Arizona's voter registration databases over the summer spurred the Obama administration to ring the alarm bells for states as they prepare for what has already been a chaotic campaign.\nRead More\n\"Based on briefings we have received, we have concluded that the Russian intelligence agencies are making a serious and concerted effort to influence the U.S. election,\" Sen. Dianne Feinstein and Rep. Adam Schiff, of California, said Thursday.\nCybersecurity experts say the prospect of \"rigging\" the election, and changing the outcome, is practically impossible. Elections are decentralized: 50 states, plus the District of Columbia, run their own operations, not to mention the thousands of counties across the country that play a major role at the local level.\nDifferent jurisdictions use different voting machines, It isn't plausible for hackers to breach them all in one fell swoop -- penetrating one election system in North Carolina has no impact on Colorado. Furthermore, most voting machines aren't connected to the Internet, which inoculates them from outside intrusions.\nBut hackers could still cause plenty of havoc in November, with attacks on registration systems or government websites reporting the results on election night. Many news organizations pull their results from those sites.\n\"Think about the chaos you could cause if you get one TV network calling the election for one candidate, and another network calling the election for the other,\" said Professor Herbert Lin, a cybersecurity expert at Stanford University. \"If your intent is to sow doubt and uncertainty, at least in the short term, affecting the media reporting could be really problematic.\"\nDHS running 'Cyber hygiene scans'\nHomeland Security Secretary Jeh Johnson is the Obama administration's point man on election security, holding meetings with elections officials from across the country, and offering help to states that are interested.\nDHS is offering \"cyber hygiene scans\" that will remotely search for vulnerabilities in election systems like online voter registration systems and election night reporting infrastructure. It is also offering to send cybersecurity experts to states so they can conduct more aggressive in-person testing the final weeks of the campaign.\nJohnson recently laid out other federal resources for states in a memo last week , including a 24/7 center to respond to cyberattacks, and a list of \"best practices\" on how to secure voter registration databases.\nPennsylvania has accepted the DHS help, both the remote scans and the in-person testing, said Pennsylvania Department of State spokeswoman Wanda Murren. Election authorities in Ohio are also accepting federal help.\nBut not every state is happy to have the administration involved.\nGeorgia's secretary of state publicly scoffed at these efforts and accused the federal government of trying to \"subvert the Constitution.\"\nGeorgia Secretary of State Brian Kemp, a Republican, rebuffed the idea , telling Nextgov that the feds might want to \"subvert the Constitution to achieve the goal of federalizing elections under the guise of security.\" However, his office later walked back the comment, saying they were not flatly refusing the assistance.\nA call for comment from Kemp was not immediately returned Thursday.\nFlorida officials, whose recount debacle in 2000 led to the federal law which ultimately created voter registration databases, declined to say whether they were accepting help from DHS, citing security concerns.\nWhat are the threats?\nPerhaps the most serious vulnerability is the integrity of voter registration systems. Hackers can break in and delete or alter individual voter registration records, creating confusion on Election Day when voters show up to their polling place and their names are mysteriously missing from the rolls, or their address is changed.\nThis summer, hackers broke into a stash of information for about 90,000 voters in Illinois , breaching a database with voters' names, addresses, sex and birthdays. And officials in Arizona took their voter registration system offline after they learned that a Russian hacker had breached their systems.\nOnce hackers penetrate a voter registration system, \"the scope could be whatever they want,\" said Cathie Brown, who served as Virginia's deputy chief information security officer and is a cybersecurity expert with Impact Makers. \"Deleting an entire precinct of voters -- that's absolutely possible. The grander the scope, the more likely they'll get caught. But they might not get caught until after they've done the damage.\"\nBut at least one expert said that state elections directors have been dealing with technological threats for a long time.\n\"The state and local election officials, this whole notion of security is not new to them this is something they deal with all the time,\" said Tim Mattice, executive director of the Elections Center, which trains state and local elections officials on administering elections. Mattice's organization works with the professional group representing election officials, the National Association of State Election Directors.\nMattice said that when DHS offered up help, most people understood them when they said they were making it voluntary and did not want to be viewed as coming in and taking over state-run elections.\nIronically, Mattice noted that the focus on technological security got serious after Congress passed the national Help America Vote Act in the wake of the 2000 elections, which mandated that states develop integrated voter registration systems -- effectively placing all the voter data in systems that could be hacked.\nAsked how hackers got through in Illinois and Arizona despite the layers of security that elections officials already have in place, Mattice said it's the same problem any organization or business faces.\n\"You could ask Target how they got hacked -- these hackers are getting sophisticated,\" Mattice said.\n",
+        "quotes": [
+            [
+                "We even asked the National Guard to attempt to penetrate our databases,",
+                "Joshua Eck",
+                true
+            ],
+            [
+                "We've had a number of really positive tests.",
+                "Joshua Eck",
+                true
+            ],
+            [
+                "It has gone well and we've been able to find vulnerabilities and fix them.",
+                "Joshua Eck",
+                true
+            ],
+            [
+                "Based on briefings we have received, we have concluded that the Russian intelligence agencies are making a serious and concerted effort to influence the U.S. election,",
+                "",
+                true
+            ],
+            [
+                "Think about the chaos you could cause if you get one TV network calling the election for one candidate, and another network calling the election for the other,",
+                "Herbert Lin",
+                true
+            ],
+            [
+                "If your intent is to sow doubt and uncertainty, at least in the short term, affecting the media reporting could be really problematic.",
+                "Herbert Lin",
+                true
+            ],
+            [
+                "subvert the Constitution to achieve the goal of federalizing elections under the guise of security.",
+                "",
+                false
+            ],
+            [
+                "the scope could be whatever they want,",
+                "Cathie Brown",
+                false
+            ],
+            [
+                "Deleting an entire precinct of voters -- that's absolutely possible.",
+                "Cathie Brown",
+                true
+            ],
+            [
+                "The grander the scope, the more likely they'll get caught.",
+                "Cathie Brown",
+                true
+            ],
+            [
+                "But they might not get caught until after they've done the damage.",
+                "Cathie Brown",
+                true
+            ],
+            [
+                "The state and local election officials, this whole notion of security is not new to them this is something they deal with all the time,",
+                "Tim Mattice",
+                true
+            ],
+            [
+                "You could ask Target how they got hacked -- these hackers are getting sophisticated,",
+                "Mattice",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2016/09/02/politics/illinois-data-breach-voter-elections/",
+                "https://www.nextgov.com/cybersecurity/2016/08/some-swing-states-decline-dhs-voting-security-offer/131037/"
+            ],
+            "gov_pgs": [
+                "https://www.dhs.gov/news/2016/09/16/statement-secretary-johnson-concerning-cybersecurity-nation%E2%80%99s-election-systems"
+            ],
+            "unsure": [
+                "http://www.cnn.com/2016/08/29/politics/hackers-breach-illinois-arizona-election-systems/http:/www.cnn.com/2016/08/29/politics/hackers-breach-illinois-arizona-election-systems/"
+            ]
+        },
+        "key_words": [
+            "voter",
+            "officials",
+            "elections",
+            "registration",
+            "threats",
+            "election",
+            "security",
+            "systems",
+            "cyber",
+            "states",
+            "fret",
+            "step",
+            "state",
+            "hacking",
+            "feds",
+            "hackers"
+        ]
+    }
+]

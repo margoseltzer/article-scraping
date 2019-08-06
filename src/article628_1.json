@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.politico.com/blogs/2016-presidential-debate-fact-check/2016/09/yes-trump-did-call-pregnancy-an-inconvenience-for-employers-228743?cmpid=sf",
+        "title": "Yes, Trump did call pregnancy an “inconvenience” for employers",
+        "authors": [
+            {
+                "name": "Alex Byers",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "09/26/2016 10:42 PM EDT\n“[Trump is] someone who has said pregnancy is an inconvenience to employers.”— Hillary Clinton\n“I never said that.” — Donald Trump\nTrump did make such a claim. In a 2004 interview with NBC’s “Dateline,” Trump said pregnancy is “a wonderful thing for the woman, it’s a wonderful thing for the husband, it's certainly an inconvenience for a business. And whether people want to say that or not, the fact is it is an inconvenience for a person that is running a business.”\n",
+        "quotes": [
+            [
+                "Trump is] someone who has said pregnancy is an inconvenience to employers.",
+                "-- Hillary Clinton",
+                true
+            ],
+            [
+                "a wonderful thing for the woman, it’s a wonderful thing for the husband, it's certainly an inconvenience for a business.",
+                "Trump",
+                false
+            ],
+            [
+                "And whether people want to say that or not, the fact is it is an inconvenience for a person that is running a business.",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nbcnews.com/politics/2016-election/trump-2004-pregnancy-inconvenience-employers-n580366"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "inconvenience",
+            "pregnancy",
+            "trumptrump",
+            "trump",
+            "thing",
+            "business",
+            "woman",
+            "yes",
+            "wonderful",
+            "say",
+            "employers"
+        ]
+    }
+]

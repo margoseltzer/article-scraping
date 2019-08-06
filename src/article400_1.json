@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/20/politics/legal-requirements-terrorism-suspects-rahami/index.html",
+        "title": "What the US government can and cannot do to US citizens suspected of terrorism",
+        "authors": [
+            {
+                "name": "Cnn Contributor",
+                "link": null
+            },
+            {
+                "name": "Steve Vladeck",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-20",
+        "text": "What the US government can and cannot do to US citizens suspected of terrorism\nBy Steve Vladeck, CNN Contributor\nUpdated 8:19 PM ET, Tue September 20, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nTimeline of how the attacks in NY and NJ unfolded\nAhmad Khan Raham is alleged to have carried out the bombings\nSome have said he should be tried as an \"enemy combatant\" rather than a US citizen\n(CNN)\nThe arrest of Ahmad Khan Rahami , the man suspected of Saturday's bombing in New York and explosion in New Jersey, is reviving a debate that's become familiar when American citizens are implicated in terrorism post-9/11: Whether or not they can be considered enemy combatants.\nSen. Lindsey Graham, R-South Carolina, and others have suggested that Rahami be detained by the military as an enemy combatant, in part so he would not have be read his Miranda rights.\nHere are five common questions about terrorism suspects and the legal system:\n1) Do U.S.-citizen terrorism suspects arrested within the United States have constitutional protections in the first place?\nYes. There are ongoing debates over the constitutional rights of non-citizens (and citizens traveling overseas), but the Supreme Court has never suggested that a US citizen arrested within the United States receives lesser constitutional protection simply because he's a terrorism suspect.\nRead More\nTo the contrary, as Justice Felix Frankfurter once wrote: \"The safeguards of liberty have frequently been forged in controversies involving not very nice people.\"\nPut more bluntly, providing US-citizen terrorism suspects with full constitutional protection is how we can be sure, as a society, that they're punished according to principles of justice, rather than vengeance.\n2) Can such individuals be detained by the military?\nProbably not.\nA federal statute enacted in 1971 (in response to the World War II-era Japanese American internment camps) prohibits the detention of US citizens \"except pursuant to an Act of Congress,\" and no statute expressly authorizes the detention without trial of US-citizen terrorism suspects.\nThe Supreme Court has held that the Authorization for Use of Military Force (AUMF), enacted by Congress one week after 9/11, implicitly authorizes the detention of US citizens captured in Afghanistan while fighting on behalf of al Qaeda or the Taliban.\nBut four justices have suggested that the AUMF does not authorize the detention of even those individuals when captured within the United States -- and without such an affiliation, there's no argument that the AUMF applies.\n3) Can US-citizen terrorism suspects be prosecuted in the Guantánamo military commissions?\nNo. When Congress enacted the Military Commissions Act of 2006, it expressly limited the statute to \"alien\" defendants.\nAnd although there are precedents from World War II for trying US citizens in military commissions, that's only when the citizen is accused of international war crimes (which terrorism, by itself, is not).\n4) Can US-citizen terrorism suspects be interrogated?\nAbsolutely. No rule, statute, or constitutional provision prevents the government from interrogating terrorism suspects -- so long as none of the interrogation methods involve torture or other forms of cruel, inhuman, or degrading treatment (prohibitions that today apply equally whether the interrogation is conducted by the FBI, the military, and the CIA).\nThere are many examples of lawful interrogations in terrorism cases producing actionable intelligence information.\n5) At what point do US-citizen terrorism suspects have to be apprised of their Miranda rights?\nNot right away.\nFirst, Miranda is only an exclusionary rule -- meaning that the penalty for interrogating a suspect without reading him his rights is simply the exclusion of his statements from his trial.\nSecond, even if admissibility at trial were an issue, the Supreme Court has recognized a \"public safety\" exception to Miranda, where the interrogation is designed to identify future threats to the public, and not to elicit further evidence of the suspect's guilt. Thus, in the case of the so-called \"underwear bomber,\" the government conducted a substantial interrogation of the suspect before reading him his rights, but was still allowed to use his statements during that period against him at trial.\nFinally, there's no direct correlation between the provision of Miranda rights and a suspect's refusal to cooperate. So in a case like this one, there's little reason to think that Miranda really does prevent the government from taking necessary steps to prevent future acts of terrorism.\nVladeck is a CNN contributor and professor of law at the University of Texas School of Law.\n",
+        "quotes": [
+            [
+                "The safeguards of liberty have frequently been forged in controversies involving not very nice people.",
+                "Felix Frankfurter",
+                true
+            ],
+            [
+                "except pursuant to an Act of Congress,",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2016/09/19/us/ahmad-khan-rahami/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "terrorism",
+            "enemy",
+            "constitutional",
+            "citizens",
+            "united",
+            "suspected",
+            "suggested",
+            "states",
+            "combatant",
+            "suspects",
+            "rahami",
+            "khan"
+        ]
+    }
+]

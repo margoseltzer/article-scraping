@@ -1,0 +1,63 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/clinton-ad-hits-trump-women-228567?cmpid=sf",
+        "title": "New Clinton ad highlights Trump's insults toward women",
+        "authors": [
+            {
+                "name": "Louis Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Story Continued Below\nTrump has struggled throughout his campaign to connect with women across the country thanks, at least in part, to his comments he has made about them before entering the political world. His attempts at appealing to female voters, including a proposal for six weeks of family leave for women, have been met with mixed reviews. A McClatchy-Marist poll released Friday shows Clinton with a 24-point lead over Trump among likely female voters, 58 percent to 34 percent.\n“A person who’s flat-chested is very hard for them to be a 10,” Trump says in the ad, which goes on to include a quote from a 2013 interview with Howard Stern in which the GOP nominee discussed celebrity Kim Kardashian.\n“Does she have a good body? No. Does she have a fat ass? Absolutely,” Trump says.\nThe ad finishes by quoting Trump from another appearance on Stern’s radio show in 1993. Stern, who does not appear on camera, asks Trump “so you treat women with respect?”\n“No, I can’t say that either,” Trump replies.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "A person who’s flat-chested is very hard for them to be a 10,",
+                "Trump",
+                true
+            ],
+            [
+                "Does she have a good body?",
+                "Trump",
+                true
+            ],
+            [
+                "Does she have a fat ass?",
+                "Trump",
+                true
+            ],
+            [
+                "so you treat women with respect?",
+                "Trump",
+                false
+            ],
+            [
+                "No, I can’t say that either,",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.youtube.com/watch?v=vHGPbl-werw"
+            ]
+        },
+        "key_words": [
+            "voters",
+            "highlights",
+            "female",
+            "fat",
+            "insults",
+            "clinton",
+            "trumps",
+            "trump",
+            "ad",
+            "women",
+            "stern",
+            "does"
+        ]
+    }
+]

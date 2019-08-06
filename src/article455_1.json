@@ -1,0 +1,80 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/21/politics/scientists-open-letter-trump-climate-change/index.html",
+        "title": "Stephen Hawking, scientists slam Trump for backing 'Parexit'",
+        "authors": [
+            {
+                "name": "David Wright",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-21",
+        "text": "Updated 8:00 AM ET, Wed September 21, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nA group of scientists released an open letter on Tuesday urging action on climate change\nThe scientists called for support of the Paris climate change agreement\n(CNN)\nA group of 375 \"concerned\" scientists -- including famed physicist Stephen Hawking -- released an open letter Tuesday sharply criticizing Donald Trump, citing the threat of climate change and blasting his push for the US to leave the Paris Accord.\n\"It is of great concern that the Republican nominee for President has advocated U.S. withdrawal from the Paris Accord. A 'Parexit' would send a clear signal to the rest of the world: 'The United States does not care about the global problems of human-caused climate change. You are on your own,'\" the group wrote on the website responsiblescientists.org .\nThe use of the term \"Parexit\" is a reference to a political withdrawal along the lines of the UK's vote to leave the European Union, commonly called the \"Brexit.\"\nThey continued, \"The consequences of opting out of the global community would be severe and long-lasting -- for our planet's climate and for the international credibility of the United States.\"\nThe letter is signed by a number of famous scientists, including Hawking and Nobel Prize-winning physicist Steven Chu, who served as Secretary of Energy under President Barack Obama.\nRead More\nCNN reached out to the Trump campaign for a response to the letter, but did not immediately receive a response.\nThe Paris Agreement was reached by 195 countries at the United Nations Climate Change Conference in Paris in 2015, aimed at coordinating global efforts to combat climate change. Obama was a main proponent of the agreement, and Democratic nominee Hillary Clinton supports its ongoing implementation.\nThe group slammed politicians who deny the existence of man-made climate change.\n\"During the presidential primary campaign, claims were made that the Earth is not warming, or that warming is due to purely natural causes outside human control. Such claims are inconsistent with reality,\" they wrote.\nRepublican nominee Donald Trump opposes the agreement, and he has previously suggested that climate change is a hoax \"created by and for the Chinese.\" He recently said in an interview that \"I am not a great believer in man-made climate change.\"\n",
+        "quotes": [
+            [
+                "It is of great concern that the Republican nominee for President has advocated U.S. withdrawal from the Paris Accord.",
+                "",
+                true
+            ],
+            [
+                "A 'Parexit' would send a clear signal to the rest of the world: 'The United States does not care about the global problems of human-caused climate change.",
+                "",
+                true
+            ],
+            [
+                "The consequences of opting out of the global community would be severe and long-lasting -- for our planet's climate and for the international credibility of the United States.",
+                "",
+                true
+            ],
+            [
+                "During the presidential primary campaign, claims were made that the Earth is not warming, or that warming is due to purely natural causes outside human control.",
+                "",
+                true
+            ],
+            [
+                "Such claims are inconsistent with reality,",
+                "",
+                true
+            ],
+            [
+                "created by and for the Chinese.",
+                "",
+                false
+            ],
+            [
+                "I am not a great believer in man-made climate change.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.washingtonpost.com/news/energy-environment/wp/2016/03/22/this-is-the-only-type-of-climate-change-donald-trump-believes-in/?utm_term=.968016ce22e8"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/realdonaldtrump/status/265895292191248385?lang=en",
+                "http://responsiblescientists.org/"
+            ]
+        },
+        "key_words": [
+            "slam",
+            "climate",
+            "president",
+            "scientists",
+            "released",
+            "paris",
+            "stephen",
+            "united",
+            "trump",
+            "backing",
+            "group",
+            "letter",
+            "change",
+            "parexit",
+            "withdrawal",
+            "hawking"
+        ]
+    }
+]

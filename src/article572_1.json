@@ -1,0 +1,65 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/26/politics/obama-biden-honor-arnold-palmer/index.html",
+        "title": "Obama, Biden honor Arnold Palmer",
+        "authors": [
+            {
+                "name": "Allie Malloy",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-26",
+        "text": "Updated 11:38 AM ET, Mon September 26, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nStory highlights\n(CNN)\nPresident Barack Obama and Vice President Joe Biden mourned the death of Arnold Palmer with tributes to the golfing legend on their Twitter accounts honoring him as both an athlete and philanthropist.\nObama on Sunday tweeted a photo of himself receiving a putting lesson from Palmer, 87, in the Oval Office and wrote, \"Here's to The King who was as extraordinary on the links as he was generous to others. Thanks for the memories, Arnold.\"\nHere's to The King who was as extraordinary on the links as he was generous to others. Thanks for the memories, Arnold. pic.twitter.com/UlyfpIBOL2\nObama -- who has played more than 300 rounds of golf in office -- said in a statement that Palmer had \"swagger before we had a name for it,\" crediting him for what he did on the course and off, including building the Arnold Palmer Hospital for Children and Latrobe Hospital.\nThe Vice President, who hails from Scranton, Pennsylvania, also honored the golfer on Twitter Monday saying, \"Arnie was what every great athlete should be. A great golfer, and a gentleman who treated everyone with dignity. That's why he was so loved.\"\nArnie was what every great athlete should be. A great golfer, and a gentleman who treated everyone with dignity. That's why he was so loved.\nPalmer, also known as \"The King,\" for his transformative legacy in golf, died Sunday evening at a Pittsburgh hospital while awaiting cardiac surgery, according to a statement from his company.\n",
+        "quotes": [
+            [
+                "Here's to The King who was as extraordinary on the links as he was generous to others.",
+                "Palmer",
+                true
+            ],
+            [
+                "swagger before we had a name for it,",
+                "Arnold Palmer",
+                false
+            ],
+            [
+                "Arnie was what every great athlete should be.",
+                "",
+                true
+            ],
+            [
+                "A great golfer, and a gentleman who treated everyone with dignity.",
+                "",
+                true
+            ],
+            [
+                "That's why he was so loved.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://edition.cnn.com/2016/09/25/us/arnold-palmer-death/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://t.co/UlyfpIBOL2"
+            ]
+        },
+        "key_words": [
+            "president",
+            "athlete",
+            "arnold",
+            "honor",
+            "twitter",
+            "obama",
+            "palmer",
+            "great",
+            "golfer",
+            "vice",
+            "treated",
+            "biden"
+        ]
+    }
+]

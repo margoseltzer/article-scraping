@@ -1,0 +1,87 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/23/politics/hillary-clinton-donald-trump-women-ad/index.html",
+        "title": "New Clinton ad shows girls looking in mirror as Trump insults women",
+        "authors": [
+            {
+                "name": "Dan Merica",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-23",
+        "text": "New Clinton ad shows girls looking in mirror as Trump insults women\nUpdated 12:17 PM ET, Fri September 23, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nClinton has argued that Trump would be ill-equipped to handle issues that matter to women and girls\n\"Is this the president we want for our daughters?\" the ad asks\n(CNN)\nHillary Clinton's campaign has a question for voters: Is Donald Trump the president we want for our daughters?\nThe Clinton campaign will begin airing a new ad Friday that intercuts Trump insulting women with shots of young girls looking in the mirror.\n\"I'd look her right in that fat ugly face of hers,\" Trump says in the ad, a comment he made in 2006 about comedian Rosie O'Donnell. \"She is a slob.\"\nThe ad, entitled \"Mirrors,\" also features Trump saying \"A person who is flat chested is very hard to be a 10\" -- a comment he made about actress Nicollette Sheridan -- and \"Does she have a good body, no? Does she have a fat (expletive)? Absolutely.\" -- a comment he made about Kim Kardashian in 2013.\nWhile these comments are playing, the ad features a diverse group of young women looking in the mirror, appearing to evaluate themselves as Trump's voice makes demeaning comments.\nRead More\nThe end of the ad features a black slate with this question: \"Is this the president we want for our daughters?\"\nThe ad will air Ohio, New Hampshire, Iowa, Florida, Nevada, North Carolina, Pennsylvania and on national cable, according to a campaign release. The release did not say how much money was being spent on the ad.\nThroughout her campaign, Clinton has argued that Trump would be ill-equipped president to handle issues that matter to women and girls.\n\"Anyone who wants to defund Planned Parenthood and wipe out safe, legal abortion has no idea what's best for women,\" Clinton said in June. \"And after all, this is a man who has called women 'pigs,' 'dogs,' and 'disgusting animals.' Kind of hard to imagine counting on him to respect our fundamental rights.\"\nClinton's new ad is the latest that goes after Trump's character and mimics an ad Priorities USA, her top-dollar super PAC, released in May that similarly questioned a comment Trump made about respecting women.\n",
+        "quotes": [
+            [
+                "Is this the president we want for our daughters?",
+                "",
+                true
+            ],
+            [
+                "I'd look her right in that fat ugly face of hers,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "A person who is flat chested is very hard to be a 10",
+                "Donald Trump",
+                false
+            ],
+            [
+                "Does she have a good body, no?",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Does she have a fat (expletive)?",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Is this the president we want for our daughters?",
+                "",
+                true
+            ],
+            [
+                "Anyone who wants to defund Planned Parenthood and wipe out safe, legal abortion has no idea what's best for women,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And after all, this is a man who has called women 'pigs,' 'dogs,' and 'disgusting animals.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "Kind of hard to imagine counting on him to respect our fundamental rights.",
+                "Hillary Clinton",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2016/06/10/politics/clinton-calls-trump-risk-to-women/",
+                "https://www.cnn.com/2015/08/07/politics/donald-trump-rosie-odonnell-feud/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "president",
+            "young",
+            "shows",
+            "girls",
+            "fat",
+            "insults",
+            "trump",
+            "clinton",
+            "features",
+            "ad",
+            "women",
+            "comment",
+            "looking",
+            "does",
+            "mirror"
+        ]
+    }
+]

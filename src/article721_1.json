@@ -1,0 +1,133 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/bernie-sanders-first-debate-228700?cmpid=sf",
+        "title": "Sanders warns that debate is 'not a night of entertainment'",
+        "authors": [
+            {
+                "name": "Yousef Saba",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Sanders warns that debate is 'not a night of entertainment'\nBy YOUSEF SABA\nSen. Bernie Sanders on Monday night warned that the heavily hyped debate between Donald Trump and Hillary Clinton is \"not a night of entertainment.\"\nClinton's former rival and current surrogate made the rounds on the cable news networks as the first showdown neared, laying out the stakes of the contest that has tightened in the last couple weeks.\nStory Continued Below\n“I think the hardest part is understanding that despite what the media may think, that this is not a night of entertainment. It's not a Super Bowl. It's not the World Series,” he said. “Tonight, the American people are going to be looking at somebody who will have enormous power in influencing the direction of our country, 320 million people, and the rest of the world. And I hope that we focus on the issues, the differences between the candidates.”\nSanders criticized Trump on a number of issues, including tax breaks for the rich, climate change, and his possible choice of Supreme Court justices. “Donald Trump will appoint another conservative,” he said, adding, “Which means that Citizens United, the disastrous Supreme Court decisions that allow billionaires like Sheldon Adelson and the Koch brothers to buy elections and undermine American democracy.”\nWhen questioned over his recent comments saying Clinton needs to “get away from this personality stuff” and “start talking about the real issues,” he shot back, “It's not a criticism of her. It's a criticism of the media. Let's talk about which candidate is going to be better for working families.”\nSanders said Clinton knows she is up against a skilled showman, saying, “Donald Trump is an excellent entertainer. He's had successful TV shows. That's his campaign. It's entertainment.” Offering advice for Clinton, he continued, “I would say in contrast what she has got to do is focus on the real issues. Stay focused on the issues impacting the American people.”\nThe senator offered more criticism of Trump, taking aim at his divisive rhetoric by saying, “Donald Trump is making the cornerstone of his campaign, in fact, bigotry. Dividing us up. Latinos and blacks, and Muslims. Trying to divide our nation up.”\nHe said that he hoped the candidates would be respectful of each other and that there is an “intelligent debate on the real issues facing the families, working families, of America.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "I think the hardest part is understanding that despite what the media may think, that this is not a night of entertainment.",
+                "",
+                true
+            ],
+            [
+                "It's not a Super Bowl.",
+                "",
+                true
+            ],
+            [
+                "It's not the World Series,",
+                "",
+                true
+            ],
+            [
+                "Tonight, the American people are going to be looking at somebody who will have enormous power in influencing the direction of our country, 320 million people, and the rest of the world.",
+                "",
+                true
+            ],
+            [
+                "And I hope that we focus on the issues, the differences between the candidates.",
+                "",
+                true
+            ],
+            [
+                "Donald Trump will appoint another conservative,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Which means that Citizens United, the disastrous Supreme Court decisions that allow billionaires like Sheldon Adelson and the Koch brothers to buy elections and undermine American democracy.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "get away from this personality stuff",
+                "Donald Trump",
+                false
+            ],
+            [
+                "start talking about the real issues,",
+                "Donald Trump",
+                false
+            ],
+            [
+                "It's not a criticism of her.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "It's a criticism of the media.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Let's talk about which candidate is going to be better for working families.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Donald Trump is an excellent entertainer.",
+                "",
+                true
+            ],
+            [
+                "He's had successful TV shows.",
+                "",
+                true
+            ],
+            [
+                "I would say in contrast what she has got to do is focus on the real issues.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Stay focused on the issues impacting the American people.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Donald Trump is making the cornerstone of his campaign, in fact, bigotry.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Trying to divide our nation up.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "intelligent debate on the real issues facing the families, working families, of America.",
+                "Donald Trump",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/live-blog-updates/2016/09/live-hofstra-university-presidential-debate-clinton-trump-000008"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "saying",
+            "sanders",
+            "warns",
+            "debate",
+            "entertainment",
+            "night",
+            "issues",
+            "trump",
+            "donald",
+            "clinton",
+            "real",
+            "focus"
+        ]
+    }
+]

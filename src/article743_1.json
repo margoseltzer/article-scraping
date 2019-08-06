@@ -1,0 +1,129 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/cincinnati-enquirer-endorses-clinton-228581?cmpid=sf",
+        "title": "Cincinnati Enquirer bucks tradition, endorses Democrat Clinton",
+        "authors": [
+            {
+                "name": "Nolan D. Mccaskill",
+                "link": null
+            },
+            {
+                "name": "Annie Karni",
+                "link": null
+            },
+            {
+                "name": "Louis Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Cincinnati Enquirer bucks tradition, endorses Democrat Clinton\nThe Cincinnati Enquirer, which by its own admission has backed Republican candidates for president “for almost a century,” is endorsing Hillary Clinton for president.\n“Presidential elections should be about who’s the best candidate, not who’s the least flawed. Unfortunately, that’s not the case this year,” the newspaper’s editorial board wrote in its endorsement , published Friday. “Our country needs calm, thoughtful leadership to deal with the challenges we face at home and abroad. We need a leader who will bring out the best in all Americans, not the worst.”\nStory Continued Below\n“That’s why there is only one choice when we elect a president in November: Hillary Clinton.”\nThe Enquirer is not the first newspaper to buck a long tradition of endorsing GOP candidates in favor of Clinton. Earlier this month, The Dallas Morning News endorsed the former secretary of state’s White House bid, making her the first Democrat that newspaper has endorsed in over 75 years. And other newspaper editorial boards, some of which have a long history of supporting Republican presidential nominees, have broken for Clinton in 2016. In addition to the Enquirer and the Morning News, the editorial boards of the New York Daily News and the Houston Chronicle also switched to the Democratic nominee this time. (The New York Daily News endorsed Barack Obama in 2008.)\nThe Richmond Times-Dispatch and the New Hampshire Union-Leader, both of which backed Romney four years ago, have opted to go with Libertarian nominee Gary Johnson instead.\nSeveral swing-state newspapers that backed Romney have also withheld an endorsement to this point, although some did not endorse until October in 2012. Those newspapers include the Arizona Republic, the Las Vegas Review-Journal, Pittsburgh Tribune-Review, the Orlando Sentinel, the Sun-Sentinel (Ft. Lauderdale, Fla.), the Columbus Dispatch, the Detroit News, the Grand Rapids Press, the Des Moines Register, the Florida Times-Union and the Wisconsin State Journal.\nIn its endorsement, the Enquirer called Clinton “a known commodity with a proven track record of governing.” The newspaper praised her willingness to work with Republicans as a senator and her efforts to assist first responders suffering health problems resulting from the Sept. 11 terrorist attacks. It also lauded her work on the Children’s Health Insurance Program as first lady and her support for LGBT rights and efforts to close the pay gap between men and women.\nTrump, by contrast, poses a “a clear and present danger to our country,” the Enquirer’s editorial board wrote, and lacks any experience in governance and foreign policy. That so many military and national security have refused to back the GOP nominee “speaks volumes” about what type of president he would be, the newspaper said.\n“His wild threats to blow Iranian ships out of the water if they make rude gestures at U.S. ships is just the type of reckless, cowboy diplomacy Americans should fear from a Trump presidency,” the newspaper’s endorsement said. “Do we really want someone in charge of our military and nuclear codes who has an impulse control problem?”\nThe Enquirer’s endorsement of Clinton was not without reservation, however. While it complimented her as a “competent secretary of state,” it also said “mistakes were made in Benghazi, and it was tragic that four Americans lost their lives in the 2012 terror attacks on the U.S. consulate there.” But the newspaper dismissed the concerns that many Republicans have about Clinton’s involvement, or lack thereof, in the attack: “The incident was never the diabolical conspiracy that Republicans wanted us to believe, and Clinton was absolved of blame after lengthy investigations.”\nClinton’s “refusal to acknowledge her poor judgment in using a private email server and mishandling classified information is troubling,” the newspaper wrote, as is her “lack of transparency,” evidenced by her recently-snapped streak of 275 days without holding a press conference.\nBut the Enquirer was far more damning of Trump, who the newspaper slammed for backing the so-called “birther” movement and feuding publicly with the parents of a Muslim soldier who was killed in 2004 in Iraq. Trump’s private sector acumen has created jobs, the newspaper admitted, but has also sent jobs overseas and left some who did business with him unpaid.\nThe editorial questioned if Trump makes as much money as he says he does or if he has paid his fair share of taxes, questions the newspaper said have gone unanswered because the Manhattan billionaire has thus far refused to release his tax returns.\n“But going two weeks without saying something misogynistic, racist or xenophobic is hardly a qualification for the most important job in the world,” the editorial read. “Why should anyone believe that a Trump presidency would look markedly different from his offensive, erratic, stance-shifting presidential campaign?”\n“Hillary Clinton has her faults, certainly, but she has spent a lifetime working to improve the lives of Americans both inside and outside of Washington,” it continued. “It's time to elect the first female U.S. president – not because she's a woman, but because she's hands-down the most qualified choice.”\nThis article tagged under:\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "Presidential elections should be about who’s the best candidate, not who’s the least flawed.",
+                "",
+                true
+            ],
+            [
+                "Unfortunately, that’s not the case this year,",
+                "",
+                true
+            ],
+            [
+                "Our country needs calm, thoughtful leadership to deal with the challenges we face at home and abroad.",
+                "",
+                true
+            ],
+            [
+                "We need a leader who will bring out the best in all Americans, not the worst.",
+                "",
+                true
+            ],
+            [
+                "That’s why there is only one choice when we elect a president in November: Hillary Clinton.",
+                "",
+                true
+            ],
+            [
+                "a known commodity with a proven track record of governing.",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "a clear and present danger to our country,",
+                "Trump",
+                false
+            ],
+            [
+                "His wild threats to blow Iranian ships out of the water if they make rude gestures at U.S. ships is just the type of reckless, cowboy diplomacy Americans should fear from a Trump presidency,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "Do we really want someone in charge of our military and nuclear codes who has an impulse control problem?",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "mistakes were made in Benghazi, and it was tragic that four Americans lost their lives in the 2012 terror attacks on the U.S. consulate there.",
+                "",
+                false
+            ],
+            [
+                "The incident was never the diabolical conspiracy that Republicans wanted us to believe, and Clinton was absolved of blame after lengthy investigations.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "refusal to acknowledge her poor judgment in using a private email server and mishandling classified information is troubling,",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "But going two weeks without saying something misogynistic, racist or xenophobic is hardly a qualification for the most important job in the world,",
+                "Trump",
+                true
+            ],
+            [
+                "Why should anyone believe that a Trump presidency would look markedly different from his offensive, erratic, stance-shifting presidential campaign?",
+                "Trump",
+                true
+            ],
+            [
+                "Hillary Clinton has her faults, certainly, but she has spent a lifetime working to improve the lives of Americans both inside and outside of Washington,",
+                "",
+                true
+            ],
+            [
+                "It's time to elect the first female U.S. president – not because she's a woman, but because she's hands-down the most qualified choice.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cincinnati.com/story/opinion/editorials/2016/09/23/enquirer-endorses-hillary-clinton-donald-trump/90728344/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "tradition",
+            "president",
+            "endorsement",
+            "democrat",
+            "bucks",
+            "clinton",
+            "editorial",
+            "trump",
+            "endorses",
+            "newspaper",
+            "wrote",
+            "cincinnati",
+            "americans",
+            "enquirer",
+            "newspapers"
+        ]
+    }
+]

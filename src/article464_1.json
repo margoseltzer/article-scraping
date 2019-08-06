@@ -1,0 +1,73 @@
+[
+    {
+        "url": "https://www.cnn.com/2016/09/22/politics/bill-de-blasio-trump-stop-and-frisk/index.html",
+        "title": "NYC Mayor: Trump wrong on 'stop-and-frisk'",
+        "authors": [
+            {
+                "name": "Eugene Scott",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2016-09-22",
+        "text": "Updated 11:17 AM ET, Thu September 22, 2016\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nNew York mayor says, \"Donald Trump talks about stop and frisk like he knows the facts\"\nTrump recently said, \"I would do stop-and-frisk. I think you have to\"\nWashington (CNN)\nNew York City Mayor Bill de Blasio said Thursday that Republican presidential candidate Donald Trump is wrong in his assessment of stop-and-frisk, a policy that allows police officers to stop and pat down individuals they deem suspicious.\n\"Donald Trump talks about stop-and-frisk like he knows the facts,\" de Blasio told CNN's Alisyn Camerota on \"New Day.\" \"He has had no experience with policing, no experience with public safety.\"\n\"He should really be careful because if we reinstituted stop-and-frisk all over this country, you'd see a lot more tension between police and communities,\" added the mayor, a Democrat who is supporting Hillary Clinton for president.\nIf elected, Trump said Wednesday at a Fox News town hall that he hopes to take the controversial policy nationwide to help stem \"violence in the black community.\"\nRead More\n\"One of the things I'd do ... is I would do stop-and-frisk. I think you have to,\" Trump said. \"We did it in New York, it worked incredibly well and you have to be proactive and, you know, you really help people sort of change their mind automatically.\"\nTrump's comments came in response to an audience member's question about reducing \"black-on-black crime.\"\nBut many people in New York's black community have opposed the practice arguing that New York's police disproportionately used the policy to target and harass people of color.\nAfter ongoing protests of the policy, a federal judge ruled in 2013 that the NYPD's stop-and-frisk policy violated citizens' constitutional rights. However, the judge did not order an outright ban on the practice, but called for outside oversight and reform. The city under Mayor Michael Bloomberg appealed that ruling, but those efforts were dropped under de Blasio's administration , and the city is participating in an ongoing reform and oversight process, which is supervised by a federal monitor.\nCORRECTION: An earlier version of this story misstated whether New York City is appealing the federal judge's 2013 ruling on stop-and-frisk. The city appealed the ruling at the time, but has since dropped that effort and is participating in an ongoing reform and oversight process.\n",
+        "quotes": [
+            [
+                "Donald Trump talks about stop and frisk like he knows the facts",
+                "",
+                false
+            ],
+            [
+                "I would do stop-and-frisk.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Donald Trump talks about stop-and-frisk like he knows the facts,",
+                "",
+                true
+            ],
+            [
+                "He has had no experience with policing, no experience with public safety.",
+                "",
+                true
+            ],
+            [
+                "He should really be careful because if we reinstituted stop-and-frisk all over this country, you'd see a lot more tension between police and communities,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "One of the things I'd do ... is I would do stop-and-frisk.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "We did it in New York, it worked incredibly well and you have to be proactive and, you know, you really help people sort of change their mind automatically.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2016/09/22/politics/bill-de-blasio-trump-stop-and-frisk/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "stopandfrisk",
+            "wrong",
+            "talks",
+            "knows",
+            "experience",
+            "trump",
+            "donald",
+            "mayor",
+            "stop",
+            "york",
+            "nyc",
+            "policy"
+        ]
+    }
+]
