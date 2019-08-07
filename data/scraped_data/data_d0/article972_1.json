@@ -1,0 +1,77 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/tim-kaine-ellen-degeneres-show-228459?cmpid=sf",
+        "title": "Kaine doesn't feel bad for Pence",
+        "authors": [
+            {
+                "name": "Nick Gass",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-21",
+        "text": "Kaine doesn't feel bad for Pence\nBy NICK GASS\nTim Kaine doesn't feel much pressure when it comes to the day-to-day routine of defending and explaining the platform and background of running mate Hillary Clinton to voters, the Virginia senator said in an interview airing Wednesday on \"The Ellen DeGeneres Show.\"\n\"Obviously because you're the nominee for vice president you have to defend Hillary because that’s your job,\" DeGeneres remarked to Kaine during the friendly interview, to which Kaine affirmed, \"Absolutely.\"\nStory Continued Below\nDeGeneres then asked, \"Do you feel bad for Mike Pence that he has to defend … he’s got to be constantly like, 'oh, no what do I say now.' 'What did [Donald Trump] say now?'\" as Kaine and members of the audience laughed.\n\"It is part of the role,\" Kaine said, declining to specifically mention Pence or his defense of Donald Trump. \"I don't find that a heavy lift at all to do the work I have to do to tell people Hillary’s story,\" Kaine added, drawing on their biographical parallels as Midwesterners who \"both grew up in Republican families ... in small business families\" and \"in religious households.\"\nKaine added, \"I kind of know the vibe. I know that for example, for her it’s not easy for her to talk about herself, that’s just not the way we were raised, but it’s easier for me to talk about her so that’s something I like to do is to tell stories about things she’s done that really show who she is as a person and the kind of president she’ll be.\"\n",
+        "quotes": [
+            [
+                "Obviously because you're the nominee for vice president you have to defend Hillary because that’s your job,",
+                "DeGeneres",
+                true
+            ],
+            [
+                "Do you feel bad for Mike Pence that he has to defend … he’s got to be constantly like, 'oh, no what do I say now.",
+                "DeGeneres",
+                true
+            ],
+            [
+                "What did [Donald Trump] say now?",
+                "DeGeneres",
+                true
+            ],
+            [
+                "It is part of the role,",
+                "Tim Kaine",
+                true
+            ],
+            [
+                "I don't find that a heavy lift at all to do the work I have to do to tell people Hillary’s story,",
+                "Tim Kaine",
+                true
+            ],
+            [
+                "both grew up in Republican families ... in small business families",
+                "Tim Kaine",
+                false
+            ],
+            [
+                "I kind of know the vibe.",
+                "Tim Kaine",
+                true
+            ],
+            [
+                "I know that for example, for her it’s not easy for her to talk about herself, that’s just not the way we were raised, but it’s easier for me to talk about her so that’s something I like to do is to tell stories about things she’s done that really show who she is as a person and the kind of president she’ll be.",
+                "Tim Kaine",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.ellentube.com/video/vice-presidential-candidate-senator-tim-kaine-sits-down-with-ellen.html"
+            ]
+        },
+        "key_words": [
+            "feel",
+            "defend",
+            "kaine",
+            "doesnt",
+            "bad",
+            "thats",
+            "trump",
+            "donald",
+            "tell",
+            "talk",
+            "pence"
+        ]
+    }
+]

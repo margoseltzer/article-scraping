@@ -1,0 +1,67 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/newt-gingrich-trump-inner-cities-228518?cmpid=sf",
+        "title": "Gingrich: Trump is the first conservative to go into the inner city and talk change",
+        "authors": [
+            {
+                "name": "Yousef Saba",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-22",
+        "text": "Former House Speaker Newt Gingrich praised Donald Trump's outreach to inner cities.\nGingrich: Trump is the first conservative to go into the inner city and talk change\nBy YOUSEF SABA\nFormer House Speaker Newt Gingrich praised Donald Trump's outreach to inner cities in an appearance on Fox News on Thursday morning.\n\"The core problem is that people are trapped in the neighborhoods with no hope, no future, no jobs. There have been over 3,000 people shot in Chicago so far this year. One every two hours,\" Gingrich said, adding, \"one thing I'll say about Trump, he's the first conservative I've seen willing to go into the inner city and talk about the need for dramatic change.\"\nStory Continued Below\nGingrich, a Trump supporter, criticized Democratic leadership in inner cities, and suggested Barack Obama could have done more as president to diffuse racial tensions in the country. When asked how Obama may have missed an opportunity to repair race relations, he said, \"I think the biggest aspect was that all of the major inner cities, all of them governed by Democrats, are all disasters,\" citing statistics reflecting low primary school passing rates in several cities.\n\"More Americans have been killed while Obama was president, in Chicago, than in Iraq and Afghanistan combined. And I think the president had a unique opportunity, but my guess is he was afraid it would make him a black president in a narrowing sense,\" he said.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "The core problem is that people are trapped in the neighborhoods with no hope, no future, no jobs.",
+                "Gingrich",
+                true
+            ],
+            [
+                "There have been over 3,000 people shot in Chicago so far this year.",
+                "Gingrich",
+                true
+            ],
+            [
+                "one thing I'll say about Trump, he's the first conservative I've seen willing to go into the inner city and talk about the need for dramatic change.",
+                "Gingrich",
+                false
+            ],
+            [
+                "I think the biggest aspect was that all of the major inner cities, all of them governed by Democrats, are all disasters,",
+                "Barack Obama",
+                true
+            ],
+            [
+                "More Americans have been killed while Obama was president, in Chicago, than in Iraq and Afghanistan combined.",
+                "",
+                true
+            ],
+            [
+                "And I think the president had a unique opportunity, but my guess is he was afraid it would make him a black president in a narrowing sense,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "cities",
+            "think",
+            "conservative",
+            "president",
+            "speaker",
+            "talk",
+            "trump",
+            "gingrich",
+            "change",
+            "inner",
+            "obama",
+            "trumps",
+            "city"
+        ]
+    }
+]

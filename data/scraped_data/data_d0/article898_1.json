@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/mike-pence-bill-clinton-character-228563?cmpid=sf",
+        "title": "Pence targets Bill Clinton's character",
+        "authors": [
+            {
+                "name": "Matthew Nussbaum",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Pence targets Bill Clinton's character\nBy MATTHEW NUSSBAUM\nStory Continued Below\nPence has frequently hit Democratic nominee Hillary Clinton for what he calls a lack of integrity, but Thursday marked the first time he implicated Bill Clinton in the argument. He avoided his typical indictment of Hillary Clinton's use of private email server while secretary of state, instead focusing his attack on her husband.\nPence’s running mate, Republican nominee Donald Trump, has not shown a similar reticence in attacking Bill Clinton over the sex scandal that led to Clinton's impeachment in the House but an ultimate acquittal in the Senate.\n\"I'm so glad they kept that dress,\" Trump said a rally in August, in reference to an infamous blue dress that implicated the former president in the affair.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "I'm so glad they kept that dress,",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/05/donald-trump-mentions-rape-discussing-bill-clinton-223348",
+                "https://www.politico.com/story/2016/08/hillary-clinton-prepare-trump-debate-lewinsky-227033"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "scandal",
+            "presidency",
+            "clinton",
+            "debate",
+            "nominee",
+            "targets",
+            "trump",
+            "character",
+            "bill",
+            "pence",
+            "clintons"
+        ]
+    }
+]

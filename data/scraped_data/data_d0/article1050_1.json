@@ -1,0 +1,81 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/what-was-trump-going-to-say-to-clinton-first-debate-228744?cmpid=sf",
+        "title": "Trump: 'I was going to say something extremely rough' to Clinton",
+        "authors": [
+            {
+                "name": "Ben Schreckinger",
+                "link": null
+            },
+            {
+                "name": "Maggie Severns",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Trump: 'I was going to say something extremely rough' to Clinton\nHillary Clinton didn't hold back in her attacks on Donald Trump Monday night, but Donald Trump intimated that he pulled a key punch — passing on making a reference to Bill Clinton's past infidelities.\n“I was going to say something extremely rough to Hillary, to her family, and I said to myself, I can't do it,” Trump said in reply. “It's inappropriate. It's not nice.”\nStory Continued Below\nTrump's veiled reference followed a tough attack from Clinton, who referenced his past comments about women being “pigs” and “dogs” and said Trump “loves hanging around beauty contests” during Monday night’s debate.\n“He tried to switch from looks to stamina. But this is a man who has called women pigs, slobs and dogs,” Clinton said.\nTrump also said that Clinton has been hitting him “with tremendous commercials. Some of it's in entertainment.” Trump added that Rosie O’Donnell, the focus of some of his comments has “been very tough to me.”\nClinton has spent “hundreds of millions of dollars on negative ads ... many of which are untrue, and they're misrepresentations, and I will tell you this, Lester, it's not nice, and I don't deserve that, but it's certainly not a nice thing that she's done,” Trump added.\n“I’m very happy that I was able to hold back on the indiscretions with respect to Bill Clinton,” Trump told reporters after the debate. “Because I have a lot of respect for Chelsea Clinton and I just didn’t want to say what I was going to say.”\nAnd what exactly, a reporter asked, was that going to be?\n“I’ll tell you maybe at the next debate, we’ll see,” he responded.\n",
+        "quotes": [
+            [
+                "I was going to say something extremely rough to Hillary, to her family, and I said to myself, I can't do it,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "He tried to switch from looks to stamina.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "But this is a man who has called women pigs, slobs and dogs,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "Some of it's in entertainment.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "hundreds of millions of dollars on negative ads ... many of which are untrue, and they're misrepresentations, and I will tell you this, Lester, it's not nice, and I don't deserve that, but it's certainly not a nice thing that she's done,",
+                "Donald Trump",
+                false
+            ],
+            [
+                "I’m very happy that I was able to hold back on the indiscretions with respect to Bill Clinton,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Because I have a lot of respect for Chelsea Clinton and I just didn’t want to say what I was going to say.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "I’ll tell you maybe at the next debate, we’ll see,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/09/trump-clinton-fight-first-debate-228704"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "respect",
+            "reference",
+            "going",
+            "clinton",
+            "women",
+            "rough",
+            "trump",
+            "tell",
+            "say",
+            "extremely",
+            "tough"
+        ]
+    }
+]

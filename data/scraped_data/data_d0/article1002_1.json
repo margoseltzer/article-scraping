@@ -1,0 +1,99 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-debate-birther-donna-brazile-228781?cmpid=sf",
+        "title": "Donna Brazile slams Trump for not apologizing for birther claims",
+        "authors": [
+            {
+                "name": "Louis Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "Donna Brazile slams Trump for not apologizing for birther claims\nDemocratic National Committee interim chairwoman Donna Brazile said Donald Trump’s refusal to apologize for spearheading the so-called “birther” movement that questioned the citizenship of Barack Obama is a “wound that won't heal.”\nRecalling her visit over the weekend the newly-opened National Museum of African-American History and Culture as well as her own family’s history, Brazile said Trump’s hectoring of America’s first black president about his birth certificate recalled for her and many others the nation’s painful past.\nStory Continued Below\n“Donald Trump should take just a walk through that museum and see what it means to have to produce papers. I mean, my ancestors could not get papers simply because they were brought here as slaves. And it took centuries before we could finally get papers,” she told CNN’s “New Day” Tuesday morning. “To bring this up over and over again, and to smear the first black president of the United States, Donald Trump should be ashamed of himself, and he should apologize. I get emotional. I got a birth certificate. My parents had a birth certificate. My grandparents did not. My great grandparents did not.”\nThe issue of Trump’s support for the birther movement was raised late in Monday night’s presidential debate by moderator Lester Holt, who asked Trump what he would say to Americans hurt by his championing of the issue. As he did at a press conference two weeks ago, Trump blamed Hillary Clinton and her associates for first raising the issue and took credit for bringing the matter to rest. To those who might have been offended, the Manhattan billionaire said “Well, I say nothing, because I was able to get him to produce [his birth certificate].”\nBrazile admitted that the apology she wants from Trump is “not forthcoming, so I know I'm speaking into the wild darkness of Donald Trump, but I think he should be ashamed of himself to bring that up and to say -- and this is what he said, ‘I'm the one who got him to produce the birth certificate.’ It's amazing.”\n“I think it's a shame we put the president of the United States through this. It's just awful. And every time we talk about it, it's the wound. It’s the wound that won't heal,” she said. “And this is what Donald Trump should understand, it's the wound that will never heal as long as people go out there and exploit what I call real racial pain and animus in this country.”\n",
+        "quotes": [
+            [
+                "I'm the one who got him to produce the birth certificate.",
+                "",
+                true
+            ],
+            [
+                "Donald Trump should take just a walk through that museum and see what it means to have to produce papers.",
+                "Donna Brazile",
+                true
+            ],
+            [
+                "I mean, my ancestors could not get papers simply because they were brought here as slaves.",
+                "Donna Brazile",
+                true
+            ],
+            [
+                "And it took centuries before we could finally get papers,",
+                "Donna Brazile",
+                true
+            ],
+            [
+                "To bring this up over and over again, and to smear the first black president of the United States, Donald Trump should be ashamed of himself, and he should apologize.",
+                "",
+                true
+            ],
+            [
+                "My parents had a birth certificate.",
+                "",
+                true
+            ],
+            [
+                "Well, I say nothing, because I was able to get him to produce [his birth certificate].",
+                "",
+                true
+            ],
+            [
+                "not forthcoming, so I know I'm speaking into the wild darkness of Donald Trump, but I think he should be ashamed of himself to bring that up and to say -- and this is what he said, ‘I'm the one who got him to produce the birth certificate.’ It's amazing.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "I think it's a shame we put the president of the United States through this.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And every time we talk about it, it's the wound.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "It’s the wound that won't heal,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And this is what Donald Trump should understand, it's the wound that will never heal as long as people go out there and exploit what I call real racial pain and animus in this country.",
+                "Hillary Clinton",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "wound",
+            "president",
+            "trump",
+            "birth",
+            "birther",
+            "slams",
+            "certificate",
+            "donald",
+            "brazile",
+            "donna",
+            "claims",
+            "say",
+            "trumps",
+            "apologizing",
+            "produce"
+        ]
+    }
+]

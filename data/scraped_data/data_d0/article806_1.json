@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/donald-trump-microphone-debate-228754?cmpid=sf",
+        "title": "Trump: My mic was 'defective'",
+        "authors": [
+            {
+                "name": "Yousef Saba",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "By YOUSEF SABA\nRepublican nominee Donald J. Trump complained in the spin room that his debate mic wasn't working right, according to a video posted by a CBS journalist.\n\"They gave me a defective mic!\" he told reporters. \"[I] wonder, was that on purpose?\"\nStory Continued Below\nIt wasn't the first time Trump suggested he was given a faulty microphone. At a January rally in Pensacola, Florida, he abruptly stopped mid-speech and said, \"And by the way, I don't like this mic.\" He went on to call whoever installed it a \"son of a b-----\", and said, \"George, don't pay him! I believe in paying, but when someone does a bad job, like this stupid mic, you shouldn't pay the bill.\"\nIn the debate, Clinton accused Trump of not paying several workers for their services. Trump did not dispute that, saying, \"Maybe he didn't do a good job and I was unsatisfied with his work.\"\nTrump has also said if he loses the election it's because the system is \"rigged\" against him.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "They gave me a defective mic!",
+                "Trump",
+                true
+            ],
+            [
+                "I] wonder, was that on purpose?",
+                "",
+                true
+            ],
+            [
+                "And by the way, I don't like this mic.",
+                "Trump",
+                true
+            ],
+            [
+                "I believe in paying, but when someone does a bad job, like this stupid mic, you shouldn't pay the bill.",
+                "Trump",
+                true
+            ],
+            [
+                "Maybe he didn't do a good job and I was unsatisfied with his work.",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/Mosheh/status/780612017237417984"
+            ]
+        },
+        "key_words": [
+            "job",
+            "debate",
+            "worktrump",
+            "working",
+            "pay",
+            "defective",
+            "paying",
+            "trump",
+            "mic",
+            "dont",
+            "wasnt"
+        ]
+    }
+]

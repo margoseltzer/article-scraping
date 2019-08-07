@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/yahoo-hackers-users-data-228538?cmpid=sf",
+        "title": "Yahoo says government-backed hackers stole 500 million users' data",
+        "authors": [
+            {
+                "name": "Eric Geller",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-22",
+        "text": "Yahoo says government-backed hackers stole 500 million users' data\nYahoo announced Thursday that hackers apparently working for a foreign government stole data on at least 500 million of its users two years ago.\n\"A copy of certain user account information was stolen from the company's network in late 2014 by what it believes is a state-sponsored actor,\" Yahoo said in a news release .\nStory Continued Below\nThe company said it was \"working closely with law enforcement on this matter.\"\n\"Based on the ongoing investigation, Yahoo believes that information associated with at least 500 million user accounts was stolen and the investigation has found no evidence that the state-sponsored actor is currently in Yahoo's network,\" the company added.\nThe FBI and the Department of Homeland Security did not immediately respond to emails seeking comment on their involvement in the investigation.\nCompromised data included passwords and security questions.\nYahoo said its investigation suggested the hackers did not obtain unencrypted passwords and payment information.\nSome of the security questions were encrypted, the company added.\nThe company said it was contacting people whose data may have been compromised and urged users who hadn't changed their passwords since the time of the attack to do so.\n",
+        "quotes": [
+            [
+                "A copy of certain user account information was stolen from the company's network in late 2014 by what it believes is a state-sponsored actor,",
+                "",
+                true
+            ],
+            [
+                "working closely with law enforcement on this matter.",
+                "",
+                false
+            ],
+            [
+                "Based on the ongoing investigation, Yahoo believes that information associated with at least 500 million user accounts was stolen and the investigation has found no evidence that the state-sponsored actor is currently in Yahoo's network,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "http://go.politicoemail.com/expired.html"
+            ]
+        },
+        "key_words": [
+            "million",
+            "investigation",
+            "data",
+            "company",
+            "working",
+            "users",
+            "security",
+            "hackers",
+            "passwords",
+            "stole",
+            "governmentbacked",
+            "500"
+        ]
+    }
+]

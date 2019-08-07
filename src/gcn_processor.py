@@ -66,7 +66,7 @@ def separate_arts(ent_adj_dict):
         ''' return dict that only includes aid : [aids] and dict that only includes aid: [fids]
         '''
         art_adj_dict = {}
-        art_fts_dict = {}
+        art_ft_dict = {}
         for k, v in ent_adj_dict.items():
             tmp_as = [] 
             tmp_fs = []
@@ -74,11 +74,11 @@ def separate_arts(ent_adj_dict):
                 if e[0] == 'a': tmp_as.append(e)
                 else          : tmp_fs.append(e)
             art_adj_dict[k] = tmp_as
-            art_fts_dict[k] = tmp_fs
+            art_ft_dict[k] = tmp_fs
 
-        return art_adj_dict, art_fts_dict
+        return art_adj_dict, art_ft_dict
 
-def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
+def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
     ''' Links articles that are two hops away from each other by quote or agent
         return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
         track of which agents or quotes are attributed to articles
@@ -96,12 +96,12 @@ def link_articles(adj_dict, fts_dict, obj_dict, dict_list):
                         adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
                     else:
                         adj_dict[k_1] = adj_dict[k_1] if k_1 in adj_dict else []
-        # Process on fts_dict
+        # Process on ft_dict
         for k, v in dic.items():
             for f in v:
-                fts_dict[k] = fts_dict[k] + [f] if k in fts_dict else [f]
+                ft_dict[k] = ft_dict[k] + [f] if k in ft_dict else [f]
 
-    return adj_dict, fts_dict
+    return adj_dict, ft_dict
 
 def handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict):
     ''' Link persons who are indirectly connencted to articles
@@ -118,27 +118,27 @@ def get_ids_idx_dicts(obj_dict):
     ''' return art_id to idx dict and non_art_id to idx dict
     '''
     art_id_idx_dict = {}
-    fts_id_idx_dict = {}
+    ft_id_idx_dict = {}
     
     art_idx = 0
-    fts_idx = 0
+    ft_idx = 0
     for k, v in obj_dict.items():
         if v['type'] == 'article':
             art_id_idx_dict[k] = 'a' +  str(art_idx)
             art_idx += 1
         else:
-            fts_id_idx_dict[k] = 'f' + str(fts_idx)
-            fts_idx += 1
-    return art_id_idx_dict, fts_id_idx_dict
+            ft_id_idx_dict[k] = 'f' + str(ft_idx)
+            ft_idx += 1
+    return art_id_idx_dict, ft_id_idx_dict
 
-def convert_ids_to_idx(art_id_idx_dict, fts_id_idx_dict, dicts_to_convert):
+def convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert):
     ''' Modify all the dictionaries' keys and values in place from article_id to index  
     '''
     def convert_value(v):
         ''' Simply comvert a list of ids into a list of idx
         '''
         if type(v) == list: 
-            v = [fts_id_idx_dict[i] if i in fts_id_idx_dict else art_id_idx_dict[i] for i in v]
+            v = [ft_id_idx_dict[i] if i in ft_id_idx_dict else art_id_idx_dict[i] for i in v]
         return v
 
     res_dicts = [{}, {}, {}, {}, {}]
@@ -146,7 +146,7 @@ def convert_ids_to_idx(art_id_idx_dict, fts_id_idx_dict, dicts_to_convert):
     for dic in dicts_to_convert:
         new_dict = res_dicts[i]
         for k, v in dic.items():
-            new_key = art_id_idx_dict[k] if k in art_id_idx_dict else fts_id_idx_dict[k]
+            new_key = art_id_idx_dict[k] if k in art_id_idx_dict else ft_id_idx_dict[k]
             new_dict[new_key] = convert_value(v)
         i += 1
     return res_dicts[0], res_dicts[1], res_dicts[2], res_dicts[3], res_dicts[4]
@@ -164,39 +164,39 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
                 print(url)
     return y
 
-def remove_prefix(adj_mat, fts_mat):
+def remove_prefix(adj_mtx, ft_mtx):
     ''' Remove all 'a' and 'f' in front of ids
     '''
     def remove_prefix_val(v):
         return [int(fid[1:]) for fid in v]
 
-    adj_mat = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_mat.items())
-    fts_mat = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in fts_mat.items())
-    return adj_mat, fts_mat
+    adj_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_mtx.items())
+    ft_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_mtx.items())
+    return adj_mtx, ft_mtx
 
 def get_n_d(aid_adj_dict, aid_fid_dict):
     n = len(aid_adj_dict)
     d = len(set(list(itertools.chain.from_iterable(aid_fid_dict.values()))))
     return n, d
 
-def convert_dict_to_mat(adj_dict, fts_dict, n, d):
-    adj_mat = np.zeros((n, n))
-    fts_mat = np.zeros((n, d+1))
+def convert_dict_to_mtx(adj_dict, ft_dict, n, d):
+    adj_mtx = np.zeros((n, n))
+    ft_mtx = np.zeros((n, d+1))
     fids = []
     for i in range(n):
         adj_row = adj_dict[i]
-        fts_row = fts_dict[i]
+        ft_row = ft_dict[i]
         for a_id in adj_row:
-            adj_mat[i][a_id] = 1
-        for f_id in fts_row:
+            adj_mtx[i][a_id] = 1
+        for f_id in ft_row:
             fids.append(f_id)
-            fts_mat[i][f_id] = 1
-    fts_mat[:, d] = 1
-    print(adj_mat)
-    print(np.sum(adj_mat, axis=1))
-    return adj_mat, fts_mat
+            ft_mtx[i][f_id] = 1
+    ft_mtx[:, d] = 1
+    print(adj_mtx)
+    print(np.sum(adj_mtx, axis=1))
+    return adj_mtx, ft_mtx
     
-def get_data_for_gcn(adj_dict, fts_mat, y, n, d):
+def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
     graph = defaultdict(int, adj_dict)
     ally = np.zeros((n, 2))
     for i, yi in enumerate(y, start=0):
@@ -205,7 +205,7 @@ def get_data_for_gcn(adj_dict, fts_mat, y, n, d):
         if yi ==  0: ally[i][1] = 1
         elif yi ==  1: ally[i][0] = 1
 
-    allx = csr_matrix(np.array(fts_mat))
+    allx = csr_matrix(np.array(ft_mtx))
     
     for n in ally:
         print(n)
@@ -245,11 +245,11 @@ article_label_dic = get_article_dict(saved_file_name)
 obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = call_python_version('2.7', 'src.gcn_db_processor', 'process_db', [])
 
 # Get article_id to idx dict of only article 
-art_id_idx_dict, fts_id_idx_dict = get_ids_idx_dicts(obj_dict)
+art_id_idx_dict, ft_id_idx_dict = get_ids_idx_dicts(obj_dict)
 
 # Convert all ids in dicts to idx
 dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict]
-obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_to_idx(art_id_idx_dict, fts_id_idx_dict, dicts_to_convert)
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert)
 
 # Separate ent_adj into two pre reuslt dictionaries
 tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
@@ -269,12 +269,17 @@ y = get_y(aid_adj_dict, article_label_dic, obj_dict)
 # print('1'+1)
 n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 
-adj_dict, fts_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
-adj_mat, fts_mat   = convert_dict_to_mat(adj_dict, fts_dict, n, d)
+def get_bin_ft_mtx(aid_adj_dict, aid_fid_dict, n):
+    
 
-x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, fts_mat, y, n, d)
+adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
+
+ft_bin_mtx = get_bin_ft_mtx(aid_adj_dict, aid_fid_dict, n)
+
+adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
+
+x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
 # print("1"+1)
-
 
 
 
@@ -291,7 +296,7 @@ x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, fts_mat, y, n, d)
 # print(set(aid_adj_dict.keys()))
 # print(set(aid_fid_dict.keys()))
 print('    adj  n :', len(aid_adj_dict.keys()))
-print('    fts  n :', len(aid_fid_dict.keys()))
+print('    ft  n :', len(aid_fid_dict.keys()))
 a = set(list(itertools.chain.from_iterable(aid_adj_dict.values())))
 b = set(list(itertools.chain.from_iterable(aid_fid_dict.values())))
 print('nonempty n :', len(a))

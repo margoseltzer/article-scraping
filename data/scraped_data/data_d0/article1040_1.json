@@ -1,0 +1,70 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-tax-breaks-universities-228575?cmpid=sf",
+        "title": "Trump threatens to take tax breaks away from wealthy universities",
+        "authors": [
+            {
+                "name": "Kimberly Hefling",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Trump threatens to take tax breaks away from wealthy universities\nColleges and universities that don't spend their endowments to directly benefit students should lose the tax breaks on those endowments, Donald Trump said Thursday night.\nEchoing House Republicans who have questioned why wealthy universities with fat endowments keep raising tuition prices, Trump said during a rally in Chester Township, Pa., that it's time for colleges to spend their endowments to help students — rather than on \"other things that don’t matter.”\nStory Continued Below\nTrump said too many colleges use the money they have to pay for administrators, equity fund managers and to put donors' names on buildings.\n\"What a lot of people don’t know is that universities get massive tax breaks for their massive endowments,\" Trump said. \"These huge, multi-billion-dollar endowments are tax-free, but too many of these universities don’t use the money to help with the tuition and student debt.”\nTrump said he would work with Congress to push reforms to help students and families, so that colleges make \"good faith\" efforts to curtail student debt. The GOP presidential nominee said paying for college is one of the top issues he hears about from voters.\nGoing to college, Trump said, “should be easier to access, pay for and finish, and a lot of people want to do that.”\n\"We have to deal with these universities,\" Trump told the crowd. \"We have to break the cycle.\"\n",
+        "quotes": [
+            [
+                "other things that don’t matter.”\nStory Continued Below\nTrump said too many colleges use the money they have to pay for administrators, equity fund managers and to put donors' names on buildings.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "What a lot of people don’t know is that universities get massive tax breaks for their massive endowments,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "These huge, multi-billion-dollar endowments are tax-free, but too many of these universities don’t use the money to help with the tuition and student debt.”\nTrump said he would work with Congress to push reforms to help students and families, so that colleges make \"good faith",
+                "Donald Trump",
+                false
+            ],
+            [
+                "should be easier to access, pay for and finish, and a lot of people want to do that.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "We have to deal with these universities,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "We have to break the cycle.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.politicopro.com/"
+            ]
+        },
+        "key_words": [
+            "colleges",
+            "universities",
+            "breaks",
+            "tax",
+            "endowments",
+            "students",
+            "help",
+            "pay",
+            "trump",
+            "away",
+            "dont",
+            "money",
+            "threatens",
+            "wealthy"
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-foundation-washington-post-pence-228454?cmpid=sf",
+        "title": "Pence gives no specifics on why Trump Foundation story is inaccurate",
+        "authors": [
+            {
+                "name": "Nick Gass",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-21",
+        "text": "Pence gives no specifics on why Trump Foundation story is inaccurate\nBy NICK GASS\nWhen it comes to the Trump campaign's allegations of \"inaccuracies and omissions\" against a Washington Post story, running mate Mike Pence struggled late Tuesday night to account for specific examples.\nAppearing on MSNBC's \"The 11th Hour with Brian Williams\" after an evening rally in Williamsburg, Virginia, the Indiana governor backed up the Trump campaign's statement against the Post's reporting earlier in the day that Donald Trump spent $258,000 from his charitable foundation to settle legal issues.\nStory Continued Below\n\"Well, I think what we found is that there is a number of factual errors in that story as there were in previous stories about the Trump Foundation. I'm confident they'll be able to address those and demonstrate that they fully complied with the law,\" Pence told Brian Williams, adding that the \"larger issue\" is the Clinton Foundation.\nWilliams tried to button up the issue, pressing Pence specifically for \"what the factual errors are that the campaign is alleging\" from the latest Post story.\n\"Well, I think the foundation will be able to lay those out. There were errors in the previous Washington Post stories, and, you know, look, you know me a while, Brian. I strongly support a free and independent press. People are entitled to ask questions, and I'm sure the Trump Foundation and the Trump family will continue to be able to answer those questions.\"\nPence's comments and the Trump campaign statement came hours after the latest article from the Post into the Republican nominee's charitable foundation.\n",
+        "quotes": [
+            [
+                "The 11th Hour with Brian Williams",
+                "",
+                false
+            ],
+            [
+                "Well, I think what we found is that there is a number of factual errors in that story as there were in previous stories about the Trump Foundation.",
+                "Pence",
+                true
+            ],
+            [
+                "I'm confident they'll be able to address those and demonstrate that they fully complied with the law,",
+                "Pence",
+                true
+            ],
+            [
+                "what the factual errors are that the campaign is alleging",
+                "",
+                false
+            ],
+            [
+                "Well, I think the foundation will be able to lay those out.",
+                "Pence",
+                true
+            ],
+            [
+                "There were errors in the previous Washington Post stories, and, you know, look, you know me a while, Brian.",
+                "Pence",
+                true
+            ],
+            [
+                "I strongly support a free and independent press.",
+                "Pence",
+                true
+            ],
+            [
+                "People are entitled to ask questions, and I'm sure the Trump Foundation and the Trump family will continue to be able to answer those questions.",
+                "Pence",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.washingtonpost.com/politics/trump-used-258000-from-his-charity-to-settle-legal-problems/2016/09/20/adc88f9c-7d11-11e6-ac8e-cf8e0dd91dc7_story.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "gives",
+            "foundation",
+            "williams",
+            "washington",
+            "brian",
+            "trump",
+            "inaccurate",
+            "errors",
+            "specifics",
+            "pence",
+            "able",
+            "post",
+            "think"
+        ]
+    }
+]

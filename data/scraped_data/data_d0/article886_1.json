@@ -1,0 +1,84 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/la-times-endorses-clinton-228566?cmpid=sf",
+        "title": "LA Times endorses Clinton, bashes Trump",
+        "authors": [
+            {
+                "name": "Politico Staff",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "LA Times endorses Clinton, bashes Trump\nBy POLITICO STAFF\nThe reliably liberal editorial board of the Los Angeles Times has endorsed Hillary Clinton, calling her \"an experienced, thoughtful and deeply knowledgeable public servant\" in a lengthy editorial.\nThe paper lambasted Donald Trump, by contrast, as a \"thin-skinned demagogue who is unqualified and unsuited to be president.\"\nStory Continued Below\nEchoing criticisms leveled by Clinton and her allies, the editorial attacks the billionaire businessman as someone who \"has never held elected office and has shown himself temperamentally unfit to do so.\n\"He has run a divisive, belligerent, dishonest campaign, repeatedly aligning himself with racists, strongmen and thugs while maligning or dismissing large segments of the American public. Electing Trump could be catastrophic for the nation,\" the board writes.\nThe editorial then goes on detail Clinton's perceived strengths and attack Trump's record at length.\nBut it also wrestles with the former secretary of state's perceived shortcomings, noting her \"penchant for secrecy\" and dinging her \"for adjusting her positions to match popular opinion and for being a little too comfortable with the use of military force.\"\nUltimately, the board concludes: \"To be a great president, she will have to struggle to overcome her own weaknesses. But compared with Trump’s infirmities as a candidate, her failings are insignificant. It’s absurd — and perilous — to portray this election, as so many are doing, as a choice of the 'lesser of two evils' or to suggest that her flaws are in any way on a level with his.\"\nThe LA Times also endorsed Clinton ahead of the California Democratic primary. It also endorsed Barack Obama in 2008 \"without hesitation,\" and again in 2012, hailing his \"steady leadership.\"\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "an experienced, thoughtful and deeply knowledgeable public servant",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "thin-skinned demagogue who is unqualified and unsuited to be president.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "has never held elected office and has shown himself temperamentally unfit to do so.",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "He has run a divisive, belligerent, dishonest campaign, repeatedly aligning himself with racists, strongmen and thugs while maligning or dismissing large segments of the American public.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "Electing Trump could be catastrophic for the nation,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "for adjusting her positions to match popular opinion and for being a little too comfortable with the use of military force.",
+                "",
+                false
+            ],
+            [
+                "To be a great president, she will have to struggle to overcome her own weaknesses.",
+                "",
+                true
+            ],
+            [
+                "But compared with Trump’s infirmities as a candidate, her failings are insignificant.",
+                "",
+                true
+            ],
+            [
+                "It’s absurd — and perilous — to portray this election, as so many are doing, as a choice of the 'lesser of two evils' or to suggest that her flaws are in any way on a level with his.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.latimes.com/opinion/editorials/la-ed-hillary-endorsement-20160923-snap-story.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "times",
+            "la",
+            "bashes",
+            "clinton",
+            "perceived",
+            "endorsed",
+            "strengths",
+            "board",
+            "trump",
+            "record",
+            "endorses",
+            "trumps",
+            "editorial"
+        ]
+    }
+]

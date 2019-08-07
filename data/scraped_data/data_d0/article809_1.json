@@ -1,0 +1,81 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/donald-trump-obama-birtherism-campaign-228502?cmpid=sf",
+        "title": "Trump acknowledged Obama's birthplace 'to get on with the campaign'",
+        "authors": [
+            {
+                "name": "Cristiano Lima",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-21",
+        "text": "Trump acknowledged Obama's birthplace 'to get on with the campaign'\nDonald Trump said Wednesday he decided to finally address his \"birther\" controversy \"to get on with the campaign\" and discuss issues like the economy and the threat of terrorism.\nSpeaking to Ohio's ABC6, the Republican nominee said, \"I just wanted to get on with, I wanted to get on with the campaign. A lot of people were asking me questions. We want to talk about jobs. We want to talk about the military. We want to talk about ISIS and get rid of ISIS. We want to talk about bringing jobs back to this area because you've been decimated so we just wanted to get back on the subject of jobs, military, taking care of our vets, etc.\"\nStory Continued Below\nThe Republican nominee had been pressed to explain why he refused to acknowledge President Barack Obama's birthplace as the United States -- a fact he questioned for years prior to becoming a presidential candidate.\nTrump conceded during an announcement last Friday that “President Barack Obama was born in the United States, period.\"\n\"Now we all want to get back to making America strong and great again,” Trump added.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "to get on with the campaign",
+                "Donald Trump",
+                false
+            ],
+            [
+                "I just wanted to get on with, I wanted to get on with the campaign.",
+                "",
+                true
+            ],
+            [
+                "A lot of people were asking me questions.",
+                "",
+                true
+            ],
+            [
+                "We want to talk about jobs.",
+                "",
+                true
+            ],
+            [
+                "We want to talk about the military.",
+                "",
+                true
+            ],
+            [
+                "We want to talk about ISIS and get rid of ISIS.",
+                "",
+                true
+            ],
+            [
+                "We want to talk about bringing jobs back to this area because you've been decimated so we just wanted to get back on the subject of jobs, military, taking care of our vets, etc.",
+                "",
+                true
+            ],
+            [
+                "President Barack Obama was born in the United States, period.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Now we all want to get back to making America strong and great again,",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "united",
+            "jobs",
+            "campaign",
+            "president",
+            "acknowledged",
+            "wanted",
+            "talk",
+            "trump",
+            "birthplace",
+            "states",
+            "republican",
+            "obamas"
+        ]
+    }
+]

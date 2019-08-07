@@ -1,0 +1,171 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/ted-cruz-donald-trump-insults-endorse-228594?cmpid=sf",
+        "title": "9 times Ted Cruz insulted Donald Trump before endorsing him",
+        "authors": [
+            {
+                "name": "Katie Glueck",
+                "link": null
+            },
+            {
+                "name": "Madeline Conway",
+                "link": null
+            },
+            {
+                "name": "Burgess Everett",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "9 times Ted Cruz insulted Donald Trump before endorsing him\nBy MADELINE CONWAY\nStory Continued Below\n1. Early on, Cruz speculated that Trump’s tax returns could show a mob connection\nIn February, Cruz offered his take on why Trump hadn’t released his tax returns in an interview on NBC’s “Meet the Press,” suggesting that they might show “Donald's business dealings with the mob, with the mafia.”\n“The fact that Donald seems terrified to release his taxes suggests that there’s a bombshell there,” Cruz said. “It’s natural to wonder, ‘Well, what is it that he's hiding in his taxes?’”\n2. In March, Cruz called him a “sniveling coward”\nSpeaking to a group of reporters in Dane, Wisconsin, after Trump made a comment promising to “spill the beans” on the senator’s wife, Cruz pointed his finger and said, “Donald, you’re a sniveling coward. Leave Heidi the hell alone.”\n“It’s not easy to tick me off. I don’t get angry often, but you mess with my wife, you mess with my kids, that’ll do it every time,” Cruz said.\n3. He also called Trump a “big, loud New York bully”\n“Let me be absolutely clear: Our spouses and our children are off bounds,” Cruz said . “It is not acceptable for a big, loud New York bully to attack my wife.”\n4. Also, “a small and petty man who is intimidated by strong women”\nTrump’s attacks, Cruz suggested , were actions of “a small and petty man who is intimidated by strong women.”\n5. Cruz called one of Trump’s theories “nuts” and “just kooky”\nIn May, after Trump cited a National Enquirer report that alleged Cruz’s father may have had some involvement in the assassination of President John F. Kennedy, Cruz addressed reporters in Evansville, Indiana: “This morning, Donald Trump went on national television and attacked my father. Donald Trump alleges that my dad was involved in assassinating JFK. Now, let’s be clear, this is nuts. This is not a reasonable position. This is just kooky.”\n6. He also called him a “pathological liar” who “lies practically every word that comes out of his mouth”\nAlso in Indiana, on the same day the state's voters would deliver a decisive victory to Trump, Cruz added : “I’m gonna tell you what I really think of Donald Trump: This man is a pathological liar. He doesn’t know the difference between truth and lies. He lies practically every word that comes out of his mouth, and in a pattern that I think is straight out of a psychology textbook, his response is to accuse everybody else of lying.”\n7. And Cruz was specific with the term “pathological”: Trump is “utterly amoral,” he said\n“I say pathological because I actually think Donald, if you hooked him up to a lie detector test, he could say one thing in the morning, one thing at noon and one thing in the evening, all contradictory and he’d pass the lie detector test each time. Whatever lie he’s telling, at that minute he believes it, but the man is utterly amoral,” Cruz said .\n8. And, while he was at it, Cruz accused him of narcissism and being a “serial philanderer”\nContinuing to unload in Indiana, Cruz offered : “He combines [dishonesty] with being a narcissist, a narcissist at a level I don’t think this country’s ever seen. Donald Trump is such a narcissist that Barack Obama looks at him and says, ‘Dude, what’s your problem?’’’\nAnd: “Donald Trump is a serial philanderer, and he boasts about it. This is not a secret. He’s proud of being a serial philanderer.”\n9. In July, Cruz still hadn’t forgiven Trump for the attacks on his family\n“I am not in the habit of supporting people who attack my wife and attack my father,” Cruz said , answering questions at a Texas delegation breakfast at the Republican National Convention in Cleveland and facing backlash for not yet endorsing Trump.\nReferring to his pledge to support his party’s nominee, Cruz said that statement “was not a blanket commitment that if you slander and attack Heidi I'm going to nonetheless go like a servile puppy dog\" and support him.\n",
+        "quotes": [
+            [
+                "Well, what is it that he's hiding in his taxes?",
+                "",
+                true
+            ],
+            [
+                "Donald's business dealings with the mob, with the mafia.",
+                "",
+                true
+            ],
+            [
+                "The fact that Donald seems terrified to release his taxes suggests that there’s a bombshell there,",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "It’s natural to wonder, ‘Well, what is it that he's hiding in his taxes?",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Donald, you’re a sniveling coward.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "It’s not easy to tick me off.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "I don’t get angry often, but you mess with my wife, you mess with my kids, that’ll do it every time,",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Let me be absolutely clear: Our spouses and our children are off bounds,",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "It is not acceptable for a big, loud New York bully to attack my wife.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "a small and petty man who is intimidated by strong women",
+                "Ted Cruz",
+                false
+            ],
+            [
+                "a small and petty man who is intimidated by strong women.",
+                "Ted Cruz",
+                false
+            ],
+            [
+                "This morning, Donald Trump went on national television and attacked my father.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Donald Trump alleges that my dad was involved in assassinating JFK.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Now, let’s be clear, this is nuts.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "This is not a reasonable position.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "lies practically every word that comes out of his mouth",
+                "",
+                false
+            ],
+            [
+                "I’m gonna tell you what I really think of Donald Trump: This man is a pathological liar.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "He doesn’t know the difference between truth and lies.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "He lies practically every word that comes out of his mouth, and in a pattern that I think is straight out of a psychology textbook, his response is to accuse everybody else of lying.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "I say pathological because I actually think Donald, if you hooked him up to a lie detector test, he could say one thing in the morning, one thing at noon and one thing in the evening, all contradictory and he’d pass the lie detector test each time.",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Whatever lie he’s telling, at that minute he believes it, but the man is utterly amoral,",
+                "Ted Cruz",
+                true
+            ],
+            [
+                "Donald Trump is a serial philanderer, and he boasts about it.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "He’s proud of being a serial philanderer.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "I am not in the habit of supporting people who attack my wife and attack my father,",
+                "Ted Cruz",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/07/ted-cruz-rules-out-voting-for-hillary-clinton-225944",
+                "https://www.politico.com/story/2016/02/cruz-says-trump-tax-returns-may-show-connection-to-mob-219930",
+                "https://www.politico.com/blogs/2016-gop-primary-live-updates-and-results/2016/03/ted-cruz-trump-sniveling-coward-221208",
+                "https://www.politico.com/story/2016/05/ted-cruz-jfk-assassination-trump-222736"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "times",
+            "man",
+            "attack",
+            "wife",
+            "insulted",
+            "national",
+            "cruz",
+            "trump",
+            "donald",
+            "ted",
+            "endorsing",
+            "called",
+            "pathological",
+            "think"
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-housing-collapse-228708?cmpid=sf",
+        "title": "Trump cheering housing collapse: 'That's called business'",
+        "authors": [
+            {
+                "name": "Matthew Nussbaum",
+                "link": null
+            },
+            {
+                "name": "Shane Goldmacher",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Trump cheering housing collapse: 'That's called business'\nBy MATTHEW NUSSBAUM\nWhen Donald Trump said he was hoping for a collapse in the housing market before the Great Recession, it was just smart business sense, he said in the first sharp exchange of the debate.\n“In fact, Donald was one of the people who rooted for the housing crisis,” Hillary Clinton said when discussing the recovery from the Great Recession. “He said back in 2006, ‘Gee, I hope it does collapse because then I can go in and buy some and make some money. Well it did collapse.”\nStory Continued Below\n“That’s called business, by the way,” Trump said, interrupting. But Clinton talked over him.\n“Nine million people lost their jobs, five million people lost their homes,” she said.\nClinton appeared to be referencing when Trump, in 2006, said regarding a crash : “I sort of hope that happens because then people like me would go in and buy.”\n",
+        "quotes": [
+            [
+                "In fact, Donald was one of the people who rooted for the housing crisis,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "He said back in 2006, ‘Gee, I hope it does collapse because then I can go in and buy some and make some money.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "That’s called business, by the way,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "Nine million people lost their jobs, five million people lost their homes,",
+                "",
+                true
+            ],
+            [
+                "I sort of hope that happens because then people like me would go in and buy.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2016/05/19/politics/donald-trump-2006-hopes-real-estate-market-crashes/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "hope",
+            "business",
+            "million",
+            "lost",
+            "collapse",
+            "hillary",
+            "cheering",
+            "thats",
+            "trump",
+            "donald",
+            "recession",
+            "called",
+            "rooted",
+            "housing"
+        ]
+    }
+]

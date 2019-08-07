@@ -1,0 +1,57 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/meese-trump-transition-228694?cmpid=sf",
+        "title": "Sources: Former Trump critic Ed Meese joins transition team",
+        "authors": [
+            {
+                "name": "Louis Nelson",
+                "link": null
+            },
+            {
+                "name": "Andrew Restuccia",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Sources: Former Trump critic Ed Meese joins transition team\nStory Continued Below\nMeese wrote in January that Trump's \"broadsides\" against fellow GOP candidates had served \"to divide and discourage potential Republican-party supporters.\"\n\"Questionable assertions that an opponent is not eligible to run, or that another cannot be elected, or that still another lacks enthusiasm or energy, are a poor substitute for addressing the real issues that should be the basis for a positive campaign: restoring economic growth, strengthening national security, eliminating cronyism and corruption, and improving the lives of all Americans,\" he added.\nBut with Trump's nomination cemented and the polls tightening, Meese and other Trump critics like Ted Cruz are beginning to come around.\nTwo sources said Meese is heading a Trump transition group focused on the Executive Office of the President, which includes the Office of Management and Budget. Meese declined to comment, and the Trump campaign did not respond to a request for comment.\nMeese was an aide to Reagan during his time as governor of California. He led Reagan's presidential transition team in 1980 and later served as Reagan's attorney general before resigning in July 1988 following a special prosecutor's inquiry involving his ties to an Army contractor and an Iraqi pipeline project. He is a fellow at the Heritage Foundation.\nTrump's transition team, which is led by New Jersey Gov. Chris Christie, is rapidly expanding, with one source telling POLITICO that nearly 100 people are now involved in the effort. And even as some Republicans refuse to take part, Christie and his staff have managed to recruit people with both establishment and conservative credentials, including former Heritage Foundation President Ed Feulner and Eric Ueland , the Senate Budget Committee's Republican staff director.\nIn addition to Meese and Feulner, sources told POLITICO that Paul Winfree , another Heritage Foundation official, is also working on the Trump transition. Winfree declined to comment.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "to divide and discourage potential Republican-party supporters.",
+                "Trump",
+                false
+            ],
+            [
+                "Questionable assertions that an opponent is not eligible to run, or that another cannot be elected, or that still another lacks enthusiasm or energy, are a poor substitute for addressing the real issues that should be the basis for a positive campaign: restoring economic growth, strengthening national security, eliminating cronyism and corruption, and improving the lives of all Americans,",
+                "Ed Meese",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/1988/07/06/us/meese-says-he-ll-step-down-contending-he-is-vindicated-by-the-special-prosecutor.html",
+                "http://www.nationalreview.com/article/430126/donald-trump-conservatives-oppose-nomination",
+                "https://www.politico.com/story/2016/09/eric-ueland-donald-trump-transition-228545",
+                "https://www.politico.com/story/2016/09/ado-machida-trump-transition-team-228687"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "http://www.heritage.org/about/staff/w/paul-winfree"
+            ]
+        },
+        "key_words": [
+            "joins",
+            "team",
+            "meese",
+            "national",
+            "sources",
+            "president",
+            "republicans",
+            "trump",
+            "critic",
+            "trumps",
+            "ed",
+            "transition"
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-oppose-iraq-war-fact-check-228742?cmpid=sf",
+        "title": "Trump repeats incorrect claim he opposed the Iraq War from outset",
+        "authors": [
+            {
+                "name": "Katie Glueck",
+                "link": null
+            },
+            {
+                "name": "Shane Goldmacher",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Trump repeats incorrect claim he opposed the Iraq War from outset\nBy KATIE GLUECK\nDonald Trump on Monday again wrongly claimed that he opposed the Iraq War before it started.\n\"I did not support the war in Iraq,\" Trump said at the first presidential debate when asked how his judgment differed from that of his opponent, Hillary Clinton, who initially supported the war. \"That is mainstream media nonsense put out by her.\"\nStory Continued Below\nModerator Lester Holt of NBC noted that \"the record shows otherwise.\" Indeed, in September of 2002, before the U.S. invasion of Iraq, Trump said , \"Yeah, I guess so,\" when asked by radio host Howard Stern whether he supported that move.\n\"When I did an interview with Howard Stern, very lightly, first time anybody's asked me, I said, 'I don't know,' essentially,\" Trump said, going on to add that he would soon have arguments with Sean Hannity of Fox News, who did support the war, and that there was an article from 2004 in which he appeared strongly opposed to the war. The U.S. invaded Iraq in 2003.\n\"If somebody would call up Sean Hannity, this was before the war started,\" Trump said. \"He and I used to have arguments about the war. I said it's a terrible and a stupid thing. It's going to destabilize the Middle East. And that exactly what this has done.\"\n\"My reference is to what you said in 2002,\" Holt pressed, going on to ask how his judgment differed from Clinton's.\nI have better judgment, I also have a much better temperament than she does, you know?\" he said, going on to add, \"I think my strongest asset, maybe by far is my temperament. I have a winning temperament. I know how to win. She does not.\"\nClinton, who was smiling through Trump's remarks, opened with a \"woo! OK,\" when the questions turned back to her.\n",
+        "quotes": [
+            [
+                "I did not support the war in Iraq,",
+                "Trump",
+                true
+            ],
+            [
+                "That is mainstream media nonsense put out by her.",
+                "Trump",
+                true
+            ],
+            [
+                "When I did an interview with Howard Stern, very lightly, first time anybody's asked me, I said, 'I don't know,' essentially,",
+                "Trump",
+                true
+            ],
+            [
+                "If somebody would call up Sean Hannity, this was before the war started,",
+                "Trump",
+                true
+            ],
+            [
+                "He and I used to have arguments about the war.",
+                "Trump",
+                true
+            ],
+            [
+                "I said it's a terrible and a stupid thing.",
+                "Trump",
+                true
+            ],
+            [
+                "It's going to destabilize the Middle East.",
+                "Trump",
+                true
+            ],
+            [
+                "And that exactly what this has done.",
+                "Trump",
+                true
+            ],
+            [
+                "My reference is to what you said in 2002,",
+                "Holt",
+                true
+            ],
+            [
+                "he said, going on to add, \"I think my strongest asset, maybe by far is my temperament.",
+                "Trump",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politifact.com/truth-o-meter/statements/2016/jun/22/donald-trump/trump-still-wrong-his-claim-opposed-iraq-war-ahead/"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "know",
+            "incorrect",
+            "going",
+            "opposed",
+            "repeats",
+            "war",
+            "trump",
+            "judgment",
+            "temperament",
+            "asked",
+            "iraq",
+            "supported",
+            "claim",
+            "outset"
+        ]
+    }
+]

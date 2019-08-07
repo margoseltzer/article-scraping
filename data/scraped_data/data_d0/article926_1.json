@@ -1,0 +1,61 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/pat-mcrory-charlotte-protesters-anarchists-228571?cmpid=sf",
+        "title": "McCrory decries 'anarchists' in North Carolina protests",
+        "authors": [
+            {
+                "name": "Nick Gass",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "McCrory decries 'anarchists' in North Carolina protests\nBy NICK GASS\nNorth Carolina Gov. Pat McCrory said Friday that he had \"very positive\" conversations the previous day with both Donald Trump and President Barack Obama.\nThe Republican governor, appearing on \"Fox & Friends,\" said he \"explained the situation to both Mr. Trump and the president and explained the dynamics that are occurring.\"\nStory Continued Below\n\"I told them both that we have some anarchists who do not have legitimate reason to protest,\" McCrory said. \"We have other protests that are doing an incredible job of expressing their viewpoint, which needs to be heard.\"\nIn addition, McCrory said he spoke to Obama and Trump \"about the courage of our police officers and our National Guard.\"\nAfter speaking with McCrory on Thursday, Trump tweeted his appreciation for the governor in the wake of multiple nights of protests following the police killing of an African-American man in Charlotte.\n\"He is doing a tremendous job under tough circumstances,\" Trump wrote.\nDemocratic nominee Hillary Clinton called both Charlotte Mayor Jennifer Roberts and Rep. Alma Adams (D-N.C.) on Thursday evening to discuss the recent events and to offer any assistance.\nMcCrory declared a state of emergency on Wednesday night, and the city instituted a midnight curfew on Thursday.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "explained the situation to both Mr. Trump and the president and explained the dynamics that are occurring.",
+                "McCrory",
+                false
+            ],
+            [
+                "I told them both that we have some anarchists who do not have legitimate reason to protest,",
+                "McCrory",
+                true
+            ],
+            [
+                "We have other protests that are doing an incredible job of expressing their viewpoint, which needs to be heard.",
+                "McCrory",
+                true
+            ],
+            [
+                "about the courage of our police officers and our National Guard.",
+                "McCrory",
+                false
+            ],
+            [
+                "He is doing a tremendous job under tough circumstances,",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "job",
+            "mccrory",
+            "anarchists",
+            "president",
+            "north",
+            "protests",
+            "positive",
+            "trump",
+            "carolina",
+            "obama",
+            "decries",
+            "pat"
+        ]
+    }
+]

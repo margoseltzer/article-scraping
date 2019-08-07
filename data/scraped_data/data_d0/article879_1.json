@@ -1,0 +1,57 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/john-sununu-endorses-trump-228774?cmpid=sf",
+        "title": "Former New Hampshire Gov. Sununu endorses Trump",
+        "authors": [
+            {
+                "name": "Nolan D. Mccaskill",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "Former New Hampshire Gov. Sununu endorses Trump\nFormer New Hampshire Gov. John Sununu endorsed Donald Trump on Tuesday, hours after the Republican presidential nominee faced off against Hillary Clinton at their first presidential debate.\nIn a statement released by Trump’s campaign, Sununu hailed the real estate mogul as the only candidate “who can bring bold change to Washington” and called for Americans to coalesce around his campaign.\nStory Continued Below\n“Donald Trump is the only candidate in this race who can bring bold change to Washington D.C.,” he said. “I support the Trump-Pence ticket for their pro-growth agenda and commitment to protecting American interests. Republicans, Independents and smart Democrats need to come together to elect Donald Trump and Mike Pence.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "who can bring bold change to Washington",
+                "Sununu",
+                false
+            ],
+            [
+                "Donald Trump is the only candidate in this race who can bring bold change to Washington D.C.,",
+                "Sununu",
+                true
+            ],
+            [
+                "I support the Trump-Pence ticket for their pro-growth agenda and commitment to protecting American interests.",
+                "Sununu",
+                true
+            ],
+            [
+                "Republicans, Independents and smart Democrats need to come together to elect Donald Trump and Mike Pence.",
+                "Sununu",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "candidate",
+            "hampshire",
+            "gov",
+            "bold",
+            "real",
+            "washington",
+            "presidential",
+            "bring",
+            "sununu",
+            "trump",
+            "change",
+            "mogul",
+            "endorses"
+        ]
+    }
+]

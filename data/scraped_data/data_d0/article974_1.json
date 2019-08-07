@@ -1,0 +1,71 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/tim-kaine-mike-pence-vice-presidential-debate-228778?cmpid=sf",
+        "title": "Kaine, Pence both feel pressure after Monday's debate",
+        "authors": [
+            {
+                "name": "Burgess Everett",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-27",
+        "text": "Kaine, Pence both feel pressure after Monday's debate\nStory Continued Below\n\"Man, you've really raised the bar. You put the kind of pressure on me that I like to really help my debate next Tuesday,\" Kaine recounted telling Clinton in a speech to field organizers here.\nPence expressed similar sentiment, saying on Fox News he's been dusting off his Capitol Hill experience to get ready to go toe-to-toe with the Virginia senator.\n\"Donald Trump raised the bar for his running mate last night,” Pence said.\nFrom there, however, the two vice presidential hopefuls' assessments diverged. Pence said that Trump took \"command\" of the stage while Kaine likened the GOP nominee to a heavyweight prizefighter on the verge of quitting.\n\"If you're that rattled in the debate, try being president,\" Kaine said. \"Donald Trump was up on the split screen like a boxer ready to go down on a TKO.\"\nThis article tagged under:\n",
+        "quotes": [
+            [
+                "Man, you've really raised the bar.",
+                "Kaine",
+                true
+            ],
+            [
+                "You put the kind of pressure on me that I like to really help my debate next Tuesday,",
+                "Kaine",
+                true
+            ],
+            [
+                "Donald Trump raised the bar for his running mate last night,” Pence said.",
+                "Kaine",
+                true
+            ],
+            [
+                "From there, however, the two vice presidential hopefuls' assessments diverged.",
+                "Kaine",
+                true
+            ],
+            [
+                "Pence said that Trump took \"command",
+                "Kaine",
+                false
+            ],
+            [
+                "If you're that rattled in the debate, try being president,",
+                "Kaine",
+                true
+            ],
+            [
+                "Donald Trump was up on the split screen like a boxer ready to go down on a TKO.",
+                "Kaine",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "feel",
+            "kaine",
+            "running",
+            "raised",
+            "bar",
+            "debate",
+            "trump",
+            "donald",
+            "vice",
+            "pressure",
+            "pence",
+            "mondays"
+        ]
+    }
+]

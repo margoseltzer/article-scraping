@@ -1,0 +1,96 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-builds-clinton-profile-debate-228578?cmpid=sf",
+        "title": "Trump team builds 'psychological profile' of Clinton for debate",
+        "authors": [
+            {
+                "name": "Kenneth P. Vogel",
+                "link": null
+            },
+            {
+                "name": "Darren Samuelsohn",
+                "link": null
+            },
+            {
+                "name": "Alex Isenstadt",
+                "link": null
+            },
+            {
+                "name": "Ben Schreckinger",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Trump team builds 'psychological profile' of Clinton for debate\nThe GOP nominee and his team are taking a more sophisticated approach to debate preparation than previously known.\n09/23/2016 12:11 PM EDT\nDonald Trump’s team has created a detailed analysis of Hillary Clinton’s debate style — including her body language and verbal tics — with the goal of helping the GOP nominee exploit weaknesses during Monday’s debate, according to three sources familiar with Trump’s preparations.\nThe “psychological profile,” as the analysis is being called, is based on a statistical analysis of videos from 16 years' worth of Clinton’s debates, dating back to her 2000 campaign for Senate in New York, according to the operatives. They said it was assembled with assistance from a political data firm called Cambridge Analytica that specializes in “psychographic” modeling of voters and donors, and that Trump’s top advisers have been pleased with the results.\nStory Continued Below\nThe advisers believe that the profile proves that Clinton has significant weaknesses and that they have identified her ‘tells’ — words, phrases or gestures she uses when she’s unsure of an answer, or is trying to deflect her way out of an uncomfortable question, according to the operatives familiar with the preparations.\nFor example, according to one of the sources, an operative who works with the campaign, Trump’s debate prep team believes that the profile proves that when \"she doesn't know the answer, she says this, etc.” The goal, said the operative, is to get Trump to recognize the tendencies, “so when he hears her say 'X' he knows what is going on, and can respond accordingly.”\nAnother source, who has advised Trump’s aides on analytics, said that Trump’s debate team is using the profile to coach the candidate on the most fruitful moments and responses to aggressively challenge Clinton.\n“They think this psychological profile can predict how she’ll respond based on her body language and other stuff, and to tune Trump in to recognize and leverage that,” the analytics operative said, though he questioned the efficacy of the technique. “It’s really wacky pseudo-science.”\nTrump’s campaign did not respond to questions about Trump’s debate preparations, the analysis or Cambridge Analytica’s role therein.\nAnd it’s unclear the degree to which Trump is heeding advice offered by his team based on the analysis, though The New York Times reported Friday that Trump has been watching video of Clinton’s “best and worst debate moments, looking for her vulnerabilities.”\nBut the creation and use of the analysis at least partially calls into question the widespread perception that Trump’s debate preparations are unsophisticated and unstructured — especially compared to Clinton’s rigorous studying and moot-court-style mock debates . Clinton’s study materials reportedly also include assessments of Trump’s psychology, his varying moods and recommendations for throwing him off his game.\nClinton communications director Jennifer Palmieri suggested her campaign wasn’t much worried about the Trump team’s psychological analysis of Clinton. “Good luck,” she said Friday when she was asked about this story during a pre-debate media conference call. “We all have seen [Clinton] endure a lot of tough questioning over the years. We saw her endure 11 hours of tough questioning at the Benghazi hearing. And Donald Trump may think he’s the person who’s going to be able to really get under her skin, but I doubt it.”\nThe Trump team’s psychological analysis of Clinton — and Cambridge Analytica’s involvement in it — also is testament to the growing clout in Trump’s orbit of the father-daughter duo of Bob and Bekah Mercer. The Mercer family, which has given $2 million to a pro-Trump super PAC that Bekah Mercer runs, largely owns Cambridge Analytica, and encouraged the Trump campaign to incorporate the company’s services into its operations.\nThe company, which is the U.S. subsidiary of the British intelligence firm SCL Group, specializes in building “psychographic profiles” of voters. It has been retained by a number of campaigns and committees backed by the Mercers in recent years, including that of Trump’s rival in the GOP primary Ted Cruz. Cruz's campaign paid the firm $5.8 million for everything from polling to digital advertising to voter and donor modeling, according to Federal Election Commission filings, which show that the company was paid another $675,000 by a Mercer-funded super PAC supporting Cruz.\nSoon after Cruz dropped out of the race, however, the Mercers switched their support to Trump, and began encouraging the campaign to use Cambridge Analytica. FEC filings show that the Trump campaign in July and August paid the company $350,000 for data management . But campaign sources say the company is providing a broad array of services to the campaign, both out of the campaign’s roughly 60-person data, digital and technology operation in San Antonio and, to a lesser extent, in the campaign’s Manhattan headquarters.\nAdditionally, sources familiar with the company said that its board includes Trump campaign chief executive Steve Bannon, whose addition to the campaign was encouraged by Bekah Mercer.\nCampaign sources say Bannon is participating in the debate preparation sessions, as is campaign manager Kellyanne Conway, another Mercer ally whose hiring Bekah Mercer encouraged.\nBannon and Cambridge Analytica declined to comment for this story, while Conway and a Mercer family spokesman did not respond to requests for comment.\nBut a Republican strategist who is close to the campaign said the Mercers are “attempting to bring order to the campaign and debate prep.”\n",
+        "quotes": [
+            [
+                "so when he hears her say 'X' he knows what is going on, and can respond accordingly.",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "They think this psychological profile can predict how she’ll respond based on her body language and other stuff, and to tune Trump in to recognize and leverage that,",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "It’s really wacky pseudo-science.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "best and worst debate moments, looking for her vulnerabilities.",
+                "Hillary Clinton",
+                false
+            ],
+            [
+                "We all have seen [Clinton] endure a lot of tough questioning over the years.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "We saw her endure 11 hours of tough questioning at the Benghazi hearing.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And Donald Trump may think he’s the person who’s going to be able to really get under her skin, but I doubt it.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "attempting to bring order to the campaign and debate prep.",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.nytimes.com/2016/09/24/us/politics/presidential-debate-hillary-clinton-donald-trump.html?_r=0",
+                "http://www.nbcnews.com/storyline/2016-presidential-debates/clinton-trump-take-different-approaches-first-debate-prep-n652726",
+                "https://www.politico.com/story/2016/09/hillary-clinton-debate-prep-228558",
+                "https://www.politico.com/story/2016/09/donald-trump-rebekah-mercer-227799",
+                "https://www.politico.com/story/2015/07/ted-cruz-donor-for-data-119813"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.politico.com/f/?id=00000157-5736-df4c-a177-5f37f4c70001"
+            ]
+        },
+        "key_words": [
+            "analysis",
+            "team",
+            "profile",
+            "clinton",
+            "campaign",
+            "debate",
+            "mercer",
+            "trump",
+            "clintons",
+            "trumps",
+            "builds",
+            "psychological"
+        ]
+    }
+]

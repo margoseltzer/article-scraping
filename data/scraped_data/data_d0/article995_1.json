@@ -1,0 +1,72 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-clinton-fight-first-debate-228730?cmpid=sf",
+        "title": "Clinton snark: Preparing to be president 'a good thing'",
+        "authors": [
+            {
+                "name": "Maggie Severns",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Hillary Clinton drew applause Monday night for taking a shot at Donald Trump over having prepared for the first presidential debate – and similarly preparing “to be president.”\nTrump talked about his visits to “the inner cities” during a debate segment about race and policing but couldn’t resist also taking a shot at Clinton, who spent multiple days preparing for the debate in recent weeks.\nStory Continued Below\n“I just left Detroit, I just left Philadelphia. You've seen me, I've been all over the place. You decided to stay home and that's okay. I will tell you, I've been all over,” Trump said.\n“I think Donald just criticized me for preparing for this debate. And yes, I did. And you know what else I prepared for? I prepared to be president. And I think that's a good thing,” Clinton said in reply.\n",
+        "quotes": [
+            [
+                "I just left Detroit, I just left Philadelphia.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "You've seen me, I've been all over the place.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "You decided to stay home and that's okay.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "I will tell you, I've been all over,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "I think Donald just criticized me for preparing for this debate.",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And you know what else I prepared for?",
+                "Hillary Clinton",
+                true
+            ],
+            [
+                "And I think that's a good thing,",
+                "Hillary Clinton",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "good",
+            "shot",
+            "clinton",
+            "president",
+            "debate",
+            "thats",
+            "trump",
+            "preparing",
+            "prepared",
+            "taking",
+            "snark",
+            "thing",
+            "think"
+        ]
+    }
+]

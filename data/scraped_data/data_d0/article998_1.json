@@ -1,0 +1,58 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-clinton-islamic-state-debate-228714?cmpid=sf",
+        "title": "Trump knocks Clinton for posting Islamic State plan on website",
+        "authors": [
+            {
+                "name": "Ian Kullgren",
+                "link": null
+            },
+            {
+                "name": "Nahal Toosi",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Trump knocks Clinton for posting Islamic State plan on website\nHillary Clinton and Donald Trump mocked each other in Monday's presidential debate over who is better suited to take on the Islamic State.\nTrump dismissed Clinton's seriousness about the battle against the terrorist network, also known as ISIS or ISIL, by noting the Democrat had laid out some of her plans on her website.\nStory Continued Below\n\"I don't think Gen. MacArthur would like that too much,\" the Republican real estate mogul said.\nClinton shot back: \"At least I have a plan to fight ISIS.\"\n\"Please, the fact checkers, get to work,\" Clinton responded.\nThe Islamic State is a relatively new terrorist organization, one that slowly emerged in the wake of the 2003 U.S. invasion of Iraq. Clinton is 68 years old.\nTrump has in the past said he has a secret plan to fight the jihadist group in Syria and Iraq and that he doesn't want to reveal it so as not to give away his strategy.\nThe two presidential candidates were debating head-to-head for the first time at Hofstra University in Hempstead, New York.\n",
+        "quotes": [
+            [
+                "I don't think Gen. MacArthur would like that too much,",
+                "",
+                true
+            ],
+            [
+                "At least I have a plan to fight ISIS.",
+                "Clinton",
+                true
+            ],
+            [
+                "Please, the fact checkers, get to work,",
+                "Clinton",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/blogs/2016-presidential-debate-fact-check/2016/09/trump-wrong-on-isis-claims-228717"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "posting",
+            "isis",
+            "clinton",
+            "website",
+            "presidential",
+            "iraq",
+            "fight",
+            "trump",
+            "state",
+            "plan",
+            "terrorist",
+            "islamic",
+            "knocks"
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/donald-trump-african-americans-cities-228439?cmpid=sf",
+        "title": "Trump calls African-American communities in the worst shape 'ever, ever, ever'",
+        "authors": [
+            {
+                "name": "Louis Nelson",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-20",
+        "text": "Trump calls African-American communities in the worst shape 'ever, ever, ever'\nDonald Trump on Tuesday evening declared that the nation's African-American communities \"are absolutely in the worst shape that they’ve ever been in before, ever, ever, ever.\"\nAs he has done regularly of late, Trump attacked the Democratic politicians who overwhelmingly control America’s urban centers as having failed the African-American populations who live there. Before a mostly-white audience at a rally in rural North Carolina, Trump rhetorically asked black voters, “what do you have to lose?”\nStory Continued Below\n\"We’re going to make our country wealthy again. We’re going to make our country safe again. We’re going to rebuild our inner cities because our African-American communities are absolutely in the worst shape that they’ve ever been in before, ever, ever, ever,” Trump said. “You take a look at the inner cities, you get no education, you get no jobs, you get shot walking down the street. They’re worse, I mean honestly, places like Afghanistan are safer than some of our inner cities.”\nWhile Trump told the crowd that his message has been resonating with African-American voters, his poll numbers suggest otherwise. The Manhattan billionaire has struggled mightily with minority voters throughout his White House bid, polling often in the single digits among black voters and in some cases registering zero percent support.\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "are absolutely in the worst shape that they’ve ever been in before, ever, ever, ever.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "what do you have to lose?",
+                "Donald Trump",
+                false
+            ],
+            [
+                "You take a look at the inner cities, you get no education, you get no jobs, you get shot walking down the street.",
+                "Donald Trump",
+                true
+            ],
+            [
+                "They’re worse, I mean honestly, places like Afghanistan are safer than some of our inner cities.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "worst",
+            "shape",
+            "going",
+            "country",
+            "communities",
+            "calls",
+            "trump",
+            "inner",
+            "voters",
+            "africanamerican",
+            "wealthy"
+        ]
+    }
+]

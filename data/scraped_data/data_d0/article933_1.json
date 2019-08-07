@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/pence-stop-and-frisk-228635?cmpid=sf",
+        "title": "Pence: Stop-and-frisk is constitutional",
+        "authors": [
+            {
+                "name": "Kyle Cheney",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-25",
+        "text": "Pence: Stop-and-frisk is constitutional\nMike Pence defended his running mate Donald Trump’s call for nationwide stop-and-frisk policies that they claim have been effective in preventing crime despite concerns it could exacerbate ties with minority communities.\n“It’s on a sound constitutional footing,” Pence said on \"Fox News Sunday,\" after acknowledging that one federal court struck down the practice after statistics revealed it targeted overwhelming numbers of African-American and Hispanic residents in New York.\nStory Continued Below\nThe Indiana governor, describing an “avalanche of violence” wracking Chicago, said the policy gives police authority to search those “they think may be involved or about to be involved in criminal activity.”\nPence sidestepped a question about Trump’s claim that lax vetting of immigrants somehow contributed to last weekend’s terrorist attacks in Minnesota, New York and New Jersey. The attackers implicated in those incidents were both admitted to the United States as children.\nPence didn’t say how tougher vetting would have helped prevent those attacks, but he said: “We need common sense back in our immigration policies.”\nPolitico Magazine\nBy Austin Sarat and Jonathan Obert\n",
+        "quotes": [
+            [
+                "It’s on a sound constitutional footing,",
+                "Donald Trump",
+                true
+            ],
+            [
+                "they think may be involved or about to be involved in criminal activity.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "We need common sense back in our immigration policies.",
+                "Donald Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/09/pence-gennifer-flowers-will-not-be-at-debate-228631"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "policy",
+            "implicated",
+            "vetting",
+            "search",
+            "stopandfrisk",
+            "involved",
+            "pence",
+            "immigration",
+            "constitutional",
+            "trumps",
+            "think"
+        ]
+    }
+]

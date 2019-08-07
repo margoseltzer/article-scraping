@@ -1,0 +1,78 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-islamic-state-plan-first-2016-debate-228660?cmpid=sf",
+        "title": "Conway: Trump will explain his Islamic State plan if asked",
+        "authors": [
+            {
+                "name": "Nolan D. Mccaskill",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-26",
+        "text": "Conway: Trump will explain his Islamic State plan if asked\nDonald Trump will detail his plan to destroy the Islamic State during Monday night’s debate against Hillary Clinton — if asked, according to his campaign manager.\nAsked by Willie Geist during MSNBC’s “Morning Joe” whether Trump will offer specifics beyond his broad statement that he will “knock the hell out of ISIS,” Trump campaign manager Kellyanne Conway replied in the affirmative.\nStory Continued Below\n“He certainly has a plan. I’ve heard it,” Conway said. “This is his debate tonight, Willie, he’ll tell you if that question is asked. But there’s also — you know, people are just amazed that Hillary Clinton would put on her campaign website what her plan to defeat ISIS is. Is it that ISIS can’t read that plan?”\nTrump has vowed to “knock the hell out of ISIS” but has been mum on how he would do so, suggesting that he doesn’t want to tip his hand to the terrorist network.\nPressed by Geist and Mika Brzezinski on whether voters deserve to know details about his plan before they cast their votes, or at least a sense that he has any “knowledge of the landscape,” Conway said, “Yes, and he’ll be happy to offer those specifics without telling the enemy exactly what we’re going to do.”\n“So just to put a button on it, we’ll get the ISIS plan tonight in the debate?” Geist asked.\n“You will get his view of how best to defeat the enemy without telling ISIS particularly, specifically what it’s going to be,” she said.\n",
+        "quotes": [
+            [
+                "knock the hell out of ISIS,",
+                "Willie Geist",
+                false
+            ],
+            [
+                "This is his debate tonight, Willie, he’ll tell you if that question is asked.",
+                "Conway",
+                true
+            ],
+            [
+                "But there’s also — you know, people are just amazed that Hillary Clinton would put on her campaign website what her plan to defeat ISIS is.",
+                "Conway",
+                true
+            ],
+            [
+                "Is it that ISIS can’t read that plan?",
+                "Conway",
+                true
+            ],
+            [
+                "knock the hell out of ISIS",
+                "Donald Trump",
+                false
+            ],
+            [
+                "Yes, and he’ll be happy to offer those specifics without telling the enemy exactly what we’re going to do.",
+                "Conway",
+                true
+            ],
+            [
+                "So just to put a button on it, we’ll get the ISIS plan tonight in the debate?",
+                "Willie Geist",
+                true
+            ],
+            [
+                "You will get his view of how best to defeat the enemy without telling ISIS particularly, specifically what it’s going to be,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "geist",
+            "conway",
+            "isis",
+            "explain",
+            "campaign",
+            "debate",
+            "trump",
+            "hell",
+            "state",
+            "tonight",
+            "plan",
+            "asked",
+            "islamic",
+            "willie"
+        ]
+    }
+]

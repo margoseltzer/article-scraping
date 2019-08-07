@@ -1,0 +1,85 @@
+[
+    {
+        "url": "https://www.politico.com/story/2016/09/trump-charlotte-drugs-mayor-responds-228574?cmpid=sf",
+        "title": "Charlotte mayor knocks Trump for blaming violence on 'drugs'",
+        "authors": [
+            {
+                "name": "Nick Gass",
+                "link": null
+            }
+        ],
+        "publisher": "www.politico.com",
+        "publish_date": "2016-09-23",
+        "text": "Charlotte mayor knocks Trump for blaming violence on 'drugs'\nBy NICK GASS\nCharlotte Mayor Jennifer Roberts on Friday blasted Donald Trump explanation of the violence and unrest in her city, a day after the Republican nominee pointed to \" drugs \" as \"a very, very big factor in what you're watching on television.\"\n\"I think it's presumptuous for him to make a conclusion like that without having thorough conversations with some of the folks who are here on the ground and really aware of what is going on and what the reasoning is,\" Roberts, a Democrat, told CNN. \"Several of our council members were out in the crowd last night, talking to people. I've been listening to folks. I've gotten lots of phone calls, I’ve talked to a lot of folks on the street. We have a much better understanding than Mr. Trump.\"\nStory Continued Below\nAsked to ascribe a cause to the recent unrest, Roberts remarked that there are \"a couple of things,\" citing \"distrust\" with how police handle African-Americans compared to whites, despite a \"strong history of community policing.\"\n\"There's also a concern when you look at what's happening nationally and having this occur in other cities as well,\" Roberts went on to say. \"But even deeper than that, you know, we have a history of racial disparity. And we are working very hard in our city to bridge that gap, to make sure that whether we're looking at education or economic opportunity, social justice, all of those things, we are working very hard to make sure opportunity -- equally around our city.\"\nTrump spoke with North Carolina Gov. Pat McCrory on Thursday, while Democratic nominee Hillary Clinton spoke with Roberts and Democratic Rep. Alma Adams.\n",
+        "quotes": [
+            [
+                "a very, very big factor in what you're watching on television.",
+                "Donald Trump",
+                false
+            ],
+            [
+                "I think it's presumptuous for him to make a conclusion like that without having thorough conversations with some of the folks who are here on the ground and really aware of what is going on and what the reasoning is,",
+                "Roberts",
+                true
+            ],
+            [
+                "Several of our council members were out in the crowd last night, talking to people.",
+                "Roberts",
+                true
+            ],
+            [
+                "I've been listening to folks.",
+                "Roberts",
+                true
+            ],
+            [
+                "I've gotten lots of phone calls, I’ve talked to a lot of folks on the street.",
+                "Roberts",
+                true
+            ],
+            [
+                "We have a much better understanding than Mr.",
+                "Roberts",
+                true
+            ],
+            [
+                "There's also a concern when you look at what's happening nationally and having this occur in other cities as well,",
+                "Roberts",
+                true
+            ],
+            [
+                "But even deeper than that, you know, we have a history of racial disparity.",
+                "Roberts",
+                true
+            ],
+            [
+                "And we are working very hard in our city to bridge that gap, to make sure that whether we're looking at education or economic opportunity, social justice, all of those things, we are working very hard to make sure opportunity -- equally around our city.",
+                "Roberts",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.politico.com/story/2016/09/trump-blames-drugs-charlotte-228531"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "roberts",
+            "ive",
+            "unrest",
+            "mayor",
+            "sure",
+            "blaming",
+            "working",
+            "trump",
+            "things",
+            "drugs",
+            "charlotte",
+            "violence",
+            "folks",
+            "knocks"
+        ]
+    }
+]
