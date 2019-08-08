@@ -188,7 +188,6 @@ def remove_only_prefix(ft_dict):
     for (k,v) in ft_dict.items():
         print('k is', k)
         print(v)
-    print('1'+2)
     return ft_dict
 
 def get_n_d(aid_adj_dict, aid_fid_dict):
@@ -284,15 +283,44 @@ def show_adj_graph(adj_dict, y):
     
     plt.show()
 
+def get_no_q_dict(ft_bin_dict):
+    only_fts = set()
+    for aid, fts in ft_bin_dict.items():
+        for ft in fts[:-3]:
+            only_fts.add(ft)
+    
+    d = len(only_fts)
+    dic = dict((key, val) for val, key in enumerate(only_fts))
+    return dic, d
+    
+def convert_ft_toidx(ft_bin_dict, dict_without_q):
+    new_dict = dict()
+    for aid, fts in ft_bin_dict.items():
+        for ft in fts[:-3]:
+            new_fts = dict_without_q[ft]
+            new_dict[aid] = new_dict[aid] + [new_fts] if aid in new_dict else [new_fts]
+        new_dict[aid] = new_dict[aid] + fts[-3:] if aid in new_dict else fts[-3:]
+    return new_dict
+
+
+def convert_bin_dict_to_mtx(ft_bin_dict, dict_without_q, n, d_bin):
+    dic = np.zeros((n, d_bin))
+    
+
+
+
+
+
 # Paths for labeled data files from data dir
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
              'data_from_Kaggle.csv',
              'fakeNewsNet_data/politifact_real.csv', 
              'fakeNewsNet_data/politifact_fake.csv',]
+
 file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-saved_file_name   = store_labeled_articles(file_list)
-article_label_dic = get_article_dict(saved_file_name)
+# saved_file_name   = store_labeled_articles(file_list)
+article_label_dic = get_article_dict('labeled_articles.csv')
 
 # obj_dict: obj_id to {type, val}
 # !!! Special case: there are some persons with 'to' attributes. they are connected to only quotes
@@ -328,7 +356,9 @@ n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 # get binned feature matrix
 ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
 ft_bin_dict = remove_only_prefix(ft_bin_dict)
-
+dict_without_q, d_bin = get_no_q_dict(ft_bin_dict)
+ft_bin_dict = convert_ft_toidx(ft_bin_dict, dict_without_q)
+ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin)
 
 
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
