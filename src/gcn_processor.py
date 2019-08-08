@@ -94,7 +94,7 @@ def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
                 if k_1 == k_2: continue
                     # adj_dict[k_1] = adj_dict[k_1] + [k_1] if k_1 in adj_dict else [k_1]
                 for i in v_2:
-                    if i in adj_entities and obj_dict[i]['type'] != 'publisher':
+                    if i in adj_entities:
                         adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
                     else:
                         adj_dict[k_1] = adj_dict[k_1] if k_1 in adj_dict else []
@@ -249,7 +249,6 @@ def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
         bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [len(aids)]
         print(bin_dict[aid])
         
-    print(''+1)
     return {}
 
 
@@ -318,7 +317,7 @@ ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
 
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
 adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
-
+show_adj_graph(adj_dict, y)
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
 
 
@@ -456,5 +455,3 @@ print('DONE')
 
 
 train.train(x, y, tx, ty, allx, ally, graph)
-
-show_adj_graph(adj_dict, y)
