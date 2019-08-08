@@ -1,0 +1,67 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-ukraine-crisis-russia-microsoft/exclusive-despite-sanctions-russian-organizations-acquire-microsoft-software-idUSKBN1CG0NS",
+        "title": "Exclusive: Despite sanctions, Russian organizations acquire Microsoft software",
+        "authors": [
+            {
+                "name": "Gleb Stolyarov",
+                "link": null
+            }
+        ],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-11",
+        "text": "6 Min Read\nMOSCOW (Reuters) - Software produced by Microsoft Corp has been acquired by state organizations and firms in Russia and Crimea despite sanctions barring U.S-based companies from doing business with them, official documents show.\nSoftware produced by Microsoft Corp is on display for sale at a store in Simferopol, Crimea September 27, 2017. REUTERS/Stringer\nThe acquisitions, registered on the Russian state procurement database, show the limitations in the way foreign governments and firms enforce the U.S. sanctions, imposed on Russia over its annexation of the Crimea peninsula from Ukraine in 2014.\nSome of the users gave Microsoft fictitious data about their identity, people involved in the transactions told Reuters, exploiting a gap in the U.S. company’s ability to keep its products out of their hands.\nThe products in each case were sold via third parties and Reuters has no evidence that Microsoft sold products directly to entities hit by the sanctions.\n“Microsoft has a strong commitment to complying with legal requirements and we have been looking into this matter in recent weeks,” a Microsoft representative said in an emailed response to questions from Reuters.\n“We have robust trade compliance processes around the world to help ensure that our partners comply with all conditions including immediate halting of suspected improper sales by partners, and strong measures to try to prevent banned customers from accessing and using our products and services.”\nAll state organizations and state firms are obliged to disclose purchases they make on the procurement database. People involved in five of the transactions confirmed to Reuters the software had been acquired.\nThe Reuters review of the database found state entities in Russia and Crimea that are subject to sanctions have acquired more than 5,000 Microsoft products worth about 60 million rubles ($1.03 million).\nThe sum is relatively small but such software is vital for many firms and organizations in Russia and Crimea to operate. The database also does not include private companies, so the scale of the problem could be much bigger.\nAmong entities hit by sanctions that acquired Microsoft products was Almaz-Antey, manufacturer of the BUK surface-to-air missile. Dutch prosecutors say a BUK missile brought down a Malaysian Airlines passenger jet over east Ukraine in July 2014, though Russia denies its forces shot down the plane.\nOther Microsoft buyers, the database shows, include Glavgosexpertiza, a state design agency involved in work on a new bridge from Russia to Crimea and the “Krym” health spa in Crimea owned by Russia’s defense ministry.\nThe arms manufacturer, Almaz-Antey, did not respond to a request for comment. The defense ministry’s health spa in Crimea declined to comment. Glavgosexpertiza said “the company operates within the Russian legal framework”.\nRelated Coverage\nCOMPLIANCE CRACKDOWN\nOne set of U.S. sanctions prohibits the export by a U.S. entity of any goods, services or technology to Crimea.\nOther sanctions bar U.S firms from carrying out transactions with companies or individuals on a list of “specially designated nationals” deemed by Washington to be linked to the Russian government and its activities in Ukraine.\nMicrosoft did not directly respond to detailed questions about specific users of its products and the compliance procedures it has in place.\nThe products acquired by organizations hit by sanctions include “Open License Program” services, where the user must provide Microsoft with the company’s full name and address.\nAlmaz-Antey, Glavgosexpertiza and the defense ministry spa  acquired “Open License Program” products, the database showed.\nAfter the sanctions were introduced, Microsoft took steps to prevent entities hit by sanctions acquiring its products, according to five sources involved in the software re-selling trade and a former Microsoft employee in Russia.\nBut people involved in transactions say ways can be found to circumvent obstacles.\nThe “Morye” shipyard, based in Crimea, bought 150 Windows Server, SQL Server and Office licenses in June 2016 from OOO Web-Potok, a firm registered in Moscow, the procurement database shows. All the products were “Open License Program” services.\nThe shipyard fell under the general prohibition on transactions by U.S. firms with entities in Crimea and is now on the “special designated nationals” list.\n“If we bought directly from Microsoft, there would be sanctions,” a shipyard employee, speaking on condition of anonymity because of the sensitivity of the issue, said by telephone. “But there were no problems with (buying third-party from) Russian firms.”\nThe shipyard declined to comment. Reuters called telephone numbers listed for the supplier, OOO Web-Potok, but the people who answered said they worked for a different company.\nSlideshow (5 Images)\nAnother way to circumvent the restrictions on Crimea-based entities is for the user, when registering the product with Microsoft, not to provide a Crimean address, three people involved in the trade said.\nThey said addresses in Russia’s Krasnodar region, across the Kerch Strait from Crimea, were commonly used instead.\nA supplier who worked with a company on the U.S. “specially designated nationals” list said a supplier and a client could circumvent restrictions by registering Microsoft products to a subsidiary or parent company of the end user.\nAdditional reporting by Anton Zverev in Moscow and Salvador Rodriguez in San Francisco, Editing by Christian Lowe and Timothy Heritage\n",
+        "quotes": [
+            [
+                "Microsoft has a strong commitment to complying with legal requirements and we have been looking into this matter in recent weeks,",
+                "",
+                true
+            ],
+            [
+                "We have robust trade compliance processes around the world to help ensure that our partners comply with all conditions including immediate halting of suspected improper sales by partners, and strong measures to try to prevent banned customers from accessing and using our products and services.",
+                "",
+                true
+            ],
+            [
+                "the company operates within the Russian legal framework",
+                "Glavgosexpertiza",
+                false
+            ],
+            [
+                "If we bought directly from Microsoft, there would be sanctions,",
+                "",
+                true
+            ],
+            [
+                "But there were no problems with (buying third-party from) Russian firms.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.thomsonreuters.com/en/about-us/trust-principles.html"
+            ]
+        },
+        "key_words": [
+            "exclusive",
+            "products",
+            "involved",
+            "software",
+            "despite",
+            "firms",
+            "acquire",
+            "crimea",
+            "microsoft",
+            "organizations",
+            "sanctions",
+            "russia",
+            "entities",
+            "state",
+            "database",
+            "russian"
+        ]
+    }
+]

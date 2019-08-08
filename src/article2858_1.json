@@ -1,0 +1,66 @@
+[
+    {
+        "url": "http://www.bbc.com/news/blogs-news-from-elsewhere-41510642",
+        "title": "Hitler oil painting attacked with screwdriver",
+        "authors": [
+            {
+                "name": "News Elsewhere...",
+                "link": null
+            }
+        ],
+        "publisher": "www.bbc.com",
+        "publish_date": "",
+        "text": "By News from Elsewhere... ...as found by BBC Monitoring\n5 October 2017\nThese are external links and will open in a new window\nClose share panel\nImage copyright Museo della Follia\nImage caption The painting is among more than 200 works on display at the exhibition, which runs until 19 November\nAn oil painting by Adolf Hitler hanging in an Italian museum has been attacked by a man wielding a screwdriver.\nThe untitled work was damaged by a 40-year-old man who was outraged that the painting by the Nazi leader was hanging in a public space, the Corriere della Sera newspaper reports.\nIt had been loaned by a private collector to the Museum of Salo, on the shores of Lake Garda, for an exhibition called the \"Museum of Madness\" earlier this year .\nThe exhibition's curator, Vittorio Sgarbi, hasn't changed his view on the Hitler painting, calling it \"a piece of crap\", and has defended its part in the show.\n\"The exhibition addresses the theme of madness and this picture is perfect. Nothing is as crazy as war, \" he told Corriere della Sera. \"It is not the work of a dictator but that of a wretch, it reveals a profoundly melancholy soul.\"\nArt attack\nGiordano Bruno Guerri, the president of the museum, saw art in the attack on the oil painting as well. \"The show about madness would not have been complete if it did not host an episode of madness,\" he said.\nBut Mr Sgarbi disagreed, saying that even unpleasant works \"should be viewed with contempt and distance... without reproducing the censorship and hatred expressed by dictators,\" Germany's Deutsche Welle reports.\nThe painting has been repaired and returned to the exhibition, and its German owner has decided not to press charges against the attacker.\nRelated Topics\n",
+        "quotes": [
+            [
+                "The exhibition addresses the theme of madness and this picture is perfect.",
+                "",
+                true
+            ],
+            [
+                "Nothing is as crazy as war,",
+                "",
+                true
+            ],
+            [
+                "It is not the work of a dictator but that of a wretch, it reveals a profoundly melancholy soul.",
+                "Corriere della Sera",
+                true
+            ],
+            [
+                "The show about madness would not have been complete if it did not host an episode of madness,",
+                "",
+                true
+            ],
+            [
+                "should be viewed with contempt and distance... without reproducing the censorship and hatred expressed by dictators,",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://brescia.corriere.it/notizie/cronaca/17_ottobre_04/entra-musa-tenta-squarciare-quadro-hitler-un-cacciavite-a2f0a7fc-a8f9-11e7-8539-6c9b026c835a.shtml",
+                "http://www.bbc.co.uk/news/blogs-news-from-elsewhere-39235058",
+                "https://www.dw.com/en/man-stabs-crap-hitler-painting-with-screwdriver-at-museo-di-salo-in-italy/a-40810959"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "sgarbi",
+            "painting",
+            "screwdriver",
+            "sera",
+            "work",
+            "hitler",
+            "works",
+            "museum",
+            "madness",
+            "exhibition",
+            "attacked",
+            "oil",
+            "della"
+        ]
+    }
+]
