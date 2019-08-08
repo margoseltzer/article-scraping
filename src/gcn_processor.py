@@ -168,15 +168,28 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
                 y.append(1)
     return y
 
-def remove_prefix(adj_mtx, ft_mtx):
+def remove_prefix(adj_dict, ft_dict):
     ''' Remove all 'a' and 'f' in front of ids
     '''
     def remove_prefix_val(v):
         return list(set([int(fid[1:]) for fid in v]))
 
-    adj_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_mtx.items())
-    ft_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_mtx.items())
-    return adj_mtx, ft_mtx
+    adj_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_dict.items())
+    ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
+    return adj_dict, ft_dict
+
+def remove_only_prefix(ft_dict):
+    ''' Remove all 'a' and 'f' in front of ids
+    '''
+    def remove_prefix_val(v):
+        return [int(ft[1:]) if type(ft) == str else ft for ft in v]
+
+    ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
+    for (k,v) in ft_dict.items():
+        print('k is', k)
+        print(v)
+    print('1'+2)
+    return ft_dict
 
 def get_n_d(aid_adj_dict, aid_fid_dict):
     n = len(aid_adj_dict)
@@ -247,10 +260,9 @@ def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
     
     for aid, aids in aid_adj_dict.items():
         bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [len(aids)]
-        print(bin_dict[aid])
+        # print(bin_dict[aid])
         
-    print(''+1)
-    return {}
+    return bin_dict
 
 
 def show_adj_graph(adj_dict, y):
@@ -269,7 +281,7 @@ def show_adj_graph(adj_dict, y):
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
     nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.5)
-
+    
     plt.show()
 
 # Paths for labeled data files from data dir
@@ -279,7 +291,7 @@ file_list = ['BuzzFeed_fb_urls_parsed.csv',
              'fakeNewsNet_data/politifact_fake.csv',]
 file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-saved_file_name   = store_labeled_articles(file_list2)
+saved_file_name   = store_labeled_articles(file_list)
 article_label_dic = get_article_dict(saved_file_name)
 
 # obj_dict: obj_id to {type, val}
@@ -315,6 +327,9 @@ n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 
 # get binned feature matrix
 ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
+ft_bin_dict = remove_only_prefix(ft_bin_dict)
+
+
 
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
 adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)

@@ -1,0 +1,89 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-usa-trump-russia-cyber/facebooks-sandberg-says-shes-committed-to-helping-investigators-release-russia-ads-idUSKBN1CH1Y6",
+        "title": "Facebook will help investigators release Russia ads, Sandberg tells Axios",
+        "authors": [
+            {
+                "name": "Dustin Volz",
+                "link": null
+            }
+        ],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-13",
+        "text": "Facebook will help investigators release Russia ads, Sandberg tells Axios\nWASHINGTON (Reuters) - Facebook Inc ( FB.O ) Chief Operating Officer Sheryl Sandberg said on Thursday the company was committed to helping U.S. congressional investigators publicly release Russia-backed political ads that ran during the 2016 U.S. election.\nFacebook Chief Operating Officer Sheryl Sandberg, L, and Vice President of global communications, marketing and public policy Elliot Schrage, R, on Capitol Hill after meeting with U.S. Rep. Jackie Speier (D-CA) in Washington, U.S. October 12, 2017. REUTERS/James Lawler Duggan\n“Things happened on our platform in this election that should not have happened,” Sandberg said in an interview in Washington with Axios news that was broadcast on its website. “We told Congress and the intelligence committees that when they are ready to release the ads, we are ready to help them.”\nAxios asked Sandberg what the world’s largest social network knew about the extent of Russia’s use of its platform and if ads on Facebook that had been placed by Russian accounts and Donald Trump’s presidential campaign had overlapped in terms of target audiences. She appeared to sidestep the questions and said only that targeting on Facebook was often very broad.\nThe interview was the first by a senior Facebook executive since the company disclosed last month that it had found some 3,000 politically divisive ads believed to have been bought by Russia before and after the presidential campaign. U.S. intelligence agencies have concluded that Russia used cyber-enabled means in an attempt to help Trump win the White House, an allegation the Kremlin has denied.\nSandberg was in Washington for meetings with U.S. lawmakers.\nSandberg told the Congressional Black Caucus on Thursday that Facebook planned to add an African-American to its board of directors, a source familiar with the closed-door meeting said, but she offered no details. The board has been criticized for its lack of diversity.\nShe and two other Facebook executives, Erin Egan and Elliot Schrage, also met privately with Representative Jackie Speier, a California Democrat and member of the House Intelligence Committee.\nFacebook and other major internet companies including Alphabet’s Google ( GOOGL.O ) and Twitter ( TWTR.N ) are on the defensive as they try to limit fallout from a torrent of  revelations about how Moscow sought to use their platforms to sow discord in the United States and influence the election.\nSandberg told Axios that Facebook began hearing rumors around Election Day last November of Russian attempts to use the platform to spread propaganda but did not give a precise timeline about when the company began its review.\nSandberg said she supported the public release of those ads, and the pages to which they were connected. Information about how the ads targeted specific types of users would also be released, she said.\nRelated Coverage\nCongressional committees and special counsel Robert Mueller are investigating Russian interference in the election, including whether there was any collusion between Trump associates and Moscow. Trump has denied that there was any collusion between his campaign and associates and Russia.\nANGRY, UPSET\nSandberg acknowledged that the company had erred in how it handled the issue of foreign interference last year.\n“It’s not just that we apologize. We’re angry, we’re upset. But what we really owe the American people is determination to do a better job of preventing foreign meddling,” she said.\n“We don’t want this kind of foreign interference” on Facebook, Sandberg said.\nShe said the company had been too permissive at times in terms of how advertisers were allowed to target users.\nSandberg said it was important to protect “free expression” on Facebook and that if the Russian ads had been bought by legitimate accounts instead of fraudulent ones, many would have been allowed to run on the site.\nShe criticized Twitter’s decision this week to remove a campaign video from Republican Representative Marsha Blackburn, who is running for a U.S. Senate seat in Tennessee. Twitter took down the video, saying a remark Blackburn made about opposing abortion was inflammatory. Twitter later reversed its decision.\n“In that ad, there are a lot of things that people don’t like, that I don’t like. ... But the question is, ‘Should divisive political or issue ads run?’ Our answer is yes because when you cut off speech for one person you cut off speech for all people,” she said.\nSlideshow (5 Images)\nSandberg said Facebook wanted other internet companies to work toward making ad purchases more transparent, and she said  Facebook was talking with lawmakers who want to introduce legislation on the issue.\nRepresentatives from Facebook, Google and Twitter are expected to testify about Russian influence at hearings before the Senate and House intelligence committees on Nov. 1.\nAdditional reporting by Makini Brice; Editing by Bernadette Baum\n",
+        "quotes": [
+            [
+                "Should divisive political or issue ads run?",
+                "",
+                true
+            ],
+            [
+                "Things happened on our platform in this election that should not have happened,",
+                "Sandberg",
+                true
+            ],
+            [
+                "We told Congress and the intelligence committees that when they are ready to release the ads, we are ready to help them.",
+                "Sandberg",
+                true
+            ],
+            [
+                "It’s not just that we apologize.",
+                "Erin Egan",
+                true
+            ],
+            [
+                "We’re angry, we’re upset.",
+                "Erin Egan",
+                true
+            ],
+            [
+                "But what we really owe the American people is determination to do a better job of preventing foreign meddling,",
+                "Erin Egan",
+                true
+            ],
+            [
+                "We don’t want this kind of foreign interference",
+                "Sandberg",
+                false
+            ],
+            [
+                "In that ad, there are a lot of things that people don’t like, that I don’t like.",
+                "Erin Egan",
+                true
+            ],
+            [
+                "But the question is, ‘Should divisive political or issue ads run?’ Our answer is yes because when you cut off speech for one person you cut off speech for all people,",
+                "Erin Egan",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.reuters.com/finance/stocks/overview/GOOGL.O",
+                "https://www.reuters.com/finance/stocks/overview/FB.O",
+                "https://www.reuters.com/finance/stocks/overview/TWTR.N"
+            ]
+        },
+        "key_words": [
+            "tells",
+            "facebook",
+            "axios",
+            "campaign",
+            "washington",
+            "twitter",
+            "help",
+            "intelligence",
+            "ads",
+            "election",
+            "company",
+            "sandberg",
+            "investigators",
+            "release",
+            "russia",
+            "russian"
+        ]
+    }
+]

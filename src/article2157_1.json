@@ -1,0 +1,58 @@
+[
+    {
+        "url": "https://www.nytimes.com/2017/10/03/business/amazon-luxembourg-tax.html?rref=collection%2Fsectioncollection%2Ftechnology",
+        "title": "E.U. Said to Order Luxembourg to Collect Back Taxes From Amazon",
+        "authors": [
+            {
+                "name": "James Kanter",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2017-10-03",
+        "text": "Advertisement\nSupported by\nE.U. Said to Order Luxembourg to Collect Back Taxes From Amazon\nImage\nAmazon’s offices in Luxembourg in 2014, the year an investigation into the country’s handling of the company was made public.CreditCreditEmmanuel Dunand/Agence France-Presse — Getty Images\nBRUSSELS — European Union officials will order Luxembourg to collect back taxes from the online retail giant Amazon, a source with knowledge of the decision said Tuesday, the latest in a series of moves where Brussels has sought to flex its regulatory muscle over Silicon Valley.\nThe decision, which will be announced on Wednesday, comes as European authorities consider a raft of proposals aimed at increasing the amount of tax paid by American technology companies. The regulatory push, combined with the prospect of tax reforms, have fueled accusations that the European Union is unfairly targeting the United States tech sector. E.U. officials have denied those claims.\nIt was not clear how much Luxembourg would be ordered to reclaim, according to the source, who did not want to be identified discussing information that was not yet public. Officials in Luxembourg and the European Commission, the European Union’s executive arm, declined to comment.\nThe ruling mirrors a similar order from the commission last year, directing Ireland to reclaim 13 billion euros , or $15.2 billion at current exchange rates, in back taxes from Apple.\nThe actions have highlighted the heightened scrutiny faced by low-tax nations in the European Union. Those countries, critics argue, help multinationals funnel revenues from larger markets in order to lower their overall tax bill. Such behavior has infuriated larger countries like France, whose budgets have been squeezed in recent years.\nThe investigation into Luxembourg’s handling of Amazon was made public in 2014 , and the commission issued a preliminary finding the following year. In it, it described how the retailer used subsidiaries in Luxembourg to reduce its overall tax obligations.\nAt the time, the commission said that, in a deal struck in 2003, authorities in Luxembourg had conferred “an advantage on Amazon.” The commission added that the “advantage is obtained every year and ongoing,” and that it “is also granted in a selective manner.”\nAmazon does business across the 28-nation bloc, but lists its European headquarters as Luxembourg, a tiny country with a population of around 500,000. The agreement between Amazon and Luxembourg effectively capped the amount of tax Amazon paid, and relied on a method called transfer pricing, according to the commission.\nTransfer pricing has long been used by multinational companies to assign profits to different units, depending on factors like their role in the overall business and assets. But, according to the commission, these rules are harder to apply for technology companies, because their assets, like intellectual property, are intangible.\nEuropean regulators have claimed that Amazon sent most of its European revenue from one unit in Luxembourg to a separate subsidiary that was not liable to pay corporate tax in the country. As a result, it was able to reduce the profit it generated from its European operations and cut its tax bill, the commission said.\nIt is not illegal in the European Union for countries to try to lure businesses with low tax rates. But offering special deals to companies that are not available to their competitors can amount to what is known as illegal state aid.\nBoth Amazon and Luxembourg’s finance ministry have previously denied that the online retail giant received special tax treatment or benefits.\nAmazon has already been in the commission’s cross hairs this year for unfair competition.\nIn May, the company reached an agreement with Brussels over its e-books business after a two-year investigation. Margrethe Vestager, the European Union’s competition commissioner, had said certain clauses in Amazon’s contracts may have made it more difficult for other e-book platforms to innovate and compete effectively with Amazon. The retailer said it would drop the clauses.\nAnd in January, Amazon agreed with Brussels to end an exclusive deal to supply Apple with audiobooks. Brussels said that step also was likely to improve competition in the bloc.\nThe cases against Amazon are among several in which the commission has targeted American technology companies. European Union officials are investigating Google and Qualcomm over possible abuses of their dominant market position, while regulators in various countries have investigated Facebook over its handling of customers’ data.\nEfforts to curb multinationals from dodging tax have risen in prominence in recent months.\nLast month, the European Union began considering new proposals broadly aimed at tax internet companies in the countries where they generate their business, rather than allow them to shift profits to jurisdictions with lower rates.\nLuxembourg has been a particular target of increased scrutiny. In 2015, Ms. Vestager imposed an order on Luxembourg to claw back about €30 million from a Fiat Chrysler unit. A decision in a case considering Luxembourg’s treatment of McDonald’s is also still pending.\nThe prominence of Luxembourg has put Jean-Claude Juncker, the president of the European Commission, in an awkward position: his role includes oversight of the investigations yet his critics accuse him of having helped turn Luxembourg into a tax haven during his nearly two decades leading that country.\nFollow James Kanter on Twitter: @jameskanter .\nRelated Coverage\n",
+        "quotes": [
+            [
+                "advantage is obtained every year and ongoing,",
+                "",
+                false
+            ],
+            [
+                "is also granted in a selective manner.",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2015/01/17/business/amazon-luxembourg-european-commission.html?module=inline",
+                "https://www.nytimes.com/2016/08/31/technology/apple-tax-eu-ireland.html?module=inline",
+                "https://www.nytimes.com/2015/10/22/business/international/starbucks-fiat-eu-tax-netherlands-luxembourg.html?module=inline",
+                "https://www.nytimes.com/2015/12/04/business/eu-opens-inquiry-into-possible-mcdonalds-tax-breaks-in-luxembourg.html?module=inline",
+                "https://www.nytimes.com/2017/09/20/business/eu-tech-tax.html?module=inline",
+                "https://www.nytimes.com/2017/05/16/technology/facebook-privacy-france-netherlands.html?module=inline"
+            ],
+            "gov_pgs": [
+                "https://europa.eu/rapid/press-release_IP-17-97_en.htm"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "brussels",
+            "collect",
+            "tax",
+            "rates",
+            "eu",
+            "countries",
+            "union",
+            "order",
+            "amazon",
+            "luxembourg",
+            "european",
+            "regulators",
+            "companies",
+            "special",
+            "taxes"
+        ]
+    }
+]
