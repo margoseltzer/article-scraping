@@ -1,12 +1,14 @@
 import json
 import os
-import numpy as np
-import pandas as pd 
 import csv
 import sys
 import copy
 import execnet
 import itertools
+import numpy as np
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
 from gcn import train
 from collections import defaultdict
 from scipy.sparse import csr_matrix
@@ -89,8 +91,8 @@ def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
             adj_entities = v_1
             
             for k_2, v_2 in dic.items():
-                if k_1 == k_2:
-                    adj_dict[k_1] = adj_dict[k_1] + [k_1] if k_1 in adj_dict else [k_1]
+                if k_1 == k_2: continue
+                    # adj_dict[k_1] = adj_dict[k_1] + [k_1] if k_1 in adj_dict else [k_1]
                 for i in v_2:
                     if i in adj_entities and obj_dict[i]['type'] != 'publisher':
                         adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
@@ -161,14 +163,16 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
                 y_i = article_label_dic[url] 
                 y.append(int(y_i))
             else: 
+                # TODO assume this
                 print(url)
+                y.append(1)
     return y
 
 def remove_prefix(adj_mtx, ft_mtx):
     ''' Remove all 'a' and 'f' in front of ids
     '''
     def remove_prefix_val(v):
-        return [int(fid[1:]) for fid in v]
+        return list(set([int(fid[1:]) for fid in v]))
 
     adj_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_mtx.items())
     ft_mtx = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_mtx.items())
@@ -206,13 +210,9 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
         elif yi ==  1: ally[i][0] = 1
 
     allx = csr_matrix(np.array(ft_mtx))
-    
-    for n in ally:
-        print(n)
-    print(ally[80:100])
+    # x, y, tx, ty, allx, ally, graph
     return allx[80:100], ally[80:100], allx[:80], ally[:80], allx[80:], ally[80:], graph
-    # return x, y, tx, ty, allx, ally, graph
-
+    
 def save_articles(obj_dict, aid_fid_dict, article_label_dic):
     with open(dirpath + 'articles.csv', mode='w') as f:
         headers = ['url', 'label'] 
@@ -228,6 +228,50 @@ def save_articles(obj_dict, aid_fid_dict, article_label_dic):
             }) 
     # print('1'+1)
 
+def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
+    ''' The first is number of adj_articles
+        Quotes and reference will be binned
+        quotes: 1,2,3,...,30+
+        reference: 1,2,3,...,20+
+    '''
+    bin_dict = dict()
+    for aid, fids in aid_fid_dict.items():
+        n_q = 0
+        n_r = 0
+        for fid in fids:
+            if obj_dict[fid]['type'] == 'reference': n_r += 1
+            elif obj_dict[fid]['type'] == 'quote'  : n_q += 1
+            else: bin_dict[aid] = bin_dict[aid] + [fid] if aid in bin_dict else [fid]
+        
+        bin_dict[aid] = list(set(bin_dict[aid])) + [n_r, n_q] if aid in bin_dict else [n_r, n_q]
+    
+    for aid, aids in aid_adj_dict.items():
+        bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [len(aids)]
+        print(bin_dict[aid])
+        
+    print(''+1)
+    return {}
+
+
+def show_adj_graph(adj_dict, y):
+    G = nx.Graph()
+    true_nodes = []
+    fake_nodes = []
+    G.add_nodes_from(list(adj_dict.keys()))
+    for k, v in adj_dict.items():
+        y_k = y[k]
+        if y_k == 1 : true_nodes.append(k)
+        else        : fake_nodes.append(k)    
+        for f in v:
+            G.add_edge(k, f)
+
+    pos = nx.spring_layout(G)
+    nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
+    nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
+    nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.5)
+
+    plt.show()
+
 # Paths for labeled data files from data dir
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
              'data_from_Kaggle.csv',
@@ -235,8 +279,7 @@ file_list = ['BuzzFeed_fb_urls_parsed.csv',
              'fakeNewsNet_data/politifact_fake.csv',]
 file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-saved_file_name = store_labeled_articles(file_list2)
-
+saved_file_name   = store_labeled_articles(file_list2)
 article_label_dic = get_article_dict(saved_file_name)
 
 # obj_dict: obj_id to {type, val}
@@ -266,20 +309,17 @@ aid_fid_dict = handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
 
 # Add label vector on obj_dict  
 y = get_y(aid_adj_dict, article_label_dic, obj_dict)
-# print('1'+1)
+
+# get n and d dimension
 n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 
-def get_bin_ft_mtx(aid_adj_dict, aid_fid_dict, n):
-    
+# get binned feature matrix
+ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
 
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
-
-ft_bin_mtx = get_bin_ft_mtx(aid_adj_dict, aid_fid_dict, n)
-
 adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
 
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
-# print("1"+1)
 
 
 
@@ -416,3 +456,5 @@ print('DONE')
 
 
 train.train(x, y, tx, ty, allx, ally, graph)
+
+show_adj_graph(adj_dict, y)
