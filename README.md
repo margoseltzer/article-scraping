@@ -23,25 +23,28 @@ In order to run the end-to-end pipeline to generate a provenance graph for an ar
 	
 3. Resolve dependencies in `provgeneration/prov_genertor.py`, `scraper.py`, `graphing\interactive_graph.py`, `graphing\graph_builder.py`. 
 Some of the Python3 packages you will need are:
-	* https://stanfordnlp.github.io/CoreNLP/download.html, version 3.9.2
-	    * In ``src/scraper.py``, modify the ``stanfordLibrary`` variable definition so that it points towards your downloaded library
-	* https://github.com/misja/python-boilerpipe
-	* nltk, version 3.4.4
-	* subprocess
-	* newspaper3k, version 0.2.8
-	* bs4, version 4.7.1
-	* stanfordcorenlp
-	* re, version 2.2.1
-	* networkx, version 2.3
-	* bokeh, version 1.2.0
-	
-The Python2 packages you will need are:
-	* googlesearch
-	* nltk, version 3.2.1
-	* bs4, version 4.7.1
-	* urllib2, version 2.7
-	* threading
+```
+	https://stanfordnlp.github.io/CoreNLP/download.html, version 3.9.2
+	    - In ``src/scraper.py``, modify the ``stanfordLibrary`` variable definition so that it points towards your downloaded library
+	https://github.com/misja/python-boilerpipe
+	nltk              version 3.4.4
+	subprocess
+	newspaper3k       version 0.2.8
+	bs4               version 4.7.1
+	stanfordcorenlp
+	re                version 2.2.1
+	networkx          version 2.3
+	bokeh             version 1.2.0
+```
 
+The Python2 packages you will need are:
+```
+	googlesearch
+	nltk            version 3.2.1
+	bs4             version 4.7.1
+	urllib2         version 2.7
+	threading
+```
 
 4. Start the PostgreSQL server you installed in step 2: `sudo /etc/init.d/postgresql start`. Verify that it says [OK] and accepts connections on port 5432 (or whichever port you configured it to listen on). 
 
@@ -63,6 +66,7 @@ python3 src/scraper.py -u https://www.infowars.com/mmr-vaccine-after-puberty-red
 ```
 
  **TODO: update this example json file**
+ 
 The information will be written in JSON format to the output file, and will have the following fields:
 ```json
 [
