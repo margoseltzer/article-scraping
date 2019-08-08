@@ -15,7 +15,6 @@ from sklearn import svm
 from sklearn.semi_supervised import LabelSpreading
 from sklearn.model_selection import train_test_split
 from newspaper import Article
-from newsplease import NewsPlease
 from bs4 import BeautifulSoup
 
 dirpath = os.path.dirname(os.path.realpath(__file__))
