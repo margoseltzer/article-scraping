@@ -1,0 +1,128 @@
+[
+    {
+        "url": "http://money.cnn.com/2017/10/11/media/trump-nbc-licenses-tweet/index.html",
+        "title": "Trump continues NBC threats, says 'licenses must be challenged'",
+        "authors": [
+            {
+                "name": "Brian Stelter",
+                "link": null
+            },
+            {
+                "name": "Oliver Darcy",
+                "link": null
+            }
+        ],
+        "publisher": "money.cnn.com",
+        "publish_date": "2017-10-11",
+        "text": "Trump continues NBC threats, says 'licenses must be challenged'\nby Oliver Darcy and Brian Stelter   @CNNMoney October 11, 2017: 9:42 PM ET\nTrump 'trolling' journos with fake news talk\nPresident Trump started and ended his day Wednesday by lashing out at NBC and other American television networks. He explicitly threatened the press by saying on Twitter that \"network news has become so partisan, distorted and fake that licenses must be challenged and, if appropriate, revoked.\"\nIt was a follow-up to the morning missive that reflected his fury over an NBC News report that said he wanted a tenfold increase in the United States' nuclear arsenal. He decried \"fake news coming out of NBC and the Networks\" and asked \"At what point is it appropriate to challenge their License? Bad for country!\"\nSo the president is asserting that media companies which report aggressively about his administration should be punished by having their television station licenses scrutinized and possibly revoked.\nIn between those two tweets, Trump told reporters in the Oval Office that he found it \"frankly disgusting the press is able to write whatever it wants to write.\"\nFreedom of the press is a core principle of the U.S. Constitution.\nWhen a reporter followed up and asked whether he believed there \"should be limits on what the press should write,\" Trump said, \"No. The press should speak more honestly.\"\nStill, his comment raised eyebrows, especially because it was the latest remark in a string of heightened \"fake news\" attacks Trump has leveled against the press in recent days.\nTrump's new comments were condemned by press freedom organizations and some former government officials.\nBut his threat about TV licenses is essentially toothless.\nFirst of all, there is no single license for NBC or any other national television network. Licenses are granted to individual local stations -- and NBC doesn't even own most of the stations that broadcast its content across the country. And it is extremely unusual for any station's license to be taken away for any reason, much less for a political vendetta.\nThe licenses for local television stations are subject to review by the Federal Communications Commission every eight years.\nIt would not be possible for Trump or his allies to challenge all of the licenses held by NBC in one fell swoop. Residents would have to submit complaints about individual stations to the FCC on a market-by-market basis.\nThe president seems to be encouraging that with his Wednesday night tweet.\nThere is precedent for political allies of a president challenging local licenses. It happened under Richard Nixon in the 1970s, when a friend of Nixon's tried to take over a license held by the Washington Post. Nixon's ally did not succeed in his bid.\nShort of gross misconduct on the part of a challenged station, it's unlikely any other such attempt now would be successful either.\n\"Whatever other legal problems [NBC parent] Comcast may have, this is not one of them,\" Andrew Jay Schwartzman, an attorney who works at the Georgetown University Law Center and specializes in telecommunications law, told CNN. \"Comcast knows full well that the FCC will never, ever, deny its license renewal applications.\"\nThe FCC is technically an independent body, not subject to the president's orders. FCC Chairman Ajit Pai -- who is a Republican appointed to his current post by Trump -- said in March that his job is not to be a \"political actor.\"\n\"It is simply to be somebody at the FCC who, as I said, is administering the laws of the United States,\" Pai said. \"I'm simply not going to wade into that kind of political debate.\"\nNeither Pai nor an FCC spokesperson immediately responded to requests for comment about Trump's tweet. But former FCC officials were quick to skewer the president.\n\"To me it's just incomprehensible that because of the content of NBC News that somehow their license would be at risk,\" Alfred Sykes, a Republican who served as chairman of the FCC under George H.W. Bush, told The Wrap .\n\"This madcap threat, if pursued, would be blatant and unacceptable intervention in the decisions of an independent agency,\" echoed Michael Copps, a Democrat who served as FCC commissioner under both George W. Bush and Barack Obama, in a statement to HuffPost . \"The law does not countenance such interference. President Trump might be happier as emperor, but I think the American people would strip him of his clothes on this issue.\"\nA spokesperson for NBC declined to comment.\nTrump has increased his attacks on the media in the past week. Last week, he urged the Senate Intelligence Committee to investigate news outlets for publishing supposed \"fake\" stories. Over the weekend, he hinted it was perhaps time for a law that would require broadcasters to give equal time to both sides of the political debate when discussing public policy.\n\"At what point are we going to silence media critical of the President?\" tweeted Rep. Adam Schiff, the ranking Democrat on the House Intelligence Committee. \"When we cease to have a First Amendment and a democratic government.\"\nCNNMoney (New York) First published October 11, 2017: 11:12 AM ET\nNewsletter\n© 2019 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.\nCNN Sans™ & © 2016 Cable News Network.\n",
+        "quotes": [
+            [
+                "network news has become so partisan, distorted and fake that licenses must be challenged and, if appropriate, revoked.",
+                "",
+                false
+            ],
+            [
+                "fake news coming out of NBC and the Networks",
+                "Trump",
+                false
+            ],
+            [
+                "At what point is it appropriate to challenge their License?",
+                "Trump",
+                true
+            ],
+            [
+                "frankly disgusting the press is able to write whatever it wants to write.",
+                "Trump",
+                false
+            ],
+            [
+                "should be limits on what the press should write,",
+                "Trump",
+                false
+            ],
+            [
+                "The press should speak more honestly.",
+                "Trump",
+                true
+            ],
+            [
+                "Whatever other legal problems [NBC parent] Comcast may have, this is not one of them,",
+                "Andrew Jay Schwartzman",
+                true
+            ],
+            [
+                "Comcast knows full well that the FCC will never, ever, deny its license renewal applications.",
+                "Andrew Jay Schwartzman",
+                true
+            ],
+            [
+                "It is simply to be somebody at the FCC who, as I said, is administering the laws of the United States,",
+                "",
+                true
+            ],
+            [
+                "I'm simply not going to wade into that kind of political debate.",
+                "",
+                true
+            ],
+            [
+                "To me it's just incomprehensible that because of the content of NBC News that somehow their license would be at risk,",
+                "Alfred Sykes",
+                true
+            ],
+            [
+                "This madcap threat, if pursued, would be blatant and unacceptable intervention in the decisions of an independent agency,",
+                "Michael Copps",
+                true
+            ],
+            [
+                "The law does not countenance such interference.",
+                "",
+                true
+            ],
+            [
+                "President Trump might be happier as emperor, but I think the American people would strip him of his clothes on this issue.",
+                "",
+                true
+            ],
+            [
+                "At what point are we going to silence media critical of the President?",
+                "Adam Schiff",
+                true
+            ],
+            [
+                "When we cease to have a First Amendment and a democratic government.",
+                "Adam Schiff",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.thewrap.com/trump-fcc-licenses-nbc-news-commissioners-blatantly-unacceptable/",
+                "https://www.nbcnews.com/news/all/trump-wanted-dramatic-increase-nuclear-arsenal-meeting-military-leaders-n809701"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/RepAdamSchiff/status/918137592838787072",
+                "https://twitter.com/intent/user?screen_name=CNNMoney",
+                "https://twitter.com/dliebelson/status/918164248039129089"
+            ]
+        },
+        "key_words": [
+            "continues",
+            "license",
+            "political",
+            "press",
+            "threats",
+            "fcc",
+            "stations",
+            "challenged",
+            "trump",
+            "nbc",
+            "television",
+            "licenses",
+            "president"
+        ]
+    }
+]

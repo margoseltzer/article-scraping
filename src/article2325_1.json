@@ -1,0 +1,67 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/10/politics/us-navy-mccain-officers-relieved-of-command/index.html",
+        "title": "US Navy officers lose jobs after fatal collision",
+        "authors": [
+            {
+                "name": "Brad Lendon",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-10",
+        "text": "Updated 5:09 AM ET, Wed October 11, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\n(CNN)\nThe two officers in charge of the destroyer USS John S. McCain have been relieved of duty after a deadly accident earlier this year, the US Navy said in a statement Tuesday.\nThe guided-missile destroyer collided with a merchant ship off Singapore on August 21, leaving 10 US sailors dead and five more injured. The accident left a large highly visible hole in the US ship.\nThe McCain's commanding officer, Cmdr. Alfredo J. Sanchez, and executive officer, Cmdr. Jessie L. Sanchez, were \"relieved due to a loss of confidence,\" according to statement from the US 7th Fleet in Yokosuka, Japan, the ship's home port.\n\"While the investigation is ongoing, it is evident the collision was preventable, the commanding officer exercised poor judgment, and the executive officer exercised poor leadership of the ship's training program,\" the statement said.\nBoth officers were assigned to other duties in Japan.\nRead More\nThe guided-missile destroyer USS John S. McCain prepares to load aboard the heavy lift transport M/V Treasure off Singapore.\nThe McCain accident was the fourth involving a US warship in the Pacific this year.\nThe accidents prompted the dismissal of the Navy's 7th Fleet commander Vice Adm. Joseph Aucoin, as well as multiple reviews of the way the Navy trains, maintains and deploys its fleet.\nUS Government Accountability Office data obtained by CNN in September found that both the McCain and Fitzgerald had lengthy records of fail ing to fulfill key training requirements.\nSenior Navy officials told Congress that the service is committed to getting to the root of the issues that have contributed to the spate of collisions.\nJUST WATCHED\nInitial investigation blames Navy for crash 01:16\n\"We ask the sailors to do an awful lot ... and perhaps we've asked them to do too much,\" Vice Chief of Naval Operations Adm. William Moran told the House Armed Services Committee at a hearing on the collisions in September. \"That's what the comprehensive review will look at.\"\n\"We have a problem in the Navy and we are going to fix it,\" Spencer said.\nThe McCain was loaded onto a heavy lift transport ship off Singapore last weekend and is being taken to Yokosuka for repairs, the Navy said.\nThe Fitzgerald, meanwhile, will be taken in a similar manner to the US for repairs.\nCNN's Jeremy Herb and Ryan Browne contributed to this report.\n",
+        "quotes": [
+            [
+                "relieved due to a loss of confidence,",
+                "",
+                false
+            ],
+            [
+                "While the investigation is ongoing, it is evident the collision was preventable, the commanding officer exercised poor judgment, and the executive officer exercised poor leadership of the ship's training program,",
+                "",
+                true
+            ],
+            [
+                "We ask the sailors to do an awful lot ... and perhaps we've asked them to do too much,",
+                "",
+                true
+            ],
+            [
+                "That's what the comprehensive review will look at.",
+                "",
+                true
+            ],
+            [
+                "We have a problem in the Navy and we are going to fix it,",
+                "Spencer",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://edition.cnn.com/2017/08/28/politics/uss-john-s-mccain-sailors-recovered/index.html",
+                "https://edition.cnn.com/2017/09/11/politics/navy-ships-training-expired/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "navy",
+            "executive",
+            "officers",
+            "statement",
+            "officer",
+            "relieved",
+            "poor",
+            "ships",
+            "japan",
+            "fatal",
+            "jobs",
+            "collision",
+            "sanchez",
+            "exercised",
+            "lose"
+        ]
+    }
+]

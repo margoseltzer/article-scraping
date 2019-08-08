@@ -1,0 +1,104 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/10/politics/epa-cpp-climate-change/index.html",
+        "title": "EPA rolls back carbon emissions rule",
+        "authors": [
+            {
+                "name": "Miranda Green",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-10",
+        "text": "Trump admin avoids discussing climate change while rolling back emissions rule\nUpdated 9:55 PM ET, Tue October 10, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nWashington (CNN)\nWhen Hurricane Harvey had just dumped so much rain on Houston it dented the earth's surface, and Hurricane Irma was still threatening the entire state of Florida, EPA administrator Scott Pruitt said it was \" insensitive \" to talk about climate change.\nNow less than two months since those catastrophes, as a number of wildfires rage in California, the administration is still reluctant to even use the phrase . But that hasn't stopped the EPA from all the while working to roll back a marquee Obama-era regulation meant to curb carbon emissions.\nPruitt announced Tuesday plans to rescind the Clean Power Plan in its totality while providing no alternative, arguing the rule doesn't have a legal basis. The rule was meant to limit carbon emissions from power plants by requiring states to meet specific carbon emission reduction standards based on their individual energy consumption. It also includes an incentive program for states to get a head start on meeting standards on early deployment of renewable energy and low-income energy efficiency.\nUnder President Barack Obama, the EPA estimated the Clean Power Plan could prevent 2,700 to 6,600 premature deaths and 140,000 to 150,000 asthma attacks in children.\nBut the EPA's newest proposal stops short of changing or creating an additional rule on the regulation of greenhouse gases and doesn't acknowledge other human health risks tied to rising climates including the increasing likelihood and intensity of storms.\nRead More\n\"It's been clear to me that now has to be the time to talk about climate change, that's pretty clear,\" Gina McCarthy, former EPA administrator under Barack Obama, told CNN. \"If people are actually losing their lives, their property, their sense of security because of severe weather events that we know are tied to changing climate, if (Pruitt) is sitting in his office and still writing this, clearly this proposal reflects that he's not engaging with career staff in a robust way.\"\nMcCarthy said that the reversal of the rule, which she played a large part in crafting, shows that the Trump administration is \"just making it up as they go along.\"\nAbigail Dillen, vice president of climate and energy litigation at Earthjustice, said not acknowledging natural disasters is a clear omission.\n\"If now isn't a good time to think about climate change, my question is when?\" said Dillen, who is based in San Francisco and close to the Napa Valley fires. \"I'm looking out my window and it's so smoky from the fire.\"\nLiz Bowman, EPA spokeswoman, told CNN that the decision to halt the Obama-era plan is \"about President Trump's America First strategy.\" She additionally referenced McCarthy by name.\n\"While the previous administration characterized the CPP as the solution to climate change, even former administrator McCarthy didn't dispute that the rule would only reduce atmospheric concentrations of CO2 by 0.2% by 2100, or said another way, reduce sea level rise by 1/100th of an inch (essentially two sheets of paper thick),\" Bowman said.\nBowman declined to answer questions relating to the agency avoiding reference to climate change or the current California wildfires.\nSpeaking on Fox News Tuesday night, Pruitt said the repeal was part of President Donald Trump's promise \"that the EPA would not be an agency that picks winners and losers,\" adding that with the end of Obama-era plan \"the war on coal is over.\"\n\"For anyone to advance a notion that we should do away with all fossil fuels in the generation of electricity is simply not thinking correctly,\" Pruitt said.\nMembers of Congress were also quick to challenge EPA's decision to repeal CPP.\nDemocratic Sen. Cory Booker said in a statement Tuesday evening that the decision \"is anything but surprising coming from an administration that thinks climate change is a hoax.\"\nSenate Minority Leader Chuck Schumer, D-New York, referenced natural disasters Tuesday saying, \"at a time when Americans are experiencing extreme and dangerous weather more frequently than ever before, the last thing we should do is roll back actions to combat climate change.\"\nCNN's Daniella Diaz and Eli Watskins contributed to this report.\n",
+        "quotes": [
+            [
+                "It's been clear to me that now has to be the time to talk about climate change, that's pretty clear,",
+                "Gina McCarthy",
+                true
+            ],
+            [
+                "If people are actually losing their lives, their property, their sense of security because of severe weather events that we know are tied to changing climate, if (Pruitt) is sitting in his office and still writing this, clearly this proposal reflects that he's not engaging with career staff in a robust way.",
+                "",
+                true
+            ],
+            [
+                "just making it up as they go along.",
+                "McCarthy",
+                false
+            ],
+            [
+                "If now isn't a good time to think about climate change, my question is when?",
+                "Dillen",
+                true
+            ],
+            [
+                "I'm looking out my window and it's so smoky from the fire.",
+                "Dillen",
+                true
+            ],
+            [
+                "about President Trump's America First strategy.",
+                "Liz Bowman",
+                false
+            ],
+            [
+                "While the previous administration characterized the CPP as the solution to climate change, even former administrator McCarthy didn't dispute that the rule would only reduce atmospheric concentrations of CO2 by 0.2% by 2100, or said another way, reduce sea level rise by 1/100th of an inch (essentially two sheets of paper thick),",
+                "Bowman",
+                true
+            ],
+            [
+                "that the EPA would not be an agency that picks winners and losers,",
+                "Pruitt",
+                false
+            ],
+            [
+                "the war on coal is over.",
+                "Pruitt",
+                false
+            ],
+            [
+                "For anyone to advance a notion that we should do away with all fossil fuels in the generation of electricity is simply not thinking correctly,",
+                "Pruitt",
+                true
+            ],
+            [
+                "is anything but surprising coming from an administration that thinks climate change is a hoax.",
+                "Cory Booker",
+                false
+            ],
+            [
+                "at a time when Americans are experiencing extreme and dangerous weather more frequently than ever before, the last thing we should do is roll back actions to combat climate change.",
+                "Chuck Schumer",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.cnn.com/2017/09/07/politics/scott-pruitt-hurricanes-climate-change-interview/index.html",
+                "https://www.theatlantic.com/technology/archive/2017/09/hurricane-harvey-deformed-the-earths-crust-around-houston/538866/",
+                "https://www.cnn.com/2017/09/30/politics/resilience-climate-change/index.html",
+                "https://www.cnn.com/2017/10/09/politics/environmental-protection-agency-scott-pruitt-clean-power-plan/index.html"
+            ],
+            "gov_pgs": [
+                "https://www.epa.gov/stationary-sources-air-pollution/electric-utility-generating-units-repealing-clean-power-plan-0"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "plan",
+            "rule",
+            "emissions",
+            "carbon",
+            "change",
+            "administration",
+            "power",
+            "epa",
+            "climate",
+            "rolls",
+            "president",
+            "energy",
+            "pruitt"
+        ]
+    }
+]

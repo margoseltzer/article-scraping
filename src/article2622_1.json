@@ -1,0 +1,70 @@
+[
+    {
+        "url": "http://money.cnn.com/2017/10/04/technology/business/eyedetect-lies-polygraph/index.html",
+        "title": "The eyes expose our lies. Now AI is noticing.",
+        "authors": [
+            {
+                "name": "Matt Mcfarland",
+                "link": null
+            }
+        ],
+        "publisher": "money.cnn.com",
+        "publish_date": "2017-10-04",
+        "text": "by Matt McFarland   @mattmcfarland October 4, 2017: 3:18 PM ET\nThis technology detect lies by analyzing your eyes\nThe pupils of our eyes are terrible liars.\nScientists have long known this. Our pupils widen ever so slightly when we're being deceptive. The change is so minor -- fractions of a millimeter -- that the average person would never notice.\nBut now a Utah-based company called Converus has a test that uses a camera to track eyes and sense deception. The technology, called EyeDetect, is gaining popularity as a more affordable, less biased version of a polygraph exam, which has long been the gold standard for detecting lies.\n\"The eyes are the window of the soul,\" said Juan Becerra, an investigator at Panther Security and Investigations. He used to work with polygraphs at the FBI and now uses EyeDetect. \"This is something that's revolutionary and that's going to change the entire deception detection field.\"\nEyeDetect, which launched in 2014, is used today in 34 countries as part of job interviews and corporate investigations. Latin American banks, for example, use the technology to determine if their tellers can be trusted. Research has shown the accuracy rates of EyeDetect and polygraph are similar, both nearing 90%.\nA person taking an EyeDetect exam sits at a desk and answers true-or-false questions on a tablet. An infrared camera tracks eye movement, blinking and pupil dilation. After 30 minutes, an algorithm scores their deceptiveness on a scale from zero to 100.\nAn EyeDetect machine costs $4,000, plus from $50 to $150 for each test scored. A polygraph can cost several hundred dollars or more, depending on what the examiner charges. The federal government has paid $2,200 for some exams.\nSome local U.S. law enforcement departments and private investigators have started using EyeDetect.\nThe company initially focused on growth outside of the U.S. due to a law limiting whom private sector employers can test for deception. There is an exception for government jobs. Now Converus is pushing for broader use in the country as polygraphs hamper government hiring.\nConverus and the Utah scientists say the U.S. federal government has been slow to embrace the technology. The U.S. House of Representatives passed a bill this summer lifting the polygraph requirement for U.S. Customs and Border Patrol applicants to address staffing shortages. Advocates for the bill have said flaws in polygraphs have made it more difficult to fill open positions.\nThe National Center for Credibility Assessment, the federal agency that oversees polygraph exams in federal agencies, hasn't given EyeDetect a vote of confidence that would clear the way for use in the federal government.\nA spokesman for the center told CNN Tech that it will research and evaluate optical credibility exams such as EyeDetect, starting next year.\nConverus CEO Todd Mickelsen told CNN that 80% of its revenue is coming from customers such as banks and businesses who never used polygraphs before. These companies want to make sure they can trust their employees and prevent corruption. They ask employees if they've done anything that disqualifies them from doing their work.\nEyeDetect tracks the movements of a person's eyes and pupils during the test.\nEyeDetect relies on an algorithm that weighs a variety of factors. The key indicators are if a person's eyes dilates while reading a question, and how fast they read questions.\nOur pupils dilate when we're deceptive because lying takes more mental energy. The eyes allow in more light and information to help our brains with their added workload. This evolved as a survival instinct, according to David Raskin, a retired University of Utah professor, who worked on the team that developed the science behind EyeDetect.\nThe Utah researchers found that a deceptive person will generally take longer to answer questions on a test, as they're being careful. But on the specific questions they're lying on, they will respond faster.\nRaskin and the other Utah professors -- a group of leading polygraph researchers who gravitated toward optical tests for deception -- said there are several advantages to sensing lies through the human eyes. Polygraph exam results can be biased because humans administer and score the tests. EyeDetect removes the human element.\nFor example, an administrator may be fond of an applicant and go easy on them during questioning or ask tougher questions that make the person feel uncomfortable, which can skew the results.\nPolygraph administrators must train for three to four months. An EyeDetect exam is overseen by a proctor who undergoes training for half a day.\nKen Roberts, a deputy sheriff in the Dona Ana County Sheriff Department in Las Cruces, New Mexico, has switched from administering polygraphs to EyeDetect exams for pre-employment screenings.\nRoberts still sees some uses for polygraphs, such as interviewing a suspect in a homicide case, when tailored follow-up questions are necessary.\nA version of EyeDetect is under development to give the test orally, so subjects could listen to questions.\n\"A lot of the polygraph industry feels very threatened and protective [of their existing method of work]. They think it's going to replace them,\" Raskin said. \"And who knows, maybe in the future it will. But right now, it's not that threat.\"\nCNNMoney (Washington) First published October 4, 2017: 3:18 PM ET\nCNNMoney Sponsors\n© 2019 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.\nCNN Sans™ & © 2016 Cable News Network.\n",
+        "quotes": [
+            [
+                "The eyes are the window of the soul,",
+                "Juan Becerra",
+                true
+            ],
+            [
+                "This is something that's revolutionary and that's going to change the entire deception detection field.",
+                "",
+                true
+            ],
+            [
+                "A lot of the polygraph industry feels very threatened and protective [of their existing method of work].",
+                "Raskin",
+                true
+            ],
+            [
+                "They think it's going to replace them,",
+                "Raskin",
+                true
+            ],
+            [
+                "And who knows, maybe in the future it will.",
+                "Raskin",
+                true
+            ],
+            [
+                "But right now, it's not that threat.",
+                "Raskin",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.themarshallproject.org/documents/3924714-CBP-Spends-Millions-Conducting-Polygraph"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "noticing",
+            "polygraph",
+            "person",
+            "expose",
+            "eyedetect",
+            "eyes",
+            "polygraphs",
+            "lies",
+            "exam",
+            "questions",
+            "federal",
+            "ai",
+            "utah",
+            "test"
+        ]
+    }
+]

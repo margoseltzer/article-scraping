@@ -1,0 +1,80 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-emerging-markets-stocks/emerging-market-tech-stock-boom-gives-fund-managers-a-headache-idUSKBN1CE1YU",
+        "title": "Emerging market tech stock boom gives fund managers a headache",
+        "authors": [
+            {
+                "name": "Helen Reid",
+                "link": null
+            }
+        ],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-10",
+        "text": "Emerging market tech stock boom gives fund managers a headache\n6 Min Read\nLONDON (Reuters) - The boom in emerging market technology stocks is becoming a problem for fund managers of all stripes.\nFILE PHOTO: An employee is seen behind a glass wall with the logo of Alibaba at the company's headquarters on the outskirts of Hangzhou, Zhejiang province, April 23, 2014.  REUTERS/Chance Chan/File Photo\nThe soaring market capitalization of a handful of companies such as China’s Alibaba ( BABA.N )  and Tencent ( 0700.HK ) is steadily lifting their weighting in the MSCI emerging equities index .MSCIEF.\nThis means investors in funds that track indexes (exchange traded funds or ETFs)  - who want exposure to a range of companies for a lower fund management fee -  are finding themselves increasingly exposed to a single sector.\nMeanwhile, active fund managers, who justify charging higher fees for their individual stock-picking expertise, are under pressure to buy those tech stocks to ensure their funds keep up with the index’s gains.\nAnd with both sets of investor chasing the same thing, the risk of dramatic outflows increases if the sector falters.\n“It’s the opposite of what you are trying to do with an ETF - you want cheap diversified exposure but you end up being concentrated in basically 10 stocks,” said Rory McPherson, head of investment strategy at Psigma, who holds active EM funds.\nThe biggest five emerging market companies in the index are tech firms Alibaba, Tencent, Samsung ( 005930.KS ), Naspers ( NPNJn.J ) and Taiwan Semiconductor ( 5425.TWO ).\nThey comprise almost 19 percent of the index's market capitalization. That is a bigger chunk than the S&P 500 where the top five firms - Alphabet ( GOOGL.O ) , Apple ( AAPL.OQ ), Facebook ( FB.O ), Microsoft ( MSFT.OQ ), and Amazon ( AMZN.OQ ) - make up 13 percent .SPX .\nThe increasing use of ETFs has helped boost valuations further because they must follow the index weighting.\nAnd the index’s concentration has intensified as valuations rose - the five companies’ share was 13.9 percent in January.\nDISCOMFORT\nThe shift toward passive investing, evident across most asset classes, has come into focus in emerging equities, which have enjoyed a sparkling 60 percent rally since early-2016. But the sector may also illustrate the concentration risks that exchange-traded funds can bring to portfolios.\nEmerging equity funds have received some $56 billion so far this year, Lipper data shows. Of this, $23 billion went into ETFs.\nInvestors are keen on tech companies which are making profits by disrupting the status quo in sectors from media and advertising to retail and industrials.\nBut the dependence on technology for returns is causing some discomfort among investors who prefer shares in emerging market car or beverage makers for instance for exposure to consumer demand in the developing world.\nEd Kerschner, chief portfolio strategist at Columbia Threadneedle, says the tech companies’ performance mostly reflects that of their U.S. peers rather than providing exposure to developing countries.\n“The question is are you buying emerging markets or are you buying technology?” Kerschner said. “The risk of buying EM benchmarks is that you are not diversifying away from the S&P.”\nAs a result of the tech rally, the conventional market-cap weighted emerging equity index, with bigger weightings in companies with the largest market caps, has begun strongly outperforming the index where all companies are assigned the same weighting.\nThe success can also be reversed. Any faltering by the tech leaders would have a proportionally weighty effect on ETFs, potentially spurring big outflows.\nScott Snyder, co-portfolio manager of the ICON emerging markets fund, estimates that the four biggest tech firms have accounted for a third of 2017’s emerging equity returns.\n“A lot of people that might just be piling into passive strategies in EM could be overly exposed to technology right now,” ICON’s Snyder said.\nTHE “WRONG” REASON\nThere are also signs that many active emerging market managers, who would have had more diverse investments than ETF funds, are sticking more closely to the benchmark.\nData from Copley Fund Research shows the average active share of global emerging market funds - the extent to which their holdings differ from the index - has fallen to 74.7 percent from a peak of 78 percent in April 2016.\nPartly this is due to the addition in May 2016 of U.S.-listed Chinese firms to the emerging benchmark - because active investors held these stocks before their inclusion in the index - but competition from ETFs may also play a role.\n    “The effect of rising ETF flows and narrowing breadth has been to push active investors to get closer to their benchmarks,” said Edward Cole, a portfolio manager at GLG Man Group.\nEven among active managers, many may be holding tech stocks for the “wrong” reason - fear of underperforming the index, said Kiran Nandra-Koehrer, senior product specialist in Pictet Asset Management’s emerging equities team.\nWhile many investors are wary of paying higher fees for funds to replicate the index, active managers don’t want to risk missing out on meaty returns from tech.\nA streak of losses and fund closures remains fresh in their mind, with 746 emerging market funds liquidated in the last five years, according to Lipper data.\n    But Psigma’s McPherson cited one of his holdings, Mirabaud’s Emerging Markets fund, which has returned over 33 percent this year, outgunning the MSCI index’s 29 percent. That shows an active manager can overcome concentration risks.\n“We would rather our active managers weight to the small tech companies that are better value,” McPherson said.\nAdditional reporting by Sujata Rao and Claire Millhench, Graphics by Helen Reid and Ritvik Carvalho; editing by Anna Willard\n",
+        "quotes": [
+            [
+                "It’s the opposite of what you are trying to do with an ETF - you want cheap diversified exposure but you end up being concentrated in basically 10 stocks,",
+                "Rory McPherson",
+                true
+            ],
+            [
+                "The question is are you buying emerging markets or are you buying technology?",
+                "Kerschner",
+                true
+            ],
+            [
+                "The risk of buying EM benchmarks is that you are not diversifying away from the S&P.",
+                "Kerschner",
+                true
+            ],
+            [
+                "A lot of people that might just be piling into passive strategies in EM could be overly exposed to technology right now,",
+                "",
+                true
+            ],
+            [
+                "The effect of rising ETF flows and narrowing breadth has been to push active investors to get closer to their benchmarks,",
+                "Edward Cole",
+                true
+            ],
+            [
+                "We would rather our active managers weight to the small tech companies that are better value,",
+                "McPherson",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.reuters.com/finance/stocks/overview/AAPL.OQ",
+                "https://www.reuters.com/finance/stocks/overview/MSFT.OQ",
+                "https://www.reuters.com/finance/markets/index/.SPX",
+                "https://www.reuters.com/finance/stocks/overview/005930.KS",
+                "https://www.reuters.com/finance/stocks/overview/AMZN.OQ",
+                "https://www.reuters.com/finance/stocks/overview/BABA.N",
+                "https://www.reuters.com/finance/stocks/overview/GOOGL.O",
+                "https://www.reuters.com/finance/stocks/overview/FB.O",
+                "https://www.reuters.com/finance/stocks/overview/NPNJn.J",
+                "https://www.reuters.com/finance/stocks/overview/0700.HK",
+                "https://www.reuters.com/finance/stocks/overview/5425.TWO"
+            ]
+        },
+        "key_words": [
+            "stock",
+            "stocks",
+            "tech",
+            "funds",
+            "emerging",
+            "index",
+            "headache",
+            "companies",
+            "managers",
+            "fund",
+            "market",
+            "boom",
+            "active",
+            "gives"
+        ]
+    }
+]

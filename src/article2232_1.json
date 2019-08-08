@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-csx-disruptions/major-u-s-rail-customers-to-air-complaints-over-csx-at-hearing-idUSKBN1CG1BW",
+        "title": "CSX customers demand end to shipping bottlenecks as CEO apologizes",
+        "authors": [
+            {
+                "name": "Eric M. Johnson",
+                "link": null
+            }
+        ],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-11",
+        "text": "CSX customers demand end to shipping bottlenecks as CEO apologizes\n(Reuters) - The head of No. 3 U.S. railroad CSX Corp promised on Wednesday to improve service as companies like Cargill Inc [CARG.UL] demanded greater accountability and fewer delays,  criticizing an overhaul CSX launched six months ago.\nFILE PHOTO: A CSX coal train (R) moves past an idling CSX engine at the switchyard in Brunswick, Maryland October 16, 2012. REUTERS/Gary Cameron/File Photo\nCustomers have complained of longer transit times, unreliable switching operations, inefficient car routings and poor communications with CSX customer service.\nChief Executive Officer Hunter Harrison, who implemented cuts when he was appointed to the job in March, defended his strategy of “precision scheduled railroading” at a hearing at the U.S. Surface Transportation Board (STB) in Washington.\nThe session marked the first public forum for shippers and trade groups to air grievances and give Harrison the chance to defend his strategy. The STB has been reviewing the railroad’s performance weekly and acting as intermediary between CSX and disgruntled customers.\nSince he took over, Harrison closed CSX rail yards, lengthened trains, mothballed locomotives and slashed overtime pay and hundreds of jobs. He also changed the way rail cars are sorted in yards and replaced “unit” trains carrying a single commodity like coal or grain with trains carrying diverse freight.\nHe apologized to shippers for service disruptions, which he blamed on derailments and internal mistakes, including closing too many yards.\nSpeaking after Harrison, Cargill Vice President Brad Hildebrand asked the STB to publish minutes of its weekly calls with CSX management and asked CSX to return resources to its network.\n“In a nutshell, (precision scheduled railroading) means having to do with less,” he told the regulators.\nWhile some customers have noted improvements, others said CSX’s disruptions continue to create costly logistical headaches for companies from the chemical and agricultural sectors to the automotive industry and steel producers.\nTheir supply chains, plants and distribution channels rely on CSX’s rail network across the eastern United States.\nHarrison said his strategy was critical to his previous turnarounds of two Canadian railroads - Canadian Pacific Railway Ltd and Canadian National Railway Co - and said, the “best is right around the corner.”\n“We’ve made some mistakes. This is not a failure of precision scheduled railroading,” he said.\nHarrison told the STB his turnaround plan has been implemented across CSX’s system but requires “fine-tuning.” He hinted at more possible layoffs and other yard changes.\nChemours Company asked the STB to require a “flight plan” from CSX outlining future system changes and how they will affect shippers.\nIn what could be a distant threat to CSX’s revenues, Chemours and trade groups renewed their calls for changes to federal regulations to allow shippers served by CSX to gain greater access to other operators.\nTwo trade groups asked the STB to require a service recovery plan from CSX with granular performance data and penalty-enforced deadlines.\nDow Chemical Co’s supply chain Vice President Greg Jozwiak urged the STB to improve rules to expedite relief during disruptions.\n“The reality is the procedures take too long,” Jozwiak said. “We need a service remedy counted in days, not weeks or months.”\nReporting by Eric M. Johnson in Seattle; editing by Tom Brown and Cynthia Osterman\n",
+        "quotes": [
+            [
+                "In a nutshell, (precision scheduled railroading) means having to do with less,",
+                "",
+                true
+            ],
+            [
+                "best is right around the corner.",
+                "Harrison",
+                false
+            ],
+            [
+                "This is not a failure of precision scheduled railroading,",
+                "Harrison",
+                true
+            ],
+            [
+                "The reality is the procedures take too long,",
+                "Jozwiak",
+                true
+            ],
+            [
+                "We need a service remedy counted in days, not weeks or months.",
+                "Jozwiak",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.thomsonreuters.com/en/about-us/trust-principles.html"
+            ]
+        },
+        "key_words": [
+            "shipping",
+            "harrison",
+            "service",
+            "customers",
+            "demand",
+            "csxs",
+            "trains",
+            "stb",
+            "shippers",
+            "trade",
+            "apologizes",
+            "csx",
+            "asked",
+            "ceo",
+            "bottlenecks",
+            "end",
+            "strategy"
+        ]
+    }
+]

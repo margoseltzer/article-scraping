@@ -1,0 +1,51 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-usa-security-kaspersky-germany/germany-no-evidence-kaspersky-software-used-by-russians-for-hacks-idUSKBN1CG284",
+        "title": "Germany: 'No evidence' Kaspersky software used by Russians for hacks",
+        "authors": [],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-11",
+        "text": "Germany: 'No evidence' Kaspersky software used by Russians for hacks\n2 Min Read\nA general view shows the headquarters of the anti-virus firm Kaspersky Lab in Moscow, Russia September 15, 2017. REUTERS/Sergei Karpukhin\nBERLIN (Reuters) - Germany’s BSI federal cyber agency said on Wednesday it had no evidence to back media reports that Russian hackers used Kaspersky Lab antivirus software to spy on U.S. authorities.\n“There are no plans to warn against the use of Kaspersky products since the BSI has no evidence for misconduct by the company or weaknesses in its software,” BSI said in an emailed response to questions about the latest media reports.\n“The BSI has no indications at this time that the process occurred as described in the media.”\nThe New York Times reported on Tuesday that Israeli intelligence officials spying on Russian government hackers found they were using Kaspersky software as a sort of Google search to find sensitive data stored by U.S. government agencies and others.\nIt said the Russian operation also stole classified documents from a U.S. National Security Agency employee who had improperly stored them on his home computer, which had Kaspersky antivirus software installed on it.\nThe U.S. government last month ordered Kaspersky software removed from government computers, saying it was concerned the Moscow-based cyber security firm was vulnerable to Kremlin influence.\nKaspersky Lab has repeatedly denied any knowledge of, or involvement in, Russian hack1ing. “Kaspersky Lab has never helped, nor will help, any government in the world with its cyberespionage efforts,” a company statement said on Tuesday in response to the New York Times report.\nGermany’s BSI, which also uses Kaspersky products for technical analyses, said it was in touch with U.S. officials and other security agencies about the issue so it could take action and issue a warning on short notice if required.\nIt said German government agencies could use software protection for clients and servers that is offered by CANCOM online GmbH, which works together with Trend Micro ( 4704.T ).\nReporting by Andrea Shalal and Thorsten Severin; editing by Mark Heinrich\n",
+        "quotes": [
+            [
+                "There are no plans to warn against the use of Kaspersky products since the BSI has no evidence for misconduct by the company or weaknesses in its software,",
+                "",
+                true
+            ],
+            [
+                "The BSI has no indications at this time that the process occurred as described in the media.",
+                "",
+                true
+            ],
+            [
+                "Kaspersky Lab has never helped, nor will help, any government in the world with its cyberespionage efforts,",
+                "Kaspersky Lab",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.reuters.com/finance/stocks/overview/4704.T"
+            ]
+        },
+        "key_words": [
+            "used",
+            "russian",
+            "software",
+            "antivirus",
+            "bsi",
+            "security",
+            "kaspersky",
+            "evidence",
+            "york",
+            "russians",
+            "lab",
+            "agencies",
+            "hacks",
+            "times",
+            "germany"
+        ]
+    }
+]

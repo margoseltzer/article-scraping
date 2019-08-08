@@ -1,0 +1,103 @@
+[
+    {
+        "url": "https://www.activistpost.com/2017/09/self-driving-vehicle-future-end-privacy.html",
+        "title": "The Self-Driving Vehicle Future Will Be The End of Privacy",
+        "authors": [],
+        "publisher": "www.activistpost.com",
+        "publish_date": "2017-09-15",
+        "text": "The Self-Driving Vehicle Future Will Be The End of Privacy\nWill the ongoing transition to self-driving cars come at the cost of passenger privacy?\nOn September 6 the U.S. House of Representatives unanimously passed a bill which spurs on further development of autonomous vehicles , but civil liberties advocates fear the further erosion of privacy. The so-called “SELF DRIVE Act” has been hailed as an opportunity to improve traffic safety and reduce vehicle deaths. If the bill passes the Senate and becomes law it would prevent states from passing certain laws to regulate the technology. The Hill reports the bill would also “allow car manufacturers to deploy up to 100,000 self-driving cars a year that don’t meet normal safety standards. In the first year, however, that number will be capped at 25,000.”\nStates would still handle vehicle registration, insurance, driver education, law enforcement and other local issues. Self-driving vehicle manufacturers will be required to include privacy protections in their vehicles.\nWith the advent of autonomous vehicles we must seriously think about the implications of bringing the interconnected Internet of Things into our lives on the road. The vehicles sensors will constantly be sucking up data and feeding it into the navigation system. The wide variety of data (weather, traffic, speed, location, time, date) could potentially reveal private details to the manufacturer, law enforcement, or hacker. As Observer notes , by tracking this data one might be able to view “lots of trips taking place between two competing companies” which “could suggest a merger deal underway”. There is also the fear of tracking an individuals daily habits by monitoring the data coming from the self-driving vehicle.\n“Security researchers were able to  easily identify individual taxi cabs  in a pool of data about trips and fares collected by the New York Taxi and Limousine Commission,” the Observer wrote. “Then, by using images captured by photographers and social media, they could identify specific trips  taken by celebrities  (and how much they tipped).”\nIn a recent article published by the World Economic Forum , David Lindsay, a board member of the Australian Privacy Foundation, wrote about the distinguishing features of the types of autonomous vehicles and the dangers associated. “There is no single, uniform design for autonomous vehicles,” Lindsay wrote. “Rather, it is best to understand an autonomous vehicle as a particular configuration of a combination of applications, some of which – such as adaptive cruise control, lane departure warnings, collision avoidance and parking assistance – are already part of current car design.”\nLindsay goes on to describe  Google’s self-driving car , as well as prototypes being developed by Mercedes-Benz, Volkswagen, Toyota and Oxford University. He imagines a scenario where personalized ads might be displayed in the car, or a vehicle’s route adjusts in order to pass by businesses which match a user’s search history or preferences.\n“One consequence of the range of sensors and data collection devices being deployed (and interconnected) is that our offline activities can leave traces at least as extensive as those generated online,” Lindsay wrote. “For instance, autonomous vehicles often incorporate event recorders, or “black boxes,” to provide essential information in the event of an accident. This raises questions about who has rights to this data and about who can have access to the data.”\nDeclare Your Independence!\nProfit outside the rigged system! Protect yourself from tyranny and economic collapse. Learn to live free and spread peace!\nCounter Markets Newsletter - Trends & Strategies for Maximum Freedom\nClaim Your FREE Issue Today!\nNot only is privacy at risk, but the age of the autonomous car will likely herald a new age of corporate advertising. Much like the Internet and cell phones have allowed for custom advertisements based on browsing history, self-driving cars will likely come with ads based on your driving habits and your Internet search history. The Atlantic recently did a great job illustrating how these vehicles can (and likely will) adjust their behavior and make suggestions based on “sponsored destinations.”\nThere we were. The car picked us up. We wanted coffee. It suggested Peet’s. But if we’d stopped to look at the map on the screen when this happened, we might have noticed that Peet’s wasn’t actually the most efficient place to stop, nor was it on your list of preferred coffee shops, which the car’s machine-learning algorithm developed over time. Peet’s was, instead, a sponsored destination—not unlike a sponsored search result on Google.\nAs far as searching your browsing history…\nAs for the lunch special, that really is a favorite restaurant of yours—but the car has never driven you there before. It knows your preferences because the vehicle has combed through your emails, identified key words, and assessed related messages for emotional tone.\nThese autonomous vehicles will eventually make decisions for you, rather than the other way around. This may sound intriguing – like a sci-fi movie come to life – but we must be willing to ask ourselves how much of our lives are we willing to relinquish in the name of convenience and security? As David Lindsay notes, “the more people are habituated to decisions being made for them, the less likely they may be to make their own decisions.” At what point do we say “no more!” and choose to take more control of our lives, rather than less?\nDerrick is available for interviews. Please contact [email protected]\nThis article may be freely reposted in part or in full with author attribution and source link .\nSubscription is FREE and CONFIDENTIAL\nFree Report: How To Survive The Job Automation Apocalypse with subscription\nSubscription is FREE and CONFIDENTIAL\nFollow Us on Facebook\nAugust 6, 2019\nAugust 6, 2019\nAugust 6, 2019\nMost Viewed Articles of the Week\nDownload Your FREE eGuide on 5G/EMF Exposure\n \n \n \n \n",
+        "quotes": [
+            [
+                "allow car manufacturers to deploy up to 100,000 self-driving cars a year that don’t meet normal safety standards.",
+                "Hill",
+                false
+            ],
+            [
+                "In the first year, however, that number will be capped at 25,000.",
+                "Hill",
+                true
+            ],
+            [
+                "lots of trips taking place between two competing companies",
+                "",
+                false
+            ],
+            [
+                "could suggest a merger deal underway",
+                "Hill",
+                false
+            ],
+            [
+                "Security researchers were able to  easily identify individual taxi cabs  in a pool of data about trips and fares collected by the New York Taxi and Limousine Commission,",
+                "",
+                true
+            ],
+            [
+                "Then, by using images captured by photographers and social media, they could identify specific trips  taken by celebrities  (and how much they tipped).",
+                "",
+                true
+            ],
+            [
+                "There is no single, uniform design for autonomous vehicles,",
+                "David Lindsay",
+                true
+            ],
+            [
+                "Rather, it is best to understand an autonomous vehicle as a particular configuration of a combination of applications, some of which – such as adaptive cruise control, lane departure warnings, collision avoidance and parking assistance – are already part of current car design.",
+                "David Lindsay",
+                true
+            ],
+            [
+                "One consequence of the range of sensors and data collection devices being deployed (and interconnected) is that our offline activities can leave traces at least as extensive as those generated online,",
+                "David Lindsay",
+                true
+            ],
+            [
+                "For instance, autonomous vehicles often incorporate event recorders, or “black boxes,” to provide essential information in the event of an accident.",
+                "David Lindsay",
+                true
+            ],
+            [
+                "This raises questions about who has rights to this data and about who can have access to the data.",
+                "David Lindsay",
+                true
+            ],
+            [
+                "the more people are habituated to decisions being made for them, the less likely they may be to make their own decisions.",
+                "David Lindsay",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://arstechnica.com/tech-policy/2014/06/poorly-anonymized-logs-reveal-nyc-cab-drivers-detailed-whereabouts/",
+                "https://www.theatlantic.com/technology/archive/2016/03/self-driving-cars-and-the-looming-privacy-apocalypse/474600/",
+                "https://observer.com/2017/09/house-legislation-on-self-driving-cars-checks-boxes-on-key-senators-wish-list/",
+                "https://www.weforum.org/agenda/2014/10/self-driving-cars-affect-privacy-data/",
+                "https://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546",
+                "https://thehill.com/policy/technology/349418-house-passes-driverless-car-legislation",
+                "https://www.activistpost.com/2017/09/self-driving-vehicle-future-end-privacy.html",
+                "https://observer.com/2017/09/self-drive-act-privacy-rep-latta/"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "http://www.google.com.au/about/careers/lifeatgoogle/self-driving-car-test-steve-mahan.html",
+                "https://www.activistpost.com/cdn-cgi/l/email-protection"
+            ]
+        },
+        "key_words": [
+            "privacy",
+            "autonomous",
+            "vehicle",
+            "trips",
+            "future",
+            "selfdriving",
+            "wrote",
+            "car",
+            "cars",
+            "data",
+            "end",
+            "vehicles"
+        ]
+    }
+]
