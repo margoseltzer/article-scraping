@@ -185,9 +185,6 @@ def remove_only_prefix(ft_dict):
         return [int(ft[1:]) if type(ft) == str else ft for ft in v]
 
     ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
-    for (k,v) in ft_dict.items():
-        print('k is', k)
-        print(v)
     return ft_dict
 
 def get_n_d(aid_adj_dict, aid_fid_dict):
@@ -241,10 +238,8 @@ def save_articles(obj_dict, aid_fid_dict, article_label_dic):
     # print('1'+1)
 
 def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
-    ''' The first is number of adj_articles
-        Quotes and reference will be binned
-        quotes: 1,2,3,...,30+
-        reference: 1,2,3,...,20+
+    ''' return feature matrix but last three features are:
+        # of reference, quotes, and articles
     '''
     bin_dict = dict()
     for aid, fids in aid_fid_dict.items():
@@ -259,11 +254,22 @@ def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
     
     for aid, aids in aid_adj_dict.items():
         bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [len(aids)]
-        # print(bin_dict[aid])
         
     return bin_dict
 
-
+def get_max(ft_bin_dict):
+    n_r = n_q = n_a = 0
+    for _, fts in ft_bin_dict.items():
+        numbers = fts[-3:]
+        tmp_r = numbers[0]
+        tmp_q = numbers[1]
+        tmp_a = numbers[2]
+        n_r = tmp_r if tmp_r > n_r else n_r
+        n_q = tmp_q if tmp_q > n_q else n_q
+        n_a = tmp_a if tmp_a > n_a else n_a
+    print(n_r, n_q, n_a)
+    return n_r, n_q, n_a
+    
 def show_adj_graph(adj_dict, y):
     G = nx.Graph()
     true_nodes = []
@@ -289,7 +295,7 @@ def get_no_q_dict(ft_bin_dict):
         for ft in fts[:-3]:
             only_fts.add(ft)
     
-    d = len(only_fts)
+    d = len(only_fts) + 3
     dic = dict((key, val) for val, key in enumerate(only_fts))
     return dic, d
     
@@ -302,10 +308,16 @@ def convert_ft_toidx(ft_bin_dict, dict_without_q):
         new_dict[aid] = new_dict[aid] + fts[-3:] if aid in new_dict else fts[-3:]
     return new_dict
 
+def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, n_r, n_q, n_a):
+    mtx = np.zeros((n, d_bin+n_r+n_q+n_a+1))
 
-def convert_bin_dict_to_mtx(ft_bin_dict, dict_without_q, n, d_bin):
-    dic = np.zeros((n, d_bin))
-    
+    for i, fts in ft_bin_dict.items():
+        for j in fts[:-3]:
+            mtx[i][j] = 1
+        mtx[i][d_bin + fts[-3]] = 1
+        mtx[i][d_bin + n_r + fts[-2]] = 1
+        mtx[i][d_bin + n_r + n_q + fts[-1]] = 1
+    return mtx
 
 
 
@@ -319,7 +331,7 @@ file_list = ['BuzzFeed_fb_urls_parsed.csv',
 
 file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-# saved_file_name   = store_labeled_articles(file_list)
+saved_file_name   = store_labeled_articles(file_list2)
 article_label_dic = get_article_dict('labeled_articles.csv')
 
 # obj_dict: obj_id to {type, val}
@@ -356,17 +368,26 @@ n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 # get binned feature matrix
 ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
 ft_bin_dict = remove_only_prefix(ft_bin_dict)
+
+n_r, n_q, n_a = get_max(ft_bin_dict)
 dict_without_q, d_bin = get_no_q_dict(ft_bin_dict)
+
 ft_bin_dict = convert_ft_toidx(ft_bin_dict, dict_without_q)
-ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin)
+ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, n_r, n_q, n_a)
+
 
 
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
-adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
+
 show_adj_graph(adj_dict, y)
+
+adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
+
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
+train.train(x, y, tx, ty, allx, ally, graph)
 
-
+# x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_bin_mtx, y, n, d)
+# train.train(x, y, tx, ty, allx, ally, graph)
 
 
 
@@ -499,5 +520,3 @@ print('DONE')
 
 
 
-
-train.train(x, y, tx, ty, allx, ally, graph)
