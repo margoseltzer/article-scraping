@@ -165,7 +165,7 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
             else: 
                 # TODO assume this
                 print(url)
-                y.append(1)
+                y.append(-1)
     return y
 
 def remove_prefix(adj_dict, ft_dict):
@@ -274,17 +274,20 @@ def show_adj_graph(adj_dict, y):
     G = nx.Graph()
     true_nodes = []
     fake_nodes = []
+    unlabeled_nodes = []
     G.add_nodes_from(list(adj_dict.keys()))
     for k, v in adj_dict.items():
         y_k = y[k]
-        if y_k == 1 : true_nodes.append(k)
-        else        : fake_nodes.append(k)    
+        if y_k == 1    : true_nodes.append(k)
+        elif y_k == 0 : fake_nodes.append(k)
+        else           : unlabeled_nodes.append(k)    
         for f in v:
             G.add_edge(k, f)
 
     pos = nx.spring_layout(G)
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
+    nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
     nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.5)
     
     plt.show()
@@ -327,11 +330,11 @@ def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, n_r, n_q, n_a):
 file_list = ['BuzzFeed_fb_urls_parsed.csv', 
              'data_from_Kaggle.csv',
              'fakeNewsNet_data/politifact_real.csv', 
-             'fakeNewsNet_data/politifact_fake.csv',]
+             'fakeNewsNet_data/politifact_fake.csv',
+             'articles.csv']
 
-file_list2 = ['articles.csv']
 # Process all article urls and create a csv file and a dict obj
-saved_file_name   = store_labeled_articles(file_list2)
+saved_file_name   = store_labeled_articles(file_list)
 article_label_dic = get_article_dict('labeled_articles.csv')
 
 # obj_dict: obj_id to {type, val}
@@ -384,12 +387,23 @@ show_adj_graph(adj_dict, y)
 adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
 
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
+
+
+with open(dirpath + 'graph', mode='w') as csv_w:
+    writer = csv.writer(csv_w)
+    for k, v in graph.items():
+        writer.writerow([k])
+with open(dirpath + 'graph_v', mode='w') as csv_w:
+    writer = csv.writer(csv_w)
+    for k, v in graph.items():
+        writer.writerow(v)
+print(graph)
+
+
 train.train(x, y, tx, ty, allx, ally, graph)
 
-# x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_bin_mtx, y, n, d)
-# train.train(x, y, tx, ty, allx, ally, graph)
-
-
+x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_bin_mtx, y, n, d)
+train.train(x, y, tx, ty, allx, ally, graph)
 
 
 
