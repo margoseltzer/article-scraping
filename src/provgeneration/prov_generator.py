@@ -120,7 +120,8 @@ def add_article(article, bundle):
 
 
 def convert_quote_str(quote_str):
-    return quote_str.encode('utf-8').translate(None, string.punctuation).lower()
+    return ''.join(ch for ch in quote_str if (ch.isalnum() or ch == ' ')).lower().encode('utf-8')
+        # quote_str.encode('utf-8').translate(None, string.punctuation).lower()
 
 
 def add_quote(article, quote_str, bundle):
