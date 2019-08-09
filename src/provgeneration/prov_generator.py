@@ -158,13 +158,13 @@ def add_reference_relation(article, articles_object_map, bundle):
     article_gov_links = article['links']['gov_pgs']
     article_object = articles_object_map[article_url]
     for url in article_links:
-        add_relation(url, 'article', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'article', articles_object_map, article_object, bundle)
     
     for url in article_unsure_links:
-        add_relation(url, 'reference', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'reference', articles_object_map, article_object, bundle)
 
     for url in article_gov_links:
-        add_relation(url, 'government', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'government', articles_object_map, article_object, bundle)
 
 def add_bundle(articles_json):
     root_article  = articles_json[0]
