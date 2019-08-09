@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.nytimes.com/2017/10/03/technology/personaltech/using-the-new-ipad-apps-dock.html?rref=collection%2Fsectioncollection%2Fpersonaltech",
+        "title": "Using the New iPad Apps Dock",
+        "authors": [
+            {
+                "name": "J. D. Biersdorfer",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2017-10-03",
+        "text": "Advertisement\nImage\nWhen you drag your finger up from the dock on an iPad running iOS 11, the “app-switcher” screen and Control Center appear.CreditCreditThe New York Times\nOct 3, 2017\nQ. I just upgraded my iPad to iOS 11, and while I liked dragging my favorites into the little bar of apps across the bottom of the screen, the bar itself doesn’t stay there consistently. Why?\nA. The new “dock” in Apple’s latest version of its mobile software is similar to the tool bar that has been a part of its Mac operating system for years. Like the desktop version, the iOS 11 dock is designed to hide when you do not need it. The auto-hide behavior in macOS is optional and can be changed in the System Preferences, but the iOS 11 dock is designed to disappear to minimize screen clutter when you open an app on the iPad.\nHowever, if you want the dock back because you want to open (or switch to) another app without having to press the iPad’s home button to go back to the Home screen, just swipe up from the bottom of the screen to make the dock reappear. You can then tap an app in the dock to open that program.\nTo switch between other running apps, drag your finger up from the bottom of the screen when the dock is showing. You then see small preview windows of open apps and the iOS 11 Control Center , a panel of icons that serve as shortcuts to common system settings. Swipe the screen to the left or the right to see all the open app windows. (You can also double-click the home button to see this “app-switcher” screen.)\nYou can switch to another app by tapping its preview window. And, if an app is frozen or misbehaving, you can force it to close by dragging its preview window off the top of the screen.\nPersonal Tech invites questions about computer-based technology to techtip@nytimes.com . This column will answer questions of general interest, but letters cannot be answered individually.\nA version of this article appears in print on , Section B, Page 5 of the New York edition with the headline: With a Swipe, Your Dock Reappears. Order Reprints | Today’s Paper | Subscribe\nAdvertisement\n",
+        "quotes": [],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.nytimes.com/section/todayspaper",
+                "https://www.nytimes.com/subscription?campaignId=48JQY",
+                "https://www.parsintl.com/publication/the-new-york-times/"
+            ]
+        },
+        "key_words": [
+            "screen",
+            "version",
+            "open",
+            "bar",
+            "11",
+            "app",
+            "ios",
+            "designed",
+            "apps",
+            "using",
+            "dock",
+            "ipad",
+            "system"
+        ]
+    }
+]

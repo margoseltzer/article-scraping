@@ -1,0 +1,93 @@
+[
+    {
+        "url": "https://www.activistpost.com/2017/09/another-appeals-court-rules-warrants-required-stingray-cellphone-surveillance.html",
+        "title": "Another Appeals Court Rules Warrants Required for “Stingray” Cellphone Surveillance",
+        "authors": [],
+        "publisher": "www.activistpost.com",
+        "publish_date": "2017-09-26",
+        "text": "Hot Topics\nAn appeals court in Washington has ruled that law enforcement must acquire a search warrant before employing cell phone surveillance tools often known as “Stingrays.”\nOn September 21, an appeals court in Washington issued a damning ruling regarding law enforcement use of cell phone surveillance tools without the use of a warrant. The appeals court became the fourth court to rule against the unrestricted use of the controversial cell site simulators, sometimes known as “Stingrays.” The issue could eventually make its way to the Supreme Court. Stingray is the brand name of a popular cell-site simulator manufactured by the Harris Corporation.\nThe Electronic Frontier Foundation describes Stingrays as “a brand name of an IMSI (International Mobile Subscriber Identity) Catcher targeted and sold to law enforcement. A Stingray works by masquerading as a cell phone tower – to which your mobile phone sends signals to every 7 to 15 seconds whether you are on a call or not – and tricks your phone into connecting to it.”\nThis allows the officer who is in possession of the Stingray to know who, when, and to where you are calling, the precise location of every device within the range, and with the latest models,  capture the content of your conversations. As the use of Stingrays has grown quickly in the last five years, the public has largely remained in the dark as investigative journalists work to expose the technology.\nThe case involves Prince Jones, a man sentenced to 66 years in prison after he convicted of sexually assaulting two women. During Jones’ trial it was revealed that D.C. police used a Stingray to locate Jones. The police used the device without first obtaining a warrant. Mr. Jones’ attorney unsuccessfully attempted to have the evidence suppressed at his original trial due to this warrantless tracking. However, the appeals court ruling means the evidence cannot be used and the conviction is overturned.\n“The simulator’s operation involved exploitation of a security flaw in a device that most people now feel obligated to carry with them at all times,” wrote Judge Corinne Beckwith in the majority opinion for the court.\nAllowing the government to deploy such a powerful tool without judicial oversight would surely ‘shrink the realm of guaranteed privacy’ far below that which ‘existed when the Fourth Amendment was adopted.’\nIn addition, Judge Beckwith wrote that the use of Stingrays “place an individual in the difficult position either of accepting the risk that at any moment his or her cellphone could be converted into tracking device or of forgoing ‘necessary use of’ the cell phone”.\nProsecutors attempted to convince the judges that it is common knowledge that cellphone can be tracked and thus no expectation of privacy exists. Beckwith disagreed, stating that “a person does not lose a reasonable expectation of privacy merely because he or she is made aware of the government’s capacity to invade his or her privacy.”\nThe 2 to 1 ruling from the D.C. Court of Appeals comes after similar rulings in the Maryland Court of Special Appeals and federal district courts in New York City and San Francisco.\nNathan F. Wessler of the American Civil Liberties Union, told the Washington Post that the ruling “joins the growing chorus of courts holding that the Fourth Amendment protects against warrantless use of invasive, covert technology to track people’s phones. … We applaud today’s opinion for erecting sensible and strong protections against the government violating  people’s privacy in the digital age.”\nThe growing use of Stingrays and the consistent secrecy of federal and local law enforcement agencies has lead to at least one other instance of a federal judge throwing out evidence which was gained using a stingray. In July 2016, a federal judge in Maryland rejected evidence because police did not obtain a warrant before using the device. Still, there is no consistent policy on how police should handle new technology like the Stingray.\nIn 2015, the Department of Justice issued a policy guidance ordering its agencies to obtain a search warrant before using the cell site simulators. This guidance does not apply to local and state police. With four federal and state courts now ruling that law enforcement must obtain a warrant before use of Stingrays, it is likely one of these rulings will be challenged in the Supreme Court. Until then, local and state law enforcement are operating in as much secrecy as possible.\nIt is only through the work of investigative journalists and whistleblowers that the public understands the depth of these devices. The situation has even garnered the attention of the U.S. House and Oversight Committee. In late 2016, the committee issued a report titled, “Law Enforcement Use of Cell-Site Simulation Technologies: Privacy Concerns and Recommendations.” The report notes that the U.S. Department of Justice has 310 cell site simulators spread across several agencies, including the FBI and U.S. Marshals Service. The DOJ spent more than $71 million cell site simulator technology and upgrades between 2010 and 2014. According to the report The Department of Homeland Security has 124 cell-site simulators.\nThe committee also called on state and local officials to adopt policies similar to those recently enacted by the Department of Justice. In addition, the committee recommend that law enforcement be more forthcoming with judges when they request approval for the use of the devices. As of September 2017, none of these recommendations have been implemented.\nDerrick is available for interviews. Please contact [email protected]\nThis article may be freely reposted in part or in full with author attribution and source link .\nSubscription is FREE and CONFIDENTIAL\nFree Report: How To Survive The Job Automation Apocalypse with subscription\nSubscription is FREE and CONFIDENTIAL\nFollow Us on Facebook\nAugust 8, 2019\nAugust 8, 2019\nAugust 7, 2019\nMost Viewed Articles of the Week\nLatest News\nDownload Your FREE eGuide on 5G/EMF Exposure\n \n \n \n \n",
+        "quotes": [
+            [
+                "a brand name of an IMSI (International Mobile Subscriber Identity) Catcher targeted and sold to law enforcement.",
+                "",
+                false
+            ],
+            [
+                "A Stingray works by masquerading as a cell phone tower – to which your mobile phone sends signals to every 7 to 15 seconds whether you are on a call or not – and tricks your phone into connecting to it.",
+                "",
+                true
+            ],
+            [
+                "The simulator’s operation involved exploitation of a security flaw in a device that most people now feel obligated to carry with them at all times,",
+                "Corinne Beckwith",
+                true
+            ],
+            [
+                "shrink the realm of guaranteed privacy",
+                "",
+                false
+            ],
+            [
+                "existed when the Fourth Amendment was adopted.",
+                "",
+                false
+            ],
+            [
+                "place an individual in the difficult position either of accepting the risk that at any moment his or her cellphone could be converted into tracking device or of forgoing ‘necessary use of’ the cell phone",
+                "Beckwith",
+                false
+            ],
+            [
+                "a person does not lose a reasonable expectation of privacy merely because he or she is made aware of the government’s capacity to invade his or her privacy.",
+                "Beckwith",
+                false
+            ],
+            [
+                "joins the growing chorus of courts holding that the Fourth Amendment protects against warrantless use of invasive, covert technology to track people’s phones.",
+                "Nathan F. Wessler",
+                false
+            ],
+            [
+                "We applaud today’s opinion for erecting sensible and strong protections against the government violating  people’s privacy in the digital age.",
+                "Nathan F. Wessler",
+                true
+            ],
+            [
+                "Law Enforcement Use of Cell-Site Simulation Technologies: Privacy Concerns and Recommendations.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.washingtontimes.com/news/2017/sep/21/warrantless-cellphone-location-surveillance-uncons/",
+                "https://www.activistpost.com/2016/09/newly-leaked-stingray-manual-reveals-details-on-surveillance-device.html",
+                "https://www.eff.org/deeplinks/2012/10/stingrays-biggest-unknown-technological-threat-cell-phone-privacy",
+                "https://www.activistpost.com/2016/07/federal-judge-suppresses-evidence-gathered-stingray-surveillance-tool.html",
+                "https://www.activistpost.com/2017/09/another-appeals-court-rules-warrants-required-stingray-cellphone-surveillance.html",
+                "https://www.activistpost.com/2016/12/u-s-house-oversight-committee-stingray-surveillance-violates-constitution.html"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.activistpost.com/cdn-cgi/l/email-protection"
+            ]
+        },
+        "key_words": [
+            "rules",
+            "warrants",
+            "law",
+            "cell",
+            "appeals",
+            "cellphone",
+            "stingray",
+            "warrant",
+            "surveillance",
+            "court",
+            "stingrays",
+            "enforcement",
+            "ruling",
+            "required",
+            "phone"
+        ]
+    }
+]

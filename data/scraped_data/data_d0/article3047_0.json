@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.activistpost.com/2017/10/smart-devices-listening-saving-everything-say-heres-stop.html",
+        "title": "Smart Devices are Listening to (and Saving) Everything You Say, Here’s How to Stop It",
+        "authors": [],
+        "publisher": "www.activistpost.com",
+        "publish_date": "2017-10-02",
+        "text": "Hot Topics\nSmart Devices are Listening to (and Saving) Everything You Say, Here’s How to Stop It\nThe idea that the smart devices in your home and on your phone are listening to you—and recording what you are saying—is nothing new, and many Americans have become complacent with the breach of their privacy because of the convenience provided by the technology. However, it is still possible to maintain some crucial privacy with some of the most popular apps. Here are a few steps you can take:\nFacebook\nNo matter what crazy updates or changes the app undergoes, the fact is that Facebook is a monster; and whether they criticize it or not, more than 1 billion people have Facebook accounts.\nOne of the many problems with Facebook is that one of its updates has included giving the app access to your microphone when you use Facebook Messenger. While the excuse Facebook gave was that it needed access to the microphone in order to shoot live video within the app, the idea that Facebook has access to your smart phone’s microphone at all times is unsettling, to say the least.\niPhone Users: Go to Settings, click on Privacy, click on Microphone, and then slide the switch to the left on Messenger, turning it from green to white to turn it off. \nAndroid Users: Go to Settings, click on Applications, then click on Application Manager, go to Facebook, click on Permissions, and then click on Turn off the mic. \nSiri\niPhone users are all too familiar with the virtual friend living inside their smartphone, and while users often ask Siri a range of random questions, she is always listening—and even if the device is locked, saying “Hey Siri,” records your request and uploads the audio file to Apple’s servers for processing.\nFor iPhones using iOS 8 and later, Apple has made it so that even when the device is locked, the command of “ Hey Siri ” will activate the feature and give access to the phone. However, if you have experienced this new feature, you may have found that there are times when Siri is activated, even though you did not intentionally give the command.\nHow to turn it off: Click on Settings, go to Siri, and then toggle off Allow “Hey Siri.” For more security, also toggle off Access When Locked.\nGoogle\nWhile iPhone users have “Hey Siri,” Android users have “OK Google,” which also applies to Google Home speakers.  With this feature, when a user says “OK Google” the device automatically begins recording and the audio it obtains is saved to your Google account.\nHow to turn it off on Android devices: Go to Settings, click on Google, then click on Voice and turn off “OK Google” detection.\nCortana\nFor Microsoft users, there is an equivalent to the voice-activated assistants “Hey Siri” and “OK Google,” called “Hey Cortana,” which has similar features.\nThe same privacy concerns have been raised by users who are worried about the amount of data Microsoft devices are storing as soon as the command “Hey Cortana” is allegedly heard.\nHow to turn it off: On your Windows computer, go to Cortana, select the Notebook icon in the right column, click on Settings and then toggle off “Hey Cortana.”\nAmazon Echo\nAmazon presents a new challenge, based on the fact that the assistant on its Echo device is not just activated by a phrase such as “Hey Alexa.” Instead, it is activated by a number of wake words, including, “Alexa,” “Amazon,” “Computer” and “Echo.”\nWhile it is possible to turn off the microphone by clicking a button on top of the Echo device, that microphone is required to use the device in the first place. However, users do have the ability to track what Alexa has recorded and to delete it.\nTo track and delete recordings: Open the Alexa app, click on Settings, then click on History. You can then select and delete each entry.\nNo system of mass surveillance has existed in any society, that we know of to this point, that has not been abused. — Edward Snowden\nRachel Blevins is a Texas-based journalist who aspires to break the left/right paradigm in media and politics by pursuing truth and questioning existing narratives. Follow Rachel on Facebook , Twitter and YouTube . This article first appeared at The Free Thought Project .\nSubscription is FREE and CONFIDENTIAL\nFree Report: How To Survive The Job Automation Apocalypse with subscription\nSubscription is FREE and CONFIDENTIAL\nFollow Us on Facebook\nAugust 8, 2019\nAugust 8, 2019\nAugust 8, 2019\nAugust 7, 2019\nMost Viewed Articles of the Week\nLatest News\nDownload Your FREE eGuide on 5G/EMF Exposure\n \n \n \n \n",
+        "quotes": [],
+        "links": {
+            "articles": [
+                "https://www.komando.com/tips/330748/how-to-listen-to-and-delete-everything-youve-ever-said-to-google/all",
+                "http://thefreethoughtproject.com/smart-devices-listening-recording/",
+                "https://www.imore.com/how-stop-facebook-accessing-your-microphone",
+                "https://www.komando.com/tips/395933/amazon-echo-essential-security-settings/all"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://thefreethoughtproject.com/",
+                "https://www.techjunkie.com/turn-off-hey-siri/",
+                "https://www.youtube.com/rachelblevins",
+                "https://twitter.com/rachblevins",
+                "https://www.facebook.com/rachelblevinsofficial"
+            ]
+        },
+        "key_words": [
+            "click",
+            "siri",
+            "smart",
+            "facebook",
+            "heres",
+            "turn",
+            "say",
+            "stop",
+            "hey",
+            "microphone",
+            "users",
+            "listening",
+            "settings",
+            "saving",
+            "device",
+            "devices",
+            "google"
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/11/politics/prosecution-rests-robert-menendez-trial/index.html",
+        "title": "Prosecution rests in Bob Menendez corruption trial",
+        "authors": [
+            {
+                "name": "Sarah Jorgensen",
+                "link": null
+            },
+            {
+                "name": "Laura Jarrett",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-11",
+        "text": "Updated 2:31 PM ET, Fri October 13, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nStory highlights\nProsecutors say Menendez worked to help co-defendant Salomon Melgen fight a Medicare rule in exchange for favors\nBoth men deny the charges\nThe trial is in its sixth week, despite only 18 days of testimony\nNewark, New Jersey (CNN)\nProsecutors rested their federal corruption case against Sen. Bob Menendez Wednesday, capping off weeks of a trial that could determine the political future of the New Jersey Democrat.\nOver 18 days of testimony from 35 witnesses, prosecutors have tried to establish a \"quid pro quo\" bribery theory that they set forth during opening arguments.\n\"This case is about a corrupt politician who sold his Senate office for a life of luxury he couldn't afford,\" said prosecutor Peter Koski. \"And a greedy doctor who put that politician on his payroll for when he needed the services of a United States senator.\"\nRead More\n\"It's a story of a lifetime of service done honorably, hard work and sacrifice and a commitment to the people of New Jersey and a longtime friendship with Dr. Melgen,\" Menendez told reporters walking into court Wednesday.\nMenendez has not said he would resign if convicted and insisted his poll numbers \"will rise\" if he's acquitted.\n\"I have no intention of being anything but exonerated,\" he told CNN last week . \"So therefore, I'm not contemplating anything but reelection next year.\"\nThe heart of the Justice Department's case rests on accusations that Menendez accepted political contributions, free rides on private jets and a swanky hotel suite in Paris from Melgen in exchange for agreeing to pressure other high-level federal officials in the executive branch to help resolve Melgen's business problems -- \"official acts\" prosecutors claim put Menendez on the hook under federal bribery law.\nOver the past week, prosecutors have specifically tried to focus on the timeline of $600,000 donations Melgen made to a Democratic super PAC, earmarked for the state of New Jersey, in 2012 during the time witnesses say and emails show Menendez tried to help the doctor resolve a multimillion-dollar billing dispute with Medicare in Melgen's favor.\nThe jury also saw email correspondence from May 2012 showing Melgen's representative agreeing to donate $60,000 to Menendez's legal defense fund and the New Jersey Democratic State Committee -- the same day that Menendez requested a meeting with a high-ranking official at the State Department to discuss a port security issues in the Dominican Republic.\nMelgen had acquired a contract with the government in the Dominican Republic for screening cargo at the island's ports, but the agreement had turned sour and prosecutors have tried to convince jurors that Menendez sought to influence others to resolve the dispute in Melgen's favor.\nLegal experts say proving \"corrupt intent\" remains the major obstacle for prosecutors in this case, especially if the defense offers a persuasive counter-narrative for the jury to believe Menendez genuinely acted out of broader policy concerns, not because Melgen paid him off.\nAs Columbia Law School Professor Richard Briffault explained in an interview with CNN, the more the defense team convinces the jury that Menendez acted because he thought something was a \"good idea\" rather than doing it because there was a \"deal\" with Melgen, the harder it will be for the jury to convict.\n\"Stream of benefits\"\nAfter the prosecution rested its case, defense attorney Abbe Lowell urged Judge William Walls to dismiss the case and enter a judgment of acquittal Wednesday based on a failure of the Justice Department to meet its burden of proof.\nWalls did not rule on the motion but appeared unpersuaded. For over three hours of argument, the judge engaged in a spirited debate with both sides about the applicability of a 2016 Supreme Court decision throwing out former Virginia Gov. Bob McDonnell's bribery conviction.\nIn that case, the justices said that merely \"setting up a meeting, hosting an event, or calling an official\" is no longer sufficient -- the politician must put his or her thumb on the scale in an ongoing proceeding, lawsuit or controversy, or \"exert pressure\" on someone else to do so.\nLowell suggested that Menendez's conduct did not meet the court's threshold for what now constitutes an \"official act\" under federal bribery law, because the senator (as a member of the legislative branch) has only been accused of lobbying executive branch officials on Melgen's behalf.\nBut Walls rejected that argument, noting that the McDonnell case didn't rule out the possibility of inter-branch pressure and \"historically, as well as in literature, the power of senators, particularly senators, is acknowledged.\"\nThe judge additionally pushed prosecutors to articulate how their \"quid pro quo\" bribery theory -- a Latin phrase meaning \"this for that\" -- jives with the McDonnell decision.\n\"What's the quid for these quos?\" Walls asked. \"I'm trying to establish a temporal line -- how you link the quids to the alleged quos.\"\nKoski emphasized that the prosecution's overarching theory -- that Melgen provided a \"stream of benefits\" -- survives the McDonnell test, but the judge seemed skeptical and asked the lawyers provide written briefs on the issue.\nCourt will resume on Monday.\nCNN's Kristina Sgueglia contributed to this report.\n",
+        "quotes": [
+            [
+                "This case is about a corrupt politician who sold his Senate office for a life of luxury he couldn't afford,",
+                "Peter Koski",
+                true
+            ],
+            [
+                "And a greedy doctor who put that politician on his payroll for when he needed the services of a United States senator.",
+                "Peter Koski",
+                true
+            ],
+            [
+                "It's a story of a lifetime of service done honorably, hard work and sacrifice and a commitment to the people of New Jersey and a longtime friendship with Dr. Melgen,",
+                "Menendez",
+                true
+            ],
+            [
+                "I have no intention of being anything but exonerated,",
+                "Menendez",
+                true
+            ],
+            [
+                "So therefore, I'm not contemplating anything but reelection next year.",
+                "Menendez",
+                true
+            ],
+            [
+                "setting up a meeting, hosting an event, or calling an official",
+                "",
+                false
+            ],
+            [
+                "historically, as well as in literature, the power of senators, particularly senators, is acknowledged.",
+                "",
+                false
+            ],
+            [
+                "What's the quid for these quos?",
+                "",
+                true
+            ],
+            [
+                "I'm trying to establish a temporal line -- how you link the quids to the alleged quos.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2017/10/05/politics/menendez-resign-guilty/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "bribery",
+            "menendez",
+            "prosecution",
+            "melgens",
+            "tried",
+            "federal",
+            "trial",
+            "corruption",
+            "case",
+            "jersey",
+            "rests",
+            "defense",
+            "melgen",
+            "bob",
+            "prosecutors"
+        ]
+    }
+]

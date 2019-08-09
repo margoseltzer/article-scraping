@@ -1,0 +1,129 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/11/politics/trump-iran-deal-fox-news/index.html",
+        "title": "Trump slams Iran deal as 'incompetently drawn'",
+        "authors": [
+            {
+                "name": "Sophie Tatum",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-11",
+        "text": "Updated 10:39 PM ET, Wed October 11, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nWashington (CNN)\nPresident Donald Trump called the Iran deal \"incompetently drawn\" in an interview with Fox News on Wednesday night.\n\"I think it was one of the most incompetently drawn deals I've ever seen,\" Trump told Fox News' Sean Hannity.\n\"$150 billion given -- we got nothing. They got a path to nuclear weapons very quickly, and think of this one -- $1.7 billion in cash -- this is cash out of your pocket. You know how many airplane loads that must be? Did you ever see a million dollars, like a promotion, where they have a million dollars in $100 bills? It's a lot. This is $1.7 billion,\" Trump said.\nThe State Department had announced in January 2016 that as part of a decades-old legal settlement, it would pay Iran $1.7 billion to settle a deal over the sale of military equipment from before the Iranian Revolution.\nSettling the claim was part of the Obama administration's efforts to strike a larger nuclear deal with Iran, which ultimately came to fruition in summer 2016.\nRead More\nHowever, Trump was vocally opposed to the deal on the campaign trail and since taking office. Just last week, two senior US officials told CNN the President has plans to \"decertify\" the nuclear pact this week.\n\"So this is the worst deal,\" Trump said on Hannity on Wednesday night. \"We got nothing. We got nothing.\"\nIn September, Iranian President Hassan Rouhani warned against the US backing out of the deal, and said the United States would pay a \"high cost\" if Trump exited the agreement.\nNorth Korea\nIn Wednesday's interview, Trump also touched on the tense situation in North Korea, citing growing US military capabilities .\n\"It should have been taken care of long ago,\" Trump said. \"Clinton gave them billions of dollars, gave them lots of other things and before the ink was dry on the contract they were already starting again with the missiles and with the nuclear, frankly. So we are in a position -- look we're very strong -- I'm building up the military like nobody's ever seen, we're close to $800 billion in spending.\"\nTensions between the two nations have been escalating, and on Wednesday, North Korean Foreign Minister Ri Yong Ho addressed comments made by Trump at the UN General Assembly in September where Trump called North Korean leader Kim Jong Un \"Rocket Man,\" and threatened to \"totally destroy\" the country.\n\"By his bellicose and insane statement in the UN arena, Trump -- it can be said -- lit the wick of the war against us,\" Ri is quoted as saying on Russia's state-run news agency TASS' English language website. \"We need to settle the final score, only with a hail of fire, not words.\"\nTrump vs. NFL protesters\nTrump specifically called out former San Francisco 49ers player Colin Kaepernick on Wednesday for his decision to kneel during the National Anthem at NFL games.\nKaepernick knelt during the National Anthem as a way to peacefully protest against police britality and racial injustice. On Wednesday, Trump called the action \"terrible\" and added he thought the NFL should have suspended him over the action.\n\"I watched Colin Kaepernick and I thought it was terrible,\" Trump told Hannity. \"And then it got bigger and bigger and started mushrooming. And frankly the NFL should have suspended him for one game and he would have never done it again.\"\n\"I am not going to stand up to show pride in a flag for a country that oppresses black people and people of color,\" Kaepernick told NFL Media in August 2016.\nTrump has repeatedly condemned the players and teams who have participated.\n\"They could have then suspended him for two games and they could have suspended him again if he did it a third time, for the season, and you would never have had a problem. But I will tell you -- you cannot disrespect our country, our flag, our anthem, you cannot do that,\" Trump said Wednesday.\nOn Sunday, Vice President Mike Pence walked out of a football game in Indianapolis on Sunday after players knelt during the anthem.\n",
+        "quotes": [
+            [
+                "I think it was one of the most incompetently drawn deals I've ever seen,",
+                "Trump",
+                true
+            ],
+            [
+                "150 billion given -- we got nothing.",
+                "Trump",
+                false
+            ],
+            [
+                "They got a path to nuclear weapons very quickly, and think of this one -- $1.7 billion in cash -- this is cash out of your pocket.",
+                "Trump",
+                true
+            ],
+            [
+                "You know how many airplane loads that must be?",
+                "Trump",
+                true
+            ],
+            [
+                "Did you ever see a million dollars, like a promotion, where they have a million dollars in $100 bills?",
+                "Trump",
+                true
+            ],
+            [
+                "So this is the worst deal,",
+                "Trump",
+                true
+            ],
+            [
+                "It should have been taken care of long ago,",
+                "Trump",
+                true
+            ],
+            [
+                "Clinton gave them billions of dollars, gave them lots of other things and before the ink was dry on the contract they were already starting again with the missiles and with the nuclear, frankly.",
+                "Trump",
+                true
+            ],
+            [
+                "So we are in a position -- look we're very strong -- I'm building up the military like nobody's ever seen, we're close to $800 billion in spending.",
+                "Trump",
+                true
+            ],
+            [
+                "By his bellicose and insane statement in the UN arena, Trump -- it can be said -- lit the wick of the war against us,",
+                "Ri",
+                true
+            ],
+            [
+                "We need to settle the final score, only with a hail of fire, not words.",
+                "Ri",
+                true
+            ],
+            [
+                "I watched Colin Kaepernick and I thought it was terrible,",
+                "Trump",
+                true
+            ],
+            [
+                "And then it got bigger and bigger and started mushrooming.",
+                "Hannity",
+                true
+            ],
+            [
+                "And frankly the NFL should have suspended him for one game and he would have never done it again.",
+                "Hannity",
+                true
+            ],
+            [
+                "I am not going to stand up to show pride in a flag for a country that oppresses black people and people of color,",
+                "Colin Kaepernick",
+                true
+            ],
+            [
+                "They could have then suspended him for two games and they could have suspended him again if he did it a third time, for the season, and you would never have had a problem.",
+                "Trump",
+                true
+            ],
+            [
+                "But I will tell you -- you cannot disrespect our country, our flag, our anthem, you cannot do that,",
+                "Trump",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2017/03/16/politics/donald-trump-defense-budget-blueprint/index.html",
+                "https://www.cnn.com/2017/10/08/politics/vice-president-mike-pence-nfl-protest/index.html",
+                "https://www.cnn.com/2016/01/17/politics/us-pays-iran-1-7-billion/index.html",
+                "https://www.cnn.com/2017/10/11/politics/north-korea-trump-lit-wick-of-war/index.html",
+                "https://www.cnn.com/2017/09/18/middleeast/iran-deal-rouhani-amanpour-interview/index.html",
+                "http://www.cnn.com/2017/10/05/politics/trump-iran-deal-deadline-plan/index.html",
+                "https://www.cnn.com/2017/10/08/politics/pence-indianapolis-flights-cost/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "think",
+            "slams",
+            "fox",
+            "incompetently",
+            "nuclear",
+            "iran",
+            "million",
+            "drawn",
+            "deal",
+            "trump",
+            "billion",
+            "17"
+        ]
+    }
+]
