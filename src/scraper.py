@@ -18,8 +18,7 @@ nltk.download('punkt')
 """
 Script for scraping news article provenance from news url
 
-Integrating Python Newspaper3k library and mercury-parser https://mercury.postlight.com/web-parser/
-use best effort to extract correct provenance
+Integrating Python Newspaper3k library and boilerpipe to extract actual article from webpage
 Using StanfordCoreNLP to extract quotations and attributed speakers. 
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
@@ -52,23 +51,21 @@ class NewsArticle(object):
             return a dictionary only contain article provenance
     """
 
-    def __init__(self, newspaper_article, mercury_parser_result, sNLP):
+    def __init__(self, newspaper_article, sNLP):
         """
         constructor for NewsArticle object
 
         NewsArticle constructor based on the parser result return by
-        Newspaper3k library and mercury-parser
+        the Newspaper3k and Boilerpipe library.
 
         Parameters
         ----------
         newspaper_article : Article
-            the Article object returned by Newspaper3k library
-        mercury_parser_result : dict
-            the json format of mercury-parser result
+            the Article object returned by Newspaper3k library 
+            and modified by the Boilerpipe library
         """
         # some useful private properties
         self.__article = newspaper_article
-        self.__result_json = mercury_parser_result 
         self.__fulfilled = False
         self.__sNLP = sNLP
 
@@ -76,7 +73,7 @@ class NewsArticle(object):
         self.url = newspaper_article.url
         self.title = newspaper_article.title
         self.authors = []
-        self.publisher = mercury_parser_result['domain'] or newspaper_article.source_url
+        self.publisher = newspaper_article.source_url
         self.publish_date = ''
         self.text = newspaper_article.text
         self.quotes = []
@@ -113,11 +110,7 @@ class NewsArticle(object):
             self.publish_date = self.__article.publish_date.strftime(
                 "%Y-%m-%d")
         else:
-            if self.__result_json['date_published']:
-                # format would be '%y-%m-%d...'
-                self.publish_date = self.__result_json['date_published'][0:10]
-            else:
-                self.publish_date = ''
+            self.publish_date = ''
 
         return self.publish_date
 
@@ -143,17 +136,13 @@ class NewsArticle(object):
         domain_name = parsed_uri.scheme + "://" + parsed_uri.netloc
         
         html_new3k   = self.__article.article_html
-        html_mercury = self.__result_json['content']
         
         soup_a = BeautifulSoup(html_new3k, features="lxml")
-        soup_m = BeautifulSoup(html_mercury, features="lxml")
         
         a_tags_news3k  = soup_a.find_all("a", href=True)
-        a_tags_mercury = soup_m.find_all("a", href=True)
 
-        a_tags_all = a_tags_news3k if len(a_tags_news3k) else a_tags_mercury
+        a_tags_all = a_tags_news3k
         print('Newspaper a tag length is : ', len(a_tags_news3k))
-        print('Mercuruparser a tag length is : ', len(a_tags_mercury))
         
         links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
         if len(a_tags_all):
@@ -214,7 +203,7 @@ class NewsArticle(object):
         try:
             print('start to scrape from url: ', source_url)
 
-            # pre-process news by NewsPaper3k library
+            # pre-process news by NewsPaper3k and Boilerpipe library
             article = Article(source_url, keep_article_html=True)
             article.build()
             article.nlp()
@@ -222,23 +211,7 @@ class NewsArticle(object):
             article.text = e.getText()
             article.article_html = e.getHTML()
 
-            try:
-                # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-                parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
-                result_json = json.loads(parser_result.stdout)
-            except Exception as e:
-                result_json = None
-
-            # if parser fail, set a empty object
-            try:
-                result_json['domain']
-            except Exception as e:
-                result_json = {
-                    'domain': None,
-                    'date_published': None,
-                    'content': None
-                }
-            news_article = NewsArticle(article, result_json, sNLP)
+            news_article = NewsArticle(article, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
         except Exception as e:
