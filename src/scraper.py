@@ -55,7 +55,7 @@ class NewsArticle(object):
         """
         constructor for NewsArticle object
 
-        NewsArticle constructor based on the parser result return by
+        NewsArticle constructor based on the   result return by
         the Newspaper3k and Boilerpipe library.
 
         Parameters
@@ -70,7 +70,7 @@ class NewsArticle(object):
         self.__sNLP = sNLP
 
         # news Provenance
-        self.url = newspaper_article.url
+        self.url = newspaper_article.canonical_link
         self.title = newspaper_article.title
         self.authors = []
         self.publisher = newspaper_article.source_url
