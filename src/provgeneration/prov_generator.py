@@ -42,13 +42,15 @@ def add_article(article, bundle):
     
     # add relation between publisher and article
     try:
-        article_publiser_relation = article_object.lookup_to_relation(publisher_object, WASATTRIBUTEDTO)
+        article_publisher_relation = article_object.lookup_relation_to(publisher_object, WASATTRIBUTEDTO)
     except Exception as e:
-        print(article_object)
-        article_publiser_relation = article_object.relation_to(publisher_object, WASATTRIBUTEDTO)
+        article_publisher_relation = article_object.relation_to(publisher_object, WASATTRIBUTEDTO)
 
     # include article and publisher relation in bundle
-    bundle.relation_to(article_publiser_relation, BUNDLERELATION)
+    try:
+        bundle.lookup_relation_to(article_publisher_relation, BUNDLERELATION)
+    except Exception as e:
+        bundle.relation_to(article_publisher_relation, BUNDLERELATION)
 
 
     # add author object
@@ -63,12 +65,15 @@ def add_article(article, bundle):
     
         # add relation between author and article
         try:
-            article_author_relation = article_object.lookup_to_relation(author_object, WASATTRIBUTEDTO)
+            article_author_relation = article_object.lookup_relation_to(author_object, WASATTRIBUTEDTO)
         except Exception as e:
             article_author_relation = article_object.relation_to(author_object, WASATTRIBUTEDTO)
 
         # include article and author relation in bundle
-        bundle.relation_to(article_author_relation, BUNDLERELATION)
+        try:
+            bundle.lookup_relation_to(article_author_relation, BUNDLERELATION)
+        except Exception as e:
+            bundle.relation_to(article_author_relation, BUNDLERELATION)
 
     # Add the quotes
     for quote in article_quotes:
@@ -101,18 +106,22 @@ def add_article(article, bundle):
                 speaker_object.add_string_property(originator, 'type', 'person')
 
             try:
-                quote_speaker_relation = quote_object.lookup_to_relation(speaker_object, WASATTRIBUTEDTO)
+                quote_speaker_relation = quote_object.lookup_relation_to(speaker_object, WASATTRIBUTEDTO)
             except Exception as e:
                 quote_speaker_relation = quote_object.relation_to(speaker_object, WASATTRIBUTEDTO)
 
             # include quote and speaker relation in bundle
-            bundle.relation_to(quote_speaker_relation, BUNDLERELATION)
+            try:
+                bundle.lookup_relation_to(quote_speaker_relation, BUNDLERELATION)
+            except Exception as e:
+                bundle.relation_to(quote_speaker_relation, BUNDLERELATION)
 
     return article_object
 
 
 def convert_quote_str(quote_str):
-    return quote_str.encode('utf-8').translate(None, string.punctuation).lower()
+    return ''.join(ch for ch in quote_str if (ch.isalnum() or ch == ' ')).lower().encode('utf-8')
+        # quote_str.encode('utf-8').translate(None, string.punctuation).lower()
 
 
 def add_quote(article, quote_str, bundle):
@@ -128,10 +137,14 @@ def add_quote(article, quote_str, bundle):
 
 def add_quote_relation(article, quote_object, bundle):
     try:
-        article_quote_relation = article.lookup_to_relation(quote_object, WASGENERATEDBY)
+        article_quote_relation = article.lookup_relation_to(quote_object, WASGENERATEDBY)
     except Exception as e:
         article_quote_relation = article.relation_to( quote_object, WASGENERATEDBY)
-    bundle.relation_to(article_quote_relation, BUNDLERELATION)
+    try:
+        bundle.lookup_relation_to(article_quote_relation, BUNDLERELATION)
+    except Exception as e:
+        bundle.relation_to(article_quote_relation, BUNDLERELATION)
+
 
 def add_reference_relation(article, articles_object_map, bundle):
     def add_relation(url, url_type, articles_object_map, article_object, bundle):
@@ -147,11 +160,14 @@ def add_reference_relation(article, articles_object_map, bundle):
             reference_object.add_string_property(originator, 'url', url_str)
             reference_object.add_string_property(originator, 'type', url_type)
         try:
-            reference_relation = article_object.lookup_to_relation(reference_object, WASDERIVEDFROM)
+            reference_relation = article_object.lookup_relation_to(reference_object, WASDERIVEDFROM)
         except Exception as e:
             reference_relation = article_object.relation_to(reference_object, WASDERIVEDFROM)
 
-        bundle.relation_to(reference_relation, BUNDLERELATION)
+        try:
+            bundle.lookup_relation_to(reference_relation, BUNDLERELATION)
+        except Exception as e:
+            bundle.relation_to(reference_relation, BUNDLERELATION)
 
     article_url = article['url']
     article_links = article['links']['articles']
@@ -159,13 +175,13 @@ def add_reference_relation(article, articles_object_map, bundle):
     article_gov_links = article['links']['gov_pgs']
     article_object = articles_object_map[article_url]
     for url in article_links:
-        add_relation(url, 'article', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'article', articles_object_map, article_object, bundle)
     
     for url in article_unsure_links:
-        add_relation(url, 'reference', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'reference', articles_object_map, article_object, bundle)
 
     for url in article_gov_links:
-        add_relation(url, 'government', articles_object_map, article_object, bundle.id)
+        add_relation(url, 'government', articles_object_map, article_object, bundle)
 
 def add_bundle(articles_json):
     root_article  = articles_json[0]

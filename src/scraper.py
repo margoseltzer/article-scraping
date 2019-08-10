@@ -158,32 +158,15 @@ class NewsArticle(object):
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
             print(urls_no_dup)
             # Should consider switching the order of unsure and articles
-            print('URL IS FOR LOOP')
-            for url in urls_no_dup: print(url)
-        
+                    
             for url in urls_no_dup:
-                print(url)
                 url = url_utils.return_actual_url(url)
-                # if not url_utils.is_valid_url(url) : continue
-                # elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
-                # elif url_utils.is_news_article(url): links['articles'].append(url)
-                # elif url_utils.is_reference(url)   : links['unsure'].append(url)
-                if not url_utils.is_valid_url(url) : 
-                    print('NOT VALID ', url)
-                    continue
-                elif url_utils.is_gov_page(url)    : 
-                    print('IS GOV PAGE ', url)
-                    links['gov_pgs'].append(url) 
-                    continue
-                elif url_utils.is_news_article(url):
-                    print('IS NEWS ARTICLE ', url) 
-                    links['articles'].append(url)
-                    continue
-                elif url_utils.is_reference(url)   :
-                    print('IS REFERENCE ', url) 
-                    links['unsure'].append(url)
-                    continue
-                print('IS NOTHING??? ', url)
+                if not url_utils.is_valid_url(url) : continue
+                elif url_utils.is_gov_page(url)    : links['gov_pgs'].append(url) 
+                elif url_utils.is_news_article(url): links['articles'].append(url)
+                elif url_utils.is_reference(url)   : links['unsure'].append(url)
+                else                               : print('Not identified URL ', url)
+
             print('gov_pgs  : ', links['gov_pgs'])
             print('articles : ', links['articles'])
             print('unsure   : ', links['unsure'])
@@ -316,43 +299,6 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
-def handle_single_url(url, depth, output=None):
-    # scrape from url
-    scraper = Scraper()
-    print('starting scraping from source url: %s, with depth %d' % (url, depth))
-    news_article_list = scraper.scrape_news(url, depth)
-    
-    if not news_article_list:
-        print('fail scraping from source url: ', url)
-        return False
-    
-    scraper.closeNLP()
-    print('finished scraping urls from source: ', url)
-    print('total scraped %d pages:' %(len(scraper.visited)))
-    print('total successful %d pages:' %(len(scraper.success)))
-    print('success url list :')
-    print(*scraper.success, sep='\n')
-    
-    if scraper.failed:
-        print('failed url list :')
-        print(*scraper.failed, sep='\n')
-
-    # build dict object list
-    output_json_list = []
-    for news_article in news_article_list:
-        output_json_list.append(news_article.jsonify())
-
-    # write reslut to file
-    if output is None:
-        if not os.path.exists('news_json'):
-            os.makedirs('news_json')
-        url_hash = hash_url(url)
-        output = 'news_json/' + str(url_hash) + '.json'
-    with open(output, 'w') as f:
-        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
-    print('write scraping result to ', output)
-    return True
-
 def handle_one_url(scraper, url, depth, output=None):
     # scrape from url
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
@@ -388,8 +334,7 @@ def handle_one_url(scraper, url, depth, output=None):
     print('write scraping result to ', output)
     return True
 
-def handle_url_list_file(file_name, depth):
-    scraper = Scraper()
+def handle_url_list_file(scraper, file_name, depth):
     with open(file_name, 'r') as f:
             csv_reader = csv.DictReader(f)
             line_count = 0
@@ -410,7 +355,7 @@ def handle_url_list_file(file_name, depth):
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
-                rsp = handle_one_url(scraper, url, depth, 'article'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(scraper, url, depth, 'scraped_article'+str(idx) + '_' + label + '.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
@@ -443,19 +388,11 @@ def main():
         print('must provide at least one url or file contain url')
         return
 
+    scraper = Scraper()
     if args.url:
-        handle_single_url(args.url, args.depth, args.output)
+        handle_one_url(scraper, args.url, args.depth, args.output)
     if args.file:
-        handle_url_list_file(args.file, args.depth)
+        handle_url_list_file(scraper, args.file, args.depth)
+    scraper.closeNLP()
 
 main()
-
-
-
-# def timeout():
-#     Exception('Something is taking Too long')
-
-# t = Timer(60, timeout)
-# t.start()
-# print('timer starts')
-# print('timer is cancelled')
