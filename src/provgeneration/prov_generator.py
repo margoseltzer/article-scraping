@@ -44,6 +44,7 @@ def add_article(article, bundle):
     try:
         article_publiser_relation = article_object.lookup_to_relation(publisher_object, WASATTRIBUTEDTO)
     except Exception as e:
+        print(article_object)
         article_publiser_relation = article_object.relation_to(publisher_object, WASATTRIBUTEDTO)
 
     # include article and publisher relation in bundle
