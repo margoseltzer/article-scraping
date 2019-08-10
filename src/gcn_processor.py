@@ -288,7 +288,7 @@ def show_adj_graph(adj_dict, y):
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
-    nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.5)
+    nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.2)
     
     plt.show()
 
@@ -397,8 +397,6 @@ with open(dirpath + 'graph_v', mode='w') as csv_w:
     writer = csv.writer(csv_w)
     for k, v in graph.items():
         writer.writerow(v)
-print(graph)
-
 
 train.train(x, y, tx, ty, allx, ally, graph)
 
