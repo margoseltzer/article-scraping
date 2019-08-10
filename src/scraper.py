@@ -18,8 +18,7 @@ nltk.download('punkt')
 """
 Script for scraping news article provenance from news url
 
-Integrating Python Newspaper3k library and mercury-parser https://mercury.postlight.com/web-parser/
-use best effort to extract correct provenance
+Integrating Python Newspaper3k library and boilerpipe to extract actual article from webpage
 Using StanfordCoreNLP to extract quotations and attributed speakers. 
 Download StanfordCoreNLP from https://stanfordnlp.github.io/CoreNLP/download.html
 """
@@ -52,31 +51,29 @@ class NewsArticle(object):
             return a dictionary only contain article provenance
     """
 
-    def __init__(self, newspaper_article, mercury_parser_result, sNLP):
+    def __init__(self, newspaper_article, sNLP):
         """
         constructor for NewsArticle object
 
-        NewsArticle constructor based on the parser result return by
-        Newspaper3k library and mercury-parser
+        NewsArticle constructor based on the   result return by
+        the Newspaper3k and Boilerpipe library.
 
         Parameters
         ----------
         newspaper_article : Article
-            the Article object returned by Newspaper3k library
-        mercury_parser_result : dict
-            the json format of mercury-parser result
+            the Article object returned by Newspaper3k library 
+            and modified by the Boilerpipe library
         """
         # some useful private properties
         self.__article = newspaper_article
-        self.__result_json = mercury_parser_result 
         self.__fulfilled = False
         self.__sNLP = sNLP
 
         # news Provenance
-        self.url = newspaper_article.url
+        self.url = newspaper_article.canonical_link
         self.title = newspaper_article.title
         self.authors = []
-        self.publisher = mercury_parser_result['domain'] or newspaper_article.source_url
+        self.publisher = newspaper_article.source_url
         self.publish_date = ''
         self.text = newspaper_article.text
         self.quotes = []
@@ -113,16 +110,13 @@ class NewsArticle(object):
             self.publish_date = self.__article.publish_date.strftime(
                 "%Y-%m-%d")
         else:
-            if self.__result_json['date_published']:
-                # format would be '%y-%m-%d...'
-                self.publish_date = self.__result_json['date_published'][0:10]
-            else:
-                self.publish_date = ''
+            self.publish_date = ''
 
         return self.publish_date
 
     def find_quotes(self):
         print('find quotes')
+        # self.q
         # list of bundle of quote: [text, speaker (if known, blank otherwise), number of words in quote, bigger than one sentence?]
         try:
             self.quotes = self.__sNLP.annotate(self.text)
@@ -142,22 +136,13 @@ class NewsArticle(object):
         domain_name = parsed_uri.scheme + "://" + parsed_uri.netloc
         
         html_new3k   = self.__article.article_html
-        html_mercury = self.__result_json['content']
         
         soup_a = BeautifulSoup(html_new3k, features="lxml")
-        soup_m = BeautifulSoup(html_mercury, features="lxml")
         
-        a_tags_news3k  = soup_a.find_all("a", href=True) or []
-        a_tags_mercury = soup_m.find_all("a", href=True) or []
+        a_tags_news3k  = soup_a.find_all("a", href=True)
 
-        a_tags_all = a_tags_news3k if len(a_tags_news3k) else a_tags_mercury
+        a_tags_all = a_tags_news3k
         print('Newspaper a tag length is : ', len(a_tags_news3k))
-        print('Mercuruparser a tag length is : ', len(a_tags_mercury))
-        print('news3k list : ')
-        for a_tag in a_tags_news3k: print(a_tag['href'])
-        
-        print('mercury list : ')
-        for a_tag in a_tags_mercury: print(a_tag['href'])
         
         links = { 'articles': [], 'gov_pgs': [], 'unsure': [] }
         if len(a_tags_all):
@@ -237,7 +222,7 @@ class NewsArticle(object):
         try:
             print('start to scrape from url: ', source_url)
 
-            # pre-process news by NewsPaper3k library
+            # pre-process news by NewsPaper3k and Boilerpipe library
             article = Article(source_url, keep_article_html=True)
             article.build()
             article.nlp()
@@ -245,23 +230,7 @@ class NewsArticle(object):
             article.text = e.getText()
             article.article_html = e.getHTML()
 
-            try:
-                # pre-process by mercury-parser https://mercury.postlight.com/web-parser/
-                parser_result = subprocess.run(["mercury-parser", source_url], stdout=subprocess.PIPE)
-                result_json = json.loads(parser_result.stdout)
-            except Exception as e:
-                result_json = None
-
-            # if parser fail, set a empty object
-            try:
-                result_json['domain']
-            except Exception as e:
-                result_json = {
-                    'domain': None,
-                    'date_published': None,
-                    'content': None
-                }
-            news_article = NewsArticle(article, result_json, sNLP)
+            news_article = NewsArticle(article, sNLP)
             print('success to scrape from url: ', source_url)
             return news_article
         except Exception as e:
@@ -347,7 +316,7 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
-def handle_one_url(url, depth, output=None):
+def handle_single_url(url, depth, output=None):
     # scrape from url
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
@@ -384,7 +353,43 @@ def handle_one_url(url, depth, output=None):
     print('write scraping result to ', output)
     return True
 
+def handle_one_url(scraper, url, depth, output=None):
+    # scrape from url
+    print('starting scraping from source url: %s, with depth %d' % (url, depth))
+    news_article_list = scraper.scrape_news(url, depth)
+    
+    if not news_article_list:
+        print('fail scraping from source url: ', url)
+        return False
+    
+    print('finished scraping urls from source: ', url)
+    print('total scraped %d pages:' %(len(scraper.visited)))
+    print('total successful %d pages:' %(len(scraper.success)))
+    print('success url list :')
+    print(*scraper.success, sep='\n')
+    
+    if scraper.failed:
+        print('failed url list :')
+        print(*scraper.failed, sep='\n')
+
+    # build dict object list
+    output_json_list = []
+    for news_article in news_article_list:
+        output_json_list.append(news_article.jsonify())
+
+    # write reslut to file
+    if output is None:
+        if not os.path.exists('news_json'):
+            os.makedirs('news_json')
+        url_hash = hash_url(url)
+        output = 'news_json/' + str(url_hash) + '.json'
+    with open(output, 'w') as f:
+        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+    print('write scraping result to ', output)
+    return True
+
 def handle_url_list_file(file_name, depth):
+    scraper = Scraper()
     with open(file_name, 'r') as f:
             csv_reader = csv.DictReader(f)
             line_count = 0
@@ -405,7 +410,7 @@ def handle_url_list_file(file_name, depth):
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
-                rsp = handle_one_url(url, depth, 'article'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(scraper, url, depth, 'article'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
@@ -419,6 +424,7 @@ def handle_url_list_file(file_name, depth):
             print('finish process urls in ', file_name)
             print('success on %d urls, failed on %d urls ' % (line_count - len(fail_list), len(fail_list)))
             print('any failed case could be found in fail_list.csv')
+            scraper.closeNLP()
 
 def main():
     parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
@@ -438,7 +444,7 @@ def main():
         return
 
     if args.url:
-        handle_one_url(args.url, args.depth, args.output)
+        handle_single_url(args.url, args.depth, args.output)
     if args.file:
         handle_url_list_file(args.file, args.depth)
 
