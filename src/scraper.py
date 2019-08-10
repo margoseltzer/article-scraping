@@ -347,7 +347,7 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
-def handle_one_url(url, depth, output=None):
+def handle_single_url(url, depth, output=None):
     # scrape from url
     scraper = Scraper()
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
@@ -384,7 +384,43 @@ def handle_one_url(url, depth, output=None):
     print('write scraping result to ', output)
     return True
 
+def handle_one_url(scraper, url, depth, output=None):
+    # scrape from url
+    print('starting scraping from source url: %s, with depth %d' % (url, depth))
+    news_article_list = scraper.scrape_news(url, depth)
+    
+    if not news_article_list:
+        print('fail scraping from source url: ', url)
+        return False
+    
+    print('finished scraping urls from source: ', url)
+    print('total scraped %d pages:' %(len(scraper.visited)))
+    print('total successful %d pages:' %(len(scraper.success)))
+    print('success url list :')
+    print(*scraper.success, sep='\n')
+    
+    if scraper.failed:
+        print('failed url list :')
+        print(*scraper.failed, sep='\n')
+
+    # build dict object list
+    output_json_list = []
+    for news_article in news_article_list:
+        output_json_list.append(news_article.jsonify())
+
+    # write reslut to file
+    if output is None:
+        if not os.path.exists('news_json'):
+            os.makedirs('news_json')
+        url_hash = hash_url(url)
+        output = 'news_json/' + str(url_hash) + '.json'
+    with open(output, 'w') as f:
+        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+    print('write scraping result to ', output)
+    return True
+
 def handle_url_list_file(file_name, depth):
+    scraper = Scraper()
     with open(file_name, 'r') as f:
             csv_reader = csv.DictReader(f)
             line_count = 0
@@ -405,7 +441,7 @@ def handle_url_list_file(file_name, depth):
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     idx += 1
                     continue
-                rsp = handle_one_url(url, depth, 'article'+str(idx)+'_'+label+'.json')
+                rsp = handle_one_url(scraper, url, depth, 'article'+str(idx)+'_'+label+'.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
@@ -419,6 +455,7 @@ def handle_url_list_file(file_name, depth):
             print('finish process urls in ', file_name)
             print('success on %d urls, failed on %d urls ' % (line_count - len(fail_list), len(fail_list)))
             print('any failed case could be found in fail_list.csv')
+            scraper.closeNLP()
 
 def main():
     parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
@@ -438,7 +475,7 @@ def main():
         return
 
     if args.url:
-        handle_one_url(args.url, args.depth, args.output)
+        handle_single_url(args.url, args.depth, args.output)
     if args.file:
         handle_url_list_file(args.file, args.depth)
 
