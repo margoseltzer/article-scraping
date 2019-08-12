@@ -1,0 +1,47 @@
+[
+    {
+        "url": "https://www.reuters.com/article/us-usa-security-kaspersky/israeli-spies-found-russians-using-kaspersky-software-for-hacks-media-idUSKBN1CG05P",
+        "title": "Israeli spies found Russians using Kaspersky software for hacks: media",
+        "authors": [],
+        "publisher": "www.reuters.com",
+        "publish_date": "2017-10-11",
+        "text": "Israeli spies found Russians using Kaspersky software for hacks: media\n4 Min Read\n((This version of the story corrects to remove name of Kaspersky spokesperson cited by Washington Post in 15th paragraph. The story quoted a company statement).)\nThe logo of the anti-virus firm Kaspersky Lab is seen at its headquarters in Moscow, Russia September 15, 2017. REUTERS/Sergei Karpukhin\nWASHINGTON (Reuters) - Israeli intelligence officials spying on Russian government hackers found they were using Kaspersky Lab antivirus software that is also used by 400 million people globally, including U.S. government agencies, according to media reports on Tuesday.\nThe Israeli officials who had hacked into Kaspersky’s  network over two years ago then warned their U.S. counterparts of the Russian intrusion, said the New York Times, which first reported the story. ( nyti.ms/2yev8Vj )\nThat led to a decision in Washington only last month to order Kaspersky software removed from government computers.\nThe Washington Post also reported on Tuesday that the Israeli spies had also found in Kaspersky's network hacking tools that could only have come from the U.S. National Security Agency. wapo.st/2i2clXa\nAfter an investigation, the NSA found that those tools were in possession of the Russian government, the Post said.\nAnd late last month, the U.S. National Intelligence Council completed a classified report that it shared with NATO allies concluding that Russia’s FSB intelligence service had “probable access” to Kaspersky customer databases and source code, the Post reported.\nThat access, it concluded, could help enable cyber attacks against U.S. government, commercial and industrial control networks, the Post reported.\nThe New York Times said the Russian operation, according to multiple people briefed on the matter, is known to have stolen classified documents from a National Security Agency employee who had improperly stored them on his home computer, which had  Kaspersky antivirus software installed on it.\nIt is not yet publicly known what other U.S. secrets the Russian hackers may have discovered by turning the Kaspersky software into a sort of Google search for sensitive information, the Times said.\nThe current and former government officials who described the episode spoke about it on condition of anonymity because of classification rules, the Times said.\nThe newspaper said the National Security Agency and the White House declined to comment, as did the Israeli Embassy, while the Russian Embassy did not respond to requests for comment.\nThe Russian embassy in Washington last month called the ban on Kaspersky Lab software “regrettable” and said it delayed the prospects of restoring bilateral ties.\nKaspersky Lab denied to the Times any knowledge of, or involvement in, the Russian hacking. “Kaspersky Lab has never helped, nor will help, any government in the world with its cyberespionage efforts,” the company said in a statement on Tuesday.\nRelated Coverage\nEugene Kaspersky, the company’s co-founder and chief executive, has repeatedly denied charges his company conducts espionage on behalf of the Russian government.\nThe company issued a statement saying that “as a private company, Kaspersky Lab does not have inappropriate ties to any government, including Russia, and the only conclusion seems to be that Kaspersky Lab is caught in the middle of a geopolitical fight,” the Washington Post reported. The company “does not possess any knowledge” of Israel’s hack, the Post cited the statement as saying.\nU.S. intelligence agencies have concluded that Russian President Vladimir Putin ordered a multipronged digital influence operation last year in an attempt to help Donald Trump win the White House, a charge Moscow denies.\nReporting by Eric Walsh; Editing by Grant McCool and Bill Trott\n",
+        "quotes": [
+            [
+                "Kaspersky Lab has never helped, nor will help, any government in the world with its cyberespionage efforts,",
+                "Kaspersky Lab",
+                true
+            ],
+            [
+                "as a private company, Kaspersky Lab does not have inappropriate ties to any government, including Russia, and the only conclusion seems to be that Kaspersky Lab is caught in the middle of a geopolitical fight,",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [],
+            "gov_pgs": [],
+            "unsure": [
+                "http://wapo.st/2i2clXa",
+                "http://nyti.ms/2yev8Vj"
+            ]
+        },
+        "key_words": [
+            "post",
+            "washington",
+            "software",
+            "media",
+            "kaspersky",
+            "company",
+            "national",
+            "russians",
+            "spies",
+            "israeli",
+            "lab",
+            "hacks",
+            "using",
+            "times",
+            "russian"
+        ]
+    }
+]

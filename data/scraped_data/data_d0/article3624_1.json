@@ -1,0 +1,62 @@
+[
+    {
+        "url": "http://money.cnn.com/2017/10/09/media/google-russia-ads/index.html",
+        "title": "Google has found Russian ads related to 2016 election",
+        "authors": [
+            {
+                "name": "Dylan Byers",
+                "link": null
+            }
+        ],
+        "publisher": "money.cnn.com",
+        "publish_date": "2017-10-09",
+        "text": "by Dylan Byers   @CNNMoney October 9, 2017: 9:54 PM ET\nTwitter, Medium founder: Tech companies unintentionally funding fake news\nGoogle has identified tens of thousands of dollars in ad buys by Russian accounts that used YouTube or Google advertising to try to spread misinformation and sow discord in American politics, sources familiar with the company's investigation told CNN.\nThese accounts used YouTube, Google search advertising, Gmail advertising and Google's DoubleClick ad platform to push divisive campaigns based on issues ranging from race to immigration to gun rights at times leading up to the 2016 election.\nGoogle has not identified how many of the accounts and ads are associated with the Internet Research Agency, the Kremlin-linked troll farm that bought ads on Facebook and Twitter. \nThe company had previously said it had found no evidence of this kind of activity.\nIt is possible that many of the accounts are not tied to the IRA, and that the scope of Russian meddling extends beyond what Facebook and Twitter have identified so far.\nGoogle also has two different sets of policies for dealing with who can create accounts and who can buy advertising, making it harder for the company to police accounts that simply created YouTube pages without paying money to advertise or have those pages promoted.\nIn a statement, Google spokesperson Andrea Faville said the company has \"a set of strict ads policies including limits on political ad targeting and prohibitions on targeting based on race and religion.\"\n\"We are taking a deeper look to investigate attempts to abuse our systems, working with researchers and other companies, and will provide assistance to ongoing inquiries,\" Faville said.\nThe Washington Post was the first to report Google's discovery.\nLike Facebook and Twitter, Google and its parent company Alphabet have agreed to testify at public hearings before the Senate and House Intelligence Committees on November 1, sources at all three companies told CNN. Google will also meet privately with the Senate and House Intelligence Committees prior to next month's public hearing, a source at the company confirmed.\nFacebook, which identified 470 accounts linked to the Internet Research Agency, has shared its findings with both Twitter and Google, sources at all three companies said. Using that data, Twitter found roughly 200 accounts linked to the IRA.\nGoogle is the largest seller of advertising online, with more than 40% revenue share for digital advertising in the United States. YouTube, which Google owns, is the largest online video service in the world.\nSeparately Monday, Microsoft said it is investigating to see if any similar ads were run through its services.\n\"We take reports of misuse of our platform seriously. We are therefore investigating and if inappropriate activity is found, we will take steps to minimize such misuse in the future,\" a Microsoft spokesperson told CNN.\n-- CNN's Jose Pagliery contributed reporting.\nCNNMoney (New York) First published October 9, 2017: 12:08 PM ET\nNewsletter\n© 2019 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.\nCNN Sans™ & © 2016 Cable News Network.\n",
+        "quotes": [
+            [
+                "a set of strict ads policies including limits on political ad targeting and prohibitions on targeting based on race and religion.",
+                "Andrea Faville",
+                false
+            ],
+            [
+                "We are taking a deeper look to investigate attempts to abuse our systems, working with researchers and other companies, and will provide assistance to ongoing inquiries,",
+                "Faville",
+                true
+            ],
+            [
+                "We take reports of misuse of our platform seriously.",
+                "",
+                true
+            ],
+            [
+                "We are therefore investigating and if inappropriate activity is found, we will take steps to minimize such misuse in the future,",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.washingtonpost.com/news/the-switch/wp/2017/10/09/google-uncovers-russian-bought-ads-on-youtube-gmail-and-other-platforms/?hpid=hp_hp-top-table-main_google-705am%3Ahomepage%2Fstory&utm_term=.ee1da4e34d2d"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/intent/user?screen_name=CNNMoney"
+            ]
+        },
+        "key_words": [
+            "facebook",
+            "russian",
+            "twitter",
+            "youtube",
+            "2016",
+            "related",
+            "ads",
+            "election",
+            "identified",
+            "company",
+            "accounts",
+            "told",
+            "advertising",
+            "google"
+        ]
+    }
+]

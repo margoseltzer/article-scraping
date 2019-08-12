@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.nytimes.com/2017/10/10/us/politics/trump-supreme-court-travel-ban.html?rref=collection%2Fsectioncollection%2Fpolitics",
+        "title": "Supreme Court Dismisses Appeal of Case on Expired Travel Ban",
+        "authors": [
+            {
+                "name": "Adam Liptak",
+                "link": null
+            }
+        ],
+        "publisher": "www.nytimes.com",
+        "publish_date": "2017-10-10",
+        "text": "Advertisement\nSupreme Court Dismisses Appeal of Case on Expired Travel Ban\nImage\nThe Supreme Court dismissed an early case against President Trump’s travel ban as moot because it has expired and has since been replaced.CreditCreditPete Marovich for The New York Times\nWASHINGTON — The Supreme Court dismissed on Tuesday an appeal in one of the cases challenging President Trump’s efforts to limit travel to the United States, calling an earlier version of the ban moot because it has expired.\nThat travel ban has since been replaced with broader restrictions , and a second case remains before the justices — but it is likely to meet the same fate. If it does, a politically charged clash between presidential power and claims of religious discrimination that could have produced a blockbuster decision will instead end with a whimper.\nA new wave of litigation aimed at Mr. Trump’s latest policies, announced last month, is already underway, and appeals in those cases may yet reach the Supreme Court. For now, though, what could have been one of the marquee cases of a busy term was removed from the docket.\nThe case the court addressed Tuesday came from the federal appeals court in Richmond, Va., which had ruled that the earlier travel ban, issued in March, violated the Constitution’s protections against religious discrimination by singling out travelers from six predominantly Muslim countries.\n“Because that provision of the order ‘expired by its own terms’ on September 24, 2017,” the court said in a brief unsigned order quoting an earlier decision, “the appeal no longer presents a ‘live case or controversy.’” The justices vacated the appeals court’s decision, meaning it cannot be used as precedent.\nJustice Sonia Sotomayor dissented, saying that she would have simply dismissed the case and allowed the appeals court decision to remain on the books.\nStill being considered — at least for now — is a case from the federal appeals court in San Francisco, which concerned both the travel ban against the six countries and a suspension of the nation’s refugee program. The refugee suspension is due to expire this month. Once that happens, the court is likely to dismiss that case, too.\nSoon after Mr. Trump took office, he issued his first travel ban , causing confusion and protests at airports nationwide and drawing immediate challenges in court. Several federal judges blocked aspects of the order, and the United States Court of Appeals for the Ninth Circuit, in San Francisco, affirmed one of those injunctions .\nRather than appeal that loss to the Supreme Court, the administration issued a revised executive order in March. It limited travel from six predominantly Muslim countries and suspended the country’s refugee program. After two appeals courts blocked the order, the Supreme Court agreed in June to hear the administration’s appeals, scheduling arguments for Oct. 10.\nOver the summer, the two sides continued to tangle in court over what aspects of the second travel ban could be enforced in the meantime. In its June order , the Supreme Court said that people with “a credible claim of a bona fide relationship with a person or entity in the United States” could continue to enter the country. In rulings issued in July and Septembe r, the justices upheld broad restrictions against refugees entering the United States but allowed grandparents and other relatives of American residents to travel here.\nThe executive orders Mr. Trump issued in January and March were temporary. In late September, he issued a new proclamation imposing an indefinite ban on travel from seven countries and restrictions on two others. The new policy included limits on travel from two countries that are not predominantly Muslim, North Korea and Venezuela.\nThe new policy prompted the Supreme Court to cancel oral arguments in the two cases and to ask the parties for briefs on whether they were moot. The administration said they were , and it urged the court to vacate the appeals court decisions. The challengers asked the justices to hear the appeals and to leave the appeals court decisions in place if they decided to dismiss them.\nFollow Adam Liptak on Twitter at @adamliptak .\nRelated Coverage\n",
+        "quotes": [
+            [
+                "Because that provision of the order ‘expired by its own terms’ on September 24, 2017,",
+                "",
+                true
+            ],
+            [
+                "the appeal no longer presents a ‘live case or controversy.",
+                "",
+                false
+            ],
+            [
+                "a credible claim of a bona fide relationship with a person or entity in the United States",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.nytimes.com/2017/01/27/us/politics/trump-syrian-refugees.html?module=inline",
+                "https://www.nytimes.com/2017/05/25/us/politics/trump-travel-ban-blocked.html?module=inline",
+                "https://www.nytimes.com/2017/09/12/us/supreme-court-refugee-ban.html?module=inline",
+                "https://www.nytimes.com/2017/07/19/us/politics/trump-travel-ban-supreme-court.html?module=inline",
+                "https://www.nytimes.com/2017/06/26/us/politics/supreme-court-trump-travel-ban-case.html?module=inline",
+                "https://www.nytimes.com/2017/09/25/us/politics/trump-travel-ban-supreme-court.html?module=inline",
+                "https://www.nytimes.com/2017/02/09/us/politics/appeals-court-trump-travel-ban.html?module=inline",
+                "https://www.nytimes.com/2017/09/24/us/politics/new-order-bars-almost-all-travel-from-seven-countries.html?module=inline",
+                "https://www.nytimes.com/2017/10/05/us/politics/trump-supreme-court-travel-ban.html?module=inline"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "religious",
+            "travel",
+            "appeal",
+            "trumps",
+            "earlier",
+            "expired",
+            "court",
+            "dismisses",
+            "case",
+            "discrimination",
+            "cases",
+            "ban",
+            "supreme"
+        ]
+    }
+]

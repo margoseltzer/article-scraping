@@ -1,0 +1,101 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/09/middleeast/turkey-syria-idlib-military-operation/index.html",
+        "title": "Turkish forces scout Syria's Idlib province",
+        "authors": [
+            {
+                "name": "Gul Tuysuz",
+                "link": null
+            },
+            {
+                "name": "Lauren Said-Moorhouse",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-09",
+        "text": "By Lauren Said-Moorhouse and Gul Tuysuz, CNN\nUpdated 12:22 PM ET, Mon October 9, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nTurkish army armored vehicles and soldiers at the country's border with Syria in Hatay on Sunday.\n(CNN)\nA Turkish military reconnaissance team has been deployed to the northern Syrian province of Idlib ahead of the establishment of a \"de-escalation zone\" there, the Turkish army said.\nIt is the first deployment of Turkish forces under an agreement made after talks last May in the Kazakh capital, Astana. The agreement, backed by Russia, Iran and Turkey, envisaged the establishment of four safe zones in Syria, in an effort to resolve the country's six-year conflict .\nDetails about the borders of the zones and which of the guarantor countries would be responsible for securing each one, were vague.\nA spokesman for the Iranian Foreign Ministry, Bahram Qasemi, confirmed on Monday that the troop movement, made on Sunday, was within the framework of the Astana accord.\nBut rebels fighting militants ISIS for its de facto capital of Raqqa criticized the recent moves by Turkey.\nRead More\nAhmed al-Sultan, deputy commander of the Jaish Al-Thowar, a main faction of the US-backed Syrian Democratic Forces coalition, claimed the Turkish move was an attempt to stop the Kurdish-dominated force from advancing towards Idlib once the battle in Raqqa is complete.\nHe claimed Turkey was trying to cut off the Kurdish-dominated Syrian city of Erfin and prevent Kurdish rebels from expanding the areas under its control. He also dismissed Turkish claims of fighting terrorism in Idlib, accusing Turkey of instead coordinating with and supporting the al-Qaeda splinter groups.  \nTurkey backs anti-extremist drive\nTurkey's military statement on Monday comes two days after President Recep Tayyip Erdogan moved personnel to the border with Syria and said Turkey would back up the Free Syrian Army (FSA) rebel group to drive an al-Qaeda splinter group out of the heavily contested area.\nErdogan justified his moves as necessary \"precautions,\" saying during a party address in Afyonkarahisar on Sunday that the border provinces are \"under threat.\"\n\"If we do not take precautions, today three, five, 10, 20 mortars are falling into Turkey, tomorrow there may be bombs. When we respond to them within the rules of engagement, they quiet down,\" Erdogan said. \"We are realizing the strategy that we planned.\"\nIdlib is the last remaining area in northern Syria where anti-Assad rebel groups have a foothold. But the FSA has increasingly lost territory to extremist Islamist groups there.\nIn recent months, the province has fallen under the control of Hayat Tahrir al-Sham (HTS), the latest reincarnation of the formerly al Qaeda-affiliated al Nusra Front. FSA and HTS oppose the Assad regime, but are also battling each another for control of the province.\nFollowing news of the Turkish-backed operation, HTS issued a statement on its Telegram channel warning FSA units against participating.\n\"If you want to die, orphan your children...step your feet into Idlib. The news is what you see, not what you hear,\" HTS said.\nRebels unwilling to accept Russian participation\nRussia is joining with Turkey in providing security in Idlib, Erdogan said Saturday, without elaborating further. But FSA groups have denounced any Russian involvement, which they accuse of supporting the Assad regime through bombings in civilian areas.\n\"We deny any involvement of the Russian air forces in the upcoming Syrian Free Army operations. Our position on Russia as an occupier state supportive of terrorism in Syria has not changed,\" wrote Mustafa Sejari, a representative of a rebel group working with the FSA, in a tweet.\nAbu Issa Sheikh, another FSA commander, said that \"the Russians were and are still the enemies of our revolution.\"\n\"They murdered our children in the past. Russia will not be our ally today. We hope that Turkey, which has borne the burden of our revolution, does not take a step that harms our people,\" Sheikh said.\nCNN's Sarah El Sirgany contributed to this report from Abu Dhabi while Mohammed Hassan contributed to this report from Syria.\n",
+        "quotes": [
+            [
+                "If we do not take precautions, today three, five, 10, 20 mortars are falling into Turkey, tomorrow there may be bombs.",
+                "Erdogan",
+                true
+            ],
+            [
+                "When we respond to them within the rules of engagement, they quiet down,",
+                "Erdogan",
+                true
+            ],
+            [
+                "We are realizing the strategy that we planned.",
+                "Erdogan",
+                true
+            ],
+            [
+                "If you want to die, orphan your children...step your feet into Idlib.",
+                "",
+                true
+            ],
+            [
+                "The news is what you see, not what you hear,",
+                "",
+                true
+            ],
+            [
+                "We deny any involvement of the Russian air forces in the upcoming Syrian Free Army operations.",
+                "Mustafa Sejari",
+                true
+            ],
+            [
+                "Our position on Russia as an occupier state supportive of terrorism in Syria has not changed,",
+                "Mustafa Sejari",
+                true
+            ],
+            [
+                "the Russians were and are still the enemies of our revolution.",
+                "Abu Issa Sheikh",
+                false
+            ],
+            [
+                "They murdered our children in the past.",
+                "Mustafa Sejari",
+                true
+            ],
+            [
+                "Russia will not be our ally today.",
+                "Mustafa Sejari",
+                true
+            ],
+            [
+                "We hope that Turkey, which has borne the burden of our revolution, does not take a step that harms our people,",
+                "Mustafa Sejari",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://cnn.com/2017/10/07/middleeast/turkey-syria-fsa-military-operation-idlib/index.html",
+                "https://www.cnn.com/2013/08/27/world/meast/syria-civil-war-fast-facts/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "vaguea",
+            "zones",
+            "zone",
+            "turkish",
+            "establishment",
+            "idlib",
+            "scout",
+            "turkeyread",
+            "syrias",
+            "province",
+            "capital",
+            "agreement",
+            "forces",
+            "astana",
+            "turkey"
+        ]
+    }
+]

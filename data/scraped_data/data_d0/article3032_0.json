@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://www.activistpost.com/2017/10/smart-devices-are-snitching-on-owners-and-rewriting-the-criminal-justice-system.html",
+        "title": "Smart Devices Are Snitching on Owners and Rewriting the Criminal Justice System",
+        "authors": [],
+        "publisher": "www.activistpost.com",
+        "publish_date": "2017-10-11",
+        "text": "Hot Topics\nSmart Devices Are Snitching on Owners and Rewriting the Criminal Justice System\nA new type of court case is slowly but steadily emerging within the American legal system: alleged crimes being detected from data supplied by smart devices.\nSeveral cases over the last few years have focused on data transmitted within the modern smart home, while a couple of others add an extra dimension of police completely reconstructing a crime scene based upon data collected from the home as well as the various Internet-connected devices that we wear.\nThe very nature of the 1st, 4th and 5th Amendments to the Constitution appears to be at stake.\nIn December of last year an Arkansas murder case made headlines not so much for the death itself, but how a suspect was brought into custody. James Bates hosted a party at his Bentonville home on the night of November 21st, 2015. At some point during the event a man drowned in a hot tub on the property.  Bates claimed to have found the victim the next morning when he awoke, stating that it was a tragic accident, but Arkansas police obtained smart water meter readings that showed an anomaly between 1 a.m. and 3 a.m. Based solely on this data – and obtained without a warrant – Bates was arrested and charged with 1st degree murder.\nSomewhat ironically, James Bates subsequently requested recordings from his Amazon Echo to defend himself against these charges, which resulted in Amazon waiving their standard privacy conditions.\nA second case followed wherein we saw a police narrative emerge that a crime had been prevented by a home’s smart system. A domestic dispute resulted in Eduardo Barros allegedly wielding a firearm against his girlfriend and threatening to kill her. However, during the argument he exclaimed, “Did you call the sherrifs?” This activated a voice-controlled sound system in his home and dialed 911. After an hours-long standoff, the suspect was taken into custody and charged. Law enforcement was quick to hail the smart technology as having “saved a life.”  But it was the presiding judge who shook privacy advocates by accepting the evidence regardless of how it was obtained, saying that there was indeed probable cause for the arrest without a warrant.\nBut it is the bizarre case of Richard Dabate, as recounted in the Chicago Tribune that offers up new complexities in the argument about how far police should be able to go in obtaining information and using it to investigate crimes.\nTwo days before Christmas, 2015, Connecticut police received a distress call from a man who claimed that an intruder killed his wife and tortured him. He was found in the home’s basement tied to a chair and bleeding. Richard told an apparently detailed story of the events that led up to the break-in, which included recounting how his smartphone alerted him to the intrusion while driving to work. He stated that he sent an e-mail to his company and gave the time of his arrival home at around 8:45 a.m. He says he entered the home and confronted the intruder. Meanwhile, his wife returned from a morning exercise class. Richard claims that he told his wife to run, but she was pursued and shot by the intruder, upon which the man dragged Richard to the basement, tied him to a chair and tortured him. The details of how he managed to dial 911 after fending off the attacker were even more dramatic: “Richard said he crawled upstairs with the chair still attached, activated the panic alarm, called 911 and collapsed. The firefighter found him soon after.”\nDuring the course of the investigation, police realized that Richard’s wife Connie was wearing a Fitbit – a wearable device with a feature that tracks how many steps a person takes while exercising or going about their daily activities. The numbers didn’t match according to Richard’s account of what had happened, differing by a wide margin. Nor did the records from Richard’s smart key, which show that his alarm was activated at 8:50 a.m., then turned off at 8:59 p.m – from his basement. His email, which he claimed was sent from the road, actually showed that he sent it from his home IP address.  Richard was arrested and now awaits judgment after pleading not guilty.\nThe Tribune noted one additional case where even a man’s pacemaker snitched him out to police. He claimed that he woke up to his house on fire, but after police summoned records of his cardiac rhythm, he was found to have been awake at the time the blaze began. He was arrested and charged for arson and insurance fraud.\nThe cases thus far seem to highlight instances where justice very well could have been served upon the guilty. Is this a sign that the American justice system is being diligent with the cases it pursues? Or is the precedent being set to drastically widen the scope in the future, opening the door for false arrests based upon faulty digital readings and/or hacks?\nNinety-nine percent of crime will now have a digital component … We have these little sensors all over. We’re wearing them and they’re in our homes. — Jonathan Rajewski, a digital forensics instructor at Champlain College in Vermont. ( Source )\nIt will definitely be something in five or 10 years, in every case, we will look to see if this information is available —  Virginia State Police Special Agent Robert Brown III of the High Technology Division. ( Source )\nThis article may be freely republished in part or in full with author attribution and source link .\nSubscription is FREE and CONFIDENTIAL\nFree Report: How To Survive The Job Automation Apocalypse with subscription\nSubscription is FREE and CONFIDENTIAL\nFollow Us on Facebook\nAugust 8, 2019\nAugust 8, 2019\nAugust 7, 2019\nMost Viewed Articles of the Week\nLatest News\nDownload Your FREE eGuide on 5G/EMF Exposure\n \n \n \n \n",
+        "quotes": [
+            [
+                "Richard said he crawled upstairs with the chair still attached, activated the panic alarm, called 911 and collapsed.",
+                "",
+                true
+            ],
+            [
+                "The firefighter found him soon after.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.chicagotribune.com/nation-world/ct-fitbit-key-fob-pacemaker-crime-20171009-story.html",
+                "https://www.nbcnews.com/news/us-news/fitbit-murder-case-richard-dabate-pleads-not-guilty-wife-s-n752526",
+                "https://www.activistpost.com/2016/12/smart-meter-data-crux-arkansas-murder-case.html",
+                "https://www.activistpost.com/2017/10/smart-devices-are-snitching-on-owners-and-rewriting-the-criminal-justice-system.html",
+                "https://edition.cnn.com/2017/03/07/tech/amazon-echo-alexa-bentonville-arkansas-murder-case/"
+            ],
+            "gov_pgs": [
+                "https://abcnews.go.com/US/smart-home-device-alerts-mexico-authorities-alleged-assault/story?id=48470912"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "data",
+            "source",
+            "smart",
+            "justice",
+            "rewriting",
+            "claimed",
+            "sent",
+            "criminal",
+            "richard",
+            "snitching",
+            "case",
+            "bates",
+            "owners",
+            "wife",
+            "devices",
+            "system"
+        ]
+    }
+]

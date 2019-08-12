@@ -1,0 +1,112 @@
+[
+    {
+        "url": "http://www.cnn.com/2017/10/10/politics/donald-trump-forbes-interview-rex-tillerson/index.html",
+        "title": "Trump boasts of a higher IQ than Tillerson",
+        "authors": [
+            {
+                "name": "Dan Merica",
+                "link": null
+            }
+        ],
+        "publisher": "www.cnn.com",
+        "publish_date": "2017-10-10",
+        "text": "Updated 7:45 PM ET, Tue October 10, 2017\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\nJUST WATCHED\nStory highlights\nThe comment underscores the volatility in Trump's relationship with Tillerson\nThough the uneasy relationship continues, it is unlikely -- for now -- that Tillerson will leave\nWashington (CNN)\nPresident Donald Trump, scorned by reports that Rex Tillerson called him a \"moron\" earlier this year, told Forbes in an interview released Tuesday that he has a higher IQ than his secretary of state.\nThe comment underscores the volatility between the two men after multiple reports that their relationship has frayed over the secretary of state's comment. Trump and Tillerson, along with Secretary of Defense James Mattis, will have lunch together at the White House on Tuesday afternoon.\n\"I think it's fake news, but if he did that, I guess we'll have to compare IQ tests,\" Trump said. \"And I can tell you who is going to win.\"\nTuesday afternoon, White House press secretary Sarah Sanders said Trump's comment was simply a joke.\n\"The President certainly never implied that the secretary of state was not incredibly intelligent,\" she said. \"He made a joke. Nothing more than that.\"\nRead More\nShe added: \"He has full confidence in the secretary of state.\"\nState Department spokesperson Heather Nauert said Tillerson's IQ is \"high.\"\nResponding to a reporter's question in jest, \"Apropos of nothing, what's the secretary's IQ?\"\n\"It's high,\" Nauert replied. \"Anyone who can put things together, you know and is an engineer, it's high.\"\nNauert added that Trump asserted his confidence in Tillerson publicly. She added that they have a \"strong\" relationship.\n\"He's allowed to have a sense of humor,\" she said of the IQ comment.\nTrump was aware before the report earlier this month that Tillerson had referred to him as a \"moron\" at the Pentagon this summer, a source familiar with the conversation told CNN, but it's unclear whether Trump discussed the remark with Tillerson. Trump was not present at the Pentagon meeting where the comment was made.\nTrump and his administration have looked to discredit the initial NBC report, despite the fact that other outlets have since confirmed Tillerson made the comment.\n\"The @NBCNews story has just been totally refuted by Sec. Tillerson and @VP Pence. It is #FakeNews,\" Trump tweeted at the time. \"They should issue an apology to AMERICA!\"\nTillerson also made an in-person statement lauding his boss and his commitment to working for him, but sources have told CNN that the two men have an uneasy relationship that has recently been highlighted by the fact that Trump publicly tweeted that Tillerson was \"wasting his time trying to negotiate\" with North Korea.\nThe President doubled down on those comments in his interview with Forbes.\n\"He was wasting his time,\" Trump said. \"I'm not undermining him. I think I'm actually strengthening authority.\"\nJUST WATCHED\nCorker: Tillerson not getting support he needs 01:30\nThough the uneasy relationship continues, it is unlikely -- for now -- that Tillerson will leave, sources have told CNN, because the President and his top aides are aware of the perception that they are shedding top staff at an unnerving clip. Tom Price, Trump's first Health and Human Services secretary, resigned in late September over a private plane scandal and since becoming president, Trump has dismissed several top communication aides, a chief of staff and a chief strategist.\nTrump has repeatedly stepped out onto the foreign stage since becoming president, but the forays have not been universally well received. Trump, who ran on the promise to put America first, has largely thrown out the foreign policy playbook of past administrations, and in his interview with Forbes, Trump said he is unlikely to fill the State Department with his own people.\n\"I'm generally not going to make a lot of the appointments that would normally be--because you don't need them,\" the President said. \"I mean, you look at some of these agencies, how massive they are, and it's totally unnecessary.\"\nHe added: \"They have hundreds of thousands of people.\"\nCNN's Laura Koran contributed to this report.\n",
+        "quotes": [
+            [
+                "I think it's fake news, but if he did that, I guess we'll have to compare IQ tests,",
+                "Trump",
+                true
+            ],
+            [
+                "And I can tell you who is going to win.",
+                "Trump",
+                true
+            ],
+            [
+                "The President certainly never implied that the secretary of state was not incredibly intelligent,",
+                "Nauert",
+                true
+            ],
+            [
+                "He has full confidence in the secretary of state.",
+                "Nauert",
+                true
+            ],
+            [
+                "Apropos of nothing, what's the secretary's IQ?",
+                "Nauert",
+                true
+            ],
+            [
+                "Anyone who can put things together, you know and is an engineer, it's high.",
+                "Nauert",
+                true
+            ],
+            [
+                "He's allowed to have a sense of humor,",
+                "Nauert",
+                true
+            ],
+            [
+                "The @NBCNews story has just been totally refuted by Sec.",
+                "Trump",
+                true
+            ],
+            [
+                "They should issue an apology to AMERICA!",
+                "Trump",
+                true
+            ],
+            [
+                "wasting his time trying to negotiate",
+                "Rex Tillerson",
+                false
+            ],
+            [
+                "I think I'm actually strengthening authority.",
+                "Trump",
+                true
+            ],
+            [
+                "I'm generally not going to make a lot of the appointments that would normally be--because you don't need them,",
+                "",
+                true
+            ],
+            [
+                "I mean, you look at some of these agencies, how massive they are, and it's totally unnecessary.",
+                "",
+                true
+            ],
+            [
+                "They have hundreds of thousands of people.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.cnn.com/2017/09/29/politics/tom-price-resigns/index.html",
+                "http://www.cnn.com/2017/10/04/politics/tillerson-trump-moron/index.html"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.forbes.com/donald-trump/exclusive-interview/#1479cba1bdec"
+            ]
+        },
+        "key_words": [
+            "relationship",
+            "volatility",
+            "reports",
+            "trumps",
+            "iq",
+            "higher",
+            "underscores",
+            "tillerson",
+            "white",
+            "secretary",
+            "comment",
+            "trump",
+            "boasts"
+        ]
+    }
+]

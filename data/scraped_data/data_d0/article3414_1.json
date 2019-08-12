@@ -1,0 +1,65 @@
+[
+    {
+        "url": "http://www.bbc.com/news/blogs-news-from-elsewhere-41595415",
+        "title": "Anime hero joins Japan's antibiotics resistance campaign",
+        "authors": [
+            {
+                "name": "News Elsewhere...",
+                "link": null
+            }
+        ],
+        "publisher": "www.bbc.com",
+        "publish_date": "",
+        "text": "By News from Elsewhere... ...as found by BBC Monitoring\n12 October 2017\nThese are external links and will open in a new window\nClose share panel\nImage caption Superheroes: The perfect metaphor for mankind's greatest problems\nJapan's health ministry has enlisted characters from cult anime series Mobile Suit Gundam in its campaign against the overuse of antibiotics.\nThe new campaign twists Gundam hero Amuro Ray's catchphrase \"Amuro ikimasu!\" (\"Amuro launching!\") into \"AMR taisaku ikimasu!\" (\"AMR countermeasures are launching!\") to raise awareness of antimicrobial resistance, the Japan Times reports .\nAntimicrobial resistance, or AMR, is when micro-organisms develop the ability to prevent antibiotics and other drugs from working.\nThe global rise of AMR means that some scientists fear an \"antibiotic apocaplypse\" , where drugs that have previously been used as standard treatments become useless.\nThe World Health Organisation says that AMR is \"a serious worldwide threat to public health\".\nKick the habit\nHiroshi Naruse, who devised the nationwide Gundam campaign, told Japan Times that AMR is can be partially blamed on doctors overprescribing antibiotics for minor illnesses.\nHe says it has become a habit that both medical professionals and patients need to kick, and that the public campaign explains to patients why they're not getting the powerful drugs they might have been expecting.\n\"If only doctors are educated, patients will not understand why they are being denied access to antibiotics and will leave the clinic feeling unsatisfied,\" he said.\nIt's not the first time Mr Naruse has used the twin weapons of anime and puns to get a health message across.\nEarlier his year, he used a robot from anime series \"Mazinger Z\" for a measles vaccination campaign, and promoted the slogan \"Mashinga Zero\" (Measles Zero\").\nSuperheroes, he tells Japan Times, are perfect metaphors for conquering mankind's greatest problems.\nImage copyright AFP\nImage caption \"Amuro ikimasu!\"\nReporting by Alistair Coleman\nRelated Topics\n",
+        "quotes": [
+            [
+                "a serious worldwide threat to public health",
+                "",
+                false
+            ],
+            [
+                "If only doctors are educated, patients will not understand why they are being denied access to antibiotics and will leave the clinic feeling unsatisfied,",
+                "",
+                true
+            ],
+            [
+                "Superheroes, he tells Japan Times, are perfect metaphors for conquering mankind's greatest problems.",
+                "",
+                true
+            ],
+            [
+                "Image copyright AFP\nImage caption \"Amuro ikimasu!",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.bbc.com/future/story/20171010-the-new-ways-well-fight-infections",
+                "https://www.japantimes.co.jp/news/2017/10/11/national/science-health/japans-health-ministry-enlists-anime-hero-battle-overuse-antibiotics/#.Wd83-zuQzct"
+            ],
+            "gov_pgs": [
+                "https://www.who.int/mediacentre/news/releases/2014/amr-report/en/"
+            ],
+            "unsure": []
+        },
+        "key_words": [
+            "used",
+            "joins",
+            "campaign",
+            "antibiotics",
+            "image",
+            "gundam",
+            "japans",
+            "anime",
+            "hero",
+            "japan",
+            "resistance",
+            "health",
+            "amuro",
+            "times",
+            "amr",
+            "patients"
+        ]
+    }
+]
