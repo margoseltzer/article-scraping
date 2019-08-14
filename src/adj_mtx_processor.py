@@ -16,20 +16,17 @@ from utils.url_classifier.url_utils import UrlUtils
 
 path = os.path.dirname(os.path.realpath(__file__))
 dirpath = os.path.dirname(path) + '/data/datasets/'
-gcn_path = path + '../../gcn/gcn'
-
-# from gcn_path import gcn
-
-# import time
-# start = time.time()
-
-# end = time.time()
-# print(end - start)
 
 def store_labeled_articles(f_list):
     ''' From the file list, extract only url and label
         return the saved file name
     '''
+    def valid(url):
+        if url[0:4] != 'http': 
+            print('http://' + url)
+            return 'http://' + url
+        else: return url
+
     res = np.array([['url', 'label']])
     url_util = UrlUtils()
     saved_file_name = 'labeled_articles.csv'
@@ -39,7 +36,7 @@ def store_labeled_articles(f_list):
             print(dirpath + f_name)
             with open(dirpath + f_name, mode='r') as csv_f:
                 reader = csv.DictReader(csv_f)
-                tmp = [[row['url'], row['label']] for row in reader if url_util.is_valid_url(row['url'])]
+                tmp = [[valid(row['url']), row['label']] for row in reader if url_util.is_valid_url(valid(row['url']))]
                 res = np.append(res, tmp, axis=0)
         idxes = list(range(res.shape[0]))[:-1]
         idx_row = np.array(['idx'] + idxes)
@@ -65,21 +62,24 @@ def call_python_version(Version, Module, Function, ArgumentList):
     return channel.receive()
 
 def separate_arts(ent_adj_dict):
-        ''' return dict that only includes aid : [aids] and dict that only includes aid: [fids]
-        '''
-        art_adj_dict = {}
-        art_ft_dict = {}
-        for k, v in ent_adj_dict.items():
-            tmp_as = [] 
-            tmp_fs = []
-            for e in v:
-                if e[0] == 'a': tmp_as.append(e)
-                else          : tmp_fs.append(e)
-            art_adj_dict[k] = tmp_as
-            art_ft_dict[k] = tmp_fs
+    ''' return dict that only includes aid : [aids] and dict that only includes aid: [fids]
+    '''
+    art_adj_dict = {}
+    art_ft_dict = {}
+    for k, v in ent_adj_dict.items():
+        tmp_as = [] 
+        tmp_fs = []
+        for e in v:
+            if e[0] == 'a': tmp_as.append(e)
+            else          : tmp_fs.append(e)
+        art_adj_dict[k] = tmp_as
+        art_ft_dict[k] = tmp_fs
 
-        return art_adj_dict, art_ft_dict
+    return art_adj_dict, art_ft_dict
 
+def filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic):
+    return dict((aid, fids) for aid, fids in tmp_aid_adj_dict.items() if obj_dict[aid]['val'] in article_label_dic)
+    
 def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
     ''' Links articles that are two hops away from each other by quote or agent
         return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
@@ -220,7 +220,7 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
 
     allx = csr_matrix(np.array(ft_mtx))
     # x, y, tx, ty, allx, ally, graph
-    return allx[80:100], ally[80:100], allx[:80], ally[:80], allx[80:], ally[80:], graph
+    return allx[80:100], ally[80:100], allx[:40], ally[:40], allx[40:], ally[40:], graph
     
 def save_articles(obj_dict, aid_fid_dict, article_label_dic):
     with open(dirpath + 'articles.csv', mode='w') as f:
@@ -257,7 +257,7 @@ def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
         
     return bin_dict
 
-def get_max(ft_bin_dict):
+def get_len_of_features(ft_bin_dict):
     n_r = n_q = n_a = 0
     for _, fts in ft_bin_dict.items():
         numbers = fts[-3:]
@@ -278,16 +278,20 @@ def show_adj_graph(adj_dict, y):
     G.add_nodes_from(list(adj_dict.keys()))
     for k, v in adj_dict.items():
         y_k = y[k]
-        if y_k == 1    : true_nodes.append(k)
-        elif y_k == 0 : fake_nodes.append(k)
-        else           : unlabeled_nodes.append(k)    
+        if y_k == 1: 
+            unlabeled_nodes.append(k)
+            continue    
+        if y_k == 1    : 
+            true_nodes.append(k)
+        elif y_k == 0  : 
+            fake_nodes.append(k)
         for f in v:
             G.add_edge(k, f)
 
     pos = nx.spring_layout(G)
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
-    nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
+    # nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
     nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.2)
     
     plt.show()
@@ -302,7 +306,7 @@ def get_no_q_dict(ft_bin_dict):
     dic = dict((key, val) for val, key in enumerate(only_fts))
     return dic, d
     
-def convert_ft_toidx(ft_bin_dict, dict_without_q):
+def convert_bin_ft_toidx(ft_bin_dict, dict_without_q):
     new_dict = dict()
     for aid, fts in ft_bin_dict.items():
         for ft in fts[:-3]:
@@ -311,26 +315,29 @@ def convert_ft_toidx(ft_bin_dict, dict_without_q):
         new_dict[aid] = new_dict[aid] + fts[-3:] if aid in new_dict else fts[-3:]
     return new_dict
 
-def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, n_r, n_q, n_a):
-    mtx = np.zeros((n, d_bin+n_r+n_q+n_a+1))
+def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a):
+    # mtx dimension is n x total length of features and binned features
+    mtx = np.zeros((n, d_bin + len_r + len_q + len_a + 1))
 
     for i, fts in ft_bin_dict.items():
         for j in fts[:-3]:
             mtx[i][j] = 1
         mtx[i][d_bin + fts[-3]] = 1
-        mtx[i][d_bin + n_r + fts[-2]] = 1
-        mtx[i][d_bin + n_r + n_q + fts[-1]] = 1
+        mtx[i][d_bin + len_r + fts[-2]] = 1
+        mtx[i][d_bin + len_r + len_q + fts[-1]] = 1
     return mtx
 
 
 
-
-
 # Paths for labeled data files from data dir
-file_list = ['BuzzFeed_fb_urls_parsed.csv', 
-             'data_from_Kaggle.csv',
-             'fakeNewsNet_data/politifact_real.csv', 
-             'fakeNewsNet_data/politifact_fake.csv',
+file_list = [
+            'BuzzFeed_fb_urls_parsed.csv', 
+            'data_from_Kaggle.csv',
+            'fakeNewsNet_data/politifact_real.csv', 
+            'fakeNewsNet_data/politifact_fake.csv', 
+            'fakeNewsNet_data/gossipcop_real.csv', 
+             'fakeNewsNet_data/gossipcop_fake.csv', 
+             'BuzzFeed_fb_urls_parsed.csv',
              'articles.csv']
 
 # Process all article urls and create a csv file and a dict obj
@@ -352,6 +359,9 @@ obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_t
 # Separate ent_adj into two pre reuslt dictionaries
 tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
 
+# Filter articles which is not labeled
+tmp_aid_fid_dict = filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
+
 # Process dict_list so articles connected via one hop are in their adj_lists each other
 dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
 aid_adj_dict, aid_fid_dict = link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
@@ -372,11 +382,11 @@ n, d = get_n_d(aid_adj_dict, aid_fid_dict)
 ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
 ft_bin_dict = remove_only_prefix(ft_bin_dict)
 
-n_r, n_q, n_a = get_max(ft_bin_dict)
+len_r, len_q, len_a = get_len_of_features(ft_bin_dict)
 dict_without_q, d_bin = get_no_q_dict(ft_bin_dict)
 
-ft_bin_dict = convert_ft_toidx(ft_bin_dict, dict_without_q)
-ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, n_r, n_q, n_a)
+ft_bin_dict = convert_bin_ft_toidx(ft_bin_dict, dict_without_q)
+ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
 
 
@@ -386,20 +396,11 @@ show_adj_graph(adj_dict, y)
 
 adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
 
+# Try with every feature
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
-
-
-with open(dirpath + 'graph', mode='w') as csv_w:
-    writer = csv.writer(csv_w)
-    for k, v in graph.items():
-        writer.writerow([k])
-with open(dirpath + 'graph_v', mode='w') as csv_w:
-    writer = csv.writer(csv_w)
-    for k, v in graph.items():
-        writer.writerow(v)
-
 train.train(x, y, tx, ty, allx, ally, graph)
 
+# Try with bin features
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_bin_mtx, y, n, d)
 train.train(x, y, tx, ty, allx, ally, graph)
 
