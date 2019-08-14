@@ -336,9 +336,9 @@ file_list = [
             'fakeNewsNet_data/politifact_real.csv', 
             'fakeNewsNet_data/politifact_fake.csv', 
             'fakeNewsNet_data/gossipcop_real.csv', 
-             'fakeNewsNet_data/gossipcop_fake.csv', 
-             'BuzzFeed_fb_urls_parsed.csv',
-             'articles.csv']
+            'fakeNewsNet_data/gossipcop_fake.csv', 
+            'BuzzFeed_fb_urls_parsed.csv',
+            'articles.csv']
 
 # Process all article urls and create a csv file and a dict obj
 saved_file_name   = store_labeled_articles(file_list)
