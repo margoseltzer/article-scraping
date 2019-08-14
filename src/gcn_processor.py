@@ -77,6 +77,9 @@ def separate_arts(ent_adj_dict):
 
     return art_adj_dict, art_ft_dict
 
+def filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic):
+    return dict((aid, fids) for aid, fids in tmp_aid_adj_dict.items() if obj_dict[aid]['val'] in article_label_dic)
+    
 def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
     ''' Links articles that are two hops away from each other by quote or agent
         return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
@@ -217,7 +220,7 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
 
     allx = csr_matrix(np.array(ft_mtx))
     # x, y, tx, ty, allx, ally, graph
-    return allx[80:100], ally[80:100], allx[:80], ally[:80], allx[80:], ally[80:], graph
+    return allx[80:100], ally[80:100], allx[:40], ally[:40], allx[40:], ally[40:], graph
     
 def save_articles(obj_dict, aid_fid_dict, article_label_dic):
     with open(dirpath + 'articles.csv', mode='w') as f:
@@ -275,16 +278,20 @@ def show_adj_graph(adj_dict, y):
     G.add_nodes_from(list(adj_dict.keys()))
     for k, v in adj_dict.items():
         y_k = y[k]
-        if y_k == 1    : true_nodes.append(k)
-        elif y_k == 0 : fake_nodes.append(k)
-        else           : unlabeled_nodes.append(k)    
+        if y_k == 1: 
+            unlabeled_nodes.append(k)
+            continue    
+        if y_k == 1    : 
+            true_nodes.append(k)
+        elif y_k == 0  : 
+            fake_nodes.append(k)
         for f in v:
             G.add_edge(k, f)
 
     pos = nx.spring_layout(G)
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
-    nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
+    # nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
     nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.2)
     
     plt.show()
@@ -321,28 +328,6 @@ def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a):
     return mtx
 
 
-def show_adj_graph(adj_dict, y):
-    G = nx.Graph()
-    true_nodes = []
-    fake_nodes = []
-    unlabeled_nodes = []
-    G.add_nodes_from(list(adj_dict.keys()))
-    for k, v in adj_dict.items():
-        y_k = y[k]
-        if y_k == 1    : true_nodes.append(k)
-        elif y_k == 0 : fake_nodes.append(k)
-        else           : unlabeled_nodes.append(k)    
-        for f in v:
-            G.add_edge(k, f)
-
-    pos = nx.spring_layout(G)
-    nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
-    nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
-    nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
-    nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.2)
-    plt.show()
-
-
 
 # Paths for labeled data files from data dir
 file_list = [
@@ -373,6 +358,9 @@ obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_t
 
 # Separate ent_adj into two pre reuslt dictionaries
 tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
+
+# Filter articles which is not labeled
+tmp_aid_fid_dict = filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
 
 # Process dict_list so articles connected via one hop are in their adj_lists each other
 dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
