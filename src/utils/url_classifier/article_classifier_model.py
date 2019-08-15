@@ -42,13 +42,9 @@ class Article_Classifier(object):
             if not self.news3k:
                 news3k  = Article(self.url)
                 self.news3k = news3k
-            print('run_libs1')
             self.news3k.build()
-            print('run_libs2')
             self.news3k.download()
-            print('run_libs3')
             self.news3k.parse()
-            print('run_libs4')
             return
         except Exception as e:
             print('Err occured from news3k : ', e)
