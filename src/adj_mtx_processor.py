@@ -23,7 +23,7 @@ def store_labeled_articles(f_list):
     '''
     def valid(url):
         if url[0:4] != 'http': 
-            print('http://' + url)
+            # print('http://' + url)
             return 'http://' + url
         else: return url
 
@@ -164,7 +164,7 @@ def get_y(aid_fid_dict, article_label_dic, obj_dict):
                 y.append(int(y_i))
             else: 
                 # TODO assume this
-                print(url)
+                # print(url)
                 y.append(-1)
     return y
 
@@ -213,10 +213,10 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
     graph = defaultdict(int, adj_dict)
     ally = np.zeros((n, 2))
     for i, yi in enumerate(y, start=0):
-        #if   yi == -1: ally[i][2] = 1
-        #el
         if yi ==  0: ally[i][1] = 1
         elif yi ==  1: ally[i][0] = 1
+        # elif yi == -1: ally[i][2] = 1
+        
 
     allx = csr_matrix(np.array(ft_mtx))
     # x, y, tx, ty, allx, ally, graph
@@ -227,7 +227,7 @@ def save_articles(obj_dict, aid_fid_dict, article_label_dic):
         headers = ['url', 'label'] 
         writer = csv.DictWriter(f, fieldnames=headers)
         for art, _ in aid_fid_dict.items():
-            print(obj_dict[art])
+            # print(obj_dict[art])
             url = obj_dict[art]['val']
             y_i = article_label_dic[url] 
             # if url in article_label_dic else -1
@@ -253,8 +253,10 @@ def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
         bin_dict[aid] = list(set(bin_dict[aid])) + [n_r, n_q] if aid in bin_dict else [n_r, n_q]
     
     for aid, aids in aid_adj_dict.items():
-        bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [len(aids)]
-        
+        bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [0, 0, len(aids)]
+    for k, v in bin_dict.items():
+        print(k)
+        print(v)
     return bin_dict
 
 def get_len_of_features(ft_bin_dict):
@@ -278,9 +280,9 @@ def show_adj_graph(adj_dict, y):
     G.add_nodes_from(list(adj_dict.keys()))
     for k, v in adj_dict.items():
         y_k = y[k]
-        if y_k == 1: 
+        if y_k == -1: 
             unlabeled_nodes.append(k)
-            continue    
+                
         if y_k == 1    : 
             true_nodes.append(k)
         elif y_k == 0  : 
@@ -291,7 +293,7 @@ def show_adj_graph(adj_dict, y):
     pos = nx.spring_layout(G)
     nx.draw_networkx_nodes(G,pos, nodelist=true_nodes, node_color='b', node_size=50, alpha=0.6)
     nx.draw_networkx_nodes(G,pos, nodelist=fake_nodes, node_color='r', node_size=50, alpha=0.6)
-    # nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
+    nx.draw_networkx_nodes(G,pos, nodelist=unlabeled_nodes, node_color='g', node_size=50, alpha=0.6)
     nx.draw_networkx_edges(G,pos, width=1.0, alpha=0.2)
     
     plt.show()
@@ -330,13 +332,11 @@ def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a):
 
 
 # Paths for labeled data files from data dir
-file_list = [
-            'BuzzFeed_fb_urls_parsed.csv', 
-            'data_from_Kaggle.csv',
-            'fakeNewsNet_data/politifact_real.csv', 
-            'fakeNewsNet_data/politifact_fake.csv', 
-            'fakeNewsNet_data/gossipcop_real.csv', 
+file_list = ['fakeNewsNet_data/politifact_real.csv', 
+             'fakeNewsNet_data/politifact_fake.csv', 
+             'fakeNewsNet_data/gossipcop_real.csv', 
              'fakeNewsNet_data/gossipcop_fake.csv', 
+             'data_from_Kaggle.csv',
              'BuzzFeed_fb_urls_parsed.csv',
              'articles.csv']
 
@@ -347,7 +347,7 @@ article_label_dic = get_article_dict('labeled_articles.csv')
 # obj_dict: obj_id to {type, val}
 # !!! Special case: there are some persons with 'to' attributes. they are connected to only quotes
 # ent/agn/qot_adj_dict: id to [ids] 
-obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = call_python_version('2.7', 'src.gcn_db_processor', 'process_db', [])
+obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = call_python_version('2.7', 'src.db_processor', 'process_db', [])
 
 # Get article_id to idx dict of only article 
 art_id_idx_dict, ft_id_idx_dict = get_ids_idx_dicts(obj_dict)
@@ -360,7 +360,7 @@ obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_t
 tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
 
 # Filter articles which is not labeled
-tmp_aid_fid_dict = filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
+# tmp_aid_fid_dict = filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
 
 # Process dict_list so articles connected via one hop are in their adj_lists each other
 dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
@@ -388,9 +388,9 @@ dict_without_q, d_bin = get_no_q_dict(ft_bin_dict)
 ft_bin_dict = convert_bin_ft_toidx(ft_bin_dict, dict_without_q)
 ft_bin_mtx = convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
-
-
 adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
+print(adj_dict.keys())
+print(ft_dict.keys())
 
 show_adj_graph(adj_dict, y)
 
