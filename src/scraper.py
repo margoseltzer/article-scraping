@@ -369,7 +369,6 @@ def handle_url_list_file(scraper, file_name, depth):
             print('finish process urls in ', file_name)
             print('success on %d urls, failed on %d urls ' % (line_count - len(fail_list), len(fail_list)))
             print('any failed case could be found in fail_list.csv')
-            scraper.closeNLP()
 
 def main():
     parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
