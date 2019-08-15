@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 article_classifier = Article_Classifier()
 
 my_path = os.path.abspath(os.path.dirname(__file__))
-path = os.path.join(my_path, 'all_lists.csv')
+path = os.path.join(my_path, 'blacklist_gov_criteria.csv')
 all_lists =  pd.read_csv(path)
 
 class UrlUtils(object):

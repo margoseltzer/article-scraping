@@ -158,7 +158,8 @@ class NewsArticle(object):
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
             print(urls_no_dup)
             # Should consider switching the order of unsure and articles
-                    
+            
+            # TODO should include ot identified url into reference?
             for url in urls_no_dup:
                 url = url_utils.return_actual_url(url)
                 if not url_utils.is_valid_url(url) : continue
