@@ -308,7 +308,7 @@ class Scraper(object):
         """
         news_article_list = []
         for url in url_list:
-            article = NewsArticle.build_news_article(sNLP=self.sNLP, url=url)
+            article = NewsArticle.build_news_article(sNLP=self.sNLP, source_url=url)
             if article: 
                 news_article_list.append(article)
                 self.success.append(url)
