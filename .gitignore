@@ -3,3 +3,6 @@
 
 # ignore setting.json
 setting.json
+
+# ignore news_jsons
+src/news_json/*

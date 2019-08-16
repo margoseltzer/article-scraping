@@ -5,7 +5,7 @@ import time
 import scraper
 timeout = 7200
 
-RSSFeeds = ['http://feeds.bbci.co.uk/news/world/rss.xml', 'http://feeds.bbci.co.uk/news/rss.xml', 'http://feeds.bbci.co.uk/news/politics/rss.xml'
+RSSFeeds = ['http://feeds.bbci.co.uk/news/world/rss.xml', 'http://feeds.bbci.co.uk/news/rss.xml', 'http://feeds.bbci.co.uk/news/politics/rss.xml',
 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',
 'http://feeds.reuters.com/Reuters/domesticNews', 'http://feeds.reuters.com/reuters/topNews', 'https://www.motherjones.com/politics/feed/',
 'http://feeds.washingtonpost.com/rss/politics', 'http://feeds.washingtonpost.com/rss/world', 
@@ -20,7 +20,6 @@ RSSFeeds = ['http://feeds.bbci.co.uk/news/world/rss.xml', 'http://feeds.bbci.co.
 
 articlesToVisit = set([])
 articleURLS = set([])
-s = scraper.Scraper()
 idx = 0
 
 def getNewArticles():
@@ -38,10 +37,12 @@ def getNewArticles():
 while True:
     articlesToVisit = articlesToVisit.union(getNewArticles())
     time.sleep(0.5)
+    s = scraper.Scraper()
     timeout_start = time.time()
     while len(articlesToVisit) > 0 and time.time() < timeout_start + timeout:
         idx = idx + 1
         print(idx)
         url = articlesToVisit.pop()
         scraper.handle_one_url(s, url, 2, 'news_json/' +'article'+str(idx)+'.json')
+    s.closeNLP()
     time.sleep(0.5)
