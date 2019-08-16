@@ -24,7 +24,7 @@ class MtxProcessor():
                         'fakeNewsNet_data/politifact_fake.csv', 
                         'fakeNewsNet_data/gossipcop_real.csv', 
                         'fakeNewsNet_data/gossipcop_fake.csv', 
-                        'data_from_Kaggle.csv',
+                        'Kaggle_dataset.csv',
                         'BuzzFeed_fb_urls_parsed.csv',
                         'articles.csv']
 
