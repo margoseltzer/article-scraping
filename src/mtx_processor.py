@@ -17,8 +17,8 @@ from utils.url_classifier.url_utils import UrlUtils
 path = os.path.dirname(os.path.realpath(__file__))
 dirpath = os.path.dirname(path) + '/data/datasets/'
 
-class MtxProcessor():
-    self __init__():
+class MtxProcessor(object):
+    def __init__(self):
         # Paths for labeled data files from data dir
         self.file_list = ['fakeNewsNet_data/politifact_real.csv', 
                         'fakeNewsNet_data/politifact_fake.csv', 
@@ -28,11 +28,6 @@ class MtxProcessor():
                         'BuzzFeed_fb_urls_parsed.csv',
                         'articles.csv']
 
-        ''' For Prateek's library parameters '''
-        self.obj_dict          = obj_dict
-        self.aid_fid_dict      = aid_fid_dict
-        self.article_label_dic = article_label_dic
-        
         ''' For showing graph '''
         self.adj_dict = {}
         self.y = {}
@@ -44,81 +39,89 @@ class MtxProcessor():
 
         self.get_all_mtx()
 
-    def get_all_mtx():
+    def get_all_mtx(self):
         # Process all article urls and create a csv file and a dict obj
-        saved_file_name   = store_labeled_articles(file_list)
-        article_label_dic = get_article_dict('labeled_articles.csv')
+        saved_file_name   = self.store_labeled_articles(self.file_list)
+        article_label_dic = self.get_article_dict('labeled_articles.csv')
 
         # obj_dict: obj_id to {type, val}
         # !!! Special case: there are some persons with 'to' attributes. they are connected to only quotes
         # ent/agn/qot_adj_dict: id to [ids] 
-        obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = call_python_version('2.7', 'db_processor', 'process_db', [])
+        obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = self.call_python_version('2.7', 'db_processor', 'process_db', [])
+
+        #  
+        with open(dirpath + 'obj_dict.csv', mode='w') as f:
+            headers = ['id', 'type', 'val'] 
+            writer = csv.DictWriter(f, fieldnames=headers)
+            for i, dic in obj_dict.items():
+                typ = dic['type']
+                val = dic['val']
+                writer.writerow({'id': i, 'type': typ, 'val': val}) 
+
 
         # Get article_id to idx dict of only article 
-        art_id_idx_dict, ft_id_idx_dict = get_ids_idx_dicts(obj_dict)
+        art_id_idx_dict, ft_id_idx_dict = self.get_ids_idx_dicts(obj_dict)
 
         # Convert all ids in dicts to idx
         dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict]
-        obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert)
+        obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = self.convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert)
 
         # Separate ent_adj into two pre reuslt dictionaries
-        tmp_aid_adj_dict, tmp_aid_fid_dict = separate_arts(ent_adj_dict)
+        tmp_aid_adj_dict, tmp_aid_fid_dict = self.separate_arts(ent_adj_dict)
 
         # Filter articles which is not labeled
-        # tmp_aid_fid_dict = filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
+        # tmp_aid_fid_dict = self.filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
 
         # Process dict_list so articles connected via one hop are in their adj_lists each other
         dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
-        aid_adj_dict, aid_fid_dict = link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
+        aid_adj_dict, aid_fid_dict = self.link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
 
         # Handle special case: add persons who are indirectly connected to articles.
         # ex) if art1--q1--p1--q2--art2, then p1 is the feature of art1 and art2 but art1 and art2 are not connected
-        aid_fid_dict = handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
+        aid_fid_dict = self.handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
 
-
-        # save_articles(obj_dict, aid_fid_dict, article_label_dic)
+        # self.save_articles(obj_dict, aid_fid_dict, article_label_dic)
 
         # get n and d dimension
-        n, d = get_n_d(aid_adj_dict, aid_fid_dict)
+        n, d = self.get_n_d(aid_adj_dict, aid_fid_dict)
 
         # Add label vector on obj_dict  
-        self.y = get_y(aid_adj_dict, article_label_dic, obj_dict)
-
-        # Attributes for Prateek's library
-        self.obj_dict          = obj_dict
-        self.aid_fid_dict      = aid_fid_dict
-        self.article_label_dic = article_label_dic
+        self.y = self.get_y(aid_adj_dict, article_label_dic, obj_dict)
 
         # Get all mtx
         self.bin_ft_mtx  = self.return_bin_ft_mtx(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
-        self.full_ft_mtx = self.return_full_ft_mtx()
-        self.adj_mtx     = self.return_adj_mtx()
 
-        self.adj_dict, ft_dict = remove_prefix(aid_adj_dict, aid_fid_dict)
-
-        adj_mtx, ft_mtx = convert_dict_to_mtx(adj_dict, ft_dict, n, d)
+        self.adj_dict, ft_dict = self.remove_prefix(aid_adj_dict, aid_fid_dict)
+        self.adj_mtx, self.full_ft_mtx = self.convert_dict_to_mtx(adj_dict, ft_dict, n, d)
 
         # Try with every feature
-        # x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_mtx, y, n, d)
+        # x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, self.full_ft_mtx, y, n, d)
         # train.train(x, y, tx, ty, allx, ally, graph)
 
         # Try with bin features
-        x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, ft_bin_mtx, y, n, d)
+        x, y, tx, ty, allx, ally, graph = self.get_data_for_gcn(adj_dict, self.bin_ft_mtx, y, n, d)
         train.train(x, y, tx, ty, allx, ally, graph)
 
-    def return_bin_ft_mtx(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
+    def return_bin_ft_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
         # get binned feature matrix
-        ft_bin_dict = get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
-        ft_bin_dict = remove_only_prefix(ft_bin_dict)
+        ft_bin_dict = self.get_bin_ft_dict(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
+        ft_bin_dict = self.remove_only_prefix(ft_bin_dict)
 
-        len_r, len_q, len_a = get_len_of_features(ft_bin_dict)
-        dict_without_q, d_bin = get_no_q_dict(ft_bin_dict)
+        len_r, len_q, len_a = self.get_len_of_features(ft_bin_dict)
+        dict_without_q, d_bin = self.get_no_q_dict(ft_bin_dict)
 
-        ft_bin_dict = convert_bin_ft_toidx(ft_bin_dict, dict_without_q)
+        ft_bin_dict = self.convert_bin_ft_toidx(ft_bin_dict, dict_without_q)
 
-        return convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
+        return self.convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
-    def show_adj_graph(adj_dict = , y = self.y):
+    def return_full_ft_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
+        return
+
+    def return_adj_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
+        return
+
+    def show_adj_graph(self, adj_dict, y):
+        adj_dict = self.adj_dict, y = self.y
         G = nx.Graph()
         true_nodes = []
         fake_nodes = []
@@ -139,7 +142,7 @@ class MtxProcessor():
         
         plt.show()
 
-    def save_articles(obj_dict, aid_fid_dict, article_label_dic):
+    def save_articles(self, obj_dict, aid_fid_dict, article_label_dic):
         with open(dirpath + 'articles.csv', mode='w') as f:
             headers = ['url', 'label'] 
             writer = csv.DictWriter(f, fieldnames=headers)
@@ -154,7 +157,7 @@ class MtxProcessor():
 
     ''' The rest of functions below are helpers for above functions. Do not call them individually '''
     
-    def store_labeled_articles(f_list):
+    def store_labeled_articles(self, f_list):
         ''' From the file list, extract only url and label
             return the saved file name
         '''
@@ -179,7 +182,7 @@ class MtxProcessor():
             writer.writerows(res)
         return saved_file_name
 
-    def get_article_dict(file_name):
+    def get_article_dict(self, file_name):
         ''' return article_url(str) to label(0 or 1) dictionary 
         '''
         reader = csv.reader(open(dirpath + file_name, mode='r'))
@@ -187,7 +190,7 @@ class MtxProcessor():
         article_label_dic = {r[0]: r[1] for r in reader}
         return article_label_dic
 
-    def call_python_version(Version, Module, Function, ArgumentList):
+    def call_python_version(self, Version, Module, Function, ArgumentList):
         gw      = execnet.makegateway("popen//python=python%s" % Version)
         channel = gw.remote_exec("""
             from %s import %s as the_function
@@ -196,7 +199,7 @@ class MtxProcessor():
         channel.send(ArgumentList)
         return channel.receive()
 
-    def separate_arts(ent_adj_dict):
+    def separate_arts(self, ent_adj_dict):
         ''' return dict that only includes aid : [aids] and dict that only includes aid: [fids]
         '''
         art_adj_dict = {}
@@ -212,10 +215,10 @@ class MtxProcessor():
 
         return art_adj_dict, art_ft_dict
 
-    def filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic):
+    def filter_unlabeled_articles(self, tmp_aid_fid_dict, obj_dict, article_label_dic):
         return dict((aid, fids) for aid, fids in tmp_aid_adj_dict.items() if obj_dict[aid]['val'] in article_label_dic)
         
-    def link_articles(adj_dict, ft_dict, obj_dict, dict_list):
+    def link_articles(self, adj_dict, ft_dict, obj_dict, dict_list):
         ''' Links articles that are two hops away from each other by quote or agent
             return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
             track of which agents or quotes are attributed to articles
@@ -240,7 +243,7 @@ class MtxProcessor():
 
         return adj_dict, ft_dict
 
-    def handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict):
+    def handle_indirect_persons(self, aid_fid_dict, obj_dict, qot_per_dict):
         ''' Link persons who are indirectly connencted to articles
         '''
         for k, adj_quotes in aid_fid_dict.items():
@@ -251,7 +254,7 @@ class MtxProcessor():
             adj_quotes = list(set(adj_quotes))
         return aid_fid_dict
 
-    def get_ids_idx_dicts(obj_dict):
+    def get_ids_idx_dicts(self, obj_dict):
         ''' return art_id to idx dict and non_art_id to idx dict
         '''
         art_id_idx_dict = {}
@@ -268,7 +271,7 @@ class MtxProcessor():
                 ft_idx += 1
         return art_id_idx_dict, ft_id_idx_dict
 
-    def convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert):
+    def convert_ids_to_idx(self, art_id_idx_dict, ft_id_idx_dict, dicts_to_convert):
         ''' Modify all the dictionaries' keys and values in place from article_id to index  
         '''
         def convert_value(v):
@@ -288,7 +291,7 @@ class MtxProcessor():
             i += 1
         return res_dicts[0], res_dicts[1], res_dicts[2], res_dicts[3], res_dicts[4]
 
-    def get_y(aid_fid_dict, article_label_dic, obj_dict):
+    def get_y(self, aid_fid_dict, article_label_dic, obj_dict):
         y = []
         for k, v in aid_fid_dict.items():
             typ = obj_dict[k]['type']
@@ -303,7 +306,7 @@ class MtxProcessor():
                     y.append(-1)
         return y
 
-    def remove_prefix(adj_dict, ft_dict):
+    def remove_prefix(self, adj_dict, ft_dict):
         ''' Remove all 'a' and 'f' in front of ids
         '''
         def remove_prefix_val(v):
@@ -313,7 +316,7 @@ class MtxProcessor():
         ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
         return adj_dict, ft_dict
 
-    def remove_only_prefix(ft_dict):
+    def remove_only_prefix(self, ft_dict):
         ''' Remove all 'a' and 'f' in front of ids
         '''
         def remove_prefix_val(v):
@@ -322,12 +325,12 @@ class MtxProcessor():
         ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
         return ft_dict
 
-    def get_n_d(aid_adj_dict, aid_fid_dict):
+    def get_n_d(self, aid_adj_dict, aid_fid_dict):
         n = len(aid_adj_dict)
         d = len(set(list(itertools.chain.from_iterable(aid_fid_dict.values()))))
         return n, d
 
-    def convert_dict_to_mtx(adj_dict, ft_dict, n, d):
+    def convert_dict_to_mtx(self, adj_dict, ft_dict, n, d):
         adj_mtx = np.zeros((n, n))
         ft_mtx = np.zeros((n, d+1))
         fids = []
@@ -344,7 +347,7 @@ class MtxProcessor():
         print(np.sum(adj_mtx, axis=1))
         return adj_mtx, ft_mtx
         
-    def get_bin_ft_dict(aid_adj_dict, aid_fid_dict, obj_dict, n):
+    def get_bin_ft_dict(self, aid_adj_dict, aid_fid_dict, obj_dict, n):
         ''' return feature matrix but last three features are:
             # of reference, quotes, and articles
         '''
@@ -364,7 +367,7 @@ class MtxProcessor():
     
         return bin_dict
 
-    def get_len_of_features(ft_bin_dict):
+    def get_len_of_features(self, ft_bin_dict):
         n_r = n_q = n_a = 0
         for _, fts in ft_bin_dict.items():
             numbers = fts[-3:]
@@ -377,7 +380,7 @@ class MtxProcessor():
         print(n_r, n_q, n_a)
         return n_r, n_q, n_a
 
-    def get_no_q_dict(ft_bin_dict):
+    def get_no_q_dict(self, ft_bin_dict):
         only_fts = set()
         for aid, fts in ft_bin_dict.items():
             for ft in fts[:-3]:
@@ -387,7 +390,7 @@ class MtxProcessor():
         dic = dict((key, val) for val, key in enumerate(only_fts))
         return dic, d
         
-    def convert_bin_ft_toidx(ft_bin_dict, dict_without_q):
+    def convert_bin_ft_toidx(self, ft_bin_dict, dict_without_q):
         new_dict = dict()
         for aid, fts in ft_bin_dict.items():
             for ft in fts[:-3]:
@@ -396,7 +399,7 @@ class MtxProcessor():
             new_dict[aid] = new_dict[aid] + fts[-3:] if aid in new_dict else fts[-3:]
         return new_dict
 
-    def convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a):
+    def convert_bin_dict_to_mtx(self, ft_bin_dict, n, d_bin, len_r, len_q, len_a):
         # mtx dimension is n x total length of features and binned features
         mtx = np.zeros((n, d_bin + len_r + len_q + len_a + 1))
 
@@ -408,7 +411,7 @@ class MtxProcessor():
             mtx[i][d_bin + len_r + len_q + fts[-1]] = 1
         return mtx
     
-    def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
+    def get_data_for_gcn(self, adj_dict, ft_mtx, y, n, d):
         graph = defaultdict(int, adj_dict)
         ally = np.zeros((n, 2))
         for i, yi in enumerate(y, start=0):
@@ -423,121 +426,124 @@ class MtxProcessor():
 
 
 
+mtx_procossor = MtxProcessor()
 
 
 
 
 
 
-# Testing
-# print(set(aid_adj_dict.keys()))
-# print(set(aid_fid_dict.keys()))
-print('    adj  n :', len(aid_adj_dict.keys()))
-print('    ft  n :', len(aid_fid_dict.keys()))
-a = set(list(itertools.chain.from_iterable(aid_adj_dict.values())))
-b = set(list(itertools.chain.from_iterable(aid_fid_dict.values())))
-print('nonempty n :', len(a))
-print('         d :', len(b))
 
-l = 0
-for lst in aid_adj_dict.values():
-    if len(lst) == 0: l += 1
-print('   empty n :', l)
 
-print('         n :', str(l+len(a)))
+# # Testing
+# # print(set(aid_adj_dict.keys()))
+# # print(set(aid_fid_dict.keys()))
+# print('    adj  n :', len(aid_adj_dict.keys()))
+# print('    ft  n :', len(aid_fid_dict.keys()))
+# a = set(list(itertools.chain.from_iterable(aid_adj_dict.values())))
+# b = set(list(itertools.chain.from_iterable(aid_fid_dict.values())))
+# print('nonempty n :', len(a))
+# print('         d :', len(b))
 
-c = 0
-d = []
-e = []
-f = []
-g = []
-h = []
-i = []
-j = []
-l = []
-for k, v in obj_dict.items():
-    if k[0] == 'a': 
-        c += 1
-        d.append(k)
-    if v['type'] == 'article':
-        f.append(k)
+# l = 0
+# for lst in aid_adj_dict.values():
+#     if len(lst) == 0: l += 1
+# print('   empty n :', l)
 
-    elif v['type'] == 'reference':
-        g.append(k)
+# print('         n :', str(l+len(a)))
+
+# c = 0
+# d = []
+# e = []
+# f = []
+# g = []
+# h = []
+# i = []
+# j = []
+# l = []
+# for k, v in obj_dict.items():
+#     if k[0] == 'a': 
+#         c += 1
+#         d.append(k)
+#     if v['type'] == 'article':
+#         f.append(k)
+
+#     elif v['type'] == 'reference':
+#         g.append(k)
     
-    elif v['type'] == 'government':
-        j.append(k)
+#     elif v['type'] == 'government':
+#         j.append(k)
     
-    elif v['type'] == 'publisher':
-        h.append(k)
+#     elif v['type'] == 'publisher':
+#         h.append(k)
     
-    elif v['type'] == 'quote':
-        e.append(k)
+#     elif v['type'] == 'quote':
+#         e.append(k)
     
-    elif v['type'] == 'person':
-        if 'to' in v:
-            print(v['to'])
-        l.append(k)
+#     elif v['type'] == 'person':
+#         if 'to' in v:
+#             print(v['to'])
+#         l.append(k)
     
-    else: 
-        print(v['type'])
-        i.append(k)
-print('         n :', c)
+#     else: 
+#         print(v['type'])
+#         i.append(k)
+# print('         n :', c)
 
-print('         n :', len(set(d)))
-print('         d :', len(set(g + j + h + e + l )))
-print('       ref :', len(set(g)))
-print('       gov :', len(set(j)))
-print(' publisher :', len(set(h)))
-print('     quote :', len(set(e)))
-print('    person :', len(set(l)))
-print('     trash :', len(set(i)))
-print('         n :', len(set(f)))
-
-
-e = []
-f = []
-g = []
-h = []
-i = []
-j = []
-l = []
-for k in b:
-    if obj_dict[k]['type'] == 'article':
-        f.append(k)
-
-    elif obj_dict[k]['type'] == 'reference':
-        g.append(k)
-    
-    elif obj_dict[k]['type'] == 'government':
-        j.append(k)
-    
-    elif obj_dict[k]['type'] == 'publisher':
-        h.append(k)
-    
-    elif obj_dict[k]['type'] == 'quote':
-        e.append(k)
-    
-    elif obj_dict[k]['type'] == 'person':
-        l.append(k)
-    
-    else: 
-        print(obj_dict(k))
-        i.append(k)
-
-print('BBBBBBBBBBB')
-print('         n :', len(set(d)))
-print('         d :', len(set(g + j + h + e + l )))
-print('       ref :', len(set(g)))
-print('       gov :', len(set(j)))
-print(' publisher :', len(set(h)))
-print('     quote :', len(set(e)))
-print('    person :', len(set(l)))
-print('     trash :', len(set(i)))
-print('         n :', len(set(f)))
+# print('         n :', len(set(d)))
+# print('         d :', len(set(g + j + h + e + l )))
+# print('       ref :', len(set(g)))
+# print('       gov :', len(set(j)))
+# print(' publisher :', len(set(h)))
+# print('     quote :', len(set(e)))
+# print('    person :', len(set(l)))
+# print('     trash :', len(set(i)))
+# print('         n :', len(set(f)))
 
 
-# print('         y :', y)
-print('     y len :', len(y))
+# e = []
+# f = []
+# g = []
+# h = []
+# i = []
+# j = []
+# l = []
+# for k in b:
+#     if obj_dict[k]['type'] == 'article':
+#         f.append(k)
 
-print('DONE')
+#     elif obj_dict[k]['type'] == 'reference':
+#         g.append(k)
+    
+#     elif obj_dict[k]['type'] == 'government':
+#         j.append(k)
+    
+#     elif obj_dict[k]['type'] == 'publisher':
+#         h.append(k)
+    
+#     elif obj_dict[k]['type'] == 'quote':
+#         e.append(k)
+    
+#     elif obj_dict[k]['type'] == 'person':
+#         l.append(k)
+    
+#     else: 
+#         print(obj_dict(k))
+#         i.append(k)
+
+# print('BBBBBBBBBBB')
+# print('         n :', len(set(d)))
+# print('         d :', len(set(g + j + h + e + l )))
+# print('       ref :', len(set(g)))
+# print('       gov :', len(set(j)))
+# print(' publisher :', len(set(h)))
+# print('     quote :', len(set(e)))
+# print('    person :', len(set(l)))
+# print('     trash :', len(set(i)))
+# print('         n :', len(set(f)))
+
+
+# # print('         y :', y)
+# print('     y len :', len(y))
+
+# print('DONE')
