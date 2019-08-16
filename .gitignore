@@ -1,5 +1,10 @@
 # ignore .pyc files
+src/gcn/__pycache__/
 *.pyc
 
+
 # ignore setting.json
-setting.json
+.vscode/setting.json
+
+# ignore news_jsons
+src/news_json/*

@@ -42,8 +42,8 @@ class NewsArticle(object):
     Only two methods should be called outside the class
 
     One is class static method: 
-        build_news_article_from_url(url, sNLP) 
-            return an NewsArticle object build from provided url
+        build_news_article(url, sNLP, html) 
+            return an NewsArticle object build from provided url or html
             use provided sNLP (StanfordNLP class) to extract quotes
 
     Another method:
@@ -200,27 +200,51 @@ class NewsArticle(object):
         }
 
     @staticmethod
-    def build_news_article_from_url(source_url, sNLP):
+    def build_news_article(sNLP, source_url=None, source_html=None):
         """build new article object from source url, if build fail would return None
         """
-        try:
-            print('start to scrape from url: ', source_url)
+        if source_html == None:
+            try:
+                print('start to scrape from url: ', source_url)
 
-            # pre-process news by NewsPaper3k and Boilerpipe library
-            article = Article(source_url, keep_article_html=True)
-            article.build()
-            article.nlp()
-            e = Extractor(extractor='DefaultExtractor', html=article.html)
-            article.text = e.getText()
-            article.article_html = e.getHTML()
+                # pre-process news by NewsPaper3k and Boilerpipe library
+                article = Article(source_url, keep_article_html=True)
+                article.build()
+                article.nlp()
+                e = Extractor(extractor='DefaultExtractor', html=article.html)
+                article.text = e.getText()
+                article.article_html = e.getHTML()
 
-            news_article = NewsArticle(article, sNLP)
-            print('success to scrape from url: ', source_url)
-            return news_article
-        except Exception as e:
-            print('fail to scrape from url: ', source_url)
-            print('reason:', e)
-            return None
+                news_article = NewsArticle(article, sNLP)
+                print('success to scrape from url: ', source_url)
+                return news_article
+            except Exception as e:
+                print('fail to scrape from url: ', source_url)
+                print('reason:', e)
+                return None
+        
+        else:
+            try:
+                print('start to scrape from url: ', source_url)
+
+                # pre-process news by NewsPaper3k and Boilerpipe library
+                article = Article(source_url, keep_article_html=True)
+                article.set_html(source_html)
+                article.parse()
+                article.nlp()
+                e = Extractor(extractor='DefaultExtractor', html=source_html)
+                article.set_text(e.getText())
+                article.set_article_html(e.getHTML())
+
+                news_article = NewsArticle(article, sNLP)
+                print('success to scrape from url: ', source_url)
+                return news_article
+            except Exception as e:
+                print('fail to scrape from url: ', source_url)
+                print('reason:', e)
+                return None  
+    
+
 
 
 class Scraper(object):
@@ -238,7 +262,7 @@ class Scraper(object):
     def closeNLP(self):
         self.sNLP.close()
 
-    def scrape_news(self, url, depth=0):
+    def scrape_news(self, url, html=None, depth=0):
         """
         scrape news article from url, 
         if depth greater than 0, scrape related url which is not in black list and not
@@ -256,7 +280,7 @@ class Scraper(object):
 
         news_article_list = []
 
-        news_article = NewsArticle.build_news_article_from_url(url, self.sNLP)
+        news_article = NewsArticle.build_news_article(sNLP=self.sNLP, source_url=url, source_html=html)
         if not news_article:
             self.failed.append(url)
             return news_article_list
@@ -285,7 +309,7 @@ class Scraper(object):
         """
         news_article_list = []
         for url in url_list:
-            article = NewsArticle.build_news_article_from_url(url, self.sNLP)
+            article = NewsArticle.build_news_article(sNLP=self.sNLP, source_url=url)
             if article: 
                 news_article_list.append(article)
                 self.success.append(url)
@@ -303,7 +327,7 @@ def hash_url(url):
 def handle_one_url(scraper, url, depth, output=None):
     # scrape from url
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
-    news_article_list = scraper.scrape_news(url, depth)
+    news_article_list = scraper.scrape_news(url, depth=depth)
     
     if not news_article_list:
         print('fail scraping from source url: ', url)
@@ -370,7 +394,6 @@ def handle_url_list_file(scraper, file_name, depth):
             print('finish process urls in ', file_name)
             print('success on %d urls, failed on %d urls ' % (line_count - len(fail_list), len(fail_list)))
             print('any failed case could be found in fail_list.csv')
-            scraper.closeNLP()
 
 def main():
     parser = argparse.ArgumentParser(description='scraping news articles from web, and store result in file')
