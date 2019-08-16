@@ -52,28 +52,6 @@ def load_data(x, y, tx, ty, allx, ally, graph, dataset_str):
     #             objects.append(pkl.load(f))
 
     # x, y, tx, ty, allx, ally, graph = tuple(objects)
-    print('x')
-    print(type(x))
-    print(x.shape)
-    print('y')
-    print(type(y))
-    print(y.shape)
-    print('tx')
-    print(type(tx))
-    print(tx.shape)
-    print('ty')
-    print(type(ty))
-    print(ty.shape)
-    print('allx')
-    print(type(allx))
-    print(allx.shape)
-    print('ally')
-    print(type(ally))
-    print(ally.shape)
-    # for r in ally:
-    #     print(r)
-    print('graph')
-    print(type(graph))
     # test_idx_reorder = parse_index_file("data/ind.{}.test.index".format(dataset_str))
     # test_idx_range = np.sort(test_idx_reorder)
     
@@ -138,9 +116,6 @@ def sparse_to_tuple(sparse_mx):
 def preprocess_features(features):
     """Row-normalize feature matrix and convert to tuple representation"""
     rowsum = np.array(features.sum(1))
-    # print('row sum')
-    # print(rowsum)
-    # print(type(rowsum))
     # rowsum = np.where(rowsum != 0, rowsum, -1)
     r_inv = np.power(rowsum, -1).flatten()
     r_inv[np.isinf(r_inv)] = 0.
