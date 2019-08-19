@@ -185,7 +185,7 @@ class Article_Classifier(object):
         self.stats['mu_12'] = mu_12
         self.stats['sd_12'] = sd_12
 
-        np.savetxt(dirpath + '/recent_train_x.csv', x_train, delimiter=",")
+        np.savetxt(dirpath + '/saved_train_x.csv', x_train, delimiter=",")
         print('training 2')
         clf = svm.SVC(gamma='scale', kernel='rbf', degree=7)
         clf.fit(x_train, y_train.ravel()) 
