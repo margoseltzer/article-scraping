@@ -24,9 +24,8 @@ class MtxProcessor(object):
                         'fakeNewsNet_data/politifact_fake.csv', 
                         'fakeNewsNet_data/gossipcop_real.csv', 
                         'fakeNewsNet_data/gossipcop_fake.csv', 
-                        'Kaggle_dataset.csv',
-                        'BuzzFeed_fb_urls_parsed.csv',
-                        'articles.csv']
+                        'dataset_from_Kaggle.csv',
+                        'facebook-fact-check_parsed.csv']
 
         ''' For showing graph '''
         self.adj_dict = {}
@@ -338,8 +337,7 @@ class MtxProcessor(object):
                 fids.append(f_id)
                 ft_mtx[i][f_id] = 1
         ft_mtx[:, d] = 1
-        print(adj_mtx)
-        print(np.sum(adj_mtx, axis=1))
+        
         return adj_mtx, ft_mtx
         
     def get_bin_ft_dict(self, aid_adj_dict, aid_fid_dict, obj_dict, n):
@@ -372,7 +370,7 @@ class MtxProcessor(object):
             n_r = tmp_r if tmp_r > n_r else n_r
             n_q = tmp_q if tmp_q > n_q else n_q
             n_a = tmp_a if tmp_a > n_a else n_a
-        print(n_r, n_q, n_a)
+
         return n_r, n_q, n_a
 
     def get_no_q_dict(self, ft_bin_dict):
