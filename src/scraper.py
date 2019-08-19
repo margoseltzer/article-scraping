@@ -156,7 +156,6 @@ class NewsArticle(object):
             
             # return_url(a_tag): a_tag is sometimes a string
             urls_no_dup = list(set([url_utils.return_url(a_tag) for a_tag in a_tags_no_author]))
-            print(urls_no_dup)
             # Should consider switching the order of unsure and articles
             
             # TODO should include ot identified url into reference?
@@ -364,13 +363,8 @@ def handle_url_list_file(scraper, file_name, depth):
             csv_reader = csv.DictReader(f)
             line_count = 0
             fail_list = []
-            idx = 0
             url_utils = UrlUtils()
             for row in csv_reader:
-                if idx <= 1821:
-                    print(idx)
-                    idx += 1
-                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
@@ -378,7 +372,6 @@ def handle_url_list_file(scraper, file_name, depth):
                 print('index is ', idx)
                 label = row['label']
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
-                    idx += 1
                     continue
                 rsp = handle_one_url(scraper, url, depth, 'scraped_article'+str(idx) + '_' + label + '.json')
                 if not rsp:
