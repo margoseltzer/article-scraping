@@ -37,6 +37,9 @@ class MtxProcessor(object):
         self.full_ft_mtx = {}
         self.bin_ft_mtx = {}
 
+        self.n = 0
+        self.d = 0
+
         self.get_all_mtx()
 
     def get_all_mtx(self):
@@ -83,24 +86,16 @@ class MtxProcessor(object):
         # self.save_articles(obj_dict, aid_fid_dict, article_label_dic)
 
         # get n and d dimension
-        n, d = self.get_n_d(aid_adj_dict, aid_fid_dict)
+        self.n, self.d = self.get_n_d(aid_adj_dict, aid_fid_dict)
 
         # Add label vector on obj_dict  
         self.y = self.get_y(aid_adj_dict, article_label_dic, obj_dict)
 
         # Get all mtx
-        self.bin_ft_mtx  = self.return_bin_ft_mtx(tmp_aid_adj_dict, aid_fid_dict, obj_dict, n)
+        self.bin_ft_mtx  = self.return_bin_ft_mtx(tmp_aid_adj_dict, aid_fid_dict, obj_dict, self.n)
 
         self.adj_dict, ft_dict = self.remove_prefix(aid_adj_dict, aid_fid_dict)
-        self.adj_mtx, self.full_ft_mtx = self.convert_dict_to_mtx(adj_dict, ft_dict, n, d)
-
-        # Try with every feature
-        # x, y, tx, ty, allx, ally, graph = get_data_for_gcn(adj_dict, self.full_ft_mtx, y, n, d)
-        # train.train(x, y, tx, ty, allx, ally, graph)
-
-        # Try with bin features
-        x, y, tx, ty, allx, ally, graph = self.get_data_for_gcn(adj_dict, self.bin_ft_mtx, y, n, d)
-        train.train(x, y, tx, ty, allx, ally, graph)
+        self.adj_mtx, self.full_ft_mtx = self.convert_dict_to_mtx(self.adj_dict, ft_dict, self.n, self.d)
 
     def return_bin_ft_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
         # get binned feature matrix
@@ -412,7 +407,7 @@ class MtxProcessor(object):
         return mtx
     
     def get_data_for_gcn(self, adj_dict, ft_mtx, y, n, d):
-        graph = defaultdict(int, adj_dict)
+        graph = defaultdict(int, self.adj_dict)
         ally = np.zeros((n, 2))
         for i, yi in enumerate(y, start=0):
             if yi ==  0: ally[i][1] = 1
@@ -422,17 +417,6 @@ class MtxProcessor(object):
         allx = csr_matrix(np.array(ft_mtx))
         # x, y, tx, ty, allx, ally, graph
         return allx[80:100], ally[80:100], allx[:40], ally[:40], allx[40:], ally[40:], graph
-
-
-
-
-mtx_procossor = MtxProcessor()
-
-
-
-
-
-
 
 
 # # Testing
