@@ -47,11 +47,9 @@ class MtxProcessor(object):
         article_label_dic = self.get_article_dict('labeled_articles.csv')
 
         # obj_dict: obj_id to {type, val}
-        # !!! Special case: there are some persons with 'to' attributes. they are connected to only quotes
         # ent/agn/qot_adj_dict: id to [ids] 
         obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = self.call_python_version('2.7', 'db_processor', 'process_db', [])
 
-        #  
         with open(dirpath + 'obj_dict.csv', mode='w') as f:
             headers = ['id', 'type', 'val'] 
             writer = csv.DictWriter(f, fieldnames=headers)
@@ -59,7 +57,6 @@ class MtxProcessor(object):
                 typ = dic['type']
                 val = dic['val']
                 writer.writerow({'id': i, 'type': typ, 'val': val}) 
-
 
         # Get article_id to idx dict of only article 
         art_id_idx_dict, ft_id_idx_dict = self.get_ids_idx_dicts(obj_dict)
@@ -403,18 +400,8 @@ class MtxProcessor(object):
             mtx[i][d_bin + len_r + fts[-2]] = 1
             mtx[i][d_bin + len_r + len_q + fts[-1]] = 1
         return mtx
-    
-    def get_data_for_gcn(self, adj_dict, ft_mtx, y, n, d):
-        graph = defaultdict(int, self.adj_dict)
-        ally = np.zeros((n, 2))
-        for i, yi in enumerate(y, start=0):
-            if yi ==  0: ally[i][1] = 1
-            elif yi ==  1: ally[i][0] = 1
-            # elif yi == -1: ally[i][2] = 1
-            
-        allx = csr_matrix(np.array(ft_mtx))
-        # x, y, tx, ty, allx, ally, graph
-        return allx[80:100], ally[80:100], allx[:40], ally[:40], allx[40:], ally[40:], graph
+
+
 
 
 # # Testing
