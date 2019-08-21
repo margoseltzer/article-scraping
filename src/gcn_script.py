@@ -1,4 +1,4 @@
-''' Trying on gcn algorithm git repo retrived from https://github.com/tkipf/gcn '''
+''' Trying on gcn algorithm git repo retrieved from https://github.com/tkipf/gcn '''
 
 from scipy.sparse import csr_matrix
 from mtx_processor import MtxProcessor
@@ -22,7 +22,7 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
 mp = MtxProcessor()
 
 ''' Try gcn with different feature matrix.
-    Do not run train in a row. Run them separately.
+    Do not run trains in a row. Run them separately.
 '''
 # Try with every feature
 # x, y, tx, ty, allx, ally, graph = get_data_for_gcn(mp.adj_dict, mp.bin_ft_mtx, mp.y, mp.n, mp.d)

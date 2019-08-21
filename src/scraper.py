@@ -347,7 +347,7 @@ def handle_one_url(scraper, url, depth, output=None):
     for news_article in news_article_list:
         output_json_list.append(news_article.jsonify())
 
-    # write reslut to file
+    # write result to file
     if output is None:
         if not os.path.exists('news_json'):
             os.makedirs('news_json')
