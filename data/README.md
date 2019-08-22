@@ -23,3 +23,6 @@ This dataset includes urls with labels from Politifact Gossipcop. Dataset comes 
 Spatiotemporal Information for Studying Fake News on Social Media](https://github.com/KaiDMML/FakeNewsNet)
 
 Issue: some urls seem to be old and not available anymore.
+
+# GAM
+This folder contain the data which fits on [this GAM model implementation](https://github.com/benedekrozemberczki/GAM)
