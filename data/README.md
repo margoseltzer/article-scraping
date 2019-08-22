@@ -19,5 +19,7 @@ This dataset includes around 4k many urls with labels.
 Issue: urls with 0 labels are coming from only three news sources and all trusty news sources have 1 labelled urls.
 
 ## fakeNewsNet_data
-This dataset includes urls with labels from Politifact Gossipcop.
+This dataset includes urls with labels from Politifact Gossipcop. Dataset comes from github repo [FakenewsNet](https://github.com/KaiDMML/FakeNewsNet) which is built on paper [FakeNewsNet: A Data Repository with News Content, Social Context and
+Spatiotemporal Information for Studying Fake News on Social Media](https://github.com/KaiDMML/FakeNewsNet)
+
 Issue: some urls seem to be old and not available anymore.
