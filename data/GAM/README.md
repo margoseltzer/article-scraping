@@ -60,3 +60,7 @@ Using different hyper-parameters combination.
 The reason using this model is it would performance well even is limited to only a portion of the graph. Since the largest scrapered dataset we have is depth zero. It can be assummed that we only explore a portion of the whole provenance graph of that news.
 
 Tried different hyper-parameters combination, the accuracy is around 72%, whcih can support the hypothesis the news provenance can used to detect fake news.
+
+## Feature work
+
+Finding the optimal hyper-parameters combination. Try on scraped data with more depth. Also larger data smple may help.

@@ -105,12 +105,6 @@ class MtxProcessor(object):
 
         return self.convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
-    def return_full_ft_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
-        return
-
-    def return_adj_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
-        return
-
     def show_adj_graph(self, adj_dict, y):
         adj_dict = self.adj_dict, y = self.y
         G = nx.Graph()
