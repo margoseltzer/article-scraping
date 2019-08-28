@@ -12,11 +12,25 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
     print(n)
     
     graph = defaultdict(int, adj_dict)
-    ally = np.zeros((n, 2))
+    ally = np.zeros((n, 3))
+    print('n is :', n)
+    # a = 0
+    # j = 0
+    # k = 0
     for i, yi in enumerate(y, start=0):
-        if yi ==  0: ally[i][1] = 1
-        elif yi ==  1: ally[i][0] = 1
-        # elif yi == -1: ally[i][2] = 1
+        print(yi)
+        if yi == 0: 
+            # k += 1
+            ally[i][1] = 1
+        elif yi == 1:
+            # j += 1 
+            ally[i][0] = 1
+        elif yi == -1: 
+            # a += 1
+            ally[i][2] = 1
+    # print('labeled real : ', j)
+    # print('labeled fake : ', k)
+    # print('unlabeled : ', a)
     allx = np.array(ft_mtx)
 
     indices = np.arange(allx.shape[0])
