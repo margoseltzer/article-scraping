@@ -12,7 +12,7 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
     print(n)
     
     graph = defaultdict(int, adj_dict)
-    ally = np.zeros((n, 3))
+    ally = np.zeros((n, 2))
     print('n is :', n)
     # a = 0
     # j = 0
@@ -25,9 +25,9 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
         elif yi == 1:
             # j += 1 
             ally[i][0] = 1
-        elif yi == -1: 
-            # a += 1
-            ally[i][2] = 1
+        # elif yi == -1: 
+        #     # a += 1
+        #     ally[i][2] = 1
     # print('labeled real : ', j)
     # print('labeled fake : ', k)
     # print('unlabeled : ', a)

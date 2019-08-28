@@ -60,11 +60,11 @@ class MtxProcessor(object):
                 val = dic['val']
                 writer.writerow({'id': i, 'type': typ, 'val': val}) 
 
+        # Filter articles which is not labeled
+        ent_adj_dict, obj_dict = self.filter_unlabeled_articles(ent_adj_dict, article_label_dic, obj_dict)
+
         # Get article_id to idx dict of only article 
         art_id_idx_dict, ft_id_idx_dict = self.get_ids_idx_dicts(obj_dict)
-
-        # Filter articles which is not labeled
-        # ent_adj_dict = self.filter_unlabeled_articles(ent_adj_dict, obj_dict, article_label_dic)
 
         # Convert all ids in dicts to idx
         dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict]
@@ -220,8 +220,9 @@ class MtxProcessor(object):
 
         return art_adj_dict, art_ft_dict
 
-    def filter_unlabeled_articles(self, ent_adj_dict, obj_dict, article_label_dic):
-        return dict((id, ids) for id, ids in ent_adj_dict.items() if not(obj_dict[id]['type'] == 'article' and obj_dict[id]['val'] not in article_label_dic))
+    def filter_unlabeled_articles(self, ent_adj_dict, article_label_dic, obj_dict):
+        return dict((id, ids) for id, ids in ent_adj_dict.items() if not(obj_dict[id]['type'] == 'article' and obj_dict[id]['val'] not in article_label_dic)),\
+               dict((id, val) for id, val in obj_dict.items() if not(val['type'] == 'article' and val['val'] not in article_label_dic))
         
     def link_articles(self, adj_dict, ft_dict, obj_dict, dict_list):
         ''' Links articles that are two hops away from each other by quote or agent
@@ -285,7 +286,8 @@ class MtxProcessor(object):
             ''' Simply comvert a list of ids into a list of idx
             '''
             if type(v) == list: 
-                v = [ft_id_idx_dict[i] if i in ft_id_idx_dict else art_id_idx_dict[i] for i in v]
+                v = [ft_id_idx_dict[i] if i in ft_id_idx_dict else art_id_idx_dict[i] if i in art_id_idx_dict else None for i in v]
+                v = [i for i in v if i]
             return v
 
         res_dicts = [{}, {}, {}, {}, {}]
@@ -415,9 +417,10 @@ class MtxProcessor(object):
     def convert_bin_dict_to_mtx(self, ft_bin_dict, n, d_bin, len_r, len_q, len_a):
         # mtx dimension is n x total length of features and binned features
         mtx = np.zeros((n, d_bin + len_r + len_q + len_a + 1))
-        # print(d_bin + len_r + len_q + len_a + 1)
-        # print(n)
-        # print(len(ft_bin_dict))
+        print(d_bin + len_r + len_q + len_a + 1)
+        print(n)
+        print(len(ft_bin_dict))
+        print(ft_bin_dict.keys())
         for i, fts in ft_bin_dict.items():
             # print((i, fts))
             for j in fts[:-3]:
