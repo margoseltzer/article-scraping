@@ -1,0 +1,47 @@
+[
+    {
+        "url": "https://nutritionfacts.org/2015/02/17/organic-milk-and-prostate-cancer/",
+        "title": "Organic Milk and Prostate Cancer",
+        "authors": [
+            {
+                "name": "Michael Greger M.D. Faclm",
+                "link": null
+            }
+        ],
+        "publisher": "https://nutritionfacts.org",
+        "publish_date": "2015-02-17",
+        "text": "Organic Milk and Prostate Cancer\nFebruary 17th, 2015\nResearchers have  expressed concern that since cow’s milk contains estrogens, dairy could stimulate the growth of hormone-sensitive tumors. The thought is that the consumption of dairy products could both “promote the conversion of precancerous lesions or mutated cells to invasive cancer and enhance the progression of hormone-dependent tumors.”\nThis was initially postulated based on suggestive population-scale data like a 25 fold increase in prostate cancer in Japan since World War II. What was happening to their diets during that period? A 5, 10, and 20 fold increase in eggs, meat, and dairy consumption, respectively, whereas the rest of their diet remained pretty stable.\nBut diet wasn’t the only major change in Japanese lifestyles over the latter half century. Similarly, even though countries with higher milk consumption tend to have more prostate cancer deaths and countries with lower milk consumption fewer deaths, there could be hundreds of confounding variables. But it certainly does spur interest in studying the possibility.\nA recent study from Clemson University represents the other extreme, controlling for as many factors as possible by isolating prostate cancer cells out of the body in a petri dish and dripping cow milk on them directly. The researchers chose organic cow’s milk, because they wanted to exclude the effect of added hormones so that they could test the effect of all the growth hormones and sex steroids found naturally in milk.\nThey found that cow’s milk stimulated the growth of human prostate cancer cells in each of 14 separate experiments, producing an average increase in cancer growth rate of over 30%. In contrast, almond milk suppressed the growth of these cancer cells by over 30%.\nBut just because something happens in a petri dish or a test tube doesn’t mean the same thing happens in a person. It’s just suggestive evidence that we can use in a grant application to get money to study actual people. This can be done with a retrospective (looking backward) study where we take prostate cancer patients and figure out what they ate in the past, or a prospective (looking forward) study where we look at people’s diets first and follow them for a few years and see who gets cancer. The looking back kind are typically referred to as case-control studies, because researchers look at cases of cancer and compare their diets to controls. The looking forward kind are often called cohort studies because a cohort of people is followed forward. Then, if we want to get fancy, we can do a so-called meta-analysis, where you combine all the best studies done to date and see what the balance of available evidence shows.\nThe latest meta-analysis of all the best case control studies ever done on the matter concludes that milk consumption is a risk factor for prostate cancer. And the latest meta-analysis of all the best cohort studies ever done also concludes that milk consumption is a risk factor for prostate cancer. An even newer study profiled in my video, Prostate Cancer and Organic Milk vs. Almond Milk , suggests that milk intake during adolescence may be particularly risky in terms of potentially setting one up for cancer later in life.\nDespite hormone-related cancers being among our top killers, as pointed out in the Journal of the National Cancer Institute, “we simply do not know which hormones, and how much, are in the food that we ingest. More effort has been directed at the investigation of illicit use of designer steroids by Olympians and ballplayers than to the investigation of the effect of dietary hormones on cancer and other diseases that affect millions.” A proposal is therefore made to monitor levels of steroid and other hormones and growth factors in all dairy and meat-containing foods, though to date this has not been done.\nI touched previously on the prostate cancer data in one of my oldest videos, Slowing the Growth of Cancer . Other factors may play into the link between cancer and dairy consumption including industrial pollutants ( Industrial Carcinogens in Animal Fat ) and IGF-1 ( How Plant-Based to Lower IGF-1? ), but for more on the hormones in dairy see:\n-Michael Greger, M.D\nNever Miss an Update\nSubscribe for free and receive a free copy of Dr. Greger's Evidence-Based Eating Guide!\nFirst Name: *\nLast Name:\nLanguage Preference: *\nSpeaking Tour\nCatch up with Dr. Greger at one of his live speaking engagements:\nPin It on Pinterest\n",
+        "quotes": [],
+        "links": {
+            "articles": [],
+            "gov_pgs": [
+                "https://www.ncbi.nlm.nih.gov/pubmed/17704029",
+                "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249408/",
+                "https://www.ncbi.nlm.nih.gov/pubmed/22043817",
+                "https://www.ncbi.nlm.nih.gov/pubmed/11857417",
+                "https://www.ncbi.nlm.nih.gov/pubmed/15203374",
+                "https://www.ncbi.nlm.nih.gov/pubmed/12606246"
+            ],
+            "unsure": [
+                "https://nutritionfacts.org/video/industrial-carcinogens-in-animal-fat-2/",
+                "https://nutritionfacts.org/video/slowing-the-growth-of-cancer-3/",
+                "http://jnci.oxfordjournals.org/content/100/19/1412.full",
+                "https://nutritionfacts.org/video/how-plant-based-to-lower-igf-1/",
+                "https://nutritionfacts.org/video/prostate-cancer-and-organic-milk-vs-almond-milk/"
+            ]
+        },
+        "key_words": [
+            "cancer",
+            "study",
+            "prostate",
+            "growth",
+            "consumption",
+            "studies",
+            "milk",
+            "organic",
+            "dairy",
+            "hormones",
+            "looking"
+        ]
+    }
+]

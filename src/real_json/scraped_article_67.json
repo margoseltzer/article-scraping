@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.christianpost.com/trends/nvidia-graphics-card-supply-shortage-company-asks-retailers-to-prioritize-gamers.html",
+        "title": "Nvidia Graphics Card Supply Shortage: Company Asks Retailers to Put Gamers Ahead of Cryptominers",
+        "authors": [],
+        "publisher": "https://www.christianpost.com",
+        "publish_date": "",
+        "text": "Go\nThe Christian Post\nNvidia Graphics Card Supply Shortage: Company Asks Retailers to Put Gamers Ahead of Cryptominers\nNvidia Graphics Card Supply Shortage: Company Asks Retailers to Put Gamers Ahead of Cryptominers\nNvidia Graphics Card Supply Shortage: Company Asks Retailers to Put Gamers Ahead of Cryptominers\n| Wednesday, January 24, 2018\nNvidia asks retailers to prioritize gamers as graphics cards shortage continues. | REUTERS/Mike Blake\nAmid shortages in the supply of Nvidia graphic cards, the company recently appealed to authorized retailers to prioritize gamers wanting to purchase its products.\nFor months now, Nvidia is still looking for ways to catch up with the demand for its graphic cards. In an attempt to remedy the situation, the company reportedly issued a statement that asked retailers to put the gamers' needs first.\nNvidia's Boris Böhles told the German publication ComputerBase  (translated by Wccftech ): \"For NVIDIA, gamers come first. All activities related to our GeForce product line are targeted at our main audience. To ensure that GeForce gamers continue to have good GeForce graphics card availability in the current situation, we recommend that our trading partners make the appropriate arrangements to meet gamers' needs as usual.\"\nGamers may recall that Nvidia usually limits the purchase of graphics cards via its official online store to two units per customer, and this is likely the selling recommendation that the company implied.\nHowever, the company cannot control the units being sold to buyers unless the purchase is made through its website. \nWhile the company appeared to have not directly referred to cryptocurrency miners, reports have linked Nvidia's appeal to retailers to this angle.\nIt can be recalled in 2017, Motherboard  reported that the months-long graphics cards drought could be linked to crypto miners who might be hoarding the hardware. It was learned that graphics cards were a great tool for a faster generation of digital currencies like Ethereum and Zcash. And with the rising prices of cryptocurrencies seen last year, Nvidia could have realized that one of the possible reasons for the supply shortage is the overbuying of its products by miners.\nApart from the difficulty of looking for a graphics card, gamers desperate to upgrade their rig were also met with prices that were practically double the original cost. For example, the cheapest price for a GeForce GTX 1070 Ti on Newegg  is $899.99 -- a huge spike from its base price of $449 through Nvidia .\nSponsored\nMore In Entertainment\n",
+        "quotes": [
+            [
+                "All activities related to our GeForce product line are targeted at our main audience.",
+                "",
+                true
+            ],
+            [
+                "To ensure that GeForce gamers continue to have good GeForce graphics card availability in the current situation, we recommend that our trading partners make the appropriate arrangements to meet gamers' needs as usual.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.computerbase.de/2018-01/nvidia-geforce-gtx-verkauf-an-spieler/",
+                "https://wccftech.com/nvidia-instructs-retailers-stop-selling-miners-sell-gamers/",
+                "https://www.vice.com/en_us/article/zmemza/cryptocurrency-mining-fueling-a-gpu-shortage"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.newegg.com/p/pl?Submit=ENE&N=100007709%20601305993&IsNodeId=1&bop=And&Order=PRICE&PageSize=36"
+            ]
+        },
+        "key_words": [
+            "retailers",
+            "asks",
+            "gamers",
+            "shortage",
+            "cryptominers",
+            "company",
+            "nvidia",
+            "graphics",
+            "card",
+            "geforce",
+            "cards",
+            "supply",
+            "purchase"
+        ]
+    }
+]

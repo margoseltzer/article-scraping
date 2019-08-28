@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.christianpost.com/trends/nsa-has-been-running-a-voice-recognition-system-since-2004-says-report.html",
+        "title": "NSA Has Been Running a Voice-Recognition System Since 2004, Says Report",
+        "authors": [],
+        "publisher": "https://www.christianpost.com",
+        "publish_date": "",
+        "text": "Go\nThe Christian Post\nNSA Has Been Running a Voice-Recognition System Since 2004, Says Report\nNSA Has Been Running a Voice-Recognition System Since 2004, Says Report\nNSA Has Been Running a Voice-Recognition System Since 2004, Says Report\n| Thursday, January 25, 2018\nThe National Security Agency has reportedly been using a voice-recognition system since 2004.\nSiri is one of the earliest digital personal assistants available to consumers, but it was only released in 2011. Then came Amazon's Alexa in 2014 and Google Assistant in 2016. These programs are designed to take commands by accurately recognizing the voice of the device owner.\nHowever, an exclusive report from The Intercept  recently revealed that it was the NSA which had actually developed a seemingly effective voice-recognition system dating back to 2004. The report cited a classified NSA memo  dated 2006 that listed the accomplishments of the agency's voice-identification system and provided some details on how it worked.\nLike many technological developments, NSA's reported voice-recognition system started with human work. According to the 2006 document, transcribers working on SIGINT (gathering intelligence by intercepting signals) were later able to identify subjects through \"his voice and by his unique way of speaking.\"\nLater, by applying mathematical formulas and algorithms, the process has reportedly performed \"surprisingly more robust and consistent than humans.\"\nThe Intercept added that while NSA had been using fingerprints and facial recognition methods to track down their targets, the agency also saw a number of successes with voiceprints - a collection of speech-related information that noted that every individual has distinct voice characteristics due to specific qualities such as the \"shape of the mouth\" and the \"length of the larynx.\"\nThe same report took note of pieces of information previously revealed by Edward Snowden that claimed the NSA had tools match a target's voice through an alleged database of intercepted voice and video calls even if they were using foreign languages, secret codes or phone numbers.\nMeanwhile, it is unknown whether the reported NSA voice-recognition tool has had an actual effect on consumers, especially now that voice-activated digital assistants have become a staple in newer smartphone models.\nHowever, it is important to note that programs like Alexa and Siri effectively work through the storage of vital biometric information from their users. It can be recalled that last year, Apple  did reveal that governments had made requests to collect customer data for various reasons including cases of fraud and the suspected illegal use of their products and services. As the company claimed, these requests require search warrants but  reports  noted that these types of letters from governments often come with a gag order.\nSponsored\nMore In World\n",
+        "quotes": [
+            [
+                "his voice and by his unique way of speaking.",
+                "",
+                false
+            ],
+            [
+                "surprisingly more robust and consistent than humans.",
+                "",
+                false
+            ]
+        ],
+        "links": {
+            "articles": [
+                "https://www.documentcloud.org/documents/4351987-2006-01-04-Technology-That-Identifies-People-by.html",
+                "https://theintercept.com/2018/01/19/voice-recognition-technology-nsa/",
+                "https://www.theverge.com/2018/1/22/16920440/amazon-echo-google-home-nsa-voice-surveillance"
+            ],
+            "gov_pgs": [],
+            "unsure": []
+        },
+        "key_words": [
+            "2004",
+            "system",
+            "nsa",
+            "report",
+            "targets",
+            "information",
+            "voicerecognition",
+            "running",
+            "using",
+            "whatsapp",
+            "work",
+            "voice"
+        ]
+    }
+]

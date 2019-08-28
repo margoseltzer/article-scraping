@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://consortiumnews.com/2015/08/03/reporter-wins-fifth-amendment-case/",
+        "title": "Reporter Wins Fifth Amendment Case",
+        "authors": [
+            {
+                "name": "Zachary Smith",
+                "link": null
+            }
+        ],
+        "publisher": "https://consortiumnews.com",
+        "publish_date": "2015-08-03",
+        "text": "Main menu\nAugust 3, 2015\nBy Marcy Wheeler\nAn appellate decision on the long-running dispute between a former prosecutor and the Department of Justice may provide a new way for journalists to protect their government sources. The decision came as a result of former prosecutor Richard Convertino’s effort to sue DOJ for Privacy Act violations tied to a 2004 leak to Detroit Free Press reporter David Ashenfelter, who reported  that Convertino was under investigation by DOJ’s Office of Professional Responsibility for misconduct on a terrorism trial.\nThere are no heroes in the underlying suit. Convertino claims DOJ investigated him not for prosecutorial misconduct, but instead to retaliate for criticism of their conduct under the “war on terror” and testimony provided under subpoena to Congress.  But Convertino’s alleged conduct, withholding evidence from defense attorneys, was also inexcusable.\n \nThe dispute has sucked Ashenfelter up in a long-running fight over whether he should have to testify about his sources. He first tried to refuse by invoking reporter’s privilege, which a judge rejected. But when, in 2008, Convertino tried to depose the reporter, Ashenfelter invoked the Fifth Amendment privilege against self-incrimination in response to each question.\nTo defend doing so, Ashenfelter  pointed to  Convertino’s own claims that he had conspired with criminals at DOJ, as well as to a series of cases (including those under the Espionage Act) and public statements suggesting DOJ might prosecute someone for using documents illegally obtained from the government to do reporting.\nOn Friday, the Sixth Circuit  upheld  Ashenfelter’s right to invoke the Fifth Amendment to refuse to testify. The key part of the Sixth Circuit’s ruling found that Ashenfelter had a real concern that any testimony about the leak would implicate him in federal crimes; in his opinion, Judge Eric Clay pointed to  18 U.S.C. § 641 , which prohibits receiving something known to have been stolen with the intent to use it for one’s own gain:\n“Convertino’s complaint in his merits suit against the DOJ alleges facts that if proven could implicate Ashenfelter in the commission of one or more crimes, including the allegation that federal officials illegally provided Ashenfelter with two confidential OPR documents. If proven, this allegation would appear to establish that Ashenfelter ‘receive[d]’ a ‘record . . . of the United States or of [an] agency or department thereof,’ raising a risk of prosecution under 18 U.S.C. § 641.\n“In this setting, it requires very little ‘judicial imagination,’ if any, to comprehend that Ashenfelter could have reasonable cause to fear that answering questions regarding the source or sources of the leak would risk injurious disclosure.\nEffectively, the court agreed that it would be possible for a journalist to be charged because he knowingly used government documents that had been stolen to do reporting, and therefore Ashenfelter could properly rely on the Fifth Amendment privilege to avoid testifying.\nThat conclusion is not surprising given that DOJ has considered similar charges against Julian Assange and the UK  is still considering charges  against journalists who have been working with documents provided by former National Security Agency contractor Edward Snowden.\nIf the decision stands, it  may present a new way for journalists to protect sources  in civil cases, at least in Michigan, Ohio, and Kentucky, where the decision will stand as precedent.\nIt wouldn’t offer much protection in criminal cases, because prosecutors could always give the journalist immunity to testify against sources. But it does represent an important recognition that in an era of witch hunts like that launched against James Risen, where even Judge Leonie Brinkema observed the prosecution would have liked to name Risen as a co-conspirator, journalists may have additional legal reasons to want to protect their reporting, beyond just a reporter’s privilege.\nInvestigative journalist Marcy Wheeler writes the “Right to Know” column for ExposeFacts, where this article first appeared. She is best known for providing in-depth analysis of legal documents related to “war on terrorism” programs and civil liberties. Wheeler blogs at emptywheel.net and publishes at outlets including the Guardian, Salon and the Progressive. She is the author ofAnatomy of Deceit: How the Bush Administration Used the Media to Sell the Iraq War and Out a Spy. Wheeler won the 2009 Hillman Award for blog journalism.\nTGuerrant\nAugust 8, 2015 at 07:07\nReads like they’ve succeeded in criminalizing journalism – and like we’re supposed to take this as a “protection” for journalists and their sources.\nZachary Smith\nAugust 5, 2015 at 09:24\nIf there is a place where I have a blind spot, it’s in ‘legal’ stuff.    So I appreciate Marcy Wheeler’s work to simplify and translate it for ordinary folks.\nHer “emptywheel” blog is high on my list of blogs, even though I’m almost never able to contribute anything there.\nComments are closed.\nBecome a Consortium News member!\nMake your tax-deductible donation by clicking  here.\nSUBSCRIBE  to Our Free Email News\nSign up for regular email updates\nFirst Name:\nLast Name:\nIn Memoriam Robert Parry (1949-2018)\nBooks by Robert Parry\n",
+        "quotes": [],
+        "links": {
+            "articles": [
+                "https://theintercept.com/2015/07/23/uk-met-police-snowden-investigation-journalists/",
+                "https://www.huffpost.com/entry/journalists-fifth-amendment_b_4453438"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://www.law.cornell.edu/uscode/text/18/641",
+                "https://org.salsalabs.com/o/1868/p/salsa/donation/common/public/?donate_page_KEY=14124&okay=True"
+            ]
+        },
+        "key_words": [
+            "case",
+            "reporter",
+            "sources",
+            "ashenfelter",
+            "privilege",
+            "decision",
+            "fifth",
+            "wins",
+            "amendment",
+            "doj",
+            "documents",
+            "cases",
+            "journalists"
+        ]
+    }
+]

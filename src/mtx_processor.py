@@ -1,3 +1,5 @@
+# TODO SEE how many have labels and not
+
 import json
 import os
 import csv
@@ -43,7 +45,7 @@ class MtxProcessor(object):
 
     def get_all_mtx(self):
         # Process all article urls and create a csv file and a dict obj
-        saved_file_name   = self.store_labeled_articles(self.file_list)
+        '''saved_file_name   = self.store_labeled_articles(self.file_list)'''
         article_label_dic = self.get_article_dict('labeled_articles.csv')
 
         # obj_dict: obj_id to {type, val}
@@ -64,9 +66,17 @@ class MtxProcessor(object):
         # Convert all ids in dicts to idx
         dicts_to_convert = [obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict]
         obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = self.convert_ids_to_idx(art_id_idx_dict, ft_id_idx_dict, dicts_to_convert)
-
+        # print('len(ent_adj_dict)')
+        # print(len(ent_adj_dict))
+        print('len(art_id_idx_dict)')
+        print(len(art_id_idx_dict))
+        # print(art_id_idx_dict.values())
         # Separate ent_adj into two pre reuslt dictionaries
         tmp_aid_adj_dict, tmp_aid_fid_dict = self.separate_arts(ent_adj_dict)
+        # print('tmp_aid_adj_dict.values()')
+        # print(tmp_aid_adj_dict.keys())
+        # print(tmp_aid_adj_dict.values())
+
 
         # Filter articles which is not labeled
         # tmp_aid_fid_dict = self.filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
@@ -74,23 +84,29 @@ class MtxProcessor(object):
         # Process dict_list so articles connected via one hop are in their adj_lists each other
         dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
         aid_adj_dict, aid_fid_dict = self.link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
-
+        print(len(aid_adj_dict))
+        print(len(aid_fid_dict))
         # Handle special case: add persons who are indirectly connected to articles.
         # ex) if art1--q1--p1--q2--art2, then p1 is the feature of art1 and art2 but art1 and art2 are not connected
         aid_fid_dict = self.handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
-
+        print(len(aid_fid_dict))
         # self.save_articles(obj_dict, aid_fid_dict, article_label_dic)
 
         # get n and d dimension
         self.n, self.d = self.get_n_d(aid_adj_dict, aid_fid_dict)
-
         # Add label vector on obj_dict  
         self.y = self.get_y(aid_adj_dict, article_label_dic, obj_dict)
 
         # Get all mtx
         self.bin_ft_mtx  = self.return_bin_ft_mtx(tmp_aid_adj_dict, aid_fid_dict, obj_dict, self.n)
-
+        print(len(aid_adj_dict))
+        print(len(aid_fid_dict))
         self.adj_dict, ft_dict = self.remove_prefix(aid_adj_dict, aid_fid_dict)
+        print(self.n) 
+        print(len(self.adj_dict))
+        print(len(ft_dict))
+        print(1+'1')
+
         self.adj_mtx, self.full_ft_mtx = self.convert_dict_to_mtx(self.adj_dict, ft_dict, self.n, self.d)
 
     def return_bin_ft_mtx(self, tmp_aid_adj_dict, aid_fid_dict, obj_dict, n):
@@ -105,8 +121,9 @@ class MtxProcessor(object):
 
         return self.convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
-    def show_adj_graph(self, adj_dict, y):
-        adj_dict = self.adj_dict, y = self.y
+    def show_adj_graph(self):
+        adj_dict = self.adj_dict
+        y = self.y
         G = nx.Graph()
         true_nodes = []
         fake_nodes = []
@@ -131,12 +148,17 @@ class MtxProcessor(object):
         with open(dirpath + 'articles.csv', mode='w') as f:
             headers = ['url', 'label'] 
             writer = csv.DictWriter(f, fieldnames=headers)
+            labeled_n = 0
+            unlabeled_n = 0
             for art, _ in aid_fid_dict.items():
                 # print(obj_dict[art])
                 url = obj_dict[art]['val']
-                y_i = article_label_dic[url] 
-                # if url in article_label_dic else -1
-                writer.writerow({ 'url': url, 'label': y_i}) 
+                y_i = article_label_dic[url] if url in article_label_dic else -1
+                if url in article_label_dic: labeled_n += 1
+                else: unlabeled_n += 1 
+                writer.writerow({ 'url': url, 'label': y_i})
+            print('labeled_n :' + labeled_n)
+            print('unlabeled_n :' + unlabeled_n)
         # print('1'+1)
 
 
@@ -171,6 +193,7 @@ class MtxProcessor(object):
         ''' return article_url(str) to label(0 or 1) dictionary 
         '''
         reader = csv.reader(open(dirpath + file_name, mode='r'))
+        # reader = csv.reader(open('/home/gckim93' +  file_name, mode='r'))
         next(reader)
         article_label_dic = {r[0]: r[1] for r in reader}
         return article_label_dic
@@ -208,15 +231,17 @@ class MtxProcessor(object):
             return new article_id to [article_ids] dictionary and a feature dictionary that keeps 
             track of which agents or quotes are attributed to articles
         '''
+        alert = 0
         for typ, dic in dict_list.items(): 
             # Process on adj_dict
             for k_1, v_1 in dic.items():
                 adj_entities = v_1
-                
+#                 print(alert)
                 for k_2, v_2 in dic.items():
                     if k_1 == k_2: continue
                         # adj_dict[k_1] = adj_dict[k_1] + [k_1] if k_1 in adj_dict else [k_1]
                     for i in v_2:
+                        alert += 1
                         if i in adj_entities:
                             adj_dict[k_1] = adj_dict[k_1] + [k_2] if k_1 in adj_dict else [k_2]
                         else:
@@ -296,16 +321,21 @@ class MtxProcessor(object):
         '''
         def remove_prefix_val(v):
             return list(set([int(fid[1:]) for fid in v]))
-
+        for k, v in adj_dict.items():
+            if k == 'f3' or k == 'a3':
+                print(k)
+                print(len(v))
         adj_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_dict.items())
         ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
+        print(len(adj_dict))
+        print(len(ft_dict))
         return adj_dict, ft_dict
 
     def remove_only_prefix(self, ft_dict):
         ''' Remove all 'a' and 'f' in front of ids
         '''
         def remove_prefix_val(v):
-            return [int(ft[1:]) if type(ft) == str else ft for ft in v]
+            return list([int(ft[1:]) if type(ft) == str else ft for ft in v])
 
         ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
         return ft_dict
@@ -319,6 +349,7 @@ class MtxProcessor(object):
         adj_mtx = np.zeros((n, n))
         ft_mtx = np.zeros((n, d+1))
         fids = []
+        
         for i in range(n):
             adj_row = adj_dict[i]
             ft_row = ft_dict[i]
@@ -347,7 +378,7 @@ class MtxProcessor(object):
             bin_dict[aid] = list(set(bin_dict[aid])) + [n_r, n_q] if aid in bin_dict else [n_r, n_q]
         
         for aid, aids in aid_adj_dict.items():
-            bin_dict[aid] = bin_dict[aid] + [len(aids)] if aid in bin_dict else [0, 0, len(aids)]
+            bin_dict[aid] = bin_dict[aid] + [len(set(aids))] if aid in bin_dict else [0, 0, len(set(aids))]
     
         return bin_dict
 
@@ -355,6 +386,7 @@ class MtxProcessor(object):
         n_r = n_q = n_a = 0
         for _, fts in ft_bin_dict.items():
             numbers = fts[-3:]
+            print(numbers)
             tmp_r = numbers[0]
             tmp_q = numbers[1]
             tmp_a = numbers[2]
@@ -386,8 +418,11 @@ class MtxProcessor(object):
     def convert_bin_dict_to_mtx(self, ft_bin_dict, n, d_bin, len_r, len_q, len_a):
         # mtx dimension is n x total length of features and binned features
         mtx = np.zeros((n, d_bin + len_r + len_q + len_a + 1))
-
+        # print(d_bin + len_r + len_q + len_a + 1)
+        # print(n)
+        # print(len(ft_bin_dict))
         for i, fts in ft_bin_dict.items():
+            # print((i, fts))
             for j in fts[:-3]:
                 mtx[i][j] = 1
             mtx[i][d_bin + fts[-3]] = 1

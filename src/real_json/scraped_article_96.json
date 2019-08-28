@@ -1,0 +1,102 @@
+[
+    {
+        "url": "https://www.christianpost.com/news/scientists-develop-new-method-to-create-stem-cells-without-killing-human-embryos.html",
+        "title": "Scientists Develop New Method to Create Stem Cells Without Killing Human Embryos",
+        "authors": [],
+        "publisher": "https://www.christianpost.com",
+        "publish_date": "",
+        "text": "Go\nThe Christian Post\nScientists Develop New Method to Create Stem Cells Without Killing Human Embryos\nScientists Develop New Method to Create Stem Cells Without Killing Human Embryos\nScientists Develop New Method to Create Stem Cells Without Killing Human Embryos\n| Wednesday, January 24, 2018\nAmpoules containing a medium for stem cell storage in a file photo. | (Photo: Reuters/Peter Macdiarmid)\nA team of scientists in California have found a new way to create stem cells that doesn't require the destruction of human embryos.\nResearchers at the San Francisco-based Gladstone Institute have announced that they were able to create stem cells by using skin cells from mice through a genome editing tool called CRISPR.\nSheng Ding, PhD, a senior investigator at the Gladstone Institute, said in a statement released Monday that this was an innovative means of creating stem cells for research.\n\"This is a new way to make induced pluripotent stem cells that is fundamentally different from how they've been created before,\" said Ding.\n\"At the beginning of the study, we didn't think this would work, but we wanted to at least try to answer the question: can you reprogram a cell just by unlocking a specific location of the genome? And the answer is yes.\"\nIn a statement, the Gladstone Institute noted that they were building upon the findings of senior investigator Shinya Yamanaka, MD, PhD, who in 2006 found that \"he could make stem cells — dubbed induced pluripotent stem cells (iPSCs) — by treating ordinary skin cells with four key proteins.\"\n\"Ding and others previously created iPSCs not with transcription factors, but by adding a cocktail of chemicals to the cells,\" noted the institute.\n\"The latest study, published in Cell Stem Cell, offers a third way to turn skin cells into stem cells by directly manipulating the cells' genome using CRISPR gene regulation techniques.\"\nShort for \"clusters of regularly interspaced short palindromic repeats,\" CRISPRs are a type of DNA sequences found in bacteria.\n\"CRISPR technology was adapted from the natural defense mechanisms of bacteria and archaea (the domain of single-celled microorganisms). These organisms use CRISPR-derived RNA and various Cas proteins, including Cas9, to foil attacks by viruses and other foreign bodies,\" explained Live Science.\n\"They do so primarily by chopping up and destroying the DNA of a foreign invader. When these components are transferred into other, more complex, organisms, it allows for the manipulation of genes, or 'editing.'\"\nThe Gladstone Institute's breakthrough on stem cell creation comes months after an Israeli-based firm developed a new ALS treatment that uses cells extracted from bone marrow rather than embryos.\nBrainStorm announced in October that it was beginning clinical treatments in the United States with the new treatment, which could help restore motor abilities for those with ALS.\n\"During the maturation process, the cells from the bone marrow are manipulated into behaving like brain cells, in that they produce materials that are the building blocks of the brain,\" reported The Jerusalem Post.\n\"When these modified cells are put back in patients, the building blocks circulate in the spinal fluid and help repair the damaged brain.\"\nFollow Michael Gryboski on Twitter or Facebook\nRelated Articles\n",
+        "quotes": [
+            [
+                "This is a new way to make induced pluripotent stem cells that is fundamentally different from how they've been created before,",
+                "Ding",
+                true
+            ],
+            [
+                "At the beginning of the study, we didn't think this would work, but we wanted to at least try to answer the question: can you reprogram a cell just by unlocking a specific location of the genome?",
+                "",
+                true
+            ],
+            [
+                "he could make stem cells — dubbed induced pluripotent stem cells (iPSCs) — by treating ordinary skin cells with four key proteins.",
+                "Shinya Yamanaka",
+                false
+            ],
+            [
+                "Ding and others previously created iPSCs not with transcription factors, but by adding a cocktail of chemicals to the cells,",
+                "",
+                true
+            ],
+            [
+                "The latest study, published in Cell Stem Cell, offers a third way to turn skin cells into stem cells by directly manipulating the cells' genome using CRISPR gene regulation techniques.",
+                "Shinya Yamanaka",
+                true
+            ],
+            [
+                "clusters of regularly interspaced short palindromic repeats,",
+                "",
+                false
+            ],
+            [
+                "CRISPR technology was adapted from the natural defense mechanisms of bacteria and archaea (the domain of single-celled microorganisms).",
+                "Shinya Yamanaka",
+                true
+            ],
+            [
+                "These organisms use CRISPR-derived RNA and various Cas proteins, including Cas9, to foil attacks by viruses and other foreign bodies,",
+                "Shinya Yamanaka",
+                true
+            ],
+            [
+                "They do so primarily by chopping up and destroying the DNA of a foreign invader.",
+                "",
+                true
+            ],
+            [
+                "When these components are transferred into other, more complex, organisms, it allows for the manipulation of genes, or 'editing.",
+                "",
+                true
+            ],
+            [
+                "During the maturation process, the cells from the bone marrow are manipulated into behaving like brain cells, in that they produce materials that are the building blocks of the brain,",
+                "",
+                true
+            ],
+            [
+                "When these modified cells are put back in patients, the building blocks circulate in the spinal fluid and help repair the damaged brain.",
+                "",
+                true
+            ]
+        ],
+        "links": {
+            "articles": [
+                "http://www.jpost.com/HEALTH-SCIENCE/Israeli-developed-ALS-treatment-reversing-motor-decline-breakthrough-507678",
+                "https://gladstone.org/about-us/news/researchers-create-first-stem-cells-using-crispr-genome-activation"
+            ],
+            "gov_pgs": [],
+            "unsure": [
+                "https://twitter.com/Puritan1986?hc_ref=SEARCH&fref=nf",
+                "https://www.livescience.com/58790-crispr-explained.html",
+                "https://www.facebook.com/MichaelCGryboski/"
+            ]
+        },
+        "key_words": [
+            "stem",
+            "method",
+            "skin",
+            "gladstone",
+            "way",
+            "genome",
+            "embryos",
+            "institute",
+            "human",
+            "cell",
+            "building",
+            "cells",
+            "scientists",
+            "killing",
+            "create",
+            "develop"
+        ]
+    }
+]

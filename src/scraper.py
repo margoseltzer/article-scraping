@@ -361,23 +361,24 @@ def handle_one_url(scraper, url, depth, output=None):
 def handle_url_list_file(scraper, file_name, depth):
     with open(file_name, 'r') as f:
             csv_reader = csv.DictReader(f)
-            line_count = 0
+            line_count = 198
             fail_list = []
             url_utils = UrlUtils()
             for row in csv_reader:
+                if line_count <= 221: 
+                    line_count += 1
+                    print(line_count)
+                    continue
                 if line_count == 0:
                     header = list(row.keys())
                 url = row['url']
                 print('url in the dataset ', url)
-                print('index is ', idx)
-                label = row['label']
                 if not url_utils.is_news_article(url) or url_utils.is_gov_page(url) or not url_utils.is_valid_url(url): 
                     continue
-                rsp = handle_one_url(scraper, url, depth, 'scraped_article'+str(idx) + '_' + label + '.json')
+                rsp = handle_one_url(scraper, url, depth, 'scraped_article_' + str(line_count) + '.json')
                 if not rsp:
                     fail_list.append(row)
                 line_count += 1
-                idx += 1
             if fail_list:
                 with open('fail_list.csv', 'w') as fail_csv:
                     writer = csv.DictWriter(fail_csv, fieldnames=header)
