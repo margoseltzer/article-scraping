@@ -45,28 +45,27 @@ class MtxProcessor(object):
 
     def get_all_mtx(self):
         # Process all article urls and create a csv file and a dict obj
-        '''saved_file_name   = self.store_labeled_articles(self.file_list)'''
+        # saved_file_name   = self.store_labeled_articles(self.file_list)
         article_label_dic = self.get_article_dict('labeled_articles.csv')
+        print('len(article_label_dic)')
+        print(len(article_label_dic))
 
         # obj_dict: obj_id to {type, val}
         # ent/agn/qot_adj_dict: id to [ids] 
         obj_dict, ent_adj_dict, agn_adj_dict, qot_adj_dict, qot_per_dict = self.call_python_version('2.7', 'db_processor', 'process_db', [])
-
-        with open(dirpath + 'obj_dict.csv', mode='w') as f:
-            headers = ['id', 'type', 'val'] 
-            writer = csv.DictWriter(f, fieldnames=headers)
-            for i, dic in obj_dict.items():
-                typ = dic['type']
-                val = dic['val']
-                writer.writerow({'id': i, 'type': typ, 'val': val}) 
-
+        print('len(ent_adj_dict)')
+        print(len(ent_adj_dict))
         # Filter articles which is not labeled
-        # ent_adj_dict, obj_dict = self.filter_unlabeled_articles(ent_adj_dict, article_label_dic, obj_dict)
+        ent_adj_dict, obj_dict = self.filter_unlabeled_articles(ent_adj_dict, article_label_dic, obj_dict)
+        print('len(ent_adj_dict)')
+        print(len(ent_adj_dict))
 
         # Get article_id to idx dict of only article 
         art_id_idx_dict, ft_id_idx_dict = self.get_ids_idx_dicts(obj_dict)
         print('len(ft_id_idx_dict)')
         print(len(ft_id_idx_dict))
+        print('len(art_id_idx_dict)')
+        print(len(art_id_idx_dict))
         # print(list(itertools.chain.from_iterable(ft_id_idx_dict.keys())))
         # print(len(list(itertools.chain.from_iterable(ft_id_idx_dict.keys()))))
         # Convert all ids in dicts to idx
@@ -85,8 +84,8 @@ class MtxProcessor(object):
         # Process dict_list so articles connected via one hop are in their adj_lists each other
         dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
         aid_adj_dict, aid_fid_dict = self.link_articles(tmp_aid_adj_dict, tmp_aid_fid_dict, obj_dict, dict_list)
-        print(len(aid_adj_dict))
-        print(len(aid_fid_dict))
+        print(aid_adj_dict.keys())
+        print(aid_fid_dict.keys())
         # Handle special case: add persons who are indirectly connected to articles.
         # ex) if art1--q1--p1--q2--art2, then p1 is the feature of art1 and art2 but art1 and art2 are not connected
         aid_fid_dict = self.handle_indirect_persons(aid_fid_dict, obj_dict, qot_per_dict)
@@ -191,8 +190,8 @@ class MtxProcessor(object):
     def get_article_dict(self, file_name):
         ''' return article_url(str) to label(0 or 1) dictionary 
         '''
-        reader = csv.reader(open(dirpath + file_name, mode='r'))
-        # reader = csv.reader(open('/home/gckim93' +  file_name, mode='r'))
+        # reader = csv.reader(open(dirpath + file_name, mode='r'))
+        reader = csv.reader(open('/home/gckim93/' +  file_name, mode='r'))
         # next(reader)
         article_label_dic = {r[0]: r[1] for r in reader}
         return article_label_dic
@@ -223,6 +222,8 @@ class MtxProcessor(object):
         return art_adj_dict, art_ft_dict
 
     def filter_unlabeled_articles(self, ent_adj_dict, article_label_dic, obj_dict):
+        for id, ids in ent_adj_dict.items():
+            print(obj_dict[id]['val'])
         return dict((id, ids) for id, ids in ent_adj_dict.items() if not(obj_dict[id]['type'] == 'article' and obj_dict[id]['val'] not in article_label_dic)),\
                dict((id, val) for id, val in obj_dict.items() if not(val['type'] == 'article' and val['val'] not in article_label_dic))
         
@@ -369,7 +370,7 @@ class MtxProcessor(object):
             for a_id in adj_row:
                 adj_mtx[i][a_id] = 1
             for f_id in ft_row:
-                print(i, ft_row)
+                # print(i, ft_row)
                 fids.append(f_id)
                 ft_mtx[i][f_id] = 1
         ft_mtx[:, d] = 1
