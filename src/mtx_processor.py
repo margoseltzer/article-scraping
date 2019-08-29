@@ -60,6 +60,9 @@ class MtxProcessor(object):
                 val = dic['val']
                 writer.writerow({'id': i, 'type': typ, 'val': val}) 
 
+        # Filter articles which is not labeled
+        ent_adj_dict, obj_dict = self.filter_unlabeled_articles(ent_adj_dict, article_label_dic, obj_dict)
+
         # Get article_id to idx dict of only article 
         art_id_idx_dict, ft_id_idx_dict = self.get_ids_idx_dicts(obj_dict)
 
@@ -76,10 +79,6 @@ class MtxProcessor(object):
         # print('tmp_aid_adj_dict.values()')
         # print(tmp_aid_adj_dict.keys())
         # print(tmp_aid_adj_dict.values())
-
-
-        # Filter articles which is not labeled
-        # tmp_aid_fid_dict = self.filter_unlabeled_articles(tmp_aid_fid_dict, obj_dict, article_label_dic)
 
         # Process dict_list so articles connected via one hop are in their adj_lists each other
         dict_list = {'non-art': tmp_aid_fid_dict, 'agent': agn_adj_dict, 'quote': qot_adj_dict}
@@ -105,7 +104,7 @@ class MtxProcessor(object):
         print(self.n) 
         print(len(self.adj_dict))
         print(len(ft_dict))
-        print(1+'1')
+        # print(1+'1')
 
         self.adj_mtx, self.full_ft_mtx = self.convert_dict_to_mtx(self.adj_dict, ft_dict, self.n, self.d)
 
@@ -122,16 +121,14 @@ class MtxProcessor(object):
         return self.convert_bin_dict_to_mtx(ft_bin_dict, n, d_bin, len_r, len_q, len_a)
 
     def show_adj_graph(self):
-        adj_dict = self.adj_dict
-        y = self.y
         G = nx.Graph()
         true_nodes = []
         fake_nodes = []
         unlabeled_nodes = []
-        G.add_nodes_from(list(adj_dict.keys()))
-        for k, v in adj_dict.items():
+        G.add_nodes_from(list(self.adj_dict.keys()))
+        for k, v in self.adj_dict.items():
             for f in v: G.add_edge(k, f)
-            y_k = y[k]
+            y_k = self.y[k]
             if y_k == -1 : unlabeled_nodes.append(k)
             if y_k == 1  : true_nodes.append(k)
             elif y_k == 0: fake_nodes.append(k)
@@ -223,8 +220,9 @@ class MtxProcessor(object):
 
         return art_adj_dict, art_ft_dict
 
-    def filter_unlabeled_articles(self, tmp_aid_fid_dict, obj_dict, article_label_dic):
-        return dict((aid, fids) for aid, fids in tmp_aid_adj_dict.items() if obj_dict[aid]['val'] in article_label_dic)
+    def filter_unlabeled_articles(self, ent_adj_dict, article_label_dic, obj_dict):
+        return dict((id, ids) for id, ids in ent_adj_dict.items() if not(obj_dict[id]['type'] == 'article' and obj_dict[id]['val'] not in article_label_dic)),\
+               dict((id, val) for id, val in obj_dict.items() if not(val['type'] == 'article' and val['val'] not in article_label_dic))
         
     def link_articles(self, adj_dict, ft_dict, obj_dict, dict_list):
         ''' Links articles that are two hops away from each other by quote or agent
@@ -288,7 +286,8 @@ class MtxProcessor(object):
             ''' Simply comvert a list of ids into a list of idx
             '''
             if type(v) == list: 
-                v = [ft_id_idx_dict[i] if i in ft_id_idx_dict else art_id_idx_dict[i] for i in v]
+                v = [ft_id_idx_dict[i] if i in ft_id_idx_dict else art_id_idx_dict[i] if i in art_id_idx_dict else None for i in v]
+                v = [i for i in v if i]
             return v
 
         res_dicts = [{}, {}, {}, {}, {}]
@@ -321,14 +320,14 @@ class MtxProcessor(object):
         '''
         def remove_prefix_val(v):
             return list(set([int(fid[1:]) for fid in v]))
-        for k, v in adj_dict.items():
-            if k == 'f3' or k == 'a3':
-                print(k)
-                print(len(v))
+        # for k, v in adj_dict.items():
+            # if k == 'f3' or k == 'a3':
+            #     print(k)
+            #     print(len(v))
         adj_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in adj_dict.items())
         ft_dict = dict((int(k[1:]), remove_prefix_val(v)) for (k, v) in ft_dict.items())
-        print(len(adj_dict))
-        print(len(ft_dict))
+        # print(len(adj_dict))
+        # print(len(ft_dict))
         return adj_dict, ft_dict
 
     def remove_only_prefix(self, ft_dict):
@@ -386,7 +385,7 @@ class MtxProcessor(object):
         n_r = n_q = n_a = 0
         for _, fts in ft_bin_dict.items():
             numbers = fts[-3:]
-            print(numbers)
+            # print(numbers)
             tmp_r = numbers[0]
             tmp_q = numbers[1]
             tmp_a = numbers[2]
@@ -418,9 +417,10 @@ class MtxProcessor(object):
     def convert_bin_dict_to_mtx(self, ft_bin_dict, n, d_bin, len_r, len_q, len_a):
         # mtx dimension is n x total length of features and binned features
         mtx = np.zeros((n, d_bin + len_r + len_q + len_a + 1))
-        # print(d_bin + len_r + len_q + len_a + 1)
-        # print(n)
-        # print(len(ft_bin_dict))
+        print(d_bin + len_r + len_q + len_a + 1)
+        print(n)
+        print(len(ft_bin_dict))
+        print(ft_bin_dict.keys())
         for i, fts in ft_bin_dict.items():
             # print((i, fts))
             for j in fts[:-3]:
