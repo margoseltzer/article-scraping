@@ -2,6 +2,7 @@ import codecs
 import argparse
 import json
 import os
+import csv
 import itertools
 import CPL
 from CPL import ENTITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLERELATION
@@ -21,7 +22,10 @@ def process_db():
     obj_props = []
     rel_lists = [db_connection.get_bundle_relations(b) for b in bundles]
     rel_list = list(itertools.chain.from_iterable(rel_lists))
-    
+
+    labeled_set = get_article_dict()
+    filtered_out_ids = {}
+
     obj_dict = {}
     for b in bundles:
         if type(b) == list: continue
@@ -30,9 +34,14 @@ def process_db():
         for obj in b_objs:
             if not obj.id in obj_dict:
                 valid_props = get_valid_props(obj.string_properties())
+                ty = valid_props[0]
+                url = valid_props[1]
+                if ty == 'article' and not url in labeled_set:
+                    filtered_out_ids[obj.id] = 1
+                    continue
                 obj_dict[obj.id] = {}
-                obj_dict[obj.id]['type'] = valid_props[0]
-                obj_dict[obj.id]['val'] = valid_props[1]
+                obj_dict[obj.id]['type'] = ty
+                obj_dict[obj.id]['val'] = url
         
     # Get all relations and construct dicts {article_id:[ids]}
     ent_adj_dict = {}
@@ -40,6 +49,7 @@ def process_db():
     qot_adj_dict = {}
     qot_per_dict = {}
     for r in rel_list:
+        if r.base.id in filtered_out_ids or r.other.id in filtered_out_ids: continue
         # type 8 = entity to entity, 'wasDerivedFrom'
         if r.type == 8: 
             ent_adj_dict[r.base.id]  = ent_adj_dict[r.base.id] + [r.other.id] if r.base.id  in ent_adj_dict else [r.other.id]
@@ -109,5 +119,16 @@ def get_valid_props(props_lists):
     return [typ, val]
     
 
+path = os.path.dirname(os.path.realpath(__file__))
+dirpath = os.path.dirname(path) + '/data/datasets/'
+
+def get_article_dict():
+    ''' return article_url(str) to label(0 or 1) dictionary 
+    '''
+    reader = csv.reader(open(dirpath + 'labeled_articles.csv', mode='r'))
+    # reader = csv.reader(open('/home/gckim93' +  file_name, mode='r'))
+    # next(reader)
+    article_label_dic = {r[0]: r[1] for r in reader}
+    return article_label_dic
     
 process_db()
