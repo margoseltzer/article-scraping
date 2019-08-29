@@ -323,6 +323,41 @@ def hash_url(url):
     md5Hash.update(url.encode())
     return md5Hash.hexdigest()
 
+def handle_one_url_return_urls(scraper, url, depth, output=None):
+    # scrape from url
+    print('starting scraping from source url: %s, with depth %d' % (url, depth))
+    news_article_list = scraper.scrape_news(url, depth=depth)
+    
+    if not news_article_list:
+        print('fail scraping from source url: ', url)
+        return list()
+    
+    print('finished scraping urls from source: ', url)
+    print('total scraped %d pages:' %(len(scraper.visited)))
+    print('total successful %d pages:' %(len(scraper.success)))
+    print('success url list :')
+    print(*scraper.success, sep='\n')
+    
+    if scraper.failed:
+        print('failed url list :')
+        print(*scraper.failed, sep='\n')
+
+    # build dict object list
+    output_json_list = []
+    for news_article in news_article_list:
+        output_json_list.append(news_article.jsonify())
+
+    # write result to file
+    if output is None:
+        if not os.path.exists('news_json'):
+            os.makedirs('news_json')
+        url_hash = hash_url(url)
+        output = 'news_json/' + str(url_hash) + '.json'
+    with open(output, 'w') as f:
+        json.dump(output_json_list, f, ensure_ascii=False, indent=4)
+    print('write scraping result to ', output)
+    return news_article_list
+
 def handle_one_url(scraper, url, depth, output=None):
     # scrape from url
     print('starting scraping from source url: %s, with depth %d' % (url, depth))
