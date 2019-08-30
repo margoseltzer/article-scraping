@@ -52,4 +52,4 @@ nodes = nodes[['name_x','value','new_value']]
 relations = relations[['from_id','to_id','type','new_target']]
 
 nodes.rename(columns={'name_x': 'value', 'value': 'type'}, inplace=True)
-df.rename(columns={'from_id': 'Source', 'to_id': 'old_target', 'new_target':'Target'}, inplace=True)
+relations.rename(columns={'from_id': 'Source', 'to_id': 'old_target', 'new_target':'Target'}, inplace=True)
