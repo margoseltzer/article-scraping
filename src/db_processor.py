@@ -1,7 +1,5 @@
 import codecs
 import argparse
-import json
-import os
 import itertools
 import CPL
 from CPL import ENTITY, AGENT, WASATTRIBUTEDTO, WASGENERATEDBY, WASDERIVEDFROM, BUNDLERELATION
@@ -21,7 +19,7 @@ def process_db():
     obj_props = []
     rel_lists = [db_connection.get_bundle_relations(b) for b in bundles]
     rel_list = list(itertools.chain.from_iterable(rel_lists))
-    
+
     obj_dict = {}
     for b in bundles:
         if type(b) == list: continue
@@ -107,7 +105,5 @@ def get_valid_props(props_lists):
                     break
 
     return [typ, val]
-    
-
-    
+        
 process_db()

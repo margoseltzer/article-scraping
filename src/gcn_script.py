@@ -18,7 +18,7 @@ def get_data_for_gcn(adj_dict, ft_mtx, y, n, d):
     # j = 0
     # k = 0
     for i, yi in enumerate(y, start=0):
-        print(yi)
+        # print(yi)
         if yi == 0: 
             # k += 1
             ally[i][1] = 1
@@ -58,11 +58,11 @@ mp = MtxProcessor()
     Do not run trains in a row. Run them separately.
 '''
 # Try with every feature
-# x, y, tx, ty, allx, ally, graph = get_data_for_gcn(mp.adj_dict, mp.bin_ft_mtx, mp.y, mp.n, mp.d)
-# train.train(x, y, tx, ty, allx, ally, graph)
-
-# Try with bin features
 x, y, tx, ty, allx, ally, graph = get_data_for_gcn(mp.adj_dict, mp.bin_ft_mtx, mp.y, mp.n, mp.d)
 train.train(x, y, tx, ty, allx, ally, graph)
+
+# Try with bin features
+# x, y, tx, ty, allx, ally, graph = get_data_for_gcn(mp.adj_dict, mp.bin_ft_mtx, mp.y, mp.n, mp.d)
+# train.train(x, y, tx, ty, allx, ally, graph)
 
 mp.show_adj_graph()

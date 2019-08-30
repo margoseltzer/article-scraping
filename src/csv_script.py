@@ -9,6 +9,7 @@ print(labeled_path)
 fakenews_path = os.path.dirname(dirpath)
 fake_csv_path = fakenews_path + '/fivek_fake.csv'
 real_csv_path = fakenews_path + '/fivek_real.csv'
+whole_set_patj = fakenews_path + '/news_cleaned_2018_02_13.csv'
 
 reader = csv.reader(open(fake_csv_path, mode='r'))
 f_data = list(reader)
